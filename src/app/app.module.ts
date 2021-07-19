@@ -5,14 +5,9 @@ import { UtrechtWebComponentsModule } from '@utrecht/web-component-library-angul
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    UtrechtWebComponentsModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, UtrechtWebComponentsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
