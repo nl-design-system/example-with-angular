@@ -41,4 +41,5 @@ updates:
           ["version-update:semver-major", "version-update:semver-minor"]
       # Angular Compiler requires TypeScript >=4.0.0 and <4.2.0
       - dependency-name: "@angular/router"
+        update-types:
           ["version-update:semver-major", "version-update:semver-minor"]
