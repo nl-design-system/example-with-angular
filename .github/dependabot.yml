@@ -37,4 +37,5 @@ updates:
       #
       #     npm install --save-dev @angular-devkit/build-angular@v11-lts
       - dependency-name: "@angular-devkit/build-angular"
-        update-types: ["version-update:semver-patch"]
+        update-types:
+          ["version-update:semver-major", "version-update:semver-minor"]
