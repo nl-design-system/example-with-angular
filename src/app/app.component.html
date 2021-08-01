@@ -212,6 +212,52 @@
           </li>
         </ul>
       </section>
+      <form>
+        <fieldset>
+          <legend>Angular reactive forms</legend>
+          <utrecht-html-content>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="column">Component</th>
+                  <th scope="column">Example</th>
+                  <th scope="column">Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><code>utrecht-textbox</code></th>
+                  <td>
+                    <utrecht-textbox [formControl]="textbox">Name</utrecht-textbox>
+                  </td>
+                  <td>{{ textbox.value }}</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>utrecht-checkbox</code></th>
+                  <td>
+                    <utrecht-checkbox [formControl]="checkbox">Checkbox</utrecht-checkbox>
+                  </td>
+                  <td>{{ checkbox.value }}</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>utrecht-form-field-textbox</code></th>
+                  <td>
+                    <utrecht-form-field-textbox [formControl]="textbox">Example Name</utrecht-form-field-textbox>
+                  </td>
+                  <td>{{ textbox.value }}</td>
+                </tr>
+                <tr>
+                  <th scope="row"><code>utrecht-form-field-checkbox</code></th>
+                  <td>
+                    <utrecht-form-field-checkbox [formControl]="checkbox">Example Checkbox</utrecht-form-field-checkbox>
+                  </td>
+                  <td>{{ checkbox.value }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </fieldset>
+      </form>
     </section>
     <utrecht-paragraph lead="true">paragraph</utrecht-paragraph>
     <utrecht-separator></utrecht-separator>
