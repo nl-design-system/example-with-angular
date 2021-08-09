@@ -32,7 +32,7 @@
     "@angular/compiler-cli": "11.2.14",
     "@types/jasmine": "3.8.1",
     "@types/node": "16.3.3",
-    "@utrecht/component-library-css": "1.0.0-alpha.17",
+    "@utrecht/component-library-css": "1.0.0-alpha.41",
     "@utrecht/web-component-library-angular": "1.0.0-alpha.1",
     "@utrecht/web-component-library-stencil": "1.0.0-alpha.16",
     "codelyzer": "6.0.2",
