@@ -1588,7 +1588,7 @@ function scheduleObservable(input, scheduler) {
 /*!*********************************************************************************************************************!*\
   !*** ./node_modules/@utrecht/web-component-library-angular/dist/utrecht-web-component-library-angular.ngfactory.js ***!
   \*********************************************************************************************************************/
-/*! exports provided: UtrechtWebComponentsModuleNgFactory, RenderType_UtrechtArticle, View_UtrechtArticle_0, View_UtrechtArticle_Host_0, UtrechtArticleNgFactory, RenderType_UtrechtBadgeCounter, View_UtrechtBadgeCounter_0, View_UtrechtBadgeCounter_Host_0, UtrechtBadgeCounterNgFactory, RenderType_UtrechtBadgeData, View_UtrechtBadgeData_0, View_UtrechtBadgeData_Host_0, UtrechtBadgeDataNgFactory, RenderType_UtrechtBadgeStatus, View_UtrechtBadgeStatus_0, View_UtrechtBadgeStatus_Host_0, UtrechtBadgeStatusNgFactory, RenderType_UtrechtButton, View_UtrechtButton_0, View_UtrechtButton_Host_0, UtrechtButtonNgFactory, RenderType_UtrechtDocument, View_UtrechtDocument_0, View_UtrechtDocument_Host_0, UtrechtDocumentNgFactory, RenderType_UtrechtHeading, View_UtrechtHeading_0, View_UtrechtHeading_Host_0, UtrechtHeadingNgFactory, RenderType_UtrechtHtmlContent, View_UtrechtHtmlContent_0, View_UtrechtHtmlContent_Host_0, UtrechtHtmlContentNgFactory, RenderType_UtrechtPageFooter, View_UtrechtPageFooter_0, View_UtrechtPageFooter_Host_0, UtrechtPageFooterNgFactory, RenderType_UtrechtParagraph, View_UtrechtParagraph_0, View_UtrechtParagraph_Host_0, UtrechtParagraphNgFactory, RenderType_UtrechtSeparator, View_UtrechtSeparator_0, View_UtrechtSeparator_Host_0, UtrechtSeparatorNgFactory, RenderType_UtrechtSidenav, View_UtrechtSidenav_0, View_UtrechtSidenav_Host_0, UtrechtSidenavNgFactory */
+/*! exports provided: UtrechtWebComponentsModuleNgFactory, RenderType_UtrechtArticle, View_UtrechtArticle_0, View_UtrechtArticle_Host_0, UtrechtArticleNgFactory, RenderType_UtrechtBadgeCounter, View_UtrechtBadgeCounter_0, View_UtrechtBadgeCounter_Host_0, UtrechtBadgeCounterNgFactory, RenderType_UtrechtBadgeData, View_UtrechtBadgeData_0, View_UtrechtBadgeData_Host_0, UtrechtBadgeDataNgFactory, RenderType_UtrechtBadgeStatus, View_UtrechtBadgeStatus_0, View_UtrechtBadgeStatus_Host_0, UtrechtBadgeStatusNgFactory, RenderType_UtrechtBreadcrumb, View_UtrechtBreadcrumb_0, View_UtrechtBreadcrumb_Host_0, UtrechtBreadcrumbNgFactory, RenderType_UtrechtButton, View_UtrechtButton_0, View_UtrechtButton_Host_0, UtrechtButtonNgFactory, RenderType_UtrechtCheckbox, View_UtrechtCheckbox_0, View_UtrechtCheckbox_Host_0, UtrechtCheckboxNgFactory, RenderType_UtrechtDocument, View_UtrechtDocument_0, View_UtrechtDocument_Host_0, UtrechtDocumentNgFactory, RenderType_UtrechtFormFieldCheckbox, View_UtrechtFormFieldCheckbox_0, View_UtrechtFormFieldCheckbox_Host_0, UtrechtFormFieldCheckboxNgFactory, RenderType_UtrechtFormFieldTextbox, View_UtrechtFormFieldTextbox_0, View_UtrechtFormFieldTextbox_Host_0, UtrechtFormFieldTextboxNgFactory, RenderType_UtrechtHeading, View_UtrechtHeading_0, View_UtrechtHeading_Host_0, UtrechtHeadingNgFactory, RenderType_UtrechtHeading1, View_UtrechtHeading1_0, View_UtrechtHeading1_Host_0, UtrechtHeading1NgFactory, RenderType_UtrechtHeading2, View_UtrechtHeading2_0, View_UtrechtHeading2_Host_0, UtrechtHeading2NgFactory, RenderType_UtrechtHeading3, View_UtrechtHeading3_0, View_UtrechtHeading3_Host_0, UtrechtHeading3NgFactory, RenderType_UtrechtHeading4, View_UtrechtHeading4_0, View_UtrechtHeading4_Host_0, UtrechtHeading4NgFactory, RenderType_UtrechtHeading5, View_UtrechtHeading5_0, View_UtrechtHeading5_Host_0, UtrechtHeading5NgFactory, RenderType_UtrechtHeading6, View_UtrechtHeading6_0, View_UtrechtHeading6_Host_0, UtrechtHeading6NgFactory, RenderType_UtrechtHtmlContent, View_UtrechtHtmlContent_0, View_UtrechtHtmlContent_Host_0, UtrechtHtmlContentNgFactory, RenderType_UtrechtIconFacebook, View_UtrechtIconFacebook_0, View_UtrechtIconFacebook_Host_0, UtrechtIconFacebookNgFactory, RenderType_UtrechtIconInstagram, View_UtrechtIconInstagram_0, View_UtrechtIconInstagram_Host_0, UtrechtIconInstagramNgFactory, RenderType_UtrechtIconLinkedin, View_UtrechtIconLinkedin_0, View_UtrechtIconLinkedin_Host_0, UtrechtIconLinkedinNgFactory, RenderType_UtrechtIconTwitter, View_UtrechtIconTwitter_0, View_UtrechtIconTwitter_Host_0, UtrechtIconTwitterNgFactory, RenderType_UtrechtIconWhatsapp, View_UtrechtIconWhatsapp_0, View_UtrechtIconWhatsapp_Host_0, UtrechtIconWhatsappNgFactory, RenderType_UtrechtLogo, View_UtrechtLogo_0, View_UtrechtLogo_Host_0, UtrechtLogoNgFactory, RenderType_UtrechtPageFooter, View_UtrechtPageFooter_0, View_UtrechtPageFooter_Host_0, UtrechtPageFooterNgFactory, RenderType_UtrechtPagination, View_UtrechtPagination_0, View_UtrechtPagination_Host_0, UtrechtPaginationNgFactory, RenderType_UtrechtParagraph, View_UtrechtParagraph_0, View_UtrechtParagraph_Host_0, UtrechtParagraphNgFactory, RenderType_UtrechtSeparator, View_UtrechtSeparator_0, View_UtrechtSeparator_Host_0, UtrechtSeparatorNgFactory, RenderType_UtrechtSidenav, View_UtrechtSidenav_0, View_UtrechtSidenav_Host_0, UtrechtSidenavNgFactory, RenderType_UtrechtTextbox, View_UtrechtTextbox_0, View_UtrechtTextbox_Host_0, UtrechtTextboxNgFactory */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1610,26 +1610,94 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtBadgeStatus_0", function() { return View_UtrechtBadgeStatus_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtBadgeStatus_Host_0", function() { return View_UtrechtBadgeStatus_Host_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBadgeStatusNgFactory", function() { return UtrechtBadgeStatusNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtBreadcrumb", function() { return RenderType_UtrechtBreadcrumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtBreadcrumb_0", function() { return View_UtrechtBreadcrumb_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtBreadcrumb_Host_0", function() { return View_UtrechtBreadcrumb_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBreadcrumbNgFactory", function() { return UtrechtBreadcrumbNgFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtButton", function() { return RenderType_UtrechtButton; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtButton_0", function() { return View_UtrechtButton_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtButton_Host_0", function() { return View_UtrechtButton_Host_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtButtonNgFactory", function() { return UtrechtButtonNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtCheckbox", function() { return RenderType_UtrechtCheckbox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtCheckbox_0", function() { return View_UtrechtCheckbox_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtCheckbox_Host_0", function() { return View_UtrechtCheckbox_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtCheckboxNgFactory", function() { return UtrechtCheckboxNgFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtDocument", function() { return RenderType_UtrechtDocument; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtDocument_0", function() { return View_UtrechtDocument_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtDocument_Host_0", function() { return View_UtrechtDocument_Host_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtDocumentNgFactory", function() { return UtrechtDocumentNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtFormFieldCheckbox", function() { return RenderType_UtrechtFormFieldCheckbox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtFormFieldCheckbox_0", function() { return View_UtrechtFormFieldCheckbox_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtFormFieldCheckbox_Host_0", function() { return View_UtrechtFormFieldCheckbox_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtFormFieldCheckboxNgFactory", function() { return UtrechtFormFieldCheckboxNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtFormFieldTextbox", function() { return RenderType_UtrechtFormFieldTextbox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtFormFieldTextbox_0", function() { return View_UtrechtFormFieldTextbox_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtFormFieldTextbox_Host_0", function() { return View_UtrechtFormFieldTextbox_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtFormFieldTextboxNgFactory", function() { return UtrechtFormFieldTextboxNgFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtHeading", function() { return RenderType_UtrechtHeading; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading_0", function() { return View_UtrechtHeading_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading_Host_0", function() { return View_UtrechtHeading_Host_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeadingNgFactory", function() { return UtrechtHeadingNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtHeading1", function() { return RenderType_UtrechtHeading1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading1_0", function() { return View_UtrechtHeading1_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading1_Host_0", function() { return View_UtrechtHeading1_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading1NgFactory", function() { return UtrechtHeading1NgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtHeading2", function() { return RenderType_UtrechtHeading2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading2_0", function() { return View_UtrechtHeading2_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading2_Host_0", function() { return View_UtrechtHeading2_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading2NgFactory", function() { return UtrechtHeading2NgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtHeading3", function() { return RenderType_UtrechtHeading3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading3_0", function() { return View_UtrechtHeading3_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading3_Host_0", function() { return View_UtrechtHeading3_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading3NgFactory", function() { return UtrechtHeading3NgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtHeading4", function() { return RenderType_UtrechtHeading4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading4_0", function() { return View_UtrechtHeading4_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading4_Host_0", function() { return View_UtrechtHeading4_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading4NgFactory", function() { return UtrechtHeading4NgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtHeading5", function() { return RenderType_UtrechtHeading5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading5_0", function() { return View_UtrechtHeading5_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading5_Host_0", function() { return View_UtrechtHeading5_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading5NgFactory", function() { return UtrechtHeading5NgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtHeading6", function() { return RenderType_UtrechtHeading6; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading6_0", function() { return View_UtrechtHeading6_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHeading6_Host_0", function() { return View_UtrechtHeading6_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading6NgFactory", function() { return UtrechtHeading6NgFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtHtmlContent", function() { return RenderType_UtrechtHtmlContent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHtmlContent_0", function() { return View_UtrechtHtmlContent_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtHtmlContent_Host_0", function() { return View_UtrechtHtmlContent_Host_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHtmlContentNgFactory", function() { return UtrechtHtmlContentNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtIconFacebook", function() { return RenderType_UtrechtIconFacebook; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconFacebook_0", function() { return View_UtrechtIconFacebook_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconFacebook_Host_0", function() { return View_UtrechtIconFacebook_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconFacebookNgFactory", function() { return UtrechtIconFacebookNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtIconInstagram", function() { return RenderType_UtrechtIconInstagram; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconInstagram_0", function() { return View_UtrechtIconInstagram_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconInstagram_Host_0", function() { return View_UtrechtIconInstagram_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconInstagramNgFactory", function() { return UtrechtIconInstagramNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtIconLinkedin", function() { return RenderType_UtrechtIconLinkedin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconLinkedin_0", function() { return View_UtrechtIconLinkedin_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconLinkedin_Host_0", function() { return View_UtrechtIconLinkedin_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconLinkedinNgFactory", function() { return UtrechtIconLinkedinNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtIconTwitter", function() { return RenderType_UtrechtIconTwitter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconTwitter_0", function() { return View_UtrechtIconTwitter_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconTwitter_Host_0", function() { return View_UtrechtIconTwitter_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconTwitterNgFactory", function() { return UtrechtIconTwitterNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtIconWhatsapp", function() { return RenderType_UtrechtIconWhatsapp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconWhatsapp_0", function() { return View_UtrechtIconWhatsapp_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtIconWhatsapp_Host_0", function() { return View_UtrechtIconWhatsapp_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconWhatsappNgFactory", function() { return UtrechtIconWhatsappNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtLogo", function() { return RenderType_UtrechtLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtLogo_0", function() { return View_UtrechtLogo_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtLogo_Host_0", function() { return View_UtrechtLogo_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtLogoNgFactory", function() { return UtrechtLogoNgFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtPageFooter", function() { return RenderType_UtrechtPageFooter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtPageFooter_0", function() { return View_UtrechtPageFooter_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtPageFooter_Host_0", function() { return View_UtrechtPageFooter_Host_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtPageFooterNgFactory", function() { return UtrechtPageFooterNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtPagination", function() { return RenderType_UtrechtPagination; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtPagination_0", function() { return View_UtrechtPagination_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtPagination_Host_0", function() { return View_UtrechtPagination_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtPaginationNgFactory", function() { return UtrechtPaginationNgFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtParagraph", function() { return RenderType_UtrechtParagraph; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtParagraph_0", function() { return View_UtrechtParagraph_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtParagraph_Host_0", function() { return View_UtrechtParagraph_Host_0; });
@@ -1642,6 +1710,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtSidenav_0", function() { return View_UtrechtSidenav_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtSidenav_Host_0", function() { return View_UtrechtSidenav_Host_0; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtSidenavNgFactory", function() { return UtrechtSidenavNgFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RenderType_UtrechtTextbox", function() { return RenderType_UtrechtTextbox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtTextbox_0", function() { return View_UtrechtTextbox_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "View_UtrechtTextbox_Host_0", function() { return View_UtrechtTextbox_Host_0; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtTextboxNgFactory", function() { return UtrechtTextboxNgFactory; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
 /* harmony import */ var _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @utrecht/web-component-library-angular */ "whkl");
 /**
@@ -1682,12 +1754,26 @@ function View_UtrechtBadgeStatus_0(_l) { return _angular_core__WEBPACK_IMPORTED_
 function View_UtrechtBadgeStatus_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-badge-status", [], null, null, null, View_UtrechtBadgeStatus_0, RenderType_UtrechtBadgeStatus)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtBadgeStatus"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
 var UtrechtBadgeStatusNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-badge-status", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtBadgeStatus"], View_UtrechtBadgeStatus_Host_0, { status: "status" }, {}, ["*"]);
 
+var styles_UtrechtBreadcrumb = [];
+var RenderType_UtrechtBreadcrumb = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtBreadcrumb, data: {} });
+
+function View_UtrechtBreadcrumb_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtBreadcrumb_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-breadcrumb", [], null, null, null, View_UtrechtBreadcrumb_0, RenderType_UtrechtBreadcrumb)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtBreadcrumb"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtBreadcrumbNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-breadcrumb", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtBreadcrumb"], View_UtrechtBreadcrumb_Host_0, { json: "json", variant: "variant" }, {}, ["*"]);
+
 var styles_UtrechtButton = [];
 var RenderType_UtrechtButton = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtButton, data: {} });
 
 function View_UtrechtButton_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
 function View_UtrechtButton_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-button", [], null, null, null, View_UtrechtButton_0, RenderType_UtrechtButton)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtButton"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
 var UtrechtButtonNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-button", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtButton"], View_UtrechtButton_Host_0, { disabled: "disabled" }, {}, ["*"]);
+
+var styles_UtrechtCheckbox = [];
+var RenderType_UtrechtCheckbox = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtCheckbox, data: {} });
+
+function View_UtrechtCheckbox_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtCheckbox_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-checkbox", [], null, null, null, View_UtrechtCheckbox_0, RenderType_UtrechtCheckbox)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtCheckbox"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtCheckboxNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-checkbox", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtCheckbox"], View_UtrechtCheckbox_Host_0, { disabled: "disabled", readOnly: "readOnly" }, { utrechtBlur: "utrechtBlur", utrechtChange: "utrechtChange", utrechtFocus: "utrechtFocus", utrechtInput: "utrechtInput" }, ["*"]);
 
 var styles_UtrechtDocument = [];
 var RenderType_UtrechtDocument = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtDocument, data: {} });
@@ -1696,12 +1782,68 @@ function View_UtrechtDocument_0(_l) { return _angular_core__WEBPACK_IMPORTED_MOD
 function View_UtrechtDocument_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-document", [], null, null, null, View_UtrechtDocument_0, RenderType_UtrechtDocument)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtDocument"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
 var UtrechtDocumentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-document", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtDocument"], View_UtrechtDocument_Host_0, {}, {}, ["*"]);
 
+var styles_UtrechtFormFieldCheckbox = [];
+var RenderType_UtrechtFormFieldCheckbox = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtFormFieldCheckbox, data: {} });
+
+function View_UtrechtFormFieldCheckbox_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtFormFieldCheckbox_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-form-field-checkbox", [], null, null, null, View_UtrechtFormFieldCheckbox_0, RenderType_UtrechtFormFieldCheckbox)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtFormFieldCheckbox"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtFormFieldCheckboxNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-form-field-checkbox", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtFormFieldCheckbox"], View_UtrechtFormFieldCheckbox_Host_0, { disabled: "disabled", label: "label", readOnly: "readOnly" }, { utrechtBlur: "utrechtBlur", utrechtChange: "utrechtChange", utrechtFocus: "utrechtFocus", utrechtInput: "utrechtInput" }, ["*"]);
+
+var styles_UtrechtFormFieldTextbox = [];
+var RenderType_UtrechtFormFieldTextbox = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtFormFieldTextbox, data: {} });
+
+function View_UtrechtFormFieldTextbox_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtFormFieldTextbox_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-form-field-textbox", [], null, null, null, View_UtrechtFormFieldTextbox_0, RenderType_UtrechtFormFieldTextbox)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtFormFieldTextbox"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtFormFieldTextboxNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-form-field-textbox", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtFormFieldTextbox"], View_UtrechtFormFieldTextbox_Host_0, { disabled: "disabled", invalid: "invalid", placeholder: "placeholder", readOnly: "readOnly" }, { utrechtBlur: "utrechtBlur", utrechtChange: "utrechtChange", utrechtFocus: "utrechtFocus", utrechtInput: "utrechtInput" }, ["*"]);
+
 var styles_UtrechtHeading = [];
 var RenderType_UtrechtHeading = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtHeading, data: {} });
 
 function View_UtrechtHeading_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
 function View_UtrechtHeading_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-heading", [], null, null, null, View_UtrechtHeading_0, RenderType_UtrechtHeading)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
 var UtrechtHeadingNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-heading", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading"], View_UtrechtHeading_Host_0, { level: "level" }, {}, ["*"]);
+
+var styles_UtrechtHeading1 = [];
+var RenderType_UtrechtHeading1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtHeading1, data: {} });
+
+function View_UtrechtHeading1_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtHeading1_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-heading-1", [], null, null, null, View_UtrechtHeading1_0, RenderType_UtrechtHeading1)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading1"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtHeading1NgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-heading-1", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading1"], View_UtrechtHeading1_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtHeading2 = [];
+var RenderType_UtrechtHeading2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtHeading2, data: {} });
+
+function View_UtrechtHeading2_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtHeading2_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-heading-2", [], null, null, null, View_UtrechtHeading2_0, RenderType_UtrechtHeading2)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading2"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtHeading2NgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-heading-2", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading2"], View_UtrechtHeading2_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtHeading3 = [];
+var RenderType_UtrechtHeading3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtHeading3, data: {} });
+
+function View_UtrechtHeading3_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtHeading3_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-heading-3", [], null, null, null, View_UtrechtHeading3_0, RenderType_UtrechtHeading3)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading3"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtHeading3NgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-heading-3", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading3"], View_UtrechtHeading3_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtHeading4 = [];
+var RenderType_UtrechtHeading4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtHeading4, data: {} });
+
+function View_UtrechtHeading4_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtHeading4_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-heading-4", [], null, null, null, View_UtrechtHeading4_0, RenderType_UtrechtHeading4)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading4"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtHeading4NgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-heading-4", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading4"], View_UtrechtHeading4_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtHeading5 = [];
+var RenderType_UtrechtHeading5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtHeading5, data: {} });
+
+function View_UtrechtHeading5_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtHeading5_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-heading-5", [], null, null, null, View_UtrechtHeading5_0, RenderType_UtrechtHeading5)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading5"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtHeading5NgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-heading-5", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading5"], View_UtrechtHeading5_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtHeading6 = [];
+var RenderType_UtrechtHeading6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtHeading6, data: {} });
+
+function View_UtrechtHeading6_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtHeading6_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-heading-6", [], null, null, null, View_UtrechtHeading6_0, RenderType_UtrechtHeading6)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading6"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtHeading6NgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-heading-6", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHeading6"], View_UtrechtHeading6_Host_0, {}, {}, ["*"]);
 
 var styles_UtrechtHtmlContent = [];
 var RenderType_UtrechtHtmlContent = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtHtmlContent, data: {} });
@@ -1710,12 +1852,61 @@ function View_UtrechtHtmlContent_0(_l) { return _angular_core__WEBPACK_IMPORTED_
 function View_UtrechtHtmlContent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-html-content", [], null, null, null, View_UtrechtHtmlContent_0, RenderType_UtrechtHtmlContent)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHtmlContent"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
 var UtrechtHtmlContentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-html-content", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtHtmlContent"], View_UtrechtHtmlContent_Host_0, {}, {}, ["*"]);
 
+var styles_UtrechtIconFacebook = [];
+var RenderType_UtrechtIconFacebook = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtIconFacebook, data: {} });
+
+function View_UtrechtIconFacebook_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtIconFacebook_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-icon-facebook", [], null, null, null, View_UtrechtIconFacebook_0, RenderType_UtrechtIconFacebook)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconFacebook"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtIconFacebookNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-icon-facebook", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconFacebook"], View_UtrechtIconFacebook_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtIconInstagram = [];
+var RenderType_UtrechtIconInstagram = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtIconInstagram, data: {} });
+
+function View_UtrechtIconInstagram_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtIconInstagram_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-icon-instagram", [], null, null, null, View_UtrechtIconInstagram_0, RenderType_UtrechtIconInstagram)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconInstagram"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtIconInstagramNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-icon-instagram", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconInstagram"], View_UtrechtIconInstagram_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtIconLinkedin = [];
+var RenderType_UtrechtIconLinkedin = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtIconLinkedin, data: {} });
+
+function View_UtrechtIconLinkedin_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtIconLinkedin_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-icon-linkedin", [], null, null, null, View_UtrechtIconLinkedin_0, RenderType_UtrechtIconLinkedin)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconLinkedin"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtIconLinkedinNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-icon-linkedin", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconLinkedin"], View_UtrechtIconLinkedin_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtIconTwitter = [];
+var RenderType_UtrechtIconTwitter = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtIconTwitter, data: {} });
+
+function View_UtrechtIconTwitter_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtIconTwitter_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-icon-twitter", [], null, null, null, View_UtrechtIconTwitter_0, RenderType_UtrechtIconTwitter)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconTwitter"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtIconTwitterNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-icon-twitter", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconTwitter"], View_UtrechtIconTwitter_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtIconWhatsapp = [];
+var RenderType_UtrechtIconWhatsapp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtIconWhatsapp, data: {} });
+
+function View_UtrechtIconWhatsapp_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtIconWhatsapp_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-icon-whatsapp", [], null, null, null, View_UtrechtIconWhatsapp_0, RenderType_UtrechtIconWhatsapp)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconWhatsapp"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtIconWhatsappNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-icon-whatsapp", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtIconWhatsapp"], View_UtrechtIconWhatsapp_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtLogo = [];
+var RenderType_UtrechtLogo = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtLogo, data: {} });
+
+function View_UtrechtLogo_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtLogo_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-logo", [], null, null, null, View_UtrechtLogo_0, RenderType_UtrechtLogo)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtLogo"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtLogoNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-logo", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtLogo"], View_UtrechtLogo_Host_0, {}, {}, ["*"]);
+
 var styles_UtrechtPageFooter = [];
 var RenderType_UtrechtPageFooter = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtPageFooter, data: {} });
 
 function View_UtrechtPageFooter_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
 function View_UtrechtPageFooter_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-page-footer", [], null, null, null, View_UtrechtPageFooter_0, RenderType_UtrechtPageFooter)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtPageFooter"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
 var UtrechtPageFooterNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-page-footer", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtPageFooter"], View_UtrechtPageFooter_Host_0, {}, {}, ["*"]);
+
+var styles_UtrechtPagination = [];
+var RenderType_UtrechtPagination = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtPagination, data: {} });
+
+function View_UtrechtPagination_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtPagination_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-pagination", [], null, null, null, View_UtrechtPagination_0, RenderType_UtrechtPagination)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtPagination"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtPaginationNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-pagination", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtPagination"], View_UtrechtPagination_Host_0, { currentIndex: "currentIndex", links: "links", next: "next", prev: "prev" }, {}, ["*"]);
 
 var styles_UtrechtParagraph = [];
 var RenderType_UtrechtParagraph = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtParagraph, data: {} });
@@ -1737,6 +1928,13 @@ var RenderType_UtrechtSidenav = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcr
 function View_UtrechtSidenav_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
 function View_UtrechtSidenav_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-sidenav", [], null, null, null, View_UtrechtSidenav_0, RenderType_UtrechtSidenav)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtSidenav"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
 var UtrechtSidenavNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-sidenav", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtSidenav"], View_UtrechtSidenav_Host_0, { json: "json" }, {}, ["*"]);
+
+var styles_UtrechtTextbox = [];
+var RenderType_UtrechtTextbox = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({ encapsulation: 2, styles: styles_UtrechtTextbox, data: {} });
+
+function View_UtrechtTextbox_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](2, [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵncd"](null, 0)], null, null); }
+function View_UtrechtTextbox_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "utrecht-textbox", [], null, null, null, View_UtrechtTextbox_0, RenderType_UtrechtTextbox)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtTextbox"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]], null, null)], null, null); }
+var UtrechtTextboxNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("utrecht-textbox", _utrecht_web_component_library_angular__WEBPACK_IMPORTED_MODULE_1__["UtrechtTextbox"], View_UtrechtTextbox_Host_0, { disabled: "disabled", invalid: "invalid", placeholder: "placeholder", readOnly: "readOnly" }, { utrechtBlur: "utrechtBlur", utrechtChange: "utrechtChange", utrechtFocus: "utrechtFocus", utrechtInput: "utrechtInput" }, ["*"]);
 
 
 
@@ -35957,7 +36155,7 @@ class TakeLastSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subsc
 /*!*******************************************************************************************!*\
   !*** ./node_modules/@utrecht/web-component-library-stencil/dist/custom-elements/index.js ***!
   \*******************************************************************************************/
-/*! exports provided: setAssetPath, setPlatformOptions, UtrechtArticle, UtrechtBadgeCounter, UtrechtBadgeData, UtrechtBadgeStatus, UtrechtButton, UtrechtDocument, UtrechtHeading, UtrechtHtmlContent, UtrechtPageFooter, UtrechtParagraph, UtrechtSeparator, UtrechtSidenav, defineCustomElements */
+/*! exports provided: setAssetPath, setPlatformOptions, UtrechtArticle, UtrechtBadgeCounter, UtrechtBadgeData, UtrechtBadgeStatus, UtrechtBreadcrumb, UtrechtButton, UtrechtCheckbox, UtrechtDocument, UtrechtFormFieldCheckbox, UtrechtFormFieldTextbox, UtrechtHeading, UtrechtHeading1, UtrechtHeading2, UtrechtHeading3, UtrechtHeading4, UtrechtHeading5, UtrechtHeading6, UtrechtHtmlContent, UtrechtIconFacebook, UtrechtIconInstagram, UtrechtIconLinkedin, UtrechtIconTwitter, UtrechtIconWhatsapp, UtrechtLogo, UtrechtPageFooter, UtrechtPagination, UtrechtParagraph, UtrechtSeparator, UtrechtSidenav, UtrechtTextbox, defineCustomElements */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35966,14 +36164,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBadgeCounter", function() { return UtrechtBadgeCounter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBadgeData", function() { return UtrechtBadgeData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBadgeStatus", function() { return UtrechtBadgeStatus; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBreadcrumb", function() { return UtrechtBreadcrumb; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtButton", function() { return UtrechtButton; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtCheckbox", function() { return UtrechtCheckbox; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtDocument", function() { return UtrechtDocument; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtFormFieldCheckbox", function() { return UtrechtFormFieldCheckbox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtFormFieldTextbox", function() { return UtrechtFormFieldTextbox; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading", function() { return UtrechtHeading; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading1", function() { return UtrechtHeading1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading2", function() { return UtrechtHeading2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading3", function() { return UtrechtHeading3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading4", function() { return UtrechtHeading4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading5", function() { return UtrechtHeading5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading6", function() { return UtrechtHeading6; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHtmlContent", function() { return UtrechtHtmlContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconFacebook", function() { return UtrechtIconFacebook; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconInstagram", function() { return UtrechtIconInstagram; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconLinkedin", function() { return UtrechtIconLinkedin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconTwitter", function() { return UtrechtIconTwitter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconWhatsapp", function() { return UtrechtIconWhatsapp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtLogo", function() { return UtrechtLogo; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtPageFooter", function() { return UtrechtPageFooter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtPagination", function() { return UtrechtPagination; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtParagraph", function() { return UtrechtParagraph; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtSeparator", function() { return UtrechtSeparator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtSidenav", function() { return UtrechtSidenav; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtTextbox", function() { return UtrechtTextbox; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "defineCustomElements", function() { return defineCustomElements; });
 /* harmony import */ var _stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @stencil/core/internal/client */ "MQUK");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "setAssetPath", function() { return _stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["setAssetPath"]; });
@@ -35983,7 +36199,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const bemCss$a = ".utrecht-article{max-inline-size:var(--utrecht-article-max-inline-size)}";
+const bemCss$j = ".utrecht-article{max-inline-size:var(--utrecht-article-max-inline-size)}";
 
 const Article = class extends HTMLElement {
   constructor() {
@@ -35994,10 +36210,10 @@ const Article = class extends HTMLElement {
   render() {
     return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("article", { class: "utrecht-article" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
   }
-  static get style() { return bemCss$a; }
+  static get style() { return bemCss$j; }
 };
 
-const bemCss$9 = ".utrecht-badge{background-color:var(--utrecht-badge-background-color, black);border-radius:var(--utrecht-badge-border-radius, 0.5ch);color:var(--utrecht-badge-color, white);display:inline-block;font-family:var(--utrecht-document-font-family, sans-serif);font-style:normal;font-weight:var(--utrecht-badge-font-weight, bold);padding-block-end:var(--utrecht-badge-padding-block, 0.5ex);padding-block-start:var(--utrecht-badge-padding-block, 0.5ex);padding-inline-end:var(--utrecht-badge-padding-inline, 0.5ch);padding-inline-start:var(--utrecht-badge-padding-inline, 0.5ch);text-decoration:none;}.utrecht-badge-counter{background-color:var(--utrecht-badge-counter-background-color, var(--utrecht-badge-background-color, black));border-radius:var(--utrecht-badge-counter-border-radius, var(--utrecht-badge-border-radius, 0.5ch));color:var(--utrecht-badge-counter-color, var(--utrecht-badge-color, white));display:inline-block;font-family:var(--utrecht-document-font-family, sans-serif);font-style:normal;font-weight:var(--utrecht-badge-counter-font-weight, var(--utrecht-badge-font-weight, bold));padding-block-end:var(--utrecht-badge-counter-padding-block, var(--utrecht-badge-padding-block, 0.5ex));padding-block-start:var(--utrecht-badge-counter-padding-block, var(--utrecht-badge-padding-block, 0.5ex));padding-inline-end:var(--utrecht-badge-counter-padding-inline, var(--utrecht-badge-padding-inline, 0.5ch));padding-inline-start:var(--utrecht-badge-counter-padding-inline, var(--utrecht-badge-padding-inline, 0.5ch));text-decoration:none;}";
+const bemCss$i = ".utrecht-badge{background-color:var(--utrecht-badge-background-color, black);border-radius:var(--utrecht-badge-border-radius, 0.5ch);color:var(--utrecht-badge-color, white);display:inline-block;font-family:var(--utrecht-document-font-family, sans-serif);font-style:normal;font-weight:var(--utrecht-badge-font-weight, bold);padding-block-end:var(--utrecht-badge-padding-block, 0.5ex);padding-block-start:var(--utrecht-badge-padding-block, 0.5ex);padding-inline-end:var(--utrecht-badge-padding-inline, 0.5ch);padding-inline-start:var(--utrecht-badge-padding-inline, 0.5ch);text-decoration:none;}.utrecht-badge-counter{background-color:var(--utrecht-badge-counter-background-color, var(--utrecht-badge-background-color, black));border-radius:var(--utrecht-badge-counter-border-radius, var(--utrecht-badge-border-radius, 0.5ch));color:var(--utrecht-badge-counter-color, var(--utrecht-badge-color, white));display:inline-block;font-family:var(--utrecht-document-font-family, sans-serif);font-style:normal;font-weight:var(--utrecht-badge-counter-font-weight, var(--utrecht-badge-font-weight, bold));padding-block-end:var(--utrecht-badge-counter-padding-block, var(--utrecht-badge-padding-block, 0.5ex));padding-block-start:var(--utrecht-badge-counter-padding-block, var(--utrecht-badge-padding-block, 0.5ex));padding-inline-end:var(--utrecht-badge-counter-padding-inline, var(--utrecht-badge-padding-inline, 0.5ch));padding-inline-start:var(--utrecht-badge-counter-padding-inline, var(--utrecht-badge-padding-inline, 0.5ch));text-decoration:none;}";
 
 const BadgeCounter = class extends HTMLElement {
   constructor() {
@@ -36012,10 +36228,10 @@ const BadgeCounter = class extends HTMLElement {
     const textContent = limited ? `${formatNumber(max)}+` : typeof value === "number" ? formatNumber(value) : "";
     return Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "utrecht-badge-counter" }, textContent ? textContent : Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null));
   }
-  static get style() { return bemCss$9; }
+  static get style() { return bemCss$i; }
 };
 
-const bemCss$8 = ".utrecht-badge,.utrecht-badge-data{background-color:var(--utrecht-badge-background-color, black);border-radius:var(--utrecht-badge-border-radius, 0.5ch);color:var(--utrecht-badge-color, white);display:inline-block;font-family:var(--utrecht-document-font-family, sans-serif);font-style:normal;font-weight:var(--utrecht-badge-font-weight, bold);padding-block-end:var(--utrecht-badge-padding-block, 0.5ex);padding-block-start:var(--utrecht-badge-padding-block, 0.5ex);padding-inline-end:var(--utrecht-badge-padding-inline, 0.5ch);padding-inline-start:var(--utrecht-badge-padding-inline, 0.5ch);text-decoration:none;}.utrecht-badge-data{letter-spacing:var(--utrecht-badge-data-letter-spacing, inherit);text-transform:var(--utrecht-badge-data-text-transform, inherit)}";
+const bemCss$h = ".utrecht-badge,.utrecht-badge-data{background-color:var(--utrecht-badge-background-color, black);border-radius:var(--utrecht-badge-border-radius, 0.5ch);color:var(--utrecht-badge-color, white);display:inline-block;font-family:var(--utrecht-document-font-family, sans-serif);font-style:normal;font-weight:var(--utrecht-badge-font-weight, bold);padding-block-end:var(--utrecht-badge-padding-block, 0.5ex);padding-block-start:var(--utrecht-badge-padding-block, 0.5ex);padding-inline-end:var(--utrecht-badge-padding-inline, 0.5ch);padding-inline-start:var(--utrecht-badge-padding-inline, 0.5ch);text-decoration:none;}.utrecht-badge-data{letter-spacing:var(--utrecht-badge-data-letter-spacing, inherit);text-transform:var(--utrecht-badge-data-text-transform, inherit)}";
 
 const BadgeData = class extends HTMLElement {
   constructor() {
@@ -36026,10 +36242,10 @@ const BadgeData = class extends HTMLElement {
   render() {
     return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "utrecht-badge-data" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
   }
-  static get style() { return bemCss$8; }
+  static get style() { return bemCss$h; }
 };
 
-const bemCss$7 = ".utrecht-badge,.utrecht-badge-status{background-color:var(--utrecht-badge-background-color, black);border-radius:var(--utrecht-badge-border-radius, 0.5ch);color:var(--utrecht-badge-color, white);display:inline-block;font-family:var(--utrecht-document-font-family, sans-serif);font-style:normal;font-weight:var(--utrecht-badge-font-weight, bold);padding-block-end:var(--utrecht-badge-padding-block, 0.5ex);padding-block-start:var(--utrecht-badge-padding-block, 0.5ex);padding-inline-end:var(--utrecht-badge-padding-inline, 0.5ch);padding-inline-start:var(--utrecht-badge-padding-inline, 0.5ch);text-decoration:none;}.utrecht-badge-status{letter-spacing:var(--utrecht-badge-status-letter-spacing, inherit);text-transform:var(--utrecht-badge-status-text-transform, inherit)}.utrecht-badge-status--danger{background-color:var(--utrecht-feedback-danger-fill-background-color, red);color:var(--utrecht-feedback-danger-fill-color, white)}.utrecht-badge-status--warning{background-color:var(--utrecht-feedback-warning-fill-background-color, #ffa600);color:var(--utrecht-feedback-warning-fill-color, white)}.utrecht-badge-status--safe{background-color:var(--utrecht-feedback-safe-fill-background-color, green);color:var(--utrecht-feedback-safe-fill-color, white)}.utrecht-badge-status--valid{background-color:var(--utrecht-feedback-valid-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, red));color:var(--utrecht-feedback-valid-fill-color, var(--utrecht-feedback-safe-fill-color, white))}.utrecht-badge-status--invalid{background-color:var(--utrecht-feedback-invalid-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, #ffa600));color:var(--utrecht-feedback-invalid-fill-color, var(--utrecht-feedback-danger-fill-color, white))}.utrecht-badge-status--error{background-color:var(--utrecht-feedback-error-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, #ffa600));color:var(--utrecht-feedback-error-fill-color, var(--utrecht-feedback-danger-fill-color, white))}.utrecht-badge-status--success{background-color:var(--utrecht-feedback-success-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, #ffa600));color:var(--utrecht-feedback-success-fill-color, var(--utrecht-feedback-safe-fill-color, white))}.utrecht-badge-status--active{background-color:var(--utrecht-feedback-active-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, #ffa600));color:var(--utrecht-feedback-active-fill-color, var(--utrecht-feedback-safe-fill-color, white))}.utrecht-badge-status--inactive{background-color:var(--utrecht-feedback-inactive-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, #ffa600));color:var(--utrecht-feedback-inactive-fill-color, var(--utrecht-feedback-danger-fill-color, white))}";
+const bemCss$g = ".utrecht-badge,.utrecht-badge-status{background-color:var(--utrecht-badge-background-color, black);border-radius:var(--utrecht-badge-border-radius, 0.5ch);color:var(--utrecht-badge-color, white);display:inline-block;font-family:var(--utrecht-document-font-family, sans-serif);font-style:normal;font-weight:var(--utrecht-badge-font-weight, bold);padding-block-end:var(--utrecht-badge-padding-block, 0.5ex);padding-block-start:var(--utrecht-badge-padding-block, 0.5ex);padding-inline-end:var(--utrecht-badge-padding-inline, 0.5ch);padding-inline-start:var(--utrecht-badge-padding-inline, 0.5ch);text-decoration:none;}.utrecht-badge-status{letter-spacing:var(--utrecht-badge-status-letter-spacing, inherit);text-transform:var(--utrecht-badge-status-text-transform, inherit)}.utrecht-badge-status--danger{background-color:var(--utrecht-feedback-danger-fill-background-color, red);color:var(--utrecht-feedback-danger-fill-color, white)}.utrecht-badge-status--warning{background-color:var(--utrecht-feedback-warning-fill-background-color, #ffa600);color:var(--utrecht-feedback-warning-fill-color, white)}.utrecht-badge-status--safe{background-color:var(--utrecht-feedback-safe-fill-background-color, green);color:var(--utrecht-feedback-safe-fill-color, white)}.utrecht-badge-status--valid{background-color:var(--utrecht-feedback-valid-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, red));color:var(--utrecht-feedback-valid-fill-color, var(--utrecht-feedback-safe-fill-color, white))}.utrecht-badge-status--invalid{background-color:var(--utrecht-feedback-invalid-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, #ffa600));color:var(--utrecht-feedback-invalid-fill-color, var(--utrecht-feedback-danger-fill-color, white))}.utrecht-badge-status--error{background-color:var(--utrecht-feedback-error-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, #ffa600));color:var(--utrecht-feedback-error-fill-color, var(--utrecht-feedback-danger-fill-color, white))}.utrecht-badge-status--success{background-color:var(--utrecht-feedback-success-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, #ffa600));color:var(--utrecht-feedback-success-fill-color, var(--utrecht-feedback-safe-fill-color, white))}.utrecht-badge-status--active{background-color:var(--utrecht-feedback-active-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, #ffa600));color:var(--utrecht-feedback-active-fill-color, var(--utrecht-feedback-safe-fill-color, white))}.utrecht-badge-status--inactive{background-color:var(--utrecht-feedback-inactive-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, #ffa600));color:var(--utrecht-feedback-inactive-fill-color, var(--utrecht-feedback-danger-fill-color, white))}";
 
 const BadgeStatus = class extends HTMLElement {
   constructor() {
@@ -36040,7 +36256,7 @@ const BadgeStatus = class extends HTMLElement {
   render() {
     return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: `utrecht-badge-status utrecht-badge-status--${this.status}` }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
   }
-  static get style() { return bemCss$7; }
+  static get style() { return bemCss$g; }
 };
 
 function toVal(mix) {
@@ -36084,7 +36300,24 @@ function clsx () {
 	return str;
 }
 
-const bemCss$6 = ".utrecht-button{color:var(--utrecht-button-primary-action-color);font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family));font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));background-color:var(--utrecht-button-primary-action-background-color);border-radius:var(--utrecht-button-border-radius);border-width:var(--utrecht-button-border-width);padding-inline-start:var(--utrecht-button-padding-inline-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-block-end:var(--utrecht-button-padding-block-end)}.utrecht-button--distanced{margin-inline-start:var(--utrecht-button-margin-inline-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-block-end:var(--utrecht-button-margin-block-end)}.utrecht-button:disabled,.utrecht-button--disabled{color:var(--utrecht-button-disabled-color);background-color:var(--utrecht-button-disabled-background-color)}.utrecht-button--focus,.utrecht-button:not(.utrecht-button--disabled):focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-button--hover:not(:disabled),.utrecht-button:hover:not(:disabled):not(.utrecht-button--disabled){color:var(--utrecht-button-primary-action-color);background-color:var(--utrecht-button-primary-action-hover-background-color);transform:scale(var(--utrecht-button-focus-transform-scale, 1))}";
+const stencilCss$8 = ".utrecht-breadcrumb{--utrecht-focus-background-color:var(--utrecht-breadcrumb-link-focus-background-color);--utrecht-link-background-color:var(--utrecht-breadcrumb-link-background-color);--utrecht-link-color:var(--utrecht-breadcrumb-link-color);--utrecht-link-focus-color:var(--utrecht-breadcrumb-link-focus-color, var(--utrecht-breadcrumb-link-color));--utrecht-link-focus-text-decoration:var(--utrecht-link-text-decoration);--utrecht-link-hover-color:var(--utrecht-breadcrumb-link-color);--utrecht-link-hover-text-decoration:var(--utrecht-link-text-decoration);--utrecht-link-visited-color:var(--utrecht-breadcrumb-link-color);--utrecht-link-visited-text-decoration:var(--utrecht-link-text-decoration);font-size:var(--utrecht-breadcrumb-font-size);font-family:var(--utrecht-document-font-family, inherit);text-transform:var(--utrecht-document-text-transform, inherit)}.utrecht-breadcrumb__list{display:flex;block-size:var(--utrecht-breadcrumb-block-size)}ol.utrecht-breadcrumb__list{list-style:none;margin-block-start:0;margin-block-end:0;padding-inline-start:0}.utrecht-breadcrumb__item{block-size:100%}.utrecht-breadcrumb__item~.utrecht-breadcrumb__item{margin-inline-start:var(--utrecht-breadcrumb-item-divider-inline-size)}.utrecht-breadcrumb__link{background-color:var(--utrecht-breadcrumb-link-background-color);padding-block-start:var(--utrecht-breadcrumb-item-padding-block-start, 8px);padding-block-end:var(--utrecht-breadcrumb-item-padding-block-end, 8px);padding-inline-start:var(--utrecht-breadcrumb-item-padding-inline-start, 8px);padding-inline-end:var(--utrecht-breadcrumb-item-padding-inline-end, 8px);display:block}.utrecht-breadcrumb--arrows{--utrecht-breadcrumb-arrow-size:24px;overflow:hidden}.utrecht-breadcrumb--arrows .utrecht-breadcrumb__item~.utrecht-breadcrumb__item .utrecht-breadcrumb__link{padding-inline-start:calc( var(--utrecht-breadcrumb-item-padding-inline-start) + var(--utrecht-breadcrumb-arrow-size) )}.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link{position:relative;padding-inline-end:0}.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after,.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::before{border-block-end-width:var(--utrecht-breadcrumb-block-size);border-block-start-width:var(--utrecht-breadcrumb-block-size);border-color:transparent;border-style:solid;content:\" \";display:block;height:0;left:100%;margin-block-start:calc(-1 * var(--utrecht-breadcrumb-block-size));position:absolute;top:50%;width:0}.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after{border-inline-start-color:var(--utrecht-breadcrumb-link-background-color);border-inline-start-width:var(--utrecht-breadcrumb-arrow-size);z-index:2}.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::before{border-inline-start-color:var(--utrecht-document-background-color);border-inline-start-width:var(--utrecht-breadcrumb-arrow-size);margin-block-start:calc(-1 * var(--utrecht-breadcrumb-block-size));margin-inline-start:1px;z-index:1}.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link--focus::after,.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link:focus::after{border-inline-start-color:var(--utrecht-breadcrumb-link-focus-background-color)}.utrecht-link{text-decoration:var(--utrecht-link-text-decoration, underline);color:var(--utrecht-link-color, blue)}.utrecht-link:visited,.utrecht-link--visited{color:var(--utrecht-link-visited-color, var(--utrecht-link-color))}.utrecht-link:hover,.utrecht-link--hover{color:var(--utrecht-link-hover-color, var(--utrecht-link-color));text-decoration:var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline))}.utrecht-link:active,.utrecht-link--active{color:var(--utrecht-link-active-color, var(--utrecht-link-color))}.utrecht-link:focus,.utrecht-link--focus{color:var(--utrecht-link-focus-color, var(--utrecht-link-color));text-decoration:var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-link--telephone{white-space:nowrap}";
+
+const Breadcrumb = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    const { json, variant } = this;
+    console.log(json);
+    const items = json ? JSON.parse(json) : [];
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: clsx("utrecht-breadcrumb", variant === "arrows" && "utrecht-breadcrumb--arrows") }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("ol", { class: "utrecht-breadcrumb__list", itemscope: true, itemtype: "https://schema.org/BreadcrumbList" }, items.map(({ href, title, current }, index) => (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("li", { key: href, class: "utrecht-breadcrumb__item", itemscope: true, itemtype: "https://schema.org/ListItem", itemprop: "itemListElement" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("a", { class: clsx("utrecht-breadcrumb__link", "utrecht-link", current && "utrecht-link--current"), href: href, "aria-current": current ? "location" : null, itemprop: "item" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("span", { class: "utrecht-breadcrumb__text", itemprop: "name" }, title), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("meta", { itemprop: "position", content: index + 1 }))))))));
+  }
+  static get style() { return stencilCss$8; }
+};
+
+const bemCss$f = ".utrecht-button{color:var(--utrecht-button-primary-action-color);font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family));font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-weight:var(--utrecht-button-font-weight);background-color:var(--utrecht-button-primary-action-background-color);border-radius:var(--utrecht-button-border-radius);border-width:var(--utrecht-button-border-width);letter-spacing:var(--utrecht-button-letter-spacing);padding-inline-start:var(--utrecht-button-padding-inline-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-block-end:var(--utrecht-button-padding-block-end);text-transform:var(--utrecht-button-text-transform)}.utrecht-button--distanced{margin-inline-start:var(--utrecht-button-margin-inline-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-block-end:var(--utrecht-button-margin-block-end)}.utrecht-button:disabled,.utrecht-button--disabled{color:var(--utrecht-button-disabled-color);background-color:var(--utrecht-button-disabled-background-color)}.utrecht-button--focus,.utrecht-button:not(.utrecht-button--disabled):focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-button--hover:not(:disabled),.utrecht-button:hover:not(:disabled):not(.utrecht-button--disabled){color:var(--utrecht-button-primary-action-color);background-color:var(--utrecht-button-primary-action-hover-background-color);transform:scale(var(--utrecht-button-focus-transform-scale, 1))}";
 
 const Button = class extends HTMLElement {
   constructor() {
@@ -36095,10 +36328,36 @@ const Button = class extends HTMLElement {
   render() {
     return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("button", { class: clsx("utrecht-button", this.disabled && "utrecht-button--disabled"), disabled: this.disabled }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
   }
-  static get style() { return bemCss$6; }
+  static get style() { return bemCss$f; }
 };
 
-const bemCss$5 = ".utrecht-document{background-color:var(--utrecht-document-background-color, inherit);color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);line-height:var(--utrecht-document-line-height, inherit)}";
+const bemCss$e = ".utrecht-checkbox{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}";
+
+const Checkbox = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+    this.utrechtBlur = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtBlur", 7);
+    this.utrechtChange = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtChange", 7);
+    this.utrechtFocus = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtFocus", 7);
+    this.utrechtInput = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtInput", 7);
+    this.disabled = false;
+    this.readOnly = false;
+    this.checked = false;
+    this.value = "";
+  }
+  render() {
+    const { checked, disabled, value } = this;
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("input", { class: clsx("utrecht-checkbox"), type: "checkbox", checked: checked, disabled: disabled, value: value, onBlur: (evt) => this.utrechtBlur.emit(evt), onChange: (evt) => this.utrechtChange.emit(evt), onFocus: (evt) => this.utrechtFocus.emit(evt), onInput: (evt) => {
+        this.checked = evt.target.checked;
+        this.utrechtInput.emit(evt);
+      } }));
+  }
+  static get style() { return bemCss$e; }
+};
+
+const bemCss$d = ".utrecht-document{background-color:var(--utrecht-document-background-color, inherit);color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);line-height:var(--utrecht-document-line-height, inherit)}";
 
 const Document = class extends HTMLElement {
   constructor() {
@@ -36109,10 +36368,64 @@ const Document = class extends HTMLElement {
   render() {
     return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "utrecht-document" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
   }
-  static get style() { return bemCss$5; }
+  static get style() { return bemCss$d; }
 };
 
-const bemCss$4 = ".utrecht-heading-1{font-family:var(\n    --utrecht-heading-1-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-1-font-size);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-1-letter-spacing);line-height:var(--utrecht-heading-1-line-height);text-transform:var(--utrecht-heading-1-text-transform, inherit);color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-1--distanced{margin-block-start:var(--utrecht-heading-1-margin-block-start);margin-block-end:var(--utrecht-heading-1-margin-block-end)}.utrecht-heading-2{font-family:var(\n    --utrecht-heading-2-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-2-font-size);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-2-letter-spacing);line-height:var(--utrecht-heading-2-line-height);text-transform:var(--utrecht-heading-2-text-transform, inherit);color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-2--distanced{margin-block-start:var(--utrecht-heading-2-margin-block-start);margin-block-end:var(--utrecht-heading-2-margin-block-end)}.utrecht-heading-3{font-family:var(\n    --utrecht-heading-3-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-3-font-size);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-3-letter-spacing);line-height:var(--utrecht-heading-3-line-height);text-transform:var(--utrecht-heading-3-text-transform, inherit);color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-3--distanced{margin-block-start:var(--utrecht-heading-3-margin-block-start);margin-block-end:var(--utrecht-heading-3-margin-block-end)}.utrecht-heading-4{font-family:var(\n    --utrecht-heading-4-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-4-font-size);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-4-letter-spacing);line-height:var(--utrecht-heading-4-line-height);text-transform:var(--utrecht-heading-4-text-transform, inherit);color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-4--distanced{margin-block-start:var(--utrecht-heading-4-margin-block-start);margin-block-end:var(--utrecht-heading-4-margin-block-end)}.utrecht-heading-5{font-family:var(\n    --utrecht-heading-5-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-5-font-size);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-5-letter-spacing);line-height:var(--utrecht-heading-5-line-height);text-transform:var(--utrecht-heading-5-text-transform, inherit);color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-5--distanced{margin-block-start:var(--utrecht-heading-5-margin-block-start);margin-block-end:var(--utrecht-heading-5-margin-block-end)}.utrecht-heading-6{font-family:var(\n    --utrecht-heading-6-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-6-font-size);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-6-letter-spacing);line-height:var(--utrecht-heading-6-line-height);text-transform:var(--utrecht-heading-6-text-transform, inherit);color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-6--distanced{margin-block-start:var(--utrecht-heading-6-margin-block-start);margin-block-end:var(--utrecht-heading-6-margin-block-end)}";
+const stencilCss$7 = ".utrecht-form-field-checkbox{font-family:var(--utrecht-document-font-family, inherit)}.utrecht-form-field-checkbox--distanced{margin-block-start:var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start));margin-block-end:var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end))}.utrecht-form-field-checkbox__label{margin-inline-start:1ch}.utrecht-form-label{font-weight:var(--utrecht-form-label-font-weight);font-size:var(--utrecht-form-label-font-size)}.utrecht-form-label--checkbox{font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-form-label--radio{font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-checkbox{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}";
+
+const FormFieldCheckbox = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+    this.utrechtBlur = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtBlur", 7);
+    this.utrechtChange = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtChange", 7);
+    this.utrechtFocus = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtFocus", 7);
+    this.utrechtInput = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtInput", 7);
+    this.label = false;
+    this.disabled = false;
+    this.readOnly = false;
+    this.checked = false;
+    this.value = "";
+  }
+  render() {
+    const { checked, disabled, value } = this;
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "utrecht-form-field-checkbox" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("input", { id: "input", class: clsx("utrecht-checkbox"), type: "checkbox", checked: checked, disabled: disabled, value: value, onBlur: (evt) => this.utrechtBlur.emit(evt), onChange: (evt) => this.utrechtChange.emit(evt), onFocus: (evt) => this.utrechtFocus.emit(evt), onInput: (evt) => {
+        this.checked = evt.target.checked;
+        this.utrechtInput.emit(evt);
+      } }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("label", { class: clsx("utrecht-form-field-checkbox__label", "utrecht-form-label", "utrecht-form-label--checkbox"), htmlFor: "input" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null))));
+  }
+  static get style() { return stencilCss$7; }
+};
+
+const stencilCss$6 = ".utrecht-form-field-textbox{font-family:var(--utrecht-document-font-family, inherit)}.utrecht-form-label{font-weight:var(--utrecht-form-label-font-weight);font-size:var(--utrecht-form-label-font-size)}.utrecht-form-label--checkbox{font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-form-label--radio{font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-textbox{border-width:var(--utrecht-textbox-border-width);border-bottom-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width));border-color:var(--utrecht-textbox-border-color);border-radius:var(--utrecht-textbox-border-radius, 0);border-style:solid;color:var(--utrecht-textbox-color);font-family:var(--utrecht-textbox-font-family);font-size:var(--utrecht-textbox-font-size, 1em);max-width:var(--utrecht-textbox-max-width);padding-block-end:var(--utrecht-textbox-padding-block-end);padding-block-start:var(--utrecht-textbox-padding-block-start);padding-inline-end:var(--utrecht-textbox-padding-inline-end);padding-inline-start:var(--utrecht-textbox-padding-inline-start);box-sizing:border-box;width:100%}.utrecht-textbox--invalid,.utrecht-textbox--html-input:invalid,.utrecht-textbox--html-input[aria-invalid=true]{border-color:var(--utrecht-textbox-invalid-border-color);border-width:var(--utrecht-textbox-invalid-border-width)}.utrecht-textbox--disabled,.utrecht-textbox--html-input:disabled{border-color:var(--utrecht-textbox-disabled-border-color);color:var(--utrecht-textbox-disabled-color)}.utrecht-textbox--focus,.utrecht-textbox--html-input:focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-textbox--read-only,.utrecht-textbox--html-input:read-only{border-color:var(--utrecht-textbox-read-only-border-color);color:var(--utrecht-textbox-read-only-color)}";
+
+const FormFieldTextbox = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+    this.utrechtBlur = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtBlur", 7);
+    this.utrechtChange = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtChange", 7);
+    this.utrechtFocus = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtFocus", 7);
+    this.utrechtInput = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtInput", 7);
+    this.disabled = false;
+    this.invalid = false;
+    this.readOnly = false;
+    this.placeholder = "";
+    this.value = "";
+  }
+  render() {
+    const { disabled, invalid, placeholder, readOnly, value } = this;
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "utrecht-form-field-textbox" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("input", { id: "input", class: clsx("utrecht-textbox", disabled && "utrecht-textbox--disabled", invalid && "utrecht-textbox--invalid", readOnly && "utrecht-textbox--readonly"), type: "text", disabled: disabled, placeholder: placeholder || null, readonly: readOnly, value: value, onBlur: (evt) => this.utrechtBlur.emit(evt), onChange: (evt) => this.utrechtChange.emit(evt), onFocus: (evt) => this.utrechtFocus.emit(evt), onInput: (evt) => {
+        this.value = evt.target.value;
+        this.utrechtInput.emit(evt);
+      } }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("label", { class: "utrecht-form-field-textbox__label utrecht-form-label", htmlFor: "input" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null))));
+  }
+  static get style() { return stencilCss$6; }
+};
+
+const stencilCss$5 = ".utrecht-heading-1{font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-1-letter-spacing);line-height:var(--utrecht-heading-1-line-height);text-transform:var(--utrecht-heading-1-text-transform, inherit);color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-1--distanced{margin-block-start:var(--utrecht-heading-1-margin-block-start);margin-block-end:var(--utrecht-heading-1-margin-block-end)}.utrecht-heading-2{font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-2-letter-spacing);line-height:var(--utrecht-heading-2-line-height);text-transform:var(--utrecht-heading-2-text-transform, inherit);color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-2--distanced{margin-block-start:var(--utrecht-heading-2-margin-block-start);margin-block-end:var(--utrecht-heading-2-margin-block-end)}.utrecht-heading-3{font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-3-letter-spacing);line-height:var(--utrecht-heading-3-line-height);text-transform:var(--utrecht-heading-3-text-transform, inherit);color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-3--distanced{margin-block-start:var(--utrecht-heading-3-margin-block-start);margin-block-end:var(--utrecht-heading-3-margin-block-end)}.utrecht-heading-4{font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-4-letter-spacing);line-height:var(--utrecht-heading-4-line-height);text-transform:var(--utrecht-heading-4-text-transform, inherit);color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-4--distanced{margin-block-start:var(--utrecht-heading-4-margin-block-start);margin-block-end:var(--utrecht-heading-4-margin-block-end)}.utrecht-heading-5{font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-5-letter-spacing);line-height:var(--utrecht-heading-5-line-height);text-transform:var(--utrecht-heading-5-text-transform, inherit);color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-5--distanced{margin-block-start:var(--utrecht-heading-5-margin-block-start);margin-block-end:var(--utrecht-heading-5-margin-block-end)}.utrecht-heading-6{font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-6-letter-spacing);line-height:var(--utrecht-heading-6-line-height);text-transform:var(--utrecht-heading-6-text-transform, inherit);color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-6--distanced{margin-block-start:var(--utrecht-heading-6-margin-block-start);margin-block-end:var(--utrecht-heading-6-margin-block-end)}";
 
 const Heading = class extends HTMLElement {
   constructor() {
@@ -36143,10 +36456,94 @@ const Heading = class extends HTMLElement {
       return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "utrecht-heading", role: "heading", "aria-level": this.level }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
     }
   }
-  static get style() { return bemCss$4; }
+  static get style() { return stencilCss$5; }
 };
 
-const htmlCss = "@charset \"UTF-8\";.utrecht-article,.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-blockquote,.utrecht-html blockquote{font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size)}.utrecht-blockquote__attribution{color:var(--utrecht-blockquote-attribution-color, inherit);font-size:var(--utrecht-blockquote-attribution-font-size, inherit)}.utrecht-blockquote__content,.utrecht-html blockquote{--utrecht-document-color:var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size:var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit)}.utrecht-blockquote--distanced,.utrecht-html blockquote{margin-inline-start:var(--utrecht-blockquote-margin-inline-start);margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-block-start:var(--utrecht-blockquote-margin-block-start);margin-block-end:var(--utrecht-blockquote-margin-block-end)}.utrecht-button,.utrecht-html button{color:var(--utrecht-button-primary-action-color);font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family));font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));background-color:var(--utrecht-button-primary-action-background-color);border-radius:var(--utrecht-button-border-radius);border-width:var(--utrecht-button-border-width);padding-inline-start:var(--utrecht-button-padding-inline-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-block-end:var(--utrecht-button-padding-block-end)}.utrecht-button--distanced,.utrecht-html button{margin-inline-start:var(--utrecht-button-margin-inline-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-block-end:var(--utrecht-button-margin-block-end)}.utrecht-button:disabled,.utrecht-html button:disabled,.utrecht-button--disabled{color:var(--utrecht-button-disabled-color);background-color:var(--utrecht-button-disabled-background-color)}.utrecht-button--focus,.utrecht-html button:focus,.utrecht-button:not(.utrecht-button--disabled):focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-button--hover:not(:disabled),.utrecht-html button:not(:disabled):hover,.utrecht-button:hover:not(:disabled):not(.utrecht-button--disabled){color:var(--utrecht-button-primary-action-color);background-color:var(--utrecht-button-primary-action-hover-background-color);transform:scale(var(--utrecht-button-focus-transform-scale, 1))}.utrecht-checkbox,.utrecht-html input[type=checkbox]{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}.utrecht-form-label,.utrecht-html label{font-weight:var(--utrecht-form-label-font-weight);font-size:var(--utrecht-form-label-font-size)}.utrecht-form-label--checkbox,.utrecht-html input[type=checkbox]~label{font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-form-label--radio,.utrecht-html input[type=radio]~label{font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-form-fieldset--distanced,.utrecht-html fieldset{margin-block-start:var(--utrecht-form-fieldset-margin-block-start, 0);margin-block-end:var(--utrecht-form-fieldset-margin-block-end, 0)}.utrecht-form-fieldset__legend,.utrecht-html legend{font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit))}.utrecht-form-fieldset__legend--distanced,.utrecht-html legend{margin-block-start:var(--utrecht-form-fieldset-legend-margin-block-start);margin-block-end:var(--utrecht-form-fieldset-legend-margin-block-end)}.utrecht-html fieldset{border:0;margin:0;min-width:0;padding-block-end:0;padding-block-start:0.01em;padding-inline-end:0;padding-inline-start:0}.utrecht-html legend{padding-inline-end:0;padding-inline-start:0}.utrecht-heading-1,.utrecht-html h1{font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-1-letter-spacing);line-height:var(--utrecht-heading-1-line-height);text-transform:var(--utrecht-heading-1-text-transform, inherit);color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-1--distanced,.utrecht-html h1{margin-block-start:var(--utrecht-heading-1-margin-block-start);margin-block-end:var(--utrecht-heading-1-margin-block-end)}.utrecht-heading-2,.utrecht-html h2{font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-2-letter-spacing);line-height:var(--utrecht-heading-2-line-height);text-transform:var(--utrecht-heading-2-text-transform, inherit);color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-2--distanced,.utrecht-html h2{margin-block-start:var(--utrecht-heading-2-margin-block-start);margin-block-end:var(--utrecht-heading-2-margin-block-end)}.utrecht-heading-3,.utrecht-html h3{font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-3-letter-spacing);line-height:var(--utrecht-heading-3-line-height);text-transform:var(--utrecht-heading-3-text-transform, inherit);color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-3--distanced,.utrecht-html h3{margin-block-start:var(--utrecht-heading-3-margin-block-start);margin-block-end:var(--utrecht-heading-3-margin-block-end)}.utrecht-heading-4,.utrecht-html h4{font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-4-letter-spacing);line-height:var(--utrecht-heading-4-line-height);text-transform:var(--utrecht-heading-4-text-transform, inherit);color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-4--distanced,.utrecht-html h4{margin-block-start:var(--utrecht-heading-4-margin-block-start);margin-block-end:var(--utrecht-heading-4-margin-block-end)}.utrecht-heading-5,.utrecht-html h5{font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-5-letter-spacing);line-height:var(--utrecht-heading-5-line-height);text-transform:var(--utrecht-heading-5-text-transform, inherit);color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-5--distanced,.utrecht-html h5{margin-block-start:var(--utrecht-heading-5-margin-block-start);margin-block-end:var(--utrecht-heading-5-margin-block-end)}.utrecht-heading-6,.utrecht-html h6{font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-6-letter-spacing);line-height:var(--utrecht-heading-6-line-height);text-transform:var(--utrecht-heading-6-text-transform, inherit);color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-6--distanced,.utrecht-html h6{margin-block-start:var(--utrecht-heading-6-margin-block-start);margin-block-end:var(--utrecht-heading-6-margin-block-end)}.utrecht-link,.utrecht-html a:link{text-decoration:var(--utrecht-link-text-decoration, underline);color:var(--utrecht-link-color, blue)}.utrecht-link:visited,.utrecht-link--visited,.utrecht-html a:visited{color:var(--utrecht-link-visited-color, var(--utrecht-link-color))}.utrecht-link:hover,.utrecht-link--hover,.utrecht-html a:hover{color:var(--utrecht-link-hover-color, var(--utrecht-link-color));text-decoration:var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline))}.utrecht-link:active,.utrecht-link--active,.utrecht-html a:active{color:var(--utrecht-link-active-color, var(--utrecht-link-color))}.utrecht-link:focus,.utrecht-link--focus,.utrecht-html a:focus{color:var(--utrecht-link-focus-color, var(--utrecht-link-color));text-decoration:var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-link--telephone,.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-paragraph,.utrecht-html p{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit))}.utrecht-paragraph--lead,.utrecht-html p.lead{font-size:var(--utrecht-paragraph-lead-font-size, inherit);font-weight:var(--utrecht-paragraph-lead-font-weight, inherit);line-height:var(--utrecht-paragraph-lead-line-height, inherit)}.utrecht-paragraph--distanced,.utrecht-html *~p{margin-block-start:var(--utrecht-paragraph-margin-block-start);margin-block-end:var(--utrecht-paragraph-margin-block-end)}.utrecht-radio-button,.utrecht-html input[type=radio]{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}.utrecht-separator,.utrecht-html hr{border-style:solid;border-color:var(--utrecht-separator-color);border-width:0 0 var(--utrecht-separator-width) 0;margin-block-start:var(--utrecht-separator-margin-block-start);margin-block-end:var(--utrecht-separator-margin-block-end)}.utrecht-table,.utrecht-html table{border-collapse:collapse;width:100%}.utrecht-table--distanced,.utrecht-html table{margin-block-end:var(--utrecht-table-margin-block-end);margin-block-start:var(--utrecht-table-margin-block-start)}.utrecht-table__caption,.utrecht-html caption{font-weight:var(--utrecht-table-caption-font-weight);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);color:var(--utrecht-table-caption-color);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-table__header,.utrecht-html thead{font-weight:var(--utrecht-table-header-font-weight);color:var(--utrecht-table-header-color);text-transform:var(--utrecht-table-header-text-transform);vertical-align:bottom}.utrecht-table__cell--last-header-row,.utrecht-html thead tr:last-child th{border-block-end-style:solid;border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-table__body,.utrecht-html tbody{vertical-align:baseline}.utrecht-table__heading,.utrecht-html th{font-weight:var(--utrecht-table-heading-font-weight);color:var(--utrecht-table-heading-color);text-transform:var(--utrecht-table-heading-text-transform)}.utrecht-table__cell,.utrecht-html th,.utrecht-html td{border-block-end-style:solid;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);line-height:var(--utrecht-table-cell-line-height, inherit);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);text-align:start}.utrecht-table__cell--first,.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-table__cell--last,.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-table__cell--numeric,.utrecht-html th.numeric,.utrecht-html td.numeric{text-align:right}.utrecht-table__row--alternate-odd,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-table__row--alternate-even,.utrecht-html table.alternate-row-color>tr:nth-child(even)>td,.utrecht-html table.alternate-row-color>tr:nth-child(even)>th,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(even)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(even)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-textarea,.utrecht-html textarea{border-width:var(--utrecht-textarea-border-width);border-bottom-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width));border-color:var(--utrecht-textarea-border-color);border-radius:var(--utrecht-textarea-border-radius, 0);border-style:solid;color:var(--utrecht-textarea-color);font-family:var(--utrecht-textarea-font-family);font-size:var(--utrecht-textarea-font-size, 1em);max-width:var(--utrecht-textarea-max-width);padding-block-end:var(--utrecht-textarea-padding-block-end);padding-block-start:var(--utrecht-textarea-padding-block-start);padding-inline-end:var(--utrecht-textarea-padding-inline-end);padding-inline-start:var(--utrecht-textarea-padding-inline-start);width:100%}.utrecht-textarea--invalid,.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{border-color:var(--utrecht-textarea-invalid-border-color);border-width:var(--utrecht-textarea-invalid-border-width)}.utrecht-textarea--disabled,.utrecht-html textarea:disabled{border-color:var(--utrecht-textarea-disabled-border-color);color:var(--utrecht-textarea-disabled-color)}.utrecht-textarea--read-only,.utrecht-html textarea:read-only{border-color:var(--utrecht-textarea-read-only-border-color);color:var(--utrecht-textarea-read-only-color)}.utrecht-textbox,.utrecht-html input[type=text],.utrecht-html input[type=email],.utrecht-html input[type=search],.utrecht-html input[type=tel],.utrecht-html input[type=url]{border-width:var(--utrecht-textbox-border-width);border-bottom-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width));border-color:var(--utrecht-textbox-border-color);border-radius:var(--utrecht-textbox-border-radius, 0);border-style:solid;color:var(--utrecht-textbox-color);font-family:var(--utrecht-textbox-font-family);font-size:var(--utrecht-textbox-font-size, 1em);max-width:var(--utrecht-textbox-max-width);padding-block-end:var(--utrecht-textbox-padding-block-end);padding-block-start:var(--utrecht-textbox-padding-block-start);padding-inline-end:var(--utrecht-textbox-padding-inline-end);padding-inline-start:var(--utrecht-textbox-padding-inline-start);box-sizing:border-box;width:100%}.utrecht-textbox--invalid,.utrecht-html input[type=text]:invalid,.utrecht-html input[type=text][aria-invalid=true],.utrecht-html input[type=email]:invalid,.utrecht-html input[type=email][aria-invalid=true],.utrecht-html input[type=search]:invalid,.utrecht-html input[type=search][aria-invalid=true],.utrecht-html input[type=tel]:invalid,.utrecht-html input[type=tel][aria-invalid=true],.utrecht-html input[type=url]:invalid,.utrecht-html input[type=url][aria-invalid=true]{border-color:var(--utrecht-textbox-invalid-border-color);border-width:var(--utrecht-textbox-invalid-border-width)}.utrecht-textbox--disabled,.utrecht-html input[type=text]:disabled,.utrecht-html input[type=email]:disabled,.utrecht-html input[type=search]:disabled,.utrecht-html input[type=tel]:disabled,.utrecht-html input[type=url]:disabled{border-color:var(--utrecht-textbox-disabled-border-color);color:var(--utrecht-textbox-disabled-color)}.utrecht-textbox--read-only,.utrecht-html input[type=text]:read-only,.utrecht-html input[type=email]:read-only,.utrecht-html input[type=search]:read-only,.utrecht-html input[type=tel]:read-only,.utrecht-html input[type=url]:read-only{border-color:var(--utrecht-textbox-read-only-border-color);color:var(--utrecht-textbox-read-only-color)}.utrecht-unordered-list,.utrecht-html ul{font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);line-height:var(--utrecht-document-line-height, inherit);padding-inline-start:2ch}.utrecht-unordered-list--distanced,.utrecht-html ul{margin-block-start:var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start));margin-block-end:var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end))}.utrecht-unordered-list--nested{margin-inline-start:2ch;margin-block-end:0}.utrecht-unordered-list__item,.utrecht-html ul>li{padding-inline-start:1ch;margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);margin-block-end:var(--utrecht-unordered-list-item-margin-block-end)}.utrecht-unordered-list__item::marker,.utrecht-html ul>li::marker,.utrecht-unordered-list__marker{color:var(--utrecht-unordered-list-marker-color);content:\"●\"}";
+const bemCss$c = ".utrecht-heading-1{font-family:var(\n    --utrecht-heading-1-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-1-font-size);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-1-letter-spacing);line-height:var(--utrecht-heading-1-line-height);text-transform:var(--utrecht-heading-1-text-transform, inherit);color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-1--distanced{margin-block-start:var(--utrecht-heading-1-margin-block-start);margin-block-end:var(--utrecht-heading-1-margin-block-end)}";
+
+const Heading1 = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("h1", { class: "utrecht-heading-1" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
+  }
+  static get style() { return bemCss$c; }
+};
+
+const bemCss$b = ".utrecht-heading-2{font-family:var(\n    --utrecht-heading-2-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-2-font-size);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-2-letter-spacing);line-height:var(--utrecht-heading-2-line-height);text-transform:var(--utrecht-heading-2-text-transform, inherit);color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-2--distanced{margin-block-start:var(--utrecht-heading-2-margin-block-start);margin-block-end:var(--utrecht-heading-2-margin-block-end)}";
+
+const Heading2 = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("h2", { class: "utrecht-heading-2" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
+  }
+  static get style() { return bemCss$b; }
+};
+
+const bemCss$a = ".utrecht-heading-3{font-family:var(\n    --utrecht-heading-3-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-3-font-size);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-3-letter-spacing);line-height:var(--utrecht-heading-3-line-height);text-transform:var(--utrecht-heading-3-text-transform, inherit);color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-3--distanced{margin-block-start:var(--utrecht-heading-3-margin-block-start);margin-block-end:var(--utrecht-heading-3-margin-block-end)}";
+
+const Heading3 = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("h3", { class: "utrecht-heading-3" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
+  }
+  static get style() { return bemCss$a; }
+};
+
+const bemCss$9 = ".utrecht-heading-4{font-family:var(\n    --utrecht-heading-4-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-4-font-size);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-4-letter-spacing);line-height:var(--utrecht-heading-4-line-height);text-transform:var(--utrecht-heading-4-text-transform, inherit);color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-4--distanced{margin-block-start:var(--utrecht-heading-4-margin-block-start);margin-block-end:var(--utrecht-heading-4-margin-block-end)}";
+
+const Heading4 = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("h4", { class: "utrecht-heading-4" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
+  }
+  static get style() { return bemCss$9; }
+};
+
+const bemCss$8 = ".utrecht-heading-5{font-family:var(\n    --utrecht-heading-5-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-5-font-size);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-5-letter-spacing);line-height:var(--utrecht-heading-5-line-height);text-transform:var(--utrecht-heading-5-text-transform, inherit);color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-5--distanced{margin-block-start:var(--utrecht-heading-5-margin-block-start);margin-block-end:var(--utrecht-heading-5-margin-block-end)}";
+
+const Heading5 = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("h5", { class: "utrecht-heading-5" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
+  }
+  static get style() { return bemCss$8; }
+};
+
+const bemCss$7 = ".utrecht-heading-6{font-family:var(\n    --utrecht-heading-6-font-family,\n    var(--utrecht-heading-font-family, var(--utrecht-document-font-family))\n  );font-size:var(--utrecht-heading-6-font-size);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-6-letter-spacing);line-height:var(--utrecht-heading-6-line-height);text-transform:var(--utrecht-heading-6-text-transform, inherit);color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-6--distanced{margin-block-start:var(--utrecht-heading-6-margin-block-start);margin-block-end:var(--utrecht-heading-6-margin-block-end)}";
+
+const Heading6 = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("h6", { class: "utrecht-heading-6" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
+  }
+  static get style() { return bemCss$7; }
+};
+
+const htmlCss = "@charset \"UTF-8\";.utrecht-article,.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-blockquote,.utrecht-html blockquote{font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);margin-inline-end:var(--utrecht-blockquote-margin-inline-end)}.utrecht-blockquote__attribution{color:var(--utrecht-blockquote-attribution-color, inherit);font-size:var(--utrecht-blockquote-attribution-font-size, inherit)}.utrecht-blockquote__content,.utrecht-html blockquote{--utrecht-document-color:var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size:var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit)}.utrecht-blockquote--distanced,.utrecht-html blockquote{margin-block-start:var(--utrecht-blockquote-margin-block-start);margin-block-end:var(--utrecht-blockquote-margin-block-end)}.utrecht-button,.utrecht-html button{color:var(--utrecht-button-primary-action-color);font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family));font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-weight:var(--utrecht-button-font-weight);background-color:var(--utrecht-button-primary-action-background-color);border-radius:var(--utrecht-button-border-radius);border-width:var(--utrecht-button-border-width);letter-spacing:var(--utrecht-button-letter-spacing);padding-inline-start:var(--utrecht-button-padding-inline-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-block-end:var(--utrecht-button-padding-block-end);text-transform:var(--utrecht-button-text-transform)}.utrecht-button--distanced,.utrecht-html button{margin-inline-start:var(--utrecht-button-margin-inline-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-block-end:var(--utrecht-button-margin-block-end)}.utrecht-button:disabled,.utrecht-html button:disabled,.utrecht-button--disabled{color:var(--utrecht-button-disabled-color);background-color:var(--utrecht-button-disabled-background-color)}.utrecht-button--focus,.utrecht-html button:focus,.utrecht-button:not(.utrecht-button--disabled):focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-button--hover:not(:disabled),.utrecht-html button:not(:disabled):hover,.utrecht-button:hover:not(:disabled):not(.utrecht-button--disabled){color:var(--utrecht-button-primary-action-color);background-color:var(--utrecht-button-primary-action-hover-background-color);transform:scale(var(--utrecht-button-focus-transform-scale, 1))}.utrecht-checkbox,.utrecht-html input[type=checkbox]{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}.utrecht-emphasis--stressed,.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-emphasis--strong,.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-form-fieldset--distanced,.utrecht-html fieldset{margin-block-start:var(--utrecht-form-fieldset-margin-block-start, 0);margin-block-end:var(--utrecht-form-fieldset-margin-block-end, 0)}.utrecht-form-fieldset__legend,.utrecht-html legend{font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit))}.utrecht-form-fieldset__legend--distanced,.utrecht-html legend{margin-block-start:var(--utrecht-form-fieldset-legend-margin-block-start);margin-block-end:var(--utrecht-form-fieldset-legend-margin-block-end)}.utrecht-html fieldset{border:0;margin:0;min-width:0;padding-block-end:0;padding-block-start:0.01em;padding-inline-end:0;padding-inline-start:0}.utrecht-html legend{padding-inline-end:0;padding-inline-start:0}.utrecht-form-label,.utrecht-html label{font-weight:var(--utrecht-form-label-font-weight);font-size:var(--utrecht-form-label-font-size)}.utrecht-form-label--checkbox,.utrecht-html input[type=checkbox]~label{font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-form-label--radio,.utrecht-html input[type=radio]~label{font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-heading-1,.utrecht-html h1{font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-1-letter-spacing);line-height:var(--utrecht-heading-1-line-height);text-transform:var(--utrecht-heading-1-text-transform, inherit);color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-1--distanced,.utrecht-html h1{margin-block-start:var(--utrecht-heading-1-margin-block-start);margin-block-end:var(--utrecht-heading-1-margin-block-end)}.utrecht-heading-2,.utrecht-html h2{font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-2-letter-spacing);line-height:var(--utrecht-heading-2-line-height);text-transform:var(--utrecht-heading-2-text-transform, inherit);color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-2--distanced,.utrecht-html h2{margin-block-start:var(--utrecht-heading-2-margin-block-start);margin-block-end:var(--utrecht-heading-2-margin-block-end)}.utrecht-heading-3,.utrecht-html h3{font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-3-letter-spacing);line-height:var(--utrecht-heading-3-line-height);text-transform:var(--utrecht-heading-3-text-transform, inherit);color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-3--distanced,.utrecht-html h3{margin-block-start:var(--utrecht-heading-3-margin-block-start);margin-block-end:var(--utrecht-heading-3-margin-block-end)}.utrecht-heading-4,.utrecht-html h4{font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-4-letter-spacing);line-height:var(--utrecht-heading-4-line-height);text-transform:var(--utrecht-heading-4-text-transform, inherit);color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-4--distanced,.utrecht-html h4{margin-block-start:var(--utrecht-heading-4-margin-block-start);margin-block-end:var(--utrecht-heading-4-margin-block-end)}.utrecht-heading-5,.utrecht-html h5{font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-5-letter-spacing);line-height:var(--utrecht-heading-5-line-height);text-transform:var(--utrecht-heading-5-text-transform, inherit);color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-5--distanced,.utrecht-html h5{margin-block-start:var(--utrecht-heading-5-margin-block-start);margin-block-end:var(--utrecht-heading-5-margin-block-end)}.utrecht-heading-6,.utrecht-html h6{font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));letter-spacing:var(--utrecht-heading-6-letter-spacing);line-height:var(--utrecht-heading-6-line-height);text-transform:var(--utrecht-heading-6-text-transform, inherit);color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)))}.utrecht-heading-6--distanced,.utrecht-html h6{margin-block-start:var(--utrecht-heading-6-margin-block-start);margin-block-end:var(--utrecht-heading-6-margin-block-end)}.utrecht-link,.utrecht-html a:link{text-decoration:var(--utrecht-link-text-decoration, underline);color:var(--utrecht-link-color, blue)}.utrecht-link:visited,.utrecht-link--visited,.utrecht-html a:visited{color:var(--utrecht-link-visited-color, var(--utrecht-link-color))}.utrecht-link:hover,.utrecht-link--hover,.utrecht-html a:hover{color:var(--utrecht-link-hover-color, var(--utrecht-link-color));text-decoration:var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline))}.utrecht-link:active,.utrecht-link--active,.utrecht-html a:active{color:var(--utrecht-link-active-color, var(--utrecht-link-color))}.utrecht-link:focus,.utrecht-link--focus,.utrecht-html a:focus{color:var(--utrecht-link-focus-color, var(--utrecht-link-color));text-decoration:var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-link--telephone,.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-ordered-list,.utrecht-html ol{font-family:var(--utrecht-document-font-family, inherit)}.utrecht-ordered-list--distanced,.utrecht-html ol{margin-block-end:var(--utrecht-ordered-list-margin-block-end);margin-block-start:var(--utrecht-ordered-list-margin-block-start)}.utrecht-ordered-list__item,.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end);margin-block-start:var(--utrecht-ordered-list-item-margin-block-start)}.utrecht-paragraph,.utrecht-html p{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit))}.utrecht-paragraph--lead,.utrecht-html p.lead{font-size:var(--utrecht-paragraph-lead-font-size, inherit);font-weight:var(--utrecht-paragraph-lead-font-weight, inherit);line-height:var(--utrecht-paragraph-lead-line-height, inherit)}.utrecht-paragraph--distanced,.utrecht-html *~p{margin-block-start:var(--utrecht-paragraph-margin-block-start);margin-block-end:var(--utrecht-paragraph-margin-block-end)}.utrecht-radio-button,.utrecht-html input[type=radio]{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}.utrecht-separator,.utrecht-html hr{border-style:solid;border-color:var(--utrecht-separator-color);border-width:0 0 var(--utrecht-separator-width) 0;margin-block-start:var(--utrecht-separator-margin-block-start);margin-block-end:var(--utrecht-separator-margin-block-end)}.utrecht-table,.utrecht-html table{border-collapse:collapse;width:100%}.utrecht-table--distanced,.utrecht-html table{margin-block-end:var(--utrecht-table-margin-block-end);margin-block-start:var(--utrecht-table-margin-block-start)}.utrecht-table__caption,.utrecht-html caption{font-weight:var(--utrecht-table-caption-font-weight);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);color:var(--utrecht-table-caption-color);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-table__header,.utrecht-html thead{font-weight:var(--utrecht-table-header-font-weight);color:var(--utrecht-table-header-color);text-transform:var(--utrecht-table-header-text-transform);vertical-align:bottom}.utrecht-table__cell--last-header-row,.utrecht-html thead tr:last-child th{border-block-end-style:solid;border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-table__body,.utrecht-html tbody{vertical-align:baseline}.utrecht-table__heading,.utrecht-html th{font-weight:var(--utrecht-table-heading-font-weight);color:var(--utrecht-table-heading-color);text-transform:var(--utrecht-table-heading-text-transform)}.utrecht-table__cell,.utrecht-html th,.utrecht-html td{border-block-end-style:solid;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);line-height:var(--utrecht-table-cell-line-height, inherit);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);text-align:start}.utrecht-table__cell--first,.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-table__cell--last,.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-table__cell--numeric,.utrecht-html th.numeric,.utrecht-html td.numeric{text-align:right}.utrecht-table__row--alternate-odd,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-table__row--alternate-even,.utrecht-html table.alternate-row-color>tr:nth-child(even)>td,.utrecht-html table.alternate-row-color>tr:nth-child(even)>th,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(even)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(even)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-textarea,.utrecht-html textarea{border-width:var(--utrecht-textarea-border-width);border-bottom-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width));border-color:var(--utrecht-textarea-border-color);border-radius:var(--utrecht-textarea-border-radius, 0);border-style:solid;color:var(--utrecht-textarea-color);font-family:var(--utrecht-textarea-font-family);font-size:var(--utrecht-textarea-font-size, 1em);max-width:var(--utrecht-textarea-max-width);padding-block-end:var(--utrecht-textarea-padding-block-end);padding-block-start:var(--utrecht-textarea-padding-block-start);padding-inline-end:var(--utrecht-textarea-padding-inline-end);padding-inline-start:var(--utrecht-textarea-padding-inline-start);width:100%}.utrecht-textarea--invalid,.utrecht-textarea--html-textarea:invalid,.utrecht-html textarea:invalid,.utrecht-textarea--html-textarea[aria-invalid=true],.utrecht-html textarea[aria-invalid=true]{border-color:var(--utrecht-textarea-invalid-border-color);border-width:var(--utrecht-textarea-invalid-border-width)}.utrecht-textarea--disabled,.utrecht-textarea--html-textarea:disabled,.utrecht-html textarea:disabled{border-color:var(--utrecht-textarea-disabled-border-color);color:var(--utrecht-textarea-disabled-color)}.utrecht-textarea--focus,.utrecht-textarea--html-textarea:focus,.utrecht-html textarea:focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-textarea--read-only,.utrecht-textarea--html-textarea:read-only,.utrecht-html textarea:read-only{border-color:var(--utrecht-textarea-read-only-border-color);color:var(--utrecht-textarea-read-only-color)}.utrecht-textbox,.utrecht-html input[type=text],.utrecht-html input[type=email],.utrecht-html input[type=password],.utrecht-html input[type=search],.utrecht-html input[type=tel],.utrecht-html input[type=url]{border-width:var(--utrecht-textbox-border-width);border-bottom-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width));border-color:var(--utrecht-textbox-border-color);border-radius:var(--utrecht-textbox-border-radius, 0);border-style:solid;color:var(--utrecht-textbox-color);font-family:var(--utrecht-textbox-font-family);font-size:var(--utrecht-textbox-font-size, 1em);max-width:var(--utrecht-textbox-max-width);padding-block-end:var(--utrecht-textbox-padding-block-end);padding-block-start:var(--utrecht-textbox-padding-block-start);padding-inline-end:var(--utrecht-textbox-padding-inline-end);padding-inline-start:var(--utrecht-textbox-padding-inline-start);box-sizing:border-box;width:100%}.utrecht-textbox--invalid,.utrecht-textbox--html-input:invalid,.utrecht-html input[type=text]:invalid,.utrecht-html input[type=email]:invalid,.utrecht-html input[type=password]:invalid,.utrecht-html input[type=search]:invalid,.utrecht-html input[type=tel]:invalid,.utrecht-html input[type=url]:invalid,.utrecht-textbox--html-input[aria-invalid=true],.utrecht-html input[aria-invalid=true][type=text],.utrecht-html input[aria-invalid=true][type=email],.utrecht-html input[aria-invalid=true][type=password],.utrecht-html input[aria-invalid=true][type=search],.utrecht-html input[aria-invalid=true][type=tel],.utrecht-html input[aria-invalid=true][type=url]{border-color:var(--utrecht-textbox-invalid-border-color);border-width:var(--utrecht-textbox-invalid-border-width)}.utrecht-textbox--disabled,.utrecht-textbox--html-input:disabled,.utrecht-html input[type=text]:disabled,.utrecht-html input[type=email]:disabled,.utrecht-html input[type=password]:disabled,.utrecht-html input[type=search]:disabled,.utrecht-html input[type=tel]:disabled,.utrecht-html input[type=url]:disabled{border-color:var(--utrecht-textbox-disabled-border-color);color:var(--utrecht-textbox-disabled-color)}.utrecht-textbox--focus,.utrecht-textbox--html-input:focus,.utrecht-html input[type=text]:focus,.utrecht-html input[type=email]:focus,.utrecht-html input[type=password]:focus,.utrecht-html input[type=search]:focus,.utrecht-html input[type=tel]:focus,.utrecht-html input[type=url]:focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-textbox--read-only,.utrecht-textbox--html-input:read-only,.utrecht-html input[type=text]:read-only,.utrecht-html input[type=email]:read-only,.utrecht-html input[type=password]:read-only,.utrecht-html input[type=search]:read-only,.utrecht-html input[type=tel]:read-only,.utrecht-html input[type=url]:read-only{border-color:var(--utrecht-textbox-read-only-border-color);color:var(--utrecht-textbox-read-only-color)}.utrecht-unordered-list,.utrecht-html ul{font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);line-height:var(--utrecht-document-line-height, inherit);padding-inline-start:2ch}.utrecht-unordered-list--distanced,.utrecht-html ul{margin-block-start:var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start));margin-block-end:var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end))}.utrecht-unordered-list--nested{margin-inline-start:2ch;margin-block-end:0}.utrecht-unordered-list__item,.utrecht-html ul>li{padding-inline-start:1ch;margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);margin-block-end:var(--utrecht-unordered-list-item-margin-block-end)}.utrecht-unordered-list__item::marker,.utrecht-html ul>li::marker,.utrecht-unordered-list__marker{color:var(--utrecht-unordered-list-marker-color);content:\"●\"}";
 
 const HTMLContent = class extends HTMLElement {
   constructor() {
@@ -36159,7 +36556,91 @@ const HTMLContent = class extends HTMLElement {
   static get style() { return htmlCss; }
 };
 
-const bemCss$3 = ".utrecht-page-footer{font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-document-font-size);background-color:var(--utrecht-page-footer-background-color);background-image:var(--utrecht-page-footer-background-image);color:var(--utrecht-page-footer-color);padding-block-start:var(--utrecht-page-footer-padding-block-start);padding-inline-end:var(--utrecht-page-footer-padding-inline-end);padding-block-end:var(--utrecht-page-footer-padding-block-end);padding-inline-start:var(--utrecht-page-footer-padding-inline-start);--utrecht-document-color:currentColor;--utrecht-heading-color:currentColor;--utrecht-link-color:currentColor;--utrecht-link-focus-color:currentColor;--utrecht-link-hover-color:currentColor;--utrecht-link-active-color:currentColor;--utrecht-link-visited-color:currentColor}.utrecht-page-footer__address--reset-address{font-style:inherit;margin-block-start:0;margin-block-end:0}";
+const stencilCss$4 = "svg{width:var(--utrecht-icon-size, 100%);height:var(--utrecht-icon-size, 100%);color:var(--utrecht-icon-color, var(--utrecht-document-color, currentColor))}";
+
+const IconFacebook = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("svg", { xmlns: "http://www.w3.org/2000/svg", version: "1.1", viewBox: "0 0 38 38" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("title", null, "Facebook"), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("g", null, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { fill: "currentColor", d: "M25.868,20.809l0.687-5.323h-5.271v-3.398c0-1.541,0.43-2.592,2.641-2.592h2.815v-4.76 c-0.487-0.065-2.158-0.209-4.107-0.209c-4.065,0-6.845,2.481-6.845,7.037v3.925h-4.597v5.322h4.597v13.658h5.494V20.811h4.585 L25.868,20.809L25.868,20.809z" }))));
+  }
+  static get style() { return stencilCss$4; }
+};
+
+const stencilCss$3 = "svg{width:var(--utrecht-icon-size, 100%);height:var(--utrecht-icon-size, 100%);color:var(--utrecht-icon-color, var(--utrecht-document-color, currentColor))}";
+
+const IconInstagram = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("svg", { xmlns: "http://www.w3.org/2000/svg", version: "1.1", viewBox: "-7 -7 42 42" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("title", null, "Instagram"), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("g", null, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { "fill-rule": "nonzero", fill: "currentColor", d: "M13.4773109,2.42977292 C17.0848739,2.42977292 17.5159664,2.45248108 18.9226891,2.49789739 C20.2386555,2.56602187 20.9420168,2.77039529 21.4184874,2.95206056 C22.0537815,3.20185029 22.507563,3.49705635 22.9613445,3.95121951 C23.4378151,4.42809083 23.7327731,4.88225399 23.9596639,5.49537426 C24.1411765,5.97224558 24.3680672,6.67619849 24.4134454,7.99327166 C24.4815126,9.42388562 24.4815126,9.83263246 24.4815126,13.4432296 C24.4815126,17.0538267 24.4588235,17.4852817 24.4134454,18.8931876 C24.3453782,20.2102607 24.1411765,20.9142136 23.9596639,21.3910849 C23.710084,22.0269134 23.4151261,22.4810765 22.9613445,22.9352397 C22.4848739,23.412111 22.0310924,23.7073171 21.4184874,23.9343987 C20.9420168,24.1160639 20.2386555,24.3431455 18.9226891,24.3885618 C17.4932773,24.4566863 17.0848739,24.4566863 13.4773109,24.4566863 C9.8697479,24.4566863 9.43865546,24.4339781 8.03193277,24.3885618 C6.71596639,24.3204373 6.01260504,24.1160639 5.53613445,23.9343987 C4.90084034,23.6846089 4.44705882,23.3894029 3.99327731,22.9352397 C3.51680672,22.4583684 3.22184874,22.0042052 2.99495798,21.3910849 C2.81344538,20.9142136 2.58655462,20.2102607 2.54117647,18.8931876 C2.47310924,17.4625736 2.47310924,17.0538267 2.47310924,13.4432296 C2.47310924,9.83263246 2.49579832,9.40117746 2.54117647,7.99327166 C2.6092437,6.67619849 2.81344538,5.97224558 2.99495798,5.49537426 C3.19915966,4.90496215 3.49411765,4.45079899 3.97058824,3.97392767 C4.44705882,3.49705635 4.90084034,3.20185029 5.51344538,2.97476871 C5.98991597,2.79310345 6.69327731,2.56602187 8.0092437,2.52060555 C9.43865546,2.42977292 9.8697479,2.42977292 13.4773109,2.42977292 Z M13.4773109,0 C9.82436975,0 9.34789916,0.0227081581 7.91848739,0.0908326325 C6.48907563,0.136248949 5.4907563,0.36333053 4.6512605,0.703952902 C3.76638655,1.04457527 2.99495798,1.49873844 2.24621849,2.24810765 C1.49747899,2.99747687 1.04369748,3.76955425 0.703361345,4.65517241 C0.36302521,5.49537426 0.136134454,6.49453322 0.0680672269,7.92514718 C0,9.35576114 0,9.83263246 0,13.4886459 C0,17.1446594 0.0226890756,17.6215307 0.0907563025,19.0521447 C0.158823529,20.4827586 0.385714286,21.4592094 0.72605042,22.3221194 C1.06638655,23.2077376 1.54285714,23.9571068 2.29159664,24.706476 C3.04033613,25.4558452 3.78907563,25.9100084 4.67394958,26.2733389 C5.53613445,26.6139613 6.51176471,26.8410429 7.94117647,26.9091674 C9.37058824,26.9772918 9.84705882,27 13.5,27 C17.1529412,27 17.6294118,26.9772918 19.0588235,26.9091674 C20.4882353,26.8410429 21.4638655,26.6139613 22.3260504,26.2733389 C23.2109244,25.9327166 23.9596639,25.4558452 24.7084034,24.706476 C25.4571429,23.9571068 25.9109244,23.2077376 26.2739496,22.3221194 C26.6142857,21.4592094 26.8411765,20.4827586 26.9092437,19.0521447 C26.9773109,17.6215307 27,17.1446594 27,13.4886459 C27,9.83263246 26.9773109,9.35576114 26.9092437,7.92514718 C26.8411765,6.49453322 26.6142857,5.51808242 26.2739496,4.65517241 C25.9336134,3.76955425 25.4571429,3.02018503 24.7084034,2.27081581 C23.9596639,1.52144659 23.2109244,1.06728343 22.3260504,0.703952902 C21.4638655,0.36333053 20.4882353,0.136248949 19.0588235,0.0681244743 C17.6067227,0 17.1302521,0 13.4773109,0 Z" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { "fill-rule": "nonzero", fill: "currentColor", d: "M14,7 C10.1213115,7 7,10.1442623 7,14 C7,17.8786885 10.1442623,21 14,21 C17.8557377,21 21,17.8557377 21,14 C21,10.1213115 17.8786885,7 14,7 Z M14,18.5442623 C11.4983607,18.5442623 9.4557377,16.5016393 9.4557377,14 C9.4557377,11.4983607 11.4983607,9.4557377 14,9.4557377 C16.5016393,9.4557377 18.5442623,11.4983607 18.5442623,14 C18.5442623,16.5016393 16.5016393,18.5442623 14,18.5442623 Z" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("circle", { fill: "currentColor", cx: "21", cy: "6", r: "2" }))));
+  }
+  static get style() { return stencilCss$3; }
+};
+
+const stencilCss$2 = "svg{width:var(--utrecht-icon-size, 100%);height:var(--utrecht-icon-size, 100%);color:var(--utrecht-icon-color, var(--utrecht-document-color, currentColor))}";
+
+const IconLinkedin = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("svg", { xmlns: "http://www.w3.org/2000/svg", version: "1.1", viewBox: "-8 -8 43 43" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("title", null, "LinkedIn"), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("g", null, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { fill: "currentColor", "fill-rule": "nonzero", d: "M0.465517241,8.84482759 L6.05172414,8.84482759 L6.05172414,27 L0.465517241,27 L0.465517241,8.84482759 Z M3.25862069,0 C4.88793103,0 6.51724138,1.39655172 6.51724138,3.25862069 C6.51724138,5.12068966 4.88793103,6.51724138 3.25862069,6.51724138 C1.39655172,6.51724138 0,5.12068966 0,3.25862069 C0,1.39655172 1.39655172,0 3.25862069,0 Z" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { fill: "currentColor", d: "M9.31034483,8.84482759 L14.7351724,8.84482759 L14.7351724,11.4051724 C15.4427586,10.0086207 17.3296552,8.37931034 20.16,8.37931034 C25.8206897,8.37931034 27,12.1034483 27,16.9913793 L27,27 L21.3393103,27 L21.3393103,18.1551724 C21.3393103,16.0603448 21.3393103,13.2672414 18.2731034,13.2672414 C15.2068966,13.2672414 14.9710345,15.5948276 14.9710345,17.9224138 L14.9710345,26.7672414 L9.31034483,26.7672414 L9.31034483,8.84482759 Z" }))));
+  }
+  static get style() { return stencilCss$2; }
+};
+
+const stencilCss$1 = "svg{width:var(--utrecht-icon-size, 100%);height:var(--utrecht-icon-size, 100%);color:var(--utrecht-icon-color, var(--utrecht-document-color, currentColor))}";
+
+const IconTwitter = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("svg", { xmlns: "http://www.w3.org/2000/svg", version: "1.1", viewBox: "-2 -2 44 44" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("title", null, "Twitter"), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("g", null, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { fill: "currentColor", d: "M33.096,11.147c-1.017,0.451-2.107,0.756-3.255,0.892c1.171-0.701,2.069-1.811,2.492-3.134 c-1.094,0.649-2.306,1.121-3.599,1.375c-1.032-1.102-2.506-1.79-4.135-1.79c-3.129,0-5.667,2.537-5.667,5.666 c0,0.445,0.049,0.876,0.146,1.291c-4.709-0.235-8.883-2.491-11.678-5.92c-0.487,0.838-0.767,1.811-0.767,2.85 c0,1.965,1,3.701,2.52,4.715c-0.928-0.028-1.802-0.285-2.566-0.708v0.071c0,2.744,1.954,5.034,4.544,5.556 c-0.474,0.13-0.976,0.2-1.493,0.2c-0.364,0-0.72-0.037-1.065-0.104c0.721,2.25,2.813,3.889,5.292,3.936 c-1.938,1.52-4.381,2.425-7.037,2.425c-0.457,0-0.907-0.026-1.35-0.079c2.507,1.606,5.485,2.545,8.687,2.545 c10.419,0,16.119-8.632,16.119-16.12c0-0.245-0.006-0.49-0.016-0.734C31.374,13.282,32.334,12.284,33.096,11.147z" }))));
+  }
+  static get style() { return stencilCss$1; }
+};
+
+const stencilCss = "svg{width:var(--utrecht-icon-size, 100%);height:var(--utrecht-icon-size, 100%);color:var(--utrecht-icon-color, var(--utrecht-document-color, currentColor))}";
+
+const IconWhatsapp = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("svg", { xmlns: "http://www.w3.org/2000/svg", version: "1.1", viewBox: "-1 -1 22 22" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("title", null, "WhatsApp"), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("g", null, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { fill: "currentColor", d: "M15.6044722,4.1101875C14.1199846,2.6296256,12.1364012,1.8,10.0248451,1.8 c-4.3382888,0-7.8831434,3.5227177-7.8831434,7.8622961c0,1.3912182,0.358325,2.7313833,1.0493798,3.9311485 l-1.1133659,4.0715466l4.1719227-1.0976582c1.1517582,0.6254101,2.4442863,0.9572601,3.7624092,0.9572601l0,0 c4.3382883,0,7.8831434-3.5227184,7.8831434-7.8622971C17.9079876,7.581851,17.0889606,5.6035132,15.6044722,4.1101875z M10.0376415,16.2099552L10.0376415,16.2099552c-1.1773529,0-2.3291101-0.3190861-3.3400974-0.9062052l-0.2431493-0.140398     l-2.4826782,0.6509371l0.6654599-2.4122963l-0.1535673-0.2425051c-0.6526625-1.0338411-0.9981906-2.2463703-0.9981906-3.4716635     c0-3.599298,2.9433815-6.5348959,6.5522232-6.5348959c1.753231,0,3.3912878,0.6764636,4.6326265,1.9145205     s1.9195967,2.8717804,1.9195967,4.6203756C16.5770683,13.2743578,13.6464834,16.2099552,10.0376415,16.2099552z M13.6208887,11.3215475c-0.1919594-0.102107-1.1645555-0.5743561-1.3437176-0.6381731     c-0.179163-0.063818-0.3071356-0.102108-0.4479065,0.102107c-0.1279736,0.191452-0.5118923,0.6381741-0.6270685,0.7658091     c-0.1151752,0.127635-0.2303514,0.153161-0.4223108,0.051054c-0.1919594-0.102108-0.8318243-0.3063231-1.5868664-0.9700241     c-0.5758781-0.5360661-0.9725952-1.1742392-1.0877705-1.3784542c-0.1151757-0.191453-0.0127974-0.293561,0.0895805-0.395668     c0.0895815-0.089344,0.1919594-0.229743,0.2943382-0.344615c0.1023779-0.114871,0.1279736-0.1914511,0.1919584-0.3318501     c0.0767851-0.127634,0.038393-0.2425056-0.0127964-0.3446131C8.6171408,7.747776,8.2332211,6.7777524,8.0668554,6.3820848     C7.9132881,5.9991803,7.746923,6.0502348,7.6189494,6.0502348c-0.1151762,0-0.2431488-0.0127635-0.3711219-0.0127635     s-0.3455276,0.0510535-0.5246897,0.242506C6.5311785,6.4841924,6.032084,6.9564414,6.032084,7.926465     s0.7038522,1.9017563,0.8062305,2.0293922c0.1023784,0.127635,1.3821101,2.1187353,3.3656917,2.9611244     c0.4735012,0.204215,0.8318253,0.3190861,1.1261635,0.4084301c0.4735012,0.153162,0.895812,0.127635,1.2413397,0.076581     c0.3839197-0.051053,1.1645555-0.4722481,1.3309202-0.9317331c0.1663656-0.4594851,0.1663656-0.8551531,0.1151762-0.9317331     C13.953619,11.4619455,13.8256454,11.4108915,13.6208887,11.3215475z" }))));
+  }
+  static get style() { return stencilCss; }
+};
+
+const bemCss$6 = ".utrecht-logo{max-width:var(--utrecht-logo-max-width);max-height:var(--utrecht-logo-max-height)}.utrecht-logo__decoration-1{fill:var(--utrecht-logo-decoration-1-color, #fff)}.utrecht-logo__decoration-2{fill:var(--utrecht-logo-decoration-2-color, #c00)}.utrecht-logo__decoration-3{fill:var(--utrecht-logo-decoration-3-color, #ffb70b)}";
+
+const Logo = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("svg", { version: "1.1", class: "utrecht-logo", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 110.57 58.97" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("g", null, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { class: "utrecht-logo__decoration-1", d: "M72.13 35.46c.96-.47 1.84-1.04 2.61-1.7.17-.24.36-.42.58-.54 1.49-1.52 2.42-3.49 2.42-5.9v-2.15c-.06.02-.12.03-.19.03s-.14-.01-.21-.03l-.16.91c-1.48-.28-1.32-1.75-.32-2.25.57-.29.75-.5.58-.72a.227.227 0 00-.18-.09c-.21 0-.52.23-.82.45-.13.1-.3.15-.48.15-.39 0-.81-.25-.99-.84l-.52.29c-.09-1.11.6-1.66 1.3-1.66.33 0 .67.12.93.36.1.09.2.13.3.13.32 0 .54-.4.11-.63-.41-.22-.8-.9-.42-1.33l-.62-.58c.28-.17.58-.25.86-.25.3 0 .59.1.83.3v-7.84a.53.53 0 01-.41-.5c0-.3.18-.48.41-.57v-.65c-.47.1-.82.39-.96.79l-.66.01c-.03-.5.21-.95.72-1.12v-.65c-.43.09-.71.3-.88.49-.05.05-.09.11-.14.17l-.5.01c-.02-.48.22-.91.67-1.06v-.3H51.53v.3c.46.15.7.58.67 1.06l-.5-.01c-.04-.06-.09-.11-.14-.17-.17-.18-.46-.39-.88-.49v.65c.5.17.74.62.72 1.12l-.66-.01c-.14-.4-.49-.68-.96-.79v.65c.23.09.4.27.4.57 0 .26-.21.46-.4.5v7.83c.24-.2.52-.29.82-.29.29 0 .59.09.86.25l-.62.58c.37.44-.02 1.11-.42 1.33-.43.23-.2.63.11.63.1 0 .2-.04.3-.13.26-.24.6-.36.93-.36.7 0 1.39.54 1.3 1.66l-.54-.3c-.18.59-.6.84-.99.84-.18 0-.35-.05-.48-.15-.3-.22-.61-.45-.82-.45-.07 0-.14.03-.18.09-.16.22.01.44.58.72 1.01.5 1.17 1.97-.32 2.25l-.16-.91c-.07.02-.14.03-.21.03-.06 0-.12-.01-.18-.02v2.15c0 2.42.94 4.39 2.44 5.91.19.11.37.28.53.5.77.68 1.67 1.25 2.64 1.73h16.76z" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { class: "utrecht-logo__decoration-2", d: "M74.28 8.19H53.27l-.29.61h21.46l-.16-.61zm2.84 3.7v7.23c.22.04.43.13.61.28v-7.39l-.61-.12zm.22 13.28l-.16.91c-.02 0-.04-.01-.06-.01v1.26c0 1.69-.5 3.23-1.47 4.56-.24.32-.5.63-.79.93L51.07 9.01c-.11-.05-.24-.1-.39-.13v.65c.5.17.74.62.72 1.12l-.66-.01c-.14-.4-.49-.68-.96-.79v.65c.23.09.4.27.4.57 0 .26-.21.46-.4.5v7.78c.24-.2.53-.27.83-.27.29 0 .58.11.85.27l-.62.58c.37.44-.02 1.11-.42 1.33-.43.23-.2.63.11.63.1 0 .2-.04.3-.13.26-.24.6-.36.93-.36.7 0 1.39.54 1.3 1.66l-.54-.3c-.18.59-.6.84-.99.84-.18 0-.35-.05-.48-.15-.3-.22-.61-.45-.82-.45-.07 0-.14.03-.18.09-.16.22.01.44.58.72.96.48 1.15 1.86-.11 2.23l-.21.02-.16-.91c-.07.02-.14.03-.21.03-.06 0-.12-.01-.18-.02v2.15c0 2.13.73 3.91 1.92 5.34.01.01.02.02.02.03.04.05.09.1.13.15l.03.03c.05.06.1.11.15.17 0 0 0 .01.01.01.05.06.11.11.16.17l.01.01c.07.04.13.09.19.14.12.1.24.22.34.36.77.68 1.67 1.25 2.64 1.73.11.06.22.12.34.17 1.6.8 3.94 1.67 8.03 1.67s6.43-.87 8.03-1.67c.12-.06.23-.12.34-.17.96-.47 1.84-1.04 2.61-1.7l.06-.09c.01-.01.02-.02.03-.04.01-.01.02-.03.04-.04.01-.02.03-.03.04-.05.01-.01.01-.02.02-.02l.06-.06.01-.01.06-.06.01-.01c.02-.02.05-.04.07-.06.05-.04.1-.07.15-.1.01-.01.02-.01.03-.02 1.49-1.52 2.42-3.49 2.42-5.9v-2.12a.582.582 0 01-.37 0z" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { class: "utrecht-logo__decoration-1", d: "M78.15 1.4c0-.11-.01-.21-.02-.32h-1.51c-.01.86-.23 1.69-.61 2.34-.26.44-.57.77-.92.97h.11c1.63.01 2.95-1.33 2.95-2.99zm-1.53 5.73c-.12-.02-.23-.03-.35-.03-.09 0-.18.01-.27.02-.28.03-.56.12-.78.28-.25.18-.43.48-.44.8h.47c.21-.17.46-.29.73-.35v.65c-.46.15-.7.58-.67 1.06l.5-.01c.04-.06.09-.11.14-.17.17-.18.46-.39.88-.49v.65c-.5.17-.74.62-.72 1.12l.66-.01c.15-.42.52-.71 1.02-.8v.64c-.26.08-.47.26-.47.59 0 .29.26.5.47.5l-.02.55h.01c.14 0 .26-.04.39-.1.41-.22.57-.7.56-1.14l.6-.29c0 .02.01.04.01.07.05.37 0 .73-.12 1.04l1.13 1.07c.22-.54.51-1.05.86-1.52.13-.16.26-.32.4-.46-.49-.37-1.09-.83-1.29-.98-.63-.47-1.21-.99-1.81-1.5-.37-.31-.75-.62-1.15-.89-.23-.15-.48-.25-.74-.3zm10.49 19.85c.09.05.18.07.27.07.22 0 .43-.12.55-.31-.02-.11-.06-.23-.09-.34-.1-.3-.25-.59-.46-.87-.27-.36-.63-.69-1.11-.96-.07-.04-.15-.09-.24-.14.32.39.51.67.63.91.13.24.19.43.28.61a.655.655 0 00.17 1.03zm-46.27-1.65c.12-.23.31-.52.63-.91-.08.05-.17.1-.24.14-.48.27-.84.6-1.11.96-.21.28-.35.58-.46.87-.04.11-.07.23-.09.34.12.19.33.31.55.31.09 0 .18-.02.27-.07.33-.17.46-.61.23-.95a.55.55 0 00-.07-.09c.1-.17.16-.36.29-.6zM82.27 7.59c.12 0 .25-.01.38-.02-.39-.14-.7-.37-.9-.69-.28-.43-.32-.89-.21-1.3-.02 0-.04.01-.06.01-.47.1-.71.46-.62.94.13.72.58 1.06 1.41 1.06zm5.71 20.21c.01-.1.02-.2.02-.31a1.222 1.222 0 01-1.19.03c-.35-.18-.59-.51-.66-.9-.05-.25-.02-.51.08-.74 0 0 0-.01-.01-.01-.27-.05-.57-.09-.9-.13-.55-.06-1.05-.09-1.51-.09-4.3 0-4.65 2.36-4.65 2.36-.67 2.51 1.34 3.64 1.34 3.64s.46 2.29-.56 3.16l-1.06-.36-.53-.18-.3-.1c-.48-.68-1.26-1.16-2-1.16-.72 0-1.41.46-1.75 1.65l.75-.16c0 .77.25.97.64.97.08 0 .17-.01.26-.02.11-.02.22-.04.34-.06.37-.07.64-.15.83-.15.18 0 .3.07.37.26.1.29-.18.47-.54.56-.88.2-1.38.82-1.22 1.65.04.19.1.38.21.59.04.09.09.17.15.26 0 0 .01 0 .01.01l.87-.53c.13.13.28.18.43.18.33 0 .65-.24.77-.45l.03-.06c.1-.2.11-.43.11-.64 0-.12-.01-.24-.01-.35 0-.13 0-.24.03-.32a.55.55 0 01.32-.33.432.432 0 01.42.06c.21.15.21.38.18.61-.03.24-.07.46.06.66.01.02.02.03.03.05.05.06.11.12.17.17.04.03.22.16.22.21l-.09 1.06c.56-.04 1.18-.16 1.48-.67.06-.1.11-.23.14-.36.11-.39.16-.87.22-1.54.25-.1.47-.23.66-.4.24-.21.43-.47.54-.8.3-.9.56-2.7.16-4.6 0 0 4.03-.5 4.9-.94.08-.61.16-1.22.24-1.78zM84.43 4.6s-.55.33-.44.85c.18.38.41.77.7 1.11l.56-.56c.66-.61 1.24-.83 1.72-.83.63 0 1.07.4 1.25.86.28.7.25 1.26.15 1.62-.08.27-.3.49-.8.53-.09.01-.19.01-.29.01-1.03 0-2.38-.37-2.38-.37-.21 1.12-.34 1.34 1.26 1.34.37 0 .83-.01 1.4-.03l-1.6.73c-.18-.01-.35-.02-.52-.02-1.18 0-2.12.35-2.86.92-.17.13-.33.27-.48.42-.57.58-.98 1.3-1.27 2.06-.08.22-.15.44-.21.66-.31 1.16-.35 2.37-.19 3.34.12-.15.24-.29.38-.43l.07-.07c.48-.47 1.29-1.28 2.26-1.78.36-.32.7-.64 1.03-.99.71-.75 1.34-1.58 1.81-2.52-.29 1.01-.78 1.98-1.36 2.87-.23.35-.47.69-.72 1.02-.22.09-.42.19-.62.31-.85.48-1.57 1.22-1.99 1.64-.25.24-.45.51-.64.79-.15.22-.28.44-.42.67-.1.17-.21.35-.31.52-.45.73-1.05 1.45-1.39 1.45-.12 0-.21-.09-.25-.29-.18-.91-.75-1.31-1.37-1.31-.29 0-.59.09-.86.25l.62.58c-.37.44.02 1.11.42 1.33.43.23.2.63-.11.63-.1 0-.2-.04-.3-.13-.26-.24-.6-.36-.93-.36-.7 0-1.39.54-1.3 1.66l.54-.3c.18.59.6.84.99.84.18 0 .35-.05.48-.15.3-.22.61-.45.82-.45.07 0 .14.03.18.09.16.22-.01.44-.58.72-1.01.5-1.17 1.97.32 2.25l.16-.91c.07.02.14.03.21.03.43 0 .73-.38.78-.66.07-.41.05-.66.07-.92.01-.23.16-.33.31-.33.18 0 .36.13.38.36.03.43.02.99.78 1.12l.24.77c.72-.25 1.44-1.08.13-2.48-.02-.71.73-1.12 1.78-1.71.18-.1.37-.21.56-.32l.3-.18c.21-.13 1.02-.72 1.73-1.33l.62.33c-.13.11-.27.23-.43.37-.64.53-1.33 1.05-1.59 1.2l-.15.09c.68.63 1.41 1.18 2.07 1.62.27.18.53.35.77.5s.47.28.66.39c.53.3.95.67 1.27 1.09.21.27.37.56.49.85.12.28.2.57.24.86.02.1.03.19.04.29.02.27.01.53-.02.78-.04.27-.07.54-.11.81-.05.41-.09.81-.12 1.22-.04.48-.06.95-.06 1.42 0 1.44.22 2.47 1.22 3.45.72.71 1.73.88 2.71.95.51.03 1.94.24 2.91.39.56.08.98.55 1.01 1.12.04.77.03 1.78-.24 2.12l-1.32-.18c-.31-.46-1.05-.82-1.77-.82-.56 0-1.11.22-1.42.8-.09.17-.17.37-.21.61l-.03.22.42-.17.24-.1c.01.06.02.11.03.16.14.58.44.79.8.79a1.602 1.602 0 00.61-.15c.34-.14.58-.25.76-.25.12 0 .21.05.29.19.11.19 0 .35-.19.48-.06.04-.14.08-.21.11-1.01.42-1.3 1.4-.37 2.42l.7-.62c.11.07.22.1.32.1.34 0 .65-.31.73-.54.13-.35-.01-.75-.06-1.04-.01-.08-.02-.16-.01-.22a.49.49 0 01.26-.36.414.414 0 01.37-.01c.06.03.11.07.15.12.09.11.11.26.11.41 0 .08 0 .17.01.25.02.14.06.27.18.38.06.05.12.09.18.13.04.02.23.11.24.15l.09.98c.7-.17 1.47-.51 1.28-1.6-.03-.18-.09-.39-.19-.62-.03-.08-.07-.17-.12-.26.61-.3 1.01-.87 1.11-1.54.09-.61-.01-2.78-.08-4.02-.03-.5-.41-.91-.9-.98-.56-.08-1.28-.19-1.81-.3-.84-.18-1.65-.55-1.84-1.15-.16-.52-.07-.58-.02-1.11.04-.41.09-.83.12-1.24 0-.06.01-.13.01-.19.01-.24 0-.49-.03-.73l.15.09c.16.09.33.15.5.2.19.05.38.07.58.07.42 0 .83-.11 1.2-.34.67-.41 1.06-1.12 1.04-1.9-.03-1.39-.82-2.37-1.58-3.32-.36-.45-.74-.92-1.02-1.42-.89-1.6-1.1-3.34-.62-5.17.21-.8.69-1.52 1.2-2.29.19-.29.37-.56.55-.86 0 0 .4.18.66.12a.84.84 0 00.22-.1c.61-.38 1.26-1.93 1.23-3.79-.02-1.48-.37-2.71-1.06-3.72.15.42.28.86.36 1.3.09.48.12.98.09 1.46-.03.49-.13.96-.29 1.4.07-.47.07-.94.01-1.4s-.18-.9-.35-1.32a7.15 7.15 0 00-.54-1.07c.14.86.14 1.73-.09 2.81-.14.67-.43 1.31-.68 1.87-.23.51-.4.92-.47 1.26-.08.37-.03.65.22.88-.04.07-.09.14-.13.21-.11.17-.23.35-.35.53-.52.79-1.06 1.6-1.3 2.52-.52 2-.28 3.98.69 5.73.31.56.71 1.05 1.09 1.53.71.89 1.39 1.73 1.42 2.87.01.52-.24.97-.68 1.24-.46.28-1.01.3-1.48.07-.01-.01-.03-.01-.04-.02-.36-.19-.68-.55-.87-.97-.01-.02-.01-.04-.02-.06-.23-.67-.51-1.33-.83-1.96-.94-1.88-2.11-3.64-2.85-5.62-.64-1.7-.35-3.77-.35-3.77.65.26 1.6.29 1.6.29-.03-2.12 4.52-7.04 1.75-13.04-.19.31-.44.63-.79.96l-.25.24v-.87c1.45-1.5.78-2.93.24-3.41-.41.15-.88.6-1.23 1.15l-.61-.2c.15-.25.32-.49.51-.71a.455.455 0 00-.19-.08c-.03 0-.07-.01-.12-.01-.91 0-4.33.79-4.67.97l-.27.92c-.93.25-1.79.75-2.4 1.08.05.26.33.85.9.78zm6.79 5.87c.25-.69.45-1.4.61-2.12-.08.74-.19 1.47-.36 2.2s-.4 1.44-.67 2.14-.58 1.38-.9 2.05c-.26.53-.53 1.05-.8 1.57a4.62 4.62 0 01-.88-.4c.77-1.11 1.51-2.24 2.13-3.43.33-.65.63-1.32.87-2.01zm-2.63 1.09c-.16.48-.32.97-.52 1.45s-.45.95-.71 1.39l-.48.81c-.34-.12-.68-.19-1.01-.21.29-.34.59-.69.87-1.03.32-.39.61-.78.88-1.19.26-.42.5-.86.73-1.31s.45-.91.68-1.36c-.14.48-.29.97-.44 1.45zm-.2-8.65c-.7.69-.93 1.11-.93 1.11-.93.04-1.13-.55-1.13-1.13.91.25 2.06.02 2.06.02zm-12.4 2.12H51.55v1.46c.33.03.75.14 1.12.4.42.31.68.79.69 1.28v.02h20.79v-.02c.01-.49.27-.97.69-1.28.38-.28.82-.38 1.15-.41V5.03zM56.67 7.66l-2.01-1 2.01-1 2.01 1-2.01 1zm7.09-.11c-.98 0-1.78-.4-1.78-.89s.8-.89 1.78-.89 1.78.4 1.78.89-.8.89-1.78.89zm7.09.11l-2.01-1 2.01-1 2.01 1-2.01 1zM49.98 35.5c.07-.19.19-.26.37-.26.19 0 .46.07.83.15.12.02.23.04.34.06.09.01.18.02.26.02.39 0 .64-.19.64-.97l.75.16c-.34-1.19-1.03-1.65-1.75-1.65-.74 0-1.52.49-2 1.16l-.3.1-.51.2-1.06.36c-1.03-.87-.56-3.16-.56-3.16s2.01-1.13 1.34-3.64c0 0-.35-2.36-4.65-2.36-.46 0-.96.03-1.51.09-.33.04-.63.08-.9.13 0 0 0 .01-.01.01.1.23.13.49.08.74a1.252 1.252 0 01-1.22 1.04c-.22 0-.43-.06-.63-.17 0 .11.01.21.02.31.08.56.16 1.16.21 1.79.87.44 4.9.94 4.9.94-.39 1.9-.14 3.7.16 4.6.11.33.3.59.54.8.19.17.41.3.66.4.05.66.1 1.15.22 1.54.03.14.08.26.14.36.3.51.92.63 1.48.67l-.09-1.06c0-.05.19-.18.22-.21.06-.05.12-.11.17-.17.01-.02.02-.03.03-.05.13-.21.09-.43.06-.66-.03-.23-.03-.46.18-.61a.432.432 0 01.42-.06c.14.05.27.17.32.33.03.08.03.19.03.32 0 .11-.01.23-.01.35 0 .21.02.44.11.64l.03.06c.12.2.44.45.77.45.15 0 .3-.05.43-.18l.87.53s.01 0 .01-.01c.06-.09.1-.18.15-.26.1-.21.17-.4.21-.59.16-.84-.34-1.45-1.22-1.65-.34-.11-.63-.29-.53-.59zm32.74 4.63c-.24-.37-.53-.63-.8-.83-.1-.06-.2-.11-.31-.17l-.28-.14c-.48.41-1.13.51-1.61.54l-.73.05.06-.73.06-.76c-.08-.07-.16-.15-.24-.25 0-.01-.01-.01-.01-.02-.03.09-.07.18-.12.26-.22.38-.74.76-1.31.76-.15 0-.29-.03-.43-.08l-.33.2c.02.02.05.04.07.06 1.07.99 1.87 1.1 3.23 1.41.92.21 1.78.74 2.07 1.69.17.55.14 1.15.11 1.72 0 0 1.88-1.07.88-3.18-.08-.15-.19-.34-.31-.53zm-12.83-.73c-.59-.6-1.22-1.11-1.85-1.41a7.15 7.15 0 00-1.53-.53c-.32-.07-.63-.12-.92-.15-.17-.02-.33-.03-.49-.04-.42.02-.87.03-1.34.03-.47 0-.92-.01-1.34-.03a8.358 8.358 0 00-1.42.19c-.49.11-1.01.28-1.53.53-.63.31-1.26.81-1.85 1.41-.04.04-.07.07-.1.11-1.28 1.39-.94 2.75-.94 2.75s1.64-2.18 4.09-2.18c1.17 0 2.18.39 2.7.65l.38.2.38-.2c.52-.25 1.53-.65 2.7-.65 2.45 0 4.09 2.18 4.09 2.18s.35-1.36-.94-2.75a.73.73 0 00-.09-.11zm-12.72-.44c.97-.98 2.04-1.6 3.01-1.93-.88-.14-1.63-.32-2.3-.53-.07 0-.14-.01-.21-.01-.21 0-.42.01-.61.03-.56.07-1.09.17-1.6.17-1.33 0-2.5-.2-3.45-.46.1.13.19.27.25.43.15.37.18.79.09 1.22l.11.03c.18.04.35.08.49.1.27.05.43.06.43.06s-.24.13-.58.36c-.41.28-.96.7-1.43 1.21-2.21 2.43.23 4.27.23 4.27s-.54-2.39.61-3.15c1.84-1.2 2.82-.17 4.88-1.74.03 0 .05-.03.08-.06zm-6.33.02l-.33-.2c-.13.05-.28.08-.43.08-.58 0-1.1-.38-1.31-.76-.05-.09-.09-.17-.12-.26 0 .01-.01.01-.01.02-.08.1-.16.18-.24.25l.06.76.06.73-.73-.05c-.48-.03-1.12-.13-1.61-.54l-.28.14c-.11.06-.21.11-.31.17-.28.2-.56.46-.8.83-.13.19-.23.37-.31.55-1 2.11.88 3.18.88 3.18-.03-.57-.05-1.17.11-1.72.29-.95 1.15-1.47 2.07-1.69 1.37-.32 2.16-.42 3.23-1.41.03-.04.05-.06.07-.08zm23.87-.53c-.34-.23-.58-.36-.58-.36s.17-.02.43-.06c.14-.02.31-.06.49-.1.03-.01.07-.02.11-.03-.09-.43-.06-.85.09-1.22.06-.15.15-.3.25-.43-.95.26-2.12.46-3.45.46-.51 0-1.04-.11-1.6-.17-.19-.02-.4-.03-.61-.03h-.2c-.67.21-1.43.39-2.3.53.97.33 2.04.94 3.01 1.93.03.03.05.05.07.08 2.06 1.57 3.04.54 4.88 1.74 1.15.75.61 3.15.61 3.15s2.43-1.84.23-4.27c-.47-.52-1.03-.95-1.43-1.22zm24.01 3.11c.07.43.03.81-.13 1.15-.34.72-1.09.98-1.62 1.12l-.71.18-.07-.73-.07-.68c-.06-.04-.13-.09-.19-.14-.01.06-.03.12-.05.18-.17.47-.71.95-1.32.95-.06 0-.12 0-.18-.01l-.43.38-.46.41-.42-.46c-.59-.64-.83-1.36-.68-2.02.05-.21.13-.41.25-.59-.37 0-.7-.14-.95-.4-.09-.1-.18-.21-.24-.34l-.04.01-.97.4.11-1.04c0-.04.01-.07.01-.11-.43.07-.95.23-1.61.48-.09.05-.19.09-.28.12-.05.02-.09.04-.14.05.21.12.42.24.61.36.95.61 1.6 1.27 1.94 1.96.21.22.44.46.69.73 1.03 1.1 2.42 1.61 3.85 1.61 2.45 0 4.98-1.51 5.87-4.17-.01.01-1.22.42-2.77.6zm-9.97-.22c-1.27-.8-2.67-1.25-2.67-1.25.25.02.48.03.7.03.55 0 1-.07 1.37-.18.21-.06.4-.14.56-.22 1.17-.6 1.21-1.67 1.21-1.67-.93.63-1.75.85-2.51.85-.98 0-1.87-.35-2.78-.61-.27-.08-.54-.11-.8-.11-.75 0-1.4.28-1.77.48.47.29.87.66 1.18 1.13.12.19.23.38.32.56.3.41.49.77.79 1.01.69.58 1.65.7 2.52.76 2.64.2 3.72 2.58 3.72 2.58.22-.55.18-1.07-.03-1.54-.33-.72-1.04-1.33-1.81-1.82zm-43.31-2.68c-.37-.2-1.01-.48-1.77-.48-.26 0-.52.03-.8.11-.92.26-1.8.61-2.78.61-.76 0-1.58-.21-2.51-.85 0 0 .05 1.07 1.21 1.67.16.08.35.16.56.22.37.11.83.18 1.37.18.22 0 .45-.01.7-.03 0 0-1.4.45-2.67 1.25-.77.49-1.48 1.1-1.8 1.82-.21.47-.25.98-.03 1.54 0 0 1.07-2.38 3.72-2.58.87-.07 1.82-.19 2.52-.76.3-.25.49-.61.79-1.01.09-.19.2-.37.32-.56.3-.47.7-.85 1.17-1.13zm-15.72 2.08c-.04.09-.08.18-.12.26-.09.23-.16.43-.19.62-.2 1.09.58 1.43 1.28 1.6l.09-.98c.01-.04.2-.13.24-.15.06-.04.13-.08.18-.13a.59.59 0 00.18-.38c.01-.08.01-.16.01-.25.01-.15.03-.3.11-.41.04-.05.08-.09.15-.12a.414.414 0 01.37.01c.13.07.24.2.26.36.01.06 0 .14-.01.22-.05.29-.19.69-.06 1.04.08.23.39.54.73.54.11 0 .21-.03.32-.1l.7.62c.93-1.02.64-2-.37-2.42-.08-.03-.15-.07-.21-.11-.19-.13-.3-.3-.19-.48.08-.14.17-.19.29-.19.18 0 .41.11.76.25a1.602 1.602 0 00.61.15c.36 0 .65-.21.8-.79l.03-.16.24.1.42.17-.03-.22c-.04-.24-.12-.44-.21-.61-.31-.57-.86-.8-1.42-.8-.72 0-1.46.36-1.77.82l-1.32.18c-.27-.34-.28-1.34-.24-2.12.03-.57.45-1.03 1.01-1.12.96-.14 2.4-.35 2.91-.39.97-.07 1.98-.24 2.71-.95 1-.99 1.22-2.02 1.22-3.45 0-.47-.02-.94-.06-1.42-.03-.41-.08-.82-.12-1.22-.03-.27-.07-.54-.11-.81a3.38 3.38 0 01.02-1.07c.05-.29.13-.57.24-.86.12-.3.29-.58.49-.85.32-.42.74-.79 1.27-1.09.19-.11.42-.24.66-.39s.5-.31.77-.5c.66-.44 1.39-.99 2.07-1.62l-.15-.09c-.25-.15-.94-.66-1.59-1.2-.16-.13-.3-.25-.43-.37l.62-.33c.72.61 1.52 1.21 1.73 1.33l.3.18c.19.11.38.22.56.32 1.05.6 1.8 1.01 1.78 1.71-1.3 1.4-.59 2.23.13 2.48l.24-.77c.76-.13.75-.69.78-1.12.02-.23.2-.36.38-.36.15 0 .3.1.31.33.02.25 0 .51.07.92.05.28.35.66.78.66.07 0 .14-.01.21-.03l.16.91c1.48-.28 1.32-1.75.32-2.25-.57-.29-.75-.5-.58-.72.05-.07.11-.09.18-.09.21 0 .52.23.82.45.13.1.3.15.48.15.39 0 .81-.25.99-.84l.54.3c.09-1.11-.6-1.66-1.3-1.66-.33 0-.67.12-.93.36-.1.09-.2.13-.3.13-.32 0-.54-.4-.11-.63.41-.22.8-.9.42-1.33l.62-.58c-.28-.17-.58-.25-.86-.25-.62 0-1.19.4-1.37 1.31-.04.21-.13.29-.25.29-.34 0-.94-.73-1.39-1.45-.11-.17-.21-.35-.31-.52-.13-.23-.27-.45-.42-.67-.19-.28-.39-.55-.64-.79-.42-.42-1.15-1.15-1.99-1.64-.2-.11-.41-.22-.62-.31-.25-.33-.5-.67-.72-1.02-.59-.9-1.08-1.86-1.36-2.87.46.95 1.1 1.78 1.81 2.52.33.35.67.67 1.03.99.97.5 1.78 1.31 2.26 1.78l.07.07c.14.14.27.28.38.43.16-.98.12-2.19-.19-3.34-.06-.22-.13-.45-.21-.66-.29-.77-.7-1.49-1.27-2.06a4.81 4.81 0 00-.48-.42c-.74-.57-1.68-.92-2.86-.92-.17 0-.34.01-.52.02l-1.6-.73c.57.01 1.03.03 1.4.03 1.6 0 1.47-.22 1.26-1.34 0 0-1.35.37-2.38.37-.1 0-.2 0-.29-.01-.5-.04-.72-.26-.8-.53-.1-.36-.13-.92.15-1.62.18-.46.62-.86 1.25-.86.48 0 1.06.23 1.72.83l.56.56c.29-.34.52-.73.7-1.11.12-.52-.44-.85-.44-.85.57.07.85-.52.94-.79-.61-.33-1.48-.83-2.4-1.08l-.27-.92C41 1.64 37.58.85 36.68.85c-.05 0-.08 0-.12.01-.07.01-.14.04-.19.08.19.21.36.45.51.71l-.61.2C35.93 1.3 35.46.84 35.04.7c-.55.48-1.21 1.91.24 3.41v.87l-.25-.24c-.35-.33-.6-.65-.79-.96-2.77 6 1.78 10.92 1.75 13.04 0 0 .95-.03 1.6-.29 0 0 .29 2.07-.35 3.77-.74 1.98-1.91 3.74-2.85 5.62-.32.64-.6 1.29-.83 1.96-.01.02-.01.04-.02.06-.19.41-.51.77-.87.97-.01.01-.03.01-.04.02-.47.24-1.02.21-1.48-.07-.45-.27-.69-.73-.68-1.24.03-1.14.7-1.98 1.42-2.87.38-.48.78-.97 1.09-1.53.97-1.75 1.21-3.73.69-5.73-.24-.92-.78-1.73-1.3-2.52l-.35-.53c-.05-.07-.09-.14-.13-.21.25-.23.3-.51.22-.88-.07-.34-.25-.75-.47-1.26-.25-.56-.54-1.2-.68-1.87-.23-1.08-.23-1.95-.09-2.81-.21.34-.39.7-.54 1.07-.17.42-.29.86-.35 1.32s-.06.93.01 1.4c-.16-.44-.26-.92-.29-1.4-.03-.49 0-.98.09-1.46.08-.44.2-.88.36-1.3-.69 1.01-1.04 2.24-1.06 3.72-.02 1.86.62 3.42 1.23 3.79.08.05.15.08.22.1.26.06.66-.12.66-.12.18.3.36.57.55.86.51.77.99 1.5 1.2 2.29.47 1.83.27 3.57-.62 5.17-.28.5-.65.97-1.02 1.42-.76.95-1.55 1.93-1.58 3.32-.02.78.37 1.49 1.04 1.9.36.22.78.34 1.2.34.19 0 .39-.03.58-.07.17-.05.34-.11.5-.2l.15-.09c-.03.24-.04.49-.03.73 0 .06.01.13.01.19.03.41.09.83.12 1.24.05.53.14.59-.02 1.11-.19.6-1 .96-1.84 1.15-.53.12-1.25.23-1.81.3-.5.07-.87.48-.9.98-.07 1.23-.17 3.41-.08 4.02.06.68.46 1.25 1.07 1.55zM41.18 2.89c0 .57-.21 1.17-1.13 1.13 0 0-.24-.42-.93-1.11-.01 0 1.14.23 2.06-.02zm-2.03 8.58c.23.45.47.89.73 1.31.27.42.56.81.88 1.19.28.34.58.69.87 1.03-.33.02-.66.09-1.01.21l-.48-.81c-.26-.44-.5-.91-.71-1.39-.2-.48-.37-.96-.52-1.45-.16-.48-.3-.97-.44-1.46.23.46.45.92.68 1.37zm-1.54 3.27c-.33-.67-.64-1.35-.9-2.05-.27-.7-.49-1.42-.67-2.14-.17-.73-.29-1.46-.36-2.2.16.72.36 1.43.61 2.12s.55 1.36.88 2.01c.62 1.19 1.36 2.32 2.13 3.43-.33.19-.63.32-.88.4-.28-.52-.55-1.04-.81-1.57zM56.52 2.97h.69c.18.58.47 1.07.83 1.43h1.4c-.35-.2-.67-.53-.92-.97-.38-.65-.6-1.48-.61-2.34h-1.98c-.01.86-.23 1.69-.61 2.34-.26.44-.57.77-.92.97h1.31c.34-.36.63-.85.81-1.43zM52.48 4.4h.15c-.35-.2-.67-.53-.92-.97-.38-.65-.6-1.48-.61-2.34h-1.55c-.01.09-.01.18-.01.28-.02 1.64 1.34 3.03 2.94 3.03zm10.94-1.43h.69c.18.58.47 1.07.83 1.43h1.49c-.35-.2-.66-.53-.92-.97-.38-.65-.6-1.48-.61-2.34h-2.16c-.01.86-.23 1.69-.61 2.34-.26.44-.57.77-.92.97h1.4c.34-.36.63-.85.81-1.43zM38.37 40.84c.19-.12.39-.24.61-.36-.05-.02-.09-.04-.14-.05-.1-.04-.19-.08-.28-.12-.66-.26-1.18-.41-1.61-.48 0 .04.01.07.01.11l.11 1.04-.97-.4-.04-.01c-.07.13-.15.24-.24.34-.25.26-.58.4-.95.4.12.18.2.38.25.59.15.66-.1 1.38-.68 2.02l-.42.46-.46-.41-.43-.38c-.06.01-.12.01-.18.01-.61 0-1.15-.48-1.32-.95-.02-.06-.04-.12-.05-.18-.06.05-.13.1-.19.14l-.07.68-.07.73-.71-.18c-.53-.13-1.28-.4-1.62-1.12-.16-.34-.2-.72-.13-1.15-1.55-.18-2.77-.59-2.77-.59.89 2.67 3.42 4.17 5.87 4.17 1.43 0 2.83-.51 3.85-1.61.25-.26.47-.51.69-.73.34-.7.99-1.36 1.94-1.97zM70.43 2.97h.69c.18.58.47 1.07.83 1.43h1.37c-.35-.2-.67-.53-.92-.97-.38-.65-.6-1.48-.61-2.34h-2.05c-.01.86-.23 1.69-.61 2.34-.26.44-.57.76-.92.97h1.4c.35-.36.64-.85.82-1.43zM46.3 11.25c.35.46.64.98.86 1.52l1.13-1.08c-.12-.31-.16-.67-.12-1.04 0-.02.01-.04.01-.07l.6.29c-.02.45.15.92.56 1.14.13.07.24.1.39.1h.01l-.02-.55c.2 0 .47-.21.47-.5 0-.33-.21-.51-.47-.59v-.64c.5.09.87.39 1.02.8l.66.01c.03-.5-.21-.95-.72-1.12v-.65c.43.09.71.3.88.49.05.05.09.11.14.17l.5.01c.02-.48-.22-.91-.67-1.06v-.65c.28.06.52.17.73.35h.47c-.01-.31-.19-.61-.44-.8-.21-.15-.48-.24-.75-.28-.1-.01-.21-.02-.31-.02-.11 0-.21.01-.32.03-.27.04-.54.15-.77.3-.4.27-.78.58-1.15.89-.6.5-1.18 1.03-1.81 1.5-.2.15-.81.61-1.29.98.15.16.28.31.41.47zm.35-4.72c.09-.48-.15-.83-.62-.94-.02 0-.04-.01-.06-.01.11.41.06.86-.21 1.3-.2.31-.51.55-.9.69.13.02.26.02.38.02.83 0 1.28-.34 1.41-1.06z" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { class: "utrecht-logo__decoration-3", d: "M0 .46h6.7v56.91H0z" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("ellipse", { class: "utrecht-logo__decoration-2", cx: "63.76", cy: "6.66", rx: "1.78", ry: ".89" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { class: "utrecht-logo__decoration-2", d: "M58.67 6.66l-2-1.01-2.01 1.01 2.01 1zm14.19 0l-2.01-1.01-2 1.01 2 1z" }), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("path", { class: "utrecht-logo__decoration-2", d: "M101.29 40.38c-.02.01-1.19.39-2.67.56.48-.41.8-.99.9-1.65.07-.5.05-1.9-.08-4.14-.04-.8-.65-1.46-1.44-1.56-.74-.1-1.35-.2-1.76-.29-.85-.19-1.31-.5-1.37-.72-.08-.24-.07-.27-.04-.49.01-.1.03-.22.05-.38.02-.18.03-.35.06-.54.03-.23.05-.47.07-.71v-.04c.19.04.39.06.58.06.53 0 1.06-.14 1.52-.43.86-.53 1.36-1.44 1.34-2.45-.04-1.6-.93-2.72-1.72-3.7-.36-.45-.71-.88-.96-1.33-.81-1.46-1-3.04-.56-4.71.18-.69.63-1.38 1.11-2.1.1-.15.2-.31.3-.46.07.01.14.02.21.02.3 0 .55-.1.73-.21 1.15-.71 1.55-3.03 1.53-4.33-.03-2.72-1.1-4.68-3.25-5.99l-.74-.45.28.82c.65 1.89 1 3.06.59 4.96-.13.61-.39 1.19-.64 1.75-.39.88-.77 1.73-.44 2.42-.08.12-.16.25-.24.37-.55.83-1.12 1.69-1.38 2.71-.56 2.16-.3 4.3.75 6.19.33.6.75 1.12 1.15 1.62.67.84 1.26 1.56 1.28 2.49.01.39-.24.6-.38.69-.28.17-.61.18-.9.03-.23-.12-.45-.36-.59-.64-.22-.65-.5-1.33-.88-2.08-.34-.68-.71-1.35-1.07-2-.66-1.2-1.29-2.33-1.75-3.56-.35-.95-.39-2.04-.37-2.74.5.09.94.11 1.02.11l.65.02-.01-.65c-.01-.49.38-1.34.82-2.33 1.21-2.68 3.04-6.72.69-11.35-.02-.03-.03-.07-.05-.1.1-.32.13-.61.12-.85-.01-.89-.45-1.59-.85-1.95l-.28-.25-.35.12c-.23.08-.45.22-.67.39-.15-.14-.34-.24-.56-.27-.06-.01-.12-.01-.2-.01-.97 0-4.5.8-4.96 1.04l-.24.12-.08.26-.17.59c-.78.26-1.49.65-2.02.94-.07.04-.14.08-.21.11l-.4.22.09.45c.01.07.36 1.83 1.38 3.02l.05.05c-.25.02-.47.04-.67.04-.61 0-1.09-.18-1.32-.54-.36-.56-.1-1.16.32-1.47-.23-.1-.45-.16-.72-.16-.16 0-.34.02-.54.07-.8.18-1.25.85-1.1 1.66.17.97.85 1.57 2.03 1.57.24 0 .49-.02.77-.07.4-.07.81-.19 1.22-.32 0 .02-.01.03-.01.05-.1.56-.19 1.04.12 1.43-.86.16-1.64.52-2.3 1.06-.54-.41-1.27-.96-1.38-1.05-.43-.32-.83-.67-1.26-1.03-.17-.15-.35-.3-.53-.45-.37-.31-.77-.63-1.2-.93-.32-.22-.69-.36-1.09-.41V4.73a3.643 3.643 0 002.16-3.32c0-.33-.04-.64-.13-.94h-2.69c.02.18.03.36.03.55 0 1.6-.8 3.01-1.79 3.01s-1.79-1.41-1.79-3.01c0-.19.01-.37.03-.55h-3.37c.02.18.03.36.03.55 0 1.6-.8 3.01-1.79 3.01s-1.79-1.41-1.79-3.01c0-.19.01-.37.03-.55h-3.48c.02.18.03.36.03.55 0 1.6-.8 3.01-1.79 3.01s-1.79-1.41-1.79-3.01c0-.19.01-.37.03-.55h-3.29c.02.18.03.36.03.55 0 1.6-.8 3.01-1.79 3.01s-1.79-1.41-1.79-3.01c0-.19.01-.37.03-.55h-2.73c-.08.29-.12.59-.12.9 0 1.42.83 2.69 2.02 3.29V6.5c-.4.05-.79.19-1.12.42-.43.29-.83.62-1.2.93-.18.15-.35.3-.53.45-.43.36-.83.71-1.26 1.03-.11.08-.84.63-1.38 1.05-.66-.54-1.43-.9-2.3-1.06.31-.4.22-.88.12-1.43 0-.01-.01-.03-.01-.05.41.14.82.25 1.22.32.28.05.53.07.77.07 1.18 0 1.86-.6 2.03-1.57.15-.81-.3-1.48-1.1-1.66-.2-.04-.38-.07-.54-.07-.27 0-.49.06-.72.16.42.31.68.91.32 1.47-.23.37-.72.54-1.32.54-.21 0-.43-.02-.65-.06l.05-.05c1.02-1.19 1.37-2.94 1.38-3.02l.09-.45-.4-.22c-.07-.04-.14-.07-.21-.11-.54-.29-1.24-.68-2.02-.94l-.17-.59-.08-.26-.24-.12c-.46-.24-3.99-1.04-4.96-1.04-.07 0-.14 0-.2.01-.22.03-.41.13-.56.27-.22-.18-.45-.31-.67-.39L34.9.01l-.29.23c-.4.36-.84 1.06-.85 1.95 0 .24.03.53.12.85-.02.04-.04.07-.05.1-2.35 4.63-.52 8.67.69 11.35.44.98.83 1.83.82 2.33l-.01.65.65-.02c.07 0 .51-.02 1.02-.11.02.7-.01 1.8-.37 2.74-.46 1.23-1.09 2.36-1.75 3.56-.36.65-.73 1.32-1.07 2-.37.75-.66 1.43-.88 2.08-.14.28-.35.52-.59.64-.29.15-.62.14-.9-.03a.76.76 0 01-.38-.69c.02-.92.6-1.65 1.28-2.49.4-.5.81-1.01 1.15-1.62 1.05-1.89 1.31-4.03.75-6.19-.26-1.02-.83-1.88-1.38-2.71-.08-.12-.16-.25-.24-.37.33-.69-.04-1.54-.44-2.42-.25-.56-.51-1.14-.64-1.75-.41-1.91-.06-3.07.59-4.96l.28-.82-.74.45c-2.15 1.31-3.22 3.27-3.25 5.99-.02 1.3.39 3.63 1.53 4.33.18.11.42.21.73.21.07 0 .13-.01.21-.02.1.15.2.31.3.46.48.72.93 1.41 1.11 2.1.43 1.67.24 3.26-.56 4.71-.25.45-.59.88-.96 1.33-.79.98-1.68 2.09-1.72 3.7-.02 1 .48 1.92 1.34 2.45.46.29.99.43 1.52.43.2 0 .39-.02.58-.06v.04c.02.24.04.48.07.71.02.19.04.36.06.54.01.16.03.28.05.38.03.21.04.25-.04.49-.07.22-.52.53-1.37.72-.41.09-1.02.19-1.76.29-.79.11-1.4.77-1.44 1.56-.12 2.24-.15 3.64-.08 4.14.1.66.42 1.24.9 1.65-1.48-.17-2.66-.56-2.67-.56l-1.19-.4.4 1.19c.47 1.4 1.36 2.58 2.59 3.41 1.14.77 2.51 1.19 3.87 1.19 1.66 0 3.17-.62 4.26-1.75.01.31.07.61.19.92l.55 1.37.61-1.34c.04-.08.97-2.04 3.19-2.21.95-.07 2.03-.21 2.87-.91h.01c0 .23.02.45.08.67.3 1.24 1.37 1.87 1.41 1.89l.99.57-.06-1.14c-.02-.49-.05-1.05.09-1.51.25-.83 1.12-1.14 1.61-1.26.12-.03.24-.06.35-.08.81-.18 1.47-.33 2.15-.73-.29.57-.41 1.15-.35 1.74.14 1.47 1.34 2.39 1.39 2.43l1.37 1.03-.38-1.67c-.14-.64-.25-2.1.34-2.48.73-.48 1.28-.54 1.92-.61.53-.06 1.1-.13 1.77-.42-.52 1.15-.3 2.09-.28 2.14l.32 1.27.79-1.05c.01-.02 1.49-1.93 3.59-1.93 1.52 0 2.75.75 2.76.76l.33.2.33-.2c.01-.01 1.24-.76 2.76-.76 2.1 0 3.58 1.92 3.59 1.93l.79 1.05.32-1.27c.01-.05.24-.99-.28-2.14.67.29 1.24.36 1.77.42.64.07 1.2.14 1.92.61.59.39.49 1.84.34 2.48l-.38 1.67 1.37-1.03c.05-.04 1.25-.96 1.39-2.43.06-.59-.06-1.17-.35-1.74.68.39 1.34.54 2.15.73.11.03.23.05.35.08.49.11 1.36.43 1.61 1.26.14.46.11 1.02.09 1.51l-.06 1.14.99-.57c.05-.03 1.12-.65 1.41-1.89.05-.22.08-.45.08-.67h.01c.84.7 1.92.83 2.87.91 2.22.17 3.15 2.13 3.19 2.21l.61 1.34.55-1.37c.12-.31.19-.62.19-.92 1.09 1.13 2.6 1.75 4.26 1.75 1.36 0 2.73-.42 3.87-1.19a6.56 6.56 0 002.59-3.41l.4-1.19-1.2.43zM82.27 7.59c-.84 0-1.28-.34-1.41-1.06-.09-.48.15-.83.62-.94.02 0 .04-.01.06-.01-.11.41-.06.86.21 1.3.2.31.51.55.9.69-.13.01-.26.02-.38.02zm-36.52-.71c.28-.43.32-.89.21-1.3.02 0 .04.01.06.01.47.1.71.46.62.94-.13.72-.58 1.06-1.41 1.06-.12 0-.25-.01-.38-.02.39-.14.7-.37.9-.69zm36.36 4.29c.15-.15.31-.29.48-.42.74-.57 1.68-.92 2.86-.92.17 0 .34.01.52.02l1.6-.73c-.57.01-1.03.03-1.4.03-1.6 0-1.47-.22-1.26-1.34 0 0 1.35.37 2.38.37.1 0 .2 0 .29-.01.5-.04.72-.26.8-.53.1-.36.13-.92-.15-1.62-.18-.46-.62-.86-1.25-.86-.48 0-1.06.23-1.72.83l-.56.56a5.04 5.04 0 01-.7-1.11c-.12-.52.44-.85.44-.85-.57.07-.85-.52-.94-.79.61-.33 1.48-.83 2.4-1.08l.27-.92c.35-.18 3.77-.97 4.67-.97.05 0 .08 0 .12.01.07.01.14.04.19.08-.19.21-.36.45-.51.71l.61.2c.34-.55.81-1.01 1.23-1.15.55.48 1.21 1.91-.24 3.41v.87l.25-.24c.35-.33.6-.65.79-.96 2.77 6-1.78 10.92-1.75 13.04 0 0-.95-.03-1.6-.29 0 0-.29 2.07.35 3.77.74 1.98 1.91 3.74 2.85 5.62.32.64.6 1.29.83 1.96.01.02.01.04.02.06.19.41.51.77.87.97.01.01.03.01.04.02.47.24 1.02.21 1.48-.07.45-.27.69-.73.68-1.24-.03-1.14-.7-1.98-1.42-2.87-.38-.48-.78-.97-1.09-1.53-.97-1.75-1.21-3.73-.69-5.73.24-.92.78-1.73 1.3-2.52l.35-.53c.05-.07.09-.14.13-.21-.25-.23-.3-.51-.22-.88.07-.34.25-.75.47-1.26.25-.56.54-1.2.68-1.87.23-1.08.23-1.95.09-2.81.21.34.39.7.54 1.07.17.42.29.86.35 1.32s.06.93-.01 1.4c.16-.44.26-.92.29-1.4.03-.49 0-.98-.09-1.46-.08-.44-.2-.88-.36-1.3.69 1.01 1.04 2.24 1.06 3.72.02 1.86-.62 3.42-1.23 3.79a.84.84 0 01-.22.1c-.26.06-.66-.12-.66-.12-.18.3-.36.57-.55.86-.51.77-.99 1.5-1.2 2.29-.47 1.83-.27 3.57.62 5.17.28.5.65.97 1.02 1.42.76.95 1.55 1.93 1.58 3.32.02.78-.37 1.49-1.04 1.9-.36.22-.78.34-1.2.34-.19 0-.39-.03-.58-.07-.17-.05-.34-.11-.5-.2l-.15-.09c.03.24.04.49.03.73 0 .06-.01.13-.01.19-.03.41-.09.83-.12 1.24-.05.53-.14.59.02 1.11.19.6 1 .96 1.84 1.15.53.12 1.25.23 1.81.3.5.07.87.48.9.98.07 1.23.17 3.41.08 4.02-.1.67-.49 1.24-1.11 1.54.04.09.08.18.12.26.09.23.16.43.19.62.2 1.09-.58 1.43-1.28 1.6l-.09-.98c-.01-.04-.2-.13-.24-.15-.06-.04-.13-.08-.18-.13a.59.59 0 01-.18-.38c-.01-.08-.01-.16-.01-.25-.01-.15-.03-.3-.11-.41a.364.364 0 00-.15-.12.414.414 0 00-.37.01.49.49 0 00-.26.36c-.01.06 0 .14.01.22.05.29.19.69.06 1.04-.08.23-.39.54-.73.54-.11 0-.21-.03-.32-.1l-.7.62c-.93-1.02-.64-2 .37-2.42.08-.03.15-.07.21-.11.19-.13.3-.3.19-.48-.08-.14-.17-.19-.29-.19-.18 0-.41.11-.76.25a1.602 1.602 0 01-.61.15c-.36 0-.65-.21-.8-.79l-.03-.16-.24.1-.42.17.03-.22c.04-.24.12-.44.21-.61.31-.57.86-.8 1.42-.8.72 0 1.46.36 1.77.82l1.32.18c.27-.34.28-1.34.24-2.12-.03-.57-.45-1.03-1.01-1.12-.96-.14-2.4-.35-2.91-.39-.97-.07-1.98-.24-2.71-.95-1-.99-1.22-2.02-1.22-3.45 0-.47.02-.94.06-1.42.03-.41.08-.82.12-1.22.03-.27.07-.54.11-.81a3.38 3.38 0 00-.02-1.07c-.05-.29-.13-.57-.24-.86-.12-.3-.29-.58-.49-.85-.32-.42-.74-.79-1.27-1.09-.19-.11-.42-.24-.66-.39-.24-.15-.5-.31-.77-.5-.66-.44-1.39-.99-2.07-1.62l.15-.09c.25-.15.94-.66 1.59-1.2.16-.13.3-.25.43-.37l-.62-.33c-.72.61-1.52 1.21-1.73 1.33l-.3.18c-.19.11-.38.22-.56.32-1.05.6-1.8 1.01-1.78 1.71 1.3 1.4.59 2.23-.13 2.48l-.24-.77c-.76-.13-.75-.69-.78-1.12a.38.38 0 00-.38-.36c-.15 0-.3.1-.31.33-.02.25 0 .51-.07.92-.05.28-.35.66-.78.66-.07 0-.14-.01-.21-.03l-.16.91c-1.48-.28-1.32-1.75-.32-2.25.57-.29.75-.5.58-.72a.227.227 0 00-.18-.09c-.21 0-.52.23-.82.45-.13.1-.3.15-.48.15-.39 0-.81-.25-.99-.84l-.51.31c-.09-1.11.6-1.66 1.3-1.66.33 0 .67.12.93.36.1.09.2.13.3.13.32 0 .54-.4.11-.63-.41-.22-.8-.9-.42-1.33l-.62-.58c.28-.17.58-.25.86-.25.62 0 1.19.4 1.37 1.31.04.21.13.29.25.29.34 0 .94-.73 1.39-1.45.11-.17.21-.35.31-.52.13-.23.27-.45.42-.67.19-.28.39-.55.64-.79.42-.42 1.15-1.15 1.99-1.64.2-.11.41-.22.62-.31.25-.33.5-.67.72-1.02.59-.9 1.08-1.86 1.36-2.87-.46.95-1.1 1.78-1.81 2.52-.33.35-.67.67-1.03.99-.97.5-1.78 1.31-2.26 1.78l-.07.07c-.14.14-.27.28-.38.43-.16-.98-.12-2.19.19-3.34.06-.22.13-.45.21-.66.29-.76.71-1.48 1.28-2.06zm3.74-3.97c.38-.13.76-.23 1.12-.23.3 0 .58.07.84.22-.01.12-.03.22-.04.27v.01s-.05.05-.25.07c-.07.01-.15.01-.24.01-.39 0-.83-.06-1.22-.13-.39-.06-.98-.19-.98-.19-.06-.32-.01-.66.11-.65.14.03.24.37.66.62zm-.41-.5l.24-.25c.6-.54 1.03-.66 1.28-.66.45 0 .63.35.67.46.04.1.07.2.1.29-.24-.11-.5-.15-.77-.15-.48 0-.99.15-1.52.31zm4.14 30.83c-.74.5-1.43.74-2.16.74-.68 0-1.34-.2-2.04-.42-.19-.06-.38-.12-.58-.17-.31-.09-.64-.13-.97-.13-.8 0-1.49.26-1.94.49.05-.17.21-.81.21-1.3.59-.33 1-.8 1.2-1.41.3-.91.54-2.52.3-4.26.47-.06 1.14-.16 1.81-.27.73-.12 1.33-.24 1.77-.35.21-.05.38-.1.53-.15-.02.35-.03.7-.03 1.05 0 .87.08 1.52.26 2.09.22.68.59 1.27 1.14 1.81.88.87 2.06 1.06 3.1 1.13.37.03 1.39.16 2.86.38.26.04.47.26.48.53.04.72.01 1.15-.03 1.39l-.58-.08c-.48-.52-1.3-.86-2.1-.86-1.01 0-1.77.53-2.11 1.43-.18.02-.38.05-.58.1.38-.58.41-1.12.42-1.19l.05-1.25-1.01.7zm-10.05.11c-.06-.05-.12-.11-.17-.17-.01-.02-.02-.03-.03-.05-.13-.21-.09-.43-.06-.66.03-.23.03-.46-.18-.61a.432.432 0 00-.42-.06c-.14.05-.27.17-.32.33-.03.08-.03.19-.03.32 0 .11.01.23.01.35 0 .21-.02.44-.11.64l-.03.06c-.12.2-.44.45-.77.45a.59.59 0 01-.43-.18l-.87.53s-.01 0-.01-.01c-.06-.09-.1-.18-.15-.26-.1-.21-.17-.4-.21-.59-.16-.84.34-1.45 1.22-1.65.36-.08.65-.27.54-.56-.07-.19-.19-.26-.37-.26-.19 0-.46.07-.83.15-.12.02-.23.04-.34.06-.09.01-.18.02-.26.02-.39 0-.64-.19-.64-.97l-.75.16c.34-1.19 1.03-1.65 1.75-1.65.74 0 1.52.49 2 1.16l.3.1.53.18 1.06.36c1.03-.87.56-3.16.56-3.16s-2.01-1.13-1.34-3.64c0 0 .35-2.36 4.65-2.36.46 0 .96.03 1.51.09.33.04.63.08.9.13 0 0 0 .01.01.01-.1.23-.13.49-.08.74a1.252 1.252 0 001.22 1.04c.22 0 .43-.06.63-.17 0 .11-.01.21-.02.31-.08.56-.16 1.16-.21 1.79-.87.44-4.9.94-4.9.94.39 1.9.14 3.7-.16 4.6-.11.33-.3.59-.54.8-.19.17-.41.3-.66.4-.05.66-.1 1.15-.22 1.54-.03.14-.08.26-.14.36-.3.51-.92.63-1.48.67l.09-1.06c-.03-.06-.21-.19-.25-.22zm1.43-14.76c.17-.27.74-.58 1.33-.92.07-.04.15-.08.23-.13l.33.3c.27.24.55.47.83.69l.01.01 1.38 1.44c.36.38.61.67.78.91l-2.01-.14c-.99 0-1.79.12-2.44.31.09-.14.16-.3.2-.46.16-.76-.21-1.47-.64-2.01zm5.71 2.45c-.12-.23-.31-.52-.63-.91.08.05.17.1.24.14.48.27.84.6 1.11.96.21.28.35.58.46.87.04.11.07.23.09.34a.66.66 0 01-.55.31c-.09 0-.18-.02-.27-.07a.654.654 0 01-.23-.95.55.55 0 01.07-.09c-.1-.17-.17-.36-.29-.6zm-9.32-17.9c.4.27.78.58 1.15.89.6.5 1.18 1.03 1.81 1.5.2.15.81.61 1.29.98-.14.15-.27.3-.4.46-.35.46-.64.98-.86 1.52l-1.13-1.07c.12-.31.16-.67.12-1.04 0-.02-.01-.04-.01-.07l-.6.29c.02.45-.15.92-.56 1.14-.13.07-.24.1-.39.1h-.01l.02-.55c-.2 0-.47-.21-.47-.5 0-.33.21-.51.47-.59v-.64c-.5.09-.87.39-1.02.8l-.66.01c-.03-.5.21-.95.72-1.12v-.65c-.43.09-.71.3-.88.49-.05.05-.09.11-.14.17l-.5.01c-.02-.48.22-.91.67-1.06v-.65c-.28.06-.52.17-.73.35h-.47c.01-.31.19-.61.44-.8.22-.16.5-.25.78-.28.09-.01.18-.02.27-.02a1.928 1.928 0 011.09.33zm-1.34-4c.38-.65.6-1.48.61-2.34h1.51c.01.11.02.21.02.32 0 1.65-1.32 2.99-2.95 2.99h-.11c.35-.21.66-.53.92-.97zm-6.89 0c.38-.65.6-1.48.61-2.34h2.05c.01.86.23 1.69.61 2.34.26.44.57.77.92.97h-1.37c-.35-.36-.64-.85-.83-1.43h-.69c-.18.58-.47 1.07-.83 1.43h-1.4c.36-.21.68-.53.93-.97zm-6.99 0c.38-.65.6-1.48.61-2.34h2.16c.01.86.23 1.69.61 2.34.26.44.57.76.92.97h-1.49c-.35-.36-.64-.85-.83-1.43h-.69c-.18.58-.47 1.07-.83 1.43h-1.4c.36-.21.68-.53.94-.97zm-6.82 0c.38-.65.6-1.48.61-2.34h1.98c.01.86.23 1.69.61 2.34.26.44.57.77.92.97h-1.4c-.35-.36-.64-.85-.83-1.43h-.69c-.18.58-.47 1.07-.83 1.43h-1.31c.37-.21.69-.53.94-.97zm-5.79-2.07c0-.09 0-.18.01-.28h1.55c.01.86.23 1.69.61 2.34.26.44.57.77.92.97h-.15c-1.58.01-2.94-1.38-2.94-3.03zm-2.33 8.45c.63-.47 1.21-.99 1.81-1.5.37-.31.75-.62 1.15-.89.23-.16.49-.26.77-.3.1-.02.21-.03.32-.03.1 0 .2.01.31.02.27.04.54.12.75.28.25.18.43.48.44.8h-.47a1.77 1.77 0 00-.73-.35v.65c.46.15.7.58.67 1.06l-.5-.01c-.04-.06-.09-.11-.14-.17-.17-.18-.46-.39-.88-.49v.65c.5.17.74.62.72 1.12l-.66-.01c-.15-.42-.52-.71-1.02-.8v.64c.26.08.47.26.47.59 0 .29-.26.5-.47.5l.02.55h-.01c-.14 0-.26-.04-.39-.1-.41-.22-.57-.7-.56-1.14l-.6-.29c0 .02-.01.04-.01.07-.05.37 0 .73.12 1.04l-1.13 1.08c-.22-.54-.51-1.05-.86-1.52-.13-.16-.26-.32-.4-.46.47-.38 1.08-.84 1.28-.99zM28.61 39.2c-.09-.61.01-2.78.08-4.02.03-.5.41-.91.9-.98.56-.08 1.28-.19 1.81-.3.84-.18 1.65-.55 1.84-1.15.16-.52.07-.58.02-1.11-.04-.41-.09-.83-.12-1.24 0-.06-.01-.13-.01-.19-.01-.24 0-.49.03-.73l-.15.09c-.16.09-.33.15-.5.2-.19.05-.38.07-.58.07-.42 0-.83-.11-1.2-.34a2.144 2.144 0 01-1.04-1.9c.03-1.39.82-2.37 1.58-3.32.36-.45.74-.92 1.02-1.42.89-1.6 1.1-3.34.62-5.17-.21-.8-.69-1.52-1.2-2.29-.19-.29-.37-.56-.55-.86 0 0-.4.18-.66.12a.84.84 0 01-.22-.1c-.61-.38-1.26-1.93-1.23-3.79.02-1.48.37-2.71 1.06-3.72-.15.42-.28.86-.36 1.3-.09.48-.12.98-.09 1.46.03.49.13.96.29 1.4-.07-.47-.07-.94-.01-1.4s.18-.9.35-1.32c.15-.37.33-.73.54-1.07-.14.86-.14 1.73.09 2.81.14.67.43 1.31.68 1.87.23.51.4.92.47 1.26.08.37.03.65-.22.88.04.07.09.14.13.21.11.17.23.35.35.53.52.79 1.06 1.6 1.3 2.52.52 2 .28 3.98-.69 5.73-.31.56-.71 1.05-1.09 1.53-.71.89-1.39 1.73-1.42 2.87-.01.52.24.97.68 1.24.46.28 1.01.3 1.48.07.01-.01.03-.01.04-.02.36-.19.68-.55.87-.97.01-.02.01-.04.02-.06.23-.67.51-1.33.83-1.96.94-1.88 2.11-3.64 2.85-5.62.64-1.7.35-3.77.35-3.77-.65.26-1.6.29-1.6.29.03-2.12-4.52-7.04-1.75-13.04.19.31.44.63.79.96l.25.24v-.87c-1.45-1.5-.78-2.93-.24-3.41.41.15.88.6 1.23 1.15l.61-.2c-.15-.25-.32-.49-.51-.71.06-.04.12-.07.19-.08.03 0 .07-.01.12-.01.91 0 4.33.79 4.67.97l.3.91c.93.25 1.79.75 2.4 1.08-.1.26-.38.85-.94.79 0 0 .55.33.44.85-.18.38-.41.77-.7 1.11l-.56-.56c-.66-.61-1.24-.83-1.72-.83-.63 0-1.07.4-1.25.86-.28.7-.25 1.26-.15 1.62.08.27.3.49.8.53.09.01.19.01.29.01 1.03 0 2.38-.37 2.38-.37.21 1.12.34 1.34-1.26 1.34-.37 0-.83-.01-1.4-.03l1.6.73c.18-.01.35-.02.52-.02 1.18 0 2.12.35 2.86.92.17.13.33.27.48.42.57.58.98 1.3 1.27 2.06.08.22.15.44.21.66.31 1.16.35 2.37.19 3.34-.12-.15-.24-.29-.38-.43l-.07-.07c-.48-.47-1.29-1.28-2.26-1.78-.36-.32-.7-.64-1.03-.99-.71-.75-1.34-1.58-1.81-2.52.29 1.01.78 1.98 1.36 2.87.23.35.47.69.72 1.02.22.09.42.19.62.31.85.48 1.57 1.22 1.99 1.64.25.24.45.51.64.79.15.22.28.44.42.67.1.17.21.35.31.52.45.73 1.05 1.45 1.39 1.45.12 0 .21-.09.25-.29.18-.91.75-1.31 1.37-1.31.29 0 .59.09.86.25l-.62.58c.37.44-.02 1.11-.42 1.33-.43.23-.2.63.11.63.1 0 .2-.04.3-.13.26-.24.6-.36.93-.36.7 0 1.39.54 1.3 1.66l-.54-.3c-.18.59-.6.84-.99.84-.18 0-.35-.05-.48-.15-.3-.22-.61-.45-.82-.45-.07 0-.14.03-.18.09-.16.22.01.44.58.72 1.01.5 1.17 1.97-.32 2.25l-.16-.91c-.07.02-.14.03-.21.03-.43 0-.73-.38-.78-.66-.07-.41-.05-.66-.07-.92-.01-.23-.16-.33-.31-.33a.38.38 0 00-.38.36c-.03.43-.02.99-.78 1.12l-.24.77c-.72-.25-1.44-1.08-.13-2.48.02-.71-.73-1.12-1.78-1.71-.18-.1-.37-.21-.56-.32l-.3-.18c-.21-.13-1.02-.72-1.73-1.33l-.62.33c.13.11.27.23.43.37.64.53 1.33 1.05 1.59 1.2l.15.09c-.68.63-1.41 1.18-2.07 1.62-.27.18-.53.35-.77.5s-.47.28-.66.39c-.53.3-.95.67-1.27 1.09-.21.27-.37.56-.49.85-.12.28-.2.57-.24.86-.02.1-.03.19-.04.29-.02.27-.01.53.02.78.04.27.07.54.11.81.05.41.09.81.12 1.22.04.48.06.95.06 1.42 0 1.44-.22 2.47-1.22 3.45-.72.71-1.73.88-2.71.95-.51.03-1.94.24-2.91.39-.56.08-.98.55-1.01 1.12-.04.77-.03 1.78.24 2.12l1.32-.18c.31-.46 1.05-.82 1.77-.82.56 0 1.11.22 1.42.8.09.17.17.37.21.61l.03.22-.42-.17-.24-.1c-.01.06-.02.11-.03.16-.14.58-.44.79-.8.79a1.602 1.602 0 01-.61-.15c-.34-.14-.58-.25-.76-.25-.12 0-.21.05-.29.19-.11.19 0 .35.19.48.06.04.14.08.21.11 1.01.42 1.3 1.4.37 2.42l-.7-.62c-.11.07-.22.1-.32.1-.34 0-.65-.31-.73-.54-.13-.35.01-.75.06-1.04.01-.08.02-.16.01-.22a.49.49 0 00-.26-.36.414.414 0 00-.37-.01c-.06.03-.11.07-.15.12-.09.11-.11.26-.11.41 0 .08 0 .17-.01.25a.59.59 0 01-.18.38c-.06.05-.12.09-.18.13-.04.02-.23.11-.24.15l-.09.98c-.7-.17-1.47-.51-1.28-1.6.03-.18.09-.39.19-.62.03-.08.07-.17.12-.26-.6-.3-1-.87-1.1-1.54zM40.54 6.97c.36 0 .73.09 1.12.23.42-.26.51-.59.67-.61.12-.01.17.33.11.65 0 0-.59.13-.98.19-.39.07-.83.13-1.22.13-.09 0-.17 0-.24-.01-.19-.02-.25-.06-.25-.07v-.01a.854.854 0 01-.04-.27c.25-.16.53-.23.83-.23zm-.77-.43c.02-.09.06-.19.1-.29.04-.11.22-.46.67-.46.26 0 .69.11 1.28.66l.24.25c-.53-.17-1.05-.31-1.53-.31-.26 0-.51.05-.76.15zm7.77 28.29l1.07-.36.53-.18.3-.1c.48-.68 1.26-1.16 2-1.16.72 0 1.41.46 1.75 1.65l-.75-.16c0 .77-.25.97-.64.97-.08 0-.17-.01-.26-.02-.11-.02-.22-.04-.34-.06-.37-.07-.64-.15-.83-.15-.18 0-.3.07-.37.26-.1.29.18.47.54.56.88.2 1.38.82 1.22 1.65-.04.19-.1.38-.21.59-.04.09-.09.17-.15.26 0 0-.01 0-.01.01l-.87-.53a.59.59 0 01-.43.18c-.33 0-.65-.24-.77-.45l-.03-.06c-.1-.2-.11-.43-.11-.64 0-.12.01-.24.01-.35 0-.13 0-.24-.03-.32a.55.55 0 00-.32-.33.432.432 0 00-.42.06c-.21.15-.21.38-.18.61.03.24.07.46-.06.66-.01.02-.02.03-.03.05-.05.06-.11.12-.17.17-.04.03-.22.16-.22.21l.09 1.06c-.56-.04-1.18-.16-1.48-.67-.06-.1-.11-.23-.14-.36-.11-.39-.16-.87-.22-1.54a2.2 2.2 0 01-.66-.4c-.24-.21-.43-.47-.54-.8-.3-.9-.56-2.7-.16-4.6 0 0-4.03-.5-4.9-.94-.06-.63-.13-1.24-.21-1.79-.01-.1-.02-.2-.02-.31a1.222 1.222 0 001.19.03c.35-.18.59-.51.66-.9.05-.25.02-.51-.08-.74 0 0 0-.01.01-.01.27-.05.57-.09.9-.13.55-.06 1.05-.09 1.51-.09 4.3 0 4.65 2.36 4.65 2.36.67 2.51-1.34 3.64-1.34 3.64s-.5 2.3.52 3.17zm-10.59 3.25c0 .07.04.61.42 1.19-.21-.05-.4-.08-.58-.1-.34-.9-1.1-1.43-2.11-1.43-.8 0-1.62.34-2.1.86l-.58.08c-.04-.25-.07-.68-.03-1.39.01-.27.22-.49.48-.53 1.47-.22 2.49-.36 2.86-.38 1.04-.07 2.22-.26 3.1-1.13.55-.54.93-1.14 1.14-1.81.18-.57.26-1.21.26-2.09 0-.35-.01-.7-.03-1.05.15.05.33.1.53.15.44.11 1.04.23 1.77.35.67.11 1.34.21 1.81.27-.24 1.75-.01 3.35.3 4.26.2.6.61 1.08 1.2 1.41 0 .64.2 1.28.2 1.3-.45-.23-1.14-.49-1.94-.49-.33 0-.66.05-.97.13-.2.06-.39.12-.58.17-.7.21-1.35.42-2.04.42-.73 0-1.42-.23-2.16-.74l-1.03-.7.08 1.25zm3.68-12.05c.22.34.1.78-.23.95-.09.05-.18.07-.27.07a.66.66 0 01-.55-.31c.02-.11.06-.23.09-.34.1-.3.25-.59.46-.87.27-.36.63-.69 1.11-.96.07-.04.15-.09.24-.14-.32.39-.51.67-.63.91-.13.24-.19.43-.28.61.01.02.04.05.06.08zm4.03-3.89l.33-.3c.08.04.15.09.23.13.59.33 1.15.65 1.33.92-.43.53-.81 1.25-.62 2 .04.16.11.32.2.46-.65-.19-1.45-.31-2.44-.31l-2.01.14c.17-.24.41-.53.78-.91l1.38-1.44.01-.01c.26-.21.54-.44.81-.68zm-8.92 21.39c-1.03 1.1-2.42 1.61-3.85 1.61-2.45 0-4.98-1.51-5.87-4.17 0 0 1.21.41 2.77.59-.07.43-.03.81.13 1.15.34.72 1.09.98 1.62 1.12l.71.18.07-.73.07-.68c.06-.04.13-.09.19-.14.01.06.03.12.05.18.17.47.71.95 1.32.95.06 0 .12 0 .18-.01l.43.38.46.41.42-.46c.59-.64.83-1.36.68-2.02-.05-.21-.13-.41-.25-.59.37 0 .7-.14.95-.4.09-.1.18-.21.24-.34l.04.01.97.4-.11-1.04c0-.04-.01-.07-.01-.11.43.07.95.23 1.61.48.09.05.19.09.28.12.05.02.09.04.14.05-.21.12-.42.24-.61.36-.95.61-1.6 1.27-1.94 1.96-.21.24-.44.48-.69.74zm7.41-2.17c-.69.58-1.65.7-2.52.76-2.64.2-3.72 2.58-3.72 2.58-.22-.55-.18-1.07.03-1.54.32-.72 1.04-1.34 1.8-1.82 1.27-.8 2.67-1.25 2.67-1.25-.25.02-.48.03-.7.03-.55 0-1-.07-1.37-.18-.21-.06-.4-.14-.56-.22-1.17-.6-1.21-1.67-1.21-1.67.93.63 1.75.85 2.51.85.98 0 1.87-.35 2.78-.61.27-.08.54-.11.8-.11.75 0 1.4.28 1.77.48-.47.29-.87.66-1.18 1.13-.12.19-.23.38-.32.56-.29.41-.48.77-.78 1.01zm4.39-.91c-.92.21-1.78.74-2.07 1.69-.17.55-.14 1.15-.11 1.72 0 0-1.88-1.07-.88-3.18.08-.17.19-.36.31-.55.24-.37.53-.63.8-.83.1-.06.2-.11.31-.17l.28-.14c.48.41 1.13.51 1.61.54l.73.05-.06-.73-.06-.76c.08-.07.16-.15.24-.25 0-.01.01-.01.01-.02.03.09.07.18.12.26.22.38.74.76 1.31.76.15 0 .29-.03.43-.08l.33.2c-.02.02-.05.04-.07.06-1.07 1.01-1.86 1.12-3.23 1.43zm28.37 3.48s.54-2.39-.61-3.15c-1.84-1.2-2.82-.17-4.88-1.74-.02-.03-.05-.05-.07-.08-.97-.98-2.04-1.6-3.01-1.93-.67.11-1.41.19-2.23.23a8.801 8.801 0 011.41.19c.49.11 1.01.28 1.53.53.63.31 1.26.81 1.85 1.41.04.04.07.07.1.11 1.28 1.39.94 2.75.94 2.75s-1.64-2.18-4.09-2.18c-1.17 0-2.18.39-2.7.65l-.38.2-.38-.2c-.52-.25-1.53-.65-2.7-.65-2.45 0-4.09 2.18-4.09 2.18s-.35-1.36.94-2.75c.03-.04.07-.07.1-.11.59-.6 1.22-1.11 1.85-1.41a7.15 7.15 0 011.53-.53c.32-.07.63-.12.92-.15.17-.02.34-.03.5-.04-.82-.04-1.56-.12-2.24-.23-.97.33-2.04.94-3.01 1.93-.03.03-.05.05-.07.08-2.06 1.57-3.04.54-4.88 1.74-1.15.75-.61 3.15-.61 3.15s-2.43-1.84-.23-4.27c.46-.51 1.02-.93 1.43-1.21.34-.23.58-.36.58-.36s-.2-.02-.46-.07c-.14-.02-.31-.06-.49-.1-.03-.01-.07-.02-.11-.03.09-.43.06-.85-.09-1.22-.06-.15-.15-.3-.25-.43.95.26 2.12.46 3.45.46.51 0 1.04-.11 1.6-.17.19-.02.4-.03.61-.03.07 0 .14 0 .21.01-.52-.16-.98-.34-1.4-.52-.34.05-.68.1-1.02.1-1.05 0-1.99-.13-2.8-.32.15-.15.24-.32.3-.51l.09.02 1.02.22-.29-1.01c-.54-1.9-1.82-2.1-2.35-2.1-.85 0-1.77.49-2.38 1.26l-1.3.44c-.29-.53-.27-1.47-.19-2.06.23-.17.56-.46.86-.89.46-.65.92-1.74.52-3.26-.04-.2-.25-.97-1.07-1.65l.15-.49.13-.43c.2-.08.36-.2.48-.33.18.37.53.71.97.82l.07.38.11.66.65-.12c.9-.17 1.5-.73 1.61-1.49.05-.34-.01-.69-.16-1.01.34-.08.65-.27.88-.56l.85.48.08-1.02c.07-.89-.25-1.45-.53-1.75-.36-.39-.88-.61-1.42-.61-.06 0-.11 0-.17.01.01-.05.03-.1.04-.15.03-.17.03-.34 0-.51l.29-.27.64-.6-.75-.45c-.38-.23-.79-.35-1.2-.35-.68 0-1.46.35-1.85 1.29-.16-.19-.37-.46-.6-.83l-.27-.45c-.1-.17-.21-.35-.32-.52v-.01c.33-1.24.32-2.94-.17-4.52l1.23-1.17c.12.14.27.25.43.33.23.12.44.18.68.18h.01l.65-.01v-.8c.02-.02.05-.04.07-.06.18-.17.29-.38.33-.62l.6.01.6.01.03-.6c.01-.18-.01-.35-.04-.52h.22l.6.01.03-.6c.01-.27-.03-.53-.12-.76h.66l-.02-.64c-.01-.5-.27-.98-.69-1.28-.37-.27-.79-.37-1.12-.4V5.02h24.44v1.45c-.33.03-.77.13-1.15.41-.42.31-.68.79-.69 1.28l-.02.64h.66c-.09.23-.14.49-.12.76l.03.6.6-.01h.22c-.04.16-.05.34-.04.52l.03.6.6-.01.6-.01c.04.23.15.45.33.62.02.02.05.04.07.06v.8l.65.01h.01c.24 0 .45-.06.68-.18.16-.09.31-.2.43-.33l1.23 1.17c-.49 1.58-.51 3.28-.17 4.52v.01c-.11.17-.22.35-.32.52l-.27.45c-.22.36-.44.65-.6.84-.39-.94-1.17-1.29-1.85-1.29-.41 0-.82.12-1.2.35l-.75.45.64.6.29.27c-.03.16-.03.33 0 .51.01.05.02.1.04.15-.06 0-.11-.01-.17-.01-.55 0-1.07.22-1.42.61-.28.31-.6.86-.53 1.75l.08 1.02.85-.48c.23.28.54.47.88.56-.15.32-.21.66-.16 1.01.11.77.71 1.33 1.61 1.49l.65.12.11-.66.07-.38c.45-.12.8-.45.97-.82.12.13.28.24.48.33l.11.36.02.07.15.49c-.82.69-1.03 1.45-1.07 1.65-.4 1.52.06 2.61.52 3.26.3.43.63.72.86.89.08.59.1 1.53-.19 2.06l-1.3-.44c-.62-.77-1.53-1.26-2.38-1.26-.53 0-1.81.2-2.35 2.1l-.29 1.01 1.02-.22.09-.02c.06.18.15.36.3.51-.81.18-1.75.32-2.8.32-.34 0-.68-.05-1.02-.1-.42.18-.88.36-1.4.52h.2c.21 0 .42.01.61.03.56.07 1.09.17 1.6.17 1.33 0 2.5-.2 3.45-.46-.1.13-.19.27-.25.43-.15.37-.18.79-.09 1.22l-.11.03c-.18.04-.35.08-.49.1-.27.05-.43.06-.43.06s.24.13.58.36c.41.28.96.7 1.43 1.21 2.25 2.42-.18 4.26-.18 4.26zm6.24-.07c.03-.57.05-1.17-.11-1.72-.29-.95-1.15-1.47-2.07-1.69-1.37-.32-2.16-.42-3.23-1.41-.02-.02-.05-.04-.07-.06l.33-.2c.13.05.28.08.43.08.58 0 1.1-.38 1.31-.76.05-.09.09-.17.12-.26 0 .01.01.01.01.02.08.1.16.18.24.25l-.06.76-.06.73.73-.05c.48-.03 1.12-.13 1.61-.54l.28.14c.11.06.21.11.31.17.28.2.56.46.8.83.13.19.23.37.31.55 1 2.09-.88 3.16-.88 3.16zm8.43.85s-1.07-2.38-3.72-2.58c-.87-.07-1.82-.19-2.52-.76-.3-.25-.49-.61-.79-1.01-.09-.19-.2-.37-.32-.56-.31-.47-.7-.85-1.18-1.13.37-.2 1.01-.48 1.77-.48.26 0 .52.03.8.11.92.26 1.8.61 2.78.61.76 0 1.58-.21 2.51-.85 0 0-.05 1.07-1.21 1.67-.16.08-.35.16-.56.22-.37.11-.83.18-1.37.18-.22 0-.45-.01-.7-.03 0 0 1.4.45 2.67 1.25.77.49 1.48 1.1 1.8 1.82.22.47.27.98.04 1.54zm5.04.43c-1.43 0-2.83-.51-3.85-1.61-.25-.26-.47-.51-.69-.73-.34-.7-.99-1.35-1.94-1.96-.19-.12-.39-.24-.61-.36.05-.02.09-.04.14-.05.1-.04.19-.08.28-.12.66-.26 1.18-.41 1.61-.48 0 .04-.01.07-.01.11l-.11 1.04.97-.4.04-.01c.07.13.15.24.24.34.25.26.58.4.95.4-.12.18-.2.38-.25.59-.15.66.1 1.38.68 2.02l.42.46.46-.41.43-.38c.06.01.12.01.18.01.61 0 1.15-.48 1.32-.95.02-.06.04-.12.05-.18.07.05.13.1.19.14l.07.68.07.73.71-.18c.53-.13 1.28-.4 1.62-1.12.16-.34.2-.72.13-1.15 1.55-.18 2.77-.59 2.77-.59-.9 2.66-3.43 4.16-5.87 4.16zM41.18 2.89c-.91.25-2.06.01-2.06.01.7.69.93 1.11.93 1.11.92.05 1.13-.55 1.13-1.12zm45.15 0c0 .57.21 1.17 1.13 1.13 0 0 .24-.42.93-1.11 0 0-1.15.23-2.06-.02zm.55 12.32l.48-.81c.26-.44.5-.91.71-1.39.2-.48.37-.96.52-1.45.16-.48.3-.97.44-1.46-.22.46-.44.91-.68 1.36-.23.45-.47.89-.73 1.31-.27.42-.56.81-.88 1.19-.28.34-.58.69-.87 1.03.33.04.67.1 1.01.22zm-47.44-2.2c.2.48.45.95.71 1.39l.48.81c.34-.12.68-.19 1.01-.21-.29-.34-.59-.69-.87-1.03-.32-.39-.61-.78-.88-1.19-.26-.42-.5-.86-.73-1.31s-.45-.91-.68-1.36c.14.49.29.97.44 1.46.15.48.32.96.52 1.44zm-.15 2.9c-.77-1.11-1.51-2.24-2.13-3.43-.34-.65-.64-1.32-.88-2.01-.25-.69-.45-1.4-.61-2.12.08.74.19 1.47.36 2.2.17.73.4 1.44.67 2.14.27.7.58 1.38.9 2.05.26.53.53 1.05.8 1.57.26-.08.56-.21.89-.4zm49.8.4c.28-.52.55-1.04.8-1.57.33-.67.64-1.35.9-2.05.27-.7.49-1.42.67-2.14.17-.73.29-1.46.36-2.2-.16.72-.36 1.43-.61 2.12s-.55 1.36-.88 2.01c-.62 1.19-1.36 2.32-2.13 3.43.35.19.64.32.89.4zM38.49 51.55c-.78 0-1.36.3-1.74.9-.35-.6-.89-.9-1.61-.9s-1.26.28-1.62.83v-.68h-1.23v5.67h1.23v-3.18c0-.49.12-.86.35-1.12.23-.25.54-.38.91-.38.34 0 .6.11.79.32.19.22.28.52.28.91v3.44h1.23v-3.18c0-.5.11-.87.33-1.12s.52-.37.9-.37c.34 0 .61.11.81.32.2.22.3.52.3.91v3.44h1.23v-3.52c0-.7-.2-1.26-.59-1.68-.41-.4-.93-.61-1.57-.61zm65.62 0c-.8 0-1.39.29-1.76.87v-3h-1.23v7.94h1.23v-3.04c0-.55.13-.96.4-1.23.26-.27.61-.4 1.04-.4.39 0 .7.11.93.34s.34.55.34.98v3.36h1.23v-3.48c0-.73-.2-1.3-.6-1.71-.41-.42-.93-.63-1.58-.63zm-83.18 2.88h2.66c-.12.55-.4.99-.85 1.32-.44.33-1.02.49-1.72.49-.88 0-1.59-.27-2.13-.81s-.81-1.21-.81-2.03.27-1.5.81-2.04 1.22-.82 2.05-.82c.51 0 .98.12 1.4.35s.73.54.94.91l.9-.97c-.32-.42-.72-.78-1.21-1.05-.61-.34-1.29-.51-2.03-.51-1.18 0-2.17.4-2.97 1.2s-1.2 1.77-1.2 2.92c0 1.16.4 2.13 1.2 2.93.8.79 1.81 1.19 3.04 1.19 1.16 0 2.1-.35 2.81-1.04.72-.69 1.08-1.58 1.08-2.67v-.53h-3.97v1.16zm89.64-1.55V51.7h-1.41v-1.59h-1.23v1.59h-1.04v1.18h1.04v2.72c0 .74.2 1.25.61 1.53s1.08.36 2.02.24v-1.1c-.31.02-.57.02-.78.01-.21-.01-.37-.07-.47-.17-.11-.1-.16-.27-.16-.51v-2.72h1.42zM28.6 51.55c-.88 0-1.6.29-2.16.86-.55.57-.83 1.28-.83 2.13 0 .86.28 1.58.85 2.14s1.31.85 2.24.85c.98 0 1.75-.34 2.3-1l-.83-.83c-.33.47-.81.7-1.46.7-.47 0-.87-.12-1.19-.35-.33-.23-.53-.56-.62-.99h4.52c.03-.21.05-.38.05-.51 0-.83-.27-1.54-.8-2.12-.55-.59-1.24-.88-2.07-.88zm-1.72 2.51c.08-.43.28-.77.58-1.02s.68-.37 1.13-.37c.4 0 .75.12 1.05.35s.49.58.57 1.04h-3.33zm17.59-2.51c-.88 0-1.6.29-2.16.86s-.84 1.28-.84 2.13c0 .86.28 1.58.85 2.14s1.31.85 2.24.85c.98 0 1.75-.34 2.3-1l-.83-.83c-.33.47-.81.7-1.46.7-.47 0-.87-.12-1.19-.35-.33-.23-.53-.56-.62-.99h4.52c.03-.21.05-.38.05-.51 0-.83-.27-1.54-.8-2.12-.55-.59-1.23-.88-2.06-.88zm-1.73 2.51c.08-.43.28-.77.58-1.02.3-.25.68-.37 1.13-.37.4 0 .75.12 1.05.35s.49.58.57 1.04h-3.33zm8.13-2.51c-.88 0-1.6.29-2.16.86s-.84 1.28-.84 2.13c0 .86.28 1.58.85 2.14s1.31.85 2.24.85c.98 0 1.75-.34 2.3-1l-.83-.83c-.33.47-.81.7-1.46.7-.47 0-.87-.12-1.19-.35-.33-.23-.53-.56-.62-.99h4.52c.03-.21.05-.38.05-.51 0-.83-.27-1.54-.8-2.12-.54-.59-1.22-.88-2.06-.88zm-1.72 2.51c.08-.43.28-.77.58-1.02.3-.25.68-.37 1.13-.37.4 0 .75.12 1.05.35s.49.58.57 1.04h-3.33zm18.37-2.51c-.88 0-1.6.29-2.16.86-.56.57-.84 1.28-.84 2.13 0 .86.28 1.58.85 2.14s1.31.85 2.24.85c.98 0 1.75-.34 2.3-1l-.83-.83c-.33.47-.81.7-1.46.7-.47 0-.87-.12-1.19-.35-.33-.23-.53-.56-.62-.99h4.52c.03-.21.05-.38.05-.51 0-.83-.27-1.54-.8-2.12-.54-.59-1.23-.88-2.06-.88zm-1.72 2.51c.08-.43.28-.77.58-1.02s.68-.37 1.13-.37c.4 0 .75.12 1.05.35s.49.58.57 1.04H65.8zm25.67-2.51c-.88 0-1.6.29-2.16.86-.56.57-.84 1.28-.84 2.13 0 .86.28 1.58.85 2.14s1.31.85 2.24.85c.98 0 1.75-.34 2.3-1l-.83-.83c-.33.47-.81.7-1.46.7-.47 0-.87-.12-1.19-.35-.33-.23-.53-.56-.62-.99h4.52c.03-.21.05-.38.05-.51 0-.83-.27-1.54-.8-2.12-.54-.59-1.22-.88-2.06-.88zm-1.72 2.51c.08-.43.28-.77.58-1.02s.68-.37 1.13-.37c.4 0 .75.12 1.05.35s.49.58.57 1.04h-3.33zm-27.11-3.95h-1.23v1.59h-1.04v1.18h1.04v2.72c0 .74.2 1.25.61 1.53s1.08.36 2.02.24v-1.1c-.31.02-.57.02-.78.01-.21-.01-.37-.07-.47-.17-.11-.1-.16-.27-.16-.51v-2.72h1.41V51.7h-1.41l.01-1.59c-.01 0 0 0 0 0zm15.89 4.55c0 .48-.14.87-.43 1.16-.28.29-.71.43-1.28.43s-.99-.14-1.28-.43c-.28-.29-.43-.67-.43-1.16v-5.23H73.8v5.31c0 .85.28 1.52.84 2.03.56.5 1.28.75 2.17.75s1.61-.25 2.17-.75.84-1.18.84-2.03v-5.31h-1.31v5.23h.02zm4.36-4.55h-1.23v1.59h-1.04v1.18h1.04v2.72c0 .74.2 1.25.61 1.53s1.08.36 2.02.24v-1.1c-.31.02-.57.02-.78.01-.21-.01-.37-.07-.47-.17-.11-.1-.16-.27-.16-.51v-2.72h1.41V51.7h-1.41v-1.59h.01zm-25.3 1.44c-.8 0-1.39.29-1.76.87v-.73H54.6v5.67h1.23v-3.04c0-.55.13-.96.4-1.23.26-.27.61-.4 1.04-.4.39 0 .7.11.93.34s.34.55.34.98v3.36h1.23v-3.48c0-.73-.2-1.3-.6-1.71-.41-.42-.93-.63-1.58-.63zm28.94 1.1v-.95H85.3v5.67h1.23v-2.86c0-.58.17-1 .52-1.25s.76-.36 1.23-.33V51.6c-.86 0-1.44.35-1.75 1.05zm12.99 2.75c-.26.54-.76.9-1.37.99h-.03c-.08.01-.17.02-.26.02-1 0-1.77-.77-1.77-1.87s.77-1.87 1.77-1.87c.09 0 .17.01.25.02h.03c.61.08 1.1.44 1.37.96l.82-.82a2.973 2.973 0 00-2.47-1.27c-1.66 0-2.98 1.3-2.98 2.99a2.95 2.95 0 002.98 2.98c1.04 0 1.94-.51 2.48-1.29l-.82-.84z" }))));
+  }
+  static get style() { return bemCss$6; }
+};
+
+const bemCss$5 = ".utrecht-page-footer{font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-document-font-size);background-color:var(--utrecht-page-footer-background-color);background-image:var(--utrecht-page-footer-background-image);color:var(--utrecht-page-footer-color);padding-block-start:var(--utrecht-page-footer-padding-block-start);padding-inline-end:var(--utrecht-page-footer-padding-inline-end);padding-block-end:var(--utrecht-page-footer-padding-block-end);padding-inline-start:var(--utrecht-page-footer-padding-inline-start);--utrecht-document-color:currentColor;--utrecht-heading-color:currentColor;--utrecht-link-color:currentColor;--utrecht-link-focus-color:currentColor;--utrecht-link-hover-color:currentColor;--utrecht-link-active-color:currentColor;--utrecht-link-visited-color:currentColor}.utrecht-page-footer__address--reset-address{font-style:inherit;margin-block-start:0;margin-block-end:0}";
 
 const PageFooter = class extends HTMLElement {
   constructor() {
@@ -36170,10 +36651,42 @@ const PageFooter = class extends HTMLElement {
   render() {
     return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("footer", { class: "utrecht-page-footer" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
   }
-  static get style() { return bemCss$3; }
+  static get style() { return bemCss$5; }
 };
 
-const bemCss$2 = ".utrecht-paragraph{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit))}.utrecht-paragraph--lead{font-size:var(--utrecht-paragraph-lead-font-size, inherit);font-weight:var(--utrecht-paragraph-lead-font-weight, inherit);line-height:var(--utrecht-paragraph-lead-line-height, inherit)}.utrecht-paragraph--distanced{margin-block-start:var(--utrecht-paragraph-margin-block-start);margin-block-end:var(--utrecht-paragraph-margin-block-end)}";
+const bemCss$4 = ".utrecht-pagination{font-size:var(--utrecht-pagination-font-size, var(--utrecht-document-font-family));font-family:var(--utrecht-pagination-font-family, var(--utrecht-document-font-family))}.utrecht-pagination--distanced{margin-block-start:var(--utrecht-pagination-margin-block-start);margin-block-end:var(--utrecht-pagination-margin-block-end)}.utrecht-pagination__relative-link{background-color:var(--utrecht-pagination-relative-link-background-color);border-color:var(--utrecht-pagination-relative-link-border-color);border-radius:var(--utrecht-pagination-relative-link-border-radius);border-style:solid;border-width:var(--utrecht-pagination-relative-link-border-width, 0);color:var(--utrecht-pagination-relative-link-color);display:inline-block;font-weight:var(--utrecht-pagination-relative-link-font-weight);padding-block-end:var(--utrecht-pagination-relative-link-padding-block-end);padding-block-start:var(--utrecht-pagination-relative-link-padding-block-start);padding-inline-end:var(--utrecht-pagination-relative-link-padding-inline-end);padding-inline-start:var(--utrecht-pagination-relative-link-padding-inline-start);text-decoration:var(--utrecht-pagination-relative-link-text-decoration);text-transform:var(--utrecht-pagination-relative-link-text-transform)}.utrecht-pagination__relative-link--next{margin-inline-start:var(--utrecht-pagination-relative-link-distanced-margin-inline-start)}.utrecht-pagination__relative-link--prev{margin-inline-end:var(--utrecht-pagination-relative-link-distanced-margin-inline-end)}.utrecht-pagination__relative-link--disabled{color:var(--utrecht-pagination-relative-link-disabled-color, var(--utrecht-pagination-relative-link-color));background-color:var(--utrecht-pagination-relative-link-disabled-background-color, var(--utrecht-pagination-relative-link-background-color))}.utrecht-pagination__relative-link--focus,.utrecht-pagination__relative-link:focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-pagination__relative-link--hover,.utrecht-pagination__relative-link:hover{color:var(--utrecht-pagination-relative-link-hover-color, var(--utrecht-pagination-relative-link-color));background-color:var(--utrecht-pagination-relative-link-hover-background-color, var(--utrecht-pagination-relative-link-background-color));border-color:var(--utrecht-pagination-relative-link-hover-border-color, var(--utrecht-pagination-relative-link-border-color))}.utrecht-pagination__page-link{display:inline-block;color:var(--utrecht-pagination-page-link-color);background-color:var(--utrecht-pagination-page-link-background-color);border-style:solid;border-radius:var(--utrecht-pagination-page-link-border-radius);border-width:var(--utrecht-pagination-page-link-border-width);border-color:var(--utrecht-pagination-page-link-border-color, 0);padding-inline-start:var(--utrecht-pagination-page-link-padding-inline-start);padding-inline-end:var(--utrecht-pagination-page-link-padding-inline-end);padding-block-start:var(--utrecht-pagination-page-link-padding-block-start);padding-block-end:var(--utrecht-pagination-page-link-padding-block-end);font-weight:var(--utrecht-pagination-page-link-font-weight);text-decoration:var(--utrecht-pagination-page-link-text-decoration)}.utrecht-pagination__page-link--current{color:var(--utrecht-pagination-page-link-current-color);background-color:var(--utrecht-pagination-page-link-current-background-color);border-color:var(--utrecht-pagination-page-link-current-border-color)}.utrecht-pagination__page-link--distanced,.utrecht-pagination__page-link~.utrecht-pagination__page-link{margin-inline-start:var(--utrecht-pagination-page-link-distanced-margin-inline-start)}.utrecht-pagination__page-link--hover,.utrecht-pagination__page-link:hover{color:var(--utrecht-pagination-page-link-hover-color, var(--utrecht-pagination-page-link-color));background-color:var(--utrecht-pagination-page-link-hover-background-color, var(--utrecht-pagination-page-link-background-color));border-color:var(--utrecht-pagination-page-link-hover-border-color, var(--utrecht-pagination-page-link-border-color))}.utrecht-pagination__page-link--focus,.utrecht-pagination__page-link:focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}";
+
+const Pagination = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+  }
+  render() {
+    const { currentIndex } = this;
+    const links = typeof this.links === "string" ? JSON.parse(this.links) : null;
+    const next = typeof this.next === "string" ? JSON.parse(this.next) : null;
+    const prev = typeof this.prev === "string" ? JSON.parse(this.next) : null;
+    const RelativeLink = ({ disabled = false, href = "", rel = null, textContent = "", title = "" }) => disabled ? (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("span", { class: clsx("utrecht-pagination__relative-link", disabled && "utrecht-pagination__relative-link--disabled", rel === "next" && "utrecht-pagination__relative-link--next", rel === "prev" && "utrecht-pagination__relative-link--prev"), "aria-label": title || null }, textContent)) : (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("a", { href: href, class: clsx("utrecht-pagination__relative-link", disabled && "utrecht-pagination__relative-link--disabled", rel === "next" && "utrecht-pagination__relative-link--next", rel === "prev" && "utrecht-pagination__relative-link--prev"), rel: rel, "aria-label": title || null }, textContent));
+    const PageLink = ({ current = false, href = "", rel = null, textContent = "" }) => (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("a", { class: clsx("utrecht-pagination__page-link", current && "utrecht-pagination__page-link--current"), href: href, "aria-current": current ? "true" : null, rel: rel }, textContent));
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: "utrecht-pagination" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("span", { class: "utrecht-pagination__before" }, prev ? RelativeLink(Object.assign(Object.assign({}, prev), { rel: "prev", textContent: "Vorige" })) : ""), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("span", { role: "group", class: "utrecht-pagination__pages" }, links
+      .sort((a, b) => (a.index === b.index ? 0 : a.index > b.index ? 1 : -1))
+      .map((link, arrayIndex) => {
+      const index = typeof link.index === "number" ? link.index : arrayIndex;
+      return Object.assign({ index, current: typeof currentIndex === "number" && index === currentIndex, rel: typeof currentIndex === "number"
+          ? index === currentIndex + 1
+            ? "next"
+            : index === currentIndex - 1
+              ? "prev"
+              : null
+          : null, textContent: link.index || index }, link);
+    })
+      .map((link) => PageLink(link))), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("span", { class: "utrecht-pagination__before" }, next ? RelativeLink(Object.assign(Object.assign({}, next), { rel: "next", textContent: "Volgende" })) : "")));
+  }
+  static get style() { return bemCss$4; }
+};
+
+const bemCss$3 = ".utrecht-paragraph{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit))}.utrecht-paragraph--lead{font-size:var(--utrecht-paragraph-lead-font-size, inherit);font-weight:var(--utrecht-paragraph-lead-font-weight, inherit);line-height:var(--utrecht-paragraph-lead-line-height, inherit)}.utrecht-paragraph--distanced{margin-block-start:var(--utrecht-paragraph-margin-block-start);margin-block-end:var(--utrecht-paragraph-margin-block-end)}";
 
 const Paragraph = class extends HTMLElement {
   constructor() {
@@ -36184,10 +36697,10 @@ const Paragraph = class extends HTMLElement {
   render() {
     return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: clsx("utrecht-paragraph", this.lead && "utrecht-paragraph--lead") }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)));
   }
-  static get style() { return bemCss$2; }
+  static get style() { return bemCss$3; }
 };
 
-const bemCss$1 = ".utrecht-separator{border-style:solid;border-color:var(--utrecht-separator-color);border-width:0 0 var(--utrecht-separator-width) 0;margin-block-start:var(--utrecht-separator-margin-block-start);margin-block-end:var(--utrecht-separator-margin-block-end)}";
+const bemCss$2 = ".utrecht-separator{border-style:solid;border-color:var(--utrecht-separator-color);border-width:0 0 var(--utrecht-separator-width) 0;margin-block-start:var(--utrecht-separator-margin-block-start);margin-block-end:var(--utrecht-separator-margin-block-end)}";
 
 const Separator = class extends HTMLElement {
   constructor() {
@@ -36198,10 +36711,10 @@ const Separator = class extends HTMLElement {
   render() {
     return Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("hr", { class: "utrecht-separator" });
   }
-  static get style() { return bemCss$1; }
+  static get style() { return bemCss$2; }
 };
 
-const bemCss = ".utrecht-navhtml{font-family:var(--utrecht-font-family-sans-serif)}.utrecht-sidenav{padding-block-start:0;padding-block-end:0;margin-block-start:0;margin-block-end:0;width:13rem;border-block-start:1px solid var(--utrecht-color-grey-80);border-block-end:1px solid var(--utrecht-color-grey-80)}.utrecht-sidenav__list{padding-block-start:0;padding-block-end:0;margin-block-start:0.2rem;margin-block-end:0;padding-inline-start:0}.utrecht-sidenav__list ul{padding-block-start:0;padding-block-end:0;margin-block-end:0;padding-inline-start:1.2rem}.utrecht-sidenav__item,.utrecht-sidenav__sibling__item{list-style:none;position:relative;margin-inline-start:0}.utrecht-sidenav__item:last-child{border-block-end:none}.utrecht-sidenav__item span:not(.utrecht-sidenav__item:last-child span,.utrecht-sidenav__item--has-children span:first-of-type){display:block;border-block-end:1px solid var(--utrecht-color-grey-80);margin-inline-start:var(--utrecht-space-inline-sm)}.utrecht-sidenav__item .utrecht-sidenav__link--has-children{padding-block-end:0}.utrecht-sidenav__child__item{list-style:none}.utrecht-sidenav__link,.utrecht-sidenav__link--sibling{display:block;color:var(--utrecht-sidenav-link-color, var(--utrecht-link-color, blue));padding-block-start:var(--utrecht-space-block-xs);padding-block-end:var(--utrecht-space-block-xs);padding-inline-start:var(--utrecht-space-inline-lg);padding-inline-end:var(--utrecht-space-inline-3xs);margin-inline-start:0;text-decoration:none}.utrecht-sidenav__link--child,.utrecht-sidenav__link--child--current{display:block;color:var(--utrecht-sidenav-link-color, var(--utrecht-link-color, blue));text-decoration:none;padding-block-start:var(--utrecht-space-block-2xs);padding-block-end:var(--utrecht-space-block-2xs);padding-inline-start:var(--utrecht-space-inline-lg);padding-inline-end:var(--utrecht-space-inline-3xs);margin-block-start:0;margin-block-end:0}.utrecht-sidenav__link::before,.utrecht-sidenav__link--sibling::before,.utrecht-sidenav__item:last-child .utrecht-sidenav__link--current::before{overflow:hidden;position:absolute;top:20px;transform:translateY(-50%) translateX(-2.5ch);content:\"\";width:8px;height:8px;border-radius:100%;z-index:10;box-shadow:0 0 2px 2px #fff;}.utrecht-sidenav__link::before,.utrecht-sidenav__link--sibling::before{background-color:var(--utrecht-sidenav-item-marker-color)}.utrecht-sidenav__link::before,.utrecht-sidenav__link--sibling::before{left:26px}.utrecht-sidenav__link--current::before{left:27px}.utrecht-sidenav__link:hover::before,.utrecht-sidenav__link--sibling:hover::before{background-color:var(--utrecht-sidenav-link-hover-color)}.utrecht-sidenav__item a:hover{color:var(--utrecht-sidenav-link-hover-color, var(--utrecht-link-hover-color, red));text-decoration:underline}.utrecht-sidenav__item--current{color:var(--utrecht-sidenav-item-hover-color, var(--utrecht-link-hover-color, red))}.utrecht-sidenav__link::after,.utrecht-sidenav__item:last-child .utrecht-sidenav__link::after{display:block;content:\"\";overflow:hidden;width:3px;background:var(--utrecht-sidenav-item-marker-color);position:absolute;left:3px;top:-22px;bottom:0;z-index:5}.utrecht-sidenav__item:last-child .utrecht-sidenav__link::after,.utrecht-sidenav__link--current::after,.utrecht-sidenav__item--has-children a::after{min-height:38px;height:calc(38px + 2px)}.utrecht-sidenav__item:first-child .utrecht-sidenav__link::after{content:\"\";display:none}.utrecht-sidenav__link--current,.utrecht-sidenav__link--child--current{font-weight:var(--utrecht-typography-weight-scale-bold-font-weight)}.utrecht-sidenav__list--child{margin-block-start:0;margin-block-end:0;padding-block-start:0;padding-block-end:0;padding-inline-start:1.4rem;padding-inline-end:0}.utrecht-sidenav__item--child{list-style:none;position:relative;border:none}.utrecht-sidenav__item--child:last-child{border:none}.utrecht-sidenav__link--child::before,.utrecht-sidenav__link--child--current::before{overflow:hidden;position:absolute;top:16px;left:1.2rem;transform:translateY(-50%) translateX(-19.5px);content:\"\";width:4px;height:4px;border-radius:100%;border:2px solid var(--utrecht-sidenav-link-color);z-index:10}.utrecht-sidenav__link--child::before{background-color:transparent}.utrecht-sidenav__link--current::before,.utrecht-sidenav__link--child--current::before{background-color:var(--utrecht-sidenav-link-hover-color)}.utrecht-sidenav__link--child:hover::before{background-color:var(--utrecht-sidenav-link-hover-color);border:2px solid var(--utrecht-sidenav-link-hover-color)}.utrecht-sidenav__item--child:first-child .utrecht-sidenav__link--child--current::after,.utrecht-sidenav__link--child::after,.utrecht-sidenav__item .utrecht-sidenav__item--child .utrecht-sidenav__link--child::after,.utrecht-sidenav__item .utrecht-sidenav__link--sibling::after,.utrecht-sidenav__item--sibling:last-child .utrecht-sidenav__link--sibling::after{display:none}.utrecht-sidenav__link:focus,.utrecht-sidenav__link--focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}";
+const bemCss$1 = ".utrecht-navhtml{font-family:var(--utrecht-font-family-sans-serif)}.utrecht-sidenav{padding-block-start:0;padding-block-end:0;margin-block-start:0;margin-block-end:0;width:13rem;border-block-start:1px solid var(--utrecht-color-grey-80);border-block-end:1px solid var(--utrecht-color-grey-80)}.utrecht-sidenav__list{padding-block-start:0;padding-block-end:0;margin-block-start:0.2rem;margin-block-end:0;padding-inline-start:0}.utrecht-sidenav__list ul{padding-block-start:0;padding-block-end:0;margin-block-end:0;padding-inline-start:1.2rem}.utrecht-sidenav__item,.utrecht-sidenav__sibling__item{list-style:none;position:relative;margin-inline-start:0}.utrecht-sidenav__item:last-child{border-block-end:none}.utrecht-sidenav__item span:not(.utrecht-sidenav__item:last-child span,.utrecht-sidenav__item--has-children span:first-of-type){display:block;border-block-end:1px solid var(--utrecht-color-grey-80);margin-inline-start:var(--utrecht-space-inline-sm)}.utrecht-sidenav__item .utrecht-sidenav__link--has-children{padding-block-end:0}.utrecht-sidenav__child__item{list-style:none}.utrecht-sidenav__link,.utrecht-sidenav__link--sibling{display:block;color:var(--utrecht-sidenav-link-color, var(--utrecht-link-color, blue));padding-block-start:var(--utrecht-space-block-xs);padding-block-end:var(--utrecht-space-block-xs);padding-inline-start:var(--utrecht-space-inline-lg);padding-inline-end:var(--utrecht-space-inline-3xs);margin-inline-start:0;text-decoration:none}.utrecht-sidenav__link--child,.utrecht-sidenav__link--child--current{display:block;color:var(--utrecht-sidenav-link-color, var(--utrecht-link-color, blue));text-decoration:none;padding-block-start:var(--utrecht-space-block-2xs);padding-block-end:var(--utrecht-space-block-2xs);padding-inline-start:var(--utrecht-space-inline-lg);padding-inline-end:var(--utrecht-space-inline-3xs);margin-block-start:0;margin-block-end:0}.utrecht-sidenav__link::before,.utrecht-sidenav__link--sibling::before,.utrecht-sidenav__item:last-child .utrecht-sidenav__link--current::before{overflow:hidden;position:absolute;top:20px;transform:translateY(-50%) translateX(-2.5ch);content:\"\";width:8px;height:8px;border-radius:100%;z-index:10;box-shadow:0 0 2px 2px #fff;}.utrecht-sidenav__link::before,.utrecht-sidenav__link--sibling::before{background-color:var(--utrecht-sidenav-item-marker-color)}.utrecht-sidenav__link::before,.utrecht-sidenav__link--sibling::before{left:26px}.utrecht-sidenav__link--current::before{left:27px}.utrecht-sidenav__link:hover::before,.utrecht-sidenav__link--sibling:hover::before{background-color:var(--utrecht-sidenav-link-hover-color)}.utrecht-sidenav__item a:hover{color:var(--utrecht-sidenav-link-hover-color, var(--utrecht-link-hover-color, red));text-decoration:underline}.utrecht-sidenav__item--current{color:var(--utrecht-sidenav-item-hover-color, var(--utrecht-link-hover-color, red))}.utrecht-sidenav__link::after,.utrecht-sidenav__item:last-child .utrecht-sidenav__link::after{display:block;content:\"\";overflow:hidden;width:3px;background:var(--utrecht-sidenav-item-marker-color);position:absolute;left:3px;top:-22px;bottom:0;z-index:5}.utrecht-sidenav__item:last-child .utrecht-sidenav__link::after,.utrecht-sidenav__link--current::after,.utrecht-sidenav__item--has-children a::after{min-height:38px;height:calc(38px + 2px)}.utrecht-sidenav__item:first-child .utrecht-sidenav__link::after{content:\"\";display:none}.utrecht-sidenav__link--current,.utrecht-sidenav__link--child--current{font-weight:var(--utrecht-typography-weight-scale-bold-font-weight)}.utrecht-sidenav__list--child{margin-block-start:0;margin-block-end:0;padding-block-start:0;padding-block-end:0;padding-inline-start:1.4rem;padding-inline-end:0}.utrecht-sidenav__item--child{list-style:none;position:relative;border:none}.utrecht-sidenav__item--child:last-child{border:none}.utrecht-sidenav__link--child::before,.utrecht-sidenav__link--child--current::before{overflow:hidden;position:absolute;top:16px;left:1.2rem;transform:translateY(-50%) translateX(-19.5px);content:\"\";width:4px;height:4px;border-radius:100%;border:2px solid var(--utrecht-sidenav-link-color);z-index:10}.utrecht-sidenav__link--child::before{background-color:transparent}.utrecht-sidenav__link--current::before,.utrecht-sidenav__link--child--current::before{background-color:var(--utrecht-sidenav-link-hover-color)}.utrecht-sidenav__link--child:hover::before{background-color:var(--utrecht-sidenav-link-hover-color);border:2px solid var(--utrecht-sidenav-link-hover-color)}.utrecht-sidenav__item--child:first-child .utrecht-sidenav__link--child--current::after,.utrecht-sidenav__link--child::after,.utrecht-sidenav__item .utrecht-sidenav__item--child .utrecht-sidenav__link--child::after,.utrecht-sidenav__item .utrecht-sidenav__link--sibling::after,.utrecht-sidenav__item--sibling:last-child .utrecht-sidenav__link--sibling::after{display:none}.utrecht-sidenav__link:focus,.utrecht-sidenav__link--focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}";
 
 const Sidenav = class extends HTMLElement {
   constructor() {
@@ -36213,6 +36726,33 @@ const Sidenav = class extends HTMLElement {
     const items = JSON.parse(this.json);
     return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: "utrecht-sidenav" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("ul", { class: "utrecht-sidenav__list" }, items.map(({ href, title, current, focus, children, sibling, haschildren }) => (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("li", { key: href, class: clsx("utrecht-sidenav__item", sibling && "utrecht-sidenav__item--sibling", haschildren && "utrecht-sidenav__item--has-children") }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("a", { class: clsx("utrecht-sidenav__link", current && "utrecht-sidenav__link--current", focus && "utrecht-sidenav__link--focus", sibling && "utrecht-sidenav__link--sibling", haschildren && "utrecht-sidenav__link--has-children"), href: href }, title), Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("span", null), children ? (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("ul", { class: "utrecht-sidenav__list utrecht-sidenav__list--child" }, children.map(({ href, title, current, focus }) => (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("li", { key: href, class: "utrecht-sidenav__item utrecht-sidenav__item--child" }, Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("a", { class: clsx("utrecht-sidenav__link utrecht-sidenav__link--child", current && "utrecht-sidenav__link--current utrecht-sidenav__link--child--current", focus && "utrecht-sidenav__link--focus"), href: href }, title)))))) : ("")))))));
   }
+  static get style() { return bemCss$1; }
+};
+
+const bemCss = ".utrecht-textbox{border-width:var(--utrecht-textbox-border-width);border-bottom-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width));border-color:var(--utrecht-textbox-border-color);border-radius:var(--utrecht-textbox-border-radius, 0);border-style:solid;color:var(--utrecht-textbox-color);font-family:var(--utrecht-textbox-font-family);font-size:var(--utrecht-textbox-font-size, 1em);max-width:var(--utrecht-textbox-max-width);padding-block-end:var(--utrecht-textbox-padding-block-end);padding-block-start:var(--utrecht-textbox-padding-block-start);padding-inline-end:var(--utrecht-textbox-padding-inline-end);padding-inline-start:var(--utrecht-textbox-padding-inline-start);box-sizing:border-box;width:100%}.utrecht-textbox--invalid,.utrecht-textbox--html-input:invalid,.utrecht-textbox--html-input[aria-invalid=true]{border-color:var(--utrecht-textbox-invalid-border-color);border-width:var(--utrecht-textbox-invalid-border-width)}.utrecht-textbox--disabled,.utrecht-textbox--html-input:disabled{border-color:var(--utrecht-textbox-disabled-border-color);color:var(--utrecht-textbox-disabled-color)}.utrecht-textbox--focus,.utrecht-textbox--html-input:focus{outline-width:var(--utrecht-focus-outline-width, 0);outline-style:var(--utrecht-focus-outline-style, solid);outline-color:var(--utrecht-focus-outline-color, transparent);color:var(--utrecht-focus-color, inherit);box-shadow:0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);outline-offset:0;background-color:var(--utrecht-focus-background-color)}.utrecht-textbox--read-only,.utrecht-textbox--html-input:read-only{border-color:var(--utrecht-textbox-read-only-border-color);color:var(--utrecht-textbox-read-only-color)}";
+
+const Textbox = class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["attachShadow"])(this);
+    this.utrechtBlur = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtBlur", 7);
+    this.utrechtChange = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtChange", 7);
+    this.utrechtFocus = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtFocus", 7);
+    this.utrechtInput = Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["createEvent"])(this, "utrechtInput", 7);
+    this.disabled = false;
+    this.invalid = false;
+    this.readOnly = false;
+    this.placeholder = "";
+    this.value = "";
+  }
+  render() {
+    const { disabled, invalid, placeholder, readOnly, value } = this;
+    return (Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["h"])("input", { class: clsx("utrecht-textbox", disabled && "utrecht-textbox--disabled", invalid && "utrecht-textbox--invalid", readOnly && "utrecht-textbox--readonly"), type: "text", disabled: disabled, placeholder: placeholder || null, readOnly: readOnly, value: value, onBlur: (evt) => this.utrechtBlur.emit(evt), onChange: (evt) => this.utrechtChange.emit(evt), onFocus: (evt) => this.utrechtFocus.emit(evt), onInput: (evt) => {
+        this.value = evt.target.value;
+        this.utrechtInput.emit(evt);
+      } }));
+  }
   static get style() { return bemCss; }
 };
 
@@ -36220,14 +36760,32 @@ const UtrechtArticle = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPAC
 const UtrechtBadgeCounter = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(BadgeCounter, [1,"utrecht-badge-counter",{"value":[2],"max":[2],"locale":[1]}]);
 const UtrechtBadgeData = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(BadgeData, [1,"utrecht-badge-data"]);
 const UtrechtBadgeStatus = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(BadgeStatus, [1,"utrecht-badge-status",{"status":[1]}]);
+const UtrechtBreadcrumb = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Breadcrumb, [1,"utrecht-breadcrumb",{"json":[1],"variant":[1]}]);
 const UtrechtButton = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Button, [1,"utrecht-button",{"disabled":[4]}]);
+const UtrechtCheckbox = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Checkbox, [1,"utrecht-checkbox",{"disabled":[516],"readOnly":[516,"readonly"],"checked":[32],"value":[32]}]);
 const UtrechtDocument = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Document, [1,"utrecht-document"]);
+const UtrechtFormFieldCheckbox = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(FormFieldCheckbox, [1,"utrecht-form-field-checkbox",{"label":[4],"disabled":[516],"readOnly":[516,"readonly"],"checked":[32],"value":[32]}]);
+const UtrechtFormFieldTextbox = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(FormFieldTextbox, [1,"utrecht-form-field-textbox",{"disabled":[516],"invalid":[516],"readOnly":[516,"readonly"],"placeholder":[1],"value":[32]}]);
 const UtrechtHeading = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Heading, [1,"utrecht-heading",{"level":[2]}]);
+const UtrechtHeading1 = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Heading1, [1,"utrecht-heading-1"]);
+const UtrechtHeading2 = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Heading2, [1,"utrecht-heading-2"]);
+const UtrechtHeading3 = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Heading3, [1,"utrecht-heading-3"]);
+const UtrechtHeading4 = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Heading4, [1,"utrecht-heading-4"]);
+const UtrechtHeading5 = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Heading5, [1,"utrecht-heading-5"]);
+const UtrechtHeading6 = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Heading6, [1,"utrecht-heading-6"]);
 const UtrechtHtmlContent = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(HTMLContent, [4,"utrecht-html-content"]);
+const UtrechtIconFacebook = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(IconFacebook, [1,"utrecht-icon-facebook"]);
+const UtrechtIconInstagram = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(IconInstagram, [1,"utrecht-icon-instagram"]);
+const UtrechtIconLinkedin = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(IconLinkedin, [1,"utrecht-icon-linkedin"]);
+const UtrechtIconTwitter = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(IconTwitter, [1,"utrecht-icon-twitter"]);
+const UtrechtIconWhatsapp = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(IconWhatsapp, [1,"utrecht-icon-whatsapp"]);
+const UtrechtLogo = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Logo, [1,"utrecht-logo"]);
 const UtrechtPageFooter = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(PageFooter, [1,"utrecht-page-footer"]);
+const UtrechtPagination = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Pagination, [1,"utrecht-pagination",{"links":[1],"next":[1],"prev":[1],"currentIndex":[2,"current-index"]}]);
 const UtrechtParagraph = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Paragraph, [1,"utrecht-paragraph",{"lead":[4]}]);
 const UtrechtSeparator = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Separator, [1,"utrecht-separator"]);
 const UtrechtSidenav = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Sidenav, [1,"utrecht-sidenav",{"json":[1]}]);
+const UtrechtTextbox = /*@__PURE__*/Object(_stencil_core_internal_client__WEBPACK_IMPORTED_MODULE_0__["proxyCustomElement"])(Textbox, [1,"utrecht-textbox",{"disabled":[516],"invalid":[516],"readOnly":[516,"readonly"],"placeholder":[1],"value":[32]}]);
 const defineCustomElements = (opts) => {
   if (typeof customElements !== 'undefined') {
     [
@@ -36235,14 +36793,32 @@ const defineCustomElements = (opts) => {
   UtrechtBadgeCounter,
   UtrechtBadgeData,
   UtrechtBadgeStatus,
+  UtrechtBreadcrumb,
   UtrechtButton,
+  UtrechtCheckbox,
   UtrechtDocument,
+  UtrechtFormFieldCheckbox,
+  UtrechtFormFieldTextbox,
   UtrechtHeading,
+  UtrechtHeading1,
+  UtrechtHeading2,
+  UtrechtHeading3,
+  UtrechtHeading4,
+  UtrechtHeading5,
+  UtrechtHeading6,
   UtrechtHtmlContent,
+  UtrechtIconFacebook,
+  UtrechtIconInstagram,
+  UtrechtIconLinkedin,
+  UtrechtIconTwitter,
+  UtrechtIconWhatsapp,
+  UtrechtLogo,
   UtrechtPageFooter,
+  UtrechtPagination,
   UtrechtParagraph,
   UtrechtSeparator,
-  UtrechtSidenav
+  UtrechtSidenav,
+  UtrechtTextbox
     ].forEach(cmp => {
       if (!customElements.get(cmp.is)) {
         customElements.define(cmp.is, cmp, opts);
@@ -54356,6 +54932,6891 @@ function iif(condition, trueResult = _empty__WEBPACK_IMPORTED_MODULE_1__["EMPTY"
 
 /***/ }),
 
+/***/ "s7LF":
+/*!*******************************************************!*\
+  !*** ./node_modules/@angular/forms/fesm2015/forms.js ***!
+  \*******************************************************/
+/*! exports provided: AbstractControl, AbstractControlDirective, AbstractFormGroupDirective, COMPOSITION_BUFFER_MODE, CheckboxControlValueAccessor, CheckboxRequiredValidator, ControlContainer, DefaultValueAccessor, EmailValidator, FormArray, FormArrayName, FormBuilder, FormControl, FormControlDirective, FormControlName, FormGroup, FormGroupDirective, FormGroupName, FormsModule, MaxLengthValidator, MinLengthValidator, NG_ASYNC_VALIDATORS, NG_VALIDATORS, NG_VALUE_ACCESSOR, NgControl, NgControlStatus, NgControlStatusGroup, NgForm, NgModel, NgModelGroup, NgSelectOption, NumberValueAccessor, PatternValidator, RadioControlValueAccessor, RangeValueAccessor, ReactiveFormsModule, RequiredValidator, SelectControlValueAccessor, SelectMultipleControlValueAccessor, VERSION, Validators, ɵInternalFormsSharedModule, ɵNgNoValidate, ɵNgSelectMultipleOption, ɵangular_packages_forms_forms_a, ɵangular_packages_forms_forms_b, ɵangular_packages_forms_forms_ba, ɵangular_packages_forms_forms_bb, ɵangular_packages_forms_forms_bc, ɵangular_packages_forms_forms_bd, ɵangular_packages_forms_forms_be, ɵangular_packages_forms_forms_bf, ɵangular_packages_forms_forms_bg, ɵangular_packages_forms_forms_bh, ɵangular_packages_forms_forms_bi, ɵangular_packages_forms_forms_bj, ɵangular_packages_forms_forms_bk, ɵangular_packages_forms_forms_bl, ɵangular_packages_forms_forms_bm, ɵangular_packages_forms_forms_bn, ɵangular_packages_forms_forms_bo, ɵangular_packages_forms_forms_bp, ɵangular_packages_forms_forms_c, ɵangular_packages_forms_forms_d, ɵangular_packages_forms_forms_e, ɵangular_packages_forms_forms_f, ɵangular_packages_forms_forms_g, ɵangular_packages_forms_forms_h, ɵangular_packages_forms_forms_i, ɵangular_packages_forms_forms_j, ɵangular_packages_forms_forms_k, ɵangular_packages_forms_forms_l, ɵangular_packages_forms_forms_m, ɵangular_packages_forms_forms_n, ɵangular_packages_forms_forms_o, ɵangular_packages_forms_forms_p, ɵangular_packages_forms_forms_q, ɵangular_packages_forms_forms_r, ɵangular_packages_forms_forms_s, ɵangular_packages_forms_forms_t, ɵangular_packages_forms_forms_u, ɵangular_packages_forms_forms_v, ɵangular_packages_forms_forms_w, ɵangular_packages_forms_forms_x, ɵangular_packages_forms_forms_y, ɵangular_packages_forms_forms_z */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AbstractControl", function() { return AbstractControl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AbstractControlDirective", function() { return AbstractControlDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AbstractFormGroupDirective", function() { return AbstractFormGroupDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "COMPOSITION_BUFFER_MODE", function() { return COMPOSITION_BUFFER_MODE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckboxControlValueAccessor", function() { return CheckboxControlValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckboxRequiredValidator", function() { return CheckboxRequiredValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ControlContainer", function() { return ControlContainer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DefaultValueAccessor", function() { return DefaultValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EmailValidator", function() { return EmailValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormArray", function() { return FormArray; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormArrayName", function() { return FormArrayName; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormBuilder", function() { return FormBuilder; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormControl", function() { return FormControl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormControlDirective", function() { return FormControlDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormControlName", function() { return FormControlName; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormGroup", function() { return FormGroup; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormGroupDirective", function() { return FormGroupDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormGroupName", function() { return FormGroupName; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormsModule", function() { return FormsModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaxLengthValidator", function() { return MaxLengthValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MinLengthValidator", function() { return MinLengthValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NG_ASYNC_VALIDATORS", function() { return NG_ASYNC_VALIDATORS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NG_VALIDATORS", function() { return NG_VALIDATORS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NG_VALUE_ACCESSOR", function() { return NG_VALUE_ACCESSOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgControl", function() { return NgControl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgControlStatus", function() { return NgControlStatus; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgControlStatusGroup", function() { return NgControlStatusGroup; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgForm", function() { return NgForm; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgModel", function() { return NgModel; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgModelGroup", function() { return NgModelGroup; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgSelectOption", function() { return NgSelectOption; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NumberValueAccessor", function() { return NumberValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PatternValidator", function() { return PatternValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RadioControlValueAccessor", function() { return RadioControlValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RangeValueAccessor", function() { return RangeValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactiveFormsModule", function() { return ReactiveFormsModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RequiredValidator", function() { return RequiredValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectControlValueAccessor", function() { return SelectControlValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectMultipleControlValueAccessor", function() { return SelectMultipleControlValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VERSION", function() { return VERSION; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Validators", function() { return Validators; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵInternalFormsSharedModule", function() { return ɵInternalFormsSharedModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵNgNoValidate", function() { return ɵNgNoValidate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵNgSelectMultipleOption", function() { return ɵNgSelectMultipleOption; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_a", function() { return SHARED_FORM_DIRECTIVES; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_b", function() { return TEMPLATE_DRIVEN_DIRECTIVES; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_ba", function() { return ɵNgNoValidate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bb", function() { return REQUIRED_VALIDATOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bc", function() { return CHECKBOX_REQUIRED_VALIDATOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bd", function() { return EMAIL_VALIDATOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_be", function() { return MIN_LENGTH_VALIDATOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bf", function() { return MAX_LENGTH_VALIDATOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bg", function() { return PATTERN_VALIDATOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bh", function() { return minValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bi", function() { return maxValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bj", function() { return requiredValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bk", function() { return requiredTrueValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bl", function() { return emailValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bm", function() { return minLengthValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bn", function() { return maxLengthValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bo", function() { return patternValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_bp", function() { return nullValidator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_c", function() { return REACTIVE_DRIVEN_DIRECTIVES; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_d", function() { return ɵInternalFormsSharedModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_e", function() { return CHECKBOX_VALUE_ACCESSOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_f", function() { return BuiltInControlValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_g", function() { return DEFAULT_VALUE_ACCESSOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_h", function() { return AbstractControlStatus; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_i", function() { return ngControlStatusHost; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_j", function() { return formDirectiveProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_k", function() { return formControlBinding; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_l", function() { return modelGroupProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_m", function() { return NUMBER_VALUE_ACCESSOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_n", function() { return RADIO_VALUE_ACCESSOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_o", function() { return RadioControlRegistryModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_p", function() { return RadioControlRegistry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_q", function() { return RANGE_VALUE_ACCESSOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_r", function() { return NG_MODEL_WITH_FORM_CONTROL_WARNING; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_s", function() { return formControlBinding$1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_t", function() { return controlNameBinding; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_u", function() { return formDirectiveProvider$1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_v", function() { return formGroupNameProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_w", function() { return formArrayNameProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_x", function() { return SELECT_VALUE_ACCESSOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_y", function() { return SELECT_MULTIPLE_VALUE_ACCESSOR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_forms_forms_z", function() { return ɵNgSelectMultipleOption; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "qCKp");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
+/**
+ * @license Angular v11.2.14
+ * (c) 2010-2021 Google LLC. https://angular.io/
+ * License: MIT
+ */
+
+
+
+
+
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Base class for all built-in ControlValueAccessor classes. We use this class to distinguish
+ * between built-in and custom CVAs, so that Forms logic can recognize built-in CVAs and treat
+ * custom ones with higher priority (when both built-in and custom CVAs are present).
+ * Note: this is an *internal-only* class and should not be extended or used directly in
+ * applications code.
+ */
+class BuiltInControlValueAccessor {
+}
+/**
+ * Used to provide a `ControlValueAccessor` for form controls.
+ *
+ * See `DefaultValueAccessor` for how to implement one.
+ *
+ * @publicApi
+ */
+const NG_VALUE_ACCESSOR = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('NgValueAccessor');
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const CHECKBOX_VALUE_ACCESSOR = {
+    provide: NG_VALUE_ACCESSOR,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => CheckboxControlValueAccessor),
+    multi: true,
+};
+/**
+ * @description
+ * A `ControlValueAccessor` for writing a value and listening to changes on a checkbox input
+ * element.
+ *
+ * @usageNotes
+ *
+ * ### Using a checkbox with a reactive form.
+ *
+ * The following example shows how to use a checkbox with a reactive form.
+ *
+ * ```ts
+ * const rememberLoginControl = new FormControl();
+ * ```
+ *
+ * ```
+ * <input type="checkbox" [formControl]="rememberLoginControl">
+ * ```
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class CheckboxControlValueAccessor extends BuiltInControlValueAccessor {
+    constructor(_renderer, _elementRef) {
+        super();
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        /**
+         * The registered callback function called when a change event occurs on the input element.
+         * @nodoc
+         */
+        this.onChange = (_) => { };
+        /**
+         * The registered callback function called when a blur event occurs on the input element.
+         * @nodoc
+         */
+        this.onTouched = () => { };
+    }
+    /**
+     * Sets the "checked" property on the input element.
+     * @nodoc
+     */
+    writeValue(value) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'checked', value);
+    }
+    /**
+     * Registers a function called when the control value changes.
+     * @nodoc
+     */
+    registerOnChange(fn) {
+        this.onChange = fn;
+    }
+    /**
+     * Registers a function called when the control is touched.
+     * @nodoc
+     */
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    /**
+     * Sets the "disabled" property on the input element.
+     * @nodoc
+     */
+    setDisabledState(isDisabled) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', isDisabled);
+    }
+}
+CheckboxControlValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'input[type=checkbox][formControlName],input[type=checkbox][formControl],input[type=checkbox][ngModel]',
+                host: { '(change)': 'onChange($event.target.checked)', '(blur)': 'onTouched()' },
+                providers: [CHECKBOX_VALUE_ACCESSOR]
+            },] }
+];
+CheckboxControlValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const DEFAULT_VALUE_ACCESSOR = {
+    provide: NG_VALUE_ACCESSOR,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => DefaultValueAccessor),
+    multi: true
+};
+/**
+ * We must check whether the agent is Android because composition events
+ * behave differently between iOS and Android.
+ */
+function _isAndroid() {
+    const userAgent = Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["ɵgetDOM"])() ? Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["ɵgetDOM"])().getUserAgent() : '';
+    return /android (\d+)/.test(userAgent.toLowerCase());
+}
+/**
+ * @description
+ * Provide this token to control if form directives buffer IME input until
+ * the "compositionend" event occurs.
+ * @publicApi
+ */
+const COMPOSITION_BUFFER_MODE = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('CompositionEventMode');
+/**
+ * The default `ControlValueAccessor` for writing a value and listening to changes on input
+ * elements. The accessor is used by the `FormControlDirective`, `FormControlName`, and
+ * `NgModel` directives.
+ *
+ * {@searchKeywords ngDefaultControl}
+ *
+ * @usageNotes
+ *
+ * ### Using the default value accessor
+ *
+ * The following example shows how to use an input element that activates the default value accessor
+ * (in this case, a text field).
+ *
+ * ```ts
+ * const firstNameControl = new FormControl();
+ * ```
+ *
+ * ```
+ * <input type="text" [formControl]="firstNameControl">
+ * ```
+ *
+ * This value accessor is used by default for `<input type="text">` and `<textarea>` elements, but
+ * you could also use it for custom components that have similar behavior and do not require special
+ * processing. In order to attach the default value accessor to a custom element, add the
+ * `ngDefaultControl` attribute as shown below.
+ *
+ * ```
+ * <custom-input-component ngDefaultControl [(ngModel)]="value"></custom-input-component>
+ * ```
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class DefaultValueAccessor {
+    constructor(_renderer, _elementRef, _compositionMode) {
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        this._compositionMode = _compositionMode;
+        /**
+         * The registered callback function called when an input event occurs on the input element.
+         * @nodoc
+         */
+        this.onChange = (_) => { };
+        /**
+         * The registered callback function called when a blur event occurs on the input element.
+         * @nodoc
+         */
+        this.onTouched = () => { };
+        /** Whether the user is creating a composition string (IME events). */
+        this._composing = false;
+        if (this._compositionMode == null) {
+            this._compositionMode = !_isAndroid();
+        }
+    }
+    /**
+     * Sets the "value" property on the input element.
+     * @nodoc
+     */
+    writeValue(value) {
+        const normalizedValue = value == null ? '' : value;
+        this._renderer.setProperty(this._elementRef.nativeElement, 'value', normalizedValue);
+    }
+    /**
+     * Registers a function called when the control value changes.
+     * @nodoc
+     */
+    registerOnChange(fn) {
+        this.onChange = fn;
+    }
+    /**
+     * Registers a function called when the control is touched.
+     * @nodoc
+     */
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    /**
+     * Sets the "disabled" property on the input element.
+     * @nodoc
+     */
+    setDisabledState(isDisabled) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', isDisabled);
+    }
+    /** @internal */
+    _handleInput(value) {
+        if (!this._compositionMode || (this._compositionMode && !this._composing)) {
+            this.onChange(value);
+        }
+    }
+    /** @internal */
+    _compositionStart() {
+        this._composing = true;
+    }
+    /** @internal */
+    _compositionEnd(value) {
+        this._composing = false;
+        this._compositionMode && this.onChange(value);
+    }
+}
+DefaultValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'input:not([type=checkbox])[formControlName],textarea[formControlName],input:not([type=checkbox])[formControl],textarea[formControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]',
+                // TODO: vsavkin replace the above selector with the one below it once
+                // https://github.com/angular/angular/issues/3011 is implemented
+                // selector: '[ngModel],[formControl],[formControlName]',
+                host: {
+                    '(input)': '$any(this)._handleInput($event.target.value)',
+                    '(blur)': 'onTouched()',
+                    '(compositionstart)': '$any(this)._compositionStart()',
+                    '(compositionend)': '$any(this)._compositionEnd($event.target.value)'
+                },
+                providers: [DEFAULT_VALUE_ACCESSOR]
+            },] }
+];
+DefaultValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: Boolean, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [COMPOSITION_BUFFER_MODE,] }] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+function isEmptyInputValue(value) {
+    // we don't check for string here so it also works with arrays
+    return value == null || value.length === 0;
+}
+function hasValidLength(value) {
+    // non-strict comparison is intentional, to check for both `null` and `undefined` values
+    return value != null && typeof value.length === 'number';
+}
+/**
+ * @description
+ * An `InjectionToken` for registering additional synchronous validators used with
+ * `AbstractControl`s.
+ *
+ * @see `NG_ASYNC_VALIDATORS`
+ *
+ * @usageNotes
+ *
+ * ### Providing a custom validator
+ *
+ * The following example registers a custom validator directive. Adding the validator to the
+ * existing collection of validators requires the `multi: true` option.
+ *
+ * ```typescript
+ * @Directive({
+ *   selector: '[customValidator]',
+ *   providers: [{provide: NG_VALIDATORS, useExisting: CustomValidatorDirective, multi: true}]
+ * })
+ * class CustomValidatorDirective implements Validator {
+ *   validate(control: AbstractControl): ValidationErrors | null {
+ *     return { 'custom': true };
+ *   }
+ * }
+ * ```
+ *
+ * @publicApi
+ */
+const NG_VALIDATORS = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('NgValidators');
+/**
+ * @description
+ * An `InjectionToken` for registering additional asynchronous validators used with
+ * `AbstractControl`s.
+ *
+ * @see `NG_VALIDATORS`
+ *
+ * @publicApi
+ */
+const NG_ASYNC_VALIDATORS = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('NgAsyncValidators');
+/**
+ * A regular expression that matches valid e-mail addresses.
+ *
+ * At a high level, this regexp matches e-mail addresses of the format `local-part@tld`, where:
+ * - `local-part` consists of one or more of the allowed characters (alphanumeric and some
+ *   punctuation symbols).
+ * - `local-part` cannot begin or end with a period (`.`).
+ * - `local-part` cannot be longer than 64 characters.
+ * - `tld` consists of one or more `labels` separated by periods (`.`). For example `localhost` or
+ *   `foo.com`.
+ * - A `label` consists of one or more of the allowed characters (alphanumeric, dashes (`-`) and
+ *   periods (`.`)).
+ * - A `label` cannot begin or end with a dash (`-`) or a period (`.`).
+ * - A `label` cannot be longer than 63 characters.
+ * - The whole address cannot be longer than 254 characters.
+ *
+ * ## Implementation background
+ *
+ * This regexp was ported over from AngularJS (see there for git history):
+ * https://github.com/angular/angular.js/blob/c133ef836/src/ng/directive/input.js#L27
+ * It is based on the
+ * [WHATWG version](https://html.spec.whatwg.org/multipage/input.html#valid-e-mail-address) with
+ * some enhancements to incorporate more RFC rules (such as rules related to domain names and the
+ * lengths of different parts of the address). The main differences from the WHATWG version are:
+ *   - Disallow `local-part` to begin or end with a period (`.`).
+ *   - Disallow `local-part` length to exceed 64 characters.
+ *   - Disallow total address length to exceed 254 characters.
+ *
+ * See [this commit](https://github.com/angular/angular.js/commit/f3f5cf72e) for more details.
+ */
+const EMAIL_REGEXP = /^(?=.{1,254}$)(?=.{1,64}@)[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+/**
+ * @description
+ * Provides a set of built-in validators that can be used by form controls.
+ *
+ * A validator is a function that processes a `FormControl` or collection of
+ * controls and returns an error map or null. A null map means that validation has passed.
+ *
+ * @see [Form Validation](/guide/form-validation)
+ *
+ * @publicApi
+ */
+class Validators {
+    /**
+     * @description
+     * Validator that requires the control's value to be greater than or equal to the provided number.
+     *
+     * @usageNotes
+     *
+     * ### Validate against a minimum of 3
+     *
+     * ```typescript
+     * const control = new FormControl(2, Validators.min(3));
+     *
+     * console.log(control.errors); // {min: {min: 3, actual: 2}}
+     * ```
+     *
+     * @returns A validator function that returns an error map with the
+     * `min` property if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static min(min) {
+        return minValidator(min);
+    }
+    /**
+     * @description
+     * Validator that requires the control's value to be less than or equal to the provided number.
+     *
+     * @usageNotes
+     *
+     * ### Validate against a maximum of 15
+     *
+     * ```typescript
+     * const control = new FormControl(16, Validators.max(15));
+     *
+     * console.log(control.errors); // {max: {max: 15, actual: 16}}
+     * ```
+     *
+     * @returns A validator function that returns an error map with the
+     * `max` property if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static max(max) {
+        return maxValidator(max);
+    }
+    /**
+     * @description
+     * Validator that requires the control have a non-empty value.
+     *
+     * @usageNotes
+     *
+     * ### Validate that the field is non-empty
+     *
+     * ```typescript
+     * const control = new FormControl('', Validators.required);
+     *
+     * console.log(control.errors); // {required: true}
+     * ```
+     *
+     * @returns An error map with the `required` property
+     * if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static required(control) {
+        return requiredValidator(control);
+    }
+    /**
+     * @description
+     * Validator that requires the control's value be true. This validator is commonly
+     * used for required checkboxes.
+     *
+     * @usageNotes
+     *
+     * ### Validate that the field value is true
+     *
+     * ```typescript
+     * const control = new FormControl('', Validators.requiredTrue);
+     *
+     * console.log(control.errors); // {required: true}
+     * ```
+     *
+     * @returns An error map that contains the `required` property
+     * set to `true` if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static requiredTrue(control) {
+        return requiredTrueValidator(control);
+    }
+    /**
+     * @description
+     * Validator that requires the control's value pass an email validation test.
+     *
+     * Tests the value using a [regular
+     * expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+     * pattern suitable for common usecases. The pattern is based on the definition of a valid email
+     * address in the [WHATWG HTML
+     * specification](https://html.spec.whatwg.org/multipage/input.html#valid-e-mail-address) with
+     * some enhancements to incorporate more RFC rules (such as rules related to domain names and the
+     * lengths of different parts of the address).
+     *
+     * The differences from the WHATWG version include:
+     * - Disallow `local-part` (the part before the `@` symbol) to begin or end with a period (`.`).
+     * - Disallow `local-part` to be longer than 64 characters.
+     * - Disallow the whole address to be longer than 254 characters.
+     *
+     * If this pattern does not satisfy your business needs, you can use `Validators.pattern()` to
+     * validate the value against a different pattern.
+     *
+     * @usageNotes
+     *
+     * ### Validate that the field matches a valid email pattern
+     *
+     * ```typescript
+     * const control = new FormControl('bad@', Validators.email);
+     *
+     * console.log(control.errors); // {email: true}
+     * ```
+     *
+     * @returns An error map with the `email` property
+     * if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static email(control) {
+        return emailValidator(control);
+    }
+    /**
+     * @description
+     * Validator that requires the length of the control's value to be greater than or equal
+     * to the provided minimum length. This validator is also provided by default if you use the
+     * the HTML5 `minlength` attribute. Note that the `minLength` validator is intended to be used
+     * only for types that have a numeric `length` property, such as strings or arrays. The
+     * `minLength` validator logic is also not invoked for values when their `length` property is 0
+     * (for example in case of an empty string or an empty array), to support optional controls. You
+     * can use the standard `required` validator if empty values should not be considered valid.
+     *
+     * @usageNotes
+     *
+     * ### Validate that the field has a minimum of 3 characters
+     *
+     * ```typescript
+     * const control = new FormControl('ng', Validators.minLength(3));
+     *
+     * console.log(control.errors); // {minlength: {requiredLength: 3, actualLength: 2}}
+     * ```
+     *
+     * ```html
+     * <input minlength="5">
+     * ```
+     *
+     * @returns A validator function that returns an error map with the
+     * `minlength` property if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static minLength(minLength) {
+        return minLengthValidator(minLength);
+    }
+    /**
+     * @description
+     * Validator that requires the length of the control's value to be less than or equal
+     * to the provided maximum length. This validator is also provided by default if you use the
+     * the HTML5 `maxlength` attribute. Note that the `maxLength` validator is intended to be used
+     * only for types that have a numeric `length` property, such as strings or arrays.
+     *
+     * @usageNotes
+     *
+     * ### Validate that the field has maximum of 5 characters
+     *
+     * ```typescript
+     * const control = new FormControl('Angular', Validators.maxLength(5));
+     *
+     * console.log(control.errors); // {maxlength: {requiredLength: 5, actualLength: 7}}
+     * ```
+     *
+     * ```html
+     * <input maxlength="5">
+     * ```
+     *
+     * @returns A validator function that returns an error map with the
+     * `maxlength` property if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static maxLength(maxLength) {
+        return maxLengthValidator(maxLength);
+    }
+    /**
+     * @description
+     * Validator that requires the control's value to match a regex pattern. This validator is also
+     * provided by default if you use the HTML5 `pattern` attribute.
+     *
+     * @usageNotes
+     *
+     * ### Validate that the field only contains letters or spaces
+     *
+     * ```typescript
+     * const control = new FormControl('1', Validators.pattern('[a-zA-Z ]*'));
+     *
+     * console.log(control.errors); // {pattern: {requiredPattern: '^[a-zA-Z ]*$', actualValue: '1'}}
+     * ```
+     *
+     * ```html
+     * <input pattern="[a-zA-Z ]*">
+     * ```
+     *
+     * ### Pattern matching with the global or sticky flag
+     *
+     * `RegExp` objects created with the `g` or `y` flags that are passed into `Validators.pattern`
+     * can produce different results on the same input when validations are run consecutively. This is
+     * due to how the behavior of `RegExp.prototype.test` is
+     * specified in [ECMA-262](https://tc39.es/ecma262/#sec-regexpbuiltinexec)
+     * (`RegExp` preserves the index of the last match when the global or sticky flag is used).
+     * Due to this behavior, it is recommended that when using
+     * `Validators.pattern` you **do not** pass in a `RegExp` object with either the global or sticky
+     * flag enabled.
+     *
+     * ```typescript
+     * // Not recommended (since the `g` flag is used)
+     * const controlOne = new FormControl('1', Validators.pattern(/foo/g));
+     *
+     * // Good
+     * const controlTwo = new FormControl('1', Validators.pattern(/foo/));
+     * ```
+     *
+     * @param pattern A regular expression to be used as is to test the values, or a string.
+     * If a string is passed, the `^` character is prepended and the `$` character is
+     * appended to the provided string (if not already present), and the resulting regular
+     * expression is used to test the values.
+     *
+     * @returns A validator function that returns an error map with the
+     * `pattern` property if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static pattern(pattern) {
+        return patternValidator(pattern);
+    }
+    /**
+     * @description
+     * Validator that performs no operation.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static nullValidator(control) {
+        return nullValidator(control);
+    }
+    static compose(validators) {
+        return compose(validators);
+    }
+    /**
+     * @description
+     * Compose multiple async validators into a single function that returns the union
+     * of the individual error objects for the provided control.
+     *
+     * @returns A validator function that returns an error map with the
+     * merged error objects of the async validators if the validation check fails, otherwise `null`.
+     *
+     * @see `updateValueAndValidity()`
+     *
+     */
+    static composeAsync(validators) {
+        return composeAsync(validators);
+    }
+}
+/**
+ * Validator that requires the control's value to be greater than or equal to the provided number.
+ * See `Validators.min` for additional information.
+ */
+function minValidator(min) {
+    return (control) => {
+        if (isEmptyInputValue(control.value) || isEmptyInputValue(min)) {
+            return null; // don't validate empty values to allow optional controls
+        }
+        const value = parseFloat(control.value);
+        // Controls with NaN values after parsing should be treated as not having a
+        // minimum, per the HTML forms spec: https://www.w3.org/TR/html5/forms.html#attr-input-min
+        return !isNaN(value) && value < min ? { 'min': { 'min': min, 'actual': control.value } } : null;
+    };
+}
+/**
+ * Validator that requires the control's value to be less than or equal to the provided number.
+ * See `Validators.max` for additional information.
+ */
+function maxValidator(max) {
+    return (control) => {
+        if (isEmptyInputValue(control.value) || isEmptyInputValue(max)) {
+            return null; // don't validate empty values to allow optional controls
+        }
+        const value = parseFloat(control.value);
+        // Controls with NaN values after parsing should be treated as not having a
+        // maximum, per the HTML forms spec: https://www.w3.org/TR/html5/forms.html#attr-input-max
+        return !isNaN(value) && value > max ? { 'max': { 'max': max, 'actual': control.value } } : null;
+    };
+}
+/**
+ * Validator that requires the control have a non-empty value.
+ * See `Validators.required` for additional information.
+ */
+function requiredValidator(control) {
+    return isEmptyInputValue(control.value) ? { 'required': true } : null;
+}
+/**
+ * Validator that requires the control's value be true. This validator is commonly
+ * used for required checkboxes.
+ * See `Validators.requiredTrue` for additional information.
+ */
+function requiredTrueValidator(control) {
+    return control.value === true ? null : { 'required': true };
+}
+/**
+ * Validator that requires the control's value pass an email validation test.
+ * See `Validators.email` for additional information.
+ */
+function emailValidator(control) {
+    if (isEmptyInputValue(control.value)) {
+        return null; // don't validate empty values to allow optional controls
+    }
+    return EMAIL_REGEXP.test(control.value) ? null : { 'email': true };
+}
+/**
+ * Validator that requires the length of the control's value to be greater than or equal
+ * to the provided minimum length. See `Validators.minLength` for additional information.
+ */
+function minLengthValidator(minLength) {
+    return (control) => {
+        if (isEmptyInputValue(control.value) || !hasValidLength(control.value)) {
+            // don't validate empty values to allow optional controls
+            // don't validate values without `length` property
+            return null;
+        }
+        return control.value.length < minLength ?
+            { 'minlength': { 'requiredLength': minLength, 'actualLength': control.value.length } } :
+            null;
+    };
+}
+/**
+ * Validator that requires the length of the control's value to be less than or equal
+ * to the provided maximum length. See `Validators.maxLength` for additional information.
+ */
+function maxLengthValidator(maxLength) {
+    return (control) => {
+        return hasValidLength(control.value) && control.value.length > maxLength ?
+            { 'maxlength': { 'requiredLength': maxLength, 'actualLength': control.value.length } } :
+            null;
+    };
+}
+/**
+ * Validator that requires the control's value to match a regex pattern.
+ * See `Validators.pattern` for additional information.
+ */
+function patternValidator(pattern) {
+    if (!pattern)
+        return nullValidator;
+    let regex;
+    let regexStr;
+    if (typeof pattern === 'string') {
+        regexStr = '';
+        if (pattern.charAt(0) !== '^')
+            regexStr += '^';
+        regexStr += pattern;
+        if (pattern.charAt(pattern.length - 1) !== '$')
+            regexStr += '$';
+        regex = new RegExp(regexStr);
+    }
+    else {
+        regexStr = pattern.toString();
+        regex = pattern;
+    }
+    return (control) => {
+        if (isEmptyInputValue(control.value)) {
+            return null; // don't validate empty values to allow optional controls
+        }
+        const value = control.value;
+        return regex.test(value) ? null :
+            { 'pattern': { 'requiredPattern': regexStr, 'actualValue': value } };
+    };
+}
+/**
+ * Function that has `ValidatorFn` shape, but performs no operation.
+ */
+function nullValidator(control) {
+    return null;
+}
+function isPresent(o) {
+    return o != null;
+}
+function toObservable(r) {
+    const obs = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵisPromise"])(r) ? Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(r) : r;
+    if (!(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵisObservable"])(obs)) && (typeof ngDevMode === 'undefined' || ngDevMode)) {
+        throw new Error(`Expected validator to return Promise or Observable.`);
+    }
+    return obs;
+}
+function mergeErrors(arrayOfErrors) {
+    let res = {};
+    // Not using Array.reduce here due to a Chrome 80 bug
+    // https://bugs.chromium.org/p/chromium/issues/detail?id=1049982
+    arrayOfErrors.forEach((errors) => {
+        res = errors != null ? Object.assign(Object.assign({}, res), errors) : res;
+    });
+    return Object.keys(res).length === 0 ? null : res;
+}
+function executeValidators(control, validators) {
+    return validators.map(validator => validator(control));
+}
+function isValidatorFn(validator) {
+    return !validator.validate;
+}
+/**
+ * Given the list of validators that may contain both functions as well as classes, return the list
+ * of validator functions (convert validator classes into validator functions). This is needed to
+ * have consistent structure in validators list before composing them.
+ *
+ * @param validators The set of validators that may contain validators both in plain function form
+ *     as well as represented as a validator class.
+ */
+function normalizeValidators(validators) {
+    return validators.map(validator => {
+        return isValidatorFn(validator) ?
+            validator :
+            ((c) => validator.validate(c));
+    });
+}
+/**
+ * Merges synchronous validators into a single validator function.
+ * See `Validators.compose` for additional information.
+ */
+function compose(validators) {
+    if (!validators)
+        return null;
+    const presentValidators = validators.filter(isPresent);
+    if (presentValidators.length == 0)
+        return null;
+    return function (control) {
+        return mergeErrors(executeValidators(control, presentValidators));
+    };
+}
+/**
+ * Accepts a list of validators of different possible shapes (`Validator` and `ValidatorFn`),
+ * normalizes the list (converts everything to `ValidatorFn`) and merges them into a single
+ * validator function.
+ */
+function composeValidators(validators) {
+    return validators != null ? compose(normalizeValidators(validators)) : null;
+}
+/**
+ * Merges asynchronous validators into a single validator function.
+ * See `Validators.composeAsync` for additional information.
+ */
+function composeAsync(validators) {
+    if (!validators)
+        return null;
+    const presentValidators = validators.filter(isPresent);
+    if (presentValidators.length == 0)
+        return null;
+    return function (control) {
+        const observables = executeValidators(control, presentValidators).map(toObservable);
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["forkJoin"])(observables).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(mergeErrors));
+    };
+}
+/**
+ * Accepts a list of async validators of different possible shapes (`AsyncValidator` and
+ * `AsyncValidatorFn`), normalizes the list (converts everything to `AsyncValidatorFn`) and merges
+ * them into a single validator function.
+ */
+function composeAsyncValidators(validators) {
+    return validators != null ? composeAsync(normalizeValidators(validators)) :
+        null;
+}
+/**
+ * Merges raw control validators with a given directive validator and returns the combined list of
+ * validators as an array.
+ */
+function mergeValidators(controlValidators, dirValidator) {
+    if (controlValidators === null)
+        return [dirValidator];
+    return Array.isArray(controlValidators) ? [...controlValidators, dirValidator] :
+        [controlValidators, dirValidator];
+}
+/**
+ * Retrieves the list of raw synchronous validators attached to a given control.
+ */
+function getControlValidators(control) {
+    return control._rawValidators;
+}
+/**
+ * Retrieves the list of raw asynchronous validators attached to a given control.
+ */
+function getControlAsyncValidators(control) {
+    return control._rawAsyncValidators;
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @description
+ * Base class for control directives.
+ *
+ * This class is only used internally in the `ReactiveFormsModule` and the `FormsModule`.
+ *
+ * @publicApi
+ */
+class AbstractControlDirective {
+    constructor() {
+        /**
+         * Set of synchronous validators as they were provided while calling `setValidators` function.
+         * @internal
+         */
+        this._rawValidators = [];
+        /**
+         * Set of asynchronous validators as they were provided while calling `setAsyncValidators`
+         * function.
+         * @internal
+         */
+        this._rawAsyncValidators = [];
+        /*
+         * The set of callbacks to be invoked when directive instance is being destroyed.
+         */
+        this._onDestroyCallbacks = [];
+    }
+    /**
+     * @description
+     * Reports the value of the control if it is present, otherwise null.
+     */
+    get value() {
+        return this.control ? this.control.value : null;
+    }
+    /**
+     * @description
+     * Reports whether the control is valid. A control is considered valid if no
+     * validation errors exist with the current value.
+     * If the control is not present, null is returned.
+     */
+    get valid() {
+        return this.control ? this.control.valid : null;
+    }
+    /**
+     * @description
+     * Reports whether the control is invalid, meaning that an error exists in the input value.
+     * If the control is not present, null is returned.
+     */
+    get invalid() {
+        return this.control ? this.control.invalid : null;
+    }
+    /**
+     * @description
+     * Reports whether a control is pending, meaning that that async validation is occurring and
+     * errors are not yet available for the input value. If the control is not present, null is
+     * returned.
+     */
+    get pending() {
+        return this.control ? this.control.pending : null;
+    }
+    /**
+     * @description
+     * Reports whether the control is disabled, meaning that the control is disabled
+     * in the UI and is exempt from validation checks and excluded from aggregate
+     * values of ancestor controls. If the control is not present, null is returned.
+     */
+    get disabled() {
+        return this.control ? this.control.disabled : null;
+    }
+    /**
+     * @description
+     * Reports whether the control is enabled, meaning that the control is included in ancestor
+     * calculations of validity or value. If the control is not present, null is returned.
+     */
+    get enabled() {
+        return this.control ? this.control.enabled : null;
+    }
+    /**
+     * @description
+     * Reports the control's validation errors. If the control is not present, null is returned.
+     */
+    get errors() {
+        return this.control ? this.control.errors : null;
+    }
+    /**
+     * @description
+     * Reports whether the control is pristine, meaning that the user has not yet changed
+     * the value in the UI. If the control is not present, null is returned.
+     */
+    get pristine() {
+        return this.control ? this.control.pristine : null;
+    }
+    /**
+     * @description
+     * Reports whether the control is dirty, meaning that the user has changed
+     * the value in the UI. If the control is not present, null is returned.
+     */
+    get dirty() {
+        return this.control ? this.control.dirty : null;
+    }
+    /**
+     * @description
+     * Reports whether the control is touched, meaning that the user has triggered
+     * a `blur` event on it. If the control is not present, null is returned.
+     */
+    get touched() {
+        return this.control ? this.control.touched : null;
+    }
+    /**
+     * @description
+     * Reports the validation status of the control. Possible values include:
+     * 'VALID', 'INVALID', 'DISABLED', and 'PENDING'.
+     * If the control is not present, null is returned.
+     */
+    get status() {
+        return this.control ? this.control.status : null;
+    }
+    /**
+     * @description
+     * Reports whether the control is untouched, meaning that the user has not yet triggered
+     * a `blur` event on it. If the control is not present, null is returned.
+     */
+    get untouched() {
+        return this.control ? this.control.untouched : null;
+    }
+    /**
+     * @description
+     * Returns a multicasting observable that emits a validation status whenever it is
+     * calculated for the control. If the control is not present, null is returned.
+     */
+    get statusChanges() {
+        return this.control ? this.control.statusChanges : null;
+    }
+    /**
+     * @description
+     * Returns a multicasting observable of value changes for the control that emits every time the
+     * value of the control changes in the UI or programmatically.
+     * If the control is not present, null is returned.
+     */
+    get valueChanges() {
+        return this.control ? this.control.valueChanges : null;
+    }
+    /**
+     * @description
+     * Returns an array that represents the path from the top-level form to this control.
+     * Each index is the string name of the control on that level.
+     */
+    get path() {
+        return null;
+    }
+    /**
+     * Sets synchronous validators for this directive.
+     * @internal
+     */
+    _setValidators(validators) {
+        this._rawValidators = validators || [];
+        this._composedValidatorFn = composeValidators(this._rawValidators);
+    }
+    /**
+     * Sets asynchronous validators for this directive.
+     * @internal
+     */
+    _setAsyncValidators(validators) {
+        this._rawAsyncValidators = validators || [];
+        this._composedAsyncValidatorFn = composeAsyncValidators(this._rawAsyncValidators);
+    }
+    /**
+     * @description
+     * Synchronous validator function composed of all the synchronous validators registered with this
+     * directive.
+     */
+    get validator() {
+        return this._composedValidatorFn || null;
+    }
+    /**
+     * @description
+     * Asynchronous validator function composed of all the asynchronous validators registered with
+     * this directive.
+     */
+    get asyncValidator() {
+        return this._composedAsyncValidatorFn || null;
+    }
+    /**
+     * Internal function to register callbacks that should be invoked
+     * when directive instance is being destroyed.
+     * @internal
+     */
+    _registerOnDestroy(fn) {
+        this._onDestroyCallbacks.push(fn);
+    }
+    /**
+     * Internal function to invoke all registered "on destroy" callbacks.
+     * Note: calling this function also clears the list of callbacks.
+     * @internal
+     */
+    _invokeOnDestroyCallbacks() {
+        this._onDestroyCallbacks.forEach(fn => fn());
+        this._onDestroyCallbacks = [];
+    }
+    /**
+     * @description
+     * Resets the control with the provided value if the control is present.
+     */
+    reset(value = undefined) {
+        if (this.control)
+            this.control.reset(value);
+    }
+    /**
+     * @description
+     * Reports whether the control with the given path has the error specified.
+     *
+     * @param errorCode The code of the error to check
+     * @param path A list of control names that designates how to move from the current control
+     * to the control that should be queried for errors.
+     *
+     * @usageNotes
+     * For example, for the following `FormGroup`:
+     *
+     * ```
+     * form = new FormGroup({
+     *   address: new FormGroup({ street: new FormControl() })
+     * });
+     * ```
+     *
+     * The path to the 'street' control from the root form would be 'address' -> 'street'.
+     *
+     * It can be provided to this method in one of two formats:
+     *
+     * 1. An array of string control names, e.g. `['address', 'street']`
+     * 1. A period-delimited list of control names in one string, e.g. `'address.street'`
+     *
+     * If no path is given, this method checks for the error on the current control.
+     *
+     * @returns whether the given error is present in the control at the given path.
+     *
+     * If the control is not present, false is returned.
+     */
+    hasError(errorCode, path) {
+        return this.control ? this.control.hasError(errorCode, path) : false;
+    }
+    /**
+     * @description
+     * Reports error data for the control with the given path.
+     *
+     * @param errorCode The code of the error to check
+     * @param path A list of control names that designates how to move from the current control
+     * to the control that should be queried for errors.
+     *
+     * @usageNotes
+     * For example, for the following `FormGroup`:
+     *
+     * ```
+     * form = new FormGroup({
+     *   address: new FormGroup({ street: new FormControl() })
+     * });
+     * ```
+     *
+     * The path to the 'street' control from the root form would be 'address' -> 'street'.
+     *
+     * It can be provided to this method in one of two formats:
+     *
+     * 1. An array of string control names, e.g. `['address', 'street']`
+     * 1. A period-delimited list of control names in one string, e.g. `'address.street'`
+     *
+     * @returns error data for that particular error. If the control or error is not present,
+     * null is returned.
+     */
+    getError(errorCode, path) {
+        return this.control ? this.control.getError(errorCode, path) : null;
+    }
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @description
+ * A base class for directives that contain multiple registered instances of `NgControl`.
+ * Only used by the forms module.
+ *
+ * @publicApi
+ */
+class ControlContainer extends AbstractControlDirective {
+    /**
+     * @description
+     * The top-level form directive for the control.
+     */
+    get formDirective() {
+        return null;
+    }
+    /**
+     * @description
+     * The path to this group.
+     */
+    get path() {
+        return null;
+    }
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @description
+ * A base class that all `FormControl`-based directives extend. It binds a `FormControl`
+ * object to a DOM element.
+ *
+ * @publicApi
+ */
+class NgControl extends AbstractControlDirective {
+    constructor() {
+        super(...arguments);
+        /**
+         * @description
+         * The parent form for the control.
+         *
+         * @internal
+         */
+        this._parent = null;
+        /**
+         * @description
+         * The name for the control
+         */
+        this.name = null;
+        /**
+         * @description
+         * The value accessor for the control
+         */
+        this.valueAccessor = null;
+    }
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+class AbstractControlStatus {
+    constructor(cd) {
+        this._cd = cd;
+    }
+    is(status) {
+        var _a, _b;
+        return !!((_b = (_a = this._cd) === null || _a === void 0 ? void 0 : _a.control) === null || _b === void 0 ? void 0 : _b[status]);
+    }
+}
+const ngControlStatusHost = {
+    '[class.ng-untouched]': 'is("untouched")',
+    '[class.ng-touched]': 'is("touched")',
+    '[class.ng-pristine]': 'is("pristine")',
+    '[class.ng-dirty]': 'is("dirty")',
+    '[class.ng-valid]': 'is("valid")',
+    '[class.ng-invalid]': 'is("invalid")',
+    '[class.ng-pending]': 'is("pending")',
+};
+/**
+ * @description
+ * Directive automatically applied to Angular form controls that sets CSS classes
+ * based on control status.
+ *
+ * @usageNotes
+ *
+ * ### CSS classes applied
+ *
+ * The following classes are applied as the properties become true:
+ *
+ * * ng-valid
+ * * ng-invalid
+ * * ng-pending
+ * * ng-pristine
+ * * ng-dirty
+ * * ng-untouched
+ * * ng-touched
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class NgControlStatus extends AbstractControlStatus {
+    constructor(cd) {
+        super(cd);
+    }
+}
+NgControlStatus.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{ selector: '[formControlName],[ngModel],[formControl]', host: ngControlStatusHost },] }
+];
+NgControlStatus.ctorParameters = () => [
+    { type: NgControl, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }] }
+];
+/**
+ * @description
+ * Directive automatically applied to Angular form groups that sets CSS classes
+ * based on control status (valid/invalid/dirty/etc).
+ *
+ * @see `NgControlStatus`
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class NgControlStatusGroup extends AbstractControlStatus {
+    constructor(cd) {
+        super(cd);
+    }
+}
+NgControlStatusGroup.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: '[formGroupName],[formArrayName],[ngModelGroup],[formGroup],form:not([ngNoForm]),[ngForm]',
+                host: ngControlStatusHost
+            },] }
+];
+NgControlStatusGroup.ctorParameters = () => [
+    { type: ControlContainer, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const FormErrorExamples = {
+    formControlName: `
+    <div [formGroup]="myGroup">
+      <input formControlName="firstName">
+    </div>
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });`,
+    formGroupName: `
+    <div [formGroup]="myGroup">
+       <div formGroupName="person">
+          <input formControlName="firstName">
+       </div>
+    </div>
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       person: new FormGroup({ firstName: new FormControl() })
+    });`,
+    formArrayName: `
+    <div [formGroup]="myGroup">
+      <div formArrayName="cities">
+        <div *ngFor="let city of cityArray.controls; index as i">
+          <input [formControlName]="i">
+        </div>
+      </div>
+    </div>
+
+    In your class:
+
+    this.cityArray = new FormArray([new FormControl('SF')]);
+    this.myGroup = new FormGroup({
+      cities: this.cityArray
+    });`,
+    ngModelGroup: `
+    <form>
+       <div ngModelGroup="person">
+          <input [(ngModel)]="person.name" name="firstName">
+       </div>
+    </form>`,
+    ngModelWithFormGroup: `
+    <div [formGroup]="myGroup">
+       <input formControlName="firstName">
+       <input [(ngModel)]="showMoreControls" [ngModelOptions]="{standalone: true}">
+    </div>
+  `
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+class ReactiveErrors {
+    static controlParentException() {
+        throw new Error(`formControlName must be used with a parent formGroup directive.  You'll want to add a formGroup
+       directive and pass it an existing FormGroup instance (you can create one in your class).
+
+      Example:
+
+      ${FormErrorExamples.formControlName}`);
+    }
+    static ngModelGroupException() {
+        throw new Error(`formControlName cannot be used with an ngModelGroup parent. It is only compatible with parents
+       that also have a "form" prefix: formGroupName, formArrayName, or formGroup.
+
+       Option 1:  Update the parent to be formGroupName (reactive form strategy)
+
+        ${FormErrorExamples.formGroupName}
+
+        Option 2: Use ngModel instead of formControlName (template-driven strategy)
+
+        ${FormErrorExamples.ngModelGroup}`);
+    }
+    static missingFormException() {
+        throw new Error(`formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       ${FormErrorExamples.formControlName}`);
+    }
+    static groupParentException() {
+        throw new Error(`formGroupName must be used with a parent formGroup directive.  You'll want to add a formGroup
+      directive and pass it an existing FormGroup instance (you can create one in your class).
+
+      Example:
+
+      ${FormErrorExamples.formGroupName}`);
+    }
+    static arrayParentException() {
+        throw new Error(`formArrayName must be used with a parent formGroup directive.  You'll want to add a formGroup
+       directive and pass it an existing FormGroup instance (you can create one in your class).
+
+        Example:
+
+        ${FormErrorExamples.formArrayName}`);
+    }
+    static disabledAttrWarning() {
+        console.warn(`
+      It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+      when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+      you. We recommend using this approach to avoid 'changed after checked' errors.
+
+      Example:
+      form = new FormGroup({
+        first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+        last: new FormControl('Drew', Validators.required)
+      });
+    `);
+    }
+    static ngModelWarning(directiveName) {
+        console.warn(`
+    It looks like you're using ngModel on the same form field as ${directiveName}.
+    Support for using the ngModel input property and ngModelChange event with
+    reactive form directives has been deprecated in Angular v6 and will be removed
+    in a future version of Angular.
+
+    For more information on this, see our API docs here:
+    https://angular.io/api/forms/${directiveName === 'formControl' ? 'FormControlDirective' :
+            'FormControlName'}#use-with-ngmodel
+    `);
+    }
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+function controlPath(name, parent) {
+    return [...parent.path, name];
+}
+/**
+ * Links a Form control and a Form directive by setting up callbacks (such as `onChange`) on both
+ * instances. This function is typically invoked when form directive is being initialized.
+ *
+ * @param control Form control instance that should be linked.
+ * @param dir Directive that should be linked with a given control.
+ */
+function setUpControl(control, dir) {
+    if (typeof ngDevMode === 'undefined' || ngDevMode) {
+        if (!control)
+            _throwError(dir, 'Cannot find control with');
+        if (!dir.valueAccessor)
+            _throwError(dir, 'No value accessor for form control with');
+    }
+    setUpValidators(control, dir, /* handleOnValidatorChange */ true);
+    dir.valueAccessor.writeValue(control.value);
+    setUpViewChangePipeline(control, dir);
+    setUpModelChangePipeline(control, dir);
+    setUpBlurPipeline(control, dir);
+    setUpDisabledChangeHandler(control, dir);
+}
+/**
+ * Reverts configuration performed by the `setUpControl` control function.
+ * Effectively disconnects form control with a given form directive.
+ * This function is typically invoked when corresponding form directive is being destroyed.
+ *
+ * @param control Form control which should be cleaned up.
+ * @param dir Directive that should be disconnected from a given control.
+ * @param validateControlPresenceOnChange Flag that indicates whether onChange handler should
+ *     contain asserts to verify that it's not called once directive is destroyed. We need this flag
+ *     to avoid potentially breaking changes caused by better control cleanup introduced in #39235.
+ */
+function cleanUpControl(control, dir, validateControlPresenceOnChange = true) {
+    const noop = () => {
+        if (validateControlPresenceOnChange && (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            _noControlError(dir);
+        }
+    };
+    // The `valueAccessor` field is typically defined on FromControl and FormControlName directive
+    // instances and there is a logic in `selectValueAccessor` function that throws if it's not the
+    // case. We still check the presence of `valueAccessor` before invoking its methods to make sure
+    // that cleanup works correctly if app code or tests are setup to ignore the error thrown from
+    // `selectValueAccessor`. See https://github.com/angular/angular/issues/40521.
+    if (dir.valueAccessor) {
+        dir.valueAccessor.registerOnChange(noop);
+        dir.valueAccessor.registerOnTouched(noop);
+    }
+    cleanUpValidators(control, dir, /* handleOnValidatorChange */ true);
+    if (control) {
+        dir._invokeOnDestroyCallbacks();
+        control._registerOnCollectionChange(() => { });
+    }
+}
+function registerOnValidatorChange(validators, onChange) {
+    validators.forEach((validator) => {
+        if (validator.registerOnValidatorChange)
+            validator.registerOnValidatorChange(onChange);
+    });
+}
+/**
+ * Sets up disabled change handler function on a given form control if ControlValueAccessor
+ * associated with a given directive instance supports the `setDisabledState` call.
+ *
+ * @param control Form control where disabled change handler should be setup.
+ * @param dir Corresponding directive instance associated with this control.
+ */
+function setUpDisabledChangeHandler(control, dir) {
+    if (dir.valueAccessor.setDisabledState) {
+        const onDisabledChange = (isDisabled) => {
+            dir.valueAccessor.setDisabledState(isDisabled);
+        };
+        control.registerOnDisabledChange(onDisabledChange);
+        // Register a callback function to cleanup disabled change handler
+        // from a control instance when a directive is destroyed.
+        dir._registerOnDestroy(() => {
+            control._unregisterOnDisabledChange(onDisabledChange);
+        });
+    }
+}
+/**
+ * Sets up sync and async directive validators on provided form control.
+ * This function merges validators from the directive into the validators of the control.
+ *
+ * @param control Form control where directive validators should be setup.
+ * @param dir Directive instance that contains validators to be setup.
+ * @param handleOnValidatorChange Flag that determines whether directive validators should be setup
+ *     to handle validator input change.
+ */
+function setUpValidators(control, dir, handleOnValidatorChange) {
+    const validators = getControlValidators(control);
+    if (dir.validator !== null) {
+        control.setValidators(mergeValidators(validators, dir.validator));
+    }
+    else if (typeof validators === 'function') {
+        // If sync validators are represented by a single validator function, we force the
+        // `Validators.compose` call to happen by executing the `setValidators` function with
+        // an array that contains that function. We need this to avoid possible discrepancies in
+        // validators behavior, so sync validators are always processed by the `Validators.compose`.
+        // Note: we should consider moving this logic inside the `setValidators` function itself, so we
+        // have consistent behavior on AbstractControl API level. The same applies to the async
+        // validators logic below.
+        control.setValidators([validators]);
+    }
+    const asyncValidators = getControlAsyncValidators(control);
+    if (dir.asyncValidator !== null) {
+        control.setAsyncValidators(mergeValidators(asyncValidators, dir.asyncValidator));
+    }
+    else if (typeof asyncValidators === 'function') {
+        control.setAsyncValidators([asyncValidators]);
+    }
+    // Re-run validation when validator binding changes, e.g. minlength=3 -> minlength=4
+    if (handleOnValidatorChange) {
+        const onValidatorChange = () => control.updateValueAndValidity();
+        registerOnValidatorChange(dir._rawValidators, onValidatorChange);
+        registerOnValidatorChange(dir._rawAsyncValidators, onValidatorChange);
+    }
+}
+/**
+ * Cleans up sync and async directive validators on provided form control.
+ * This function reverts the setup performed by the `setUpValidators` function, i.e.
+ * removes directive-specific validators from a given control instance.
+ *
+ * @param control Form control from where directive validators should be removed.
+ * @param dir Directive instance that contains validators to be removed.
+ * @param handleOnValidatorChange Flag that determines whether directive validators should also be
+ *     cleaned up to stop handling validator input change (if previously configured to do so).
+ * @returns true if a control was updated as a result of this action.
+ */
+function cleanUpValidators(control, dir, handleOnValidatorChange) {
+    let isControlUpdated = false;
+    if (control !== null) {
+        if (dir.validator !== null) {
+            const validators = getControlValidators(control);
+            if (Array.isArray(validators) && validators.length > 0) {
+                // Filter out directive validator function.
+                const updatedValidators = validators.filter(validator => validator !== dir.validator);
+                if (updatedValidators.length !== validators.length) {
+                    isControlUpdated = true;
+                    control.setValidators(updatedValidators);
+                }
+            }
+        }
+        if (dir.asyncValidator !== null) {
+            const asyncValidators = getControlAsyncValidators(control);
+            if (Array.isArray(asyncValidators) && asyncValidators.length > 0) {
+                // Filter out directive async validator function.
+                const updatedAsyncValidators = asyncValidators.filter(asyncValidator => asyncValidator !== dir.asyncValidator);
+                if (updatedAsyncValidators.length !== asyncValidators.length) {
+                    isControlUpdated = true;
+                    control.setAsyncValidators(updatedAsyncValidators);
+                }
+            }
+        }
+    }
+    if (handleOnValidatorChange) {
+        // Clear onValidatorChange callbacks by providing a noop function.
+        const noop = () => { };
+        registerOnValidatorChange(dir._rawValidators, noop);
+        registerOnValidatorChange(dir._rawAsyncValidators, noop);
+    }
+    return isControlUpdated;
+}
+function setUpViewChangePipeline(control, dir) {
+    dir.valueAccessor.registerOnChange((newValue) => {
+        control._pendingValue = newValue;
+        control._pendingChange = true;
+        control._pendingDirty = true;
+        if (control.updateOn === 'change')
+            updateControl(control, dir);
+    });
+}
+function setUpBlurPipeline(control, dir) {
+    dir.valueAccessor.registerOnTouched(() => {
+        control._pendingTouched = true;
+        if (control.updateOn === 'blur' && control._pendingChange)
+            updateControl(control, dir);
+        if (control.updateOn !== 'submit')
+            control.markAsTouched();
+    });
+}
+function updateControl(control, dir) {
+    if (control._pendingDirty)
+        control.markAsDirty();
+    control.setValue(control._pendingValue, { emitModelToViewChange: false });
+    dir.viewToModelUpdate(control._pendingValue);
+    control._pendingChange = false;
+}
+function setUpModelChangePipeline(control, dir) {
+    const onChange = (newValue, emitModelEvent) => {
+        // control -> view
+        dir.valueAccessor.writeValue(newValue);
+        // control -> ngModel
+        if (emitModelEvent)
+            dir.viewToModelUpdate(newValue);
+    };
+    control.registerOnChange(onChange);
+    // Register a callback function to cleanup onChange handler
+    // from a control instance when a directive is destroyed.
+    dir._registerOnDestroy(() => {
+        control._unregisterOnChange(onChange);
+    });
+}
+/**
+ * Links a FormGroup or FormArray instance and corresponding Form directive by setting up validators
+ * present in the view.
+ *
+ * @param control FormGroup or FormArray instance that should be linked.
+ * @param dir Directive that provides view validators.
+ */
+function setUpFormContainer(control, dir) {
+    if (control == null && (typeof ngDevMode === 'undefined' || ngDevMode))
+        _throwError(dir, 'Cannot find control with');
+    setUpValidators(control, dir, /* handleOnValidatorChange */ false);
+}
+/**
+ * Reverts the setup performed by the `setUpFormContainer` function.
+ *
+ * @param control FormGroup or FormArray instance that should be cleaned up.
+ * @param dir Directive that provided view validators.
+ * @returns true if a control was updated as a result of this action.
+ */
+function cleanUpFormContainer(control, dir) {
+    return cleanUpValidators(control, dir, /* handleOnValidatorChange */ false);
+}
+function _noControlError(dir) {
+    return _throwError(dir, 'There is no FormControl instance attached to form control element with');
+}
+function _throwError(dir, message) {
+    let messageEnd;
+    if (dir.path.length > 1) {
+        messageEnd = `path: '${dir.path.join(' -> ')}'`;
+    }
+    else if (dir.path[0]) {
+        messageEnd = `name: '${dir.path}'`;
+    }
+    else {
+        messageEnd = 'unspecified name attribute';
+    }
+    throw new Error(`${message} ${messageEnd}`);
+}
+function isPropertyUpdated(changes, viewModel) {
+    if (!changes.hasOwnProperty('model'))
+        return false;
+    const change = changes['model'];
+    if (change.isFirstChange())
+        return true;
+    return !Object.is(viewModel, change.currentValue);
+}
+function isBuiltInAccessor(valueAccessor) {
+    // Check if a given value accessor is an instance of a class that directly extends
+    // `BuiltInControlValueAccessor` one.
+    return Object.getPrototypeOf(valueAccessor.constructor) === BuiltInControlValueAccessor;
+}
+function syncPendingControls(form, directives) {
+    form._syncPendingControls();
+    directives.forEach(dir => {
+        const control = dir.control;
+        if (control.updateOn === 'submit' && control._pendingChange) {
+            dir.viewToModelUpdate(control._pendingValue);
+            control._pendingChange = false;
+        }
+    });
+}
+// TODO: vsavkin remove it once https://github.com/angular/angular/issues/3011 is implemented
+function selectValueAccessor(dir, valueAccessors) {
+    if (!valueAccessors)
+        return null;
+    if (!Array.isArray(valueAccessors) && (typeof ngDevMode === 'undefined' || ngDevMode))
+        _throwError(dir, 'Value accessor was not provided as an array for form control with');
+    let defaultAccessor = undefined;
+    let builtinAccessor = undefined;
+    let customAccessor = undefined;
+    valueAccessors.forEach((v) => {
+        if (v.constructor === DefaultValueAccessor) {
+            defaultAccessor = v;
+        }
+        else if (isBuiltInAccessor(v)) {
+            if (builtinAccessor && (typeof ngDevMode === 'undefined' || ngDevMode))
+                _throwError(dir, 'More than one built-in value accessor matches form control with');
+            builtinAccessor = v;
+        }
+        else {
+            if (customAccessor && (typeof ngDevMode === 'undefined' || ngDevMode))
+                _throwError(dir, 'More than one custom value accessor matches form control with');
+            customAccessor = v;
+        }
+    });
+    if (customAccessor)
+        return customAccessor;
+    if (builtinAccessor)
+        return builtinAccessor;
+    if (defaultAccessor)
+        return defaultAccessor;
+    if (typeof ngDevMode === 'undefined' || ngDevMode) {
+        _throwError(dir, 'No valid value accessor for form control with');
+    }
+    return null;
+}
+function removeListItem(list, el) {
+    const index = list.indexOf(el);
+    if (index > -1)
+        list.splice(index, 1);
+}
+// TODO(kara): remove after deprecation period
+function _ngModelWarning(name, type, instance, warningConfig) {
+    if (warningConfig === 'never')
+        return;
+    if (((warningConfig === null || warningConfig === 'once') && !type._ngModelWarningSentOnce) ||
+        (warningConfig === 'always' && !instance._ngModelWarningSent)) {
+        ReactiveErrors.ngModelWarning(name);
+        type._ngModelWarningSentOnce = true;
+        instance._ngModelWarningSent = true;
+    }
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Reports that a FormControl is valid, meaning that no errors exist in the input value.
+ *
+ * @see `status`
+ */
+const VALID = 'VALID';
+/**
+ * Reports that a FormControl is invalid, meaning that an error exists in the input value.
+ *
+ * @see `status`
+ */
+const INVALID = 'INVALID';
+/**
+ * Reports that a FormControl is pending, meaning that that async validation is occurring and
+ * errors are not yet available for the input value.
+ *
+ * @see `markAsPending`
+ * @see `status`
+ */
+const PENDING = 'PENDING';
+/**
+ * Reports that a FormControl is disabled, meaning that the control is exempt from ancestor
+ * calculations of validity or value.
+ *
+ * @see `markAsDisabled`
+ * @see `status`
+ */
+const DISABLED = 'DISABLED';
+function _find(control, path, delimiter) {
+    if (path == null)
+        return null;
+    if (!Array.isArray(path)) {
+        path = path.split(delimiter);
+    }
+    if (Array.isArray(path) && path.length === 0)
+        return null;
+    // Not using Array.reduce here due to a Chrome 80 bug
+    // https://bugs.chromium.org/p/chromium/issues/detail?id=1049982
+    let controlToFind = control;
+    path.forEach((name) => {
+        if (controlToFind instanceof FormGroup) {
+            controlToFind = controlToFind.controls.hasOwnProperty(name) ?
+                controlToFind.controls[name] :
+                null;
+        }
+        else if (controlToFind instanceof FormArray) {
+            controlToFind = controlToFind.at(name) || null;
+        }
+        else {
+            controlToFind = null;
+        }
+    });
+    return controlToFind;
+}
+/**
+ * Gets validators from either an options object or given validators.
+ */
+function pickValidators(validatorOrOpts) {
+    return (isOptionsObj(validatorOrOpts) ? validatorOrOpts.validators : validatorOrOpts) || null;
+}
+/**
+ * Creates validator function by combining provided validators.
+ */
+function coerceToValidator(validator) {
+    return Array.isArray(validator) ? composeValidators(validator) : validator || null;
+}
+/**
+ * Gets async validators from either an options object or given validators.
+ */
+function pickAsyncValidators(asyncValidator, validatorOrOpts) {
+    return (isOptionsObj(validatorOrOpts) ? validatorOrOpts.asyncValidators : asyncValidator) || null;
+}
+/**
+ * Creates async validator function by combining provided async validators.
+ */
+function coerceToAsyncValidator(asyncValidator) {
+    return Array.isArray(asyncValidator) ? composeAsyncValidators(asyncValidator) :
+        asyncValidator || null;
+}
+function isOptionsObj(validatorOrOpts) {
+    return validatorOrOpts != null && !Array.isArray(validatorOrOpts) &&
+        typeof validatorOrOpts === 'object';
+}
+/**
+ * This is the base class for `FormControl`, `FormGroup`, and `FormArray`.
+ *
+ * It provides some of the shared behavior that all controls and groups of controls have, like
+ * running validators, calculating status, and resetting state. It also defines the properties
+ * that are shared between all sub-classes, like `value`, `valid`, and `dirty`. It shouldn't be
+ * instantiated directly.
+ *
+ * @see [Forms Guide](/guide/forms)
+ * @see [Reactive Forms Guide](/guide/reactive-forms)
+ * @see [Dynamic Forms Guide](/guide/dynamic-form)
+ *
+ * @publicApi
+ */
+class AbstractControl {
+    /**
+     * Initialize the AbstractControl instance.
+     *
+     * @param validators The function or array of functions that is used to determine the validity of
+     *     this control synchronously.
+     * @param asyncValidators The function or array of functions that is used to determine validity of
+     *     this control asynchronously.
+     */
+    constructor(validators, asyncValidators) {
+        /**
+         * Indicates that a control has its own pending asynchronous validation in progress.
+         *
+         * @internal
+         */
+        this._hasOwnPendingAsyncValidator = false;
+        /** @internal */
+        this._onCollectionChange = () => { };
+        this._parent = null;
+        /**
+         * A control is `pristine` if the user has not yet changed
+         * the value in the UI.
+         *
+         * @returns True if the user has not yet changed the value in the UI; compare `dirty`.
+         * Programmatic changes to a control's value do not mark it dirty.
+         */
+        this.pristine = true;
+        /**
+         * True if the control is marked as `touched`.
+         *
+         * A control is marked `touched` once the user has triggered
+         * a `blur` event on it.
+         */
+        this.touched = false;
+        /** @internal */
+        this._onDisabledChange = [];
+        this._rawValidators = validators;
+        this._rawAsyncValidators = asyncValidators;
+        this._composedValidatorFn = coerceToValidator(this._rawValidators);
+        this._composedAsyncValidatorFn = coerceToAsyncValidator(this._rawAsyncValidators);
+    }
+    /**
+     * The function that is used to determine the validity of this control synchronously.
+     */
+    get validator() {
+        return this._composedValidatorFn;
+    }
+    set validator(validatorFn) {
+        this._rawValidators = this._composedValidatorFn = validatorFn;
+    }
+    /**
+     * The function that is used to determine the validity of this control asynchronously.
+     */
+    get asyncValidator() {
+        return this._composedAsyncValidatorFn;
+    }
+    set asyncValidator(asyncValidatorFn) {
+        this._rawAsyncValidators = this._composedAsyncValidatorFn = asyncValidatorFn;
+    }
+    /**
+     * The parent control.
+     */
+    get parent() {
+        return this._parent;
+    }
+    /**
+     * A control is `valid` when its `status` is `VALID`.
+     *
+     * @see {@link AbstractControl.status}
+     *
+     * @returns True if the control has passed all of its validation tests,
+     * false otherwise.
+     */
+    get valid() {
+        return this.status === VALID;
+    }
+    /**
+     * A control is `invalid` when its `status` is `INVALID`.
+     *
+     * @see {@link AbstractControl.status}
+     *
+     * @returns True if this control has failed one or more of its validation checks,
+     * false otherwise.
+     */
+    get invalid() {
+        return this.status === INVALID;
+    }
+    /**
+     * A control is `pending` when its `status` is `PENDING`.
+     *
+     * @see {@link AbstractControl.status}
+     *
+     * @returns True if this control is in the process of conducting a validation check,
+     * false otherwise.
+     */
+    get pending() {
+        return this.status == PENDING;
+    }
+    /**
+     * A control is `disabled` when its `status` is `DISABLED`.
+     *
+     * Disabled controls are exempt from validation checks and
+     * are not included in the aggregate value of their ancestor
+     * controls.
+     *
+     * @see {@link AbstractControl.status}
+     *
+     * @returns True if the control is disabled, false otherwise.
+     */
+    get disabled() {
+        return this.status === DISABLED;
+    }
+    /**
+     * A control is `enabled` as long as its `status` is not `DISABLED`.
+     *
+     * @returns True if the control has any status other than 'DISABLED',
+     * false if the status is 'DISABLED'.
+     *
+     * @see {@link AbstractControl.status}
+     *
+     */
+    get enabled() {
+        return this.status !== DISABLED;
+    }
+    /**
+     * A control is `dirty` if the user has changed the value
+     * in the UI.
+     *
+     * @returns True if the user has changed the value of this control in the UI; compare `pristine`.
+     * Programmatic changes to a control's value do not mark it dirty.
+     */
+    get dirty() {
+        return !this.pristine;
+    }
+    /**
+     * True if the control has not been marked as touched
+     *
+     * A control is `untouched` if the user has not yet triggered
+     * a `blur` event on it.
+     */
+    get untouched() {
+        return !this.touched;
+    }
+    /**
+     * Reports the update strategy of the `AbstractControl` (meaning
+     * the event on which the control updates itself).
+     * Possible values: `'change'` | `'blur'` | `'submit'`
+     * Default value: `'change'`
+     */
+    get updateOn() {
+        return this._updateOn ? this._updateOn : (this.parent ? this.parent.updateOn : 'change');
+    }
+    /**
+     * Sets the synchronous validators that are active on this control.  Calling
+     * this overwrites any existing sync validators.
+     *
+     * When you add or remove a validator at run time, you must call
+     * `updateValueAndValidity()` for the new validation to take effect.
+     *
+     */
+    setValidators(newValidator) {
+        this._rawValidators = newValidator;
+        this._composedValidatorFn = coerceToValidator(newValidator);
+    }
+    /**
+     * Sets the async validators that are active on this control. Calling this
+     * overwrites any existing async validators.
+     *
+     * When you add or remove a validator at run time, you must call
+     * `updateValueAndValidity()` for the new validation to take effect.
+     *
+     */
+    setAsyncValidators(newValidator) {
+        this._rawAsyncValidators = newValidator;
+        this._composedAsyncValidatorFn = coerceToAsyncValidator(newValidator);
+    }
+    /**
+     * Empties out the sync validator list.
+     *
+     * When you add or remove a validator at run time, you must call
+     * `updateValueAndValidity()` for the new validation to take effect.
+     *
+     */
+    clearValidators() {
+        this.validator = null;
+    }
+    /**
+     * Empties out the async validator list.
+     *
+     * When you add or remove a validator at run time, you must call
+     * `updateValueAndValidity()` for the new validation to take effect.
+     *
+     */
+    clearAsyncValidators() {
+        this.asyncValidator = null;
+    }
+    /**
+     * Marks the control as `touched`. A control is touched by focus and
+     * blur events that do not change the value.
+     *
+     * @see `markAsUntouched()`
+     * @see `markAsDirty()`
+     * @see `markAsPristine()`
+     *
+     * @param opts Configuration options that determine how the control propagates changes
+     * and emits events after marking is applied.
+     * * `onlySelf`: When true, mark only this control. When false or not supplied,
+     * marks all direct ancestors. Default is false.
+     */
+    markAsTouched(opts = {}) {
+        this.touched = true;
+        if (this._parent && !opts.onlySelf) {
+            this._parent.markAsTouched(opts);
+        }
+    }
+    /**
+     * Marks the control and all its descendant controls as `touched`.
+     * @see `markAsTouched()`
+     */
+    markAllAsTouched() {
+        this.markAsTouched({ onlySelf: true });
+        this._forEachChild((control) => control.markAllAsTouched());
+    }
+    /**
+     * Marks the control as `untouched`.
+     *
+     * If the control has any children, also marks all children as `untouched`
+     * and recalculates the `touched` status of all parent controls.
+     *
+     * @see `markAsTouched()`
+     * @see `markAsDirty()`
+     * @see `markAsPristine()`
+     *
+     * @param opts Configuration options that determine how the control propagates changes
+     * and emits events after the marking is applied.
+     * * `onlySelf`: When true, mark only this control. When false or not supplied,
+     * marks all direct ancestors. Default is false.
+     */
+    markAsUntouched(opts = {}) {
+        this.touched = false;
+        this._pendingTouched = false;
+        this._forEachChild((control) => {
+            control.markAsUntouched({ onlySelf: true });
+        });
+        if (this._parent && !opts.onlySelf) {
+            this._parent._updateTouched(opts);
+        }
+    }
+    /**
+     * Marks the control as `dirty`. A control becomes dirty when
+     * the control's value is changed through the UI; compare `markAsTouched`.
+     *
+     * @see `markAsTouched()`
+     * @see `markAsUntouched()`
+     * @see `markAsPristine()`
+     *
+     * @param opts Configuration options that determine how the control propagates changes
+     * and emits events after marking is applied.
+     * * `onlySelf`: When true, mark only this control. When false or not supplied,
+     * marks all direct ancestors. Default is false.
+     */
+    markAsDirty(opts = {}) {
+        this.pristine = false;
+        if (this._parent && !opts.onlySelf) {
+            this._parent.markAsDirty(opts);
+        }
+    }
+    /**
+     * Marks the control as `pristine`.
+     *
+     * If the control has any children, marks all children as `pristine`,
+     * and recalculates the `pristine` status of all parent
+     * controls.
+     *
+     * @see `markAsTouched()`
+     * @see `markAsUntouched()`
+     * @see `markAsDirty()`
+     *
+     * @param opts Configuration options that determine how the control emits events after
+     * marking is applied.
+     * * `onlySelf`: When true, mark only this control. When false or not supplied,
+     * marks all direct ancestors. Default is false.
+     */
+    markAsPristine(opts = {}) {
+        this.pristine = true;
+        this._pendingDirty = false;
+        this._forEachChild((control) => {
+            control.markAsPristine({ onlySelf: true });
+        });
+        if (this._parent && !opts.onlySelf) {
+            this._parent._updatePristine(opts);
+        }
+    }
+    /**
+     * Marks the control as `pending`.
+     *
+     * A control is pending while the control performs async validation.
+     *
+     * @see {@link AbstractControl.status}
+     *
+     * @param opts Configuration options that determine how the control propagates changes and
+     * emits events after marking is applied.
+     * * `onlySelf`: When true, mark only this control. When false or not supplied,
+     * marks all direct ancestors. Default is false.
+     * * `emitEvent`: When true or not supplied (the default), the `statusChanges`
+     * observable emits an event with the latest status the control is marked pending.
+     * When false, no events are emitted.
+     *
+     */
+    markAsPending(opts = {}) {
+        this.status = PENDING;
+        if (opts.emitEvent !== false) {
+            this.statusChanges.emit(this.status);
+        }
+        if (this._parent && !opts.onlySelf) {
+            this._parent.markAsPending(opts);
+        }
+    }
+    /**
+     * Disables the control. This means the control is exempt from validation checks and
+     * excluded from the aggregate value of any parent. Its status is `DISABLED`.
+     *
+     * If the control has children, all children are also disabled.
+     *
+     * @see {@link AbstractControl.status}
+     *
+     * @param opts Configuration options that determine how the control propagates
+     * changes and emits events after the control is disabled.
+     * * `onlySelf`: When true, mark only this control. When false or not supplied,
+     * marks all direct ancestors. Default is false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control is disabled.
+     * When false, no events are emitted.
+     */
+    disable(opts = {}) {
+        // If parent has been marked artificially dirty we don't want to re-calculate the
+        // parent's dirtiness based on the children.
+        const skipPristineCheck = this._parentMarkedDirty(opts.onlySelf);
+        this.status = DISABLED;
+        this.errors = null;
+        this._forEachChild((control) => {
+            control.disable(Object.assign(Object.assign({}, opts), { onlySelf: true }));
+        });
+        this._updateValue();
+        if (opts.emitEvent !== false) {
+            this.valueChanges.emit(this.value);
+            this.statusChanges.emit(this.status);
+        }
+        this._updateAncestors(Object.assign(Object.assign({}, opts), { skipPristineCheck }));
+        this._onDisabledChange.forEach((changeFn) => changeFn(true));
+    }
+    /**
+     * Enables the control. This means the control is included in validation checks and
+     * the aggregate value of its parent. Its status recalculates based on its value and
+     * its validators.
+     *
+     * By default, if the control has children, all children are enabled.
+     *
+     * @see {@link AbstractControl.status}
+     *
+     * @param opts Configure options that control how the control propagates changes and
+     * emits events when marked as untouched
+     * * `onlySelf`: When true, mark only this control. When false or not supplied,
+     * marks all direct ancestors. Default is false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control is enabled.
+     * When false, no events are emitted.
+     */
+    enable(opts = {}) {
+        // If parent has been marked artificially dirty we don't want to re-calculate the
+        // parent's dirtiness based on the children.
+        const skipPristineCheck = this._parentMarkedDirty(opts.onlySelf);
+        this.status = VALID;
+        this._forEachChild((control) => {
+            control.enable(Object.assign(Object.assign({}, opts), { onlySelf: true }));
+        });
+        this.updateValueAndValidity({ onlySelf: true, emitEvent: opts.emitEvent });
+        this._updateAncestors(Object.assign(Object.assign({}, opts), { skipPristineCheck }));
+        this._onDisabledChange.forEach((changeFn) => changeFn(false));
+    }
+    _updateAncestors(opts) {
+        if (this._parent && !opts.onlySelf) {
+            this._parent.updateValueAndValidity(opts);
+            if (!opts.skipPristineCheck) {
+                this._parent._updatePristine();
+            }
+            this._parent._updateTouched();
+        }
+    }
+    /**
+     * @param parent Sets the parent of the control
+     */
+    setParent(parent) {
+        this._parent = parent;
+    }
+    /**
+     * Recalculates the value and validation status of the control.
+     *
+     * By default, it also updates the value and validity of its ancestors.
+     *
+     * @param opts Configuration options determine how the control propagates changes and emits events
+     * after updates and validity checks are applied.
+     * * `onlySelf`: When true, only update this control. When false or not supplied,
+     * update all direct ancestors. Default is false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control is updated.
+     * When false, no events are emitted.
+     */
+    updateValueAndValidity(opts = {}) {
+        this._setInitialStatus();
+        this._updateValue();
+        if (this.enabled) {
+            this._cancelExistingSubscription();
+            this.errors = this._runValidator();
+            this.status = this._calculateStatus();
+            if (this.status === VALID || this.status === PENDING) {
+                this._runAsyncValidator(opts.emitEvent);
+            }
+        }
+        if (opts.emitEvent !== false) {
+            this.valueChanges.emit(this.value);
+            this.statusChanges.emit(this.status);
+        }
+        if (this._parent && !opts.onlySelf) {
+            this._parent.updateValueAndValidity(opts);
+        }
+    }
+    /** @internal */
+    _updateTreeValidity(opts = { emitEvent: true }) {
+        this._forEachChild((ctrl) => ctrl._updateTreeValidity(opts));
+        this.updateValueAndValidity({ onlySelf: true, emitEvent: opts.emitEvent });
+    }
+    _setInitialStatus() {
+        this.status = this._allControlsDisabled() ? DISABLED : VALID;
+    }
+    _runValidator() {
+        return this.validator ? this.validator(this) : null;
+    }
+    _runAsyncValidator(emitEvent) {
+        if (this.asyncValidator) {
+            this.status = PENDING;
+            this._hasOwnPendingAsyncValidator = true;
+            const obs = toObservable(this.asyncValidator(this));
+            this._asyncValidationSubscription = obs.subscribe((errors) => {
+                this._hasOwnPendingAsyncValidator = false;
+                // This will trigger the recalculation of the validation status, which depends on
+                // the state of the asynchronous validation (whether it is in progress or not). So, it is
+                // necessary that we have updated the `_hasOwnPendingAsyncValidator` boolean flag first.
+                this.setErrors(errors, { emitEvent });
+            });
+        }
+    }
+    _cancelExistingSubscription() {
+        if (this._asyncValidationSubscription) {
+            this._asyncValidationSubscription.unsubscribe();
+            this._hasOwnPendingAsyncValidator = false;
+        }
+    }
+    /**
+     * Sets errors on a form control when running validations manually, rather than automatically.
+     *
+     * Calling `setErrors` also updates the validity of the parent control.
+     *
+     * @usageNotes
+     *
+     * ### Manually set the errors for a control
+     *
+     * ```
+     * const login = new FormControl('someLogin');
+     * login.setErrors({
+     *   notUnique: true
+     * });
+     *
+     * expect(login.valid).toEqual(false);
+     * expect(login.errors).toEqual({ notUnique: true });
+     *
+     * login.setValue('someOtherLogin');
+     *
+     * expect(login.valid).toEqual(true);
+     * ```
+     */
+    setErrors(errors, opts = {}) {
+        this.errors = errors;
+        this._updateControlsErrors(opts.emitEvent !== false);
+    }
+    /**
+     * Retrieves a child control given the control's name or path.
+     *
+     * @param path A dot-delimited string or array of string/number values that define the path to the
+     * control.
+     *
+     * @usageNotes
+     * ### Retrieve a nested control
+     *
+     * For example, to get a `name` control nested within a `person` sub-group:
+     *
+     * * `this.form.get('person.name');`
+     *
+     * -OR-
+     *
+     * * `this.form.get(['person', 'name']);`
+     *
+     * ### Retrieve a control in a FormArray
+     *
+     * When accessing an element inside a FormArray, you can use an element index.
+     * For example, to get a `price` control from the first element in an `items` array you can use:
+     *
+     * * `this.form.get('items.0.price');`
+     *
+     * -OR-
+     *
+     * * `this.form.get(['items', 0, 'price']);`
+     */
+    get(path) {
+        return _find(this, path, '.');
+    }
+    /**
+     * @description
+     * Reports error data for the control with the given path.
+     *
+     * @param errorCode The code of the error to check
+     * @param path A list of control names that designates how to move from the current control
+     * to the control that should be queried for errors.
+     *
+     * @usageNotes
+     * For example, for the following `FormGroup`:
+     *
+     * ```
+     * form = new FormGroup({
+     *   address: new FormGroup({ street: new FormControl() })
+     * });
+     * ```
+     *
+     * The path to the 'street' control from the root form would be 'address' -> 'street'.
+     *
+     * It can be provided to this method in one of two formats:
+     *
+     * 1. An array of string control names, e.g. `['address', 'street']`
+     * 1. A period-delimited list of control names in one string, e.g. `'address.street'`
+     *
+     * @returns error data for that particular error. If the control or error is not present,
+     * null is returned.
+     */
+    getError(errorCode, path) {
+        const control = path ? this.get(path) : this;
+        return control && control.errors ? control.errors[errorCode] : null;
+    }
+    /**
+     * @description
+     * Reports whether the control with the given path has the error specified.
+     *
+     * @param errorCode The code of the error to check
+     * @param path A list of control names that designates how to move from the current control
+     * to the control that should be queried for errors.
+     *
+     * @usageNotes
+     * For example, for the following `FormGroup`:
+     *
+     * ```
+     * form = new FormGroup({
+     *   address: new FormGroup({ street: new FormControl() })
+     * });
+     * ```
+     *
+     * The path to the 'street' control from the root form would be 'address' -> 'street'.
+     *
+     * It can be provided to this method in one of two formats:
+     *
+     * 1. An array of string control names, e.g. `['address', 'street']`
+     * 1. A period-delimited list of control names in one string, e.g. `'address.street'`
+     *
+     * If no path is given, this method checks for the error on the current control.
+     *
+     * @returns whether the given error is present in the control at the given path.
+     *
+     * If the control is not present, false is returned.
+     */
+    hasError(errorCode, path) {
+        return !!this.getError(errorCode, path);
+    }
+    /**
+     * Retrieves the top-level ancestor of this control.
+     */
+    get root() {
+        let x = this;
+        while (x._parent) {
+            x = x._parent;
+        }
+        return x;
+    }
+    /** @internal */
+    _updateControlsErrors(emitEvent) {
+        this.status = this._calculateStatus();
+        if (emitEvent) {
+            this.statusChanges.emit(this.status);
+        }
+        if (this._parent) {
+            this._parent._updateControlsErrors(emitEvent);
+        }
+    }
+    /** @internal */
+    _initObservables() {
+        this.valueChanges = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.statusChanges = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+    }
+    _calculateStatus() {
+        if (this._allControlsDisabled())
+            return DISABLED;
+        if (this.errors)
+            return INVALID;
+        if (this._hasOwnPendingAsyncValidator || this._anyControlsHaveStatus(PENDING))
+            return PENDING;
+        if (this._anyControlsHaveStatus(INVALID))
+            return INVALID;
+        return VALID;
+    }
+    /** @internal */
+    _anyControlsHaveStatus(status) {
+        return this._anyControls((control) => control.status === status);
+    }
+    /** @internal */
+    _anyControlsDirty() {
+        return this._anyControls((control) => control.dirty);
+    }
+    /** @internal */
+    _anyControlsTouched() {
+        return this._anyControls((control) => control.touched);
+    }
+    /** @internal */
+    _updatePristine(opts = {}) {
+        this.pristine = !this._anyControlsDirty();
+        if (this._parent && !opts.onlySelf) {
+            this._parent._updatePristine(opts);
+        }
+    }
+    /** @internal */
+    _updateTouched(opts = {}) {
+        this.touched = this._anyControlsTouched();
+        if (this._parent && !opts.onlySelf) {
+            this._parent._updateTouched(opts);
+        }
+    }
+    /** @internal */
+    _isBoxedValue(formState) {
+        return typeof formState === 'object' && formState !== null &&
+            Object.keys(formState).length === 2 && 'value' in formState && 'disabled' in formState;
+    }
+    /** @internal */
+    _registerOnCollectionChange(fn) {
+        this._onCollectionChange = fn;
+    }
+    /** @internal */
+    _setUpdateStrategy(opts) {
+        if (isOptionsObj(opts) && opts.updateOn != null) {
+            this._updateOn = opts.updateOn;
+        }
+    }
+    /**
+     * Check to see if parent has been marked artificially dirty.
+     *
+     * @internal
+     */
+    _parentMarkedDirty(onlySelf) {
+        const parentDirty = this._parent && this._parent.dirty;
+        return !onlySelf && !!parentDirty && !this._parent._anyControlsDirty();
+    }
+}
+/**
+ * Tracks the value and validation status of an individual form control.
+ *
+ * This is one of the three fundamental building blocks of Angular forms, along with
+ * `FormGroup` and `FormArray`. It extends the `AbstractControl` class that
+ * implements most of the base functionality for accessing the value, validation status,
+ * user interactions and events. See [usage examples below](#usage-notes).
+ *
+ * @see `AbstractControl`
+ * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see [Usage Notes](#usage-notes)
+ *
+ * @usageNotes
+ *
+ * ### Initializing Form Controls
+ *
+ * Instantiate a `FormControl`, with an initial value.
+ *
+ * ```ts
+ * const control = new FormControl('some value');
+ * console.log(control.value);     // 'some value'
+ *```
+ *
+ * The following example initializes the control with a form state object. The `value`
+ * and `disabled` keys are required in this case.
+ *
+ * ```ts
+ * const control = new FormControl({ value: 'n/a', disabled: true });
+ * console.log(control.value);     // 'n/a'
+ * console.log(control.status);    // 'DISABLED'
+ * ```
+ *
+ * The following example initializes the control with a sync validator.
+ *
+ * ```ts
+ * const control = new FormControl('', Validators.required);
+ * console.log(control.value);      // ''
+ * console.log(control.status);     // 'INVALID'
+ * ```
+ *
+ * The following example initializes the control using an options object.
+ *
+ * ```ts
+ * const control = new FormControl('', {
+ *    validators: Validators.required,
+ *    asyncValidators: myAsyncValidator
+ * });
+ * ```
+ *
+ * ### Configure the control to update on a blur event
+ *
+ * Set the `updateOn` option to `'blur'` to update on the blur `event`.
+ *
+ * ```ts
+ * const control = new FormControl('', { updateOn: 'blur' });
+ * ```
+ *
+ * ### Configure the control to update on a submit event
+ *
+ * Set the `updateOn` option to `'submit'` to update on a submit `event`.
+ *
+ * ```ts
+ * const control = new FormControl('', { updateOn: 'submit' });
+ * ```
+ *
+ * ### Reset the control back to an initial value
+ *
+ * You reset to a specific form state by passing through a standalone
+ * value or a form state object that contains both a value and a disabled state
+ * (these are the only two properties that cannot be calculated).
+ *
+ * ```ts
+ * const control = new FormControl('Nancy');
+ *
+ * console.log(control.value); // 'Nancy'
+ *
+ * control.reset('Drew');
+ *
+ * console.log(control.value); // 'Drew'
+ * ```
+ *
+ * ### Reset the control back to an initial value and disabled
+ *
+ * ```
+ * const control = new FormControl('Nancy');
+ *
+ * console.log(control.value); // 'Nancy'
+ * console.log(control.status); // 'VALID'
+ *
+ * control.reset({ value: 'Drew', disabled: true });
+ *
+ * console.log(control.value); // 'Drew'
+ * console.log(control.status); // 'DISABLED'
+ * ```
+ *
+ * @publicApi
+ */
+class FormControl extends AbstractControl {
+    /**
+     * Creates a new `FormControl` instance.
+     *
+     * @param formState Initializes the control with an initial value,
+     * or an object that defines the initial value and disabled state.
+     *
+     * @param validatorOrOpts A synchronous validator function, or an array of
+     * such functions, or an `AbstractControlOptions` object that contains validation functions
+     * and a validation trigger.
+     *
+     * @param asyncValidator A single async validator or array of async validator functions
+     *
+     */
+    constructor(formState = null, validatorOrOpts, asyncValidator) {
+        super(pickValidators(validatorOrOpts), pickAsyncValidators(asyncValidator, validatorOrOpts));
+        /** @internal */
+        this._onChange = [];
+        this._applyFormState(formState);
+        this._setUpdateStrategy(validatorOrOpts);
+        this._initObservables();
+        this.updateValueAndValidity({
+            onlySelf: true,
+            // If `asyncValidator` is present, it will trigger control status change from `PENDING` to
+            // `VALID` or `INVALID`.
+            // The status should be broadcasted via the `statusChanges` observable, so we set `emitEvent`
+            // to `true` to allow that during the control creation process.
+            emitEvent: !!asyncValidator
+        });
+    }
+    /**
+     * Sets a new value for the form control.
+     *
+     * @param value The new value for the control.
+     * @param options Configuration options that determine how the control propagates changes
+     * and emits events when the value changes.
+     * The configuration options are passed to the {@link AbstractControl#updateValueAndValidity
+     * updateValueAndValidity} method.
+     *
+     * * `onlySelf`: When true, each change only affects this control, and not its parent. Default is
+     * false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control value is updated.
+     * When false, no events are emitted.
+     * * `emitModelToViewChange`: When true or not supplied  (the default), each change triggers an
+     * `onChange` event to
+     * update the view.
+     * * `emitViewToModelChange`: When true or not supplied (the default), each change triggers an
+     * `ngModelChange`
+     * event to update the model.
+     *
+     */
+    setValue(value, options = {}) {
+        this.value = this._pendingValue = value;
+        if (this._onChange.length && options.emitModelToViewChange !== false) {
+            this._onChange.forEach((changeFn) => changeFn(this.value, options.emitViewToModelChange !== false));
+        }
+        this.updateValueAndValidity(options);
+    }
+    /**
+     * Patches the value of a control.
+     *
+     * This function is functionally the same as {@link FormControl#setValue setValue} at this level.
+     * It exists for symmetry with {@link FormGroup#patchValue patchValue} on `FormGroups` and
+     * `FormArrays`, where it does behave differently.
+     *
+     * @see `setValue` for options
+     */
+    patchValue(value, options = {}) {
+        this.setValue(value, options);
+    }
+    /**
+     * Resets the form control, marking it `pristine` and `untouched`, and setting
+     * the value to null.
+     *
+     * @param formState Resets the control with an initial value,
+     * or an object that defines the initial value and disabled state.
+     *
+     * @param options Configuration options that determine how the control propagates changes
+     * and emits events after the value changes.
+     *
+     * * `onlySelf`: When true, each change only affects this control, and not its parent. Default is
+     * false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control is reset.
+     * When false, no events are emitted.
+     *
+     */
+    reset(formState = null, options = {}) {
+        this._applyFormState(formState);
+        this.markAsPristine(options);
+        this.markAsUntouched(options);
+        this.setValue(this.value, options);
+        this._pendingChange = false;
+    }
+    /**
+     * @internal
+     */
+    _updateValue() { }
+    /**
+     * @internal
+     */
+    _anyControls(condition) {
+        return false;
+    }
+    /**
+     * @internal
+     */
+    _allControlsDisabled() {
+        return this.disabled;
+    }
+    /**
+     * Register a listener for change events.
+     *
+     * @param fn The method that is called when the value changes
+     */
+    registerOnChange(fn) {
+        this._onChange.push(fn);
+    }
+    /**
+     * Internal function to unregister a change events listener.
+     * @internal
+     */
+    _unregisterOnChange(fn) {
+        removeListItem(this._onChange, fn);
+    }
+    /**
+     * Register a listener for disabled events.
+     *
+     * @param fn The method that is called when the disabled status changes.
+     */
+    registerOnDisabledChange(fn) {
+        this._onDisabledChange.push(fn);
+    }
+    /**
+     * Internal function to unregister a disabled event listener.
+     * @internal
+     */
+    _unregisterOnDisabledChange(fn) {
+        removeListItem(this._onDisabledChange, fn);
+    }
+    /**
+     * @internal
+     */
+    _forEachChild(cb) { }
+    /** @internal */
+    _syncPendingControls() {
+        if (this.updateOn === 'submit') {
+            if (this._pendingDirty)
+                this.markAsDirty();
+            if (this._pendingTouched)
+                this.markAsTouched();
+            if (this._pendingChange) {
+                this.setValue(this._pendingValue, { onlySelf: true, emitModelToViewChange: false });
+                return true;
+            }
+        }
+        return false;
+    }
+    _applyFormState(formState) {
+        if (this._isBoxedValue(formState)) {
+            this.value = this._pendingValue = formState.value;
+            formState.disabled ? this.disable({ onlySelf: true, emitEvent: false }) :
+                this.enable({ onlySelf: true, emitEvent: false });
+        }
+        else {
+            this.value = this._pendingValue = formState;
+        }
+    }
+}
+/**
+ * Tracks the value and validity state of a group of `FormControl` instances.
+ *
+ * A `FormGroup` aggregates the values of each child `FormControl` into one object,
+ * with each control name as the key.  It calculates its status by reducing the status values
+ * of its children. For example, if one of the controls in a group is invalid, the entire
+ * group becomes invalid.
+ *
+ * `FormGroup` is one of the three fundamental building blocks used to define forms in Angular,
+ * along with `FormControl` and `FormArray`.
+ *
+ * When instantiating a `FormGroup`, pass in a collection of child controls as the first
+ * argument. The key for each child registers the name for the control.
+ *
+ * @usageNotes
+ *
+ * ### Create a form group with 2 controls
+ *
+ * ```
+ * const form = new FormGroup({
+ *   first: new FormControl('Nancy', Validators.minLength(2)),
+ *   last: new FormControl('Drew'),
+ * });
+ *
+ * console.log(form.value);   // {first: 'Nancy', last; 'Drew'}
+ * console.log(form.status);  // 'VALID'
+ * ```
+ *
+ * ### Create a form group with a group-level validator
+ *
+ * You include group-level validators as the second arg, or group-level async
+ * validators as the third arg. These come in handy when you want to perform validation
+ * that considers the value of more than one child control.
+ *
+ * ```
+ * const form = new FormGroup({
+ *   password: new FormControl('', Validators.minLength(2)),
+ *   passwordConfirm: new FormControl('', Validators.minLength(2)),
+ * }, passwordMatchValidator);
+ *
+ *
+ * function passwordMatchValidator(g: FormGroup) {
+ *    return g.get('password').value === g.get('passwordConfirm').value
+ *       ? null : {'mismatch': true};
+ * }
+ * ```
+ *
+ * Like `FormControl` instances, you choose to pass in
+ * validators and async validators as part of an options object.
+ *
+ * ```
+ * const form = new FormGroup({
+ *   password: new FormControl('')
+ *   passwordConfirm: new FormControl('')
+ * }, { validators: passwordMatchValidator, asyncValidators: otherValidator });
+ * ```
+ *
+ * ### Set the updateOn property for all controls in a form group
+ *
+ * The options object is used to set a default value for each child
+ * control's `updateOn` property. If you set `updateOn` to `'blur'` at the
+ * group level, all child controls default to 'blur', unless the child
+ * has explicitly specified a different `updateOn` value.
+ *
+ * ```ts
+ * const c = new FormGroup({
+ *   one: new FormControl()
+ * }, { updateOn: 'blur' });
+ * ```
+ *
+ * @publicApi
+ */
+class FormGroup extends AbstractControl {
+    /**
+     * Creates a new `FormGroup` instance.
+     *
+     * @param controls A collection of child controls. The key for each child is the name
+     * under which it is registered.
+     *
+     * @param validatorOrOpts A synchronous validator function, or an array of
+     * such functions, or an `AbstractControlOptions` object that contains validation functions
+     * and a validation trigger.
+     *
+     * @param asyncValidator A single async validator or array of async validator functions
+     *
+     */
+    constructor(controls, validatorOrOpts, asyncValidator) {
+        super(pickValidators(validatorOrOpts), pickAsyncValidators(asyncValidator, validatorOrOpts));
+        this.controls = controls;
+        this._initObservables();
+        this._setUpdateStrategy(validatorOrOpts);
+        this._setUpControls();
+        this.updateValueAndValidity({
+            onlySelf: true,
+            // If `asyncValidator` is present, it will trigger control status change from `PENDING` to
+            // `VALID` or `INVALID`. The status should be broadcasted via the `statusChanges` observable,
+            // so we set `emitEvent` to `true` to allow that during the control creation process.
+            emitEvent: !!asyncValidator
+        });
+    }
+    /**
+     * Registers a control with the group's list of controls.
+     *
+     * This method does not update the value or validity of the control.
+     * Use {@link FormGroup#addControl addControl} instead.
+     *
+     * @param name The control name to register in the collection
+     * @param control Provides the control for the given name
+     */
+    registerControl(name, control) {
+        if (this.controls[name])
+            return this.controls[name];
+        this.controls[name] = control;
+        control.setParent(this);
+        control._registerOnCollectionChange(this._onCollectionChange);
+        return control;
+    }
+    /**
+     * Add a control to this group.
+     *
+     * This method also updates the value and validity of the control.
+     *
+     * @param name The control name to add to the collection
+     * @param control Provides the control for the given name
+     */
+    addControl(name, control) {
+        this.registerControl(name, control);
+        this.updateValueAndValidity();
+        this._onCollectionChange();
+    }
+    /**
+     * Remove a control from this group.
+     *
+     * @param name The control name to remove from the collection
+     */
+    removeControl(name) {
+        if (this.controls[name])
+            this.controls[name]._registerOnCollectionChange(() => { });
+        delete (this.controls[name]);
+        this.updateValueAndValidity();
+        this._onCollectionChange();
+    }
+    /**
+     * Replace an existing control.
+     *
+     * @param name The control name to replace in the collection
+     * @param control Provides the control for the given name
+     */
+    setControl(name, control) {
+        if (this.controls[name])
+            this.controls[name]._registerOnCollectionChange(() => { });
+        delete (this.controls[name]);
+        if (control)
+            this.registerControl(name, control);
+        this.updateValueAndValidity();
+        this._onCollectionChange();
+    }
+    /**
+     * Check whether there is an enabled control with the given name in the group.
+     *
+     * Reports false for disabled controls. If you'd like to check for existence in the group
+     * only, use {@link AbstractControl#get get} instead.
+     *
+     * @param controlName The control name to check for existence in the collection
+     *
+     * @returns false for disabled controls, true otherwise.
+     */
+    contains(controlName) {
+        return this.controls.hasOwnProperty(controlName) && this.controls[controlName].enabled;
+    }
+    /**
+     * Sets the value of the `FormGroup`. It accepts an object that matches
+     * the structure of the group, with control names as keys.
+     *
+     * @usageNotes
+     * ### Set the complete value for the form group
+     *
+     * ```
+     * const form = new FormGroup({
+     *   first: new FormControl(),
+     *   last: new FormControl()
+     * });
+     *
+     * console.log(form.value);   // {first: null, last: null}
+     *
+     * form.setValue({first: 'Nancy', last: 'Drew'});
+     * console.log(form.value);   // {first: 'Nancy', last: 'Drew'}
+     * ```
+     *
+     * @throws When strict checks fail, such as setting the value of a control
+     * that doesn't exist or if you exclude a value of a control that does exist.
+     *
+     * @param value The new value for the control that matches the structure of the group.
+     * @param options Configuration options that determine how the control propagates changes
+     * and emits events after the value changes.
+     * The configuration options are passed to the {@link AbstractControl#updateValueAndValidity
+     * updateValueAndValidity} method.
+     *
+     * * `onlySelf`: When true, each change only affects this control, and not its parent. Default is
+     * false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control value is updated.
+     * When false, no events are emitted.
+     */
+    setValue(value, options = {}) {
+        this._checkAllValuesPresent(value);
+        Object.keys(value).forEach(name => {
+            this._throwIfControlMissing(name);
+            this.controls[name].setValue(value[name], { onlySelf: true, emitEvent: options.emitEvent });
+        });
+        this.updateValueAndValidity(options);
+    }
+    /**
+     * Patches the value of the `FormGroup`. It accepts an object with control
+     * names as keys, and does its best to match the values to the correct controls
+     * in the group.
+     *
+     * It accepts both super-sets and sub-sets of the group without throwing an error.
+     *
+     * @usageNotes
+     * ### Patch the value for a form group
+     *
+     * ```
+     * const form = new FormGroup({
+     *    first: new FormControl(),
+     *    last: new FormControl()
+     * });
+     * console.log(form.value);   // {first: null, last: null}
+     *
+     * form.patchValue({first: 'Nancy'});
+     * console.log(form.value);   // {first: 'Nancy', last: null}
+     * ```
+     *
+     * @param value The object that matches the structure of the group.
+     * @param options Configuration options that determine how the control propagates changes and
+     * emits events after the value is patched.
+     * * `onlySelf`: When true, each change only affects this control and not its parent. Default is
+     * true.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges` observables emit events with the latest status and value when the control value
+     * is updated. When false, no events are emitted. The configuration options are passed to
+     * the {@link AbstractControl#updateValueAndValidity updateValueAndValidity} method.
+     */
+    patchValue(value, options = {}) {
+        // Even though the `value` argument type doesn't allow `null` and `undefined` values, the
+        // `patchValue` can be called recursively and inner data structures might have these values, so
+        // we just ignore such cases when a field containing FormGroup instance receives `null` or
+        // `undefined` as a value.
+        if (value == null /* both `null` and `undefined` */)
+            return;
+        Object.keys(value).forEach(name => {
+            if (this.controls[name]) {
+                this.controls[name].patchValue(value[name], { onlySelf: true, emitEvent: options.emitEvent });
+            }
+        });
+        this.updateValueAndValidity(options);
+    }
+    /**
+     * Resets the `FormGroup`, marks all descendants `pristine` and `untouched` and sets
+     * the value of all descendants to null.
+     *
+     * You reset to a specific form state by passing in a map of states
+     * that matches the structure of your form, with control names as keys. The state
+     * is a standalone value or a form state object with both a value and a disabled
+     * status.
+     *
+     * @param value Resets the control with an initial value,
+     * or an object that defines the initial value and disabled state.
+     *
+     * @param options Configuration options that determine how the control propagates changes
+     * and emits events when the group is reset.
+     * * `onlySelf`: When true, each change only affects this control, and not its parent. Default is
+     * false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control is reset.
+     * When false, no events are emitted.
+     * The configuration options are passed to the {@link AbstractControl#updateValueAndValidity
+     * updateValueAndValidity} method.
+     *
+     * @usageNotes
+     *
+     * ### Reset the form group values
+     *
+     * ```ts
+     * const form = new FormGroup({
+     *   first: new FormControl('first name'),
+     *   last: new FormControl('last name')
+     * });
+     *
+     * console.log(form.value);  // {first: 'first name', last: 'last name'}
+     *
+     * form.reset({ first: 'name', last: 'last name' });
+     *
+     * console.log(form.value);  // {first: 'name', last: 'last name'}
+     * ```
+     *
+     * ### Reset the form group values and disabled status
+     *
+     * ```
+     * const form = new FormGroup({
+     *   first: new FormControl('first name'),
+     *   last: new FormControl('last name')
+     * });
+     *
+     * form.reset({
+     *   first: {value: 'name', disabled: true},
+     *   last: 'last'
+     * });
+     *
+     * console.log(form.value);  // {last: 'last'}
+     * console.log(form.get('first').status);  // 'DISABLED'
+     * ```
+     */
+    reset(value = {}, options = {}) {
+        this._forEachChild((control, name) => {
+            control.reset(value[name], { onlySelf: true, emitEvent: options.emitEvent });
+        });
+        this._updatePristine(options);
+        this._updateTouched(options);
+        this.updateValueAndValidity(options);
+    }
+    /**
+     * The aggregate value of the `FormGroup`, including any disabled controls.
+     *
+     * Retrieves all values regardless of disabled status.
+     * The `value` property is the best way to get the value of the group, because
+     * it excludes disabled controls in the `FormGroup`.
+     */
+    getRawValue() {
+        return this._reduceChildren({}, (acc, control, name) => {
+            acc[name] = control instanceof FormControl ? control.value : control.getRawValue();
+            return acc;
+        });
+    }
+    /** @internal */
+    _syncPendingControls() {
+        let subtreeUpdated = this._reduceChildren(false, (updated, child) => {
+            return child._syncPendingControls() ? true : updated;
+        });
+        if (subtreeUpdated)
+            this.updateValueAndValidity({ onlySelf: true });
+        return subtreeUpdated;
+    }
+    /** @internal */
+    _throwIfControlMissing(name) {
+        if (!Object.keys(this.controls).length) {
+            throw new Error(`
+        There are no form controls registered with this group yet. If you're using ngModel,
+        you may want to check next tick (e.g. use setTimeout).
+      `);
+        }
+        if (!this.controls[name]) {
+            throw new Error(`Cannot find form control with name: ${name}.`);
+        }
+    }
+    /** @internal */
+    _forEachChild(cb) {
+        Object.keys(this.controls).forEach(key => {
+            // The list of controls can change (for ex. controls might be removed) while the loop
+            // is running (as a result of invoking Forms API in `valueChanges` subscription), so we
+            // have to null check before invoking the callback.
+            const control = this.controls[key];
+            control && cb(control, key);
+        });
+    }
+    /** @internal */
+    _setUpControls() {
+        this._forEachChild((control) => {
+            control.setParent(this);
+            control._registerOnCollectionChange(this._onCollectionChange);
+        });
+    }
+    /** @internal */
+    _updateValue() {
+        this.value = this._reduceValue();
+    }
+    /** @internal */
+    _anyControls(condition) {
+        for (const controlName of Object.keys(this.controls)) {
+            const control = this.controls[controlName];
+            if (this.contains(controlName) && condition(control)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    /** @internal */
+    _reduceValue() {
+        return this._reduceChildren({}, (acc, control, name) => {
+            if (control.enabled || this.disabled) {
+                acc[name] = control.value;
+            }
+            return acc;
+        });
+    }
+    /** @internal */
+    _reduceChildren(initValue, fn) {
+        let res = initValue;
+        this._forEachChild((control, name) => {
+            res = fn(res, control, name);
+        });
+        return res;
+    }
+    /** @internal */
+    _allControlsDisabled() {
+        for (const controlName of Object.keys(this.controls)) {
+            if (this.controls[controlName].enabled) {
+                return false;
+            }
+        }
+        return Object.keys(this.controls).length > 0 || this.disabled;
+    }
+    /** @internal */
+    _checkAllValuesPresent(value) {
+        this._forEachChild((control, name) => {
+            if (value[name] === undefined) {
+                throw new Error(`Must supply a value for form control with name: '${name}'.`);
+            }
+        });
+    }
+}
+/**
+ * Tracks the value and validity state of an array of `FormControl`,
+ * `FormGroup` or `FormArray` instances.
+ *
+ * A `FormArray` aggregates the values of each child `FormControl` into an array.
+ * It calculates its status by reducing the status values of its children. For example, if one of
+ * the controls in a `FormArray` is invalid, the entire array becomes invalid.
+ *
+ * `FormArray` is one of the three fundamental building blocks used to define forms in Angular,
+ * along with `FormControl` and `FormGroup`.
+ *
+ * @usageNotes
+ *
+ * ### Create an array of form controls
+ *
+ * ```
+ * const arr = new FormArray([
+ *   new FormControl('Nancy', Validators.minLength(2)),
+ *   new FormControl('Drew'),
+ * ]);
+ *
+ * console.log(arr.value);   // ['Nancy', 'Drew']
+ * console.log(arr.status);  // 'VALID'
+ * ```
+ *
+ * ### Create a form array with array-level validators
+ *
+ * You include array-level validators and async validators. These come in handy
+ * when you want to perform validation that considers the value of more than one child
+ * control.
+ *
+ * The two types of validators are passed in separately as the second and third arg
+ * respectively, or together as part of an options object.
+ *
+ * ```
+ * const arr = new FormArray([
+ *   new FormControl('Nancy'),
+ *   new FormControl('Drew')
+ * ], {validators: myValidator, asyncValidators: myAsyncValidator});
+ * ```
+ *
+ * ### Set the updateOn property for all controls in a form array
+ *
+ * The options object is used to set a default value for each child
+ * control's `updateOn` property. If you set `updateOn` to `'blur'` at the
+ * array level, all child controls default to 'blur', unless the child
+ * has explicitly specified a different `updateOn` value.
+ *
+ * ```ts
+ * const arr = new FormArray([
+ *    new FormControl()
+ * ], {updateOn: 'blur'});
+ * ```
+ *
+ * ### Adding or removing controls from a form array
+ *
+ * To change the controls in the array, use the `push`, `insert`, `removeAt` or `clear` methods
+ * in `FormArray` itself. These methods ensure the controls are properly tracked in the
+ * form's hierarchy. Do not modify the array of `AbstractControl`s used to instantiate
+ * the `FormArray` directly, as that result in strange and unexpected behavior such
+ * as broken change detection.
+ *
+ * @publicApi
+ */
+class FormArray extends AbstractControl {
+    /**
+     * Creates a new `FormArray` instance.
+     *
+     * @param controls An array of child controls. Each child control is given an index
+     * where it is registered.
+     *
+     * @param validatorOrOpts A synchronous validator function, or an array of
+     * such functions, or an `AbstractControlOptions` object that contains validation functions
+     * and a validation trigger.
+     *
+     * @param asyncValidator A single async validator or array of async validator functions
+     *
+     */
+    constructor(controls, validatorOrOpts, asyncValidator) {
+        super(pickValidators(validatorOrOpts), pickAsyncValidators(asyncValidator, validatorOrOpts));
+        this.controls = controls;
+        this._initObservables();
+        this._setUpdateStrategy(validatorOrOpts);
+        this._setUpControls();
+        this.updateValueAndValidity({
+            onlySelf: true,
+            // If `asyncValidator` is present, it will trigger control status change from `PENDING` to
+            // `VALID` or `INVALID`.
+            // The status should be broadcasted via the `statusChanges` observable, so we set `emitEvent`
+            // to `true` to allow that during the control creation process.
+            emitEvent: !!asyncValidator
+        });
+    }
+    /**
+     * Get the `AbstractControl` at the given `index` in the array.
+     *
+     * @param index Index in the array to retrieve the control
+     */
+    at(index) {
+        return this.controls[index];
+    }
+    /**
+     * Insert a new `AbstractControl` at the end of the array.
+     *
+     * @param control Form control to be inserted
+     */
+    push(control) {
+        this.controls.push(control);
+        this._registerControl(control);
+        this.updateValueAndValidity();
+        this._onCollectionChange();
+    }
+    /**
+     * Insert a new `AbstractControl` at the given `index` in the array.
+     *
+     * @param index Index in the array to insert the control
+     * @param control Form control to be inserted
+     */
+    insert(index, control) {
+        this.controls.splice(index, 0, control);
+        this._registerControl(control);
+        this.updateValueAndValidity();
+    }
+    /**
+     * Remove the control at the given `index` in the array.
+     *
+     * @param index Index in the array to remove the control
+     */
+    removeAt(index) {
+        if (this.controls[index])
+            this.controls[index]._registerOnCollectionChange(() => { });
+        this.controls.splice(index, 1);
+        this.updateValueAndValidity();
+    }
+    /**
+     * Replace an existing control.
+     *
+     * @param index Index in the array to replace the control
+     * @param control The `AbstractControl` control to replace the existing control
+     */
+    setControl(index, control) {
+        if (this.controls[index])
+            this.controls[index]._registerOnCollectionChange(() => { });
+        this.controls.splice(index, 1);
+        if (control) {
+            this.controls.splice(index, 0, control);
+            this._registerControl(control);
+        }
+        this.updateValueAndValidity();
+        this._onCollectionChange();
+    }
+    /**
+     * Length of the control array.
+     */
+    get length() {
+        return this.controls.length;
+    }
+    /**
+     * Sets the value of the `FormArray`. It accepts an array that matches
+     * the structure of the control.
+     *
+     * This method performs strict checks, and throws an error if you try
+     * to set the value of a control that doesn't exist or if you exclude the
+     * value of a control.
+     *
+     * @usageNotes
+     * ### Set the values for the controls in the form array
+     *
+     * ```
+     * const arr = new FormArray([
+     *   new FormControl(),
+     *   new FormControl()
+     * ]);
+     * console.log(arr.value);   // [null, null]
+     *
+     * arr.setValue(['Nancy', 'Drew']);
+     * console.log(arr.value);   // ['Nancy', 'Drew']
+     * ```
+     *
+     * @param value Array of values for the controls
+     * @param options Configure options that determine how the control propagates changes and
+     * emits events after the value changes
+     *
+     * * `onlySelf`: When true, each change only affects this control, and not its parent. Default
+     * is false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control value is updated.
+     * When false, no events are emitted.
+     * The configuration options are passed to the {@link AbstractControl#updateValueAndValidity
+     * updateValueAndValidity} method.
+     */
+    setValue(value, options = {}) {
+        this._checkAllValuesPresent(value);
+        value.forEach((newValue, index) => {
+            this._throwIfControlMissing(index);
+            this.at(index).setValue(newValue, { onlySelf: true, emitEvent: options.emitEvent });
+        });
+        this.updateValueAndValidity(options);
+    }
+    /**
+     * Patches the value of the `FormArray`. It accepts an array that matches the
+     * structure of the control, and does its best to match the values to the correct
+     * controls in the group.
+     *
+     * It accepts both super-sets and sub-sets of the array without throwing an error.
+     *
+     * @usageNotes
+     * ### Patch the values for controls in a form array
+     *
+     * ```
+     * const arr = new FormArray([
+     *    new FormControl(),
+     *    new FormControl()
+     * ]);
+     * console.log(arr.value);   // [null, null]
+     *
+     * arr.patchValue(['Nancy']);
+     * console.log(arr.value);   // ['Nancy', null]
+     * ```
+     *
+     * @param value Array of latest values for the controls
+     * @param options Configure options that determine how the control propagates changes and
+     * emits events after the value changes
+     *
+     * * `onlySelf`: When true, each change only affects this control, and not its parent. Default
+     * is false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges` observables emit events with the latest status and value when the control value
+     * is updated. When false, no events are emitted. The configuration options are passed to
+     * the {@link AbstractControl#updateValueAndValidity updateValueAndValidity} method.
+     */
+    patchValue(value, options = {}) {
+        // Even though the `value` argument type doesn't allow `null` and `undefined` values, the
+        // `patchValue` can be called recursively and inner data structures might have these values, so
+        // we just ignore such cases when a field containing FormArray instance receives `null` or
+        // `undefined` as a value.
+        if (value == null /* both `null` and `undefined` */)
+            return;
+        value.forEach((newValue, index) => {
+            if (this.at(index)) {
+                this.at(index).patchValue(newValue, { onlySelf: true, emitEvent: options.emitEvent });
+            }
+        });
+        this.updateValueAndValidity(options);
+    }
+    /**
+     * Resets the `FormArray` and all descendants are marked `pristine` and `untouched`, and the
+     * value of all descendants to null or null maps.
+     *
+     * You reset to a specific form state by passing in an array of states
+     * that matches the structure of the control. The state is a standalone value
+     * or a form state object with both a value and a disabled status.
+     *
+     * @usageNotes
+     * ### Reset the values in a form array
+     *
+     * ```ts
+     * const arr = new FormArray([
+     *    new FormControl(),
+     *    new FormControl()
+     * ]);
+     * arr.reset(['name', 'last name']);
+     *
+     * console.log(this.arr.value);  // ['name', 'last name']
+     * ```
+     *
+     * ### Reset the values in a form array and the disabled status for the first control
+     *
+     * ```
+     * this.arr.reset([
+     *   {value: 'name', disabled: true},
+     *   'last'
+     * ]);
+     *
+     * console.log(this.arr.value);  // ['name', 'last name']
+     * console.log(this.arr.get(0).status);  // 'DISABLED'
+     * ```
+     *
+     * @param value Array of values for the controls
+     * @param options Configure options that determine how the control propagates changes and
+     * emits events after the value changes
+     *
+     * * `onlySelf`: When true, each change only affects this control, and not its parent. Default
+     * is false.
+     * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
+     * `valueChanges`
+     * observables emit events with the latest status and value when the control is reset.
+     * When false, no events are emitted.
+     * The configuration options are passed to the {@link AbstractControl#updateValueAndValidity
+     * updateValueAndValidity} method.
+     */
+    reset(value = [], options = {}) {
+        this._forEachChild((control, index) => {
+            control.reset(value[index], { onlySelf: true, emitEvent: options.emitEvent });
+        });
+        this._updatePristine(options);
+        this._updateTouched(options);
+        this.updateValueAndValidity(options);
+    }
+    /**
+     * The aggregate value of the array, including any disabled controls.
+     *
+     * Reports all values regardless of disabled status.
+     * For enabled controls only, the `value` property is the best way to get the value of the array.
+     */
+    getRawValue() {
+        return this.controls.map((control) => {
+            return control instanceof FormControl ? control.value : control.getRawValue();
+        });
+    }
+    /**
+     * Remove all controls in the `FormArray`.
+     *
+     * @usageNotes
+     * ### Remove all elements from a FormArray
+     *
+     * ```ts
+     * const arr = new FormArray([
+     *    new FormControl(),
+     *    new FormControl()
+     * ]);
+     * console.log(arr.length);  // 2
+     *
+     * arr.clear();
+     * console.log(arr.length);  // 0
+     * ```
+     *
+     * It's a simpler and more efficient alternative to removing all elements one by one:
+     *
+     * ```ts
+     * const arr = new FormArray([
+     *    new FormControl(),
+     *    new FormControl()
+     * ]);
+     *
+     * while (arr.length) {
+     *    arr.removeAt(0);
+     * }
+     * ```
+     */
+    clear() {
+        if (this.controls.length < 1)
+            return;
+        this._forEachChild((control) => control._registerOnCollectionChange(() => { }));
+        this.controls.splice(0);
+        this.updateValueAndValidity();
+    }
+    /** @internal */
+    _syncPendingControls() {
+        let subtreeUpdated = this.controls.reduce((updated, child) => {
+            return child._syncPendingControls() ? true : updated;
+        }, false);
+        if (subtreeUpdated)
+            this.updateValueAndValidity({ onlySelf: true });
+        return subtreeUpdated;
+    }
+    /** @internal */
+    _throwIfControlMissing(index) {
+        if (!this.controls.length) {
+            throw new Error(`
+        There are no form controls registered with this array yet. If you're using ngModel,
+        you may want to check next tick (e.g. use setTimeout).
+      `);
+        }
+        if (!this.at(index)) {
+            throw new Error(`Cannot find form control at index ${index}`);
+        }
+    }
+    /** @internal */
+    _forEachChild(cb) {
+        this.controls.forEach((control, index) => {
+            cb(control, index);
+        });
+    }
+    /** @internal */
+    _updateValue() {
+        this.value =
+            this.controls.filter((control) => control.enabled || this.disabled)
+                .map((control) => control.value);
+    }
+    /** @internal */
+    _anyControls(condition) {
+        return this.controls.some((control) => control.enabled && condition(control));
+    }
+    /** @internal */
+    _setUpControls() {
+        this._forEachChild((control) => this._registerControl(control));
+    }
+    /** @internal */
+    _checkAllValuesPresent(value) {
+        this._forEachChild((control, i) => {
+            if (value[i] === undefined) {
+                throw new Error(`Must supply a value for form control at index: ${i}.`);
+            }
+        });
+    }
+    /** @internal */
+    _allControlsDisabled() {
+        for (const control of this.controls) {
+            if (control.enabled)
+                return false;
+        }
+        return this.controls.length > 0 || this.disabled;
+    }
+    _registerControl(control) {
+        control.setParent(this);
+        control._registerOnCollectionChange(this._onCollectionChange);
+    }
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const formDirectiveProvider = {
+    provide: ControlContainer,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgForm)
+};
+const ɵ0 = () => Promise.resolve(null);
+const resolvedPromise = (ɵ0)();
+/**
+ * @description
+ * Creates a top-level `FormGroup` instance and binds it to a form
+ * to track aggregate form value and validation status.
+ *
+ * As soon as you import the `FormsModule`, this directive becomes active by default on
+ * all `<form>` tags.  You don't need to add a special selector.
+ *
+ * You optionally export the directive into a local template variable using `ngForm` as the key
+ * (ex: `#myForm="ngForm"`). This is optional, but useful.  Many properties from the underlying
+ * `FormGroup` instance are duplicated on the directive itself, so a reference to it
+ * gives you access to the aggregate value and validity status of the form, as well as
+ * user interaction properties like `dirty` and `touched`.
+ *
+ * To register child controls with the form, use `NgModel` with a `name`
+ * attribute. You may use `NgModelGroup` to create sub-groups within the form.
+ *
+ * If necessary, listen to the directive's `ngSubmit` event to be notified when the user has
+ * triggered a form submission. The `ngSubmit` event emits the original form
+ * submission event.
+ *
+ * In template driven forms, all `<form>` tags are automatically tagged as `NgForm`.
+ * To import the `FormsModule` but skip its usage in some forms,
+ * for example, to use native HTML5 validation, add the `ngNoForm` and the `<form>`
+ * tags won't create an `NgForm` directive. In reactive forms, using `ngNoForm` is
+ * unnecessary because the `<form>` tags are inert. In that case, you would
+ * refrain from using the `formGroup` directive.
+ *
+ * @usageNotes
+ *
+ * ### Listening for form submission
+ *
+ * The following example shows how to capture the form values from the "ngSubmit" event.
+ *
+ * {@example forms/ts/simpleForm/simple_form_example.ts region='Component'}
+ *
+ * ### Setting the update options
+ *
+ * The following example shows you how to change the "updateOn" option from its default using
+ * ngFormOptions.
+ *
+ * ```html
+ * <form [ngFormOptions]="{updateOn: 'blur'}">
+ *    <input name="one" ngModel>  <!-- this ngModel will update on blur -->
+ * </form>
+ * ```
+ *
+ * ### Native DOM validation UI
+ *
+ * In order to prevent the native DOM form validation UI from interfering with Angular's form
+ * validation, Angular automatically adds the `novalidate` attribute on any `<form>` whenever
+ * `FormModule` or `ReactiveFormModule` are imported into the application.
+ * If you want to explicitly enable native DOM validation UI with Angular forms, you can add the
+ * `ngNativeValidate` attribute to the `<form>` element:
+ *
+ * ```html
+ * <form ngNativeValidate>
+ *   ...
+ * </form>
+ * ```
+ *
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class NgForm extends ControlContainer {
+    constructor(validators, asyncValidators) {
+        super();
+        /**
+         * @description
+         * Returns whether the form submission has been triggered.
+         */
+        this.submitted = false;
+        this._directives = [];
+        /**
+         * @description
+         * Event emitter for the "ngSubmit" event
+         */
+        this.ngSubmit = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.form =
+            new FormGroup({}, composeValidators(validators), composeAsyncValidators(asyncValidators));
+    }
+    /** @nodoc */
+    ngAfterViewInit() {
+        this._setUpdateStrategy();
+    }
+    /**
+     * @description
+     * The directive instance.
+     */
+    get formDirective() {
+        return this;
+    }
+    /**
+     * @description
+     * The internal `FormGroup` instance.
+     */
+    get control() {
+        return this.form;
+    }
+    /**
+     * @description
+     * Returns an array representing the path to this group. Because this directive
+     * always lives at the top level of a form, it is always an empty array.
+     */
+    get path() {
+        return [];
+    }
+    /**
+     * @description
+     * Returns a map of the controls in this group.
+     */
+    get controls() {
+        return this.form.controls;
+    }
+    /**
+     * @description
+     * Method that sets up the control directive in this group, re-calculates its value
+     * and validity, and adds the instance to the internal list of directives.
+     *
+     * @param dir The `NgModel` directive instance.
+     */
+    addControl(dir) {
+        resolvedPromise.then(() => {
+            const container = this._findContainer(dir.path);
+            dir.control =
+                container.registerControl(dir.name, dir.control);
+            setUpControl(dir.control, dir);
+            dir.control.updateValueAndValidity({ emitEvent: false });
+            this._directives.push(dir);
+        });
+    }
+    /**
+     * @description
+     * Retrieves the `FormControl` instance from the provided `NgModel` directive.
+     *
+     * @param dir The `NgModel` directive instance.
+     */
+    getControl(dir) {
+        return this.form.get(dir.path);
+    }
+    /**
+     * @description
+     * Removes the `NgModel` instance from the internal list of directives
+     *
+     * @param dir The `NgModel` directive instance.
+     */
+    removeControl(dir) {
+        resolvedPromise.then(() => {
+            const container = this._findContainer(dir.path);
+            if (container) {
+                container.removeControl(dir.name);
+            }
+            removeListItem(this._directives, dir);
+        });
+    }
+    /**
+     * @description
+     * Adds a new `NgModelGroup` directive instance to the form.
+     *
+     * @param dir The `NgModelGroup` directive instance.
+     */
+    addFormGroup(dir) {
+        resolvedPromise.then(() => {
+            const container = this._findContainer(dir.path);
+            const group = new FormGroup({});
+            setUpFormContainer(group, dir);
+            container.registerControl(dir.name, group);
+            group.updateValueAndValidity({ emitEvent: false });
+        });
+    }
+    /**
+     * @description
+     * Removes the `NgModelGroup` directive instance from the form.
+     *
+     * @param dir The `NgModelGroup` directive instance.
+     */
+    removeFormGroup(dir) {
+        resolvedPromise.then(() => {
+            const container = this._findContainer(dir.path);
+            if (container) {
+                container.removeControl(dir.name);
+            }
+        });
+    }
+    /**
+     * @description
+     * Retrieves the `FormGroup` for a provided `NgModelGroup` directive instance
+     *
+     * @param dir The `NgModelGroup` directive instance.
+     */
+    getFormGroup(dir) {
+        return this.form.get(dir.path);
+    }
+    /**
+     * Sets the new value for the provided `NgControl` directive.
+     *
+     * @param dir The `NgControl` directive instance.
+     * @param value The new value for the directive's control.
+     */
+    updateModel(dir, value) {
+        resolvedPromise.then(() => {
+            const ctrl = this.form.get(dir.path);
+            ctrl.setValue(value);
+        });
+    }
+    /**
+     * @description
+     * Sets the value for this `FormGroup`.
+     *
+     * @param value The new value
+     */
+    setValue(value) {
+        this.control.setValue(value);
+    }
+    /**
+     * @description
+     * Method called when the "submit" event is triggered on the form.
+     * Triggers the `ngSubmit` emitter to emit the "submit" event as its payload.
+     *
+     * @param $event The "submit" event object
+     */
+    onSubmit($event) {
+        this.submitted = true;
+        syncPendingControls(this.form, this._directives);
+        this.ngSubmit.emit($event);
+        return false;
+    }
+    /**
+     * @description
+     * Method called when the "reset" event is triggered on the form.
+     */
+    onReset() {
+        this.resetForm();
+    }
+    /**
+     * @description
+     * Resets the form to an initial value and resets its submitted status.
+     *
+     * @param value The new value for the form.
+     */
+    resetForm(value = undefined) {
+        this.form.reset(value);
+        this.submitted = false;
+    }
+    _setUpdateStrategy() {
+        if (this.options && this.options.updateOn != null) {
+            this.form._updateOn = this.options.updateOn;
+        }
+    }
+    /** @internal */
+    _findContainer(path) {
+        path.pop();
+        return path.length ? this.form.get(path) : this.form;
+    }
+}
+NgForm.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'form:not([ngNoForm]):not([formGroup]),ng-form,[ngForm]',
+                providers: [formDirectiveProvider],
+                host: { '(submit)': 'onSubmit($event)', '(reset)': 'onReset()' },
+                outputs: ['ngSubmit'],
+                exportAs: 'ngForm'
+            },] }
+];
+NgForm.ctorParameters = () => [
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_ASYNC_VALIDATORS,] }] }
+];
+NgForm.propDecorators = {
+    options: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['ngFormOptions',] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @description
+ * A base class for code shared between the `NgModelGroup` and `FormGroupName` directives.
+ *
+ * @publicApi
+ */
+class AbstractFormGroupDirective extends ControlContainer {
+    /** @nodoc */
+    ngOnInit() {
+        this._checkParentType();
+        // Register the group with its parent group.
+        this.formDirective.addFormGroup(this);
+    }
+    /** @nodoc */
+    ngOnDestroy() {
+        if (this.formDirective) {
+            // Remove the group from its parent group.
+            this.formDirective.removeFormGroup(this);
+        }
+    }
+    /**
+     * @description
+     * The `FormGroup` bound to this directive.
+     */
+    get control() {
+        return this.formDirective.getFormGroup(this);
+    }
+    /**
+     * @description
+     * The path to this group from the top-level directive.
+     */
+    get path() {
+        return controlPath(this.name == null ? this.name : this.name.toString(), this._parent);
+    }
+    /**
+     * @description
+     * The top-level directive for this group if present, otherwise null.
+     */
+    get formDirective() {
+        return this._parent ? this._parent.formDirective : null;
+    }
+    /** @internal */
+    _checkParentType() { }
+}
+AbstractFormGroupDirective.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+class TemplateDrivenErrors {
+    static modelParentException() {
+        throw new Error(`
+      ngModel cannot be used to register form controls with a parent formGroup directive.  Try using
+      formGroup's partner directive "formControlName" instead.  Example:
+
+      ${FormErrorExamples.formControlName}
+
+      Or, if you'd like to avoid registering this form control, indicate that it's standalone in ngModelOptions:
+
+      Example:
+
+      ${FormErrorExamples.ngModelWithFormGroup}`);
+    }
+    static formGroupNameException() {
+        throw new Error(`
+      ngModel cannot be used to register form controls with a parent formGroupName or formArrayName directive.
+
+      Option 1: Use formControlName instead of ngModel (reactive strategy):
+
+      ${FormErrorExamples.formGroupName}
+
+      Option 2:  Update ngModel's parent be ngModelGroup (template-driven strategy):
+
+      ${FormErrorExamples.ngModelGroup}`);
+    }
+    static missingNameException() {
+        throw new Error(`If ngModel is used within a form tag, either the name attribute must be set or the form
+      control must be defined as 'standalone' in ngModelOptions.
+
+      Example 1: <input [(ngModel)]="person.firstName" name="first">
+      Example 2: <input [(ngModel)]="person.firstName" [ngModelOptions]="{standalone: true}">`);
+    }
+    static modelGroupParentException() {
+        throw new Error(`
+      ngModelGroup cannot be used with a parent formGroup directive.
+
+      Option 1: Use formGroupName instead of ngModelGroup (reactive strategy):
+
+      ${FormErrorExamples.formGroupName}
+
+      Option 2:  Use a regular form tag instead of the formGroup directive (template-driven strategy):
+
+      ${FormErrorExamples.ngModelGroup}`);
+    }
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const modelGroupProvider = {
+    provide: ControlContainer,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgModelGroup)
+};
+/**
+ * @description
+ * Creates and binds a `FormGroup` instance to a DOM element.
+ *
+ * This directive can only be used as a child of `NgForm` (within `<form>` tags).
+ *
+ * Use this directive to validate a sub-group of your form separately from the
+ * rest of your form, or if some values in your domain model make more sense
+ * to consume together in a nested object.
+ *
+ * Provide a name for the sub-group and it will become the key
+ * for the sub-group in the form's full value. If you need direct access, export the directive into
+ * a local template variable using `ngModelGroup` (ex: `#myGroup="ngModelGroup"`).
+ *
+ * @usageNotes
+ *
+ * ### Consuming controls in a grouping
+ *
+ * The following example shows you how to combine controls together in a sub-group
+ * of the form.
+ *
+ * {@example forms/ts/ngModelGroup/ng_model_group_example.ts region='Component'}
+ *
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class NgModelGroup extends AbstractFormGroupDirective {
+    constructor(parent, validators, asyncValidators) {
+        super();
+        this._parent = parent;
+        this._setValidators(validators);
+        this._setAsyncValidators(asyncValidators);
+    }
+    /** @internal */
+    _checkParentType() {
+        if (!(this._parent instanceof NgModelGroup) && !(this._parent instanceof NgForm) &&
+            (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            TemplateDrivenErrors.modelGroupParentException();
+        }
+    }
+}
+NgModelGroup.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{ selector: '[ngModelGroup]', providers: [modelGroupProvider], exportAs: 'ngModelGroup' },] }
+];
+NgModelGroup.ctorParameters = () => [
+    { type: ControlContainer, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["SkipSelf"] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_ASYNC_VALIDATORS,] }] }
+];
+NgModelGroup.propDecorators = {
+    name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['ngModelGroup',] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const formControlBinding = {
+    provide: NgControl,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgModel)
+};
+const ɵ0$1 = () => Promise.resolve(null);
+/**
+ * `ngModel` forces an additional change detection run when its inputs change:
+ * E.g.:
+ * ```
+ * <div>{{myModel.valid}}</div>
+ * <input [(ngModel)]="myValue" #myModel="ngModel">
+ * ```
+ * I.e. `ngModel` can export itself on the element and then be used in the template.
+ * Normally, this would result in expressions before the `input` that use the exported directive
+ * to have an old value as they have been
+ * dirty checked before. As this is a very common case for `ngModel`, we added this second change
+ * detection run.
+ *
+ * Notes:
+ * - this is just one extra run no matter how many `ngModel`s have been changed.
+ * - this is a general problem when using `exportAs` for directives!
+ */
+const resolvedPromise$1 = (ɵ0$1)();
+/**
+ * @description
+ * Creates a `FormControl` instance from a domain model and binds it
+ * to a form control element.
+ *
+ * The `FormControl` instance tracks the value, user interaction, and
+ * validation status of the control and keeps the view synced with the model. If used
+ * within a parent form, the directive also registers itself with the form as a child
+ * control.
+ *
+ * This directive is used by itself or as part of a larger form. Use the
+ * `ngModel` selector to activate it.
+ *
+ * It accepts a domain model as an optional `Input`. If you have a one-way binding
+ * to `ngModel` with `[]` syntax, changing the domain model's value in the component
+ * class sets the value in the view. If you have a two-way binding with `[()]` syntax
+ * (also known as 'banana-in-a-box syntax'), the value in the UI always syncs back to
+ * the domain model in your class.
+ *
+ * To inspect the properties of the associated `FormControl` (like the validity state),
+ * export the directive into a local template variable using `ngModel` as the key (ex:
+ * `#myVar="ngModel"`). You can then access the control using the directive's `control` property.
+ * However, the most commonly used properties (like `valid` and `dirty`) also exist on the control
+ * for direct access. See a full list of properties directly available in
+ * `AbstractControlDirective`.
+ *
+ * @see `RadioControlValueAccessor`
+ * @see `SelectControlValueAccessor`
+ *
+ * @usageNotes
+ *
+ * ### Using ngModel on a standalone control
+ *
+ * The following examples show a simple standalone control using `ngModel`:
+ *
+ * {@example forms/ts/simpleNgModel/simple_ng_model_example.ts region='Component'}
+ *
+ * When using the `ngModel` within `<form>` tags, you'll also need to supply a `name` attribute
+ * so that the control can be registered with the parent form under that name.
+ *
+ * In the context of a parent form, it's often unnecessary to include one-way or two-way binding,
+ * as the parent form syncs the value for you. You access its properties by exporting it into a
+ * local template variable using `ngForm` such as (`#f="ngForm"`). Use the variable where
+ * needed on form submission.
+ *
+ * If you do need to populate initial values into your form, using a one-way binding for
+ * `ngModel` tends to be sufficient as long as you use the exported form's value rather
+ * than the domain model's value on submit.
+ *
+ * ### Using ngModel within a form
+ *
+ * The following example shows controls using `ngModel` within a form:
+ *
+ * {@example forms/ts/simpleForm/simple_form_example.ts region='Component'}
+ *
+ * ### Using a standalone ngModel within a group
+ *
+ * The following example shows you how to use a standalone ngModel control
+ * within a form. This controls the display of the form, but doesn't contain form data.
+ *
+ * ```html
+ * <form>
+ *   <input name="login" ngModel placeholder="Login">
+ *   <input type="checkbox" ngModel [ngModelOptions]="{standalone: true}"> Show more options?
+ * </form>
+ * <!-- form value: {login: ''} -->
+ * ```
+ *
+ * ### Setting the ngModel `name` attribute through options
+ *
+ * The following example shows you an alternate way to set the name attribute. Here,
+ * an attribute identified as name is used within a custom form control component. To still be able
+ * to specify the NgModel's name, you must specify it using the `ngModelOptions` input instead.
+ *
+ * ```html
+ * <form>
+ *   <my-custom-form-control name="Nancy" ngModel [ngModelOptions]="{name: 'user'}">
+ *   </my-custom-form-control>
+ * </form>
+ * <!-- form value: {user: ''} -->
+ * ```
+ *
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class NgModel extends NgControl {
+    constructor(parent, validators, asyncValidators, valueAccessors) {
+        super();
+        this.control = new FormControl();
+        /** @internal */
+        this._registered = false;
+        /**
+         * @description
+         * Event emitter for producing the `ngModelChange` event after
+         * the view model updates.
+         */
+        this.update = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this._parent = parent;
+        this._setValidators(validators);
+        this._setAsyncValidators(asyncValidators);
+        this.valueAccessor = selectValueAccessor(this, valueAccessors);
+    }
+    /** @nodoc */
+    ngOnChanges(changes) {
+        this._checkForErrors();
+        if (!this._registered)
+            this._setUpControl();
+        if ('isDisabled' in changes) {
+            this._updateDisabled(changes);
+        }
+        if (isPropertyUpdated(changes, this.viewModel)) {
+            this._updateValue(this.model);
+            this.viewModel = this.model;
+        }
+    }
+    /** @nodoc */
+    ngOnDestroy() {
+        this.formDirective && this.formDirective.removeControl(this);
+    }
+    /**
+     * @description
+     * Returns an array that represents the path from the top-level form to this control.
+     * Each index is the string name of the control on that level.
+     */
+    get path() {
+        return this._parent ? controlPath(this.name, this._parent) : [this.name];
+    }
+    /**
+     * @description
+     * The top-level directive for this control if present, otherwise null.
+     */
+    get formDirective() {
+        return this._parent ? this._parent.formDirective : null;
+    }
+    /**
+     * @description
+     * Sets the new value for the view model and emits an `ngModelChange` event.
+     *
+     * @param newValue The new value emitted by `ngModelChange`.
+     */
+    viewToModelUpdate(newValue) {
+        this.viewModel = newValue;
+        this.update.emit(newValue);
+    }
+    _setUpControl() {
+        this._setUpdateStrategy();
+        this._isStandalone() ? this._setUpStandalone() : this.formDirective.addControl(this);
+        this._registered = true;
+    }
+    _setUpdateStrategy() {
+        if (this.options && this.options.updateOn != null) {
+            this.control._updateOn = this.options.updateOn;
+        }
+    }
+    _isStandalone() {
+        return !this._parent || !!(this.options && this.options.standalone);
+    }
+    _setUpStandalone() {
+        setUpControl(this.control, this);
+        this.control.updateValueAndValidity({ emitEvent: false });
+    }
+    _checkForErrors() {
+        if (!this._isStandalone()) {
+            this._checkParentType();
+        }
+        this._checkName();
+    }
+    _checkParentType() {
+        if (typeof ngDevMode === 'undefined' || ngDevMode) {
+            if (!(this._parent instanceof NgModelGroup) &&
+                this._parent instanceof AbstractFormGroupDirective) {
+                TemplateDrivenErrors.formGroupNameException();
+            }
+            else if (!(this._parent instanceof NgModelGroup) && !(this._parent instanceof NgForm)) {
+                TemplateDrivenErrors.modelParentException();
+            }
+        }
+    }
+    _checkName() {
+        if (this.options && this.options.name)
+            this.name = this.options.name;
+        if (!this._isStandalone() && !this.name && (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            TemplateDrivenErrors.missingNameException();
+        }
+    }
+    _updateValue(value) {
+        resolvedPromise$1.then(() => {
+            this.control.setValue(value, { emitViewToModelChange: false });
+        });
+    }
+    _updateDisabled(changes) {
+        const disabledValue = changes['isDisabled'].currentValue;
+        const isDisabled = disabledValue === '' || (disabledValue && disabledValue !== 'false');
+        resolvedPromise$1.then(() => {
+            if (isDisabled && !this.control.disabled) {
+                this.control.disable();
+            }
+            else if (!isDisabled && this.control.disabled) {
+                this.control.enable();
+            }
+        });
+    }
+}
+NgModel.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: '[ngModel]:not([formControlName]):not([formControl])',
+                providers: [formControlBinding],
+                exportAs: 'ngModel'
+            },] }
+];
+NgModel.ctorParameters = () => [
+    { type: ControlContainer, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_ASYNC_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALUE_ACCESSOR,] }] }
+];
+NgModel.propDecorators = {
+    name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    isDisabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['disabled',] }],
+    model: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['ngModel',] }],
+    options: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['ngModelOptions',] }],
+    update: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"], args: ['ngModelChange',] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @description
+ *
+ * Adds `novalidate` attribute to all forms by default.
+ *
+ * `novalidate` is used to disable browser's native form validation.
+ *
+ * If you want to use native validation with Angular forms, just add `ngNativeValidate` attribute:
+ *
+ * ```
+ * <form ngNativeValidate></form>
+ * ```
+ *
+ * @publicApi
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ */
+class ɵNgNoValidate {
+}
+ɵNgNoValidate.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'form:not([ngNoForm]):not([ngNativeValidate])',
+                host: { 'novalidate': '' },
+            },] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const NUMBER_VALUE_ACCESSOR = {
+    provide: NG_VALUE_ACCESSOR,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NumberValueAccessor),
+    multi: true
+};
+/**
+ * @description
+ * The `ControlValueAccessor` for writing a number value and listening to number input changes.
+ * The value accessor is used by the `FormControlDirective`, `FormControlName`, and `NgModel`
+ * directives.
+ *
+ * @usageNotes
+ *
+ * ### Using a number input with a reactive form.
+ *
+ * The following example shows how to use a number input with a reactive form.
+ *
+ * ```ts
+ * const totalCountControl = new FormControl();
+ * ```
+ *
+ * ```
+ * <input type="number" [formControl]="totalCountControl">
+ * ```
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class NumberValueAccessor extends BuiltInControlValueAccessor {
+    constructor(_renderer, _elementRef) {
+        super();
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        /**
+         * The registered callback function called when a change or input event occurs on the input
+         * element.
+         * @nodoc
+         */
+        this.onChange = (_) => { };
+        /**
+         * The registered callback function called when a blur event occurs on the input element.
+         * @nodoc
+         */
+        this.onTouched = () => { };
+    }
+    /**
+     * Sets the "value" property on the input element.
+     * @nodoc
+     */
+    writeValue(value) {
+        // The value needs to be normalized for IE9, otherwise it is set to 'null' when null
+        const normalizedValue = value == null ? '' : value;
+        this._renderer.setProperty(this._elementRef.nativeElement, 'value', normalizedValue);
+    }
+    /**
+     * Registers a function called when the control value changes.
+     * @nodoc
+     */
+    registerOnChange(fn) {
+        this.onChange = (value) => {
+            fn(value == '' ? null : parseFloat(value));
+        };
+    }
+    /**
+     * Registers a function called when the control is touched.
+     * @nodoc
+     */
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    /**
+     * Sets the "disabled" property on the input element.
+     * @nodoc
+     */
+    setDisabledState(isDisabled) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', isDisabled);
+    }
+}
+NumberValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'input[type=number][formControlName],input[type=number][formControl],input[type=number][ngModel]',
+                host: { '(input)': 'onChange($event.target.value)', '(blur)': 'onTouched()' },
+                providers: [NUMBER_VALUE_ACCESSOR]
+            },] }
+];
+NumberValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const RADIO_VALUE_ACCESSOR = {
+    provide: NG_VALUE_ACCESSOR,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => RadioControlValueAccessor),
+    multi: true
+};
+function throwNameError() {
+    throw new Error(`
+      If you define both a name and a formControlName attribute on your radio button, their values
+      must match. Ex: <input type="radio" formControlName="food" name="food">
+    `);
+}
+/**
+ * Internal-only NgModule that works as a host for the `RadioControlRegistry` tree-shakable
+ * provider. Note: the `InternalFormsSharedModule` can not be used here directly, since it's
+ * declared *after* the `RadioControlRegistry` class and the `providedIn` doesn't support
+ * `forwardRef` logic.
+ */
+class RadioControlRegistryModule {
+}
+RadioControlRegistryModule.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"] }
+];
+/**
+ * @description
+ * Class used by Angular to track radio buttons. For internal use only.
+ */
+class RadioControlRegistry {
+    constructor() {
+        this._accessors = [];
+    }
+    /**
+     * @description
+     * Adds a control to the internal registry. For internal use only.
+     */
+    add(control, accessor) {
+        this._accessors.push([control, accessor]);
+    }
+    /**
+     * @description
+     * Removes a control from the internal registry. For internal use only.
+     */
+    remove(accessor) {
+        for (let i = this._accessors.length - 1; i >= 0; --i) {
+            if (this._accessors[i][1] === accessor) {
+                this._accessors.splice(i, 1);
+                return;
+            }
+        }
+    }
+    /**
+     * @description
+     * Selects a radio button. For internal use only.
+     */
+    select(accessor) {
+        this._accessors.forEach((c) => {
+            if (this._isSameGroup(c, accessor) && c[1] !== accessor) {
+                c[1].fireUncheck(accessor.value);
+            }
+        });
+    }
+    _isSameGroup(controlPair, accessor) {
+        if (!controlPair[0].control)
+            return false;
+        return controlPair[0]._parent === accessor._control._parent &&
+            controlPair[1].name === accessor.name;
+    }
+}
+RadioControlRegistry.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function RadioControlRegistry_Factory() { return new RadioControlRegistry(); }, token: RadioControlRegistry, providedIn: RadioControlRegistryModule });
+RadioControlRegistry.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"], args: [{ providedIn: RadioControlRegistryModule },] }
+];
+/**
+ * @description
+ * The `ControlValueAccessor` for writing radio control values and listening to radio control
+ * changes. The value accessor is used by the `FormControlDirective`, `FormControlName`, and
+ * `NgModel` directives.
+ *
+ * @usageNotes
+ *
+ * ### Using radio buttons with reactive form directives
+ *
+ * The follow example shows how to use radio buttons in a reactive form. When using radio buttons in
+ * a reactive form, radio buttons in the same group should have the same `formControlName`.
+ * Providing a `name` attribute is optional.
+ *
+ * {@example forms/ts/reactiveRadioButtons/reactive_radio_button_example.ts region='Reactive'}
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class RadioControlValueAccessor extends BuiltInControlValueAccessor {
+    constructor(_renderer, _elementRef, _registry, _injector) {
+        super();
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        this._registry = _registry;
+        this._injector = _injector;
+        /**
+         * The registered callback function called when a change event occurs on the input element.
+         * @nodoc
+         */
+        this.onChange = () => { };
+        /**
+         * The registered callback function called when a blur event occurs on the input element.
+         * @nodoc
+         */
+        this.onTouched = () => { };
+    }
+    /** @nodoc */
+    ngOnInit() {
+        this._control = this._injector.get(NgControl);
+        this._checkName();
+        this._registry.add(this._control, this);
+    }
+    /** @nodoc */
+    ngOnDestroy() {
+        this._registry.remove(this);
+    }
+    /**
+     * Sets the "checked" property value on the radio input element.
+     * @nodoc
+     */
+    writeValue(value) {
+        this._state = value === this.value;
+        this._renderer.setProperty(this._elementRef.nativeElement, 'checked', this._state);
+    }
+    /**
+     * Registers a function called when the control value changes.
+     * @nodoc
+     */
+    registerOnChange(fn) {
+        this._fn = fn;
+        this.onChange = () => {
+            fn(this.value);
+            this._registry.select(this);
+        };
+    }
+    /**
+     * Sets the "value" on the radio input element and unchecks it.
+     *
+     * @param value
+     */
+    fireUncheck(value) {
+        this.writeValue(value);
+    }
+    /**
+     * Registers a function called when the control is touched.
+     * @nodoc
+     */
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    /**
+     * Sets the "disabled" property on the input element.
+     * @nodoc
+     */
+    setDisabledState(isDisabled) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', isDisabled);
+    }
+    _checkName() {
+        if (this.name && this.formControlName && this.name !== this.formControlName &&
+            (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            throwNameError();
+        }
+        if (!this.name && this.formControlName)
+            this.name = this.formControlName;
+    }
+}
+RadioControlValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'input[type=radio][formControlName],input[type=radio][formControl],input[type=radio][ngModel]',
+                host: { '(change)': 'onChange()', '(blur)': 'onTouched()' },
+                providers: [RADIO_VALUE_ACCESSOR]
+            },] }
+];
+RadioControlValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: RadioControlRegistry },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"] }
+];
+RadioControlValueAccessor.propDecorators = {
+    name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    formControlName: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    value: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const RANGE_VALUE_ACCESSOR = {
+    provide: NG_VALUE_ACCESSOR,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => RangeValueAccessor),
+    multi: true
+};
+/**
+ * @description
+ * The `ControlValueAccessor` for writing a range value and listening to range input changes.
+ * The value accessor is used by the `FormControlDirective`, `FormControlName`, and  `NgModel`
+ * directives.
+ *
+ * @usageNotes
+ *
+ * ### Using a range input with a reactive form
+ *
+ * The following example shows how to use a range input with a reactive form.
+ *
+ * ```ts
+ * const ageControl = new FormControl();
+ * ```
+ *
+ * ```
+ * <input type="range" [formControl]="ageControl">
+ * ```
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class RangeValueAccessor extends BuiltInControlValueAccessor {
+    constructor(_renderer, _elementRef) {
+        super();
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        /**
+         * The registered callback function called when a change or input event occurs on the input
+         * element.
+         * @nodoc
+         */
+        this.onChange = (_) => { };
+        /**
+         * The registered callback function called when a blur event occurs on the input element.
+         * @nodoc
+         */
+        this.onTouched = () => { };
+    }
+    /**
+     * Sets the "value" property on the input element.
+     * @nodoc
+     */
+    writeValue(value) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'value', parseFloat(value));
+    }
+    /**
+     * Registers a function called when the control value changes.
+     * @nodoc
+     */
+    registerOnChange(fn) {
+        this.onChange = (value) => {
+            fn(value == '' ? null : parseFloat(value));
+        };
+    }
+    /**
+     * Registers a function called when the control is touched.
+     * @nodoc
+     */
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    /**
+     * Sets the "disabled" property on the range input element.
+     * @nodoc
+     */
+    setDisabledState(isDisabled) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', isDisabled);
+    }
+}
+RangeValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'input[type=range][formControlName],input[type=range][formControl],input[type=range][ngModel]',
+                host: {
+                    '(change)': 'onChange($event.target.value)',
+                    '(input)': 'onChange($event.target.value)',
+                    '(blur)': 'onTouched()'
+                },
+                providers: [RANGE_VALUE_ACCESSOR]
+            },] }
+];
+RangeValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Token to provide to turn off the ngModel warning on formControl and formControlName.
+ */
+const NG_MODEL_WITH_FORM_CONTROL_WARNING = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('NgModelWithFormControlWarning');
+const formControlBinding$1 = {
+    provide: NgControl,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => FormControlDirective)
+};
+/**
+ * @description
+ * Synchronizes a standalone `FormControl` instance to a form control element.
+ *
+ * Note that support for using the `ngModel` input property and `ngModelChange` event with reactive
+ * form directives was deprecated in Angular v6 and is scheduled for removal in
+ * a future version of Angular.
+ * For details, see [Deprecated features](guide/deprecations#ngmodel-with-reactive-forms).
+ *
+ * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see `FormControl`
+ * @see `AbstractControl`
+ *
+ * @usageNotes
+ *
+ * The following example shows how to register a standalone control and set its value.
+ *
+ * {@example forms/ts/simpleFormControl/simple_form_control_example.ts region='Component'}
+ *
+ * @ngModule ReactiveFormsModule
+ * @publicApi
+ */
+class FormControlDirective extends NgControl {
+    constructor(validators, asyncValidators, valueAccessors, _ngModelWarningConfig) {
+        super();
+        this._ngModelWarningConfig = _ngModelWarningConfig;
+        /** @deprecated as of v6 */
+        this.update = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        /**
+         * @description
+         * Instance property used to track whether an ngModel warning has been sent out for this
+         * particular `FormControlDirective` instance. Used to support warning config of "always".
+         *
+         * @internal
+         */
+        this._ngModelWarningSent = false;
+        this._setValidators(validators);
+        this._setAsyncValidators(asyncValidators);
+        this.valueAccessor = selectValueAccessor(this, valueAccessors);
+    }
+    /**
+     * @description
+     * Triggers a warning in dev mode that this input should not be used with reactive forms.
+     */
+    set isDisabled(isDisabled) {
+        if (typeof ngDevMode === 'undefined' || ngDevMode) {
+            ReactiveErrors.disabledAttrWarning();
+        }
+    }
+    /** @nodoc */
+    ngOnChanges(changes) {
+        if (this._isControlChanged(changes)) {
+            const previousForm = changes['form'].previousValue;
+            if (previousForm) {
+                cleanUpControl(previousForm, this, /* validateControlPresenceOnChange */ false);
+            }
+            setUpControl(this.form, this);
+            if (this.control.disabled && this.valueAccessor.setDisabledState) {
+                this.valueAccessor.setDisabledState(true);
+            }
+            this.form.updateValueAndValidity({ emitEvent: false });
+        }
+        if (isPropertyUpdated(changes, this.viewModel)) {
+            if (typeof ngDevMode === 'undefined' || ngDevMode) {
+                _ngModelWarning('formControl', FormControlDirective, this, this._ngModelWarningConfig);
+            }
+            this.form.setValue(this.model);
+            this.viewModel = this.model;
+        }
+    }
+    /** @nodoc */
+    ngOnDestroy() {
+        if (this.form) {
+            cleanUpControl(this.form, this, /* validateControlPresenceOnChange */ false);
+        }
+    }
+    /**
+     * @description
+     * Returns an array that represents the path from the top-level form to this control.
+     * Each index is the string name of the control on that level.
+     */
+    get path() {
+        return [];
+    }
+    /**
+     * @description
+     * The `FormControl` bound to this directive.
+     */
+    get control() {
+        return this.form;
+    }
+    /**
+     * @description
+     * Sets the new value for the view model and emits an `ngModelChange` event.
+     *
+     * @param newValue The new value for the view model.
+     */
+    viewToModelUpdate(newValue) {
+        this.viewModel = newValue;
+        this.update.emit(newValue);
+    }
+    _isControlChanged(changes) {
+        return changes.hasOwnProperty('form');
+    }
+}
+/**
+ * @description
+ * Static property used to track whether any ngModel warnings have been sent across
+ * all instances of FormControlDirective. Used to support warning config of "once".
+ *
+ * @internal
+ */
+FormControlDirective._ngModelWarningSentOnce = false;
+FormControlDirective.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{ selector: '[formControl]', providers: [formControlBinding$1], exportAs: 'ngForm' },] }
+];
+FormControlDirective.ctorParameters = () => [
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_ASYNC_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALUE_ACCESSOR,] }] },
+    { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_MODEL_WITH_FORM_CONTROL_WARNING,] }] }
+];
+FormControlDirective.propDecorators = {
+    form: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['formControl',] }],
+    isDisabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['disabled',] }],
+    model: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['ngModel',] }],
+    update: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"], args: ['ngModelChange',] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const formDirectiveProvider$1 = {
+    provide: ControlContainer,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => FormGroupDirective)
+};
+/**
+ * @description
+ *
+ * Binds an existing `FormGroup` to a DOM element.
+ *
+ * This directive accepts an existing `FormGroup` instance. It will then use this
+ * `FormGroup` instance to match any child `FormControl`, `FormGroup`,
+ * and `FormArray` instances to child `FormControlName`, `FormGroupName`,
+ * and `FormArrayName` directives.
+ *
+ * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see `AbstractControl`
+ *
+ * @usageNotes
+ * ### Register Form Group
+ *
+ * The following example registers a `FormGroup` with first name and last name controls,
+ * and listens for the *ngSubmit* event when the button is clicked.
+ *
+ * {@example forms/ts/simpleFormGroup/simple_form_group_example.ts region='Component'}
+ *
+ * @ngModule ReactiveFormsModule
+ * @publicApi
+ */
+class FormGroupDirective extends ControlContainer {
+    constructor(validators, asyncValidators) {
+        super();
+        this.validators = validators;
+        this.asyncValidators = asyncValidators;
+        /**
+         * @description
+         * Reports whether the form submission has been triggered.
+         */
+        this.submitted = false;
+        /**
+         * Callback that should be invoked when controls in FormGroup or FormArray collection change
+         * (added or removed). This callback triggers corresponding DOM updates.
+         */
+        this._onCollectionChange = () => this._updateDomValue();
+        /**
+         * @description
+         * Tracks the list of added `FormControlName` instances
+         */
+        this.directives = [];
+        /**
+         * @description
+         * Tracks the `FormGroup` bound to this directive.
+         */
+        this.form = null;
+        /**
+         * @description
+         * Emits an event when the form submission has been triggered.
+         */
+        this.ngSubmit = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this._setValidators(validators);
+        this._setAsyncValidators(asyncValidators);
+    }
+    /** @nodoc */
+    ngOnChanges(changes) {
+        this._checkFormPresent();
+        if (changes.hasOwnProperty('form')) {
+            this._updateValidators();
+            this._updateDomValue();
+            this._updateRegistrations();
+            this._oldForm = this.form;
+        }
+    }
+    /** @nodoc */
+    ngOnDestroy() {
+        if (this.form) {
+            cleanUpValidators(this.form, this, /* handleOnValidatorChange */ false);
+            // Currently the `onCollectionChange` callback is rewritten each time the
+            // `_registerOnCollectionChange` function is invoked. The implication is that cleanup should
+            // happen *only* when the `onCollectionChange` callback was set by this directive instance.
+            // Otherwise it might cause overriding a callback of some other directive instances. We should
+            // consider updating this logic later to make it similar to how `onChange` callbacks are
+            // handled, see https://github.com/angular/angular/issues/39732 for additional info.
+            if (this.form._onCollectionChange === this._onCollectionChange) {
+                this.form._registerOnCollectionChange(() => { });
+            }
+        }
+    }
+    /**
+     * @description
+     * Returns this directive's instance.
+     */
+    get formDirective() {
+        return this;
+    }
+    /**
+     * @description
+     * Returns the `FormGroup` bound to this directive.
+     */
+    get control() {
+        return this.form;
+    }
+    /**
+     * @description
+     * Returns an array representing the path to this group. Because this directive
+     * always lives at the top level of a form, it always an empty array.
+     */
+    get path() {
+        return [];
+    }
+    /**
+     * @description
+     * Method that sets up the control directive in this group, re-calculates its value
+     * and validity, and adds the instance to the internal list of directives.
+     *
+     * @param dir The `FormControlName` directive instance.
+     */
+    addControl(dir) {
+        const ctrl = this.form.get(dir.path);
+        setUpControl(ctrl, dir);
+        ctrl.updateValueAndValidity({ emitEvent: false });
+        this.directives.push(dir);
+        return ctrl;
+    }
+    /**
+     * @description
+     * Retrieves the `FormControl` instance from the provided `FormControlName` directive
+     *
+     * @param dir The `FormControlName` directive instance.
+     */
+    getControl(dir) {
+        return this.form.get(dir.path);
+    }
+    /**
+     * @description
+     * Removes the `FormControlName` instance from the internal list of directives
+     *
+     * @param dir The `FormControlName` directive instance.
+     */
+    removeControl(dir) {
+        cleanUpControl(dir.control || null, dir, /* validateControlPresenceOnChange */ false);
+        removeListItem(this.directives, dir);
+    }
+    /**
+     * Adds a new `FormGroupName` directive instance to the form.
+     *
+     * @param dir The `FormGroupName` directive instance.
+     */
+    addFormGroup(dir) {
+        this._setUpFormContainer(dir);
+    }
+    /**
+     * Performs the necessary cleanup when a `FormGroupName` directive instance is removed from the
+     * view.
+     *
+     * @param dir The `FormGroupName` directive instance.
+     */
+    removeFormGroup(dir) {
+        this._cleanUpFormContainer(dir);
+    }
+    /**
+     * @description
+     * Retrieves the `FormGroup` for a provided `FormGroupName` directive instance
+     *
+     * @param dir The `FormGroupName` directive instance.
+     */
+    getFormGroup(dir) {
+        return this.form.get(dir.path);
+    }
+    /**
+     * Performs the necessary setup when a `FormArrayName` directive instance is added to the view.
+     *
+     * @param dir The `FormArrayName` directive instance.
+     */
+    addFormArray(dir) {
+        this._setUpFormContainer(dir);
+    }
+    /**
+     * Performs the necessary cleanup when a `FormArrayName` directive instance is removed from the
+     * view.
+     *
+     * @param dir The `FormArrayName` directive instance.
+     */
+    removeFormArray(dir) {
+        this._cleanUpFormContainer(dir);
+    }
+    /**
+     * @description
+     * Retrieves the `FormArray` for a provided `FormArrayName` directive instance.
+     *
+     * @param dir The `FormArrayName` directive instance.
+     */
+    getFormArray(dir) {
+        return this.form.get(dir.path);
+    }
+    /**
+     * Sets the new value for the provided `FormControlName` directive.
+     *
+     * @param dir The `FormControlName` directive instance.
+     * @param value The new value for the directive's control.
+     */
+    updateModel(dir, value) {
+        const ctrl = this.form.get(dir.path);
+        ctrl.setValue(value);
+    }
+    /**
+     * @description
+     * Method called with the "submit" event is triggered on the form.
+     * Triggers the `ngSubmit` emitter to emit the "submit" event as its payload.
+     *
+     * @param $event The "submit" event object
+     */
+    onSubmit($event) {
+        this.submitted = true;
+        syncPendingControls(this.form, this.directives);
+        this.ngSubmit.emit($event);
+        return false;
+    }
+    /**
+     * @description
+     * Method called when the "reset" event is triggered on the form.
+     */
+    onReset() {
+        this.resetForm();
+    }
+    /**
+     * @description
+     * Resets the form to an initial value and resets its submitted status.
+     *
+     * @param value The new value for the form.
+     */
+    resetForm(value = undefined) {
+        this.form.reset(value);
+        this.submitted = false;
+    }
+    /** @internal */
+    _updateDomValue() {
+        this.directives.forEach(dir => {
+            const oldCtrl = dir.control;
+            const newCtrl = this.form.get(dir.path);
+            if (oldCtrl !== newCtrl) {
+                // Note: the value of the `dir.control` may not be defined, for example when it's a first
+                // `FormControl` that is added to a `FormGroup` instance (via `addControl` call).
+                cleanUpControl(oldCtrl || null, dir);
+                // Check whether new control at the same location inside the corresponding `FormGroup` is an
+                // instance of `FormControl` and perform control setup only if that's the case.
+                // Note: we don't need to clear the list of directives (`this.directives`) here, it would be
+                // taken care of in the `removeControl` method invoked when corresponding `formControlName`
+                // directive instance is being removed (invoked from `FormControlName.ngOnDestroy`).
+                if (newCtrl instanceof FormControl) {
+                    setUpControl(newCtrl, dir);
+                    dir.control = newCtrl;
+                }
+            }
+        });
+        this.form._updateTreeValidity({ emitEvent: false });
+    }
+    _setUpFormContainer(dir) {
+        const ctrl = this.form.get(dir.path);
+        setUpFormContainer(ctrl, dir);
+        // NOTE: this operation looks unnecessary in case no new validators were added in
+        // `setUpFormContainer` call. Consider updating this code to match the logic in
+        // `_cleanUpFormContainer` function.
+        ctrl.updateValueAndValidity({ emitEvent: false });
+    }
+    _cleanUpFormContainer(dir) {
+        if (this.form) {
+            const ctrl = this.form.get(dir.path);
+            if (ctrl) {
+                const isControlUpdated = cleanUpFormContainer(ctrl, dir);
+                if (isControlUpdated) {
+                    // Run validity check only in case a control was updated (i.e. view validators were
+                    // removed) as removing view validators might cause validity to change.
+                    ctrl.updateValueAndValidity({ emitEvent: false });
+                }
+            }
+        }
+    }
+    _updateRegistrations() {
+        this.form._registerOnCollectionChange(this._onCollectionChange);
+        if (this._oldForm) {
+            this._oldForm._registerOnCollectionChange(() => { });
+        }
+    }
+    _updateValidators() {
+        setUpValidators(this.form, this, /* handleOnValidatorChange */ false);
+        if (this._oldForm) {
+            cleanUpValidators(this._oldForm, this, /* handleOnValidatorChange */ false);
+        }
+    }
+    _checkFormPresent() {
+        if (!this.form && (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            ReactiveErrors.missingFormException();
+        }
+    }
+}
+FormGroupDirective.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: '[formGroup]',
+                providers: [formDirectiveProvider$1],
+                host: { '(submit)': 'onSubmit($event)', '(reset)': 'onReset()' },
+                exportAs: 'ngForm'
+            },] }
+];
+FormGroupDirective.ctorParameters = () => [
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_ASYNC_VALIDATORS,] }] }
+];
+FormGroupDirective.propDecorators = {
+    form: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['formGroup',] }],
+    ngSubmit: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const formGroupNameProvider = {
+    provide: ControlContainer,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => FormGroupName)
+};
+/**
+ * @description
+ *
+ * Syncs a nested `FormGroup` to a DOM element.
+ *
+ * This directive can only be used with a parent `FormGroupDirective`.
+ *
+ * It accepts the string name of the nested `FormGroup` to link, and
+ * looks for a `FormGroup` registered with that name in the parent
+ * `FormGroup` instance you passed into `FormGroupDirective`.
+ *
+ * Use nested form groups to validate a sub-group of a
+ * form separately from the rest or to group the values of certain
+ * controls into their own nested object.
+ *
+ * @see [Reactive Forms Guide](guide/reactive-forms)
+ *
+ * @usageNotes
+ *
+ * ### Access the group by name
+ *
+ * The following example uses the {@link AbstractControl#get get} method to access the
+ * associated `FormGroup`
+ *
+ * ```ts
+ *   this.form.get('name');
+ * ```
+ *
+ * ### Access individual controls in the group
+ *
+ * The following example uses the {@link AbstractControl#get get} method to access
+ * individual controls within the group using dot syntax.
+ *
+ * ```ts
+ *   this.form.get('name.first');
+ * ```
+ *
+ * ### Register a nested `FormGroup`.
+ *
+ * The following example registers a nested *name* `FormGroup` within an existing `FormGroup`,
+ * and provides methods to retrieve the nested `FormGroup` and individual controls.
+ *
+ * {@example forms/ts/nestedFormGroup/nested_form_group_example.ts region='Component'}
+ *
+ * @ngModule ReactiveFormsModule
+ * @publicApi
+ */
+class FormGroupName extends AbstractFormGroupDirective {
+    constructor(parent, validators, asyncValidators) {
+        super();
+        this._parent = parent;
+        this._setValidators(validators);
+        this._setAsyncValidators(asyncValidators);
+    }
+    /** @internal */
+    _checkParentType() {
+        if (_hasInvalidParent(this._parent) && (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            ReactiveErrors.groupParentException();
+        }
+    }
+}
+FormGroupName.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{ selector: '[formGroupName]', providers: [formGroupNameProvider] },] }
+];
+FormGroupName.ctorParameters = () => [
+    { type: ControlContainer, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["SkipSelf"] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_ASYNC_VALIDATORS,] }] }
+];
+FormGroupName.propDecorators = {
+    name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['formGroupName',] }]
+};
+const formArrayNameProvider = {
+    provide: ControlContainer,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => FormArrayName)
+};
+/**
+ * @description
+ *
+ * Syncs a nested `FormArray` to a DOM element.
+ *
+ * This directive is designed to be used with a parent `FormGroupDirective` (selector:
+ * `[formGroup]`).
+ *
+ * It accepts the string name of the nested `FormArray` you want to link, and
+ * will look for a `FormArray` registered with that name in the parent
+ * `FormGroup` instance you passed into `FormGroupDirective`.
+ *
+ * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see `AbstractControl`
+ *
+ * @usageNotes
+ *
+ * ### Example
+ *
+ * {@example forms/ts/nestedFormArray/nested_form_array_example.ts region='Component'}
+ *
+ * @ngModule ReactiveFormsModule
+ * @publicApi
+ */
+class FormArrayName extends ControlContainer {
+    constructor(parent, validators, asyncValidators) {
+        super();
+        this._parent = parent;
+        this._setValidators(validators);
+        this._setAsyncValidators(asyncValidators);
+    }
+    /**
+     * A lifecycle method called when the directive's inputs are initialized. For internal use only.
+     * @throws If the directive does not have a valid parent.
+     * @nodoc
+     */
+    ngOnInit() {
+        this._checkParentType();
+        this.formDirective.addFormArray(this);
+    }
+    /**
+     * A lifecycle method called before the directive's instance is destroyed. For internal use only.
+     * @nodoc
+     */
+    ngOnDestroy() {
+        if (this.formDirective) {
+            this.formDirective.removeFormArray(this);
+        }
+    }
+    /**
+     * @description
+     * The `FormArray` bound to this directive.
+     */
+    get control() {
+        return this.formDirective.getFormArray(this);
+    }
+    /**
+     * @description
+     * The top-level directive for this group if present, otherwise null.
+     */
+    get formDirective() {
+        return this._parent ? this._parent.formDirective : null;
+    }
+    /**
+     * @description
+     * Returns an array that represents the path from the top-level form to this control.
+     * Each index is the string name of the control on that level.
+     */
+    get path() {
+        return controlPath(this.name == null ? this.name : this.name.toString(), this._parent);
+    }
+    _checkParentType() {
+        if (_hasInvalidParent(this._parent) && (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            ReactiveErrors.arrayParentException();
+        }
+    }
+}
+FormArrayName.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{ selector: '[formArrayName]', providers: [formArrayNameProvider] },] }
+];
+FormArrayName.ctorParameters = () => [
+    { type: ControlContainer, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["SkipSelf"] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_ASYNC_VALIDATORS,] }] }
+];
+FormArrayName.propDecorators = {
+    name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['formArrayName',] }]
+};
+function _hasInvalidParent(parent) {
+    return !(parent instanceof FormGroupName) && !(parent instanceof FormGroupDirective) &&
+        !(parent instanceof FormArrayName);
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const controlNameBinding = {
+    provide: NgControl,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => FormControlName)
+};
+/**
+ * @description
+ * Syncs a `FormControl` in an existing `FormGroup` to a form control
+ * element by name.
+ *
+ * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see `FormControl`
+ * @see `AbstractControl`
+ *
+ * @usageNotes
+ *
+ * ### Register `FormControl` within a group
+ *
+ * The following example shows how to register multiple form controls within a form group
+ * and set their value.
+ *
+ * {@example forms/ts/simpleFormGroup/simple_form_group_example.ts region='Component'}
+ *
+ * To see `formControlName` examples with different form control types, see:
+ *
+ * * Radio buttons: `RadioControlValueAccessor`
+ * * Selects: `SelectControlValueAccessor`
+ *
+ * ### Use with ngModel is deprecated
+ *
+ * Support for using the `ngModel` input property and `ngModelChange` event with reactive
+ * form directives has been deprecated in Angular v6 and is scheduled for removal in
+ * a future version of Angular.
+ *
+ * For details, see [Deprecated features](guide/deprecations#ngmodel-with-reactive-forms).
+ *
+ * @ngModule ReactiveFormsModule
+ * @publicApi
+ */
+class FormControlName extends NgControl {
+    constructor(parent, validators, asyncValidators, valueAccessors, _ngModelWarningConfig) {
+        super();
+        this._ngModelWarningConfig = _ngModelWarningConfig;
+        this._added = false;
+        /** @deprecated as of v6 */
+        this.update = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        /**
+         * @description
+         * Instance property used to track whether an ngModel warning has been sent out for this
+         * particular FormControlName instance. Used to support warning config of "always".
+         *
+         * @internal
+         */
+        this._ngModelWarningSent = false;
+        this._parent = parent;
+        this._setValidators(validators);
+        this._setAsyncValidators(asyncValidators);
+        this.valueAccessor = selectValueAccessor(this, valueAccessors);
+    }
+    /**
+     * @description
+     * Triggers a warning in dev mode that this input should not be used with reactive forms.
+     */
+    set isDisabled(isDisabled) {
+        if (typeof ngDevMode === 'undefined' || ngDevMode) {
+            ReactiveErrors.disabledAttrWarning();
+        }
+    }
+    /** @nodoc */
+    ngOnChanges(changes) {
+        if (!this._added)
+            this._setUpControl();
+        if (isPropertyUpdated(changes, this.viewModel)) {
+            if (typeof ngDevMode === 'undefined' || ngDevMode) {
+                _ngModelWarning('formControlName', FormControlName, this, this._ngModelWarningConfig);
+            }
+            this.viewModel = this.model;
+            this.formDirective.updateModel(this, this.model);
+        }
+    }
+    /** @nodoc */
+    ngOnDestroy() {
+        if (this.formDirective) {
+            this.formDirective.removeControl(this);
+        }
+    }
+    /**
+     * @description
+     * Sets the new value for the view model and emits an `ngModelChange` event.
+     *
+     * @param newValue The new value for the view model.
+     */
+    viewToModelUpdate(newValue) {
+        this.viewModel = newValue;
+        this.update.emit(newValue);
+    }
+    /**
+     * @description
+     * Returns an array that represents the path from the top-level form to this control.
+     * Each index is the string name of the control on that level.
+     */
+    get path() {
+        return controlPath(this.name == null ? this.name : this.name.toString(), this._parent);
+    }
+    /**
+     * @description
+     * The top-level directive for this group if present, otherwise null.
+     */
+    get formDirective() {
+        return this._parent ? this._parent.formDirective : null;
+    }
+    _checkParentType() {
+        if (typeof ngDevMode === 'undefined' || ngDevMode) {
+            if (!(this._parent instanceof FormGroupName) &&
+                this._parent instanceof AbstractFormGroupDirective) {
+                ReactiveErrors.ngModelGroupException();
+            }
+            else if (!(this._parent instanceof FormGroupName) &&
+                !(this._parent instanceof FormGroupDirective) &&
+                !(this._parent instanceof FormArrayName)) {
+                ReactiveErrors.controlParentException();
+            }
+        }
+    }
+    _setUpControl() {
+        this._checkParentType();
+        this.control = this.formDirective.addControl(this);
+        if (this.control.disabled && this.valueAccessor.setDisabledState) {
+            this.valueAccessor.setDisabledState(true);
+        }
+        this._added = true;
+    }
+}
+/**
+ * @description
+ * Static property used to track whether any ngModel warnings have been sent across
+ * all instances of FormControlName. Used to support warning config of "once".
+ *
+ * @internal
+ */
+FormControlName._ngModelWarningSentOnce = false;
+FormControlName.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{ selector: '[formControlName]', providers: [controlNameBinding] },] }
+];
+FormControlName.ctorParameters = () => [
+    { type: ControlContainer, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["SkipSelf"] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_ASYNC_VALIDATORS,] }] },
+    { type: Array, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_VALUE_ACCESSOR,] }] },
+    { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [NG_MODEL_WITH_FORM_CONTROL_WARNING,] }] }
+];
+FormControlName.propDecorators = {
+    name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['formControlName',] }],
+    isDisabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['disabled',] }],
+    model: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['ngModel',] }],
+    update: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"], args: ['ngModelChange',] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const SELECT_VALUE_ACCESSOR = {
+    provide: NG_VALUE_ACCESSOR,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => SelectControlValueAccessor),
+    multi: true
+};
+function _buildValueString(id, value) {
+    if (id == null)
+        return `${value}`;
+    if (value && typeof value === 'object')
+        value = 'Object';
+    return `${id}: ${value}`.slice(0, 50);
+}
+function _extractId(valueString) {
+    return valueString.split(':')[0];
+}
+/**
+ * @description
+ * The `ControlValueAccessor` for writing select control values and listening to select control
+ * changes. The value accessor is used by the `FormControlDirective`, `FormControlName`, and
+ * `NgModel` directives.
+ *
+ * @usageNotes
+ *
+ * ### Using select controls in a reactive form
+ *
+ * The following examples show how to use a select control in a reactive form.
+ *
+ * {@example forms/ts/reactiveSelectControl/reactive_select_control_example.ts region='Component'}
+ *
+ * ### Using select controls in a template-driven form
+ *
+ * To use a select in a template-driven form, simply add an `ngModel` and a `name`
+ * attribute to the main `<select>` tag.
+ *
+ * {@example forms/ts/selectControl/select_control_example.ts region='Component'}
+ *
+ * ### Customizing option selection
+ *
+ * Angular uses object identity to select option. It's possible for the identities of items
+ * to change while the data does not. This can happen, for example, if the items are produced
+ * from an RPC to the server, and that RPC is re-run. Even if the data hasn't changed, the
+ * second response will produce objects with different identities.
+ *
+ * To customize the default option comparison algorithm, `<select>` supports `compareWith` input.
+ * `compareWith` takes a **function** which has two arguments: `option1` and `option2`.
+ * If `compareWith` is given, Angular selects option by the return value of the function.
+ *
+ * ```ts
+ * const selectedCountriesControl = new FormControl();
+ * ```
+ *
+ * ```
+ * <select [compareWith]="compareFn"  [formControl]="selectedCountriesControl">
+ *     <option *ngFor="let country of countries" [ngValue]="country">
+ *         {{country.name}}
+ *     </option>
+ * </select>
+ *
+ * compareFn(c1: Country, c2: Country): boolean {
+ *     return c1 && c2 ? c1.id === c2.id : c1 === c2;
+ * }
+ * ```
+ *
+ * **Note:** We listen to the 'change' event because 'input' events aren't fired
+ * for selects in IE, see:
+ * https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event#browser_compatibility
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class SelectControlValueAccessor extends BuiltInControlValueAccessor {
+    constructor(_renderer, _elementRef) {
+        super();
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        /** @internal */
+        this._optionMap = new Map();
+        /** @internal */
+        this._idCounter = 0;
+        /**
+         * The registered callback function called when a change event occurs on the input element.
+         * @nodoc
+         */
+        this.onChange = (_) => { };
+        /**
+         * The registered callback function called when a blur event occurs on the input element.
+         * @nodoc
+         */
+        this.onTouched = () => { };
+        this._compareWith = Object.is;
+    }
+    /**
+     * @description
+     * Tracks the option comparison algorithm for tracking identities when
+     * checking for changes.
+     */
+    set compareWith(fn) {
+        if (typeof fn !== 'function' && (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            throw new Error(`compareWith must be a function, but received ${JSON.stringify(fn)}`);
+        }
+        this._compareWith = fn;
+    }
+    /**
+     * Sets the "value" property on the input element. The "selectedIndex"
+     * property is also set if an ID is provided on the option element.
+     * @nodoc
+     */
+    writeValue(value) {
+        this.value = value;
+        const id = this._getOptionId(value);
+        if (id == null) {
+            this._renderer.setProperty(this._elementRef.nativeElement, 'selectedIndex', -1);
+        }
+        const valueString = _buildValueString(id, value);
+        this._renderer.setProperty(this._elementRef.nativeElement, 'value', valueString);
+    }
+    /**
+     * Registers a function called when the control value changes.
+     * @nodoc
+     */
+    registerOnChange(fn) {
+        this.onChange = (valueString) => {
+            this.value = this._getOptionValue(valueString);
+            fn(this.value);
+        };
+    }
+    /**
+     * Registers a function called when the control is touched.
+     * @nodoc
+     */
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    /**
+     * Sets the "disabled" property on the select input element.
+     * @nodoc
+     */
+    setDisabledState(isDisabled) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', isDisabled);
+    }
+    /** @internal */
+    _registerOption() {
+        return (this._idCounter++).toString();
+    }
+    /** @internal */
+    _getOptionId(value) {
+        for (const id of Array.from(this._optionMap.keys())) {
+            if (this._compareWith(this._optionMap.get(id), value))
+                return id;
+        }
+        return null;
+    }
+    /** @internal */
+    _getOptionValue(valueString) {
+        const id = _extractId(valueString);
+        return this._optionMap.has(id) ? this._optionMap.get(id) : valueString;
+    }
+}
+SelectControlValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'select:not([multiple])[formControlName],select:not([multiple])[formControl],select:not([multiple])[ngModel]',
+                host: { '(change)': 'onChange($event.target.value)', '(blur)': 'onTouched()' },
+                providers: [SELECT_VALUE_ACCESSOR]
+            },] }
+];
+SelectControlValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+SelectControlValueAccessor.propDecorators = {
+    compareWith: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+};
+/**
+ * @description
+ * Marks `<option>` as dynamic, so Angular can be notified when options change.
+ *
+ * @see `SelectControlValueAccessor`
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class NgSelectOption {
+    constructor(_element, _renderer, _select) {
+        this._element = _element;
+        this._renderer = _renderer;
+        this._select = _select;
+        if (this._select)
+            this.id = this._select._registerOption();
+    }
+    /**
+     * @description
+     * Tracks the value bound to the option element. Unlike the value binding,
+     * ngValue supports binding to objects.
+     */
+    set ngValue(value) {
+        if (this._select == null)
+            return;
+        this._select._optionMap.set(this.id, value);
+        this._setElementValue(_buildValueString(this.id, value));
+        this._select.writeValue(this._select.value);
+    }
+    /**
+     * @description
+     * Tracks simple string values bound to the option element.
+     * For objects, use the `ngValue` input binding.
+     */
+    set value(value) {
+        this._setElementValue(value);
+        if (this._select)
+            this._select.writeValue(this._select.value);
+    }
+    /** @internal */
+    _setElementValue(value) {
+        this._renderer.setProperty(this._element.nativeElement, 'value', value);
+    }
+    /** @nodoc */
+    ngOnDestroy() {
+        if (this._select) {
+            this._select._optionMap.delete(this.id);
+            this._select.writeValue(this._select.value);
+        }
+    }
+}
+NgSelectOption.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{ selector: 'option' },] }
+];
+NgSelectOption.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: SelectControlValueAccessor, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }] }
+];
+NgSelectOption.propDecorators = {
+    ngValue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['ngValue',] }],
+    value: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['value',] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const SELECT_MULTIPLE_VALUE_ACCESSOR = {
+    provide: NG_VALUE_ACCESSOR,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => SelectMultipleControlValueAccessor),
+    multi: true
+};
+function _buildValueString$1(id, value) {
+    if (id == null)
+        return `${value}`;
+    if (typeof value === 'string')
+        value = `'${value}'`;
+    if (value && typeof value === 'object')
+        value = 'Object';
+    return `${id}: ${value}`.slice(0, 50);
+}
+function _extractId$1(valueString) {
+    return valueString.split(':')[0];
+}
+/** Mock interface for HTMLCollection */
+class HTMLCollection {
+}
+/**
+ * @description
+ * The `ControlValueAccessor` for writing multi-select control values and listening to multi-select
+ * control changes. The value accessor is used by the `FormControlDirective`, `FormControlName`, and
+ * `NgModel` directives.
+ *
+ * @see `SelectControlValueAccessor`
+ *
+ * @usageNotes
+ *
+ * ### Using a multi-select control
+ *
+ * The follow example shows you how to use a multi-select control with a reactive form.
+ *
+ * ```ts
+ * const countryControl = new FormControl();
+ * ```
+ *
+ * ```
+ * <select multiple name="countries" [formControl]="countryControl">
+ *   <option *ngFor="let country of countries" [ngValue]="country">
+ *     {{ country.name }}
+ *   </option>
+ * </select>
+ * ```
+ *
+ * ### Customizing option selection
+ *
+ * To customize the default option comparison algorithm, `<select>` supports `compareWith` input.
+ * See the `SelectControlValueAccessor` for usage.
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class SelectMultipleControlValueAccessor extends BuiltInControlValueAccessor {
+    constructor(_renderer, _elementRef) {
+        super();
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        /** @internal */
+        this._optionMap = new Map();
+        /** @internal */
+        this._idCounter = 0;
+        /**
+         * The registered callback function called when a change event occurs on the input element.
+         * @nodoc
+         */
+        this.onChange = (_) => { };
+        /**
+         * The registered callback function called when a blur event occurs on the input element.
+         * @nodoc
+         */
+        this.onTouched = () => { };
+        this._compareWith = Object.is;
+    }
+    /**
+     * @description
+     * Tracks the option comparison algorithm for tracking identities when
+     * checking for changes.
+     */
+    set compareWith(fn) {
+        if (typeof fn !== 'function' && (typeof ngDevMode === 'undefined' || ngDevMode)) {
+            throw new Error(`compareWith must be a function, but received ${JSON.stringify(fn)}`);
+        }
+        this._compareWith = fn;
+    }
+    /**
+     * Sets the "value" property on one or of more of the select's options.
+     * @nodoc
+     */
+    writeValue(value) {
+        this.value = value;
+        let optionSelectedStateSetter;
+        if (Array.isArray(value)) {
+            // convert values to ids
+            const ids = value.map((v) => this._getOptionId(v));
+            optionSelectedStateSetter = (opt, o) => {
+                opt._setSelected(ids.indexOf(o.toString()) > -1);
+            };
+        }
+        else {
+            optionSelectedStateSetter = (opt, o) => {
+                opt._setSelected(false);
+            };
+        }
+        this._optionMap.forEach(optionSelectedStateSetter);
+    }
+    /**
+     * Registers a function called when the control value changes
+     * and writes an array of the selected options.
+     * @nodoc
+     */
+    registerOnChange(fn) {
+        this.onChange = (_) => {
+            const selected = [];
+            if (_.selectedOptions !== undefined) {
+                const options = _.selectedOptions;
+                for (let i = 0; i < options.length; i++) {
+                    const opt = options.item(i);
+                    const val = this._getOptionValue(opt.value);
+                    selected.push(val);
+                }
+            }
+            // Degrade on IE
+            else {
+                const options = _.options;
+                for (let i = 0; i < options.length; i++) {
+                    const opt = options.item(i);
+                    if (opt.selected) {
+                        const val = this._getOptionValue(opt.value);
+                        selected.push(val);
+                    }
+                }
+            }
+            this.value = selected;
+            fn(selected);
+        };
+    }
+    /**
+     * Registers a function called when the control is touched.
+     * @nodoc
+     */
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    /**
+     * Sets the "disabled" property on the select input element.
+     * @nodoc
+     */
+    setDisabledState(isDisabled) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', isDisabled);
+    }
+    /** @internal */
+    _registerOption(value) {
+        const id = (this._idCounter++).toString();
+        this._optionMap.set(id, value);
+        return id;
+    }
+    /** @internal */
+    _getOptionId(value) {
+        for (const id of Array.from(this._optionMap.keys())) {
+            if (this._compareWith(this._optionMap.get(id)._value, value))
+                return id;
+        }
+        return null;
+    }
+    /** @internal */
+    _getOptionValue(valueString) {
+        const id = _extractId$1(valueString);
+        return this._optionMap.has(id) ? this._optionMap.get(id)._value : valueString;
+    }
+}
+SelectMultipleControlValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'select[multiple][formControlName],select[multiple][formControl],select[multiple][ngModel]',
+                host: { '(change)': 'onChange($event.target)', '(blur)': 'onTouched()' },
+                providers: [SELECT_MULTIPLE_VALUE_ACCESSOR]
+            },] }
+];
+SelectMultipleControlValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+SelectMultipleControlValueAccessor.propDecorators = {
+    compareWith: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+};
+/**
+ * @description
+ * Marks `<option>` as dynamic, so Angular can be notified when options change.
+ *
+ * @see `SelectMultipleControlValueAccessor`
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class ɵNgSelectMultipleOption {
+    constructor(_element, _renderer, _select) {
+        this._element = _element;
+        this._renderer = _renderer;
+        this._select = _select;
+        if (this._select) {
+            this.id = this._select._registerOption(this);
+        }
+    }
+    /**
+     * @description
+     * Tracks the value bound to the option element. Unlike the value binding,
+     * ngValue supports binding to objects.
+     */
+    set ngValue(value) {
+        if (this._select == null)
+            return;
+        this._value = value;
+        this._setElementValue(_buildValueString$1(this.id, value));
+        this._select.writeValue(this._select.value);
+    }
+    /**
+     * @description
+     * Tracks simple string values bound to the option element.
+     * For objects, use the `ngValue` input binding.
+     */
+    set value(value) {
+        if (this._select) {
+            this._value = value;
+            this._setElementValue(_buildValueString$1(this.id, value));
+            this._select.writeValue(this._select.value);
+        }
+        else {
+            this._setElementValue(value);
+        }
+    }
+    /** @internal */
+    _setElementValue(value) {
+        this._renderer.setProperty(this._element.nativeElement, 'value', value);
+    }
+    /** @internal */
+    _setSelected(selected) {
+        this._renderer.setProperty(this._element.nativeElement, 'selected', selected);
+    }
+    /** @nodoc */
+    ngOnDestroy() {
+        if (this._select) {
+            this._select._optionMap.delete(this.id);
+            this._select.writeValue(this._select.value);
+        }
+    }
+}
+ɵNgSelectMultipleOption.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{ selector: 'option' },] }
+];
+ɵNgSelectMultipleOption.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: SelectMultipleControlValueAccessor, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"] }] }
+];
+ɵNgSelectMultipleOption.propDecorators = {
+    ngValue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['ngValue',] }],
+    value: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['value',] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @description
+ * Provider which adds `RequiredValidator` to the `NG_VALIDATORS` multi-provider list.
+ */
+const REQUIRED_VALIDATOR = {
+    provide: NG_VALIDATORS,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => RequiredValidator),
+    multi: true
+};
+/**
+ * @description
+ * Provider which adds `CheckboxRequiredValidator` to the `NG_VALIDATORS` multi-provider list.
+ */
+const CHECKBOX_REQUIRED_VALIDATOR = {
+    provide: NG_VALIDATORS,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => CheckboxRequiredValidator),
+    multi: true
+};
+/**
+ * @description
+ * A directive that adds the `required` validator to any controls marked with the
+ * `required` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
+ *
+ * @see [Form Validation](guide/form-validation)
+ *
+ * @usageNotes
+ *
+ * ### Adding a required validator using template-driven forms
+ *
+ * ```
+ * <input name="fullName" ngModel required>
+ * ```
+ *
+ * @ngModule FormsModule
+ * @ngModule ReactiveFormsModule
+ * @publicApi
+ */
+class RequiredValidator {
+    constructor() {
+        this._required = false;
+    }
+    /**
+     * @description
+     * Tracks changes to the required attribute bound to this directive.
+     */
+    get required() {
+        return this._required;
+    }
+    set required(value) {
+        this._required = value != null && value !== false && `${value}` !== 'false';
+        if (this._onChange)
+            this._onChange();
+    }
+    /**
+     * Method that validates whether the control is empty.
+     * Returns the validation result if enabled, otherwise null.
+     * @nodoc
+     */
+    validate(control) {
+        return this.required ? requiredValidator(control) : null;
+    }
+    /**
+     * Registers a callback function to call when the validator inputs change.
+     * @nodoc
+     */
+    registerOnValidatorChange(fn) {
+        this._onChange = fn;
+    }
+}
+RequiredValidator.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: ':not([type=checkbox])[required][formControlName],:not([type=checkbox])[required][formControl],:not([type=checkbox])[required][ngModel]',
+                providers: [REQUIRED_VALIDATOR],
+                host: { '[attr.required]': 'required ? "" : null' }
+            },] }
+];
+RequiredValidator.propDecorators = {
+    required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+};
+/**
+ * A Directive that adds the `required` validator to checkbox controls marked with the
+ * `required` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
+ *
+ * @see [Form Validation](guide/form-validation)
+ *
+ * @usageNotes
+ *
+ * ### Adding a required checkbox validator using template-driven forms
+ *
+ * The following example shows how to add a checkbox required validator to an input attached to an
+ * ngModel binding.
+ *
+ * ```
+ * <input type="checkbox" name="active" ngModel required>
+ * ```
+ *
+ * @publicApi
+ * @ngModule FormsModule
+ * @ngModule ReactiveFormsModule
+ */
+class CheckboxRequiredValidator extends RequiredValidator {
+    /**
+     * Method that validates whether or not the checkbox has been checked.
+     * Returns the validation result if enabled, otherwise null.
+     * @nodoc
+     */
+    validate(control) {
+        return this.required ? requiredTrueValidator(control) : null;
+    }
+}
+CheckboxRequiredValidator.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: 'input[type=checkbox][required][formControlName],input[type=checkbox][required][formControl],input[type=checkbox][required][ngModel]',
+                providers: [CHECKBOX_REQUIRED_VALIDATOR],
+                host: { '[attr.required]': 'required ? "" : null' }
+            },] }
+];
+/**
+ * @description
+ * Provider which adds `EmailValidator` to the `NG_VALIDATORS` multi-provider list.
+ */
+const EMAIL_VALIDATOR = {
+    provide: NG_VALIDATORS,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => EmailValidator),
+    multi: true
+};
+/**
+ * A directive that adds the `email` validator to controls marked with the
+ * `email` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
+ *
+ * @see [Form Validation](guide/form-validation)
+ *
+ * @usageNotes
+ *
+ * ### Adding an email validator
+ *
+ * The following example shows how to add an email validator to an input attached to an ngModel
+ * binding.
+ *
+ * ```
+ * <input type="email" name="email" ngModel email>
+ * <input type="email" name="email" ngModel email="true">
+ * <input type="email" name="email" ngModel [email]="true">
+ * ```
+ *
+ * @publicApi
+ * @ngModule FormsModule
+ * @ngModule ReactiveFormsModule
+ */
+class EmailValidator {
+    constructor() {
+        this._enabled = false;
+    }
+    /**
+     * @description
+     * Tracks changes to the email attribute bound to this directive.
+     */
+    set email(value) {
+        this._enabled = value === '' || value === true || value === 'true';
+        if (this._onChange)
+            this._onChange();
+    }
+    /**
+     * Method that validates whether an email address is valid.
+     * Returns the validation result if enabled, otherwise null.
+     * @nodoc
+     */
+    validate(control) {
+        return this._enabled ? emailValidator(control) : null;
+    }
+    /**
+     * Registers a callback function to call when the validator inputs change.
+     * @nodoc
+     */
+    registerOnValidatorChange(fn) {
+        this._onChange = fn;
+    }
+}
+EmailValidator.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: '[email][formControlName],[email][formControl],[email][ngModel]',
+                providers: [EMAIL_VALIDATOR]
+            },] }
+];
+EmailValidator.propDecorators = {
+    email: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+};
+/**
+ * @description
+ * Provider which adds `MinLengthValidator` to the `NG_VALIDATORS` multi-provider list.
+ */
+const MIN_LENGTH_VALIDATOR = {
+    provide: NG_VALIDATORS,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => MinLengthValidator),
+    multi: true
+};
+/**
+ * A directive that adds minimum length validation to controls marked with the
+ * `minlength` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
+ *
+ * @see [Form Validation](guide/form-validation)
+ *
+ * @usageNotes
+ *
+ * ### Adding a minimum length validator
+ *
+ * The following example shows how to add a minimum length validator to an input attached to an
+ * ngModel binding.
+ *
+ * ```html
+ * <input name="firstName" ngModel minlength="4">
+ * ```
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class MinLengthValidator {
+    constructor() {
+        this._validator = nullValidator;
+    }
+    /** @nodoc */
+    ngOnChanges(changes) {
+        if ('minlength' in changes) {
+            this._createValidator();
+            if (this._onChange)
+                this._onChange();
+        }
+    }
+    /**
+     * Method that validates whether the value meets a minimum length requirement.
+     * Returns the validation result if enabled, otherwise null.
+     * @nodoc
+     */
+    validate(control) {
+        return this.minlength == null ? null : this._validator(control);
+    }
+    /**
+     * Registers a callback function to call when the validator inputs change.
+     * @nodoc
+     */
+    registerOnValidatorChange(fn) {
+        this._onChange = fn;
+    }
+    _createValidator() {
+        this._validator = minLengthValidator(typeof this.minlength === 'number' ? this.minlength : parseInt(this.minlength, 10));
+    }
+}
+MinLengthValidator.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: '[minlength][formControlName],[minlength][formControl],[minlength][ngModel]',
+                providers: [MIN_LENGTH_VALIDATOR],
+                host: { '[attr.minlength]': 'minlength ? minlength : null' }
+            },] }
+];
+MinLengthValidator.propDecorators = {
+    minlength: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+};
+/**
+ * @description
+ * Provider which adds `MaxLengthValidator` to the `NG_VALIDATORS` multi-provider list.
+ */
+const MAX_LENGTH_VALIDATOR = {
+    provide: NG_VALIDATORS,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => MaxLengthValidator),
+    multi: true
+};
+/**
+ * A directive that adds max length validation to controls marked with the
+ * `maxlength` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
+ *
+ * @see [Form Validation](guide/form-validation)
+ *
+ * @usageNotes
+ *
+ * ### Adding a maximum length validator
+ *
+ * The following example shows how to add a maximum length validator to an input attached to an
+ * ngModel binding.
+ *
+ * ```html
+ * <input name="firstName" ngModel maxlength="25">
+ * ```
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class MaxLengthValidator {
+    constructor() {
+        this._validator = nullValidator;
+    }
+    /** @nodoc */
+    ngOnChanges(changes) {
+        if ('maxlength' in changes) {
+            this._createValidator();
+            if (this._onChange)
+                this._onChange();
+        }
+    }
+    /**
+     * Method that validates whether the value exceeds the maximum length requirement.
+     * @nodoc
+     */
+    validate(control) {
+        return this.maxlength != null ? this._validator(control) : null;
+    }
+    /**
+     * Registers a callback function to call when the validator inputs change.
+     * @nodoc
+     */
+    registerOnValidatorChange(fn) {
+        this._onChange = fn;
+    }
+    _createValidator() {
+        this._validator = maxLengthValidator(typeof this.maxlength === 'number' ? this.maxlength : parseInt(this.maxlength, 10));
+    }
+}
+MaxLengthValidator.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: '[maxlength][formControlName],[maxlength][formControl],[maxlength][ngModel]',
+                providers: [MAX_LENGTH_VALIDATOR],
+                host: { '[attr.maxlength]': 'maxlength ? maxlength : null' }
+            },] }
+];
+MaxLengthValidator.propDecorators = {
+    maxlength: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+};
+/**
+ * @description
+ * Provider which adds `PatternValidator` to the `NG_VALIDATORS` multi-provider list.
+ */
+const PATTERN_VALIDATOR = {
+    provide: NG_VALIDATORS,
+    useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => PatternValidator),
+    multi: true
+};
+/**
+ * @description
+ * A directive that adds regex pattern validation to controls marked with the
+ * `pattern` attribute. The regex must match the entire control value.
+ * The directive is provided with the `NG_VALIDATORS` multi-provider list.
+ *
+ * @see [Form Validation](guide/form-validation)
+ *
+ * @usageNotes
+ *
+ * ### Adding a pattern validator
+ *
+ * The following example shows how to add a pattern validator to an input attached to an
+ * ngModel binding.
+ *
+ * ```html
+ * <input name="firstName" ngModel pattern="[a-zA-Z ]*">
+ * ```
+ *
+ * @ngModule ReactiveFormsModule
+ * @ngModule FormsModule
+ * @publicApi
+ */
+class PatternValidator {
+    constructor() {
+        this._validator = nullValidator;
+    }
+    /** @nodoc */
+    ngOnChanges(changes) {
+        if ('pattern' in changes) {
+            this._createValidator();
+            if (this._onChange)
+                this._onChange();
+        }
+    }
+    /**
+     * Method that validates whether the value matches the pattern requirement.
+     * @nodoc
+     */
+    validate(control) {
+        return this._validator(control);
+    }
+    /**
+     * Registers a callback function to call when the validator inputs change.
+     * @nodoc
+     */
+    registerOnValidatorChange(fn) {
+        this._onChange = fn;
+    }
+    _createValidator() {
+        this._validator = patternValidator(this.pattern);
+    }
+}
+PatternValidator.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                selector: '[pattern][formControlName],[pattern][formControl],[pattern][ngModel]',
+                providers: [PATTERN_VALIDATOR],
+                host: { '[attr.pattern]': 'pattern ? pattern : null' }
+            },] }
+];
+PatternValidator.propDecorators = {
+    pattern: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+};
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const SHARED_FORM_DIRECTIVES = [
+    ɵNgNoValidate,
+    NgSelectOption,
+    ɵNgSelectMultipleOption,
+    DefaultValueAccessor,
+    NumberValueAccessor,
+    RangeValueAccessor,
+    CheckboxControlValueAccessor,
+    SelectControlValueAccessor,
+    SelectMultipleControlValueAccessor,
+    RadioControlValueAccessor,
+    NgControlStatus,
+    NgControlStatusGroup,
+    RequiredValidator,
+    MinLengthValidator,
+    MaxLengthValidator,
+    PatternValidator,
+    CheckboxRequiredValidator,
+    EmailValidator,
+];
+const TEMPLATE_DRIVEN_DIRECTIVES = [NgModel, NgModelGroup, NgForm];
+const REACTIVE_DRIVEN_DIRECTIVES = [FormControlDirective, FormGroupDirective, FormControlName, FormGroupName, FormArrayName];
+/**
+ * Internal module used for sharing directives between FormsModule and ReactiveFormsModule
+ */
+class ɵInternalFormsSharedModule {
+}
+ɵInternalFormsSharedModule.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"], args: [{
+                declarations: SHARED_FORM_DIRECTIVES,
+                imports: [RadioControlRegistryModule],
+                exports: SHARED_FORM_DIRECTIVES,
+            },] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Exports the required providers and directives for template-driven forms,
+ * making them available for import by NgModules that import this module.
+ *
+ * Providers associated with this module:
+ * * `RadioControlRegistry`
+ *
+ * @see [Forms Overview](/guide/forms-overview)
+ * @see [Template-driven Forms Guide](/guide/forms)
+ *
+ * @publicApi
+ */
+class FormsModule {
+}
+FormsModule.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"], args: [{
+                declarations: TEMPLATE_DRIVEN_DIRECTIVES,
+                exports: [ɵInternalFormsSharedModule, TEMPLATE_DRIVEN_DIRECTIVES]
+            },] }
+];
+/**
+ * Exports the required infrastructure and directives for reactive forms,
+ * making them available for import by NgModules that import this module.
+ *
+ * Providers associated with this module:
+ * * `FormBuilder`
+ * * `RadioControlRegistry`
+ *
+ * @see [Forms Overview](guide/forms-overview)
+ * @see [Reactive Forms Guide](guide/reactive-forms)
+ *
+ * @publicApi
+ */
+class ReactiveFormsModule {
+    /**
+     * @description
+     * Provides options for configuring the reactive forms module.
+     *
+     * @param opts An object of configuration options
+     * * `warnOnNgModelWithFormControl` Configures when to emit a warning when an `ngModel`
+     * binding is used with reactive form directives.
+     */
+    static withConfig(opts) {
+        return {
+            ngModule: ReactiveFormsModule,
+            providers: [
+                { provide: NG_MODEL_WITH_FORM_CONTROL_WARNING, useValue: opts.warnOnNgModelWithFormControl }
+            ]
+        };
+    }
+}
+ReactiveFormsModule.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"], args: [{
+                declarations: [REACTIVE_DRIVEN_DIRECTIVES],
+                exports: [ɵInternalFormsSharedModule, REACTIVE_DRIVEN_DIRECTIVES]
+            },] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+function isAbstractControlOptions(options) {
+    return options.asyncValidators !== undefined ||
+        options.validators !== undefined ||
+        options.updateOn !== undefined;
+}
+/**
+ * @description
+ * Creates an `AbstractControl` from a user-specified configuration.
+ *
+ * The `FormBuilder` provides syntactic sugar that shortens creating instances of a `FormControl`,
+ * `FormGroup`, or `FormArray`. It reduces the amount of boilerplate needed to build complex
+ * forms.
+ *
+ * @see [Reactive Forms Guide](/guide/reactive-forms)
+ *
+ * @publicApi
+ */
+class FormBuilder {
+    group(controlsConfig, options = null) {
+        const controls = this._reduceControls(controlsConfig);
+        let validators = null;
+        let asyncValidators = null;
+        let updateOn = undefined;
+        if (options != null) {
+            if (isAbstractControlOptions(options)) {
+                // `options` are `AbstractControlOptions`
+                validators = options.validators != null ? options.validators : null;
+                asyncValidators = options.asyncValidators != null ? options.asyncValidators : null;
+                updateOn = options.updateOn != null ? options.updateOn : undefined;
+            }
+            else {
+                // `options` are legacy form group options
+                validators = options['validator'] != null ? options['validator'] : null;
+                asyncValidators = options['asyncValidator'] != null ? options['asyncValidator'] : null;
+            }
+        }
+        return new FormGroup(controls, { asyncValidators, updateOn, validators });
+    }
+    /**
+     * @description
+     * Construct a new `FormControl` with the given state, validators and options.
+     *
+     * @param formState Initializes the control with an initial state value, or
+     * with an object that contains both a value and a disabled status.
+     *
+     * @param validatorOrOpts A synchronous validator function, or an array of
+     * such functions, or an `AbstractControlOptions` object that contains
+     * validation functions and a validation trigger.
+     *
+     * @param asyncValidator A single async validator or array of async validator
+     * functions.
+     *
+     * @usageNotes
+     *
+     * ### Initialize a control as disabled
+     *
+     * The following example returns a control with an initial value in a disabled state.
+     *
+     * <code-example path="forms/ts/formBuilder/form_builder_example.ts" region="disabled-control">
+     * </code-example>
+     */
+    control(formState, validatorOrOpts, asyncValidator) {
+        return new FormControl(formState, validatorOrOpts, asyncValidator);
+    }
+    /**
+     * Constructs a new `FormArray` from the given array of configurations,
+     * validators and options.
+     *
+     * @param controlsConfig An array of child controls or control configs. Each
+     * child control is given an index when it is registered.
+     *
+     * @param validatorOrOpts A synchronous validator function, or an array of
+     * such functions, or an `AbstractControlOptions` object that contains
+     * validation functions and a validation trigger.
+     *
+     * @param asyncValidator A single async validator or array of async validator
+     * functions.
+     */
+    array(controlsConfig, validatorOrOpts, asyncValidator) {
+        const controls = controlsConfig.map(c => this._createControl(c));
+        return new FormArray(controls, validatorOrOpts, asyncValidator);
+    }
+    /** @internal */
+    _reduceControls(controlsConfig) {
+        const controls = {};
+        Object.keys(controlsConfig).forEach(controlName => {
+            controls[controlName] = this._createControl(controlsConfig[controlName]);
+        });
+        return controls;
+    }
+    /** @internal */
+    _createControl(controlConfig) {
+        if (controlConfig instanceof FormControl || controlConfig instanceof FormGroup ||
+            controlConfig instanceof FormArray) {
+            return controlConfig;
+        }
+        else if (Array.isArray(controlConfig)) {
+            const value = controlConfig[0];
+            const validator = controlConfig.length > 1 ? controlConfig[1] : null;
+            const asyncValidator = controlConfig.length > 2 ? controlConfig[2] : null;
+            return this.control(value, validator, asyncValidator);
+        }
+        else {
+            return this.control(controlConfig);
+        }
+    }
+}
+FormBuilder.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function FormBuilder_Factory() { return new FormBuilder(); }, token: FormBuilder, providedIn: ReactiveFormsModule });
+FormBuilder.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"], args: [{ providedIn: ReactiveFormsModule },] }
+];
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @publicApi
+ */
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.2.14');
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+// This file only reexports content of the `src` folder. Keep it that way.
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+//# sourceMappingURL=forms.js.map
+
+
+/***/ }),
+
 /***/ "sTY7":
 /*!***********************************************************************!*\
   !*** ./node_modules/rxjs/_esm2015/internal/operators/windowToggle.js ***!
@@ -55059,7 +62520,7 @@ function plucker(props, length) {
 /*!********************************************************************************************************************!*\
   !*** ./node_modules/@utrecht/web-component-library-angular/dist/fesm2015/utrecht-web-component-library-angular.js ***!
   \********************************************************************************************************************/
-/*! exports provided: UtrechtArticle, UtrechtBadgeCounter, UtrechtBadgeData, UtrechtBadgeStatus, UtrechtButton, UtrechtDocument, UtrechtHeading, UtrechtHtmlContent, UtrechtPageFooter, UtrechtParagraph, UtrechtSeparator, UtrechtSidenav, UtrechtWebComponentsModule, ɵa */
+/*! exports provided: UtrechtArticle, UtrechtBadgeCounter, UtrechtBadgeData, UtrechtBadgeStatus, UtrechtBreadcrumb, UtrechtButton, UtrechtCheckbox, UtrechtDocument, UtrechtFormFieldCheckbox, UtrechtFormFieldTextbox, UtrechtHeading, UtrechtHeading1, UtrechtHeading2, UtrechtHeading3, UtrechtHeading4, UtrechtHeading5, UtrechtHeading6, UtrechtHtmlContent, UtrechtIconFacebook, UtrechtIconInstagram, UtrechtIconLinkedin, UtrechtIconTwitter, UtrechtIconWhatsapp, UtrechtLogo, UtrechtPageFooter, UtrechtPagination, UtrechtParagraph, UtrechtSeparator, UtrechtSidenav, UtrechtTextbox, UtrechtWebComponentsModule, ɵa, ɵb, ɵc, ɵd, ɵe, ɵf */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55068,18 +62529,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBadgeCounter", function() { return UtrechtBadgeCounter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBadgeData", function() { return UtrechtBadgeData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBadgeStatus", function() { return UtrechtBadgeStatus; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtBreadcrumb", function() { return UtrechtBreadcrumb; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtButton", function() { return UtrechtButton; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtCheckbox", function() { return UtrechtCheckbox; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtDocument", function() { return UtrechtDocument; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtFormFieldCheckbox", function() { return UtrechtFormFieldCheckbox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtFormFieldTextbox", function() { return UtrechtFormFieldTextbox; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading", function() { return UtrechtHeading; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading1", function() { return UtrechtHeading1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading2", function() { return UtrechtHeading2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading3", function() { return UtrechtHeading3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading4", function() { return UtrechtHeading4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading5", function() { return UtrechtHeading5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHeading6", function() { return UtrechtHeading6; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtHtmlContent", function() { return UtrechtHtmlContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconFacebook", function() { return UtrechtIconFacebook; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconInstagram", function() { return UtrechtIconInstagram; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconLinkedin", function() { return UtrechtIconLinkedin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconTwitter", function() { return UtrechtIconTwitter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtIconWhatsapp", function() { return UtrechtIconWhatsapp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtLogo", function() { return UtrechtLogo; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtPageFooter", function() { return UtrechtPageFooter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtPagination", function() { return UtrechtPagination; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtParagraph", function() { return UtrechtParagraph; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtSeparator", function() { return UtrechtSeparator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtSidenav", function() { return UtrechtSidenav; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtTextbox", function() { return UtrechtTextbox; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UtrechtWebComponentsModule", function() { return UtrechtWebComponentsModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return ProxyCmp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return BooleanValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return ValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵd", function() { return NumericValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵe", function() { return SelectValueAccessor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵf", function() { return TextValueAccessor; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "qCKp");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "s7LF");
+
 
 
 
@@ -55216,6 +62702,31 @@ UtrechtBadgeStatus = __decorate([
         inputs: ['status']
     })
 ], UtrechtBadgeStatus);
+let UtrechtBreadcrumb = class UtrechtBreadcrumb {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+};
+UtrechtBreadcrumb.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-breadcrumb',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>',
+                inputs: ['json', 'variant']
+            },] }
+];
+UtrechtBreadcrumb.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+UtrechtBreadcrumb = __decorate([
+    ProxyCmp({
+        inputs: ['json', 'variant']
+    })
+], UtrechtBreadcrumb);
 let UtrechtButton = class UtrechtButton {
     constructor(c, r, z) {
         this.z = z;
@@ -55241,6 +62752,33 @@ UtrechtButton = __decorate([
         inputs: ['disabled']
     })
 ], UtrechtButton);
+let UtrechtCheckbox = class UtrechtCheckbox {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+        proxyOutputs(this, this.el, ['utrechtBlur', 'utrechtChange', 'utrechtFocus', 'utrechtInput']);
+    }
+};
+UtrechtCheckbox.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-checkbox',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>',
+                inputs: ['disabled', 'readOnly'],
+                outputs: ['utrechtBlur', 'utrechtChange', 'utrechtFocus', 'utrechtInput']
+            },] }
+];
+UtrechtCheckbox.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+UtrechtCheckbox = __decorate([
+    ProxyCmp({
+        inputs: ['disabled', 'readOnly']
+    })
+], UtrechtCheckbox);
 class UtrechtDocument {
     constructor(c, r, z) {
         this.z = z;
@@ -55260,6 +62798,60 @@ UtrechtDocument.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
 ];
+let UtrechtFormFieldCheckbox = class UtrechtFormFieldCheckbox {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+        proxyOutputs(this, this.el, ['utrechtBlur', 'utrechtChange', 'utrechtFocus', 'utrechtInput']);
+    }
+};
+UtrechtFormFieldCheckbox.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-form-field-checkbox',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>',
+                inputs: ['disabled', 'label', 'readOnly'],
+                outputs: ['utrechtBlur', 'utrechtChange', 'utrechtFocus', 'utrechtInput']
+            },] }
+];
+UtrechtFormFieldCheckbox.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+UtrechtFormFieldCheckbox = __decorate([
+    ProxyCmp({
+        inputs: ['disabled', 'label', 'readOnly']
+    })
+], UtrechtFormFieldCheckbox);
+let UtrechtFormFieldTextbox = class UtrechtFormFieldTextbox {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+        proxyOutputs(this, this.el, ['utrechtBlur', 'utrechtChange', 'utrechtFocus', 'utrechtInput']);
+    }
+};
+UtrechtFormFieldTextbox.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-form-field-textbox',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>',
+                inputs: ['disabled', 'invalid', 'placeholder', 'readOnly'],
+                outputs: ['utrechtBlur', 'utrechtChange', 'utrechtFocus', 'utrechtInput']
+            },] }
+];
+UtrechtFormFieldTextbox.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+UtrechtFormFieldTextbox = __decorate([
+    ProxyCmp({
+        inputs: ['disabled', 'invalid', 'placeholder', 'readOnly']
+    })
+], UtrechtFormFieldTextbox);
 let UtrechtHeading = class UtrechtHeading {
     constructor(c, r, z) {
         this.z = z;
@@ -55285,6 +62877,120 @@ UtrechtHeading = __decorate([
         inputs: ['level']
     })
 ], UtrechtHeading);
+class UtrechtHeading1 {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtHeading1.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-heading-1',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtHeading1.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtHeading2 {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtHeading2.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-heading-2',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtHeading2.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtHeading3 {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtHeading3.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-heading-3',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtHeading3.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtHeading4 {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtHeading4.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-heading-4',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtHeading4.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtHeading5 {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtHeading5.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-heading-5',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtHeading5.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtHeading6 {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtHeading6.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-heading-6',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtHeading6.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
 class UtrechtHtmlContent {
     constructor(c, r, z) {
         this.z = z;
@@ -55300,6 +63006,120 @@ UtrechtHtmlContent.decorators = [
             },] }
 ];
 UtrechtHtmlContent.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtIconFacebook {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtIconFacebook.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-icon-facebook',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtIconFacebook.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtIconInstagram {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtIconInstagram.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-icon-instagram',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtIconInstagram.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtIconLinkedin {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtIconLinkedin.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-icon-linkedin',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtIconLinkedin.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtIconTwitter {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtIconTwitter.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-icon-twitter',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtIconTwitter.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtIconWhatsapp {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtIconWhatsapp.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-icon-whatsapp',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtIconWhatsapp.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+class UtrechtLogo {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+}
+UtrechtLogo.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-logo',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>'
+            },] }
+];
+UtrechtLogo.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
@@ -55323,6 +63143,31 @@ UtrechtPageFooter.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
 ];
+let UtrechtPagination = class UtrechtPagination {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+    }
+};
+UtrechtPagination.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-pagination',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>',
+                inputs: ['currentIndex', 'links', 'next', 'prev']
+            },] }
+];
+UtrechtPagination.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+UtrechtPagination = __decorate([
+    ProxyCmp({
+        inputs: ['currentIndex', 'links', 'next', 'prev']
+    })
+], UtrechtPagination);
 let UtrechtParagraph = class UtrechtParagraph {
     constructor(c, r, z) {
         this.z = z;
@@ -55392,6 +63237,179 @@ UtrechtSidenav = __decorate([
         inputs: ['json']
     })
 ], UtrechtSidenav);
+let UtrechtTextbox = class UtrechtTextbox {
+    constructor(c, r, z) {
+        this.z = z;
+        c.detach();
+        this.el = r.nativeElement;
+        proxyOutputs(this, this.el, ['utrechtBlur', 'utrechtChange', 'utrechtFocus', 'utrechtInput']);
+    }
+};
+UtrechtTextbox.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"], args: [{
+                selector: 'utrecht-textbox',
+                changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush,
+                template: '<ng-content></ng-content>',
+                inputs: ['disabled', 'invalid', 'placeholder', 'readOnly'],
+                outputs: ['utrechtBlur', 'utrechtChange', 'utrechtFocus', 'utrechtInput']
+            },] }
+];
+UtrechtTextbox.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }
+];
+UtrechtTextbox = __decorate([
+    ProxyCmp({
+        inputs: ['disabled', 'invalid', 'placeholder', 'readOnly']
+    })
+], UtrechtTextbox);
+
+class ValueAccessor {
+    constructor(el) {
+        this.el = el;
+        this.onChange = () => { };
+        this.onTouched = () => { };
+    }
+    writeValue(value) {
+        this.el.nativeElement.value = this.lastValue = value == null ? '' : value;
+    }
+    handleChangeEvent(value) {
+        if (value !== this.lastValue) {
+            this.lastValue = value;
+            this.onChange(value);
+        }
+    }
+    _handleBlurEvent() {
+        this.onTouched();
+    }
+    registerOnChange(fn) {
+        this.onChange = fn;
+    }
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    setDisabledState(isDisabled) {
+        this.el.nativeElement.disabled = isDisabled;
+    }
+}
+ValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{},] }
+];
+ValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+ValueAccessor.propDecorators = {
+    _handleBlurEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"], args: ['focusout',] }]
+};
+
+class BooleanValueAccessor extends ValueAccessor {
+    constructor(el) {
+        super(el);
+    }
+    writeValue(value) {
+        this.el.nativeElement.checked = this.lastValue = value == null ? false : value;
+    }
+}
+BooleanValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                /* tslint:disable-next-line:directive-selector */
+                selector: 'utrecht-checkbox, utrecht-form-field-checkbox',
+                host: {
+                    '(utrechtInput)': 'handleChangeEvent($event.target.checked)'
+                },
+                providers: [
+                    {
+                        provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"],
+                        useExisting: BooleanValueAccessor,
+                        multi: true
+                    }
+                ]
+            },] }
+];
+BooleanValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+
+class NumericValueAccessor extends ValueAccessor {
+    constructor(el) {
+        super(el);
+    }
+    registerOnChange(fn) {
+        super.registerOnChange(value => {
+            fn(value === '' ? null : parseFloat(value));
+        });
+    }
+}
+NumericValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                /* tslint:disable-next-line:directive-selector */
+                selector: 'utrecht-number-input',
+                host: {
+                    '(utrechtInput)': 'handleChangeEvent($event.target.value)'
+                },
+                providers: [
+                    {
+                        provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"],
+                        useExisting: NumericValueAccessor,
+                        multi: true
+                    }
+                ]
+            },] }
+];
+NumericValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+
+class SelectValueAccessor extends ValueAccessor {
+    constructor(el) {
+        super(el);
+    }
+}
+SelectValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                /* tslint:disable-next-line:directive-selector */
+                selector: 'utrecht-radio-group, utrecht-form-field-radio-group',
+                host: {
+                    '(utrechtInput)': 'handleChangeEvent($event.target.value)'
+                },
+                providers: [
+                    {
+                        provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"],
+                        useExisting: SelectValueAccessor,
+                        multi: true
+                    }
+                ]
+            },] }
+];
+SelectValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
+
+class TextValueAccessor extends ValueAccessor {
+    constructor(el) {
+        super(el);
+    }
+}
+TextValueAccessor.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"], args: [{
+                /* tslint:disable-next-line:directive-selector */
+                selector: 'utrecht-textarea, utrecht-textbox, utrecht-form-field-textbox',
+                host: {
+                    '(utrechtInput)': 'handleChangeEvent($event.target.value)'
+                },
+                providers: [
+                    {
+                        provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"],
+                        useExisting: TextValueAccessor,
+                        multi: true
+                    }
+                ]
+            },] }
+];
+TextValueAccessor.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }
+];
 
 // This array is maintained manually, so it might miss the latest components.
 const components = [
@@ -55399,21 +63417,40 @@ const components = [
     UtrechtBadgeCounter,
     UtrechtBadgeData,
     UtrechtBadgeStatus,
+    UtrechtBreadcrumb,
     UtrechtButton,
+    UtrechtCheckbox,
     UtrechtDocument,
+    UtrechtFormFieldCheckbox,
+    UtrechtFormFieldTextbox,
     UtrechtHeading,
+    UtrechtHeading1,
+    UtrechtHeading2,
+    UtrechtHeading3,
+    UtrechtHeading4,
+    UtrechtHeading5,
+    UtrechtHeading6,
     UtrechtHtmlContent,
+    UtrechtIconFacebook,
+    UtrechtIconInstagram,
+    UtrechtIconLinkedin,
+    UtrechtIconTwitter,
+    UtrechtIconWhatsapp,
+    UtrechtLogo,
     UtrechtPageFooter,
+    UtrechtPagination,
     UtrechtParagraph,
     UtrechtSeparator,
     UtrechtSidenav,
+    UtrechtTextbox,
 ];
+const valueAcessors = [BooleanValueAccessor, NumericValueAccessor, SelectValueAccessor, TextValueAccessor];
 class UtrechtWebComponentsModule {
 }
 UtrechtWebComponentsModule.decorators = [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"], args: [{
-                declarations: components,
-                exports: components,
+                declarations: [...components, ...valueAcessors],
+                exports: [...components, ...valueAcessors],
                 imports: [],
                 providers: [],
             },] }
