@@ -1,0 +1,46 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "extends": ["eslint-config-prettier", "plugin:json/recommended"]
+    },
+    {
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint", "jasmine"],
+      "files": ["*.ts"],
+      "parserOptions": {
+        "project": ["tsconfig.json", "tsconfig.spec.json", "e2e/tsconfig.json"],
+        "createDefaultProgram": true
+      },
+      "extends": [
+        "./.eslint-es-rules.json",
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "eslint-config-prettier"
+      ]
+    },
+    {
+      "files": ["*.html"],
+      "extends": ["plugin:@angular-eslint/template/recommended"],
+      "rules": {}
+    },
+    {
+      "files": ["*.html"],
+      "excludedFiles": ["*inline-template-*.component.html"],
+      "extends": ["plugin:prettier/recommended"],
+      "rules": {
+        "prettier/prettier": ["error", { "parser": "angular" }]
+      }
+    }
+  ]
+}
