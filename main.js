@@ -102,7 +102,7 @@ class AppComponent {
         this.title = 'my-app';
         this.checkbox = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControl"](true);
         this.textbox = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControl"]('Sam Simpleton');
-        this.currentLang$ = this.translate.onDefaultLangChange.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_0__["map"])(({ lang }) => lang));
+        this.currentLang$ = translate.onDefaultLangChange.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_0__["map"])(({ lang }) => lang));
     }
     setLanguage(lang) {
         this.translate.setDefaultLang(lang);
