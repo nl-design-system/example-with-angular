@@ -34,7 +34,7 @@
     "@types/node": "16.3.3",
     "@utrecht/component-library-css": "1.0.0-alpha.43",
     "@utrecht/web-component-library-angular": "1.0.0-alpha.26",
-    "@utrecht/web-component-library-stencil": "1.0.0-alpha.42",
+    "@utrecht/web-component-library-stencil": "1.0.0-alpha.55",
     "codelyzer": "6.0.2",
     "jasmine-core": "3.8.0",
     "jasmine-spec-reporter": "7.0.0",
