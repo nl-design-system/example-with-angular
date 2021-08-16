@@ -38,7 +38,7 @@ jobs:
       - name: "Retain build artifacts"
         uses: actions/upload-artifact@v2
         with:
-          name: storybook
+          name: dist
           path: dist/
           retention-days: 1
 
@@ -53,7 +53,7 @@ jobs:
       - name: "Restore build artifacts"
         uses: actions/download-artifact@v2
         with:
-          name: storybook
+          name: dist
           path: dist/
 
       - name: Continuous Deployment to GitHub Pages
