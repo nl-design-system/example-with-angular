@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "4.29.2",
     "@utrecht/component-library-css": "1.0.0-alpha.58",
     "@utrecht/design-tokens": "1.0.0-alpha.51",
-    "@utrecht/web-component-library-angular": "1.0.0-alpha.41",
+    "@utrecht/web-component-library-angular": "1.0.0-alpha.61",
     "@utrecht/web-component-library-stencil": "1.0.0-alpha.57",
     "codelyzer": "6.0.2",
     "eslint": "7.32.0",
