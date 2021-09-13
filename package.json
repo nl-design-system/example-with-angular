@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.1102.14 && <= 0.1200",
-    "@angular-eslint/eslint-plugin": "4.3.0 && <= 12",
+    "@angular-eslint/eslint-plugin": "4.3.0 && <= 13",
     "@angular-eslint/eslint-plugin-template": "4.3.0 && <= 12",
     "@angular-eslint/template-parser": "4.3.0 && <= 12",
     "@angular/cli": "11.2.14 && <= 12",
