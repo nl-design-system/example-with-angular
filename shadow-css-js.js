@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "scopeCss", function() { return scopeCss; });
 /*
- Stencil Client Platform v2.6.0 | MIT Licensed | https://stenciljs.com
+ Stencil Client Platform v2.8.1 | MIT Licensed | https://stenciljs.com
  */
 /**
  * @license
@@ -307,7 +307,7 @@ const applyStrictSelectorScope = (selector, scopeSelector, hostSelector) => {
 const scopeSelector = (selector, scopeSelectorText, hostSelector, slotSelector) => {
     return selector
         .split(',')
-        .map(shallowPart => {
+        .map((shallowPart) => {
         if (slotSelector && shallowPart.indexOf('.' + slotSelector) > -1) {
             return shallowPart.trim();
         }
@@ -327,7 +327,10 @@ const scopeSelectors = (cssText, scopeSelectorText, hostSelector, slotSelector, 
         if (rule.selector[0] !== '@') {
             selector = scopeSelector(rule.selector, scopeSelectorText, hostSelector, slotSelector);
         }
-        else if (rule.selector.startsWith('@media') || rule.selector.startsWith('@supports') || rule.selector.startsWith('@page') || rule.selector.startsWith('@document')) {
+        else if (rule.selector.startsWith('@media') ||
+            rule.selector.startsWith('@supports') ||
+            rule.selector.startsWith('@page') ||
+            rule.selector.startsWith('@document')) {
             content = scopeSelectors(rule.content, scopeSelectorText, hostSelector, slotSelector);
         }
         const cssRule = {
@@ -368,11 +371,14 @@ const scopeCss = (cssText, scopeId, commentOriginalSelector) => {
             rule.selector = placeholder + rule.selector;
             return rule;
         };
-        cssText = processRules(cssText, rule => {
+        cssText = processRules(cssText, (rule) => {
             if (rule.selector[0] !== '@') {
                 return processCommentedSelector(rule);
             }
-            else if (rule.selector.startsWith('@media') || rule.selector.startsWith('@supports') || rule.selector.startsWith('@page') || rule.selector.startsWith('@document')) {
+            else if (rule.selector.startsWith('@media') ||
+                rule.selector.startsWith('@supports') ||
+                rule.selector.startsWith('@page') ||
+                rule.selector.startsWith('@document')) {
                 rule.content = processRules(rule.content, processCommentedSelector);
                 return rule;
             }
@@ -386,7 +392,7 @@ const scopeCss = (cssText, scopeId, commentOriginalSelector) => {
             cssText = cssText.replace(placeholder, comment);
         });
     }
-    scoped.slottedSelectors.forEach(slottedSelector => {
+    scoped.slottedSelectors.forEach((slottedSelector) => {
         cssText = cssText.replace(slottedSelector.orgSelector, slottedSelector.updatedSelector);
     });
     return cssText;
