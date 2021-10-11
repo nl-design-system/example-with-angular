@@ -40,7 +40,7 @@
     "@types/node": "16.6.1 && <= 17",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
-    "@utrecht/component-library-css": "1.0.0-alpha.104",
+    "@utrecht/component-library-css": "1.0.0-alpha.106",
     "@utrecht/design-tokens": "1.0.0-alpha.97",
     "@utrecht/web-component-library-angular": "1.0.0-alpha.87",
     "@utrecht/web-component-library-stencil": "1.0.0-alpha.103",
