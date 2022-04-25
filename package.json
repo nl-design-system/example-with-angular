@@ -43,7 +43,7 @@
     "@utrecht/component-library-css": "1.0.0-alpha.104",
     "@utrecht/design-tokens": "1.0.0-alpha.97",
     "@utrecht/web-component-library-angular": "1.0.0-alpha.87",
-    "@utrecht/web-component-library-stencil": "1.0.0-alpha.103",
+    "@utrecht/web-component-library-stencil": "1.0.0-alpha.194",
     "codelyzer": "6.0.2",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
