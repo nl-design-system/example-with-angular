@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/@utrecht/design-tokens/dist/theme/index.css",
+              "node_modules/@utrecht/design-tokens/dist/index.css",
               "src/styles.css"
             ],
             "scripts": []
