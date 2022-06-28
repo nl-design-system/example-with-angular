@@ -1,292 +1,472 @@
 <utrecht-document>
-  <header>
-    <div role="group">
-      <button
-        [disabled]="(currentLang$ | async) === 'en'"
-        aria-label="Switch this page to English"
-        lang="en"
-        (click)="setLanguage('en')"
-      >
-        EN
-      </button>
-      <span aria-hidden="true"> | </span>
-      <button
-        [disabled]="(currentLang$ | async) === 'nl'"
-        aria-label="Deze pagina aanpassen naar Nederlands"
-        lang="nl"
-        (click)="setLanguage('nl')"
-      >
-        NL
-      </button>
-    </div>
-  </header>
-  <main>
-    <utrecht-article>
-      <utrecht-html-content>
-        <h1>{{ "HELLO" | translate: { value: "World" } }}</h1>
-        <article>
-          <h1>Heading 1</h1>
-          <h2>Heading 2</h2>
-          <h3>Heading 3</h3>
-          <h4>Heading 4</h4>
-          <h5>Heading 5</h5>
-          <h6>Heading 6</h6>
-          <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+  <utrecht-page>
+    <utrecht-page-content>
+      <main>
+        <utrecht-article>
+          <h1>NL Design System met Angular</h1>
+          <p>
+            Van bijna alle componenten in de NL Design System community is herbruikbare CSS beschikbaar. Voor Angular is
+            een gedeelte beschikbaar als component. Dat betekent dat je niet meer zelf alle CSS class names hoeft te
+            schrijven, en je code-editor autocomplete heeft voor diverse properties.
           </p>
           <p>
-            <strong>Paragraph</strong>: Lorem ipsum dolor sit amet, <em>consectetur adipiscing elit</em>, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id
-            <a href="https://example.com" target="_blank" rel="external"> est laborum </a>.
-          </p>
-          <blockquote>
-            <p>
-              No man is an island,
-              <br />
-              Entire of itself;
-              <br />
-              Every man is a piece of the continent,
-              <br />A part of the main.
-            </p>
-            <p>
-              If a clod be washed away by the sea,
-              <br />
-              Europe is the less,
-              <br />
-              As well as if a promontory were:
-              <br />
-              As well as if a manor of thy friend's
-              <br />
-              Or of thine own were.
-            </p>
-            <p>
-              Any man's death diminishes me,
-              <br />
-              Because I am involved in mankind.
-              <br />
-              And therefore never send to know for whom the bell tolls;
-              <br />
-              It tolls for thee.
-            </p>
-          </blockquote>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-          <table>
-            <caption>
-              Table Caption
-            </caption>
-            <thead>
-              <tr>
-                <th></th>
-                <th scope="col">Header Column A</th>
-                <th scope="col">Header Column B</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Header Row 1</th>
-                <td>Cell A1</td>
-                <td>Cell B1</td>
-              </tr>
-              <tr>
-                <th scope="row">Header Row 2</th>
-                <td>Cell A2</td>
-                <td>Cell B2</td>
-              </tr>
-            </tbody>
-          </table>
-        </article>
-      </utrecht-html-content>
-    </utrecht-article>
-    <section>
-      <utrecht-html-content>
-        <form action="https://example.com/" method="post">
-          <p>
-            <label htmlFor="username">Username</label>
-            <input type="text" autocomplete="username" id="username" name="username" />
+            Componenten die nog niet voor Angular beschikbaar zijn, kun je waarschijnlijk relatief snel maken door
+            gebruik te maken van de CSS die al wel bestaat.
           </p>
           <p>
-            <label for="notes">Notes</label>
-            <textarea id="notes" name="notes"></textarea>
-          </p>
-          <fieldset>
-            <legend>Disabled inputs</legend>
-            <p>
-              <label for="disabled-username">Username</label>
-              <input type="text" autocomplete="username" id="disabled-username" name="username" disabled />
-            </p>
-            <p>
-              <label for="disabled-notes">Notes</label>
-              <textarea id="disabled-notes" name="notes" disabled></textarea>
-            </p>
-          </fieldset>
-          <fieldset>
-            <legend>Read-only inputs</legend>
-            <p>
-              <label for="readonly-username">Username</label>
-              <input
-                type="text"
-                autocomplete="username"
-                id="readonly-username"
-                name="username"
-                value="example"
-                readonly
-              />
-            </p>
-            <p>
-              <label for="readonly-notes">Notes</label>
-              <textarea id="readonly-notes" name="notes" value="example" readonly></textarea>
-            </p>
-          </fieldset>
-          <fieldset>
-            <legend>Inputs with placeholder</legend>
-            <p>
-              <label for="placeholder-username">Username</label>
-              <input
-                type="text"
-                autocomplete="username"
-                id="placeholder-username"
-                name="username"
-                placeholder="Username"
-              />
-            </p>
-            <p>
-              <label for="placeholder-notes">Notes</label>
-              <textarea id="placeholder-notes" name="notes" placeholder="Write some notes"></textarea>
-            </p>
-          </fieldset>
-          <fieldset>
-            <legend>Options</legend>
-            <p>
-              <input type="radio" id="option-a" name="option" value="A" />
-              <label for="option-a">Option A</label>
-            </p>
-            <p>
-              <input type="radio" id="option-b" name="option" value="B" />
-              <label for="option-b">Option B</label>
-            </p>
-          </fieldset>
-          <p>
-            <input type="checkbox" id="eula" name="eula" />
-            <label for="eula">I agree to the terms and conditions</label>
+            We hebben extra aandacht besteed aan de formulier-componenten, zodat ze werken met Angular form bindings.
           </p>
           <p>
-            <button type="submit">Login</button>
+            In Angular worden componenten vaak gerendered met een custom element als wrapper. Voor sommige componenten
+            levert dit problemen op, bijvoorbeeld wanneer in HTML bepaalde elementen een directe parent-child-relatie
+            moeten hebben. Denk aan: <code>ol</code>/<code>li</code>,
+            <code>table</code>/<code>tbody</code>/<code>tr</code>/<code>td</code>, of
+            <code>fieldset</code>/<code>legend</code>. We maken nu voor veel elementen gebruik van attribute selectors,
+            om te voorkomen dat er een extra element wordt gemaakt. In de toekomst worden mogelijk bijna alle
+            componenten beschikbaar via attribute selectors.
           </p>
-        </form>
-      </utrecht-html-content>
-    </section>
-    <section>
-      <utrecht-heading level="2">Web Components</utrecht-heading>
-      <section>
-        <utrecht-heading level="3">Status Badge</utrecht-heading>
-        <ul>
-          <li>
-            <utrecht-badge-status type="neutral">neutral</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="danger">danger</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="warning">warning</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="safe">safe</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="invalid">invalid</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="valid">valid</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="error">error</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="success">success</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="inactive">inactive</utrecht-badge-status>
-          </li>
-          <li>
-            <utrecht-badge-status type="active">active</utrecht-badge-status>
-          </li>
-        </ul>
-      </section>
-      <form>
-        <fieldset>
-          <legend>Angular reactive forms</legend>
-          <utrecht-html-content>
-            <table>
-              <thead>
-                <tr>
-                  <th scope="column">Component</th>
-                  <th scope="column">Example</th>
-                  <th scope="column">Value</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row"><code>utrecht-textbox</code></th>
-                  <td>
-                    <utrecht-textbox [formControl]="textbox">Name</utrecht-textbox>
-                  </td>
-                  <td>{{ textbox.value }}</td>
-                </tr>
-                <tr>
-                  <th scope="row"><code>utrecht-checkbox</code></th>
-                  <td>
-                    <utrecht-checkbox [formControl]="checkbox">Checkbox</utrecht-checkbox>
-                  </td>
-                  <td>{{ checkbox.value }}</td>
-                </tr>
-                <tr>
-                  <th scope="row"><code>utrecht-form-field-textbox</code></th>
-                  <td>
-                    <utrecht-form-field-textbox [formControl]="textbox">Example Name</utrecht-form-field-textbox>
-                  </td>
-                  <td>{{ textbox.value }}</td>
-                </tr>
-                <tr>
-                  <th scope="row"><code>utrecht-form-field-checkbox</code></th>
-                  <td>
-                    <utrecht-form-field-checkbox [formControl]="checkbox">Example Checkbox</utrecht-form-field-checkbox>
-                  </td>
-                  <td>{{ checkbox.value }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </utrecht-html-content>
-        </fieldset>
-      </form>
-    </section>
-    <utrecht-paragraph lead="true">paragraph</utrecht-paragraph>
-    <utrecht-separator></utrecht-separator>
-  </main>
-  <utrecht-page-footer>
-    <p>Footer</p>
-    <div>
-      <nl-theme-switcher></nl-theme-switcher>
-    </div>
-  </utrecht-page-footer>
+          <pre>
+&lt;table utrecht-table&gt;
+  &lt;tbody utrecht-table-body&gt;
+    &lt;tr utrecht-table-row&gt;
+      &lt;td utrecht-table-cell&gt;...</pre
+          >
+          <utrecht-paragraph
+            >Bekijk de broncode op GitHub:
+            <a href="https://github.com/nl-design-system/example-with-angular" utrecht-link [external]="true"
+              >nl-design-system/example-with-angular</a
+            ></utrecht-paragraph
+          >
+          <section>
+            <example-story name="Heading 1" id="angular-utrecht-heading-1">
+              <utrecht-heading-1>The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-1>
+            </example-story>
+            <example-story name="Heading 2" id="angular-utrecht-heading-2">
+              <utrecht-heading-2>The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-2>
+            </example-story>
+            <example-story name="Heading 3" id="angular-utrecht-heading-3">
+              <utrecht-heading-3>The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-3>
+            </example-story>
+            <example-story name="Heading 4" id="angular-utrecht-heading-4">
+              <utrecht-heading-4>The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-4>
+            </example-story>
+            <example-story name="Heading 5" id="angular-utrecht-heading-5">
+              <utrecht-heading-5>The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-5>
+            </example-story>
+            <example-story name="Heading 6" id="angular-utrecht-heading-6">
+              <utrecht-heading-6>The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-6>
+            </example-story>
+            <example-story name="Ordered list" id="angular-utrecht-ordered-list">
+              <ol utrecht-ordered-list>
+                <li utrecht-ordered-list-item>Ordered Item 1</li>
+              </ol>
+            </example-story>
+            <example-story name="Separator" id="angular-utrecht-separator">
+              <utrecht-separator></utrecht-separator>
+            </example-story>
+            <example-story name="Unordered list" id="angular-utrecht-unordered-list">
+              <ul utrecht-unordered-list>
+                <li utrecht-unordered-list-item>Unordered Item 1</li>
+              </ul>
+            </example-story>
+            <example-story name="Form label" id="angular-utrecht-form-label">
+              <label utrecht-form-label>Form label</label>
+            </example-story>
+            <example-story name="Form label for radio button option" id="angular-utrecht-form-label--radio">
+              <label utrecht-form-label type="radio">Form label</label>
+            </example-story>
+            <example-story name="Form label for checkbox option" id="angular-utrecht-form-label--checkbox">
+              <label utrecht-form-label type="checkbox">Form label</label>
+            </example-story>
+            <example-story name="Form label for disabled form control" id="angular-utrecht-form-label--disabled">
+              <label utrecht-form-label [disabled]="true">Form label</label>
+            </example-story>
+            <example-story name="Form label for checked radio button" id="angular-utrecht-form-label--checked">
+              <label utrecht-form-label type="radio" [checked]="true">Form label</label>
+            </example-story>
+            <example-story name="Form label for checked checkbox button" id="angular-utrecht-form-label--checked-radio">
+              <label utrecht-form-label type="checkbox" [checked]="true">Form label</label>
+            </example-story>
+            <example-story name="Textbox" id="angular-utrecht-textbox">
+              <input type="text" utrecht-textbox />
+            </example-story>
+            <example-story name="Disabled textbox" id="angular-utrecht-textbox--disabled">
+              <input type="text" utrecht-textbox [disabled]="true" />
+            </example-story>
+            <example-story name="Read-only textbox" id="angular-utrecht-textbox--read-only">
+              <input type="text" utrecht-textbox [readOnly]="true" />
+            </example-story>
+            <example-story name="Invalid textbox" id="angular-utrecht-textbox--invalid">
+              <input type="text" utrecht-textbox [invalid]="true" />
+            </example-story>
+            <example-story name="Required textbox">
+              <input type="text" utrecht-textbox [required]="true" id="angular-utrecht-textbox--required" />
+            </example-story>
+            <example-story name="Textbox with placeholder FIXME" id="angular-utrecht-textbox--placeholder">
+              <input type="text" utrecht-textbox placeholder="Placeholder" />
+            </example-story>
+            <example-story name="Textarea" id="angular-utrecht-textarea">
+              <textarea utrecht-textarea></textarea>
+            </example-story>
+            <example-story name="Disabled textarea" id="angular-utrecht-textarea--disabled">
+              <textarea utrecht-textarea [disabled]="true"></textarea>
+            </example-story>
+            <example-story name="Read-only textarea" id="angular-utrecht-textarea--read-only">
+              <textarea utrecht-textarea [readOnly]="true"></textarea>
+            </example-story>
+            <example-story name="Invalid textarea" id="angular-utrecht-textarea--invalid">
+              <textarea utrecht-textarea [invalid]="true"></textarea>
+            </example-story>
+            <example-story name="Required textarea" id="angular-utrecht-textarea--required">
+              <textarea utrecht-textarea [required]="true"></textarea>
+            </example-story>
+            <example-story name="Textarea with placeholder" id="angular-utrecht-textarea--placeholder">
+              <textarea utrecht-textarea placeholder="Placeholder"></textarea>
+            </example-story>
+            <fieldset utrecht-form-fieldset>
+              <legend utrecht-form-fieldset-legend>Checkbox group</legend>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="b14381ec-d517-4a2e-9d37-e920501fbe93">Option 1</label>
+                <input type="checkbox" utrecht-checkbox id="b14381ec-d517-4a2e-9d37-e920501fbe93" value="1" />
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="d404ad81-6f6e-48e9-a0d2-bd9c38a333d7">Option 2</label>
+                <input type="checkbox" utrecht-checkbox id="d404ad81-6f6e-48e9-a0d2-bd9c38a333d7" value="2" />
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="f35c996f-8617-442a-85b5-80a5086d97c9" [disabled]="true"
+                  >Disabled option 3</label
+                >
+                <input
+                  type="checkbox"
+                  utrecht-checkbox
+                  id="f35c996f-8617-442a-85b5-80a5086d97c9"
+                  value="3"
+                  [disabled]="true"
+                />
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="e8b3c516-76eb-40bb-835e-282b60782028"
+                  >Required option 4</label
+                >
+                <input
+                  type="checkbox"
+                  utrecht-checkbox
+                  id="e8b3c516-76eb-40bb-835e-282b60782028"
+                  value="4"
+                  [required]="true"
+                />
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="61cff474-ee09-4571-9896-1ba1291f1ffa"
+                  >Invalid option 5</label
+                >
+                <input
+                  type="checkbox"
+                  utrecht-checkbox
+                  id="61cff474-ee09-4571-9896-1ba1291f1ffa"
+                  value="5"
+                  [invalid]="true"
+                />
+              </utrecht-form-field>
+            </fieldset>
+            <example-story name="External link">
+              <a href="https://example.com" utrecht-link [external]="true">Example.com</a>
+            </example-story>
+            <example-story name="Link to the previous page in a series of pages">
+              <a href="#prev" utrecht-link rel="prev">Example.com</a>
+            </example-story>
+            <example-story name="Link">
+              <a href="https://example.com" utrecht-link>Example.com</a>
+            </example-story>
+            <example-story name="Button" id="angular-utrecht-button">
+              <button utrecht-button>Default</button>
+            </example-story>
+            <example-story name="Primary action button" id="angular-utrecht-button--primary-action">
+              <button utrecht-button appearance="primary-action-button">Primary action</button>
+            </example-story>
+            <example-story name="Secondary action button" id="angular-utrecht-button--secondary-action">
+              <button utrecht-button appearance="secondary-action-button">Secondary action</button>
+            </example-story>
+            <example-story name="Subtle button" id="angular-utrecht-button--subtle">
+              <button utrecht-button appearance="subtle-action-button">Subtle</button>
+            </example-story>
+            <example-story name="Disabled button" id="angular-utrecht-button--disabled">
+              <button utrecht-button type="submit" [disabled]="true">Disabled</button>
+            </example-story>
+            <example-story name="Submit button" id="angular-utrecht-button--submit">
+              <button utrecht-button type="submit">Submit</button>
+            </example-story>
+            <example-story name="Busy button" id="angular-utrecht-button--busy">
+              <button utrecht-button [busy]="true">Busy</button>
+            </example-story>
+            <example-story name="Button group" id="angular-utrecht-button-group">
+              <utrecht-button-group>
+                <button utrecht-button appearance="primary-action-button">Submit request</button>
+                <button utrecht-button appearance="secondary-action-button">Save and continue later</button>
+              </utrecht-button-group>
+            </example-story>
+            <example-story name="Table" id="angular-utrecht-table">
+              <table utrecht-table>
+                <caption utrecht-table-caption>
+                  Table caption
+                </caption>
+                <thead utrecht-table-header>
+                  <tr utrecht-table-row>
+                    <th utrecht-table-header-cell scope="column">Column header cell 1</th>
+                    <th utrecht-table-header-cell scope="column">Column header cell 2</th>
+                    <th utrecht-table-header-cell scope="column">Column header cell 3</th>
+                  </tr>
+                </thead>
+                <tfoot utrecht-table-footer>
+                  <tr utrecht-table-row>
+                    <th utrecht-table-cell>Footer cell 1</th>
+                    <th utrecht-table-cell>Footer cell 2</th>
+                    <th utrecht-table-cell>Footer cell 3</th>
+                  </tr>
+                </tfoot>
+                <tbody utrecht-table-body>
+                  <tr utrecht-table-row>
+                    <th utrecht-table-header-cell scope="row">Row header cell</th>
+                    <td utrecht-table-cell>Table cell 1</td>
+                    <td utrecht-table-cell>Table cell 2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </example-story>
+            <section>
+              <h2>Badge</h2>
+              <example-story name="Neutral badge">
+                <utrecht-badge-status type="neutral">neutral</utrecht-badge-status>
+              </example-story>
+              <example-story name="Danger badge">
+                <utrecht-badge-status type="danger">danger</utrecht-badge-status>
+              </example-story>
+              <example-story nmae="Warning badge">
+                <utrecht-badge-status type="warning">warning</utrecht-badge-status>
+              </example-story>
+              <example-story name="Safe badge">
+                <utrecht-badge-status type="safe">safe</utrecht-badge-status>
+              </example-story>
+              <example-story name="Invalid badge">
+                <utrecht-badge-status type="invalid">invalid</utrecht-badge-status>
+              </example-story>
+              <example-story name="Valid badge">
+                <utrecht-badge-status type="valid">valid</utrecht-badge-status>
+              </example-story>
+              <example-story name="Error badge">
+                <utrecht-badge-status type="error">error</utrecht-badge-status>
+              </example-story>
+              <example-story name="Success badge">
+                <utrecht-badge-status type="success">success</utrecht-badge-status>
+              </example-story>
+              <example-story name="Inactive badge">
+                <utrecht-badge-status type="inactive">inactive</utrecht-badge-status>
+              </example-story>
+              <example-story name="Active badge">
+                <utrecht-badge-status type="active">active</utrecht-badge-status>
+              </example-story>
+            </section>
+            <fieldset>
+              <legend>Radio group</legend>
+              <utrecht-form-field>
+                <input type="radio" utrecht-radio-button id="option-a" name="option" value="A" />
+                <label for="option-a" utrecht-form-label>Option A</label>
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <input type="radio" utrecht-radio-button id="option-b" name="option" value="B" />
+                <label for="option-b" utrecht-form-label>Option B</label>
+              </utrecht-form-field>
+            </fieldset>
+            <fieldset utrecht-form-fieldset>
+              <legend utrecht-form-fieldset-legend>Angular reactive forms</legend>
+              <utrecht-button-group>
+                <button utrecht-button>Default</button>
+                <button utrecht-button appearance="primary-action-button">Primary action</button>
+                <button utrecht-button appearance="secondary-action-button">Secondary action</button>
+                <button utrecht-button appearance="subtle-action-button">Subtle</button>
+                <button utrecht-button type="submit" [disabled]="true">Disabled</button>
+                <button utrecht-button type="submit">Submit</button>
+                <button utrecht-button [busy]="true">Busy</button>
+              </utrecht-button-group>
+              <utrecht-html-content>
+                <table utrecht-table>
+                  <thead utrecht-table-header>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="column">Component</th>
+                      <th utrecht-table-header-cell scope="column">Example</th>
+                      <th utrecht-table-header-cell scope="column">Value</th>
+                    </tr>
+                  </thead>
+                  <tbody utrecht-table-body>
+                    <caption utrecht-table-caption>
+                      Tabel
+                    </caption>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code></th>
+                      <td utrecht-table-cell>
+                        <label utrecht-form-label for="14d07fbb-0890-41b3-a9f2-2bff1ad100d0">Name</label>
+                        <input utrecht-textbox [formControl]="textbox" id="14d07fbb-0890-41b3-a9f2-2bff1ad100d0" />
+                      </td>
+                      <td utrecht-table-cell>{{ textbox.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code>, required</th>
+                      <td utrecht-table-cell>
+                        <input utrecht-textbox [formControl]="textbox" [required]="true" />
+                      </td>
+                      <td utrecht-table-cell>{{ textbox.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code>, disabled</th>
+                      <td utrecht-table-cell>
+                        <input utrecht-textbox [formControl]="textbox" [disabled]="true" />
+                      </td>
+                      <td utrecht-table-cell>{{ textbox.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code>, readonly</th>
+                      <td utrecht-table-cell>
+                        <input utrecht-textbox [formControl]="textbox" [readonly]="true" />
+                      </td>
+                      <td utrecht-table-cell>{{ textbox.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code>, invalid</th>
+                      <td utrecht-table-cell>
+                        <input utrecht-textbox [formControl]="textbox" [invalid]="true" />
+                      </td>
+                      <td utrecht-table-cell>{{ textbox.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code>, type=email</th>
+                      <td utrecht-table-cell>
+                        <input utrecht-textbox [formControl]="email" type="email" />
+                      </td>
+                      <td utrecht-table-cell>{{ email.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code>, type=url</th>
+                      <td utrecht-table-cell>
+                        <input utrecht-textbox [formControl]="url" type="url" />
+                      </td>
+                      <td utrecht-table-cell>{{ url.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code>, type=number</th>
+                      <td utrecht-table-cell>
+                        <input utrecht-textbox [formControl]="number" type="number" />
+                      </td>
+                      <td utrecht-table-cell>{{ number.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textbox</code>, inputmode=number</th>
+                      <td utrecht-table-cell>
+                        <input utrecht-textbox [formControl]="number" inputmode="number" />
+                      </td>
+                      <td utrecht-table-cell>{{ number.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textarea</code></th>
+                      <td utrecht-table-cell>
+                        <textarea utrecht-textarea [formControl]="textarea"></textarea>
+                      </td>
+                      <td utrecht-table-cell>{{ textarea.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textarea</code>, required</th>
+                      <td utrecht-table-cell>
+                        <textarea utrecht-textarea [formControl]="textarea" required="true"></textarea>
+                      </td>
+                      <td utrecht-table-cell>{{ textarea.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textarea</code>, disabled</th>
+                      <td utrecht-table-cell>
+                        <textarea utrecht-textarea [formControl]="textarea" disabled="true"></textarea>
+                      </td>
+                      <td utrecht-table-cell>{{ textarea.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textarea</code>, readonly</th>
+                      <td utrecht-table-cell>
+                        <textarea utrecht-textarea [formControl]="textarea" readonly="true"></textarea>
+                      </td>
+                      <td utrecht-table-cell>{{ textarea.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-textarea</code>, invalid</th>
+                      <td utrecht-table-cell>
+                        <textarea utrecht-textarea [formControl]="textarea" invalid="true"></textarea>
+                      </td>
+                      <td utrecht-table-cell>{{ textarea.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-checkbox</code></th>
+                      <td utrecht-table-cell>
+                        <input type="checkbox" utrecht-checkbox [formControl]="checkbox" />
+                      </td>
+                      <td utrecht-table-cell>{{ checkbox.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-form-field-textbox</code></th>
+                      <td utrecht-table-cell>
+                        <!-- <utrecht-form-field-textbox [formControl]="textbox">Example Name</utrecht-form-field-textbox> -->
+                      </td>
+                      <td utrecht-table-cell>{{ textbox.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-form-field-checkbox</code></th>
+                      <td utrecht-table-cell>
+                        <!-- <utrecht-form-field-checkbox [formControl]="checkbox">Example Checkbox</utrecht-form-field-checkbox> -->
+                      </td>
+                      <td utrecht-table-cell>{{ checkbox.value }}</td>
+                    </tr>
+                    <tr utrecht-table-row>
+                      <th utrecht-table-header-cell scope="row"><code>utrecht-radio-button</code></th>
+                      <td utrecht-table-cell>
+                        <utrecht-form-field>
+                          <label for="dd122ad5-3ef9-4120-b98b-ff8cac9f604e" utrecht-form-label>Option A</label>
+                          <input
+                            type="radio"
+                            utrecht-radio-button
+                            [formControl]="radio"
+                            value="A"
+                            id="dd122ad5-3ef9-4120-b98b-ff8cac9f604e"
+                          />
+                        </utrecht-form-field>
+                        <utrecht-form-field>
+                          <label for="f02359c9-2eb8-47cb-a471-227038330ba6" utrecht-form-label>Option B</label>
+                          <input
+                            type="radio"
+                            utrecht-radio-button
+                            [formControl]="radio"
+                            value="B"
+                            id="f02359c9-2eb8-47cb-a471-227038330ba6"
+                          />
+                        </utrecht-form-field>
+                      </td>
+                      <td utrecht-table-cell>{{ radio.value }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </utrecht-html-content>
+            </fieldset>
+          </section>
+          <example-story name="Paragraph" id="angular-utrecht-paragraph">
+            <utrecht-paragraph>paragraph</utrecht-paragraph>
+          </example-story>
+          <example-story name="Lead paragraph" id="angular-utrecht-paragraph--lead">
+            <utrecht-paragraph lead="true">paragraph</utrecht-paragraph>
+          </example-story>
+        </utrecht-article>
+      </main>
+    </utrecht-page-content>
+    <utrecht-page-footer>
+      <p>Footer</p>
+      <div>
+        <nl-theme-switcher></nl-theme-switcher>
+      </div>
+    </utrecht-page-footer>
+  </utrecht-page>
 </utrecht-document>

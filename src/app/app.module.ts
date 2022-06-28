@@ -5,8 +5,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { UtrechtWebComponentsModule } from '@utrecht/web-component-library-angular';
+import { UtrechtComponentsModule } from '@utrecht/component-library-angular';
 import { ThemeSwitcherComponent } from './theme-switcher.component';
+import { ExampleComponentsModule } from '../components';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
@@ -27,7 +28,8 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
         deps: [HttpClient],
       },
     }),
-    UtrechtWebComponentsModule,
+    UtrechtComponentsModule,
+    ExampleComponentsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

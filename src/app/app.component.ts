@@ -13,6 +13,11 @@ export class AppComponent {
   title = 'my-app';
   checkbox = new FormControl(true);
   textbox = new FormControl('Sam Simpleton');
+  textarea = new FormControl('Lorem ipsum');
+  email = new FormControl('info@example.com');
+  url = new FormControl('https://example.com/');
+  radio = new FormControl('A');
+  number = new FormControl('42');
   currentLang$: Observable<string>;
 
   constructor(private translate: TranslateService) {
