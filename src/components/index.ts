@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ExampleStory } from './story/component';
+import { ExampleStoryComponent } from './story/component';
 
-const components = [ExampleStory];
+const components = [ExampleStoryComponent];
 
 @NgModule({
   declarations: [...components],

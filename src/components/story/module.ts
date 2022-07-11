@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { ExampleStory } from './component';
+import { ExampleStoryComponent } from './component';
 
 @NgModule({
   imports: [],
-  exports: [ExampleStory],
-  declarations: [ExampleStory],
+  exports: [ExampleStoryComponent],
+  declarations: [ExampleStoryComponent],
 })
 export class ExampleStoryModule {}

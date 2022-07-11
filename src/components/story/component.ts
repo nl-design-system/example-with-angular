@@ -1,15 +1,13 @@
-import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'example-story',
   templateUrl: 'index.html',
   styleUrls: ['index.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  host: {
-    '[attr.role]': 'presentation',
-  },
 })
-export class ExampleStory {
+export class ExampleStoryComponent {
   @Input() name = '';
+  @HostBinding('attr.role') role = 'presentation';
   constructor() {}
 }
