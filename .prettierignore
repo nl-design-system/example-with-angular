@@ -7,3 +7,4 @@ angular.json
 CHANGELOG.md
 package.json
 package-lock.json
+.angular/
