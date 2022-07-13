@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -11,13 +11,13 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'my-app';
-  checkbox = new FormControl(true);
-  textbox = new FormControl('Sam Simpleton');
-  textarea = new FormControl('Lorem ipsum');
-  email = new FormControl('info@example.com');
-  url = new FormControl('https://example.com/');
-  radio = new FormControl('A');
-  number = new FormControl('42');
+  checkbox = new UntypedFormControl(true);
+  textbox = new UntypedFormControl('Sam Simpleton');
+  textarea = new UntypedFormControl('Lorem ipsum');
+  email = new UntypedFormControl('info@example.com');
+  url = new UntypedFormControl('https://example.com/');
+  radio = new UntypedFormControl('A');
+  number = new UntypedFormControl('42');
   currentLang$: Observable<string>;
 
   constructor(private translate: TranslateService) {
