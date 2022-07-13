@@ -41,7 +41,7 @@
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "@utrecht/component-library-angular": "1.0.0-alpha.23",
-    "@utrecht/component-library-css": "1.0.0-alpha.221",
+    "@utrecht/component-library-css": "1.0.0-alpha.246",
     "@utrecht/design-tokens": "1.0.0-alpha.214",
     "@utrecht/web-component-library-angular": "1.0.0-alpha.204",
     "@utrecht/web-component-library-stencil": "1.0.0-alpha.220",
