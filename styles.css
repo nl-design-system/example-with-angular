@@ -1,6 +1,9 @@
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/@utrecht/design-tokens/dist/index.css ***!
+  \********************************************************************************************************************************************************************************************************************************************/
 /**
  * Do not edit directly
- * Generated on Sat, 21 May 2022 09:38:56 GMT
+ * Generated on Wed, 13 Jul 2022 13:51:42 GMT
  */
 
 .utrecht-theme {
@@ -84,7 +87,7 @@
   --utrecht-unordered-list-item-margin-block-start: 0.5rem;
   --utrecht-unordered-list-margin-block-end: 1rem;
   --utrecht-unordered-list-margin-block-start: 0;
-  --utrecht-toptask-link-icon-size: 1.7rem;
+  --utrecht-toptask-link-icon-size: 2.25rem;
   --utrecht-toptask-link-hover-transform-scale: 1.02;
   --utrecht-toptask-link-min-inline-size: 15rem;
   --utrecht-toptask-link-min-block-size: 8.25rem;
@@ -157,7 +160,11 @@
   --utrecht-link-focus-text-decoration: none;
   --utrecht-link-text-underline-offset: 3px;
   --utrecht-link-text-decoration: underline;
+  --utrecht-link-social-size: 40px;
+  --utrecht-link-social-border-width: 2px;
   --utrecht-link-list-marker-inline-size: 16px;
+  --utrecht-icon-size: 48px;
+  --utrecht-icon-color: ;
   --utrecht-heading-5-margin-block-start: 1rem;
   --utrecht-heading-5-margin-block-end: 0.2rem;
   --utrecht-heading-4-margin-block-start: 1.2rem;
@@ -198,6 +205,11 @@
   --utrecht-form-fieldset-legend-line-height: 1.4;
   --utrecht-form-fieldset-legend-font-size: 1rem;
   --utrecht-document-line-height: 1.4;
+  --utrecht-custom-radio-button-icon-size: 16px;
+  --utrecht-custom-radio-button-border-radius: 0;
+  --utrecht-custom-radio-button-focus-border-width: 3px;
+  --utrecht-custom-radio-button-size: 24px;
+  --utrecht-custom-radio-button-border-width: 1px;
   --utrecht-custom-checkbox-focus-border-width: 3px;
   --utrecht-custom-checkbox-icon-size: 16px;
   --utrecht-custom-checkbox-size: 24px;
@@ -415,6 +427,10 @@
   --utrecht-mapcontrolbutton-border-width: var(--utrecht-border-width-sm);
   --utrecht-link-focus-color: var(--utrecht-color-blue-40);
   --utrecht-link-color: var(--utrecht-color-blue-35);
+  --utrecht-link-social-color: var(--utrecht-color-white);
+  --utrecht-link-social-margin-inline-start: var(--utrecht-space-inline-sm);
+  --utrecht-link-social-border-color: var(--utrecht-color-white);
+  --utrecht-link-social-background-color: var(--utrecht-color-red-40);
   --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-heading-6-text-transform: var(--utrecht-typography-text-transform-uppercase);
@@ -479,6 +495,13 @@
   --utrecht-document-font-family: var(--utrecht-typography-sans-serif-font-family);
   --utrecht-document-color: var(--utrecht-color-black);
   --utrecht-document-background-color: var(--utrecht-color-white);
+  --utrecht-custom-radio-button-invalid-color: var(--utrecht-color-white);
+  --utrecht-custom-radio-button-disabled-color: var(--utrecht-color-grey-80);
+  --utrecht-custom-radio-button-disabled-background-color: var(--utrecht-color-white);
+  --utrecht-custom-radio-button-disabled-border-color: var(--utrecht-color-grey-80);
+  --utrecht-custom-radio-button-checked-color: var(--utrecht-color-white);
+  --utrecht-custom-radio-button-checked-background-color: var(--utrecht-color-blue-40);
+  --utrecht-custom-radio-button-checked-border-color: var(--utrecht-color-blue-40);
   --utrecht-custom-checkbox-invalid-color: var(--utrecht-color-white);
   --utrecht-custom-checkbox-checked-color: var(--utrecht-color-white);
   --utrecht-custom-checkbox-checked-background-color: var(--utrecht-color-blue-40);
@@ -521,6 +544,9 @@
   --utrecht-button-secondary-action-background-color: var(--utrecht-color-white);
   --utrecht-button-primary-action-focus-border-width: var(--utrecht-border-width-md);
   --utrecht-button-primary-action-focus-border-color: var(--utrecht-color-blue-40);
+  --utrecht-button-primary-action-focus-background-color: var(--utrecht-color-blue-40);
+  --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
+  --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-90);
   --utrecht-button-primary-action-hover-color: var(--utrecht-color-white);
   --utrecht-button-primary-action-hover-background-color: var(--utrecht-color-blue-40);
   --utrecht-button-primary-action-color: var(--utrecht-color-white);
@@ -580,6 +606,10 @@
   --utrecht-heading-1-color: var(--utrecht-document-color);
   --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
   --utrecht-form-input-font-family: var(--utrecht-document-font-family);
+  --utrecht-custom-radio-button-color: var(--utrecht-form-input-color);
+  --utrecht-custom-radio-button-invalid-background-color: var(--utrecht-feedback-invalid-background-color);
+  --utrecht-custom-radio-button-border-color: var(--utrecht-form-input-border-color);
+  --utrecht-custom-radio-button-background-color: var(--utrecht-form-input-background-color);
   --utrecht-custom-checkbox-invalid-background-color: var(--utrecht-feedback-invalid-background-color);
   --utrecht-custom-checkbox-color: var(--utrecht-form-input-color);
   --utrecht-custom-checkbox-border-color: var(--utrecht-form-input-border-color);
@@ -596,6 +626,7 @@
   --utrecht-feedback-warning-background-color: var(--utrecht-feedback-warning-color);
   --utrecht-feedback-danger-border-color: var(--utrecht-feedback-danger-color);
   --utrecht-feedback-danger-background-color: var(--utrecht-feedback-danger-color);
+  --utrecht-custom-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
   --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
   --utrecht-feedback-active-border-color: var(--utrecht-feedback-safe-border-color);
   --utrecht-feedback-active-background-color: var(--utrecht-feedback-safe-background-color);
@@ -617,6 +648,9 @@
   --utrecht-feedback-valid-fill-background-color: var(--utrecht-feedback-valid-background-color);
 }
 
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./src/styles.css ***!
+  \********************************************************************************************************************************************************************************************************/
 /* You can add global styles to this file, and also import other style files */
 
 
