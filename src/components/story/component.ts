@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, Input, HostBinding } from '@angular
 @Component({
   selector: 'example-story',
   templateUrl: 'index.html',
-  styleUrls: ['index.scss'],
+  styleUrls: ['index.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ExampleStoryComponent {
