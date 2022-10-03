@@ -39,7 +39,7 @@
     "@types/node": "18.0.3",
     "@typescript-eslint/eslint-plugin": "5.30.6",
     "@typescript-eslint/parser": "5.30.6",
-    "@utrecht/component-library-angular": "1.0.0-alpha.26",
+    "@utrecht/component-library-angular": "1.0.0-alpha.130",
     "@utrecht/component-library-css": "1.0.0-alpha.247",
     "@utrecht/design-tokens": "1.0.0-alpha.240",
     "@utrecht/web-component-library-angular": "1.0.0-alpha.230",
