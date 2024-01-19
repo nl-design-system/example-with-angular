@@ -7,4 +7,6 @@ angular.json
 CHANGELOG.md
 package.json
 package-lock.json
+yarn.lock
+pnpm-lock.yaml
 .angular/
