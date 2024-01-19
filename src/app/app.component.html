@@ -1,4 +1,4 @@
-<utrecht-document>
+<div utrecht-document>
   <utrecht-page>
     <utrecht-page-content>
       <main>
@@ -31,12 +31,12 @@
     &lt;tr utrecht-table-row&gt;
       &lt;td utrecht-table-cell&gt;...</pre
           >
-          <utrecht-paragraph
-            >Bekijk de broncode op GitHub:
+          <p utrecht-paragraph>
+            Bekijk de broncode op GitHub:
             <a href="https://github.com/nl-design-system/example-with-angular" utrecht-link [external]="true"
               >nl-design-system/example-with-angular</a
-            ></utrecht-paragraph
-          >
+            >
+          </p>
           <section>
             <example-story name="Heading 1" id="angular-utrecht-heading-1">
               <utrecht-heading-1>The Quick Brown Fox Jumps Over The Lazy Dog</utrecht-heading-1>
@@ -454,10 +454,10 @@
             </fieldset>
           </section>
           <example-story name="Paragraph" id="angular-utrecht-paragraph">
-            <utrecht-paragraph>paragraph</utrecht-paragraph>
+            <p utrecht-paragraph>paragraph</p>
           </example-story>
           <example-story name="Lead paragraph" id="angular-utrecht-paragraph--lead">
-            <utrecht-paragraph lead="true">paragraph</utrecht-paragraph>
+            <p utrecht-paragraph [lead]="true">paragraph</p>
           </example-story>
         </utrecht-article>
       </main>
@@ -469,4 +469,4 @@
       </div>
     </utrecht-page-footer>
   </utrecht-page>
-</utrecht-document>
+</div>
