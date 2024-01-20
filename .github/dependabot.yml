@@ -3,43 +3,23 @@ version: 2
 # Documentation:
 # https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/enabling-and-disabling-version-updates
 updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      day: "monday"
+      interval: "monthly"
+      time: "09:00"
+      timezone: "Europe/Amsterdam"
+    reviewers:
+      - "nl-design-system/kernteam-dependabot"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-    target-branch: "main"
+      day: "monday"
+      interval: "monthly"
+      time: "09:00"
+      timezone: "Europe/Amsterdam"
     versioning-strategy: "increase-if-necessary"
     open-pull-requests-limit: 20
-    ignore:
-      # Stay at Angular 11 until manual upgrade to Angular 12
-      - dependency-name: "@angular/animations"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/cli"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/common"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/compiler"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/compiler-cli"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/core"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/forms"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/platform-browser"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/platform-browser-dynamic"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@angular/router"
-        update-types: ["version-update:semver-major"]
-      # `angular-devkit` follows unusual versioning rules.
-      # The important thing is to stay on a version matching Angular 11:
-      #
-      #     npm install --save-dev @angular-devkit/build-angular@v11-lts
-      - dependency-name: "@angular-devkit/build-angular"
-        update-types:
-          ["version-update:semver-major", "version-update:semver-minor"]
-      # Angular Compiler requires TypeScript >=4.0.0 and <4.2.0
-      - dependency-name: "typescript"
-        update-types:
-          ["version-update:semver-major", "version-update:semver-minor"]
+    reviewers:
+      - "nl-design-system/kernteam-dependabot"
