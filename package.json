@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.0.0",
+  "license": "EUPL-1.2",
   "engines": {
     "node": "^20",
     "pnpm": "^8"
