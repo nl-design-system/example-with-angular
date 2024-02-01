@@ -43,7 +43,7 @@
     "@types/jasmine": "5.1.4",
     "@types/node": "20.11.5",
     "@typescript-eslint/eslint-plugin": "6.19.0",
-    "@typescript-eslint/parser": "6.19.0",
+    "@typescript-eslint/parser": "6.20.0",
     "@utrecht/component-library-angular": "1.0.2-alpha.20",
     "@utrecht/component-library-css": "3.0.1-alpha.8",
     "@utrecht/design-tokens": "1.0.0-alpha.621",
