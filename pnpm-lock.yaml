@@ -50,8 +50,8 @@ devDependencies:
     specifier: 17.2.0
     version: 17.2.0(eslint@8.56.0)(typescript@5.3.3)
   '@angular-eslint/template-parser':
-    specifier: 17.2.0
-    version: 17.2.0(eslint@8.56.0)(typescript@5.3.3)
+    specifier: 17.2.1
+    version: 17.2.1(eslint@8.56.0)(typescript@5.3.3)
   '@angular/cli':
     specifier: 17.1.0
     version: 17.1.0
@@ -351,6 +351,10 @@ packages:
     resolution: {integrity: sha512-uBvPbPE2JxqpdLs//Nd5+TRLgjxDxvTYgmGFTKI9Eo98krqps+rhSQCRSHWACukzc25X3Q4ITHfvjODQL8qQkg==}
     dev: true
 
+  /@angular-eslint/bundled-angular-compiler@17.2.1:
+    resolution: {integrity: sha512-puC0itsZv2QlrDOCcWtq1KZH+DvfrpV+mV78HHhi6+h25R5iIhr8ARKcl3EQxFjvrFq34jhG8pSupxKvFbHVfA==}
+    dev: true
+
   /@angular-eslint/eslint-plugin-template@17.2.0(eslint@8.56.0)(typescript@5.3.3):
     resolution: {integrity: sha512-CkcAOWWqNwX0FXeLwJu0Vctso8q/NPHJ95R2Cy8hjwuMyFF83/vDouyeIjYC+SRv6hbevmNa+BbdYXhQZinIHw==}
     peerDependencies:
@@ -383,13 +387,13 @@ packages:
       - supports-color
     dev: true
 
-  /@angular-eslint/template-parser@17.2.0(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-Js9w1IXWPvXEjd05bWkZzRaLw0g0mJPztAWOj3DiU7H9LKkautQq0zZu02cAAnXZim2CsAagEh2GmGjhaYvoKg==}
+  /@angular-eslint/template-parser@17.2.1(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-WPQYFvRju0tCDXQ/pwrzC911pE07JvpeDgcN2elhzV6lxDHJEZpA5O9pnW9qgNA6J6XM9Q7dBkJ22ztAzC4WFw==}
     peerDependencies:
       eslint: ^7.20.0 || ^8.0.0
       typescript: '*'
     dependencies:
-      '@angular-eslint/bundled-angular-compiler': 17.2.0
+      '@angular-eslint/bundled-angular-compiler': 17.2.1
       eslint: 8.56.0
       eslint-scope: 8.0.0
       typescript: 5.3.3
