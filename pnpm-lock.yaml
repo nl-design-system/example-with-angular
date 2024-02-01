@@ -86,8 +86,8 @@ devDependencies:
     specifier: 1.0.0-alpha.621
     version: 1.0.0-alpha.621
   '@utrecht/web-component-library-angular':
-    specifier: 1.0.0-alpha.611
-    version: 1.0.0-alpha.611
+    specifier: 1.0.0-alpha.614
+    version: 1.0.0-alpha.614
   '@utrecht/web-component-library-stencil':
     specifier: 1.1.1-alpha.8
     version: 1.1.1-alpha.8
@@ -2921,8 +2921,8 @@ packages:
     resolution: {integrity: sha512-YkKzQ3AKTrbYx0qkrjIZJJIf+QmJAgRPOR94ldCPsscRsAoD+ZqedS3vidYpUNobjZ4L4T+LGnKn1pfSQ8V6HQ==}
     dev: true
 
-  /@utrecht/web-component-library-angular@1.0.0-alpha.611:
-    resolution: {integrity: sha512-QISgb7Zd952sevOxhF41oEpscdjESkO5UGoG3o/DdZE+7N6UaZu1C05VHz5R0QUnADN+E7CLz3ezUC6l5rIODg==}
+  /@utrecht/web-component-library-angular@1.0.0-alpha.614:
+    resolution: {integrity: sha512-LcNdIRi4stpH1kZ2E4vRIlEZf9WtmIR9JcP8S71XZoMO0k/CrGRKJP3Y+hXqZOgfLtNqjm6yMCNq5G0nlR87nA==}
     dependencies:
       tslib: 2.6.2
     dev: true
