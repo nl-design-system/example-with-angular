@@ -15,7 +15,11 @@
     "lint:prettier": "prettier --check .",
     "lint-fix:js": "eslint --ext '.js,.json,.html,.ts,.tsx' --no-error-on-unmatched-pattern .",
     "prettier": "prettier --write .",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "test-update": "pnpm run --if-present lint && pnpm run --if-present test && pnpm run --if-present build && pnpm run --if-present lint-build && pnpm run --if-present test-build",
+    "update-patch": "npm-check-updates --configFileName .ncurc.patch.cjs --deep --dep dev,prod --target patch --upgrade && pnpm install",
+    "update-minor": "npm-check-updates --configFileName .ncurc.minor.cjs --deep --dep dev,prod --target minor --upgrade && pnpm install",
+    "update-major": "npm-check-updates --configFileName .ncurc.major.cjs --deep --dep dev,prod --target latest --upgrade && pnpm install"
   },
   "private": true,
   "dependencies": {
@@ -62,6 +66,7 @@
     "karma-coverage": "2.2.1",
     "karma-jasmine": "5.1.0",
     "karma-jasmine-html-reporter": "2.1.0",
+    "npm-check-updates": "16.14.14",
     "npm-run-all": "4.1.5",
     "prettier": "3.2.4",
     "protractor": "7.0.0",
