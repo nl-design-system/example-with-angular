@@ -83,8 +83,8 @@ devDependencies:
     specifier: 3.0.1-alpha.12
     version: 3.0.1-alpha.12
   '@utrecht/design-tokens':
-    specifier: 1.0.0-alpha.625
-    version: 1.0.0-alpha.625
+    specifier: 1.0.0-alpha.631
+    version: 1.0.0-alpha.631
   '@utrecht/web-component-library-angular':
     specifier: 1.0.0-alpha.615
     version: 1.0.0-alpha.615
@@ -3061,8 +3061,8 @@ packages:
     resolution: {integrity: sha512-X/vHfxzfrf72lM5VnHvfEa5DaFFZr00EKUjlA3ZY3vMUQvRujiP3uG1ogkEkjtq7Np4WtuO3rOhEvirviB1dFg==}
     dev: true
 
-  /@utrecht/design-tokens@1.0.0-alpha.625:
-    resolution: {integrity: sha512-VCitWmnLfcuSqpVJ8FqQkA5LGQj1JsA3WKnQtzd16EwZ+t2rEESrD3mdGzmKIP4/lkZhuVokH97E9YkEcMd0ig==}
+  /@utrecht/design-tokens@1.0.0-alpha.631:
+    resolution: {integrity: sha512-7+elkcEkn8ghCnBxln8CMlwcdTfr/+wpRztEDVOdy6dZZS/of0LEM4I25d40GmrrGRL0VMOoMFvfb0o2xdA9Zw==}
     dev: true
 
   /@utrecht/web-component-library-angular@1.0.0-alpha.615:
@@ -6718,8 +6718,6 @@ packages:
       webpack: '*'
     peerDependenciesMeta:
       webpack:
-        optional: true
-      webpack-sources:
         optional: true
     dependencies:
       webpack: 5.89.0(esbuild@0.19.11)
