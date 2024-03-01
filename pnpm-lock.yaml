@@ -42,7 +42,7 @@ dependencies:
 devDependencies:
   '@angular-devkit/build-angular':
     specifier: 17.1.2
-    version: 17.1.2(@angular/compiler-cli@17.1.2)(@types/node@20.11.16)(karma@6.4.2)(protractor@7.0.0)(typescript@5.3.3)
+    version: 17.1.2(@angular/compiler-cli@17.1.2)(@types/node@20.11.16)(karma@6.4.3)(protractor@7.0.0)(typescript@5.3.3)
   '@angular-eslint/eslint-plugin':
     specifier: 17.2.1
     version: 17.2.1(eslint@8.56.0)(typescript@5.3.3)
@@ -116,8 +116,8 @@ devDependencies:
     specifier: 7.0.0
     version: 7.0.0
   karma:
-    specifier: 6.4.2
-    version: 6.4.2
+    specifier: 6.4.3
+    version: 6.4.3
   karma-chrome-launcher:
     specifier: 3.2.0
     version: 3.2.0
@@ -126,10 +126,10 @@ devDependencies:
     version: 2.2.1
   karma-jasmine:
     specifier: 5.1.0
-    version: 5.1.0(karma@6.4.2)
+    version: 5.1.0(karma@6.4.3)
   karma-jasmine-html-reporter:
     specifier: 2.1.0
-    version: 2.1.0(jasmine-core@5.1.1)(karma-jasmine@5.1.0)(karma@6.4.2)
+    version: 2.1.0(jasmine-core@5.1.1)(karma-jasmine@5.1.0)(karma@6.4.3)
   npm-check-updates:
     specifier: 16.14.14
     version: 16.14.14
@@ -174,7 +174,7 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/build-angular@17.1.2(@angular/compiler-cli@17.1.2)(@types/node@20.11.16)(karma@6.4.2)(protractor@7.0.0)(typescript@5.3.3):
+  /@angular-devkit/build-angular@17.1.2(@angular/compiler-cli@17.1.2)(@types/node@20.11.16)(karma@6.4.3)(protractor@7.0.0)(typescript@5.3.3):
     resolution: {integrity: sha512-QIDTP+TjiCKCYRZYb8to4ymvIV1Djcfd5c17VdgMGhRqIQAAK1V4f4A1njdhGYOrgsLajZQAnKvFfk2ZMeI37A==}
     engines: {node: ^18.13.0 || >=20.9.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -246,7 +246,7 @@ packages:
       https-proxy-agent: 7.0.2
       inquirer: 9.2.12
       jsonc-parser: 3.2.0
-      karma: 6.4.2
+      karma: 6.4.3
       karma-source-map-support: 1.4.0
       less: 4.2.0
       less-loader: 11.1.0(less@4.2.0)(webpack@5.89.0)
@@ -6575,7 +6575,7 @@ packages:
       - supports-color
     dev: true
 
-  /karma-jasmine-html-reporter@2.1.0(jasmine-core@5.1.1)(karma-jasmine@5.1.0)(karma@6.4.2):
+  /karma-jasmine-html-reporter@2.1.0(jasmine-core@5.1.1)(karma-jasmine@5.1.0)(karma@6.4.3):
     resolution: {integrity: sha512-sPQE1+nlsn6Hwb5t+HHwyy0A1FNCVKuL1192b+XNauMYWThz2kweiBVW1DqloRpVvZIJkIoHVB7XRpK78n1xbQ==}
     peerDependencies:
       jasmine-core: ^4.0.0 || ^5.0.0
@@ -6583,18 +6583,18 @@ packages:
       karma-jasmine: ^5.0.0
     dependencies:
       jasmine-core: 5.1.1
-      karma: 6.4.2
-      karma-jasmine: 5.1.0(karma@6.4.2)
+      karma: 6.4.3
+      karma-jasmine: 5.1.0(karma@6.4.3)
     dev: true
 
-  /karma-jasmine@5.1.0(karma@6.4.2):
+  /karma-jasmine@5.1.0(karma@6.4.3):
     resolution: {integrity: sha512-i/zQLFrfEpRyQoJF9fsCdTMOF5c2dK7C7OmsuKg2D0YSsuZSfQDiLuaiktbuio6F2wiCsZSnSnieIQ0ant/uzQ==}
     engines: {node: '>=12'}
     peerDependencies:
       karma: ^6.0.0
     dependencies:
       jasmine-core: 4.2.0
-      karma: 6.4.2
+      karma: 6.4.3
     dev: true
 
   /karma-source-map-support@1.4.0:
@@ -6603,8 +6603,8 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /karma@6.4.2:
-    resolution: {integrity: sha512-C6SU/53LB31BEgRg+omznBEMY4SjHU3ricV6zBcAe1EeILKkeScr+fZXtaI5WyDbkVowJxxAI6h73NcFPmXolQ==}
+  /karma@6.4.3:
+    resolution: {integrity: sha512-LuucC/RE92tJ8mlCwqEoRWXP38UMAqpnq98vktmS9SznSoUPPUJQbc91dHcxcunROvfQjdORVA/YFviH+Xci9Q==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
@@ -6718,8 +6718,6 @@ packages:
       webpack: '*'
     peerDependenciesMeta:
       webpack:
-        optional: true
-      webpack-sources:
         optional: true
     dependencies:
       webpack: 5.89.0(esbuild@0.19.11)
