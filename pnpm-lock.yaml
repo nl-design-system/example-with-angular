@@ -80,8 +80,8 @@ devDependencies:
     specifier: 1.0.2-alpha.24
     version: 1.0.2-alpha.24
   '@utrecht/component-library-css':
-    specifier: 3.0.1-alpha.12
-    version: 3.0.1-alpha.12
+    specifier: 3.0.1-alpha.19
+    version: 3.0.1-alpha.19
   '@utrecht/design-tokens':
     specifier: 1.0.0-alpha.625
     version: 1.0.0-alpha.625
@@ -3057,8 +3057,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@utrecht/component-library-css@3.0.1-alpha.12:
-    resolution: {integrity: sha512-X/vHfxzfrf72lM5VnHvfEa5DaFFZr00EKUjlA3ZY3vMUQvRujiP3uG1ogkEkjtq7Np4WtuO3rOhEvirviB1dFg==}
+  /@utrecht/component-library-css@3.0.1-alpha.19:
+    resolution: {integrity: sha512-47xhvpoZVMSsPGOAUPCCVHS9DqIk+ux4Sc5LO5BLtTeB9UQoQxCoEwzvEDk2Zr4PazjO/WSGiWd7u9kl6JRWKQ==}
     dev: true
 
   /@utrecht/design-tokens@1.0.0-alpha.625:
@@ -6718,8 +6718,6 @@ packages:
       webpack: '*'
     peerDependenciesMeta:
       webpack:
-        optional: true
-      webpack-sources:
         optional: true
     dependencies:
       webpack: 5.89.0(esbuild@0.19.11)
