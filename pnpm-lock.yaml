@@ -86,8 +86,8 @@ devDependencies:
     specifier: 1.0.0-alpha.625
     version: 1.0.0-alpha.625
   '@utrecht/web-component-library-angular':
-    specifier: 1.0.0-alpha.615
-    version: 1.0.0-alpha.615
+    specifier: 1.0.0-alpha.622
+    version: 1.0.0-alpha.622
   '@utrecht/web-component-library-stencil':
     specifier: 1.1.1-alpha.12
     version: 1.1.1-alpha.12
@@ -3065,8 +3065,8 @@ packages:
     resolution: {integrity: sha512-VCitWmnLfcuSqpVJ8FqQkA5LGQj1JsA3WKnQtzd16EwZ+t2rEESrD3mdGzmKIP4/lkZhuVokH97E9YkEcMd0ig==}
     dev: true
 
-  /@utrecht/web-component-library-angular@1.0.0-alpha.615:
-    resolution: {integrity: sha512-AyVYL8gFIsyrqxD0zMUfMmcPvI1lHBtxhKnxX3VI1pHKrWSQt3+eP8W3tc5NrEQ0/co4O15SDA5kRGsfzZzI2w==}
+  /@utrecht/web-component-library-angular@1.0.0-alpha.622:
+    resolution: {integrity: sha512-Z4xQGorUI7qf0habXr9+9V2W56NuUIHu6VZ8ynPQGI4UwMd+ghK4NhgA4EW7VtW8JDdJjNR9eunI60MuotonTQ==}
     dependencies:
       tslib: 2.6.2
     dev: true
@@ -6718,8 +6718,6 @@ packages:
       webpack: '*'
     peerDependenciesMeta:
       webpack:
-        optional: true
-      webpack-sources:
         optional: true
     dependencies:
       webpack: 5.89.0(esbuild@0.19.11)
