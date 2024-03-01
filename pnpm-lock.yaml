@@ -16,7 +16,7 @@ dependencies:
     version: 17.1.2(@angular/core@17.1.2)
   '@angular/core':
     specifier: 17.1.2
-    version: 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+    version: 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
   '@angular/forms':
     specifier: 17.1.2
     version: 17.1.2(@angular/common@17.1.2)(@angular/core@17.1.2)(@angular/platform-browser@17.1.2)(rxjs@7.8.1)
@@ -36,8 +36,8 @@ dependencies:
     specifier: 2.6.2
     version: 2.6.2
   zone.js:
-    specifier: 0.14.3
-    version: 0.14.3
+    specifier: 0.14.4
+    version: 0.14.4
 
 devDependencies:
   '@angular-devkit/build-angular':
@@ -418,7 +418,7 @@ packages:
     peerDependencies:
       '@angular/core': 17.1.2
     dependencies:
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       tslib: 2.6.2
     dev: false
 
@@ -458,7 +458,7 @@ packages:
       '@angular/core': 17.1.2
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       rxjs: 7.8.1
       tslib: 2.6.2
 
@@ -493,10 +493,10 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       tslib: 2.6.2
 
-  /@angular/core@17.1.2(rxjs@7.8.1)(zone.js@0.14.3):
+  /@angular/core@17.1.2(rxjs@7.8.1)(zone.js@0.14.4):
     resolution: {integrity: sha512-0M787BZVgYSVogHCUzo/dFrT56TgfQoEsOQngHMpyERJZv6dycXZlRdHc6TzvHUa+Uu/MNjn/RclBR8063bdWA==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
@@ -505,7 +505,7 @@ packages:
     dependencies:
       rxjs: 7.8.1
       tslib: 2.6.2
-      zone.js: 0.14.3
+      zone.js: 0.14.4
 
   /@angular/forms@17.1.2(@angular/common@17.1.2)(@angular/core@17.1.2)(@angular/platform-browser@17.1.2)(rxjs@7.8.1):
     resolution: {integrity: sha512-n1WsZAL2IVOB6ocROKR6CFOR14PIC9RGAB41SwTfPhJeBM1kjW48bXY0sw97TasxM4mWJKGCmFXu0jQwkoeSpQ==}
@@ -517,7 +517,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 17.1.2(@angular/core@17.1.2)(rxjs@7.8.1)
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       '@angular/platform-browser': 17.1.2(@angular/animations@17.1.2)(@angular/common@17.1.2)(@angular/core@17.1.2)
       rxjs: 7.8.1
       tslib: 2.6.2
@@ -534,7 +534,7 @@ packages:
     dependencies:
       '@angular/common': 17.1.2(@angular/core@17.1.2)(rxjs@7.8.1)
       '@angular/compiler': 17.1.2(@angular/core@17.1.2)
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       '@angular/platform-browser': 17.1.2(@angular/animations@17.1.2)(@angular/common@17.1.2)(@angular/core@17.1.2)
       tslib: 2.6.2
     dev: false
@@ -552,7 +552,7 @@ packages:
     dependencies:
       '@angular/animations': 17.1.2(@angular/core@17.1.2)
       '@angular/common': 17.1.2(@angular/core@17.1.2)(rxjs@7.8.1)
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       tslib: 2.6.2
     dev: false
 
@@ -566,7 +566,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 17.1.2(@angular/core@17.1.2)(rxjs@7.8.1)
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       '@angular/platform-browser': 17.1.2(@angular/animations@17.1.2)(@angular/common@17.1.2)(@angular/core@17.1.2)
       rxjs: 7.8.1
       tslib: 2.6.2
@@ -2205,7 +2205,7 @@ packages:
       rxjs: ^6.5.5 || ^7.4.0
     dependencies:
       '@angular/common': 17.1.2(@angular/core@17.1.2)(rxjs@7.8.1)
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       rxjs: 7.8.1
     dev: true
 
@@ -2219,7 +2219,7 @@ packages:
       rxjs: ^6.5.5 || ^7.4.0
     dependencies:
       '@angular/common': 17.1.2(@angular/core@17.1.2)(rxjs@7.8.1)
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       '@ngx-translate/core': 15.0.0(@angular/common@17.1.2)(@angular/core@17.1.2)(rxjs@7.8.1)
       rxjs: 7.8.1
     dev: true
@@ -4075,7 +4075,7 @@ packages:
       tslint: ^5.0.0 || ^6.0.0
     dependencies:
       '@angular/compiler': 17.1.2(@angular/core@17.1.2)
-      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.3)
+      '@angular/core': 17.1.2(rxjs@7.8.1)(zone.js@0.14.4)
       app-root-path: 3.1.0
       aria-query: 3.0.0
       axobject-query: 2.0.2
@@ -6718,8 +6718,6 @@ packages:
       webpack: '*'
     peerDependenciesMeta:
       webpack:
-        optional: true
-      webpack-sources:
         optional: true
     dependencies:
       webpack: 5.89.0(esbuild@0.19.11)
@@ -10362,7 +10360,7 @@ packages:
     resolution: {integrity: sha512-LXVLVEq0NNOqK/fLJo3d0kfzd4sxwn2/h67/02pjCjfKDxgx1i9QqpvtHD8CrBnSSwMw5+dy11O7FRX5mkO7Cg==}
     dev: true
 
-  /zone.js@0.14.3:
-    resolution: {integrity: sha512-jYoNqF046Q+JfcZSItRSt+oXFcpXL88yq7XAZjb/NKTS7w2hHpKjRJ3VlFD1k75wMaRRXNUt5vrZVlygiMyHbA==}
+  /zone.js@0.14.4:
+    resolution: {integrity: sha512-NtTUvIlNELez7Q1DzKVIFZBzNb646boQMgpATo9z3Ftuu/gWvzxCW7jdjcUDoRGxRikrhVHB/zLXh1hxeJawvw==}
     dependencies:
       tslib: 2.6.2
