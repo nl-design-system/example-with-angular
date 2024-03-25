@@ -77,8 +77,8 @@ devDependencies:
     specifier: 7.2.0
     version: 7.2.0(eslint@8.57.0)(typescript@5.4.2)
   '@utrecht/component-library-angular':
-    specifier: 1.0.2-alpha.34
-    version: 1.0.2-alpha.34
+    specifier: 1.0.2-alpha.38
+    version: 1.0.2-alpha.38
   '@utrecht/component-library-css':
     specifier: 3.0.1-alpha.22
     version: 3.0.1-alpha.22
@@ -3359,8 +3359,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@utrecht/component-library-angular@1.0.2-alpha.34:
-    resolution: {integrity: sha512-/QcrAmUnCV5XlWHeibjK2n+ti/TEKhG2KmVOiDyuGvJHlCgHmZ4YZZiObH0uw+Fl9l+6EOTIC8TsMBv1TEchtg==}
+  /@utrecht/component-library-angular@1.0.2-alpha.38:
+    resolution: {integrity: sha512-y3LcjJ0bsF87DVCrDdKj+QuYEEUSLTxP34MU/L8JRzsweAnL9et2XQzqG/MUkoBoei0jxJjquo8xbGbmWdR63Q==}
     dependencies:
       tslib: 2.6.2
     dev: true
