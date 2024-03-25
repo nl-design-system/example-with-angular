@@ -80,8 +80,8 @@ devDependencies:
     specifier: 1.0.2-alpha.34
     version: 1.0.2-alpha.34
   '@utrecht/component-library-css':
-    specifier: 3.0.1-alpha.22
-    version: 3.0.1-alpha.22
+    specifier: 3.0.1-alpha.26
+    version: 3.0.1-alpha.26
   '@utrecht/design-tokens':
     specifier: 1.0.0-alpha.635
     version: 1.0.0-alpha.635
@@ -3365,8 +3365,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@utrecht/component-library-css@3.0.1-alpha.22:
-    resolution: {integrity: sha512-cEn4b8VraWSz6aWfuLfmRGJ0pzW4uVzOVAiIOVkHvd1d27tdtVX7Br31tHiXJmX6oN5OFapiaqCMOBJkW7vjVw==}
+  /@utrecht/component-library-css@3.0.1-alpha.26:
+    resolution: {integrity: sha512-bHANKlwmKD3/J5NTIIVdjZ8TvcQg3N01RzoCYoN1pNpDOq23Fz1N9iGBdTLIjy5mg7lOh6wuFNJJUJC0YZLOZg==}
     dev: true
 
   /@utrecht/design-tokens@1.0.0-alpha.635:
