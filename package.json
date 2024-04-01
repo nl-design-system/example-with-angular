@@ -45,7 +45,7 @@
     "@ngx-translate/core": "15.0.0",
     "@ngx-translate/http-loader": "8.0.0",
     "@types/jasmine": "5.1.4",
-    "@types/node": "20.11.28",
+    "@types/node": "20.12.2",
     "@typescript-eslint/eslint-plugin": "7.2.0",
     "@typescript-eslint/parser": "7.2.0",
     "@utrecht/component-library-angular": "1.0.2-alpha.34",
