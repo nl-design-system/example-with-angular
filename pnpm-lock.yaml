@@ -44,8 +44,8 @@ devDependencies:
     specifier: 17.3.0
     version: 17.3.0(@angular/compiler-cli@17.3.0)(@types/node@20.11.28)(karma@6.4.3)(protractor@7.0.0)(typescript@5.4.2)
   '@angular-eslint/eslint-plugin':
-    specifier: 17.2.1
-    version: 17.2.1(eslint@8.57.0)(typescript@5.4.2)
+    specifier: 17.3.0
+    version: 17.3.0(eslint@8.57.0)(typescript@5.4.2)
   '@angular-eslint/eslint-plugin-template':
     specifier: 17.2.1
     version: 17.2.1(eslint@8.57.0)(typescript@5.4.2)
@@ -361,6 +361,10 @@ packages:
     resolution: {integrity: sha512-puC0itsZv2QlrDOCcWtq1KZH+DvfrpV+mV78HHhi6+h25R5iIhr8ARKcl3EQxFjvrFq34jhG8pSupxKvFbHVfA==}
     dev: true
 
+  /@angular-eslint/bundled-angular-compiler@17.3.0:
+    resolution: {integrity: sha512-ejfNzRuBeHUV8m2fkgs+M809rj5STuCuQo4fdfc6ccQpzXDI6Ha7BKpTznWfg5g529q/wrkoGSGgFxU9Yc2/dQ==}
+    dev: true
+
   /@angular-eslint/eslint-plugin-template@17.2.1(eslint@8.57.0)(typescript@5.4.2):
     resolution: {integrity: sha512-hl1hcHtcm90wyVL1OQGTz16oA0KHon+FFb3Qg0fLXObaXxA495Ecefd9ub5Xxg4JEOPRDi29bF1Y3YKpwflgeg==}
     peerDependencies:
@@ -379,14 +383,14 @@ packages:
       - supports-color
     dev: true
 
-  /@angular-eslint/eslint-plugin@17.2.1(eslint@8.57.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-9yA81BHpsaCUKRBtHGN3ieAy8HpIoffzPQMu34lYqZFT4yGHGhYmhQjNSQGBRbV2LD9dVv2U35rMHNmUcozXpw==}
+  /@angular-eslint/eslint-plugin@17.3.0(eslint@8.57.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-81cQbOEPoQupFX8WmpqZn+y8VA7JdVRGBtt+uJNKBXcJknTpPWdLBZRFlgVakmC24iEZ0Fint/N3NBBQI3mz2A==}
     peerDependencies:
       eslint: ^7.20.0 || ^8.0.0
       typescript: '*'
     dependencies:
-      '@angular-eslint/utils': 17.2.1(eslint@8.57.0)(typescript@5.4.2)
-      '@typescript-eslint/utils': 6.19.0(eslint@8.57.0)(typescript@5.4.2)
+      '@angular-eslint/utils': 17.3.0(eslint@8.57.0)(typescript@5.4.2)
+      '@typescript-eslint/utils': 7.2.0(eslint@8.57.0)(typescript@5.4.2)
       eslint: 8.57.0
       typescript: 5.4.2
     transitivePeerDependencies:
@@ -413,6 +417,20 @@ packages:
     dependencies:
       '@angular-eslint/bundled-angular-compiler': 17.2.1
       '@typescript-eslint/utils': 6.19.0(eslint@8.57.0)(typescript@5.4.2)
+      eslint: 8.57.0
+      typescript: 5.4.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@angular-eslint/utils@17.3.0(eslint@8.57.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-PJT9pxWqpvI9OXO+7L5SIVhvMW+RFjeafC7PYjtvSbNFpz+kF644BiAcfMJ0YqBnkrw3JXt+RAX25CT4mXIoXw==}
+    peerDependencies:
+      eslint: ^7.20.0 || ^8.0.0
+      typescript: '*'
+    dependencies:
+      '@angular-eslint/bundled-angular-compiler': 17.3.0
+      '@typescript-eslint/utils': 7.2.0(eslint@8.57.0)(typescript@5.4.2)
       eslint: 8.57.0
       typescript: 5.4.2
     transitivePeerDependencies:
@@ -3290,7 +3308,7 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
-      semver: 7.5.4
+      semver: 7.6.0
       ts-api-utils: 1.0.3(typescript@5.4.2)
       typescript: 5.4.2
     transitivePeerDependencies:
@@ -3332,7 +3350,7 @@ packages:
       '@typescript-eslint/types': 6.19.0
       '@typescript-eslint/typescript-estree': 6.19.0(typescript@5.4.2)
       eslint: 8.57.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -10213,7 +10231,7 @@ packages:
       is-yarn-global: 0.4.1
       latest-version: 7.0.0
       pupa: 3.1.0
-      semver: 7.5.4
+      semver: 7.6.0
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
     dev: true
