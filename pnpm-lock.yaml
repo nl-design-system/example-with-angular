@@ -83,8 +83,8 @@ devDependencies:
     specifier: 3.0.1-alpha.28
     version: 3.0.1-alpha.28
   '@utrecht/design-tokens':
-    specifier: 1.0.0-alpha.641
-    version: 1.0.0-alpha.641
+    specifier: 1.0.0-alpha.643
+    version: 1.0.0-alpha.643
   '@utrecht/web-component-library-angular':
     specifier: 1.0.0-alpha.631
     version: 1.0.0-alpha.631
@@ -3390,8 +3390,8 @@ packages:
     resolution: {integrity: sha512-FBY7A4EMPl4WvJT0ZEn1OwOAEPAIlWPtVPjUO6vodME8KJM1fm27TVCZp1JX5I9ccF9rsHXvMm4NJdD8w0U3ag==}
     dev: true
 
-  /@utrecht/design-tokens@1.0.0-alpha.641:
-    resolution: {integrity: sha512-7G2mMm5Pi7XBWPi/smSiNtUsdjd8PdP4uGx2kfKg5Zicb24eP45oDkuo9b5oZeXSYUS/u0XlRTzdrR/UbOiK/g==}
+  /@utrecht/design-tokens@1.0.0-alpha.643:
+    resolution: {integrity: sha512-8I0DzcuVeDFnu2mlTGW87sMD6sKQxhreK0CxT2ZI6ldL1/5ZSnzCJSTYIArS/T01qvNSe5+0m+Dnw1bonR+fug==}
     dev: true
 
   /@utrecht/web-component-library-angular@1.0.0-alpha.631:
