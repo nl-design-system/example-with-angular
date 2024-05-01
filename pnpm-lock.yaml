@@ -89,8 +89,8 @@ devDependencies:
     specifier: 1.0.0-alpha.631
     version: 1.0.0-alpha.631
   '@utrecht/web-component-library-stencil':
-    specifier: 1.1.1-alpha.28
-    version: 1.1.1-alpha.28
+    specifier: 1.1.1-alpha.30
+    version: 1.1.1-alpha.30
   codelyzer:
     specifier: 6.0.2
     version: 6.0.2(@angular/compiler@17.3.5)(@angular/core@17.3.5)(tslint@6.1.3)
@@ -3400,8 +3400,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@utrecht/web-component-library-stencil@1.1.1-alpha.28:
-    resolution: {integrity: sha512-jHZfJbW0oJPOeCgLWuXHI5tNAloqb07dpiqWUmd6p0XtnbexpL0baZhFfYWmSsqCohDnD7rz4yMt3KSs5DN5tQ==}
+  /@utrecht/web-component-library-stencil@1.1.1-alpha.30:
+    resolution: {integrity: sha512-gkme+YnN6lEeesRDjz8Jes2C18E++rhrP+K2UDzTS0JJ77tkTROsjAOUnuI5K/YQpzUe72ZmXgrUokgJCLMevQ==}
     dependencies:
       '@stencil/core': 4.8.2
     dev: true
