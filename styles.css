@@ -1,6 +1,6 @@
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/.pnpm/css-loader@6.10.0_webpack@5.90.3/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.35_typescript@5.4.5_webpack@5.90.3/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/.pnpm/@utrecht+design-tokens@1.0.0-alpha.641/node_modules/@utrecht/design-tokens/dist/index.css?ngGlobalStyle ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.1_webpack@5.91.0_esbuild@0.21.3_/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.38_typescript@5.4.5_webpack@5.91.0_esbuild@0.21.3_/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./node_modules/.pnpm/@utrecht+design-tokens@1.0.0-alpha.654/node_modules/@utrecht/design-tokens/dist/index.css?ngGlobalStyle ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /**
  * @license SEE LICENSE.md
  * Copyright (c) 2021 Gemeente Utrecht
@@ -8,11 +8,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 10 Apr 2024 08:09:39 GMT
+ * Generated on Tue, 21 May 2024 11:00:07 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 10 Apr 2024 08:09:38 GMT
+ * Generated on Tue, 21 May 2024 11:00:06 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -36,6 +36,7 @@
 }
 .utrecht-theme,
 .utrecht-theme ::backdrop {
+  --of-progress-indicator-mobile-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
   --denhaag-process-steps-sub-step-marker-size: 12px;
   --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
@@ -116,14 +117,14 @@
   --utrecht-color-blue-50: hsl(211 60% 50%); /* experimenteel / beperkt gebruiken */
   --utrecht-color-blue-40: hsl(211 60% 40%); /* blauw variant bij hover/focus #3669a5 */
   --utrecht-color-blue-35: hsl(211 60% 35%); /* basis link en knoppen CTA donkerblauw */
-  --utrecht-color-blue-30: hsl(211 60% 30%); /* Deze kleur gebruiken we niet */
+  --utrecht-color-blue-30: hsl(211 60% 30%); /* Deze kleur gebruiken we niet (interaction active) */
   --utrecht-color-blue-20: hsl(211 60% 20%); /* basis donkerblauw (OS focus) */
   --utrecht-color-red-95: hsl(0 100% 95%); /* Achtergrond rode kleur */
   --utrecht-color-red-40: hsl(0 100% 40%); /* basis rood #cc0000 */
   --utrecht-color-red-30: hsl(0 100% 30%); /* hover rood */
   --utrecht-color-red-20: hsl(0 100% 20%); /* donker rood */
-  --utrecht-unordered-list-item-margin-block-end: 0.5rem;
-  --utrecht-unordered-list-item-margin-block-start: 0.5rem;
+  --utrecht-unordered-list-item-margin-block-end: 0.25rem;
+  --utrecht-unordered-list-item-margin-block-start: 0.25rem;
   --utrecht-unordered-list-margin-block-end: 0;
   --utrecht-toptask-link-icon-size: 2.25rem;
   --utrecht-toptask-link-hover-transform-scale: 1.02;
@@ -677,7 +678,7 @@
   --utrecht-heading-2-font-family: var(--utrecht-typography-sans-serif-font-family);
   --utrecht-heading-1-line-height: var(--utrecht-typography-line-height-sm);
   --utrecht-heading-1-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-  --utrecht-heading-1-font-size: var(--utrecht-typography-scale-3xl-font-size);
+  --utrecht-heading-1-font-size: var(--utrecht-typography-scale-4xl-font-size);
   --utrecht-heading-1-font-family: var(--utrecht-typography-sans-serif-font-family);
   --utrecht-form-toggle-focus-border-color: var(--utrecht-color-black);
   --utrecht-form-toggle-checked-accent-color: var(--utrecht-color-blue-35);
@@ -811,8 +812,9 @@
   --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-color-white);
-  --utrecht-button-secondary-action-active-color: var(--utrecht-color-white);
-  --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-blue-35);
+  --utrecht-button-secondary-action-active-color: var(--utrecht-color-blue-30);
+  --utrecht-button-secondary-action-active-border-color: var(--utrecht-color-blue-30);
+  --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-white);
   --utrecht-button-secondary-action-color: var(--utrecht-color-blue-35);
   --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
   --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-35);
@@ -846,9 +848,9 @@
   --utrecht-button-primary-action-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-primary-action-disabled-background-color: var(--utrecht-color-grey-90);
-  --utrecht-button-primary-action-active-color: var(--utrecht-color-blue-35);
-  --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-35);
-  --utrecht-button-primary-action-active-background-color: var(--utrecht-color-white);
+  --utrecht-button-primary-action-active-color: var(--utrecht-color-white);
+  --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-30);
+  --utrecht-button-primary-action-active-background-color: var(--utrecht-color-blue-30);
   --utrecht-button-primary-action-color: var(--utrecht-color-white);
   --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
   --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-35);
@@ -941,6 +943,7 @@
   --utrecht-accordion-button-padding-block-end: var(--utrecht-space-block-xs);
   --utrecht-accordion-button-padding-inline-start: var(--utrecht-space-block-md);
   --utrecht-accordion-button-padding-inline-end: var(--utrecht-space-block-md);
+  --of-progress-indicator-background-color: var(--utrecht-document-background-color);
   --of-page-footer-fg: var(--utrecht-page-footer-color);
   --of-page-footer-bg: var(--utrecht-page-footer-background-color);
   --of-layout-background: var(--utrecht-document-background-color);
@@ -1038,6 +1041,7 @@
   .utrecht-theme--media-query ::backdrop,
   .utrecht-theme--media-query-color-scheme,
   .utrecht-theme--media-query-color-scheme ::backdrop {
+    --of-progress-indicator-mobile-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
     --denhaag-process-steps-sub-step-marker-size: 12px;
     --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
@@ -1118,14 +1122,14 @@
     --utrecht-color-blue-50: hsl(211 60% 50%); /* experimenteel / beperkt gebruiken */
     --utrecht-color-blue-40: hsl(211 60% 40%); /* blauw variant bij hover/focus #3669a5 */
     --utrecht-color-blue-35: hsl(211 60% 35%); /* basis link en knoppen CTA donkerblauw */
-    --utrecht-color-blue-30: hsl(211 60% 30%); /* Deze kleur gebruiken we niet */
+    --utrecht-color-blue-30: hsl(211 60% 30%); /* Deze kleur gebruiken we niet (interaction active) */
     --utrecht-color-blue-20: hsl(211 60% 20%); /* basis donkerblauw (OS focus) */
     --utrecht-color-red-95: hsl(0 100% 95%); /* Achtergrond rode kleur */
     --utrecht-color-red-40: hsl(0 100% 40%); /* basis rood #cc0000 */
     --utrecht-color-red-30: hsl(0 100% 30%); /* hover rood */
     --utrecht-color-red-20: hsl(0 100% 20%); /* donker rood */
-    --utrecht-unordered-list-item-margin-block-end: 0.5rem;
-    --utrecht-unordered-list-item-margin-block-start: 0.5rem;
+    --utrecht-unordered-list-item-margin-block-end: 0.25rem;
+    --utrecht-unordered-list-item-margin-block-start: 0.25rem;
     --utrecht-unordered-list-margin-block-end: 0;
     --utrecht-toptask-link-icon-size: 2.25rem;
     --utrecht-toptask-link-hover-transform-scale: 1.02;
@@ -1684,7 +1688,7 @@
     --utrecht-heading-2-font-family: var(--utrecht-typography-sans-serif-font-family);
     --utrecht-heading-1-line-height: var(--utrecht-typography-line-height-sm);
     --utrecht-heading-1-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-    --utrecht-heading-1-font-size: var(--utrecht-typography-scale-3xl-font-size);
+    --utrecht-heading-1-font-size: var(--utrecht-typography-scale-4xl-font-size);
     --utrecht-heading-1-font-family: var(--utrecht-typography-sans-serif-font-family);
     --utrecht-form-toggle-focus-border-color: var(--utrecht-color-black);
     --utrecht-form-toggle-checked-accent-color: var(--utrecht-color-blue-35);
@@ -1815,8 +1819,9 @@
     --utrecht-button-secondary-action-hover-border-color: var(--utrecht-color-blue-60);
     --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-40);
-    --utrecht-button-secondary-action-active-color: var(--utrecht-color-white);
-    --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-blue-35);
+    --utrecht-button-secondary-action-active-color: var(--utrecht-color-blue-30);
+    --utrecht-button-secondary-action-active-border-color: var(--utrecht-color-blue-30);
+    --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-white);
     --utrecht-button-secondary-action-color: var(--utrecht-color-blue-80);
     --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
     --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-80);
@@ -1849,9 +1854,9 @@
     --utrecht-button-primary-action-disabled-color: var(--utrecht-color-grey-80);
     --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-80);
     --utrecht-button-primary-action-disabled-background-color: var(--utrecht-color-grey-90);
-    --utrecht-button-primary-action-active-color: var(--utrecht-color-blue-35);
-    --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-35);
-    --utrecht-button-primary-action-active-background-color: var(--utrecht-color-white);
+    --utrecht-button-primary-action-active-color: var(--utrecht-color-white);
+    --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-30);
+    --utrecht-button-primary-action-active-background-color: var(--utrecht-color-blue-30);
     --utrecht-button-primary-action-color: var(--utrecht-color-grey-15);
     --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
     --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-80);
@@ -1944,6 +1949,7 @@
     --utrecht-accordion-button-padding-block-end: var(--utrecht-space-block-xs);
     --utrecht-accordion-button-padding-inline-start: var(--utrecht-space-block-md);
     --utrecht-accordion-button-padding-inline-end: var(--utrecht-space-block-md);
+    --of-progress-indicator-background-color: var(--utrecht-document-background-color);
     --of-page-footer-fg: var(--utrecht-page-footer-color);
     --of-page-footer-bg: var(--utrecht-page-footer-background-color);
     --of-layout-background: var(--utrecht-document-background-color);
@@ -2037,9 +2043,9 @@
   }
 }
 
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/.pnpm/css-loader@6.10.0_webpack@5.90.3/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.35_typescript@5.4.5_webpack@5.90.3/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./src/styles.css?ngGlobalStyle ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.1_webpack@5.91.0_esbuild@0.21.3_/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/.pnpm/postcss-loader@8.1.1_postcss@8.4.38_typescript@5.4.5_webpack@5.91.0_esbuild@0.21.3_/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./src/styles.css?ngGlobalStyle ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* You can add global styles to this file, and also import other style files */
 
 

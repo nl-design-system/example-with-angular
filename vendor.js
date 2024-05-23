@@ -1,7 +1,7 @@
 "use strict";
 (self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["vendor"],{
 
-/***/ 6689:
+/***/ 195:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/BehaviorSubject.js ***!
   \**********************************************************************************************/
@@ -11,7 +11,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   BehaviorSubject: () => (/* binding */ BehaviorSubject)
 /* harmony export */ });
-/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subject */ 9559);
+/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subject */ 5241);
 
 class BehaviorSubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__.Subject {
   constructor(_value) {
@@ -45,7 +45,7 @@ class BehaviorSubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__.Subject {
 
 /***/ }),
 
-/***/ 3344:
+/***/ 4606:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/NotificationFactories.js ***!
   \****************************************************************************************************/
@@ -75,7 +75,7 @@ function createNotification(kind, value, error) {
 
 /***/ }),
 
-/***/ 898:
+/***/ 1984:
 /*!*****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/Observable.js ***!
   \*****************************************************************************************/
@@ -85,13 +85,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Observable: () => (/* binding */ Observable)
 /* harmony export */ });
-/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subscriber */ 9049);
-/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Subscription */ 6722);
-/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./symbol/observable */ 835);
-/* harmony import */ var _util_pipe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./util/pipe */ 6310);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./config */ 4249);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util/isFunction */ 7414);
-/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/errorContext */ 3035);
+/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subscriber */ 7075);
+/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Subscription */ 3020);
+/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./symbol/observable */ 6349);
+/* harmony import */ var _util_pipe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./util/pipe */ 5628);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./config */ 1083);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util/isFunction */ 9596);
+/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/errorContext */ 7605);
 
 
 
@@ -181,7 +181,7 @@ function isSubscriber(value) {
 
 /***/ }),
 
-/***/ 2430:
+/***/ 1100:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/ReplaySubject.js ***!
   \********************************************************************************************/
@@ -191,8 +191,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ReplaySubject: () => (/* binding */ ReplaySubject)
 /* harmony export */ });
-/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subject */ 9559);
-/* harmony import */ var _scheduler_dateTimestampProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scheduler/dateTimestampProvider */ 2124);
+/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subject */ 5241);
+/* harmony import */ var _scheduler_dateTimestampProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scheduler/dateTimestampProvider */ 6986);
 
 
 class ReplaySubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__.Subject {
@@ -259,7 +259,7 @@ class ReplaySubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__.Subject {
 
 /***/ }),
 
-/***/ 9559:
+/***/ 5241:
 /*!**************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/Subject.js ***!
   \**************************************************************************************/
@@ -270,11 +270,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   AnonymousSubject: () => (/* binding */ AnonymousSubject),
 /* harmony export */   Subject: () => (/* binding */ Subject)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Observable */ 898);
-/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Subscription */ 6722);
-/* harmony import */ var _util_ObjectUnsubscribedError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/ObjectUnsubscribedError */ 3306);
-/* harmony import */ var _util_arrRemove__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util/arrRemove */ 9971);
-/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/errorContext */ 3035);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Observable */ 1984);
+/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Subscription */ 3020);
+/* harmony import */ var _util_ObjectUnsubscribedError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/ObjectUnsubscribedError */ 6016);
+/* harmony import */ var _util_arrRemove__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util/arrRemove */ 7809);
+/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/errorContext */ 7605);
 
 
 
@@ -422,7 +422,7 @@ class AnonymousSubject extends Subject {
 
 /***/ }),
 
-/***/ 9049:
+/***/ 7075:
 /*!*****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/Subscriber.js ***!
   \*****************************************************************************************/
@@ -434,14 +434,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   SafeSubscriber: () => (/* binding */ SafeSubscriber),
 /* harmony export */   Subscriber: () => (/* binding */ Subscriber)
 /* harmony export */ });
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/isFunction */ 7414);
-/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subscription */ 6722);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./config */ 4249);
-/* harmony import */ var _util_reportUnhandledError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util/reportUnhandledError */ 9871);
-/* harmony import */ var _util_noop__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./util/noop */ 482);
-/* harmony import */ var _NotificationFactories__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationFactories */ 3344);
-/* harmony import */ var _scheduler_timeoutProvider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scheduler/timeoutProvider */ 1871);
-/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util/errorContext */ 3035);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/isFunction */ 9596);
+/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subscription */ 3020);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./config */ 1083);
+/* harmony import */ var _util_reportUnhandledError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util/reportUnhandledError */ 6753);
+/* harmony import */ var _util_noop__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./util/noop */ 588);
+/* harmony import */ var _NotificationFactories__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationFactories */ 4606);
+/* harmony import */ var _scheduler_timeoutProvider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scheduler/timeoutProvider */ 8533);
+/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util/errorContext */ 7605);
 
 
 
@@ -613,7 +613,7 @@ const EMPTY_OBSERVER = {
 
 /***/ }),
 
-/***/ 6722:
+/***/ 3020:
 /*!*******************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/Subscription.js ***!
   \*******************************************************************************************/
@@ -625,9 +625,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Subscription: () => (/* binding */ Subscription),
 /* harmony export */   isSubscription: () => (/* binding */ isSubscription)
 /* harmony export */ });
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/isFunction */ 7414);
-/* harmony import */ var _util_UnsubscriptionError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/UnsubscriptionError */ 3104);
-/* harmony import */ var _util_arrRemove__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/arrRemove */ 9971);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/isFunction */ 9596);
+/* harmony import */ var _util_UnsubscriptionError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/UnsubscriptionError */ 8978);
+/* harmony import */ var _util_arrRemove__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/arrRemove */ 7809);
 
 
 
@@ -755,7 +755,7 @@ function execFinalizer(finalizer) {
 
 /***/ }),
 
-/***/ 4249:
+/***/ 1083:
 /*!*************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/config.js ***!
   \*************************************************************************************/
@@ -775,7 +775,7 @@ const config = {
 
 /***/ }),
 
-/***/ 8637:
+/***/ 3003:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/concat.js ***!
   \************************************************************************************************/
@@ -785,9 +785,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   concat: () => (/* binding */ concat)
 /* harmony export */ });
-/* harmony import */ var _operators_concatAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../operators/concatAll */ 1770);
-/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/args */ 7223);
-/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./from */ 4441);
+/* harmony import */ var _operators_concatAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../operators/concatAll */ 9820);
+/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/args */ 9313);
+/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./from */ 291);
 
 
 
@@ -797,7 +797,7 @@ function concat(...args) {
 
 /***/ }),
 
-/***/ 7693:
+/***/ 8231:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/defer.js ***!
   \***********************************************************************************************/
@@ -807,8 +807,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   defer: () => (/* binding */ defer)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 898);
-/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./innerFrom */ 3993);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
+/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./innerFrom */ 8131);
 
 
 function defer(observableFactory) {
@@ -819,7 +819,7 @@ function defer(observableFactory) {
 
 /***/ }),
 
-/***/ 3236:
+/***/ 7742:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/empty.js ***!
   \***********************************************************************************************/
@@ -830,7 +830,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   EMPTY: () => (/* binding */ EMPTY),
 /* harmony export */   empty: () => (/* binding */ empty)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 898);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
 
 const EMPTY = new _Observable__WEBPACK_IMPORTED_MODULE_0__.Observable(subscriber => subscriber.complete());
 function empty(scheduler) {
@@ -842,7 +842,7 @@ function emptyScheduled(scheduler) {
 
 /***/ }),
 
-/***/ 8221:
+/***/ 727:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/forkJoin.js ***!
   \**************************************************************************************************/
@@ -852,13 +852,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   forkJoin: () => (/* binding */ forkJoin)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Observable */ 898);
-/* harmony import */ var _util_argsArgArrayOrObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/argsArgArrayOrObject */ 5996);
-/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./innerFrom */ 3993);
-/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 7223);
-/* harmony import */ var _operators_OperatorSubscriber__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../operators/OperatorSubscriber */ 8499);
-/* harmony import */ var _util_mapOneOrManyArgs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/mapOneOrManyArgs */ 9327);
-/* harmony import */ var _util_createObject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/createObject */ 9017);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Observable */ 1984);
+/* harmony import */ var _util_argsArgArrayOrObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/argsArgArrayOrObject */ 2225);
+/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./innerFrom */ 8131);
+/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 9313);
+/* harmony import */ var _operators_OperatorSubscriber__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../operators/OperatorSubscriber */ 3477);
+/* harmony import */ var _util_mapOneOrManyArgs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/mapOneOrManyArgs */ 1557);
+/* harmony import */ var _util_createObject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/createObject */ 5871);
 
 
 
@@ -906,7 +906,7 @@ function forkJoin(...args) {
 
 /***/ }),
 
-/***/ 4441:
+/***/ 291:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/from.js ***!
   \**********************************************************************************************/
@@ -916,8 +916,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   from: () => (/* binding */ from)
 /* harmony export */ });
-/* harmony import */ var _scheduled_scheduled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scheduled/scheduled */ 4764);
-/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./innerFrom */ 3993);
+/* harmony import */ var _scheduled_scheduled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scheduled/scheduled */ 8698);
+/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./innerFrom */ 8131);
 
 
 function from(input, scheduler) {
@@ -926,7 +926,7 @@ function from(input, scheduler) {
 
 /***/ }),
 
-/***/ 3993:
+/***/ 8131:
 /*!***************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/innerFrom.js ***!
   \***************************************************************************************************/
@@ -942,18 +942,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   fromReadableStreamLike: () => (/* binding */ fromReadableStreamLike),
 /* harmony export */   innerFrom: () => (/* binding */ innerFrom)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! tslib */ 3720);
-/* harmony import */ var _util_isArrayLike__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/isArrayLike */ 7410);
-/* harmony import */ var _util_isPromise__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/isPromise */ 1737);
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 898);
-/* harmony import */ var _util_isInteropObservable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/isInteropObservable */ 2536);
-/* harmony import */ var _util_isAsyncIterable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/isAsyncIterable */ 1434);
-/* harmony import */ var _util_throwUnobservableError__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../util/throwUnobservableError */ 6778);
-/* harmony import */ var _util_isIterable__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/isIterable */ 2508);
-/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 5077);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../util/isFunction */ 7414);
-/* harmony import */ var _util_reportUnhandledError__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/reportUnhandledError */ 9871);
-/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../symbol/observable */ 835);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! tslib */ 2160);
+/* harmony import */ var _util_isArrayLike__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/isArrayLike */ 9332);
+/* harmony import */ var _util_isPromise__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/isPromise */ 5043);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
+/* harmony import */ var _util_isInteropObservable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/isInteropObservable */ 6130);
+/* harmony import */ var _util_isAsyncIterable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/isAsyncIterable */ 4636);
+/* harmony import */ var _util_throwUnobservableError__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../util/throwUnobservableError */ 8824);
+/* harmony import */ var _util_isIterable__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/isIterable */ 3462);
+/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 9451);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../util/isFunction */ 9596);
+/* harmony import */ var _util_reportUnhandledError__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/reportUnhandledError */ 6753);
+/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../symbol/observable */ 6349);
 
 
 
@@ -1067,7 +1067,7 @@ function process(asyncIterable, subscriber) {
 
 /***/ }),
 
-/***/ 5560:
+/***/ 9294:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/of.js ***!
   \********************************************************************************************/
@@ -1077,8 +1077,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   of: () => (/* binding */ of)
 /* harmony export */ });
-/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 7223);
-/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./from */ 4441);
+/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 9313);
+/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./from */ 291);
 
 
 function of(...args) {
@@ -1088,7 +1088,7 @@ function of(...args) {
 
 /***/ }),
 
-/***/ 8499:
+/***/ 3477:
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js ***!
   \***********************************************************************************************************/
@@ -1099,7 +1099,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   OperatorSubscriber: () => (/* binding */ OperatorSubscriber),
 /* harmony export */   createOperatorSubscriber: () => (/* binding */ createOperatorSubscriber)
 /* harmony export */ });
-/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Subscriber */ 9049);
+/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Subscriber */ 7075);
 
 function createOperatorSubscriber(destination, onNext, onComplete, onError, onFinalize) {
   return new OperatorSubscriber(destination, onNext, onComplete, onError, onFinalize);
@@ -1149,7 +1149,7 @@ class OperatorSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__.Subscr
 
 /***/ }),
 
-/***/ 1770:
+/***/ 9820:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/concatAll.js ***!
   \**************************************************************************************************/
@@ -1159,7 +1159,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   concatAll: () => (/* binding */ concatAll)
 /* harmony export */ });
-/* harmony import */ var _mergeAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mergeAll */ 6242);
+/* harmony import */ var _mergeAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mergeAll */ 8496);
 
 function concatAll() {
   return (0,_mergeAll__WEBPACK_IMPORTED_MODULE_0__.mergeAll)(1);
@@ -1167,7 +1167,7 @@ function concatAll() {
 
 /***/ }),
 
-/***/ 5427:
+/***/ 4373:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/concatMap.js ***!
   \**************************************************************************************************/
@@ -1177,8 +1177,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   concatMap: () => (/* binding */ concatMap)
 /* harmony export */ });
-/* harmony import */ var _mergeMap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mergeMap */ 8267);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 7414);
+/* harmony import */ var _mergeMap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mergeMap */ 2529);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 9596);
 
 
 function concatMap(project, resultSelector) {
@@ -1187,7 +1187,7 @@ function concatMap(project, resultSelector) {
 
 /***/ }),
 
-/***/ 3366:
+/***/ 8372:
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/defaultIfEmpty.js ***!
   \*******************************************************************************************************/
@@ -1197,8 +1197,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   defaultIfEmpty: () => (/* binding */ defaultIfEmpty)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
 
 
 function defaultIfEmpty(defaultValue) {
@@ -1218,7 +1218,7 @@ function defaultIfEmpty(defaultValue) {
 
 /***/ }),
 
-/***/ 3579:
+/***/ 2945:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/filter.js ***!
   \***********************************************************************************************/
@@ -1228,8 +1228,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   filter: () => (/* binding */ filter)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
 
 
 function filter(predicate, thisArg) {
@@ -1241,7 +1241,7 @@ function filter(predicate, thisArg) {
 
 /***/ }),
 
-/***/ 9679:
+/***/ 6521:
 /*!*************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/finalize.js ***!
   \*************************************************************************************************/
@@ -1251,7 +1251,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   finalize: () => (/* binding */ finalize)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5847);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
 
 function finalize(callback) {
   return (0,_util_lift__WEBPACK_IMPORTED_MODULE_0__.operate)((source, subscriber) => {
@@ -1265,7 +1265,7 @@ function finalize(callback) {
 
 /***/ }),
 
-/***/ 4583:
+/***/ 8501:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/first.js ***!
   \**********************************************************************************************/
@@ -1275,12 +1275,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   first: () => (/* binding */ first)
 /* harmony export */ });
-/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/EmptyError */ 1835);
-/* harmony import */ var _filter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./filter */ 3579);
-/* harmony import */ var _take__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./take */ 1962);
-/* harmony import */ var _defaultIfEmpty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defaultIfEmpty */ 3366);
-/* harmony import */ var _throwIfEmpty__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./throwIfEmpty */ 5625);
-/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/identity */ 276);
+/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/EmptyError */ 1745);
+/* harmony import */ var _filter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./filter */ 2945);
+/* harmony import */ var _take__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./take */ 9972);
+/* harmony import */ var _defaultIfEmpty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defaultIfEmpty */ 8372);
+/* harmony import */ var _throwIfEmpty__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./throwIfEmpty */ 4703);
+/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/identity */ 7182);
 
 
 
@@ -1294,7 +1294,7 @@ function first(predicate, defaultValue) {
 
 /***/ }),
 
-/***/ 4251:
+/***/ 7437:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/map.js ***!
   \********************************************************************************************/
@@ -1304,8 +1304,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   map: () => (/* binding */ map)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
 
 
 function map(project, thisArg) {
@@ -1319,7 +1319,7 @@ function map(project, thisArg) {
 
 /***/ }),
 
-/***/ 6242:
+/***/ 8496:
 /*!*************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/mergeAll.js ***!
   \*************************************************************************************************/
@@ -1329,8 +1329,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   mergeAll: () => (/* binding */ mergeAll)
 /* harmony export */ });
-/* harmony import */ var _mergeMap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mergeMap */ 8267);
-/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/identity */ 276);
+/* harmony import */ var _mergeMap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mergeMap */ 2529);
+/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/identity */ 7182);
 
 
 function mergeAll(concurrent = Infinity) {
@@ -1339,7 +1339,7 @@ function mergeAll(concurrent = Infinity) {
 
 /***/ }),
 
-/***/ 7347:
+/***/ 113:
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js ***!
   \*******************************************************************************************************/
@@ -1349,9 +1349,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   mergeInternals: () => (/* binding */ mergeInternals)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 3993);
-/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/executeSchedule */ 2010);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
+/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/executeSchedule */ 4216);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
 
 
 
@@ -1409,7 +1409,7 @@ function mergeInternals(source, subscriber, project, concurrent, onBeforeNext, e
 
 /***/ }),
 
-/***/ 8267:
+/***/ 2529:
 /*!*************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/mergeMap.js ***!
   \*************************************************************************************************/
@@ -1419,11 +1419,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   mergeMap: () => (/* binding */ mergeMap)
 /* harmony export */ });
-/* harmony import */ var _map__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./map */ 4251);
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../observable/innerFrom */ 3993);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _mergeInternals__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mergeInternals */ 7347);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 7414);
+/* harmony import */ var _map__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./map */ 7437);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _mergeInternals__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mergeInternals */ 113);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 9596);
 
 
 
@@ -1440,7 +1440,7 @@ function mergeMap(project, resultSelector, concurrent = Infinity) {
 
 /***/ }),
 
-/***/ 8580:
+/***/ 4674:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/observeOn.js ***!
   \**************************************************************************************************/
@@ -1450,9 +1450,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   observeOn: () => (/* binding */ observeOn)
 /* harmony export */ });
-/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/executeSchedule */ 2010);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
+/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/executeSchedule */ 4216);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
 
 
 
@@ -1464,7 +1464,7 @@ function observeOn(scheduler, delay = 0) {
 
 /***/ }),
 
-/***/ 7034:
+/***/ 4476:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/share.js ***!
   \**********************************************************************************************/
@@ -1474,10 +1474,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   share: () => (/* binding */ share)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../observable/innerFrom */ 3993);
-/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Subject */ 9559);
-/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Subscriber */ 9049);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5847);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
+/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Subject */ 5241);
+/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Subscriber */ 7075);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5497);
 
 
 
@@ -1563,7 +1563,7 @@ function handleReset(reset, on, ...args) {
 
 /***/ }),
 
-/***/ 1769:
+/***/ 7527:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/shareReplay.js ***!
   \****************************************************************************************************/
@@ -1573,8 +1573,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   shareReplay: () => (/* binding */ shareReplay)
 /* harmony export */ });
-/* harmony import */ var _ReplaySubject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ReplaySubject */ 2430);
-/* harmony import */ var _share__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./share */ 7034);
+/* harmony import */ var _ReplaySubject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ReplaySubject */ 1100);
+/* harmony import */ var _share__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./share */ 4476);
 
 
 function shareReplay(configOrBufferSize, windowTime, scheduler) {
@@ -1600,7 +1600,7 @@ function shareReplay(configOrBufferSize, windowTime, scheduler) {
 
 /***/ }),
 
-/***/ 1588:
+/***/ 1654:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/subscribeOn.js ***!
   \****************************************************************************************************/
@@ -1610,7 +1610,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   subscribeOn: () => (/* binding */ subscribeOn)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5847);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
 
 function subscribeOn(scheduler, delay = 0) {
   return (0,_util_lift__WEBPACK_IMPORTED_MODULE_0__.operate)((source, subscriber) => {
@@ -1620,7 +1620,7 @@ function subscribeOn(scheduler, delay = 0) {
 
 /***/ }),
 
-/***/ 6451:
+/***/ 3393:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/switchMap.js ***!
   \**************************************************************************************************/
@@ -1630,9 +1630,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   switchMap: () => (/* binding */ switchMap)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../observable/innerFrom */ 3993);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
 
 
 
@@ -1659,7 +1659,7 @@ function switchMap(project, resultSelector) {
 
 /***/ }),
 
-/***/ 1962:
+/***/ 9972:
 /*!*********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/take.js ***!
   \*********************************************************************************************/
@@ -1669,9 +1669,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   take: () => (/* binding */ take)
 /* harmony export */ });
-/* harmony import */ var _observable_empty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/empty */ 3236);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
+/* harmony import */ var _observable_empty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/empty */ 7742);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
 
 
 
@@ -1691,7 +1691,7 @@ function take(count) {
 
 /***/ }),
 
-/***/ 6312:
+/***/ 5122:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/tap.js ***!
   \********************************************************************************************/
@@ -1701,10 +1701,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   tap: () => (/* binding */ tap)
 /* harmony export */ });
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 7414);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
-/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/identity */ 276);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 9596);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/identity */ 7182);
 
 
 
@@ -1745,7 +1745,7 @@ function tap(observerOrNext, error, complete) {
 
 /***/ }),
 
-/***/ 5625:
+/***/ 4703:
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/throwIfEmpty.js ***!
   \*****************************************************************************************************/
@@ -1755,9 +1755,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   throwIfEmpty: () => (/* binding */ throwIfEmpty)
 /* harmony export */ });
-/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/EmptyError */ 1835);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5847);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 8499);
+/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/EmptyError */ 1745);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
 
 
 
@@ -1776,7 +1776,7 @@ function defaultErrorFactory() {
 
 /***/ }),
 
-/***/ 517:
+/***/ 3595:
 /*!******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleArray.js ***!
   \******************************************************************************************************/
@@ -1786,7 +1786,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleArray: () => (/* binding */ scheduleArray)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 898);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
 
 function scheduleArray(input, scheduler) {
   return new _Observable__WEBPACK_IMPORTED_MODULE_0__.Observable(subscriber => {
@@ -1806,7 +1806,7 @@ function scheduleArray(input, scheduler) {
 
 /***/ }),
 
-/***/ 666:
+/***/ 5900:
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleAsyncIterable.js ***!
   \**************************************************************************************************************/
@@ -1816,8 +1816,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleAsyncIterable: () => (/* binding */ scheduleAsyncIterable)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 898);
-/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/executeSchedule */ 2010);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
+/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/executeSchedule */ 4216);
 
 
 function scheduleAsyncIterable(input, scheduler) {
@@ -1842,7 +1842,7 @@ function scheduleAsyncIterable(input, scheduler) {
 
 /***/ }),
 
-/***/ 44:
+/***/ 8742:
 /*!*********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleIterable.js ***!
   \*********************************************************************************************************/
@@ -1852,10 +1852,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleIterable: () => (/* binding */ scheduleIterable)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 898);
-/* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../symbol/iterator */ 5448);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/isFunction */ 7414);
-/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/executeSchedule */ 2010);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
+/* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../symbol/iterator */ 3534);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/isFunction */ 9596);
+/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/executeSchedule */ 4216);
 
 
 
@@ -1890,7 +1890,7 @@ function scheduleIterable(input, scheduler) {
 
 /***/ }),
 
-/***/ 1915:
+/***/ 3685:
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleObservable.js ***!
   \***********************************************************************************************************/
@@ -1900,9 +1900,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleObservable: () => (/* binding */ scheduleObservable)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 3993);
-/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../operators/observeOn */ 8580);
-/* harmony import */ var _operators_subscribeOn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../operators/subscribeOn */ 1588);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
+/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../operators/observeOn */ 4674);
+/* harmony import */ var _operators_subscribeOn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../operators/subscribeOn */ 1654);
 
 
 
@@ -1912,7 +1912,7 @@ function scheduleObservable(input, scheduler) {
 
 /***/ }),
 
-/***/ 7097:
+/***/ 9203:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/schedulePromise.js ***!
   \********************************************************************************************************/
@@ -1922,9 +1922,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   schedulePromise: () => (/* binding */ schedulePromise)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 3993);
-/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../operators/observeOn */ 8580);
-/* harmony import */ var _operators_subscribeOn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../operators/subscribeOn */ 1588);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
+/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../operators/observeOn */ 4674);
+/* harmony import */ var _operators_subscribeOn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../operators/subscribeOn */ 1654);
 
 
 
@@ -1934,7 +1934,7 @@ function schedulePromise(input, scheduler) {
 
 /***/ }),
 
-/***/ 4181:
+/***/ 4379:
 /*!*******************************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleReadableStreamLike.js ***!
   \*******************************************************************************************************************/
@@ -1944,8 +1944,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleReadableStreamLike: () => (/* binding */ scheduleReadableStreamLike)
 /* harmony export */ });
-/* harmony import */ var _scheduleAsyncIterable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scheduleAsyncIterable */ 666);
-/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 5077);
+/* harmony import */ var _scheduleAsyncIterable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scheduleAsyncIterable */ 5900);
+/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 9451);
 
 
 function scheduleReadableStreamLike(input, scheduler) {
@@ -1954,7 +1954,7 @@ function scheduleReadableStreamLike(input, scheduler) {
 
 /***/ }),
 
-/***/ 4764:
+/***/ 8698:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduled.js ***!
   \**************************************************************************************************/
@@ -1964,19 +1964,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduled: () => (/* binding */ scheduled)
 /* harmony export */ });
-/* harmony import */ var _scheduleObservable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scheduleObservable */ 1915);
-/* harmony import */ var _schedulePromise__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./schedulePromise */ 7097);
-/* harmony import */ var _scheduleArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scheduleArray */ 517);
-/* harmony import */ var _scheduleIterable__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scheduleIterable */ 44);
-/* harmony import */ var _scheduleAsyncIterable__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scheduleAsyncIterable */ 666);
-/* harmony import */ var _util_isInteropObservable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isInteropObservable */ 2536);
-/* harmony import */ var _util_isPromise__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/isPromise */ 1737);
-/* harmony import */ var _util_isArrayLike__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/isArrayLike */ 7410);
-/* harmony import */ var _util_isIterable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../util/isIterable */ 2508);
-/* harmony import */ var _util_isAsyncIterable__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/isAsyncIterable */ 1434);
-/* harmony import */ var _util_throwUnobservableError__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../util/throwUnobservableError */ 6778);
-/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 5077);
-/* harmony import */ var _scheduleReadableStreamLike__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./scheduleReadableStreamLike */ 4181);
+/* harmony import */ var _scheduleObservable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scheduleObservable */ 3685);
+/* harmony import */ var _schedulePromise__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./schedulePromise */ 9203);
+/* harmony import */ var _scheduleArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scheduleArray */ 3595);
+/* harmony import */ var _scheduleIterable__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scheduleIterable */ 8742);
+/* harmony import */ var _scheduleAsyncIterable__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scheduleAsyncIterable */ 5900);
+/* harmony import */ var _util_isInteropObservable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isInteropObservable */ 6130);
+/* harmony import */ var _util_isPromise__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/isPromise */ 5043);
+/* harmony import */ var _util_isArrayLike__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/isArrayLike */ 9332);
+/* harmony import */ var _util_isIterable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../util/isIterable */ 3462);
+/* harmony import */ var _util_isAsyncIterable__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/isAsyncIterable */ 4636);
+/* harmony import */ var _util_throwUnobservableError__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../util/throwUnobservableError */ 8824);
+/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 9451);
+/* harmony import */ var _scheduleReadableStreamLike__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./scheduleReadableStreamLike */ 4379);
 
 
 
@@ -2016,7 +2016,7 @@ function scheduled(input, scheduler) {
 
 /***/ }),
 
-/***/ 2124:
+/***/ 6986:
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduler/dateTimestampProvider.js ***!
   \**************************************************************************************************************/
@@ -2035,7 +2035,7 @@ const dateTimestampProvider = {
 
 /***/ }),
 
-/***/ 1871:
+/***/ 8533:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduler/timeoutProvider.js ***!
   \********************************************************************************************************/
@@ -2066,7 +2066,7 @@ const timeoutProvider = {
 
 /***/ }),
 
-/***/ 5448:
+/***/ 3534:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/symbol/iterator.js ***!
   \**********************************************************************************************/
@@ -2087,7 +2087,7 @@ const iterator = getSymbolIterator();
 
 /***/ }),
 
-/***/ 835:
+/***/ 6349:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/symbol/observable.js ***!
   \************************************************************************************************/
@@ -2101,7 +2101,7 @@ const observable = (() => typeof Symbol === 'function' && Symbol.observable || '
 
 /***/ }),
 
-/***/ 1835:
+/***/ 1745:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/EmptyError.js ***!
   \**********************************************************************************************/
@@ -2111,7 +2111,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   EmptyError: () => (/* binding */ EmptyError)
 /* harmony export */ });
-/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 7100);
+/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 1590);
 
 const EmptyError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0__.createErrorClass)(_super => function EmptyErrorImpl() {
   _super(this);
@@ -2121,7 +2121,7 @@ const EmptyError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0__.createError
 
 /***/ }),
 
-/***/ 3306:
+/***/ 6016:
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/ObjectUnsubscribedError.js ***!
   \***********************************************************************************************************/
@@ -2131,7 +2131,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ObjectUnsubscribedError: () => (/* binding */ ObjectUnsubscribedError)
 /* harmony export */ });
-/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 7100);
+/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 1590);
 
 const ObjectUnsubscribedError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0__.createErrorClass)(_super => function ObjectUnsubscribedErrorImpl() {
   _super(this);
@@ -2141,7 +2141,7 @@ const ObjectUnsubscribedError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0_
 
 /***/ }),
 
-/***/ 3104:
+/***/ 8978:
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/UnsubscriptionError.js ***!
   \*******************************************************************************************************/
@@ -2151,7 +2151,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   UnsubscriptionError: () => (/* binding */ UnsubscriptionError)
 /* harmony export */ });
-/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 7100);
+/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 1590);
 
 const UnsubscriptionError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0__.createErrorClass)(_super => function UnsubscriptionErrorImpl(errors) {
   _super(this);
@@ -2163,7 +2163,7 @@ ${errors.map((err, i) => `${i + 1}) ${err.toString()}`).join('\n  ')}` : '';
 
 /***/ }),
 
-/***/ 7223:
+/***/ 9313:
 /*!****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/args.js ***!
   \****************************************************************************************/
@@ -2175,8 +2175,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   popResultSelector: () => (/* binding */ popResultSelector),
 /* harmony export */   popScheduler: () => (/* binding */ popScheduler)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 7414);
-/* harmony import */ var _isScheduler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isScheduler */ 4449);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var _isScheduler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isScheduler */ 2587);
 
 
 function last(arr) {
@@ -2194,7 +2194,7 @@ function popNumber(args, defaultValue) {
 
 /***/ }),
 
-/***/ 5996:
+/***/ 2225:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/argsArgArrayOrObject.js ***!
   \********************************************************************************************************/
@@ -2240,7 +2240,7 @@ function isPOJO(obj) {
 
 /***/ }),
 
-/***/ 9971:
+/***/ 7809:
 /*!*********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/arrRemove.js ***!
   \*********************************************************************************************/
@@ -2259,7 +2259,7 @@ function arrRemove(arr, item) {
 
 /***/ }),
 
-/***/ 7100:
+/***/ 1590:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/createErrorClass.js ***!
   \****************************************************************************************************/
@@ -2282,7 +2282,7 @@ function createErrorClass(createImpl) {
 
 /***/ }),
 
-/***/ 9017:
+/***/ 5871:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/createObject.js ***!
   \************************************************************************************************/
@@ -2298,7 +2298,7 @@ function createObject(keys, values) {
 
 /***/ }),
 
-/***/ 3035:
+/***/ 7605:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/errorContext.js ***!
   \************************************************************************************************/
@@ -2309,7 +2309,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   captureError: () => (/* binding */ captureError),
 /* harmony export */   errorContext: () => (/* binding */ errorContext)
 /* harmony export */ });
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../config */ 4249);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../config */ 1083);
 
 let context = null;
 function errorContext(cb) {
@@ -2345,7 +2345,7 @@ function captureError(err) {
 
 /***/ }),
 
-/***/ 2010:
+/***/ 4216:
 /*!***************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/executeSchedule.js ***!
   \***************************************************************************************************/
@@ -2372,7 +2372,7 @@ function executeSchedule(parentSubscription, scheduler, work, delay = 0, repeat 
 
 /***/ }),
 
-/***/ 276:
+/***/ 7182:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/identity.js ***!
   \********************************************************************************************/
@@ -2388,7 +2388,7 @@ function identity(x) {
 
 /***/ }),
 
-/***/ 7410:
+/***/ 9332:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isArrayLike.js ***!
   \***********************************************************************************************/
@@ -2402,7 +2402,7 @@ const isArrayLike = x => x && typeof x.length === 'number' && typeof x !== 'func
 
 /***/ }),
 
-/***/ 1434:
+/***/ 4636:
 /*!***************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isAsyncIterable.js ***!
   \***************************************************************************************************/
@@ -2412,7 +2412,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isAsyncIterable: () => (/* binding */ isAsyncIterable)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 7414);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
 
 function isAsyncIterable(obj) {
   return Symbol.asyncIterator && (0,_isFunction__WEBPACK_IMPORTED_MODULE_0__.isFunction)(obj === null || obj === void 0 ? void 0 : obj[Symbol.asyncIterator]);
@@ -2420,7 +2420,7 @@ function isAsyncIterable(obj) {
 
 /***/ }),
 
-/***/ 7414:
+/***/ 9596:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isFunction.js ***!
   \**********************************************************************************************/
@@ -2436,7 +2436,7 @@ function isFunction(value) {
 
 /***/ }),
 
-/***/ 2536:
+/***/ 6130:
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isInteropObservable.js ***!
   \*******************************************************************************************************/
@@ -2446,8 +2446,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isInteropObservable: () => (/* binding */ isInteropObservable)
 /* harmony export */ });
-/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../symbol/observable */ 835);
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 7414);
+/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../symbol/observable */ 6349);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
 
 
 function isInteropObservable(input) {
@@ -2456,7 +2456,7 @@ function isInteropObservable(input) {
 
 /***/ }),
 
-/***/ 2508:
+/***/ 3462:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isIterable.js ***!
   \**********************************************************************************************/
@@ -2466,8 +2466,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isIterable: () => (/* binding */ isIterable)
 /* harmony export */ });
-/* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../symbol/iterator */ 5448);
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 7414);
+/* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../symbol/iterator */ 3534);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
 
 
 function isIterable(input) {
@@ -2476,7 +2476,7 @@ function isIterable(input) {
 
 /***/ }),
 
-/***/ 8923:
+/***/ 7861:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isObservable.js ***!
   \************************************************************************************************/
@@ -2486,8 +2486,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isObservable: () => (/* binding */ isObservable)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 898);
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isFunction */ 7414);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isFunction */ 9596);
 
 
 function isObservable(obj) {
@@ -2496,7 +2496,7 @@ function isObservable(obj) {
 
 /***/ }),
 
-/***/ 1737:
+/***/ 5043:
 /*!*********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isPromise.js ***!
   \*********************************************************************************************/
@@ -2506,7 +2506,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isPromise: () => (/* binding */ isPromise)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 7414);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
 
 function isPromise(value) {
   return (0,_isFunction__WEBPACK_IMPORTED_MODULE_0__.isFunction)(value === null || value === void 0 ? void 0 : value.then);
@@ -2514,7 +2514,7 @@ function isPromise(value) {
 
 /***/ }),
 
-/***/ 5077:
+/***/ 9451:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isReadableStreamLike.js ***!
   \********************************************************************************************************/
@@ -2525,8 +2525,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   isReadableStreamLike: () => (/* binding */ isReadableStreamLike),
 /* harmony export */   readableStreamLikeToAsyncGenerator: () => (/* binding */ readableStreamLikeToAsyncGenerator)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ 3720);
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isFunction */ 7414);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ 2160);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isFunction */ 9596);
 
 
 function readableStreamLikeToAsyncGenerator(readableStream) {
@@ -2554,7 +2554,7 @@ function isReadableStreamLike(obj) {
 
 /***/ }),
 
-/***/ 4449:
+/***/ 2587:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isScheduler.js ***!
   \***********************************************************************************************/
@@ -2564,7 +2564,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isScheduler: () => (/* binding */ isScheduler)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 7414);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
 
 function isScheduler(value) {
   return value && (0,_isFunction__WEBPACK_IMPORTED_MODULE_0__.isFunction)(value.schedule);
@@ -2572,7 +2572,7 @@ function isScheduler(value) {
 
 /***/ }),
 
-/***/ 5847:
+/***/ 5497:
 /*!****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/lift.js ***!
   \****************************************************************************************/
@@ -2583,7 +2583,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   hasLift: () => (/* binding */ hasLift),
 /* harmony export */   operate: () => (/* binding */ operate)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 7414);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
 
 function hasLift(source) {
   return (0,_isFunction__WEBPACK_IMPORTED_MODULE_0__.isFunction)(source === null || source === void 0 ? void 0 : source.lift);
@@ -2605,7 +2605,7 @@ function operate(init) {
 
 /***/ }),
 
-/***/ 9327:
+/***/ 1557:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/mapOneOrManyArgs.js ***!
   \****************************************************************************************************/
@@ -2615,7 +2615,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   mapOneOrManyArgs: () => (/* binding */ mapOneOrManyArgs)
 /* harmony export */ });
-/* harmony import */ var _operators_map__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../operators/map */ 4251);
+/* harmony import */ var _operators_map__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../operators/map */ 7437);
 
 const {
   isArray
@@ -2629,7 +2629,7 @@ function mapOneOrManyArgs(fn) {
 
 /***/ }),
 
-/***/ 482:
+/***/ 588:
 /*!****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/noop.js ***!
   \****************************************************************************************/
@@ -2643,7 +2643,7 @@ function noop() {}
 
 /***/ }),
 
-/***/ 6310:
+/***/ 5628:
 /*!****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/pipe.js ***!
   \****************************************************************************************/
@@ -2654,7 +2654,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   pipe: () => (/* binding */ pipe),
 /* harmony export */   pipeFromArray: () => (/* binding */ pipeFromArray)
 /* harmony export */ });
-/* harmony import */ var _identity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./identity */ 276);
+/* harmony import */ var _identity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./identity */ 7182);
 
 function pipe(...fns) {
   return pipeFromArray(fns);
@@ -2673,7 +2673,7 @@ function pipeFromArray(fns) {
 
 /***/ }),
 
-/***/ 9871:
+/***/ 6753:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/reportUnhandledError.js ***!
   \********************************************************************************************************/
@@ -2683,8 +2683,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   reportUnhandledError: () => (/* binding */ reportUnhandledError)
 /* harmony export */ });
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../config */ 4249);
-/* harmony import */ var _scheduler_timeoutProvider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scheduler/timeoutProvider */ 1871);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../config */ 1083);
+/* harmony import */ var _scheduler_timeoutProvider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scheduler/timeoutProvider */ 8533);
 
 
 function reportUnhandledError(err) {
@@ -2702,7 +2702,7 @@ function reportUnhandledError(err) {
 
 /***/ }),
 
-/***/ 6778:
+/***/ 8824:
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/throwUnobservableError.js ***!
   \**********************************************************************************************************/
@@ -2718,10 +2718,10 @@ function createInvalidObservableTypeError(input) {
 
 /***/ }),
 
-/***/ 2852:
-/*!************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+common@17.3.5_@angular+core@17.3.5_rxjs@7.8.1/node_modules/@angular/common/fesm2022/common.mjs ***!
-  \************************************************************************************************************************************/
+/***/ 6794:
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6__rxjs@7.8.1/node_modules/@angular/common/fesm2022/common.mjs ***!
+  \***************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -2808,8 +2808,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   getNumberOfCurrencyDigits: () => (/* binding */ getNumberOfCurrencyDigits),
 /* harmony export */   isPlatformBrowser: () => (/* binding */ isPlatformBrowser),
 /* harmony export */   isPlatformServer: () => (/* binding */ isPlatformServer),
-/* harmony export */   isPlatformWorkerApp: () => (/* binding */ isPlatformWorkerApp),
-/* harmony export */   isPlatformWorkerUi: () => (/* binding */ isPlatformWorkerUi),
 /* harmony export */   provideCloudflareLoader: () => (/* binding */ provideCloudflareLoader),
 /* harmony export */   provideCloudinaryLoader: () => (/* binding */ provideCloudinaryLoader),
 /* harmony export */   provideImageKitLoader: () => (/* binding */ provideImageKitLoader),
@@ -2820,17 +2818,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵNullViewportScroller": () => (/* binding */ NullViewportScroller),
 /* harmony export */   "ɵPLATFORM_BROWSER_ID": () => (/* binding */ PLATFORM_BROWSER_ID),
 /* harmony export */   "ɵPLATFORM_SERVER_ID": () => (/* binding */ PLATFORM_SERVER_ID),
-/* harmony export */   "ɵPLATFORM_WORKER_APP_ID": () => (/* binding */ PLATFORM_WORKER_APP_ID),
-/* harmony export */   "ɵPLATFORM_WORKER_UI_ID": () => (/* binding */ PLATFORM_WORKER_UI_ID),
 /* harmony export */   "ɵPlatformNavigation": () => (/* binding */ PlatformNavigation),
 /* harmony export */   "ɵgetDOM": () => (/* binding */ getDOM),
 /* harmony export */   "ɵnormalizeQueryParams": () => (/* binding */ normalizeQueryParams),
 /* harmony export */   "ɵparseCookieValue": () => (/* binding */ parseCookieValue),
 /* harmony export */   "ɵsetRootDomAdapter": () => (/* binding */ setRootDomAdapter)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 4494);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 6829);
 /**
- * @license Angular v17.3.5
+ * @license Angular v18.0.0
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -3123,7 +3119,7 @@ class LocationStrategy {
   }], null, null);
 })();
 /**
- * A predefined [DI token](guide/glossary#di-token) for the base href
+ * A predefined DI token for the base href
  * to be used with the `PathLocationStrategy`.
  * The base href is the URL prefix that should be preserved when generating
  * and recognizing URLs.
@@ -3792,9 +3788,11 @@ const CURRENCIES_EN = {
 /**
  * Format styles that can be used to represent numbers.
  * @see {@link getLocaleNumberFormat}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated `getLocaleNumberFormat` is deprecated
  */
 var NumberFormatStyle;
 (function (NumberFormatStyle) {
@@ -3808,9 +3806,11 @@ var NumberFormatStyle;
  *
  * @see {@link NgPlural}
  * @see {@link NgPluralCase}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated `getLocalePluralCase` is deprecated
  */
 var Plural;
 (function (Plural) {
@@ -3826,9 +3826,11 @@ var Plural;
  * Typically the standalone version is for the nominative form of the word,
  * and the format version is used for the genitive case.
  * @see [CLDR website](http://cldr.unicode.org/translation/date-time-1/date-time#TOC-Standalone-vs.-Format-Styles)
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated locale data getters are deprecated
  */
 var FormStyle;
 (function (FormStyle) {
@@ -3841,6 +3843,8 @@ var FormStyle;
  * Examples are given for the word "Sunday" in English.
  *
  * @publicApi
+ *
+ * @deprecated locale data getters are deprecated
  */
 var TranslationWidth;
 (function (TranslationWidth) {
@@ -3861,13 +3865,15 @@ var TranslationWidth;
  * @see {@link getLocaleDateFormat}
  * @see {@link getLocaleTimeFormat}
  * @see {@link getLocaleDateTimeFormat}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  * @publicApi
+ *
+ * @deprecated Date locale data getters are deprecated
  */
 var FormatWidth;
 (function (FormatWidth) {
   /**
-   * For `en-US`, 'M/d/yy, h:mm a'`
+   * For `en-US`, `'M/d/yy, h:mm a'`
    * (Example: `6/15/15, 9:03 AM`)
    */
   FormatWidth[FormatWidth["Short"] = 0] = "Short";
@@ -3894,9 +3900,12 @@ var FormatWidth;
  * Examples are based on `en-US` values.
  *
  * @see {@link getLocaleNumberSymbol}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated `getLocaleNumberSymbol` is deprecated
+ *
  * @object-literal-as-enum
  */
 const NumberSymbol = {
@@ -3977,6 +3986,8 @@ const NumberSymbol = {
  * The value for each day of the week, based on the `en-US` locale
  *
  * @publicApi
+ *
+ * @deprecated Week locale getters are deprecated
  */
 var WeekDay;
 (function (WeekDay) {
@@ -3993,9 +4004,12 @@ var WeekDay;
  * The loaded locale could be, for example, a global one rather than a regional one.
  * @param locale A locale code, such as `fr-FR`.
  * @returns The locale code. For example, `fr`.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * This function serves no purpose when relying on the `Intl` API.
  */
 function getLocaleId(locale) {
   return (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale)[_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵLocaleDataIndex"].LocaleId];
@@ -4007,9 +4021,12 @@ function getLocaleId(locale) {
  * @param formStyle The required grammatical form.
  * @param width The required character width.
  * @returns An array of localized period strings. For example, `[AM, PM]` for `en-US`.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.DateTimeFormat` for date formating instead.
  */
 function getLocaleDayPeriods(locale, formStyle, width) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4025,9 +4042,12 @@ function getLocaleDayPeriods(locale, formStyle, width) {
  * @param width The required character width.
  * @returns An array of localized name strings.
  * For example,`[Sunday, Monday, ... Saturday]` for `en-US`.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.DateTimeFormat` for date formating instead.
  */
 function getLocaleDayNames(locale, formStyle, width) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4043,9 +4063,12 @@ function getLocaleDayNames(locale, formStyle, width) {
  * @param width The required character width.
  * @returns An array of localized name strings.
  * For example,  `[January, February, ...]` for `en-US`.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.DateTimeFormat` for date formating instead.
  */
 function getLocaleMonthNames(locale, formStyle, width) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4060,9 +4083,12 @@ function getLocaleMonthNames(locale, formStyle, width) {
 
  * @returns An array of localized era strings.
  * For example, `[AD, BC]` for `en-US`.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.DateTimeFormat` for date formating instead.
  */
 function getLocaleEraNames(locale, width) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4076,9 +4102,15 @@ function getLocaleEraNames(locale, width) {
  * @returns A day index number, using the 0-based week-day index for `en-US`
  * (Sunday = 0, Monday = 1, ...).
  * For example, for `fr-FR`, returns 1 to indicate that the first day is Monday.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Intl's [`getWeekInfo`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo) has partial support (Chromium M99 & Safari 17).
+ * You may want to rely on the following alternatives:
+ * - Libraries like [`Luxon`](https://moment.github.io/luxon/#/) rely on `Intl` but fallback on the ISO 8601 definition (monday) if `getWeekInfo` is not supported.
+ * - Other librairies like [`date-fns`](https://date-fns.org/), [`day.js`](https://day.js.org/en/) or [`weekstart`](https://www.npmjs.com/package/weekstart) library provide their own locale based data for the first day of the week.
  */
 function getLocaleFirstDayOfWeek(locale) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4089,9 +4121,13 @@ function getLocaleFirstDayOfWeek(locale) {
  *
  * @param locale A locale code for the locale format rules to use.
  * @returns The range of day values, `[startDay, endDay]`.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Intl's [`getWeekInfo`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo) has partial support (Chromium M99 & Safari 17).
+ * Libraries like [`Luxon`](https://moment.github.io/luxon/#/) rely on `Intl` but fallback on the ISO 8601 definition (Saturday+Sunday) if `getWeekInfo` is not supported .
  */
 function getLocaleWeekEndRange(locale) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4104,9 +4140,12 @@ function getLocaleWeekEndRange(locale) {
  * @param width The format type.
  * @returns The localized formatting string.
  * @see {@link FormatWidth}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.DateTimeFormat` for date formating instead.
  */
 function getLocaleDateFormat(locale, width) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4119,9 +4158,11 @@ function getLocaleDateFormat(locale, width) {
  * @param width The format type.
  * @returns The localized formatting string.
  * @see {@link FormatWidth}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
 
  * @publicApi
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.DateTimeFormat` for date formating instead.
  */
 function getLocaleTimeFormat(locale, width) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4134,9 +4175,12 @@ function getLocaleTimeFormat(locale, width) {
  * @param width The format type.
  * @returns The localized formatting string.
  * @see {@link FormatWidth}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.DateTimeFormat` for date formating instead.
  */
 function getLocaleDateTimeFormat(locale, width) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4149,9 +4193,12 @@ function getLocaleDateTimeFormat(locale, width) {
  * @param symbol The symbol to localize. Must be one of `NumberSymbol`.
  * @returns The character for the localized symbol.
  * @see {@link NumberSymbol}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.NumberFormat` to format numbers instead.
  */
 function getLocaleNumberSymbol(locale, symbol) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4196,9 +4243,12 @@ function getLocaleNumberSymbol(locale, symbol) {
  * @returns The localized format string.
  * @see {@link NumberFormatStyle}
  * @see [CLDR website](http://cldr.unicode.org/translation/number-patterns)
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Let `Intl.NumberFormat` determine the number format instead
  */
 function getLocaleNumberFormat(locale, type) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4211,9 +4261,11 @@ function getLocaleNumberFormat(locale, type) {
  * @param locale A locale code for the locale format rules to use.
  * @returns The localized symbol character,
  * or `null` if the main country cannot be determined.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Use the `Intl` API to format a currency with from currency code
  */
 function getLocaleCurrencySymbol(locale) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4225,9 +4277,11 @@ function getLocaleCurrencySymbol(locale) {
  * @param locale A locale code for the locale format rules to use.
  * @returns The currency name,
  * or `null` if the main country cannot be determined.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Use the `Intl` API to format a currency with from currency code
  */
 function getLocaleCurrencyName(locale) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4242,6 +4296,9 @@ function getLocaleCurrencyName(locale) {
  * @returns The code of the default currency for the given locale.
  *
  * @publicApi
+ *
+ * @deprecated We recommend you create a map of locale to ISO 4217 currency codes.
+ * Time relative currency data is provided by the CLDR project. See https://www.unicode.org/cldr/charts/44/supplemental/detailed_territory_currency_information.html
  */
 function getLocaleCurrencyCode(locale) {
   return (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵgetLocaleCurrencyCode"])(locale);
@@ -4250,15 +4307,17 @@ function getLocaleCurrencyCode(locale) {
  * Retrieves the currency values for a given locale.
  * @param locale A locale code for the locale format rules to use.
  * @returns The currency values.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  */
 function getLocaleCurrencies(locale) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
   return data[_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵLocaleDataIndex"].Currencies];
 }
 /**
- * @alias core/ɵgetLocalePluralCase
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Use `Intl.PluralRules` instead
  */
 const getLocalePluralCase = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵgetLocalePluralCase"];
 function checkFullData(data) {
@@ -4277,16 +4336,19 @@ function checkFullData(data) {
  * A rule can specify a period as time range, or as a single time value.
  *
  * This functionality is only available when you have loaded the full locale data.
- * See the ["I18n guide"](guide/i18n-common-format-data-locale).
+ * See the ["I18n guide"](guide/i18n/format-data-locale).
  *
  * @param locale A locale code for the locale format rules to use.
  * @returns The rules for the locale, a single time value or array of *from-time, to-time*,
  * or null if no periods are available.
  *
  * @see {@link getLocaleExtraDayPeriods}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * Let `Intl.DateTimeFormat` determine the day period instead.
  */
 function getLocaleExtraDayPeriodRules(locale) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4305,16 +4367,19 @@ function getLocaleExtraDayPeriodRules(locale) {
  * For example, for `en-US`, periods are morning, noon, afternoon, evening, and midnight.
  *
  * This functionality is only available when you have loaded the full locale data.
- * See the ["I18n guide"](guide/i18n-common-format-data-locale).
+ * See the ["I18n guide"](guide/i18n/format-data-locale).
  *
  * @param locale A locale code for the locale format rules to use.
  * @param formStyle The required grammatical form.
  * @param width The required character width.
  * @returns The translated day-period strings.
  * @see {@link getLocaleExtraDayPeriodRules}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * To extract a day period use `Intl.DateTimeFormat` with the `dayPeriod` option instead.
  */
 function getLocaleExtraDayPeriods(locale, formStyle, width) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4328,7 +4393,13 @@ function getLocaleExtraDayPeriods(locale, formStyle, width) {
  * @param locale A locale code for the locale format rules to use.
  * @publicApi
  * @returns 'rtl' or 'ltr'
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * For dates and numbers, let `Intl.DateTimeFormat()` and `Intl.NumberFormat()` determine the writing direction.
+ * The `Intl` alternative [`getTextInfo`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getTextInfo).
+ * has only partial support (Chromium M99 & Safari 17).
+ * 3rd party alternatives like [`rtl-detect`](https://www.npmjs.com/package/rtl-detect) can work around this issue.
  */
 function getLocaleDirection(locale) {
   const data = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵfindLocaleData"])(locale);
@@ -4343,9 +4414,8 @@ function getLocaleDirection(locale) {
  * @param data The data array to retrieve from.
  * @param index A 0-based index into the array to start from.
  * @returns The value immediately before the given index position.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
- * @publicApi
  */
 function getLastDefinedValue(data, index) {
   for (let i = index; i > -1; i--) {
@@ -4376,9 +4446,15 @@ function extractTime(time) {
  * @param locale A locale code for the locale format rules to use.
  *
  * @returns The symbol, or the currency code if no symbol is available.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * You can use `Intl.NumberFormat().formatToParts()` to extract the currency symbol.
+ * For example: `Intl.NumberFormat('en', {style:'currency', currency: 'USD'}).formatToParts().find(part => part.type === 'currency').value`
+ * returns `$` for USD currency code in the `en` locale.
+ * Note: `US$` is a currency symbol for the `en-ca` locale but not the `en-us` locale.
  */
 function getCurrencySymbol(code, format, locale = 'en') {
   const currency = getLocaleCurrencies(locale)[code] || CURRENCIES_EN[code] || [];
@@ -4396,9 +4472,12 @@ const DEFAULT_NB_OF_CURRENCY_DIGITS = 2;
  *
  * @param code The currency code.
  * @returns The number of decimal digits, typically 0 or 2.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
+ *
+ * @deprecated Angular recommends relying on the `Intl` API for i18n.
+ * This function should not be used anymore. Let `Intl.NumberFormat` determine the number of digits to display for the currency
  */
 function getNumberOfCurrencyDigits(code) {
   let digits;
@@ -4454,7 +4533,7 @@ var TranslationType;
  * @returns The formatted date string.
  *
  * @see {@link DatePipe}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
  */
@@ -5246,7 +5325,7 @@ function formatNumberToLocaleString(value, pattern, locale, groupSymbol, decimal
  *
  * @see {@link formatNumber}
  * @see {@link DecimalPipe}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
  */
@@ -5280,7 +5359,7 @@ function formatCurrency(value, locale, currency, currencyCode, digitsInfo) {
  *
  * @see {@link formatNumber}
  * @see {@link DecimalPipe}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  * @publicApi
  *
  */
@@ -5303,7 +5382,7 @@ function formatPercent(value, locale, digitsInfo) {
  * `{minIntegerDigits}.{minFractionDigits}-{maxFractionDigits}`. See `DecimalPipe` for more details.
  *
  * @returns The formatted text string.
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  *
  * @publicApi
  */
@@ -5604,7 +5683,7 @@ class NgLocaleLocalization extends NgLocalization {
 
 /**
  * Register global data to be used internally by Angular. See the
- * ["I18n guide"](guide/i18n-common-format-data-locale) to know how to import additional locale
+ * ["I18n guide"](guide/i18n/format-data-locale) to know how to import additional locale
  * data.
  *
  * The signature registerLocaleData(data: any, extraData?: any) is deprecated since v5.1
@@ -5766,7 +5845,7 @@ class NgClass {
     type: NgClass,
     selectors: [["", "ngClass", ""]],
     inputs: {
-      klass: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "class", "klass"],
+      klass: [0, "class", "klass"],
       ngClass: "ngClass"
     },
     standalone: true
@@ -6019,13 +6098,13 @@ class NgForOfContext {
   }
 }
 /**
- * A [structural directive](guide/structural-directives) that renders
+ * A [structural directive](guide/directives/structural-directives) that renders
  * a template for each item in a collection.
  * The directive is placed on an element, which becomes the parent
  * of the cloned templates.
  *
  * The `ngForOf` directive is generally used in the
- * [shorthand form](guide/structural-directives#asterisk) `*ngFor`.
+ * [shorthand form](guide/directives/structural-directives#asterisk) `*ngFor`.
  * In this form, the template to be rendered for each iteration is the content
  * of an anchor element containing the directive.
  *
@@ -6054,11 +6133,11 @@ class NgForOfContext {
  * context according to its lexical position.
  *
  * When using the shorthand syntax, Angular allows only [one structural directive
- * on an element](guide/structural-directives#one-per-element).
+ * on an element](guide/directives/structural-directives#one-per-element).
  * If you want to iterate conditionally, for example,
  * put the `*ngIf` on a container element that wraps the `*ngFor` element.
  * For further discussion, see
- * [Structural Directives](guide/structural-directives#one-per-element).
+ * [Structural Directives](guide/directives/structural-directives#one-per-element).
  *
  * @usageNotes
  *
@@ -6099,7 +6178,7 @@ class NgForOfContext {
  * controls that are present, such as `<input>` elements that accept user input. Inserted rows can
  * be animated in, deleted rows can be animated out, and unchanged rows retain any unsaved state
  * such as user input.
- * For more on animations, see [Transitions and Triggers](guide/transition-and-triggers).
+ * For more on animations, see [Transitions and Triggers](guide/animations/transition-and-triggers).
  *
  * The identities of elements in the iterator can change while the data does not.
  * This can happen, for example, if the iterator is produced from an RPC to the server, and that
@@ -6112,14 +6191,14 @@ class NgForOfContext {
  * `trackBy` takes a function that has two arguments: `index` and `item`.
  * If `trackBy` is given, Angular tracks changes by the return value of the function.
  *
- * @see [Structural Directives](guide/structural-directives)
+ * @see [Structural Directives](guide/directives/structural-directives)
  * @ngModule CommonModule
  * @publicApi
  */
 class NgForOf {
   /**
    * The value of the iterable expression, which can be used as a
-   * [template input variable](guide/structural-directives#shorthand).
+   * [template input variable](guide/directives/structural-directives#shorthand).
    */
   set ngForOf(ngForOf) {
     this._ngForOf = ngForOf;
@@ -6162,7 +6241,7 @@ class NgForOf {
   }
   /**
    * A reference to the template that is stamped out for each item in the iterable.
-   * @see [template reference variable](guide/template-reference-variables)
+   * @see [template reference variable](guide/templates/reference-variables)
    */
   set ngForTemplate(value) {
     // TODO(TS2.1): make TemplateRef<Partial<NgForRowOf<T>>> once we move to TS v2.1
@@ -6297,7 +6376,7 @@ function getTypeName(type) {
  * Angular renders the template provided in an optional `else` clause. The default
  * template for the `else` clause is blank.
  *
- * A [shorthand form](guide/structural-directives#asterisk) of the directive,
+ * A [shorthand form](guide/directives/structural-directives#asterisk) of the directive,
  * `*ngIf="condition"`, is generally used, provided
  * as an attribute of the anchor element for the inserted template.
  * Angular expands this into a more explicit version, in which the anchor element
@@ -6423,7 +6502,7 @@ function getTypeName(type) {
  *
  * The presence of the implicit template object has implications for the nesting of
  * structural directives. For more on this subject, see
- * [Structural Directives](guide/structural-directives#one-per-element).
+ * [Structural Directives](guide/directives/structural-directives#one-per-element).
  *
  * @ngModule CommonModule
  * @publicApi
@@ -6634,7 +6713,7 @@ class SwitchView {
  * @publicApi
  * @see {@link NgSwitchCase}
  * @see {@link NgSwitchDefault}
- * @see [Structural Directives](guide/structural-directives)
+ * @see [Structural Directives](guide/directives/structural-directives)
  *
  */
 class NgSwitch {
@@ -7563,7 +7642,6 @@ const DATE_PIPE_DEFAULT_TIMEZONE = new _angular_core__WEBPACK_IMPORTED_MODULE_0_
  * ```
  */
 const DATE_PIPE_DEFAULT_OPTIONS = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.InjectionToken(ngDevMode ? 'DATE_PIPE_DEFAULT_OPTIONS' : '');
-// clang-format off
 /**
  * @ngModule CommonModule
  * @description
@@ -7580,7 +7658,7 @@ const DATE_PIPE_DEFAULT_OPTIONS = new _angular_core__WEBPACK_IMPORTED_MODULE_0__
  *
  * Only the `en-US` locale data comes with Angular. To localize dates
  * in another language, you must import the corresponding locale data.
- * See the [I18n guide](guide/i18n-common-format-data-locale) for more information.
+ * See the [I18n guide](guide/i18n/format-data-locale) for more information.
  *
  * The time zone of the formatted value can be specified either by passing it in as the second
  * parameter of the pipe, or by setting the default through the `DATE_PIPE_DEFAULT_OPTIONS`
@@ -7722,7 +7800,6 @@ const DATE_PIPE_DEFAULT_OPTIONS = new _angular_core__WEBPACK_IMPORTED_MODULE_0__
  *
  * @publicApi
  */
-// clang-format on
 class DatePipe {
   constructor(locale, defaultTimezone, defaultOptions) {
     this.locale = locale;
@@ -8085,7 +8162,7 @@ function defaultComparator(keyValueA, keyValueB) {
  *
  * When not supplied, uses the value of `LOCALE_ID`, which is `en-US` by default.
  *
- * See [Setting your app locale](guide/i18n-common-locale-id).
+ * See [Setting your app locale](guide/i18n/locale-id).
  *
  * ### Example
  *
@@ -8181,7 +8258,7 @@ class PercentPipe {
    * Default is `0`.
    * @param locale A locale code for the locale format rules to use.
    * When not supplied, uses the value of `LOCALE_ID`, which is `en-US` by default.
-   * See [Setting your app locale](guide/i18n-common-locale-id).
+   * See [Setting your app locale](guide/i18n/locale-id).
    */
   transform(value, digitsInfo, locale) {
     if (!isValue(value)) return null;
@@ -8275,7 +8352,7 @@ class CurrencyPipe {
    * For example, the Canadian dollar has 2 digits, whereas the Chilean peso has none.
    * @param locale A locale code for the locale format rules to use.
    * When not supplied, uses the value of `LOCALE_ID`, which is `en-US` by default.
-   * See [Setting your app locale](guide/i18n-common-locale-id).
+   * See [Setting your app locale](guide/i18n/locale-id).
    */
   transform(value, currencyCode = this._defaultCurrencyCode, display = 'symbol', digitsInfo, locale) {
     if (!isValue(value)) return null;
@@ -8456,8 +8533,6 @@ class CommonModule {
 })();
 const PLATFORM_BROWSER_ID = 'browser';
 const PLATFORM_SERVER_ID = 'server';
-const PLATFORM_WORKER_APP_ID = 'browserWorkerApp';
-const PLATFORM_WORKER_UI_ID = 'browserWorkerUi';
 /**
  * Returns whether a platform id represents a browser platform.
  * @publicApi
@@ -8472,24 +8547,6 @@ function isPlatformBrowser(platformId) {
 function isPlatformServer(platformId) {
   return platformId === PLATFORM_SERVER_ID;
 }
-/**
- * Returns whether a platform id represents a web worker app platform.
- * @publicApi
- * @deprecated This function serves no purpose since the removal of the Webworker platform. It will
- *     always return `false`.
- */
-function isPlatformWorkerApp(platformId) {
-  return platformId === PLATFORM_WORKER_APP_ID;
-}
-/**
- * Returns whether a platform id represents a web worker UI platform.
- * @publicApi
- * @deprecated This function serves no purpose since the removal of the Webworker platform. It will
- *     always return `false`.
- */
-function isPlatformWorkerUi(platformId) {
-  return platformId === PLATFORM_WORKER_UI_ID;
-}
 
 /**
  * @module
@@ -8499,7 +8556,7 @@ function isPlatformWorkerUi(platformId) {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('17.3.5');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('18.0.0');
 
 /**
  * Defines a scroll position manager. Implemented by `BrowserViewportScroller`.
@@ -9414,7 +9471,7 @@ const BUILT_IN_LOADERS = [imgixLoaderInfo, imageKitLoaderInfo, cloudinaryLoaderI
  * - Warns if the image will be visually distorted when rendered
  *
  * @usageNotes
- * The `NgOptimizedImage` directive is marked as [standalone](guide/standalone-components) and can
+ * The `NgOptimizedImage` directive is marked as [standalone](guide/components/importing) and can
  * be imported directly.
  *
  * Follow the steps below to enable and use the directive:
@@ -9784,17 +9841,17 @@ class NgOptimizedImage {
       }
     },
     inputs: {
-      ngSrc: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].HasDecoratorInputTransform, "ngSrc", "ngSrc", unwrapSafeUrl],
+      ngSrc: [2, "ngSrc", "ngSrc", unwrapSafeUrl],
       ngSrcset: "ngSrcset",
       sizes: "sizes",
-      width: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].HasDecoratorInputTransform, "width", "width", _angular_core__WEBPACK_IMPORTED_MODULE_0__.numberAttribute],
-      height: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].HasDecoratorInputTransform, "height", "height", _angular_core__WEBPACK_IMPORTED_MODULE_0__.numberAttribute],
+      width: [2, "width", "width", _angular_core__WEBPACK_IMPORTED_MODULE_0__.numberAttribute],
+      height: [2, "height", "height", _angular_core__WEBPACK_IMPORTED_MODULE_0__.numberAttribute],
       loading: "loading",
-      priority: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].HasDecoratorInputTransform, "priority", "priority", _angular_core__WEBPACK_IMPORTED_MODULE_0__.booleanAttribute],
+      priority: [2, "priority", "priority", _angular_core__WEBPACK_IMPORTED_MODULE_0__.booleanAttribute],
       loaderParams: "loaderParams",
-      disableOptimizedSrcset: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].HasDecoratorInputTransform, "disableOptimizedSrcset", "disableOptimizedSrcset", _angular_core__WEBPACK_IMPORTED_MODULE_0__.booleanAttribute],
-      fill: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].HasDecoratorInputTransform, "fill", "fill", _angular_core__WEBPACK_IMPORTED_MODULE_0__.booleanAttribute],
-      placeholder: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].HasDecoratorInputTransform, "placeholder", "placeholder", booleanOrDataUrlAttribute],
+      disableOptimizedSrcset: [2, "disableOptimizedSrcset", "disableOptimizedSrcset", _angular_core__WEBPACK_IMPORTED_MODULE_0__.booleanAttribute],
+      fill: [2, "fill", "fill", _angular_core__WEBPACK_IMPORTED_MODULE_0__.booleanAttribute],
+      placeholder: [2, "placeholder", "placeholder", booleanOrDataUrlAttribute],
       placeholderConfig: "placeholderConfig",
       src: "src",
       srcset: "srcset"
@@ -10252,16 +10309,17 @@ function booleanOrDataUrlAttribute(value) {
 
 /***/ }),
 
-/***/ 4515:
-/*!**********************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+common@17.3.5_@angular+core@17.3.5_rxjs@7.8.1/node_modules/@angular/common/fesm2022/http.mjs ***!
-  \**********************************************************************************************************************************/
+/***/ 513:
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6__rxjs@7.8.1/node_modules/@angular/common/fesm2022/http.mjs ***!
+  \*************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   FetchBackend: () => (/* binding */ FetchBackend),
 /* harmony export */   HTTP_INTERCEPTORS: () => (/* binding */ HTTP_INTERCEPTORS),
+/* harmony export */   HTTP_TRANSFER_CACHE_ORIGIN_MAP: () => (/* binding */ HTTP_TRANSFER_CACHE_ORIGIN_MAP),
 /* harmony export */   HttpBackend: () => (/* binding */ HttpBackend),
 /* harmony export */   HttpClient: () => (/* binding */ HttpClient),
 /* harmony export */   HttpClientJsonpModule: () => (/* binding */ HttpClientJsonpModule),
@@ -10296,24 +10354,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵHTTP_ROOT_INTERCEPTOR_FNS": () => (/* binding */ HTTP_ROOT_INTERCEPTOR_FNS),
 /* harmony export */   "ɵHttpInterceptingHandler": () => (/* binding */ HttpInterceptorHandler),
 /* harmony export */   "ɵHttpInterceptorHandler": () => (/* binding */ HttpInterceptorHandler),
-/* harmony export */   "ɵPRIMARY_HTTP_BACKEND": () => (/* binding */ PRIMARY_HTTP_BACKEND),
+/* harmony export */   "ɵREQUESTS_CONTRIBUTE_TO_STABILITY": () => (/* binding */ REQUESTS_CONTRIBUTE_TO_STABILITY),
 /* harmony export */   "ɵwithHttpTransferCache": () => (/* binding */ withHttpTransferCache)
 /* harmony export */ });
-/* harmony import */ var _home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_0_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.24.0/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 8576);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 4494);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 5560);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 898);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 4441);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 5427);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 3579);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 4251);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 9679);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 6451);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs/operators */ 6312);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 2852);
+/* harmony import */ var _home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_5_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.24.5/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1649);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 6829);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 9294);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 1984);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 291);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 4373);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 2945);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 7437);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 6521);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 3393);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs/operators */ 5122);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 6794);
 
 /**
- * @license Angular v17.3.5
+ * @license Angular v18.0.0
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -11286,7 +11344,7 @@ class HttpResponseBase {
    * The single parameter accepted is an initialization hash. Any properties
    * of the response passed there will override the default values.
    */
-  constructor(init, defaultStatus = HttpStatusCode.Ok, defaultStatusText = 'OK') {
+  constructor(init, defaultStatus = 200, defaultStatusText = 'OK') {
     // If the hash has values passed, use them to initialize the response.
     // Otherwise use the default values.
     this.headers = init.headers || new HttpHeaders();
@@ -11390,6 +11448,12 @@ class HttpErrorResponse extends HttpResponseBase {
     this.error = init.error || null;
   }
 }
+/**
+ * We use these constant to prevent pulling the whole HttpStatusCode enum
+ * Those are the only ones referenced directly by the framework
+ */
+const HTTP_STATUS_CODE_OK = 200;
+const HTTP_STATUS_CODE_NO_CONTENT = 204;
 /**
  * Http status codes.
  * As per https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
@@ -11496,9 +11560,8 @@ function addBody(options, body) {
  * A single overload version of the method handles each response type.
  * The value of `responseType` cannot be a union, as the combined signature could imply.
 
- *
+ * TODO(adev): review
  * @usageNotes
- * Sample HTTP requests for the [Tour of Heroes](/tutorial/tour-of-heroes/toh-pt0) application.
  *
  * ### HTTP Request Example
  *
@@ -11535,7 +11598,7 @@ function addBody(options, body) {
  * }
  * ```
  *
- * @see [HTTP Guide](guide/understanding-communicating-with-http)
+ * @see [HTTP Guide](guide/http)
  * @see [HTTP Request](api/common/http/HttpRequest)
  *
  * @publicApi
@@ -11822,7 +11885,7 @@ class FetchBackend {
   }
   doRequest(request, signal, observer) {
     var _this = this;
-    return (0,_home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_0_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_5_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const init = _this.createRequestInit(request);
       let response;
       try {
@@ -11876,7 +11939,7 @@ class FetchBackend {
         // Perform response processing outside of Angular zone to
         // ensure no excessive change detection runs are executed
         // Here calling the async ReadableStreamDefaultReader.read() is responsible for triggering CD
-        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,_home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_0_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,_home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_5_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           while (true) {
             const {
               done,
@@ -11920,7 +11983,7 @@ class FetchBackend {
       }
       // Same behavior as the XhrBackend
       if (status === 0) {
-        status = body ? HttpStatusCode.Ok : 0;
+        status = body ? HTTP_STATUS_CODE_OK : 0;
       }
       // ok determines whether the response will be transmitted on the event or
       // error channel. Unsuccessful status codes (not 2xx) will always be errors,
@@ -12041,9 +12104,7 @@ function adaptLegacyInterceptorToChain(chainTailFn, interceptor) {
  * injector.
  */
 function chainedInterceptorFn(chainTailFn, interceptorFn, injector) {
-  // clang-format off
   return (initialRequest, finalHandlerFn) => (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.runInInjectionContext)(injector, () => interceptorFn(initialRequest, downstreamRequest => chainTailFn(downstreamRequest, finalHandlerFn)));
-  // clang-format on
 }
 /**
  * A multi-provider token that represents the array of registered
@@ -12060,10 +12121,13 @@ const HTTP_INTERCEPTOR_FNS = new _angular_core__WEBPACK_IMPORTED_MODULE_5__.Inje
  * A multi-provided token of `HttpInterceptorFn`s that are only set in root.
  */
 const HTTP_ROOT_INTERCEPTOR_FNS = new _angular_core__WEBPACK_IMPORTED_MODULE_5__.InjectionToken(ngDevMode ? 'HTTP_ROOT_INTERCEPTOR_FNS' : '');
-/**
- * A provider to set a global primary http backend. If set, it will override the default one
- */
-const PRIMARY_HTTP_BACKEND = new _angular_core__WEBPACK_IMPORTED_MODULE_5__.InjectionToken(ngDevMode ? 'PRIMARY_HTTP_BACKEND' : '');
+// TODO(atscott): We need a larger discussion about stability and what should contribute to stability.
+// Should the whole interceptor chain contribute to stability or just the backend request #55075?
+// Should HttpClient contribute to stability automatically at all?
+const REQUESTS_CONTRIBUTE_TO_STABILITY = new _angular_core__WEBPACK_IMPORTED_MODULE_5__.InjectionToken(ngDevMode ? 'REQUESTS_CONTRIBUTE_TO_STABILITY' : '', {
+  providedIn: 'root',
+  factory: () => true
+});
 /**
  * Creates an `HttpInterceptorFn` which lazily initializes an interceptor chain from the legacy
  * class-based interceptors and runs the request through it.
@@ -12082,8 +12146,13 @@ function legacyInterceptorFnFactory() {
       chain = interceptors.reduceRight(adaptLegacyInterceptorToChain, interceptorChainEndFn);
     }
     const pendingTasks = (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵPendingTasks"]);
-    const taskId = pendingTasks.add();
-    return chain(req, handler).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.finalize)(() => pendingTasks.remove(taskId)));
+    const contributeToStability = (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(REQUESTS_CONTRIBUTE_TO_STABILITY);
+    if (contributeToStability) {
+      const taskId = pendingTasks.add();
+      return chain(req, handler).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.finalize)(() => pendingTasks.remove(taskId)));
+    } else {
+      return chain(req, handler);
+    }
   };
 }
 let fetchBackendWarningDisplayed = false;
@@ -12098,13 +12167,7 @@ class HttpInterceptorHandler extends HttpHandler {
     this.injector = injector;
     this.chain = null;
     this.pendingTasks = (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵPendingTasks"]);
-    // Check if there is a preferred HTTP backend configured and use it if that's the case.
-    // This is needed to enable `FetchBackend` globally for all HttpClient's when `withFetch`
-    // is used.
-    const primaryHttpBackend = (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(PRIMARY_HTTP_BACKEND, {
-      optional: true
-    });
-    this.backend = primaryHttpBackend ?? backend;
+    this.contributeToStability = (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(REQUESTS_CONTRIBUTE_TO_STABILITY);
     // We strongly recommend using fetch backend for HTTP calls when SSR is used
     // for an application. The logic below checks if that's the case and produces
     // a warning otherwise.
@@ -12125,8 +12188,12 @@ class HttpInterceptorHandler extends HttpHandler {
       // out.
       this.chain = dedupedInterceptorFns.reduceRight((nextSequencedFn, interceptorFn) => chainedInterceptorFn(nextSequencedFn, interceptorFn, this.injector), interceptorChainEndFn);
     }
-    const taskId = this.pendingTasks.add();
-    return this.chain(initialRequest, downstreamRequest => this.backend.handle(downstreamRequest)).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.finalize)(() => this.pendingTasks.remove(taskId)));
+    if (this.contributeToStability) {
+      const taskId = this.pendingTasks.add();
+      return this.chain(initialRequest, downstreamRequest => this.backend.handle(downstreamRequest)).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.finalize)(() => this.pendingTasks.remove(taskId)));
+    } else {
+      return this.chain(initialRequest, downstreamRequest => this.backend.handle(downstreamRequest));
+    }
   }
   static #_ = this.ɵfac = function HttpInterceptorHandler_Factory(t) {
     return new (t || HttpInterceptorHandler)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵinject"](HttpBackend), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_5__.EnvironmentInjector));
@@ -12295,7 +12362,7 @@ class JsonpClientBackend {
           // returned.
           observer.next(new HttpResponse({
             body,
-            status: HttpStatusCode.Ok,
+            status: HTTP_STATUS_CODE_OK,
             statusText: 'OK',
             url
           }));
@@ -12528,13 +12595,13 @@ class HttpXhrBackend {
           } = partialFromXhr();
           // The body will be read out if present.
           let body = null;
-          if (status !== HttpStatusCode.NoContent) {
+          if (status !== HTTP_STATUS_CODE_NO_CONTENT) {
             // Use XMLHttpRequest.response if set, responseText otherwise.
             body = typeof xhr.response === 'undefined' ? xhr.responseText : xhr.response;
           }
           // Normalize another potential bug (this one comes from CORS).
           if (status === 0) {
-            status = !!body ? HttpStatusCode.Ok : 0;
+            status = !!body ? HTTP_STATUS_CODE_OK : 0;
           }
           // ok determines whether the response will be transmitted on the event or
           // error channel. Unsuccessful status codes (not 2xx) will always be errors,
@@ -12895,7 +12962,11 @@ function provideHttpClient(...features) {
     useExisting: HttpInterceptorHandler
   }, {
     provide: HttpBackend,
-    useExisting: HttpXhrBackend
+    useFactory: () => {
+      return (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(FetchBackend, {
+        optional: true
+      }) ?? (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(HttpXhrBackend);
+    }
   }, {
     provide: HTTP_INTERCEPTOR_FNS,
     useValue: xsrfInterceptorFn,
@@ -13048,24 +13119,13 @@ function withRequestsMadeViaParent() {
 /**
  * Configures the current `HttpClient` instance to make requests using the fetch API.
  *
- * This `FetchBackend` requires the support of the Fetch API which is available on all evergreen
- * browsers and on NodeJS from v18 onward.
- *
  * Note: The Fetch API doesn't support progress report on uploads.
  *
  * @publicApi
  */
 function withFetch() {
-  if ((typeof ngDevMode === 'undefined' || ngDevMode) && typeof fetch !== 'function') {
-    // TODO: Create a runtime error
-    // TODO: Use ENVIRONMENT_INITIALIZER to contextualize the error message (browser or server)
-    throw new Error('The `withFetch` feature of HttpClient requires the `fetch` API to be available. ' + 'If you run the code in a Node environment, make sure you use Node v18.10 or later.');
-  }
   return makeHttpFeature(HttpFeatureKind.Fetch, [FetchBackend, {
     provide: HttpBackend,
-    useExisting: FetchBackend
-  }, {
-    provide: PRIMARY_HTTP_BACKEND,
     useExisting: FetchBackend
   }]);
 }
@@ -13081,6 +13141,8 @@ function withFetch() {
  * and the default header name is `X-XSRF-TOKEN`.
  *
  * @publicApi
+ * @deprecated Use withXsrfConfiguration({cookieName: 'XSRF-TOKEN', headerName: 'X-XSRF-TOKEN'}) as
+ *     providers instead or `withNoXsrfProtection` if you want to disabled XSRF protection.
  */
 class HttpClientXsrfModule {
   /**
@@ -13151,13 +13213,14 @@ class HttpClientXsrfModule {
   }], null, null);
 })();
 /**
- * Configures the [dependency injector](guide/glossary#injector) for `HttpClient`
+ * Configures the dependency injector for `HttpClient`
  * with supporting services for XSRF. Automatically imported by `HttpClientModule`.
  *
  * You can add interceptors to the chain behind `HttpClient` by binding them to the
- * multiprovider for built-in [DI token](guide/glossary#di-token) `HTTP_INTERCEPTORS`.
+ * multiprovider for built-in DI token `HTTP_INTERCEPTORS`.
  *
  * @publicApi
+ * @deprecated use `provideHttpClient(withInterceptorsFromDi())` as providers instead
  */
 class HttpClientModule {
   static #_ = this.ɵfac = function HttpClientModule_Factory(t) {
@@ -13175,7 +13238,7 @@ class HttpClientModule {
     type: _angular_core__WEBPACK_IMPORTED_MODULE_5__.NgModule,
     args: [{
       /**
-       * Configures the [dependency injector](guide/glossary#injector) where it is imported
+       * Configures the dependency injector where it is imported
        * with supporting services for HTTP communications.
        */
       providers: [provideHttpClient(withInterceptorsFromDi())]
@@ -13183,12 +13246,13 @@ class HttpClientModule {
   }], null, null);
 })();
 /**
- * Configures the [dependency injector](guide/glossary#injector) for `HttpClient`
+ * Configures the dependency injector for `HttpClient`
  * with supporting services for JSONP.
  * Without this module, Jsonp requests reach the backend
  * with method JSONP, where they are rejected.
  *
  * @publicApi
+ * @deprecated `withJsonpSupport()` as providers instead
  */
 class HttpClientJsonpModule {
   static #_ = this.ɵfac = function HttpClientJsonpModule_Factory(t) {
@@ -13211,13 +13275,40 @@ class HttpClientJsonpModule {
 })();
 
 /**
+ * If your application uses different HTTP origins to make API calls (via `HttpClient`) on the server and
+ * on the client, the `HTTP_TRANSFER_CACHE_ORIGIN_MAP` token allows you to establish a mapping
+ * between those origins, so that `HttpTransferCache` feature can recognize those requests as the same
+ * ones and reuse the data cached on the server during hydration on the client.
+ *
+ * **Important note**: the `HTTP_TRANSFER_CACHE_ORIGIN_MAP` token should *only* be provided in
+ * the *server* code of your application (typically in the `app.server.config.ts` script). Angular throws an
+ * error if it detects that the token is defined while running on the client.
+ *
+ * @usageNotes
+ *
+ * When the same API endpoint is accessed via `http://internal-domain.com:8080` on the server and
+ * via `https://external-domain.com` on the client, you can use the following configuration:
+ * ```typescript
+ * // in app.server.config.ts
+ * {
+ *     provide: HTTP_TRANSFER_CACHE_ORIGIN_MAP,
+ *     useValue: {
+ *         'http://internal-domain.com:8080': 'https://external-domain.com'
+ *     }
+ * }
+ * ```
+ *
+ * @publicApi
+ */
+const HTTP_TRANSFER_CACHE_ORIGIN_MAP = new _angular_core__WEBPACK_IMPORTED_MODULE_5__.InjectionToken(ngDevMode ? 'HTTP_TRANSFER_CACHE_ORIGIN_MAP' : '');
+/**
  * Keys within cached response data structure.
  */
 const BODY = 'b';
 const HEADERS = 'h';
 const STATUS = 's';
 const STATUS_TEXT = 'st';
-const URL = 'u';
+const REQ_URL = 'u';
 const RESPONSE_TYPE = 'rt';
 const CACHE_OPTIONS = new _angular_core__WEBPACK_IMPORTED_MODULE_5__.InjectionToken(ngDevMode ? 'HTTP_TRANSFER_STATE_CACHE_OPTIONS' : '');
 /**
@@ -13234,15 +13325,23 @@ function transferCacheInterceptorFn(req, next) {
     method: requestMethod
   } = req;
   // In the following situations we do not want to cache the request
-  if (!isCacheActive ||
+  if (!isCacheActive || requestOptions === false ||
   // POST requests are allowed either globally or at request level
-  requestMethod === 'POST' && !globalOptions.includePostRequests && !requestOptions || requestMethod !== 'POST' && !ALLOWED_METHODS.includes(requestMethod) || requestOptions === false ||
-  //
-  globalOptions.filter?.(req) === false) {
+  requestMethod === 'POST' && !globalOptions.includePostRequests && !requestOptions || requestMethod !== 'POST' && !ALLOWED_METHODS.includes(requestMethod) ||
+  // Do not cache request that require authorization when includeRequestsWithAuthHeaders is falsey
+  !globalOptions.includeRequestsWithAuthHeaders && hasAuthHeaders(req) || globalOptions.filter?.(req) === false) {
     return next(req);
   }
   const transferState = (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_5__.TransferState);
-  const storeKey = makeCacheKey(req);
+  const originMap = (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(HTTP_TRANSFER_CACHE_ORIGIN_MAP, {
+    optional: true
+  });
+  const isServer = (0,_angular_common__WEBPACK_IMPORTED_MODULE_8__.isPlatformServer)((0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_5__.PLATFORM_ID));
+  if (originMap && !isServer) {
+    throw new _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵRuntimeError"](2803 /* RuntimeErrorCode.HTTP_ORIGIN_MAP_USED_IN_CLIENT */, ngDevMode && 'Angular detected that the `HTTP_TRANSFER_CACHE_ORIGIN_MAP` token is configured and ' + 'present in the client side code. Please ensure that this token is only provided in the ' + 'server code of the application.');
+  }
+  const requestUrl = isServer && originMap ? mapRequestOriginUrl(req.url, originMap) : req.url;
+  const storeKey = makeCacheKey(req, requestUrl);
   const response = transferState.get(storeKey, null);
   let headersToInclude = globalOptions.includeHeaders;
   if (typeof requestOptions === 'object' && requestOptions.includeHeaders) {
@@ -13256,7 +13355,7 @@ function transferCacheInterceptorFn(req, next) {
       [HEADERS]: httpHeaders,
       [STATUS]: status,
       [STATUS_TEXT]: statusText,
-      [URL]: url
+      [REQ_URL]: url
     } = response;
     // Request found in cache. Respond using it.
     let body = undecodedBody;
@@ -13286,7 +13385,6 @@ function transferCacheInterceptorFn(req, next) {
       url
     }));
   }
-  const isServer = (0,_angular_common__WEBPACK_IMPORTED_MODULE_8__.isPlatformServer)((0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_5__.PLATFORM_ID));
   // Request not found in cache. Make the request and cache it if on the server.
   return next(req).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_11__.tap)(event => {
     if (event instanceof HttpResponse && isServer) {
@@ -13295,11 +13393,15 @@ function transferCacheInterceptorFn(req, next) {
         [HEADERS]: getFilteredHeaders(event.headers, headersToInclude),
         [STATUS]: event.status,
         [STATUS_TEXT]: event.statusText,
-        [URL]: event.url || '',
+        [REQ_URL]: requestUrl,
         [RESPONSE_TYPE]: req.responseType
       });
     }
   }));
+}
+/** @returns true when the requests contains autorization related headers. */
+function hasAuthHeaders(req) {
+  return req.headers.has('authorization') || req.headers.has('proxy-authorization');
 }
 function getFilteredHeaders(headers, includeHeaders) {
   if (!includeHeaders) {
@@ -13317,13 +13419,12 @@ function getFilteredHeaders(headers, includeHeaders) {
 function sortAndConcatParams(params) {
   return [...params.keys()].sort().map(k => `${k}=${params.getAll(k)}`).join('&');
 }
-function makeCacheKey(request) {
+function makeCacheKey(request, mappedRequestUrl) {
   // make the params encoded same as a url so it's easy to identify
   const {
     params,
     method,
-    responseType,
-    url
+    responseType
   } = request;
   const encodedParams = sortAndConcatParams(params);
   let serializedBody = request.serializeBody();
@@ -13332,7 +13433,7 @@ function makeCacheKey(request) {
   } else if (typeof serializedBody !== 'string') {
     serializedBody = '';
   }
-  const key = [method, responseType, url, serializedBody, encodedParams].join('|');
+  const key = [method, responseType, mappedRequestUrl, serializedBody, encodedParams].join('|');
   const hash = generateHash(key);
   return (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.makeStateKey)(hash);
 }
@@ -13420,6 +13521,22 @@ function appendMissingHeadersDetection(url, headers, headersToInclude) {
     }
   });
 }
+function mapRequestOriginUrl(url, originMap) {
+  const origin = new URL(url, 'resolve://').origin;
+  const mappedOrigin = originMap[origin];
+  if (!mappedOrigin) {
+    return url;
+  }
+  if (typeof ngDevMode === 'undefined' || ngDevMode) {
+    verifyMappedOrigin(mappedOrigin);
+  }
+  return url.replace(origin, mappedOrigin);
+}
+function verifyMappedOrigin(url) {
+  if (new URL(url, 'resolve://').pathname !== '/') {
+    throw new _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵRuntimeError"](2804 /* RuntimeErrorCode.HTTP_ORIGIN_MAP_CONTAINS_PATH */, 'Angular detected a URL with a path segment in the value provided for the ' + `\`HTTP_TRANSFER_CACHE_ORIGIN_MAP\` token: ${url}. The map should only contain origins ` + 'without any other segments.');
+  }
+}
 
 // This file is not used to build this module. It is only used during editing
 
@@ -13431,9 +13548,9 @@ function appendMissingHeadersDetection(url, headers, headersToInclude) {
 
 /***/ }),
 
-/***/ 4494:
+/***/ 6829:
 /*!************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+core@17.3.5_rxjs@7.8.1_zone.js@0.14.4/node_modules/@angular/core/fesm2022/core.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6/node_modules/@angular/core/fesm2022/core.mjs ***!
   \************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -13474,6 +13591,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   EnvironmentInjector: () => (/* binding */ EnvironmentInjector),
 /* harmony export */   ErrorHandler: () => (/* binding */ ErrorHandler),
 /* harmony export */   EventEmitter: () => (/* binding */ EventEmitter),
+/* harmony export */   ExperimentalPendingTasks: () => (/* binding */ ExperimentalPendingTasks),
+/* harmony export */   HOST_TAG_NAME: () => (/* binding */ HOST_TAG_NAME),
 /* harmony export */   Host: () => (/* binding */ Host),
 /* harmony export */   HostAttributeToken: () => (/* binding */ HostAttributeToken),
 /* harmony export */   HostBinding: () => (/* binding */ HostBinding),
@@ -13566,6 +13685,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   numberAttribute: () => (/* binding */ numberAttribute),
 /* harmony export */   output: () => (/* binding */ output),
 /* harmony export */   platformCore: () => (/* binding */ platformCore),
+/* harmony export */   provideExperimentalCheckNoChangesForDebug: () => (/* binding */ provideExperimentalCheckNoChangesForDebug),
+/* harmony export */   provideExperimentalZonelessChangeDetection: () => (/* binding */ provideExperimentalZonelessChangeDetection),
 /* harmony export */   provideZoneChangeDetection: () => (/* binding */ provideZoneChangeDetection),
 /* harmony export */   reflectComponentType: () => (/* binding */ reflectComponentType),
 /* harmony export */   resolveForwardRef: () => (/* binding */ resolveForwardRef),
@@ -13618,6 +13739,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵUSE_RUNTIME_DEPS_TRACKER_FOR_JIT": () => (/* binding */ USE_RUNTIME_DEPS_TRACKER_FOR_JIT),
 /* harmony export */   "ɵViewRef": () => (/* binding */ ViewRef$1),
 /* harmony export */   "ɵXSS_SECURITY_URL": () => (/* binding */ XSS_SECURITY_URL),
+/* harmony export */   "ɵZONELESS_ENABLED": () => (/* binding */ ZONELESS_ENABLED),
 /* harmony export */   "ɵ_sanitizeHtml": () => (/* binding */ _sanitizeHtml),
 /* harmony export */   "ɵ_sanitizeUrl": () => (/* binding */ _sanitizeUrl),
 /* harmony export */   "ɵallowSanitizationBypassAndThrow": () => (/* binding */ allowSanitizationBypassAndThrow),
@@ -13649,7 +13771,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵgetDebugNode": () => (/* binding */ getDebugNode),
 /* harmony export */   "ɵgetDeferBlocks": () => (/* binding */ getDeferBlocks),
 /* harmony export */   "ɵgetDirectives": () => (/* binding */ getDirectives),
-/* harmony export */   "ɵgetEnsureDirtyViewsAreAlwaysReachable": () => (/* binding */ getEnsureDirtyViewsAreAlwaysReachable),
 /* harmony export */   "ɵgetHostElement": () => (/* binding */ getHostElement),
 /* harmony export */   "ɵgetInjectableDef": () => (/* binding */ getInjectableDef),
 /* harmony export */   "ɵgetLContext": () => (/* binding */ getLContext),
@@ -13663,6 +13784,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵinjectChangeDetectorRef": () => (/* binding */ injectChangeDetectorRef),
 /* harmony export */   "ɵinternalAfterNextRender": () => (/* binding */ internalAfterNextRender),
 /* harmony export */   "ɵinternalCreateApplication": () => (/* binding */ internalCreateApplication),
+/* harmony export */   "ɵinternalProvideZoneChangeDetection": () => (/* binding */ internalProvideZoneChangeDetection),
 /* harmony export */   "ɵisBoundToModule": () => (/* binding */ isBoundToModule),
 /* harmony export */   "ɵisComponentDefPendingResolution": () => (/* binding */ isComponentDefPendingResolution),
 /* harmony export */   "ɵisEnvironmentProviders": () => (/* binding */ isEnvironmentProviders),
@@ -13673,7 +13795,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵnoSideEffects": () => (/* binding */ noSideEffects),
 /* harmony export */   "ɵpatchComponentDefWithScope": () => (/* binding */ patchComponentDefWithScope),
 /* harmony export */   "ɵperformanceMarkFeature": () => (/* binding */ performanceMarkFeature),
-/* harmony export */   "ɵprovideZonelessChangeDetection": () => (/* binding */ provideZonelessChangeDetection),
 /* harmony export */   "ɵqueueStateUpdate": () => (/* binding */ queueStateUpdate),
 /* harmony export */   "ɵreadHydrationInfo": () => (/* binding */ readHydrationInfo),
 /* harmony export */   "ɵregisterLocaleData": () => (/* binding */ registerLocaleData),
@@ -13689,7 +13810,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵsetClassMetadataAsync": () => (/* binding */ setClassMetadataAsync),
 /* harmony export */   "ɵsetCurrentInjector": () => (/* binding */ setCurrentInjector),
 /* harmony export */   "ɵsetDocument": () => (/* binding */ setDocument),
-/* harmony export */   "ɵsetEnsureDirtyViewsAreAlwaysReachable": () => (/* binding */ setEnsureDirtyViewsAreAlwaysReachable),
 /* harmony export */   "ɵsetInjectorProfilerContext": () => (/* binding */ setInjectorProfilerContext),
 /* harmony export */   "ɵsetLocaleId": () => (/* binding */ setLocaleId),
 /* harmony export */   "ɵsetUnknownElementStrictMode": () => (/* binding */ ɵsetUnknownElementStrictMode),
@@ -13704,12 +13824,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵunwrapWritableSignal": () => (/* binding */ ɵunwrapWritableSignal),
 /* harmony export */   "ɵwhenStable": () => (/* binding */ whenStable),
 /* harmony export */   "ɵwithDomHydration": () => (/* binding */ withDomHydration),
-/* harmony export */   "ɵwithI18nHydration": () => (/* binding */ withI18nHydration),
+/* harmony export */   "ɵwithEventReplay": () => (/* binding */ withEventReplay),
+/* harmony export */   "ɵwithI18nSupport": () => (/* binding */ withI18nSupport),
 /* harmony export */   "ɵɵCopyDefinitionFeature": () => (/* binding */ ɵɵCopyDefinitionFeature),
 /* harmony export */   "ɵɵFactoryTarget": () => (/* binding */ FactoryTarget),
 /* harmony export */   "ɵɵHostDirectivesFeature": () => (/* binding */ ɵɵHostDirectivesFeature),
 /* harmony export */   "ɵɵInheritDefinitionFeature": () => (/* binding */ ɵɵInheritDefinitionFeature),
-/* harmony export */   "ɵɵInputFlags": () => (/* binding */ InputFlags),
 /* harmony export */   "ɵɵInputTransformsFeature": () => (/* binding */ ɵɵInputTransformsFeature),
 /* harmony export */   "ɵɵNgOnChangesFeature": () => (/* binding */ ɵɵNgOnChangesFeature),
 /* harmony export */   "ɵɵProvidersFeature": () => (/* binding */ ɵɵProvidersFeature),
@@ -13793,6 +13913,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵɵnamespaceSVG": () => (/* binding */ ɵɵnamespaceSVG),
 /* harmony export */   "ɵɵnextContext": () => (/* binding */ ɵɵnextContext),
 /* harmony export */   "ɵɵngDeclareClassMetadata": () => (/* binding */ ɵɵngDeclareClassMetadata),
+/* harmony export */   "ɵɵngDeclareClassMetadataAsync": () => (/* binding */ ɵɵngDeclareClassMetadataAsync),
 /* harmony export */   "ɵɵngDeclareComponent": () => (/* binding */ ɵɵngDeclareComponent),
 /* harmony export */   "ɵɵngDeclareDirective": () => (/* binding */ ɵɵngDeclareDirective),
 /* harmony export */   "ɵɵngDeclareFactory": () => (/* binding */ ɵɵngDeclareFactory),
@@ -13894,19 +14015,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵɵviewQuery": () => (/* binding */ ɵɵviewQuery),
 /* harmony export */   "ɵɵviewQuerySignal": () => (/* binding */ ɵɵviewQuerySignal)
 /* harmony export */ });
-/* harmony import */ var _home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_0_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.24.0/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 8576);
-/* harmony import */ var _angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core/primitives/signals */ 7151);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 9559);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 6722);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ 6689);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/operators */ 4251);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs/operators */ 4583);
-
+/* harmony import */ var _angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core/primitives/signals */ 2004);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 5241);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 3020);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 195);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 7437);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/operators */ 8501);
+/* harmony import */ var _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core/primitives/event-dispatch */ 526);
 /**
- * @license Angular v17.3.5
+ * @license Angular v18.0.0
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
+
 
 
 
@@ -13970,10 +14091,10 @@ const REQUIRED_UNSET_VALUE = /* @__PURE__ */Symbol('InputSignalNode#UNSET');
 // TODO: remove when https://github.com/evanw/esbuild/issues/3392 is resolved.
 const INPUT_SIGNAL_NODE = /* @__PURE__ */(() => {
   return {
-    ..._angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL_NODE,
+    ..._angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL_NODE,
     transformFn: undefined,
     applyValueToInputSignal(node, value) {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.signalSetFn)(node, value);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.signalSetFn)(node, value);
     }
   };
 })();
@@ -13994,13 +14115,13 @@ function createInputSignal(initialValue, options) {
   node.transformFn = options?.transform;
   function inputValueFn() {
     // Record that someone looked at this signal.
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.producerAccessed)(node);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.producerAccessed)(node);
     if (node.value === REQUIRED_UNSET_VALUE) {
       throw new RuntimeError(-950 /* RuntimeErrorCode.REQUIRED_INPUT_NO_VALUE */, ngDevMode && 'Input is required but no value is available yet.');
     }
     return node.value;
   }
-  inputValueFn[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL] = node;
+  inputValueFn[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL] = node;
   if (ngDevMode) {
     inputValueFn.toString = () => `[Input Signal: ${inputValueFn()}]`;
   }
@@ -14448,7 +14569,7 @@ function assertOneOf(value, ...validValues) {
   throwError(`Expected value to be one of ${JSON.stringify(validValues)} but was ${JSON.stringify(value)}.`);
 }
 function assertNotReactive(fn) {
-  if ((0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.getActiveConsumer)() !== null) {
+  if ((0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.getActiveConsumer)() !== null) {
     throwError(`${fn}() should never be called in a reactive context.`);
   }
 }
@@ -15020,8 +15141,8 @@ Please check that 1) the type for the parameter at index ${index} is correct and
 }
 /**
  * Injects a token from the currently active injector.
- * `inject` is only supported in an [injection context](/guide/dependency-injection-context). It can
- * be used during:
+ * `inject` is only supported in an [injection context](guide/di/dependency-injection-context). It
+ * can be used during:
  * - Construction (via the `constructor`) of a class being instantiated by the DI system, such
  * as an `@Injectable` or `@Component`.
  * - In the initializer for fields of such classes.
@@ -15190,7 +15311,6 @@ function formatError(text, obj, injectorErrorName, source = null) {
  */
 const Inject = attachInjectFlag(
 // Disable tslint because `DecoratorFlags` is a const enum which gets inlined.
-// tslint:disable-next-line: no-toplevel-property-access
 makeParamDecorator('Inject', token => ({
   token
 })), -1 /* DecoratorFlags.Inject */);
@@ -15332,7 +15452,7 @@ function arraySplice(array, index, count) {
  * @param value Value to add to array.
  */
 function arrayInsert(array, index, value) {
-  ngDevMode && assertLessThanOrEqual(index, array.length, 'Can\'t insert past array end.');
+  ngDevMode && assertLessThanOrEqual(index, array.length, "Can't insert past array end.");
   let end = array.length;
   while (end > index) {
     const previousEnd = end - 1;
@@ -15354,7 +15474,7 @@ function arrayInsert(array, index, value) {
  * @param value2 Value to add to array.
  */
 function arrayInsert2(array, index, value1, value2) {
-  ngDevMode && assertLessThanOrEqual(index, array.length, 'Can\'t insert past array end.');
+  ngDevMode && assertLessThanOrEqual(index, array.length, "Can't insert past array end.");
   let end = array.length;
   if (end == index) {
     // inserting at the end.
@@ -15545,7 +15665,8 @@ class NullInjector {
  * The strategy that the default change detector uses to detect changes.
  * When set, takes effect the next time change detection is triggered.
  *
- * @see {@link ChangeDetectorRef#usage-notes Change detection usage}
+ * @see [Change detection usage](/api/core/ChangeDetectorRef?tab=usage-notes)
+ * @see [Skipping component subtrees](/best-practices/skipping-subtrees)
  *
  * @publicApi
  */
@@ -16373,7 +16494,7 @@ function getPipeDef$1(type) {
 /**
  * Checks whether a given Component, Directive or Pipe is marked as standalone.
  * This will return false if passed anything other than a Component, Directive, or Pipe class
- * See [this guide](/guide/standalone-components) for additional information:
+ * See [this guide](guide/components/importing) for additional information:
  *
  * @param type A reference to a Component, Directive or Pipe.
  * @publicApi
@@ -16487,7 +16608,7 @@ function makeEnvironmentProviders(providers) {
  * providers.
  *
  * More information about standalone components can be found in [this
- * guide](guide/standalone-components).
+ * guide](guide/components/importing).
  *
  * @usageNotes
  * The results of the `importProvidersFrom` call can be used in the `bootstrapApplication` call:
@@ -16819,7 +16940,7 @@ class R3Injector extends EnvironmentInjector {
     this.assertNotDestroyed();
     // Set destroyed = true first, in case lifecycle hooks re-enter destroy().
     this._destroyed = true;
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       // Call all the lifecycle hooks.
       for (const service of this._ngOnDestroyHooks) {
@@ -16837,7 +16958,7 @@ class R3Injector extends EnvironmentInjector {
       this.records.clear();
       this._ngOnDestroyHooks.clear();
       this.injectorDefTypes.clear();
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
   onDestroy(callback) {
@@ -16938,7 +17059,7 @@ class R3Injector extends EnvironmentInjector {
   }
   /** @internal */
   resolveInjectorInitializers() {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     const previousInjector = setCurrentInjector(this);
     const previousInjectImplementation = setInjectImplementation(undefined);
     let prevInjectContext;
@@ -16960,7 +17081,7 @@ class R3Injector extends EnvironmentInjector {
       setCurrentInjector(previousInjector);
       setInjectImplementation(previousInjectImplementation);
       ngDevMode && setInjectorProfilerContext(prevInjectContext);
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
   toString() {
@@ -17024,7 +17145,7 @@ class R3Injector extends EnvironmentInjector {
     this.records.set(token, record);
   }
   hydrate(token, record) {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       if (ngDevMode && record.value === CIRCULAR) {
         throwCyclicDependencyError(stringify(token));
@@ -17044,7 +17165,7 @@ class R3Injector extends EnvironmentInjector {
       }
       return record.value;
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
   injectableDefInScope(def) {
@@ -17173,7 +17294,7 @@ function forEachSingleProvider(providers, fn) {
 }
 
 /**
- * Runs the given function in the [context](guide/dependency-injection-context) of the given
+ * Runs the given function in the [context](guide/di/dependency-injection-context) of the given
  * `Injector`.
  *
  * Within the function's stack frame, [`inject`](api/core/inject) can be used to inject dependencies
@@ -17215,7 +17336,7 @@ function isInInjectionContext() {
 }
 /**
  * Asserts that the current stack frame is within an [injection
- * context](guide/dependency-injection-context) and has access to `inject`.
+ * context](guide/di/dependency-injection-context) and has access to `inject`.
  *
  * @param debugFn a reference to the function making the assertion (used for the error message).
  *
@@ -17688,12 +17809,12 @@ function assertTIcu(tIcu) {
     throwError('Object is not of TIcu type.');
   }
 }
-function assertComponentType(actual, msg = 'Type passed in is not ComponentType, it does not have \'ɵcmp\' property.') {
+function assertComponentType(actual, msg = "Type passed in is not ComponentType, it does not have 'ɵcmp' property.") {
   if (!getComponentDef(actual)) {
     throwError(msg);
   }
 }
-function assertNgModuleType(actual, msg = 'Type passed in is not NgModuleType, it does not have \'ɵmod\' property.') {
+function assertNgModuleType(actual, msg = "Type passed in is not NgModuleType, it does not have 'ɵmod' property.") {
   if (!getNgModuleDef(actual)) {
     throwError(msg);
   }
@@ -17748,7 +17869,7 @@ function assertProjectionSlots(lView, errMessage) {
   assertDefined(lView[DECLARATION_COMPONENT_VIEW][T_HOST].projection, errMessage || 'Components with projection nodes (<ng-content>) must have projection slots defined.');
 }
 function assertParentView(lView, errMessage) {
-  assertDefined(lView, errMessage || 'Component views should always have a parent view (component\'s host view)');
+  assertDefined(lView, errMessage || "Component views should always have a parent view (component's host view)");
 }
 function assertNoDuplicateDirectives(directives) {
   // The array needs at least two elements in order to have duplicates.
@@ -17929,15 +18050,6 @@ const profiler = function (event, instance, hookOrListener) {
 const SVG_NAMESPACE = 'svg';
 const MATH_ML_NAMESPACE = 'math';
 
-// TODO(atscott): flip default internally ASAP and externally for v18 (#52928)
-let _ensureDirtyViewsAreAlwaysReachable = false;
-function getEnsureDirtyViewsAreAlwaysReachable() {
-  return _ensureDirtyViewsAreAlwaysReachable;
-}
-function setEnsureDirtyViewsAreAlwaysReachable(v) {
-  _ensureDirtyViewsAreAlwaysReachable = v;
-}
-
 /**
  * For efficiency reasons we often put several different data types (`RNode`, `LView`, `LContainer`)
  * in same location in `LView`. This is because we don't want to pre-allocate space for it
@@ -18100,19 +18212,12 @@ function requiresRefreshOrTraversal(lView) {
  * parents above.
  */
 function updateAncestorTraversalFlagsOnAttach(lView) {
-  lView[ENVIRONMENT].changeDetectionScheduler?.notify(1 /* NotificationType.AfterRenderHooks */);
-  // TODO(atscott): Simplify if...else cases once getEnsureDirtyViewsAreAlwaysReachable is always
-  // `true`. When we attach a view that's marked `Dirty`, we should ensure that it is reached during
-  // the next CD traversal so we add the `RefreshView` flag and mark ancestors accordingly.
+  lView[ENVIRONMENT].changeDetectionScheduler?.notify(7 /* NotificationSource.ViewAttached */);
+  if (lView[FLAGS] & 64 /* LViewFlags.Dirty */) {
+    lView[FLAGS] |= 1024 /* LViewFlags.RefreshView */;
+  }
   if (requiresRefreshOrTraversal(lView)) {
     markAncestorsForTraversal(lView);
-  } else if (lView[FLAGS] & 64 /* LViewFlags.Dirty */) {
-    if (getEnsureDirtyViewsAreAlwaysReachable()) {
-      lView[FLAGS] |= 1024 /* LViewFlags.RefreshView */;
-      markAncestorsForTraversal(lView);
-    } else {
-      lView[ENVIRONMENT].changeDetectionScheduler?.notify();
-    }
   }
 }
 /**
@@ -18123,7 +18228,7 @@ function updateAncestorTraversalFlagsOnAttach(lView) {
  * flag is already `true` or the `lView` is detached.
  */
 function markAncestorsForTraversal(lView) {
-  lView[ENVIRONMENT].changeDetectionScheduler?.notify();
+  lView[ENVIRONMENT].changeDetectionScheduler?.notify(0 /* NotificationSource.MarkAncestorsForTraversal */);
   let parent = getLViewParent(lView);
   while (parent !== null) {
     // We stop adding markers to the ancestors once we reach one that already has the marker. This
@@ -18175,6 +18280,12 @@ const instructionState = {
   bindingsEnabled: true,
   skipHydrationRootTNode: null
 };
+var CheckNoChangesMode;
+(function (CheckNoChangesMode) {
+  CheckNoChangesMode[CheckNoChangesMode["Off"] = 0] = "Off";
+  CheckNoChangesMode[CheckNoChangesMode["Exhaustive"] = 1] = "Exhaustive";
+  CheckNoChangesMode[CheckNoChangesMode["OnlyDirtyViews"] = 2] = "OnlyDirtyViews";
+})(CheckNoChangesMode || (CheckNoChangesMode = {}));
 /**
  * In this mode, any changes in bindings will throw an ExpressionChangedAfterChecked error.
  *
@@ -18183,7 +18294,13 @@ const instructionState = {
  * The `checkNoChanges` function is invoked only in ngDevMode=true and verifies that no unintended
  * changes exist in the change detector or its children.
  */
-let _isInCheckNoChangesMode = false;
+let _checkNoChangesMode = 0; /* CheckNoChangesMode.Off */
+/**
+ * Flag used to indicate that we are in the middle running change detection on a view
+ *
+ * @see detectChangesInViewWhileDirty
+ */
+let _isRefreshingViews = false;
 /**
  * Returns true if the instruction state stack is empty.
  *
@@ -18348,11 +18465,21 @@ function getContextLView() {
 }
 function isInCheckNoChangesMode() {
   !ngDevMode && throwError('Must never be called in production mode');
-  return _isInCheckNoChangesMode;
+  return _checkNoChangesMode !== CheckNoChangesMode.Off;
+}
+function isExhaustiveCheckNoChanges() {
+  !ngDevMode && throwError('Must never be called in production mode');
+  return _checkNoChangesMode === CheckNoChangesMode.Exhaustive;
 }
 function setIsInCheckNoChangesMode(mode) {
   !ngDevMode && throwError('Must never be called in production mode');
-  _isInCheckNoChangesMode = mode;
+  _checkNoChangesMode = mode;
+}
+function isRefreshingViews() {
+  return _isRefreshingViews;
+}
+function setIsRefreshingViews(mode) {
+  _isRefreshingViews = mode;
 }
 // top level variables should not be exported for performance reasons (PERF_NOTES.md)
 function getBindingRoot() {
@@ -18640,7 +18767,7 @@ function getSelectedIndex() {
  */
 function setSelectedIndex(index) {
   ngDevMode && index !== -1 && assertGreaterThanOrEqual(index, HEADER_OFFSET, 'Index must be past HEADER_OFFSET (or -1).');
-  ngDevMode && assertLessThan(index, instructionState.lFrame.lView.length, 'Can\'t set index passed end of LView');
+  ngDevMode && assertLessThan(index, instructionState.lFrame.lView.length, "Can't set index passed end of LView");
   instructionState.lFrame.selectedIndex = index;
 }
 /**
@@ -18896,11 +19023,11 @@ function callHooks(currentView, arr, initPhase, currentNodeIndex) {
  */
 function callHookInternal(directive, hook) {
   profiler(4 /* ProfilerEvent.LifecycleHookStart */, directive, hook);
-  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
   try {
     hook.call(directive);
   } finally {
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     profiler(5 /* ProfilerEvent.LifecycleHookEnd */, directive, hook);
   }
 }
@@ -19718,7 +19845,7 @@ function getNodeInjectable(lView, tView, index, tNode) {
     }
     const previousInjectImplementation = factory.injectImpl ? setInjectImplementation(factory.injectImpl) : null;
     const success = enterDI(lView, tNode, InjectFlags.Default);
-    ngDevMode && assertEqual(success, true, 'Because flags do not contain \`SkipSelf\' we expect this to always succeed.');
+    ngDevMode && assertEqual(success, true, "Because flags do not contain `SkipSelf' we expect this to always succeed.");
     try {
       value = lView[index] = factory.factory(undefined, tData, lView, tNode);
       ngDevMode && emitInstanceCreatedByInjectorEvent(value);
@@ -20107,10 +20234,10 @@ function createInjectorWithoutInjectorInstances(defType, parent = null, addition
 
 /**
  * Concrete injectors implement this interface. Injectors are configured
- * with [providers](guide/dependency-injection-providers) that associate
- * dependencies of various types with [injection tokens](guide/dependency-injection-providers).
+ * with [providers](guide/di/dependency-injection-providers) that associate
+ * dependencies of various types with [injection tokens](guide/di/dependency-injection-providers).
  *
- * @see [DI Providers](guide/dependency-injection-providers).
+ * @see [DI Providers](guide/di/dependency-injection-providers).
  * @see {@link StaticProvider}
  *
  * @usageNotes
@@ -20131,7 +20258,7 @@ function createInjectorWithoutInjectorInstances(defType, parent = null, addition
  */
 class Injector {
   static #_ = this.THROW_IF_NOT_FOUND = THROW_IF_NOT_FOUND;
-  static #_2 = this.NULL = /* @__PURE__ */new NullInjector();
+  static #_2 = this.NULL = new NullInjector();
   static create(options, parent) {
     if (Array.isArray(options)) {
       return createInjector({
@@ -20193,6 +20320,54 @@ class HostAttributeToken {
   }
   toString() {
     return `HostAttributeToken ${this.attributeName}`;
+  }
+}
+
+/**
+ * A token that can be used to inject the tag name of the host node.
+ *
+ * @usageNotes
+ * ### Injecting a tag name that is known to exist
+ * ```typescript
+ * @Directive()
+ * class MyDir {
+ *   tagName: string = inject(HOST_TAG_NAME);
+ * }
+ * ```
+ *
+ * ### Optionally injecting a tag name
+ * ```typescript
+ * @Directive()
+ * class MyDir {
+ *   tagName: string | null = inject(HOST_TAG_NAME, {optional: true});
+ * }
+ * ```
+ * @publicApi
+ */
+const HOST_TAG_NAME = new InjectionToken(ngDevMode ? 'HOST_TAG_NAME' : '');
+// HOST_TAG_NAME should be resolved at the current node, similar to e.g. ElementRef,
+// so we manually specify __NG_ELEMENT_ID__ here, instead of using a factory.
+// tslint:disable-next-line:no-toplevel-property-access
+HOST_TAG_NAME.__NG_ELEMENT_ID__ = flags => {
+  const tNode = getCurrentTNode();
+  if (tNode === null) {
+    throw new RuntimeError(204 /* RuntimeErrorCode.INVALID_INJECTION_TOKEN */, ngDevMode && 'HOST_TAG_NAME can only be injected in directives and components ' + 'during construction time (in a class constructor or as a class field initializer)');
+  }
+  if (tNode.type & 2 /* TNodeType.Element */) {
+    return tNode.value;
+  }
+  if (flags & InjectFlags.Optional) {
+    return null;
+  }
+  throw new RuntimeError(204 /* RuntimeErrorCode.INVALID_INJECTION_TOKEN */, ngDevMode && `HOST_TAG_NAME was used on ${getDevModeNodeName(tNode)} which doesn't have an underlying element in the DOM. ` + `This is invalid, and so the dependency should be marked as optional.`);
+};
+function getDevModeNodeName(tNode) {
+  if (tNode.type & 8 /* TNodeType.ElementContainer */) {
+    return 'an <ng-container>';
+  } else if (tNode.type & 4 /* TNodeType.Container */) {
+    return 'an <ng-template>';
+  } else {
+    return 'a node';
   }
 }
 
@@ -20376,7 +20551,7 @@ class OutputEmitterRef {
     if (this.listeners === null) {
       return;
     }
-    const previousConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const previousConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       for (const listenerFn of this.listeners) {
         try {
@@ -20386,7 +20561,7 @@ class OutputEmitterRef {
         }
       }
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(previousConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(previousConsumer);
     }
   }
 }
@@ -20558,7 +20733,7 @@ class ElementRef {
 function unwrapElementRef(value) {
   return value instanceof ElementRef ? value.nativeElement : value;
 }
-class EventEmitter_ extends rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject {
+class EventEmitter_ extends rxjs__WEBPACK_IMPORTED_MODULE_1__.Subject {
   constructor(isAsync = false) {
     super();
     this.destroyRef = undefined;
@@ -20572,11 +20747,11 @@ class EventEmitter_ extends rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject {
     }
   }
   emit(value) {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       super.next(value);
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
   subscribe(observerOrNext, error, complete) {
@@ -20603,7 +20778,7 @@ class EventEmitter_ extends rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject {
       error: errorFn,
       complete: completeFn
     });
-    if (observerOrNext instanceof rxjs__WEBPACK_IMPORTED_MODULE_3__.Subscription) {
+    if (observerOrNext instanceof rxjs__WEBPACK_IMPORTED_MODULE_2__.Subscription) {
       observerOrNext.add(sink);
     }
     return sink;
@@ -21025,6 +21200,20 @@ function getComponentViewByInstance(componentInstance) {
  * This property will be monkey-patched on elements, components and directives.
  */
 const MONKEY_PATCH_KEY_NAME = '__ngContext__';
+function attachLViewId(target, data) {
+  target[MONKEY_PATCH_KEY_NAME] = data[ID];
+}
+/**
+ * Returns the monkey-patch value data present on the target (which could be
+ * a component, directive or a DOM node).
+ */
+function readLView(target) {
+  const data = readPatchedData(target);
+  if (isLView(data)) {
+    return data;
+  }
+  return data ? data.lView : null;
+}
 /**
  * Assigns the given data to the given target (which could be a component,
  * directive or DOM node instance) using monkey-patching.
@@ -21690,7 +21879,7 @@ function getDocument() {
 }
 
 /**
- * A [DI token](guide/glossary#di-token "DI token definition") representing a string ID, used
+ * A DI token representing a string ID, used
  * primarily for prefixing application attributes and CSS styles when
  * {@link ViewEncapsulation#Emulated} is being used.
  *
@@ -21739,7 +21928,7 @@ const PLATFORM_ID = new InjectionToken(ngDevMode ? 'Platform ID' : '', {
   factory: () => 'unknown' // set a default platform name, when none set explicitly
 });
 /**
- * A [DI token](guide/glossary#di-token "DI token definition") that indicates the root directory of
+ * A DI token that indicates the root directory of
  * the application
  * @publicApi
  * @deprecated
@@ -21851,7 +22040,7 @@ class TransferState {
     this.onSerializeCallbacks = {};
   }
   /** @nocollapse */
-  static #_ = this.ɵprov = /** @pureOrBreakMyCode */ɵɵdefineInjectable({
+  static #_ = this.ɵprov = ɵɵdefineInjectable({
     token: TransferState,
     providedIn: 'root',
     factory: initTransferState
@@ -21953,6 +22142,7 @@ const NUM_ROOT_NODES = 'r';
 const TEMPLATE_ID = 'i'; // as it's also an "id"
 const NODES = 'n';
 const DISCONNECTED_NODES = 'd';
+const I18N_DATA = 'l';
 
 /**
  * The name of the key used in the TransferState collection,
@@ -22139,7 +22329,6 @@ var HydrationStatus;
   HydrationStatus["Skipped"] = "skipped";
   HydrationStatus["Mismatched"] = "mismatched";
 })(HydrationStatus || (HydrationStatus = {}));
-// clang-format on
 const HYDRATION_INFO_KEY = '__ngDebugHydrationInfo__';
 function patchHydrationInfo(node, info) {
   node[HYDRATION_INFO_KEY] = info;
@@ -22220,6 +22409,9 @@ function getNgContainerSize(hydrationInfo, index) {
   }
   return size;
 }
+function isSerializedElementContainer(hydrationInfo, index) {
+  return hydrationInfo.data[ELEMENT_CONTAINERS]?.[index] !== undefined;
+}
 function getSerializedContainerViews(hydrationInfo, index) {
   return hydrationInfo.data[CONTAINERS]?.[index] ?? null;
 }
@@ -22236,6 +22428,18 @@ function calcSerializedContainerSize(hydrationInfo, index) {
   return numNodes;
 }
 /**
+ * Attempt to initialize the `disconnectedNodes` field of the given
+ * `DehydratedView`. Returns the initialized value.
+ */
+function initDisconnectedNodes(hydrationInfo) {
+  // Check if we are processing disconnected info for the first time.
+  if (typeof hydrationInfo.disconnectedNodes === 'undefined') {
+    const nodeIds = hydrationInfo.data[DISCONNECTED_NODES];
+    hydrationInfo.disconnectedNodes = nodeIds ? new Set(nodeIds) : null;
+  }
+  return hydrationInfo.disconnectedNodes;
+}
+/**
  * Checks whether a node is annotated as "disconnected", i.e. not present
  * in the DOM at serialization time. We should not attempt hydration for
  * such nodes and instead, use a regular "creation mode".
@@ -22246,7 +22450,50 @@ function isDisconnectedNode$1(hydrationInfo, index) {
     const nodeIds = hydrationInfo.data[DISCONNECTED_NODES];
     hydrationInfo.disconnectedNodes = nodeIds ? new Set(nodeIds) : null;
   }
-  return !!hydrationInfo.disconnectedNodes?.has(index);
+  return !!initDisconnectedNodes(hydrationInfo)?.has(index);
+}
+/**
+ * Helper function to prepare text nodes for serialization by ensuring
+ * that seperate logical text blocks in the DOM remain separate after
+ * serialization.
+ */
+function processTextNodeBeforeSerialization(context, node) {
+  // Handle cases where text nodes can be lost after DOM serialization:
+  //  1. When there is an *empty text node* in DOM: in this case, this
+  //     node would not make it into the serialized string and as a result,
+  //     this node wouldn't be created in a browser. This would result in
+  //     a mismatch during the hydration, where the runtime logic would expect
+  //     a text node to be present in live DOM, but no text node would exist.
+  //     Example: `<span>{{ name }}</span>` when the `name` is an empty string.
+  //     This would result in `<span></span>` string after serialization and
+  //     in a browser only the `span` element would be created. To resolve that,
+  //     an extra comment node is appended in place of an empty text node and
+  //     that special comment node is replaced with an empty text node *before*
+  //     hydration.
+  //  2. When there are 2 consecutive text nodes present in the DOM.
+  //     Example: `<div>Hello <ng-container *ngIf="true">world</ng-container></div>`.
+  //     In this scenario, the live DOM would look like this:
+  //       <div>#text('Hello ') #text('world') #comment('container')</div>
+  //     Serialized string would look like this: `<div>Hello world<!--container--></div>`.
+  //     The live DOM in a browser after that would be:
+  //       <div>#text('Hello world') #comment('container')</div>
+  //     Notice how 2 text nodes are now "merged" into one. This would cause hydration
+  //     logic to fail, since it'd expect 2 text nodes being present, not one.
+  //     To fix this, we insert a special comment node in between those text nodes, so
+  //     serialized representation is: `<div>Hello <!--ngtns-->world<!--container--></div>`.
+  //     This forces browser to create 2 text nodes separated by a comment node.
+  //     Before running a hydration process, this special comment node is removed, so the
+  //     live DOM has exactly the same state as it was before serialization.
+  // Collect this node as required special annotation only when its
+  // contents is empty. Otherwise, such text node would be present on
+  // the client after server-side rendering and no special handling needed.
+  const el = node;
+  const corruptedTextNodes = context.corruptedTextNodes;
+  if (el.textContent === '') {
+    corruptedTextNodes.set(el, "ngetn" /* TextNodeMarker.EmptyNode */);
+  } else if (el.nextSibling?.nodeType === Node.TEXT_NODE) {
+    corruptedTextNodes.set(el, "ngtns" /* TextNodeMarker.Separator */);
+  }
 }
 
 /**
@@ -22270,6 +22517,11 @@ const PRESERVE_HOST_CONTENT = new InjectionToken(typeof ngDevMode === 'undefined
  * is enabled.
  */
 const IS_I18N_HYDRATION_ENABLED = new InjectionToken(typeof ngDevMode === 'undefined' || !!ngDevMode ? 'IS_I18N_HYDRATION_ENABLED' : '');
+/**
+ * Internal token that indicates whether event replay support for SSR
+ * is enabled.
+ */
+const IS_EVENT_REPLAY_ENABLED = new InjectionToken(typeof ngDevMode === 'undefined' || !!ngDevMode ? 'IS_EVENT_REPLAY_ENABLED' : '');
 
 /**
  * @fileoverview
@@ -22878,7 +23130,7 @@ function encodeEntities(value) {
   return value.replace(/&/g, '&amp;').replace(SURROGATE_PAIR_REGEXP, function (match) {
     const hi = match.charCodeAt(0);
     const low = match.charCodeAt(1);
-    return '&#' + ((hi - 0xD800) * 0x400 + (low - 0xDC00) + 0x10000) + ';';
+    return '&#' + ((hi - 0xd800) * 0x400 + (low - 0xdc00) + 0x10000) + ';';
   }).replace(NON_ALPHANUMERIC_REGEXP, function (match) {
     return '&#' + match.charCodeAt(0) + ';';
   }).replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -23313,7 +23565,7 @@ function validateElementIsKnown(element, lView, tagName, schemas, hasDirectives)
       const templateLocation = getTemplateLocationDetails(lView);
       const schemas = `'${isHostStandalone ? '@Component' : '@NgModule'}.schemas'`;
       let message = `'${tagName}' is not a known element${templateLocation}:\n`;
-      message += `1. If '${tagName}' is an Angular component, then verify that it is ${isHostStandalone ? 'included in the \'@Component.imports\' of this component' : 'a part of an @NgModule where this component is declared'}.\n`;
+      message += `1. If '${tagName}' is an Angular component, then verify that it is ${isHostStandalone ? "included in the '@Component.imports' of this component" : 'a part of an @NgModule where this component is declared'}.\n`;
       if (tagName && tagName.indexOf('-') > -1) {
         message += `2. If '${tagName}' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the ${schemas} of this component to suppress this message.`;
       } else {
@@ -23379,7 +23631,7 @@ function handleUnknownPropertyError(propName, tagName, nodeType, lView) {
   const templateLocation = getTemplateLocationDetails(lView);
   let message = `Can't bind to '${propName}' since it isn't a known property of '${tagName}'${templateLocation}.`;
   const schemas = `'${isHostStandalone ? '@Component' : '@NgModule'}.schemas'`;
-  const importLocation = isHostStandalone ? 'included in the \'@Component.imports\' of this component' : 'a part of an @NgModule where this component is declared';
+  const importLocation = isHostStandalone ? "included in the '@Component.imports' of this component" : 'a part of an @NgModule where this component is declared';
   if (KNOWN_CONTROL_FLOW_DIRECTIVES.has(propName)) {
     // Most likely this is a control flow directive (such as `*ngIf`) used in
     // a template, but the directive or the `CommonModule` is not imported.
@@ -23788,7 +24040,7 @@ function detachViewFromDOM(tView, lView) {
   // When we remove a view from the DOM, we need to rerun afterRender hooks
   // We don't necessarily needs to run change detection. DOM removal only requires
   // change detection if animations are enabled (this notification is handled by animations).
-  lView[ENVIRONMENT].changeDetectionScheduler?.notify(1 /* NotificationType.AfterRenderHooks */);
+  lView[ENVIRONMENT].changeDetectionScheduler?.notify(8 /* NotificationSource.ViewDetachedFromDOM */);
   applyView(tView, lView, lView[RENDERER], 2 /* WalkTNodeTreeAction.Detach */, null, null);
 }
 /**
@@ -23885,23 +24137,27 @@ function insertView(tView, lView, lContainer, index) {
 }
 /**
  * Track views created from the declaration container (TemplateRef) and inserted into a
- * different LContainer.
+ * different LContainer or attached directly to ApplicationRef.
  */
 function trackMovedView(declarationContainer, lView) {
   ngDevMode && assertDefined(lView, 'LView required');
   ngDevMode && assertLContainer(declarationContainer);
   const movedViews = declarationContainer[MOVED_VIEWS];
-  const insertedLContainer = lView[PARENT];
-  ngDevMode && assertLContainer(insertedLContainer);
-  const insertedComponentLView = insertedLContainer[PARENT][DECLARATION_COMPONENT_VIEW];
-  ngDevMode && assertDefined(insertedComponentLView, 'Missing insertedComponentLView');
-  const declaredComponentLView = lView[DECLARATION_COMPONENT_VIEW];
-  ngDevMode && assertDefined(declaredComponentLView, 'Missing declaredComponentLView');
-  if (declaredComponentLView !== insertedComponentLView) {
-    // At this point the declaration-component is not same as insertion-component; this means that
-    // this is a transplanted view. Mark the declared lView as having transplanted views so that
-    // those views can participate in CD.
+  const parent = lView[PARENT];
+  ngDevMode && assertDefined(parent, 'missing parent');
+  if (isLView(parent)) {
     declarationContainer[FLAGS] |= LContainerFlags.HasTransplantedViews;
+  } else {
+    const insertedComponentLView = parent[PARENT][DECLARATION_COMPONENT_VIEW];
+    ngDevMode && assertDefined(insertedComponentLView, 'Missing insertedComponentLView');
+    const declaredComponentLView = lView[DECLARATION_COMPONENT_VIEW];
+    ngDevMode && assertDefined(declaredComponentLView, 'Missing declaredComponentLView');
+    if (declaredComponentLView !== insertedComponentLView) {
+      // At this point the declaration-component is not same as insertion-component; this means that
+      // this is a transplanted view. Mark the declared lView as having transplanted views so that
+      // those views can participate in CD.
+      declarationContainer[FLAGS] |= LContainerFlags.HasTransplantedViews;
+    }
   }
   if (movedViews === null) {
     declarationContainer[MOVED_VIEWS] = [lView];
@@ -23914,7 +24170,6 @@ function detachMovedView(declarationContainer, lView) {
   ngDevMode && assertDefined(declarationContainer[MOVED_VIEWS], 'A projected view should belong to a non-empty projected views collection');
   const movedViews = declarationContainer[MOVED_VIEWS];
   const declarationViewIndex = movedViews.indexOf(lView);
-  ngDevMode && assertLContainer(lView[PARENT]);
   movedViews.splice(declarationViewIndex, 1);
 }
 /**
@@ -23981,7 +24236,7 @@ function cleanUpView(tView, lView) {
   if (lView[FLAGS] & 256 /* LViewFlags.Destroyed */) {
     return;
   }
-  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
   try {
     // Usually the Attached flag is removed when the view is detached from its parent, however
     // if it's a root view, the flag won't be unset hence why we're also removing on destroy.
@@ -23992,7 +24247,7 @@ function cleanUpView(tView, lView) {
     // This also aligns with the ViewEngine behavior. It also means that the onDestroy hook is
     // really more of an "afterDestroy" hook if you think about it.
     lView[FLAGS] |= 256 /* LViewFlags.Destroyed */;
-    lView[REACTIVE_TEMPLATE_CONSUMER] && (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.consumerDestroy)(lView[REACTIVE_TEMPLATE_CONSUMER]);
+    lView[REACTIVE_TEMPLATE_CONSUMER] && (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerDestroy)(lView[REACTIVE_TEMPLATE_CONSUMER]);
     executeOnDestroys(tView, lView);
     processCleanups(tView, lView);
     // For component views only, the local renderer is destroyed at clean up time.
@@ -24016,7 +24271,7 @@ function cleanUpView(tView, lView) {
     // Unregister the view once everything else has been cleaned up.
     unregisterLView(lView);
   } finally {
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
   }
 }
 /** Removes listeners and unsubscribes from output subscriptions */
@@ -24548,7 +24803,7 @@ function applyStyling(renderer, isClassBased, rNode, prop, value) {
  * @param newValue The new class list to write.
  */
 function writeDirectStyle(renderer, element, newValue) {
-  ngDevMode && assertString(newValue, '\'newValue\' should be a string');
+  ngDevMode && assertString(newValue, "'newValue' should be a string");
   renderer.setAttribute(element, 'style', newValue);
   ngDevMode && ngDevMode.rendererSetStyle++;
 }
@@ -24563,7 +24818,7 @@ function writeDirectStyle(renderer, element, newValue) {
  * @param newValue The new class list to write.
  */
 function writeDirectClass(renderer, element, newValue) {
-  ngDevMode && assertString(newValue, '\'newValue\' should be a string');
+  ngDevMode && assertString(newValue, "'newValue' should be a string");
   if (newValue === '') {
     // There are tests in `google3` which expect `element.getAttribute('class')` to be `null`.
     renderer.removeAttribute(element, 'class');
@@ -24677,7 +24932,7 @@ function ɵɵinvalidFactory() {
   throw new Error(msg);
 }
 function writeToDirectiveInput(def, instance, publicName, privateName, flags, value) {
-  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
   try {
     // If we know we are dealing with a signal input, we cache its reference
     // in a tree-shakable way. The input signal node can then be used for
@@ -24686,7 +24941,7 @@ function writeToDirectiveInput(def, instance, publicName, privateName, flags, va
     let inputSignalNode = null;
     if ((flags & InputFlags.SignalBased) !== 0) {
       const field = instance[privateName];
-      inputSignalNode = field[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL];
+      inputSignalNode = field[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL];
     }
     // If there is a signal node and a transform, run it before potentially
     // delegating to features like `NgOnChanges`.
@@ -24703,7 +24958,7 @@ function writeToDirectiveInput(def, instance, publicName, privateName, flags, va
       applyValueToInputField(instance, inputSignalNode, privateName, value);
     }
   } finally {
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
   }
 }
 
@@ -24767,7 +25022,7 @@ function getOrCreateTNode(tView, index, type, name, attrs) {
   ngDevMode && index !== 0 &&
   // 0 are bogus nodes and they are OK. See `createContainerRef` in
   // `view_engine_compatibility` for additional context.
-  assertGreaterThanOrEqual(index, HEADER_OFFSET, 'TNodes can\'t be in the LView header.');
+  assertGreaterThanOrEqual(index, HEADER_OFFSET, "TNodes can't be in the LView header.");
   // Keep this function short, so that the VM will inline it.
   ngDevMode && assertPureTNodeType(type);
   let tNode = tView.data[index];
@@ -24873,7 +25128,7 @@ function executeTemplate(tView, lView, templateFn, rf, context) {
 //////////////////////////
 function executeContentQueries(tView, tNode, lView) {
   if (isContentQueryHost(tNode)) {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       const start = tNode.directiveStart;
       const end = tNode.directiveEnd;
@@ -24886,7 +25141,7 @@ function executeContentQueries(tView, tNode, lView) {
         }
       }
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
 }
@@ -25096,8 +25351,8 @@ function createTNode(tView, tParent, type, index, value, attrs) {
   ngDevMode && index !== 0 &&
   // 0 are bogus nodes and they are OK. See `createContainerRef` in
   // `view_engine_compatibility` for additional context.
-  assertGreaterThanOrEqual(index, HEADER_OFFSET, 'TNodes can\'t be in the LView header.');
-  ngDevMode && assertNotSame(attrs, undefined, '\'undefined\' is not valid value for \'attrs\'');
+  assertGreaterThanOrEqual(index, HEADER_OFFSET, "TNodes can't be in the LView header.");
+  ngDevMode && assertNotSame(attrs, undefined, "'undefined' is not valid value for 'attrs'");
   ngDevMode && ngDevMode.tNode++;
   ngDevMode && tParent && assertTNodeForTView(tParent, tView);
   let injectorIndex = tParent ? tParent.injectorIndex : -1;
@@ -25804,7 +26059,7 @@ function createLContainer(hostNative, currentView, native, tNode) {
 function refreshContentQueries(tView, lView) {
   const contentQueries = tView.contentQueries;
   if (contentQueries !== null) {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       for (let i = 0; i < contentQueries.length; i += 2) {
         const queryStartIdx = contentQueries[i];
@@ -25818,7 +26073,7 @@ function refreshContentQueries(tView, lView) {
         }
       }
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
 }
@@ -25852,11 +26107,11 @@ function addToViewTree(lView, lViewOrLContainer) {
 function executeViewQueryFn(flags, viewQueryFn, component) {
   ngDevMode && assertDefined(viewQueryFn, 'View queries function to execute must be defined.');
   setCurrentQueryIndex(0);
-  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
   try {
     viewQueryFn(flags, component);
   } finally {
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
   }
 }
 ///////////////////////////////
@@ -26073,7 +26328,7 @@ function renderChildComponents(hostLView, components) {
   }
 }
 function createAndRenderEmbeddedLView(declarationLView, templateTNode, context, options) {
-  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
   try {
     const embeddedTView = templateTNode.tView;
     ngDevMode && assertDefined(embeddedTView, 'TView must be defined for a template node.');
@@ -26093,7 +26348,7 @@ function createAndRenderEmbeddedLView(declarationLView, templateTNode, context, 
     renderView(embeddedTView, embeddedLView, context);
     return embeddedLView;
   } finally {
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
   }
 }
 function getLViewFromLContainer(lContainer, index) {
@@ -26231,7 +26486,7 @@ function maybeReturnReactiveLViewConsumer(consumer) {
   freeConsumers.push(consumer);
 }
 const REACTIVE_LVIEW_CONSUMER_NODE = {
-  ..._angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.REACTIVE_NODE,
+  ..._angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.REACTIVE_NODE,
   consumerIsAlwaysLive: true,
   consumerMarkedDirty: node => {
     markAncestorsForTraversal(node.lView);
@@ -26244,7 +26499,7 @@ const REACTIVE_LVIEW_CONSUMER_NODE = {
 /**
  * The maximum number of times the change detection traversal will rerun before throwing an error.
  */
-const MAXIMUM_REFRESH_RERUNS = 100;
+const MAXIMUM_REFRESH_RERUNS$1 = 100;
 function detectChangesInternal(lView, notifyErrorHandler = true, mode = 0 /* ChangeDetectionMode.Global */) {
   const environment = lView[ENVIRONMENT];
   const rendererFactory = environment.rendererFactory;
@@ -26272,28 +26527,41 @@ function detectChangesInternal(lView, notifyErrorHandler = true, mode = 0 /* Cha
   }
 }
 function detectChangesInViewWhileDirty(lView, mode) {
-  detectChangesInView$1(lView, mode);
-  let retries = 0;
-  // If after running change detection, this view still needs to be refreshed or there are
-  // descendants views that need to be refreshed due to re-dirtying during the change detection
-  // run, detect changes on the view again. We run change detection in `Targeted` mode to only
-  // refresh views with the `RefreshView` flag.
-  while (requiresRefreshOrTraversal(lView)) {
-    if (retries === MAXIMUM_REFRESH_RERUNS) {
-      throw new RuntimeError(103 /* RuntimeErrorCode.INFINITE_CHANGE_DETECTION */, ngDevMode && 'Infinite change detection while trying to refresh views. ' + 'There may be components which each cause the other to require a refresh, ' + 'causing an infinite loop.');
+  const lastIsRefreshingViewsValue = isRefreshingViews();
+  try {
+    setIsRefreshingViews(true);
+    detectChangesInView(lView, mode);
+    // We don't need or want to do any looping when in exhaustive checkNoChanges because we
+    // already traverse all the views and nothing should change so we shouldn't have to do
+    // another pass to pick up new changes.
+    if (ngDevMode && isExhaustiveCheckNoChanges()) {
+      return;
     }
-    retries++;
-    // Even if this view is detached, we still detect changes in targeted mode because this was
-    // the root of the change detection run.
-    detectChangesInView$1(lView, 1 /* ChangeDetectionMode.Targeted */);
+    let retries = 0;
+    // If after running change detection, this view still needs to be refreshed or there are
+    // descendants views that need to be refreshed due to re-dirtying during the change detection
+    // run, detect changes on the view again. We run change detection in `Targeted` mode to only
+    // refresh views with the `RefreshView` flag.
+    while (requiresRefreshOrTraversal(lView)) {
+      if (retries === MAXIMUM_REFRESH_RERUNS$1) {
+        throw new RuntimeError(103 /* RuntimeErrorCode.INFINITE_CHANGE_DETECTION */, ngDevMode && 'Infinite change detection while trying to refresh views. ' + 'There may be components which each cause the other to require a refresh, ' + 'causing an infinite loop.');
+      }
+      retries++;
+      // Even if this view is detached, we still detect changes in targeted mode because this was
+      // the root of the change detection run.
+      detectChangesInView(lView, 1 /* ChangeDetectionMode.Targeted */);
+    }
+  } finally {
+    // restore state to what it was before entering this change detection loop
+    setIsRefreshingViews(lastIsRefreshingViewsValue);
   }
 }
-function checkNoChangesInternal(lView, notifyErrorHandler = true) {
-  setIsInCheckNoChangesMode(true);
+function checkNoChangesInternal(lView, mode, notifyErrorHandler = true) {
+  setIsInCheckNoChangesMode(mode);
   try {
     detectChangesInternal(lView, notifyErrorHandler);
   } finally {
-    setIsInCheckNoChangesMode(false);
+    setIsInCheckNoChangesMode(CheckNoChangesMode.Off);
   }
 }
 /**
@@ -26311,6 +26579,7 @@ function refreshView(tView, lView, templateFn, context) {
   // Check no changes mode is a dev only mode used to verify that bindings have not changed
   // since they were assigned. We do not want to execute lifecycle hooks in that mode.
   const isInCheckNoChangesPass = ngDevMode && isInCheckNoChangesMode();
+  const isInExhaustiveCheckNoChangesPass = ngDevMode && isExhaustiveCheckNoChanges();
   !isInCheckNoChangesPass && lView[ENVIRONMENT].inlineEffectRunner?.flush();
   // Start component reactive context
   // - We might already be in a reactive context if this is an embedded view of the host.
@@ -26320,7 +26589,7 @@ function refreshView(tView, lView, templateFn, context) {
   let currentConsumer = null;
   if (!isInCheckNoChangesPass && viewShouldHaveReactiveConsumer(tView)) {
     currentConsumer = getOrBorrowReactiveLViewConsumer(lView);
-    prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.consumerBeforeComputation)(currentConsumer);
+    prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerBeforeComputation)(currentConsumer);
   }
   try {
     resetPreOrderHookFlags(lView);
@@ -26345,10 +26614,14 @@ function refreshView(tView, lView, templateFn, context) {
         incrementInitPhaseFlags(lView, 0 /* InitPhaseState.OnInitHooksToBeRun */);
       }
     }
-    // First mark transplanted views that are declared in this lView as needing a refresh at their
-    // insertion points. This is needed to avoid the situation where the template is defined in this
-    // `LView` but its declaration appears after the insertion component.
-    markTransplantedViewsForRefresh(lView);
+    // We do not need to mark transplanted views for refresh when doing exhaustive checks
+    // because all views will be reached anyways during the traversal.
+    if (!isInExhaustiveCheckNoChangesPass) {
+      // First mark transplanted views that are declared in this lView as needing a refresh at their
+      // insertion points. This is needed to avoid the situation where the template is defined in this
+      // `LView` but its declaration appears after the insertion component.
+      markTransplantedViewsForRefresh(lView);
+    }
     detectChangesInEmbeddedViews(lView, 0 /* ChangeDetectionMode.Global */);
     // Content query results must be refreshed before content hooks are called.
     if (tView.contentQueries !== null) {
@@ -26426,15 +26699,17 @@ function refreshView(tView, lView, templateFn, context) {
       lView[FLAGS] &= ~(64 /* LViewFlags.Dirty */ | 8 /* LViewFlags.FirstLViewPass */);
     }
   } catch (e) {
-    // If refreshing a view causes an error, we need to remark the ancestors as needing traversal
-    // because the error might have caused a situation where views below the current location are
-    // dirty but will be unreachable because the "has dirty children" flag in the ancestors has been
-    // cleared during change detection and we failed to run to completion.
-    markAncestorsForTraversal(lView);
+    if (!isInCheckNoChangesPass) {
+      // If refreshing a view causes an error, we need to remark the ancestors as needing traversal
+      // because the error might have caused a situation where views below the current location are
+      // dirty but will be unreachable because the "has dirty children" flag in the ancestors has been
+      // cleared during change detection and we failed to run to completion.
+      markAncestorsForTraversal(lView);
+    }
     throw e;
   } finally {
     if (currentConsumer !== null) {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.consumerAfterComputation)(currentConsumer, prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerAfterComputation)(currentConsumer, prevConsumer);
       maybeReturnReactiveLViewConsumer(currentConsumer);
     }
     leaveView();
@@ -26470,7 +26745,7 @@ function detectChangesInEmbeddedViews(lView, mode) {
   }
 }
 /**
- * Mark transplanted views as needing to be refreshed at their insertion points.
+ * Mark transplanted views as needing to be refreshed at their attachment points.
  *
  * @param lView The `LView` that may have transplanted views.
  */
@@ -26481,8 +26756,6 @@ function markTransplantedViewsForRefresh(lView) {
     ngDevMode && assertDefined(movedViews, 'Transplanted View flags set but missing MOVED_VIEWS');
     for (let i = 0; i < movedViews.length; i++) {
       const movedLView = movedViews[i];
-      const insertionLContainer = movedLView[PARENT];
-      ngDevMode && assertLContainer(insertionLContainer);
       markViewForRefresh(movedLView);
     }
   }
@@ -26507,7 +26780,7 @@ function detectChangesInViewIfAttached(lView, mode) {
   if (!viewAttachedToChangeDetector(lView)) {
     return;
   }
-  detectChangesInView$1(lView, mode);
+  detectChangesInView(lView, mode);
 }
 /**
  * Visits a view as part of change detection traversal.
@@ -26519,7 +26792,7 @@ function detectChangesInViewIfAttached(lView, mode) {
  * The view is not refreshed, but descendants are traversed in `ChangeDetectionMode.Targeted` if the
  * view HasChildViewsToRefresh flag is set.
  */
-function detectChangesInView$1(lView, mode) {
+function detectChangesInView(lView, mode) {
   const isInCheckNoChangesPass = ngDevMode && isInCheckNoChangesMode();
   const tView = lView[TVIEW];
   const flags = lView[FLAGS];
@@ -26536,7 +26809,8 @@ function detectChangesInView$1(lView, mode) {
   // Always refresh views marked for refresh, regardless of mode.
   shouldRefreshView ||= !!(flags & 1024 /* LViewFlags.RefreshView */);
   // Refresh views when they have a dirty reactive consumer, regardless of mode.
-  shouldRefreshView ||= !!(consumer?.dirty && (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.consumerPollProducersForChange)(consumer));
+  shouldRefreshView ||= !!(consumer?.dirty && (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerPollProducersForChange)(consumer));
+  shouldRefreshView ||= !!(ngDevMode && isExhaustiveCheckNoChanges());
   // Mark the Flags and `ReactiveNode` as not dirty before refreshing the component, so that they
   // can be re-dirtied during the refresh process.
   if (consumer) {
@@ -26571,10 +26845,19 @@ function detectChangesInChildComponents(hostLView, components, mode) {
  * @param lView The starting LView to mark dirty
  * @returns the root LView
  */
-function markViewDirty(lView) {
-  lView[ENVIRONMENT].changeDetectionScheduler?.notify();
+function markViewDirty(lView, source) {
+  const dirtyBitsToUse = isRefreshingViews() ?
+  // When we are actively refreshing views, we only use the `Dirty` bit to mark a view
+  64 /* LViewFlags.Dirty */ :
+  // When we are not actively refreshing a view tree, it is absolutely
+  // valid to update state and mark views dirty. We use the `RefreshView` flag in this
+  // case to allow synchronously rerunning change detection. This applies today to
+  // afterRender hooks as well as animation listeners which execute after detecting
+  // changes in a view when the render factory flushes.
+  1024 /* LViewFlags.RefreshView */ | 64 /* LViewFlags.Dirty */;
+  lView[ENVIRONMENT].changeDetectionScheduler?.notify(source);
   while (lView) {
-    lView[FLAGS] |= 64 /* LViewFlags.Dirty */;
+    lView[FLAGS] |= dirtyBitsToUse;
     const parent = getLViewParent(lView);
     // Stop traversing up as soon as you find a root view that wasn't attached to any container
     if (isRootView(lView) && !parent) {
@@ -26689,7 +26972,7 @@ class ViewRef$1 {
    * ```
    */
   markForCheck() {
-    markViewDirty(this._cdRefInjectingView || this._lView);
+    markViewDirty(this._cdRefInjectingView || this._lView, 4 /* NotificationSource.MarkForCheck */);
   }
   /**
    * Detaches the view from the change detection tree.
@@ -26845,7 +27128,7 @@ class ViewRef$1 {
    */
   checkNoChanges() {
     if (ngDevMode) {
-      checkNoChangesInternal(this._lView, this.notifyErrorHandler);
+      checkNoChangesInternal(this._lView, CheckNoChangesMode.OnlyDirtyViews, this.notifyErrorHandler);
     }
   }
   attachToViewContainerRef() {
@@ -26856,6 +27139,11 @@ class ViewRef$1 {
   }
   detachFromAppRef() {
     this._appRef = null;
+    const isRoot = isRootView(this._lView);
+    const declarationContainer = this._lView[DECLARATION_LCONTAINER];
+    if (declarationContainer !== null && !isRoot) {
+      detachMovedView(declarationContainer, this._lView);
+    }
     detachViewFromDOM(this._lView[TVIEW], this._lView);
   }
   attachToAppRef(appRef) {
@@ -26863,6 +27151,11 @@ class ViewRef$1 {
       throw new RuntimeError(902 /* RuntimeErrorCode.VIEW_ALREADY_ATTACHED */, ngDevMode && 'This view is already attached to a ViewContainer!');
     }
     this._appRef = appRef;
+    const isRoot = isRootView(this._lView);
+    const declarationContainer = this._lView[DECLARATION_LCONTAINER];
+    if (declarationContainer !== null && !isRoot) {
+      trackMovedView(declarationContainer, this._lView);
+    }
     updateAncestorTraversalFlagsOnAttach(this._lView);
   }
 }
@@ -26881,7 +27174,6 @@ class ViewRef$1 {
  * a component or a directive.
  *
  * @see {@link ViewContainerRef}
- * @see [Navigate the Component Tree with DI](guide/dependency-injection-navtree)
  *
  * @publicApi
  */
@@ -27085,7 +27377,7 @@ function unsupportedProjectionOfDomNodes(rNode) {
  * @returns an error
  */
 function invalidSkipHydrationHost(rNode) {
-  const header = 'The `ngSkipHydration` flag is applied on a node ' + 'that doesn\'t act as a component host. Hydration can be ' + 'skipped only on per-component basis.\n\n';
+  const header = 'The `ngSkipHydration` flag is applied on a node ' + "that doesn't act as a component host. Hydration can be " + 'skipped only on per-component basis.\n\n';
   const actual = `${describeDomFromNode(rNode)}\n\n`;
   const footer = 'Please move the `ngSkipHydration` attribute to the component host element.\n\n';
   const message = header + actual + footer;
@@ -27301,106 +27593,233 @@ function shorten(input, maxLength = 50) {
 }
 
 /**
- * Removes all dehydrated views from a given LContainer:
- * both in internal data structure, as well as removing
- * corresponding DOM nodes that belong to that dehydrated view.
+ * Find a node in front of which `currentTNode` should be inserted (takes i18n into account).
+ *
+ * This method determines the `RNode` in front of which we should insert the `currentRNode`. This
+ * takes `TNode.insertBeforeIndex` into account.
+ *
+ * @param parentTNode parent `TNode`
+ * @param currentTNode current `TNode` (The node which we would like to insert into the DOM)
+ * @param lView current `LView`
  */
-function removeDehydratedViews(lContainer) {
-  const views = lContainer[DEHYDRATED_VIEWS] ?? [];
-  const parentLView = lContainer[PARENT];
-  const renderer = parentLView[RENDERER];
-  for (const view of views) {
-    removeDehydratedView(view, renderer);
-    ngDevMode && ngDevMode.dehydratedViewsRemoved++;
+function getInsertInFrontOfRNodeWithI18n(parentTNode, currentTNode, lView) {
+  const tNodeInsertBeforeIndex = currentTNode.insertBeforeIndex;
+  const insertBeforeIndex = Array.isArray(tNodeInsertBeforeIndex) ? tNodeInsertBeforeIndex[0] : tNodeInsertBeforeIndex;
+  if (insertBeforeIndex === null) {
+    return getInsertInFrontOfRNodeWithNoI18n(parentTNode, currentTNode, lView);
+  } else {
+    ngDevMode && assertIndexInRange(lView, insertBeforeIndex);
+    return unwrapRNode(lView[insertBeforeIndex]);
   }
-  // Reset the value to an empty array to indicate that no
-  // further processing of dehydrated views is needed for
-  // this view container (i.e. do not trigger the lookup process
-  // once again in case a `ViewContainerRef` is created later).
-  lContainer[DEHYDRATED_VIEWS] = EMPTY_ARRAY;
 }
 /**
- * Helper function to remove all nodes from a dehydrated view.
+ * Process `TNode.insertBeforeIndex` by adding i18n text nodes.
+ *
+ * See `TNode.insertBeforeIndex`
  */
-function removeDehydratedView(dehydratedView, renderer) {
-  let nodesRemoved = 0;
-  let currentRNode = dehydratedView.firstChild;
-  if (currentRNode) {
-    const numNodes = dehydratedView.data[NUM_ROOT_NODES];
-    while (nodesRemoved < numNodes) {
-      ngDevMode && validateSiblingNodeExists(currentRNode);
-      const nextSibling = currentRNode.nextSibling;
-      nativeRemoveNode(renderer, currentRNode, false);
-      currentRNode = nextSibling;
-      nodesRemoved++;
+function processI18nInsertBefore(renderer, childTNode, lView, childRNode, parentRElement) {
+  const tNodeInsertBeforeIndex = childTNode.insertBeforeIndex;
+  if (Array.isArray(tNodeInsertBeforeIndex)) {
+    // An array indicates that there are i18n nodes that need to be added as children of this
+    // `childRNode`. These i18n nodes were created before this `childRNode` was available and so
+    // only now can be added. The first element of the array is the normal index where we should
+    // insert the `childRNode`. Additional elements are the extra nodes to be added as children of
+    // `childRNode`.
+    ngDevMode && assertDomNode(childRNode);
+    let i18nParent = childRNode;
+    let anchorRNode = null;
+    if (!(childTNode.type & 3 /* TNodeType.AnyRNode */)) {
+      anchorRNode = i18nParent;
+      i18nParent = parentRElement;
     }
-  }
-}
-/**
- * Walks over all views within this LContainer invokes dehydrated views
- * cleanup function for each one.
- */
-function cleanupLContainer(lContainer) {
-  removeDehydratedViews(lContainer);
-  for (let i = CONTAINER_HEADER_OFFSET; i < lContainer.length; i++) {
-    cleanupLView(lContainer[i]);
-  }
-}
-/**
- * Removes any remaining dehydrated i18n nodes from a given LView,
- * both in internal data structure, as well as removing the
- * corresponding DOM nodes.
- */
-function cleanupDehydratedI18nNodes(lView) {
-  const i18nNodes = lView[HYDRATION]?.i18nNodes;
-  if (i18nNodes) {
-    const renderer = lView[RENDERER];
-    for (const node of i18nNodes.values()) {
-      nativeRemoveNode(renderer, node, false);
-    }
-    lView[HYDRATION].i18nNodes = undefined;
-  }
-}
-/**
- * Walks over `LContainer`s and components registered within
- * this LView and invokes dehydrated views cleanup function for each one.
- */
-function cleanupLView(lView) {
-  cleanupDehydratedI18nNodes(lView);
-  const tView = lView[TVIEW];
-  for (let i = HEADER_OFFSET; i < tView.bindingStartIndex; i++) {
-    if (isLContainer(lView[i])) {
-      const lContainer = lView[i];
-      cleanupLContainer(lContainer);
-    } else if (isLView(lView[i])) {
-      // This is a component, enter the `cleanupLView` recursively.
-      cleanupLView(lView[i]);
-    }
-  }
-}
-/**
- * Walks over all views registered within the ApplicationRef and removes
- * all dehydrated views from all `LContainer`s along the way.
- */
-function cleanupDehydratedViews(appRef) {
-  const viewRefs = appRef._views;
-  for (const viewRef of viewRefs) {
-    const lNode = getLNodeForHydration(viewRef);
-    // An `lView` might be `null` if a `ViewRef` represents
-    // an embedded view (not a component view).
-    if (lNode !== null && lNode[HOST] !== null) {
-      if (isLView(lNode)) {
-        cleanupLView(lNode);
-      } else {
-        // Cleanup in the root component view
-        const componentLView = lNode[HOST];
-        cleanupLView(componentLView);
-        // Cleanup in all views within this view container
-        cleanupLContainer(lNode);
+    if (i18nParent !== null && childTNode.componentOffset === -1) {
+      for (let i = 1; i < tNodeInsertBeforeIndex.length; i++) {
+        // No need to `unwrapRNode` because all of the indexes point to i18n text nodes.
+        // see `assertDomNode` below.
+        const i18nChild = lView[tNodeInsertBeforeIndex[i]];
+        nativeInsertBefore(renderer, i18nParent, i18nChild, anchorRNode, false);
       }
-      ngDevMode && ngDevMode.dehydratedViewsCleanupRuns++;
     }
   }
+}
+
+/**
+ * Add `tNode` to `previousTNodes` list and update relevant `TNode`s in `previousTNodes` list
+ * `tNode.insertBeforeIndex`.
+ *
+ * Things to keep in mind:
+ * 1. All i18n text nodes are encoded as `TNodeType.Element` and are created eagerly by the
+ *    `ɵɵi18nStart` instruction.
+ * 2. All `TNodeType.Placeholder` `TNodes` are elements which will be created later by
+ *    `ɵɵelementStart` instruction.
+ * 3. `ɵɵelementStart` instruction will create `TNode`s in the ascending `TNode.index` order. (So a
+ *    smaller index `TNode` is guaranteed to be created before a larger one)
+ *
+ * We use the above three invariants to determine `TNode.insertBeforeIndex`.
+ *
+ * In an ideal world `TNode.insertBeforeIndex` would always be `TNode.next.index`. However,
+ * this will not work because `TNode.next.index` may be larger than `TNode.index` which means that
+ * the next node is not yet created and therefore we can't insert in front of it.
+ *
+ * Rule1: `TNode.insertBeforeIndex = null` if `TNode.next === null` (Initial condition, as we don't
+ *        know if there will be further `TNode`s inserted after.)
+ * Rule2: If `previousTNode` is created after the `tNode` being inserted, then
+ *        `previousTNode.insertBeforeNode = tNode.index` (So when a new `tNode` is added we check
+ *        previous to see if we can update its `insertBeforeTNode`)
+ *
+ * See `TNode.insertBeforeIndex` for more context.
+ *
+ * @param previousTNodes A list of previous TNodes so that we can easily traverse `TNode`s in
+ *     reverse order. (If `TNode` would have `previous` this would not be necessary.)
+ * @param newTNode A TNode to add to the `previousTNodes` list.
+ */
+function addTNodeAndUpdateInsertBeforeIndex(previousTNodes, newTNode) {
+  // Start with Rule1
+  ngDevMode && assertEqual(newTNode.insertBeforeIndex, null, 'We expect that insertBeforeIndex is not set');
+  previousTNodes.push(newTNode);
+  if (previousTNodes.length > 1) {
+    for (let i = previousTNodes.length - 2; i >= 0; i--) {
+      const existingTNode = previousTNodes[i];
+      // Text nodes are created eagerly and so they don't need their `indexBeforeIndex` updated.
+      // It is safe to ignore them.
+      if (!isI18nText(existingTNode)) {
+        if (isNewTNodeCreatedBefore(existingTNode, newTNode) && getInsertBeforeIndex(existingTNode) === null) {
+          // If it was created before us in time, (and it does not yet have `insertBeforeIndex`)
+          // then add the `insertBeforeIndex`.
+          setInsertBeforeIndex(existingTNode, newTNode.index);
+        }
+      }
+    }
+  }
+}
+function isI18nText(tNode) {
+  return !(tNode.type & 64 /* TNodeType.Placeholder */);
+}
+function isNewTNodeCreatedBefore(existingTNode, newTNode) {
+  return isI18nText(newTNode) || existingTNode.index > newTNode.index;
+}
+function getInsertBeforeIndex(tNode) {
+  const index = tNode.insertBeforeIndex;
+  return Array.isArray(index) ? index[0] : index;
+}
+function setInsertBeforeIndex(tNode, value) {
+  const index = tNode.insertBeforeIndex;
+  if (Array.isArray(index)) {
+    // Array is stored if we have to insert child nodes. See `TNode.insertBeforeIndex`
+    index[0] = value;
+  } else {
+    setI18nHandling(getInsertInFrontOfRNodeWithI18n, processI18nInsertBefore);
+    tNode.insertBeforeIndex = value;
+  }
+}
+
+/**
+ * Retrieve `TIcu` at a given `index`.
+ *
+ * The `TIcu` can be stored either directly (if it is nested ICU) OR
+ * it is stored inside tho `TIcuContainer` if it is top level ICU.
+ *
+ * The reason for this is that the top level ICU need a `TNode` so that they are part of the render
+ * tree, but nested ICU's have no TNode, because we don't know ahead of time if the nested ICU is
+ * expressed (parent ICU may have selected a case which does not contain it.)
+ *
+ * @param tView Current `TView`.
+ * @param index Index where the value should be read from.
+ */
+function getTIcu(tView, index) {
+  const value = tView.data[index];
+  if (value === null || typeof value === 'string') return null;
+  if (ngDevMode && !(value.hasOwnProperty('tView') || value.hasOwnProperty('currentCaseLViewIndex'))) {
+    throwError("We expect to get 'null'|'TIcu'|'TIcuContainer', but got: " + value);
+  }
+  // Here the `value.hasOwnProperty('currentCaseLViewIndex')` is a polymorphic read as it can be
+  // either TIcu or TIcuContainerNode. This is not ideal, but we still think it is OK because it
+  // will be just two cases which fits into the browser inline cache (inline cache can take up to
+  // 4)
+  const tIcu = value.hasOwnProperty('currentCaseLViewIndex') ? value : value.value;
+  ngDevMode && assertTIcu(tIcu);
+  return tIcu;
+}
+/**
+ * Store `TIcu` at a give `index`.
+ *
+ * The `TIcu` can be stored either directly (if it is nested ICU) OR
+ * it is stored inside tho `TIcuContainer` if it is top level ICU.
+ *
+ * The reason for this is that the top level ICU need a `TNode` so that they are part of the render
+ * tree, but nested ICU's have no TNode, because we don't know ahead of time if the nested ICU is
+ * expressed (parent ICU may have selected a case which does not contain it.)
+ *
+ * @param tView Current `TView`.
+ * @param index Index where the value should be stored at in `Tview.data`
+ * @param tIcu The TIcu to store.
+ */
+function setTIcu(tView, index, tIcu) {
+  const tNode = tView.data[index];
+  ngDevMode && assertEqual(tNode === null || tNode.hasOwnProperty('tView'), true, "We expect to get 'null'|'TIcuContainer'");
+  if (tNode === null) {
+    tView.data[index] = tIcu;
+  } else {
+    ngDevMode && assertTNodeType(tNode, 32 /* TNodeType.Icu */);
+    tNode.value = tIcu;
+  }
+}
+/**
+ * Set `TNode.insertBeforeIndex` taking the `Array` into account.
+ *
+ * See `TNode.insertBeforeIndex`
+ */
+function setTNodeInsertBeforeIndex(tNode, index) {
+  ngDevMode && assertTNode(tNode);
+  let insertBeforeIndex = tNode.insertBeforeIndex;
+  if (insertBeforeIndex === null) {
+    setI18nHandling(getInsertInFrontOfRNodeWithI18n, processI18nInsertBefore);
+    insertBeforeIndex = tNode.insertBeforeIndex = [null /* may be updated to number later */, index];
+  } else {
+    assertEqual(Array.isArray(insertBeforeIndex), true, 'Expecting array here');
+    insertBeforeIndex.push(index);
+  }
+}
+/**
+ * Create `TNode.type=TNodeType.Placeholder` node.
+ *
+ * See `TNodeType.Placeholder` for more information.
+ */
+function createTNodePlaceholder(tView, previousTNodes, index) {
+  const tNode = createTNodeAtIndex(tView, index, 64 /* TNodeType.Placeholder */, null, null);
+  addTNodeAndUpdateInsertBeforeIndex(previousTNodes, tNode);
+  return tNode;
+}
+/**
+ * Returns current ICU case.
+ *
+ * ICU cases are stored as index into the `TIcu.cases`.
+ * At times it is necessary to communicate that the ICU case just switched and that next ICU update
+ * should update all bindings regardless of the mask. In such a case the we store negative numbers
+ * for cases which have just been switched. This function removes the negative flag.
+ */
+function getCurrentICUCaseIndex(tIcu, lView) {
+  const currentCase = lView[tIcu.currentCaseLViewIndex];
+  return currentCase === null ? currentCase : currentCase < 0 ? ~currentCase : currentCase;
+}
+function getParentFromIcuCreateOpCode(mergedCode) {
+  return mergedCode >>> 17 /* IcuCreateOpCode.SHIFT_PARENT */;
+}
+function getRefFromIcuCreateOpCode(mergedCode) {
+  return (mergedCode & 131070 /* IcuCreateOpCode.MASK_REF */) >>> 1 /* IcuCreateOpCode.SHIFT_REF */;
+}
+function getInstructionFromIcuCreateOpCode(mergedCode) {
+  return mergedCode & 1 /* IcuCreateOpCode.MASK_INSTRUCTION */;
+}
+function icuCreateOpCode(opCode, parentIdx, refIdx) {
+  ngDevMode && assertGreaterThanOrEqual(parentIdx, 0, 'Missing parent index');
+  ngDevMode && assertGreaterThan(refIdx, 0, 'Missing ref index');
+  return opCode | parentIdx << 17 /* IcuCreateOpCode.SHIFT_PARENT */ | refIdx << 1 /* IcuCreateOpCode.SHIFT_REF */;
+}
+// Returns whether the given value corresponds to a root template message,
+// or a sub-template.
+function isRootTemplateMessage(subTemplateIndex) {
+  return subTemplateIndex === -1;
 }
 
 /**
@@ -27491,13 +27910,22 @@ function isDisconnectedNode(tNode, lView) {
 function locateI18nRNodeByIndex(hydrationInfo, noOffsetIndex) {
   const i18nNodes = hydrationInfo.i18nNodes;
   if (i18nNodes) {
-    const native = i18nNodes.get(noOffsetIndex);
-    if (native) {
-      i18nNodes.delete(noOffsetIndex);
-    }
-    return native;
+    return i18nNodes.get(noOffsetIndex);
   }
-  return null;
+  return undefined;
+}
+/**
+ * Attempt to locate an RNode by a path, if it exists.
+ *
+ * @param hydrationInfo The hydration annotation data
+ * @param lView the current lView
+ * @param noOffsetIndex the instruction index
+ * @returns an RNode that corresponds to the instruction index or null if no path exists
+ */
+function tryLocateRNodeByPath(hydrationInfo, lView, noOffsetIndex) {
+  const nodes = hydrationInfo.data[NODES];
+  const path = nodes?.[noOffsetIndex];
+  return path ? locateRNodeByPath(path, lView) : null;
 }
 /**
  * Locate a node in DOM tree that corresponds to a given TNode.
@@ -27511,7 +27939,7 @@ function locateI18nRNodeByIndex(hydrationInfo, noOffsetIndex) {
 function locateNextRNode(hydrationInfo, tView, lView, tNode) {
   const noOffsetIndex = getNoOffsetIndex(tNode);
   let native = locateI18nRNodeByIndex(hydrationInfo, noOffsetIndex);
-  if (!native) {
+  if (native === undefined) {
     const nodes = hydrationInfo.data[NODES];
     if (nodes?.[noOffsetIndex]) {
       // We know the exact location of the node.
@@ -27687,7 +28115,7 @@ function calcPathBetween(from, to, fromNodeName) {
  * Invoked at serialization time (on the server) when a set of navigation
  * instructions needs to be generated for a TNode.
  */
-function calcPathForNode(tNode, lView) {
+function calcPathForNode(tNode, lView, excludedParentNodes) {
   let parentTNode = tNode.parent;
   let parentIndex;
   let parentRNode;
@@ -27699,7 +28127,11 @@ function calcPathForNode(tNode, lView) {
   // a content of an element is projected and used, when a parent element
   // itself remains detached from DOM. In this scenario we try to find a parent
   // element that is attached to DOM and can act as an anchor instead.
-  while (parentTNode !== null && isDisconnectedNode(parentTNode, lView)) {
+  //
+  // It can also happen that the parent node should be excluded, for example,
+  // because it belongs to an i18n block, which requires paths which aren't
+  // relative to other views in an i18n block.
+  while (parentTNode !== null && (isDisconnectedNode(parentTNode, lView) || excludedParentNodes?.has(parentTNode.index))) {
     parentTNode = parentTNode.parent;
   }
   if (parentTNode === null || !(parentTNode.type & 3 /* TNodeType.AnyRNode */)) {
@@ -27747,6 +28179,482 @@ function calcPathForNode(tNode, lView) {
     }
   }
   return path;
+}
+let _isI18nHydrationSupportEnabled = false;
+let _prepareI18nBlockForHydrationImpl = () => {
+  // noop unless `enablePrepareI18nBlockForHydrationImpl` is invoked.
+};
+function setIsI18nHydrationSupportEnabled(enabled) {
+  _isI18nHydrationSupportEnabled = enabled;
+}
+function isI18nHydrationSupportEnabled() {
+  return _isI18nHydrationSupportEnabled;
+}
+/**
+ * Prepares an i18n block and its children, located at the given
+ * view and instruction index, for hydration.
+ *
+ * @param lView lView with the i18n block
+ * @param index index of the i18n block in the lView
+ * @param parentTNode TNode of the parent of the i18n block
+ * @param subTemplateIndex sub-template index, or -1 for the main template
+ */
+function prepareI18nBlockForHydration(lView, index, parentTNode, subTemplateIndex) {
+  _prepareI18nBlockForHydrationImpl(lView, index, parentTNode, subTemplateIndex);
+}
+function enablePrepareI18nBlockForHydrationImpl() {
+  _prepareI18nBlockForHydrationImpl = prepareI18nBlockForHydrationImpl;
+}
+function isI18nHydrationEnabled(injector) {
+  injector = injector ?? inject(Injector);
+  return injector.get(IS_I18N_HYDRATION_ENABLED, false);
+}
+/**
+ * Collects, if not already cached, all of the indices in the
+ * given TView which are children of an i18n block.
+ *
+ * Since i18n blocks don't introduce a parent TNode, this is necessary
+ * in order to determine which indices in a LView are translated.
+ */
+function getOrComputeI18nChildren(tView, context) {
+  let i18nChildren = context.i18nChildren.get(tView);
+  if (i18nChildren === undefined) {
+    i18nChildren = collectI18nChildren(tView);
+    context.i18nChildren.set(tView, i18nChildren);
+  }
+  return i18nChildren;
+}
+function collectI18nChildren(tView) {
+  const children = new Set();
+  function collectI18nViews(node) {
+    children.add(node.index);
+    switch (node.kind) {
+      case 1 /* I18nNodeKind.ELEMENT */:
+      case 2 /* I18nNodeKind.PLACEHOLDER */:
+        {
+          for (const childNode of node.children) {
+            collectI18nViews(childNode);
+          }
+          break;
+        }
+      case 3 /* I18nNodeKind.ICU */:
+        {
+          for (const caseNodes of node.cases) {
+            for (const caseNode of caseNodes) {
+              collectI18nViews(caseNode);
+            }
+          }
+          break;
+        }
+    }
+  }
+  // Traverse through the AST of each i18n block in the LView,
+  // and collect every instruction index.
+  for (let i = HEADER_OFFSET; i < tView.bindingStartIndex; i++) {
+    const tI18n = tView.data[i];
+    if (!tI18n || !tI18n.ast) {
+      continue;
+    }
+    for (const node of tI18n.ast) {
+      collectI18nViews(node);
+    }
+  }
+  return children.size === 0 ? null : children;
+}
+/**
+ * Attempts to serialize i18n data for an i18n block, located at
+ * the given view and instruction index.
+ *
+ * @param lView lView with the i18n block
+ * @param index index of the i18n block in the lView
+ * @param context the hydration context
+ * @returns the i18n data, or null if there is no relevant data
+ */
+function trySerializeI18nBlock(lView, index, context) {
+  if (!context.isI18nHydrationEnabled) {
+    return null;
+  }
+  const tView = lView[TVIEW];
+  const tI18n = tView.data[index];
+  if (!tI18n || !tI18n.ast) {
+    return null;
+  }
+  const caseQueue = [];
+  tI18n.ast.forEach(node => serializeI18nBlock(lView, caseQueue, context, node));
+  return caseQueue.length > 0 ? caseQueue : null;
+}
+function serializeI18nBlock(lView, caseQueue, context, node) {
+  switch (node.kind) {
+    case 0 /* I18nNodeKind.TEXT */:
+      const rNode = unwrapRNode(lView[node.index]);
+      processTextNodeBeforeSerialization(context, rNode);
+      break;
+    case 1 /* I18nNodeKind.ELEMENT */:
+    case 2 /* I18nNodeKind.PLACEHOLDER */:
+      node.children.forEach(node => serializeI18nBlock(lView, caseQueue, context, node));
+      break;
+    case 3 /* I18nNodeKind.ICU */:
+      const currentCase = lView[node.currentCaseLViewIndex];
+      if (currentCase != null) {
+        // i18n uses a negative value to signal a change to a new case, so we
+        // need to invert it to get the proper value.
+        const caseIdx = currentCase < 0 ? ~currentCase : currentCase;
+        caseQueue.push(caseIdx);
+        node.cases[caseIdx].forEach(node => serializeI18nBlock(lView, caseQueue, context, node));
+      }
+      break;
+  }
+}
+function setCurrentNode(state, node) {
+  state.currentNode = node;
+}
+/**
+ * Marks the current RNode as the hydration root for the given
+ * AST node.
+ */
+function appendI18nNodeToCollection(context, state, astNode) {
+  const noOffsetIndex = astNode.index - HEADER_OFFSET;
+  const {
+    disconnectedNodes
+  } = context;
+  const currentNode = state.currentNode;
+  if (state.isConnected) {
+    context.i18nNodes.set(noOffsetIndex, currentNode);
+    // We expect the node to be connected, so ensure that it
+    // is not in the set, regardless of whether we found it,
+    // so that the downstream error handling can provide the
+    // proper context.
+    disconnectedNodes.delete(noOffsetIndex);
+  } else {
+    disconnectedNodes.add(noOffsetIndex);
+  }
+  return currentNode;
+}
+/**
+ * Skip over some sibling nodes during hydration.
+ *
+ * Note: we use this instead of `siblingAfter` as it's expected that
+ * sometimes we might encounter null nodes. In those cases, we want to
+ * defer to downstream error handling to provide proper context.
+ */
+function skipSiblingNodes(state, skip) {
+  let currentNode = state.currentNode;
+  for (let i = 0; i < skip; i++) {
+    if (!currentNode) {
+      break;
+    }
+    currentNode = currentNode?.nextSibling ?? null;
+  }
+  return currentNode;
+}
+/**
+ * Fork the given state into a new state for hydrating children.
+ */
+function forkHydrationState(state, nextNode) {
+  return {
+    currentNode: nextNode,
+    isConnected: state.isConnected
+  };
+}
+function prepareI18nBlockForHydrationImpl(lView, index, parentTNode, subTemplateIndex) {
+  if (!isI18nHydrationSupportEnabled()) {
+    return;
+  }
+  const hydrationInfo = lView[HYDRATION];
+  if (!hydrationInfo) {
+    return;
+  }
+  const tView = lView[TVIEW];
+  const tI18n = tView.data[index];
+  ngDevMode && assertDefined(tI18n, 'Expected i18n data to be present in a given TView slot during hydration');
+  function findHydrationRoot() {
+    if (isRootTemplateMessage(subTemplateIndex)) {
+      // This is the root of an i18n block. In this case, our hydration root will
+      // depend on where our parent TNode (i.e. the block with i18n applied) is
+      // in the DOM.
+      ngDevMode && assertDefined(parentTNode, 'Expected parent TNode while hydrating i18n root');
+      const rootNode = locateNextRNode(hydrationInfo, tView, lView, parentTNode);
+      // If this i18n block is attached to an <ng-container>, then we want to begin
+      // hydrating directly with the RNode. Otherwise, for a TNode with a physical DOM
+      // element, we want to recurse into the first child and begin there.
+      return parentTNode.type & 8 /* TNodeType.ElementContainer */ ? rootNode : rootNode.firstChild;
+    }
+    // This is a nested template in an i18n block. In this case, the entire view
+    // is translated, and part of a dehydrated view in a container. This means that
+    // we can simply begin hydration with the first dehydrated child.
+    return hydrationInfo?.firstChild;
+  }
+  const currentNode = findHydrationRoot();
+  ngDevMode && assertDefined(currentNode, 'Expected root i18n node during hydration');
+  const disconnectedNodes = initDisconnectedNodes(hydrationInfo) ?? new Set();
+  const i18nNodes = hydrationInfo.i18nNodes ??= new Map();
+  const caseQueue = hydrationInfo.data[I18N_DATA]?.[index - HEADER_OFFSET] ?? [];
+  const dehydratedIcuData = hydrationInfo.dehydratedIcuData ??= new Map();
+  collectI18nNodesFromDom({
+    hydrationInfo,
+    lView,
+    i18nNodes,
+    disconnectedNodes,
+    caseQueue,
+    dehydratedIcuData
+  }, {
+    currentNode,
+    isConnected: true
+  }, tI18n.ast);
+  // Nodes from inactive ICU cases should be considered disconnected. We track them above
+  // because they aren't (and shouldn't be) serialized. Since we may mutate or create a
+  // new set, we need to be sure to write the expected value back to the DehydratedView.
+  hydrationInfo.disconnectedNodes = disconnectedNodes.size === 0 ? null : disconnectedNodes;
+}
+function collectI18nNodesFromDom(context, state, nodeOrNodes) {
+  if (Array.isArray(nodeOrNodes)) {
+    for (const node of nodeOrNodes) {
+      // If the node is being projected elsewhere, we need to temporarily
+      // branch the state to that location to continue hydration.
+      // Otherwise, we continue hydration from the current location.
+      const targetNode = tryLocateRNodeByPath(context.hydrationInfo, context.lView, node.index - HEADER_OFFSET);
+      const nextState = targetNode ? forkHydrationState(state, targetNode) : state;
+      collectI18nNodesFromDom(context, nextState, node);
+    }
+  } else {
+    switch (nodeOrNodes.kind) {
+      case 0 /* I18nNodeKind.TEXT */:
+        {
+          // Claim a text node for hydration
+          const currentNode = appendI18nNodeToCollection(context, state, nodeOrNodes);
+          setCurrentNode(state, currentNode?.nextSibling ?? null);
+          break;
+        }
+      case 1 /* I18nNodeKind.ELEMENT */:
+        {
+          // Recurse into the current element's children...
+          collectI18nNodesFromDom(context, forkHydrationState(state, state.currentNode?.firstChild ?? null), nodeOrNodes.children);
+          // And claim the parent element itself.
+          const currentNode = appendI18nNodeToCollection(context, state, nodeOrNodes);
+          setCurrentNode(state, currentNode?.nextSibling ?? null);
+          break;
+        }
+      case 2 /* I18nNodeKind.PLACEHOLDER */:
+        {
+          const noOffsetIndex = nodeOrNodes.index - HEADER_OFFSET;
+          const {
+            hydrationInfo
+          } = context;
+          const containerSize = getNgContainerSize(hydrationInfo, noOffsetIndex);
+          switch (nodeOrNodes.type) {
+            case 0 /* I18nPlaceholderType.ELEMENT */:
+              {
+                // Hydration expects to find the head of the element.
+                const currentNode = appendI18nNodeToCollection(context, state, nodeOrNodes);
+                // A TNode for the node may not yet if we're hydrating during the first pass,
+                // so use the serialized data to determine if this is an <ng-container>.
+                if (isSerializedElementContainer(hydrationInfo, noOffsetIndex)) {
+                  // An <ng-container> doesn't have a physical DOM node, so we need to
+                  // continue hydrating from siblings.
+                  collectI18nNodesFromDom(context, state, nodeOrNodes.children);
+                  // Skip over the anchor element. It will be claimed by the
+                  // downstream container hydration.
+                  const nextNode = skipSiblingNodes(state, 1);
+                  setCurrentNode(state, nextNode);
+                } else {
+                  // Non-container elements represent an actual node in the DOM, so we
+                  // need to continue hydration with the children, and claim the node.
+                  collectI18nNodesFromDom(context, forkHydrationState(state, state.currentNode?.firstChild ?? null), nodeOrNodes.children);
+                  setCurrentNode(state, currentNode?.nextSibling ?? null);
+                  // Elements can also be the anchor of a view container, so there may
+                  // be elements after this node that we need to skip.
+                  if (containerSize !== null) {
+                    // `+1` stands for an anchor node after all of the views in the container.
+                    const nextNode = skipSiblingNodes(state, containerSize + 1);
+                    setCurrentNode(state, nextNode);
+                  }
+                }
+                break;
+              }
+            case 1 /* I18nPlaceholderType.SUBTEMPLATE */:
+              {
+                ngDevMode && assertNotEqual(containerSize, null, 'Expected a container size while hydrating i18n subtemplate');
+                // Hydration expects to find the head of the template.
+                appendI18nNodeToCollection(context, state, nodeOrNodes);
+                // Skip over all of the template children, as well as the anchor
+                // node, since the template itself will handle them instead.
+                const nextNode = skipSiblingNodes(state, containerSize + 1);
+                setCurrentNode(state, nextNode);
+                break;
+              }
+          }
+          break;
+        }
+      case 3 /* I18nNodeKind.ICU */:
+        {
+          // If the current node is connected, we need to pop the next case from the
+          // queue, so that the active case is also considered connected.
+          const selectedCase = state.isConnected ? context.caseQueue.shift() : null;
+          const childState = {
+            currentNode: null,
+            isConnected: false
+          };
+          // We traverse through each case, even if it's not active,
+          // so that we correctly populate disconnected nodes.
+          for (let i = 0; i < nodeOrNodes.cases.length; i++) {
+            collectI18nNodesFromDom(context, i === selectedCase ? state : childState, nodeOrNodes.cases[i]);
+          }
+          if (selectedCase !== null) {
+            // ICUs represent a branching state, and the selected case could be different
+            // than what it was on the server. In that case, we need to be able to clean
+            // up the nodes from the original case. To do that, we store the selected case.
+            context.dehydratedIcuData.set(nodeOrNodes.index, {
+              case: selectedCase,
+              node: nodeOrNodes
+            });
+          }
+          // Hydration expects to find the ICU anchor element.
+          const currentNode = appendI18nNodeToCollection(context, state, nodeOrNodes);
+          setCurrentNode(state, currentNode?.nextSibling ?? null);
+          break;
+        }
+    }
+  }
+}
+let _claimDehydratedIcuCaseImpl = () => {
+  // noop unless `enableClaimDehydratedIcuCaseImpl` is invoked
+};
+/**
+ * Mark the case for the ICU node at the given index in the view as claimed,
+ * allowing its nodes to be hydrated and not cleaned up.
+ */
+function claimDehydratedIcuCase(lView, icuIndex, caseIndex) {
+  _claimDehydratedIcuCaseImpl(lView, icuIndex, caseIndex);
+}
+function enableClaimDehydratedIcuCaseImpl() {
+  _claimDehydratedIcuCaseImpl = claimDehydratedIcuCaseImpl;
+}
+function claimDehydratedIcuCaseImpl(lView, icuIndex, caseIndex) {
+  const dehydratedIcuDataMap = lView[HYDRATION]?.dehydratedIcuData;
+  if (dehydratedIcuDataMap) {
+    const dehydratedIcuData = dehydratedIcuDataMap.get(icuIndex);
+    if (dehydratedIcuData?.case === caseIndex) {
+      // If the case we're attempting to claim matches the dehydrated one,
+      // we remove it from the map to mark it as "claimed."
+      dehydratedIcuDataMap.delete(icuIndex);
+    }
+  }
+}
+/**
+ * Clean up all i18n hydration data associated with the given view.
+ */
+function cleanupI18nHydrationData(lView) {
+  const hydrationInfo = lView[HYDRATION];
+  if (hydrationInfo) {
+    const {
+      i18nNodes,
+      dehydratedIcuData: dehydratedIcuDataMap
+    } = hydrationInfo;
+    if (i18nNodes && dehydratedIcuDataMap) {
+      const renderer = lView[RENDERER];
+      for (const dehydratedIcuData of dehydratedIcuDataMap.values()) {
+        cleanupDehydratedIcuData(renderer, i18nNodes, dehydratedIcuData);
+      }
+    }
+    hydrationInfo.i18nNodes = undefined;
+    hydrationInfo.dehydratedIcuData = undefined;
+  }
+}
+function cleanupDehydratedIcuData(renderer, i18nNodes, dehydratedIcuData) {
+  for (const node of dehydratedIcuData.node.cases[dehydratedIcuData.case]) {
+    const rNode = i18nNodes.get(node.index - HEADER_OFFSET);
+    if (rNode) {
+      nativeRemoveNode(renderer, rNode, false);
+    }
+  }
+}
+
+/**
+ * Removes all dehydrated views from a given LContainer:
+ * both in internal data structure, as well as removing
+ * corresponding DOM nodes that belong to that dehydrated view.
+ */
+function removeDehydratedViews(lContainer) {
+  const views = lContainer[DEHYDRATED_VIEWS] ?? [];
+  const parentLView = lContainer[PARENT];
+  const renderer = parentLView[RENDERER];
+  for (const view of views) {
+    removeDehydratedView(view, renderer);
+    ngDevMode && ngDevMode.dehydratedViewsRemoved++;
+  }
+  // Reset the value to an empty array to indicate that no
+  // further processing of dehydrated views is needed for
+  // this view container (i.e. do not trigger the lookup process
+  // once again in case a `ViewContainerRef` is created later).
+  lContainer[DEHYDRATED_VIEWS] = EMPTY_ARRAY;
+}
+/**
+ * Helper function to remove all nodes from a dehydrated view.
+ */
+function removeDehydratedView(dehydratedView, renderer) {
+  let nodesRemoved = 0;
+  let currentRNode = dehydratedView.firstChild;
+  if (currentRNode) {
+    const numNodes = dehydratedView.data[NUM_ROOT_NODES];
+    while (nodesRemoved < numNodes) {
+      ngDevMode && validateSiblingNodeExists(currentRNode);
+      const nextSibling = currentRNode.nextSibling;
+      nativeRemoveNode(renderer, currentRNode, false);
+      currentRNode = nextSibling;
+      nodesRemoved++;
+    }
+  }
+}
+/**
+ * Walks over all views within this LContainer invokes dehydrated views
+ * cleanup function for each one.
+ */
+function cleanupLContainer(lContainer) {
+  removeDehydratedViews(lContainer);
+  for (let i = CONTAINER_HEADER_OFFSET; i < lContainer.length; i++) {
+    cleanupLView(lContainer[i]);
+  }
+}
+/**
+ * Walks over `LContainer`s and components registered within
+ * this LView and invokes dehydrated views cleanup function for each one.
+ */
+function cleanupLView(lView) {
+  cleanupI18nHydrationData(lView);
+  const tView = lView[TVIEW];
+  for (let i = HEADER_OFFSET; i < tView.bindingStartIndex; i++) {
+    if (isLContainer(lView[i])) {
+      const lContainer = lView[i];
+      cleanupLContainer(lContainer);
+    } else if (isLView(lView[i])) {
+      // This is a component, enter the `cleanupLView` recursively.
+      cleanupLView(lView[i]);
+    }
+  }
+}
+/**
+ * Walks over all views registered within the ApplicationRef and removes
+ * all dehydrated views from all `LContainer`s along the way.
+ */
+function cleanupDehydratedViews(appRef) {
+  const viewRefs = appRef._views;
+  for (const viewRef of viewRefs) {
+    const lNode = getLNodeForHydration(viewRef);
+    // An `lView` might be `null` if a `ViewRef` represents
+    // an embedded view (not a component view).
+    if (lNode !== null && lNode[HOST] !== null) {
+      if (isLView(lNode)) {
+        cleanupLView(lNode);
+      } else {
+        // Cleanup in the root component view
+        const componentLView = lNode[HOST];
+        cleanupLView(componentLView);
+        // Cleanup in all views within this view container
+        cleanupLContainer(lNode);
+      }
+      ngDevMode && ngDevMode.dehydratedViewsCleanupRuns++;
+    }
+  }
 }
 
 /**
@@ -27825,6 +28733,17 @@ function findMatchingDehydratedView(lContainer, template) {
  * Injectable that is notified when an `LView` is made aware of changes to application state.
  */
 class ChangeDetectionScheduler {}
+/** Token used to indicate if zoneless was enabled via provideZonelessChangeDetection(). */
+const ZONELESS_ENABLED = new InjectionToken(typeof ngDevMode === 'undefined' || ngDevMode ? 'Zoneless enabled' : '', {
+  providedIn: 'root',
+  factory: () => false
+});
+/** Token used to indicate `provideExperimentalZonelessChangeDetection` was used. */
+const PROVIDED_ZONELESS = new InjectionToken(typeof ngDevMode === 'undefined' || ngDevMode ? 'Zoneless provided' : '', {
+  providedIn: 'root',
+  factory: () => false
+});
+const ZONELESS_SCHEDULER_DISABLED = new InjectionToken(typeof ngDevMode === 'undefined' || ngDevMode ? 'scheduler disabled' : '');
 
 /**
  * Represents a component created by a `ComponentFactory`.
@@ -27875,7 +28794,7 @@ class _NullComponentFactoryResolver {
  *     Component class can be used directly.
  */
 class ComponentFactoryResolver$1 {
-  static #_ = this.NULL = /* @__PURE__ */new _NullComponentFactoryResolver();
+  static #_ = this.NULL = new _NullComponentFactoryResolver();
 }
 
 /**
@@ -27967,7 +28886,7 @@ const NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR = {};
 function assertNotInReactiveContext(debugFn, extraContext) {
   // Taking a `Function` instead of a string name here prevents the un-minified name of the function
   // from being retained in the bundle regardless of minification.
-  if ((0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.getActiveConsumer)() !== null) {
+  if ((0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.getActiveConsumer)() !== null) {
     throw new RuntimeError(-602 /* RuntimeErrorCode.ASSERTION_NOT_INSIDE_REACTIVE_CONTEXT */, ngDevMode && `${debugFn.name}() cannot be called from within a reactive context.${extraContext ? ` ${extraContext}` : ''}`);
   }
 }
@@ -27991,43 +28910,68 @@ function performanceMarkFeature(feature) {
     }
   });
 }
+
+/**
+ * Gets a scheduling function that runs the callback after the first of setTimeout and
+ * requestAnimationFrame resolves.
+ *
+ * - `requestAnimationFrame` ensures that change detection runs ahead of a browser repaint.
+ * This ensures that the create and update passes of a change detection always happen
+ * in the same frame.
+ * - When the browser is resource-starved, `rAF` can execute _before_ a `setTimeout` because
+ * rendering is a very high priority process. This means that `setTimeout` cannot guarantee
+ * same-frame create and update pass, when `setTimeout` is used to schedule the update phase.
+ * - While `rAF` gives us the desirable same-frame updates, it has two limitations that
+ * prevent it from being used alone. First, it does not run in background tabs, which would
+ * prevent Angular from initializing an application when opened in a new tab (for example).
+ * Second, repeated calls to requestAnimationFrame will execute at the refresh rate of the
+ * hardware (~16ms for a 60Hz display). This would cause significant slowdown of tests that
+ * are written with several updates and asserts in the form of "update; await stable; assert;".
+ * - Both `setTimeout` and `rAF` are able to "coalesce" several events from a single user
+ * interaction into a single change detection. Importantly, this reduces view tree traversals when
+ * compared to an alternative timing mechanism like `queueMicrotask`, where change detection would
+ * then be interleaves between each event.
+ *
+ * By running change detection after the first of `setTimeout` and `rAF` to execute, we get the
+ * best of both worlds.
+ *
+ * @returns a function to cancel the scheduled callback
+ */
+function scheduleCallbackWithRafRace(callback) {
+  let executeCallback = true;
+  setTimeout(() => {
+    if (!executeCallback) {
+      return;
+    }
+    executeCallback = false;
+    callback();
+  });
+  if (typeof _global['requestAnimationFrame'] === 'function') {
+    _global['requestAnimationFrame'](() => {
+      if (!executeCallback) {
+        return;
+      }
+      executeCallback = false;
+      callback();
+    });
+  }
+  return () => {
+    executeCallback = false;
+  };
+}
+function scheduleCallbackWithMicrotask(callback) {
+  let executeCallback = true;
+  queueMicrotask(() => {
+    if (executeCallback) {
+      callback();
+    }
+  });
+  return () => {
+    executeCallback = false;
+  };
+}
 function noop(...args) {
   // Do nothing.
-}
-function getNativeRequestAnimationFrame() {
-  // Note: the `getNativeRequestAnimationFrame` is used in the `NgZone` class, but we cannot use the
-  // `inject` function. The `NgZone` instance may be created manually, and thus the injection
-  // context will be unavailable. This might be enough to check whether `requestAnimationFrame` is
-  // available because otherwise, we'll fall back to `setTimeout`.
-  const isBrowser = typeof _global['requestAnimationFrame'] === 'function';
-  // Note: `requestAnimationFrame` is unavailable when the code runs in the Node.js environment. We
-  // use `setTimeout` because no changes are required other than checking if the current platform is
-  // the browser. `setTimeout` is a well-established API that is available in both environments.
-  // `requestAnimationFrame` is used in the browser to coalesce event tasks since event tasks are
-  // usually executed within the same rendering frame (but this is more implementation details of
-  // browsers).
-  let nativeRequestAnimationFrame = _global[isBrowser ? 'requestAnimationFrame' : 'setTimeout'];
-  let nativeCancelAnimationFrame = _global[isBrowser ? 'cancelAnimationFrame' : 'clearTimeout'];
-  if (typeof Zone !== 'undefined' && nativeRequestAnimationFrame && nativeCancelAnimationFrame) {
-    // Note: zone.js sets original implementations on patched APIs behind the
-    // `__zone_symbol__OriginalDelegate` key (see `attachOriginToPatched`). Given the following
-    // example: `window.requestAnimationFrame.__zone_symbol__OriginalDelegate`; this would return an
-    // unpatched implementation of the `requestAnimationFrame`, which isn't intercepted by the
-    // Angular zone. We use the unpatched implementation to avoid another change detection when
-    // coalescing tasks.
-    const unpatchedRequestAnimationFrame = nativeRequestAnimationFrame[Zone.__symbol__('OriginalDelegate')];
-    if (unpatchedRequestAnimationFrame) {
-      nativeRequestAnimationFrame = unpatchedRequestAnimationFrame;
-    }
-    const unpatchedCancelAnimationFrame = nativeCancelAnimationFrame[Zone.__symbol__('OriginalDelegate')];
-    if (unpatchedCancelAnimationFrame) {
-      nativeCancelAnimationFrame = unpatchedCancelAnimationFrame;
-    }
-  }
-  return {
-    nativeRequestAnimationFrame,
-    nativeCancelAnimationFrame
-  };
 }
 class AsyncStackTaggingZoneSpec {
   constructor(namePrefix, consoleAsyncStackTaggingImpl = console) {
@@ -28180,8 +29124,7 @@ class NgZone {
     // coalesced, so shouldCoalesceEventChangeDetection option is not necessary and can be skipped.
     self.shouldCoalesceEventChangeDetection = !shouldCoalesceRunChangeDetection && shouldCoalesceEventChangeDetection;
     self.shouldCoalesceRunChangeDetection = shouldCoalesceRunChangeDetection;
-    self.lastRequestAnimationFrameId = -1;
-    self.nativeRequestAnimationFrame = getNativeRequestAnimationFrame().nativeRequestAnimationFrame;
+    self.callbackScheduled = false;
     forkInnerZoneWithAngularBehavior(self);
   }
   /**
@@ -28314,29 +29257,18 @@ function delayChangeDetectionForEvents(zone) {
    * so we also need to check the _nesting here to prevent multiple
    * change detections.
    */
-  if (zone.isCheckStableRunning || zone.lastRequestAnimationFrameId !== -1) {
+  if (zone.isCheckStableRunning || zone.callbackScheduled) {
     return;
   }
-  zone.lastRequestAnimationFrameId = zone.nativeRequestAnimationFrame.call(_global, () => {
-    // This is a work around for https://github.com/angular/angular/issues/36839.
-    // The core issue is that when event coalescing is enabled it is possible for microtasks
-    // to get flushed too early (As is the case with `Promise.then`) between the
-    // coalescing eventTasks.
-    //
-    // To workaround this we schedule a "fake" eventTask before we process the
-    // coalescing eventTasks. The benefit of this is that the "fake" container eventTask
-    //  will prevent the microtasks queue from getting drained in between the coalescing
-    // eventTask execution.
-    if (!zone.fakeTopEventTask) {
-      zone.fakeTopEventTask = Zone.root.scheduleEventTask('fakeTopEventTask', () => {
-        zone.lastRequestAnimationFrameId = -1;
-        updateMicroTaskStatus(zone);
-        zone.isCheckStableRunning = true;
-        checkStable(zone);
-        zone.isCheckStableRunning = false;
-      }, undefined, () => {}, () => {});
-    }
-    zone.fakeTopEventTask.invoke();
+  zone.callbackScheduled = true;
+  Zone.root.run(() => {
+    scheduleCallbackWithRafRace(() => {
+      zone.callbackScheduled = false;
+      updateMicroTaskStatus(zone);
+      zone.isCheckStableRunning = true;
+      checkStable(zone);
+      zone.isCheckStableRunning = false;
+    });
   });
   updateMicroTaskStatus(zone);
 }
@@ -28350,6 +29282,7 @@ function forkInnerZoneWithAngularBehavior(zone) {
       'isAngularZone': true
     },
     onInvokeTask: (delegate, current, target, task, applyThis, applyArgs) => {
+      // Prevent triggering change detection when the flag is detected.
       if (shouldBeIgnoredByZone(applyArgs)) {
         return delegate.invokeTask(target, task, applyThis, applyArgs);
       }
@@ -28368,7 +29301,17 @@ function forkInnerZoneWithAngularBehavior(zone) {
         onEnter(zone);
         return delegate.invoke(target, callback, applyThis, applyArgs, source);
       } finally {
-        if (zone.shouldCoalesceRunChangeDetection) {
+        if (zone.shouldCoalesceRunChangeDetection &&
+        // Do not delay change detection when the task is the scheduler's tick.
+        // We need to synchronously trigger the stability logic so that the
+        // zone-based scheduler can prevent a duplicate ApplicationRef.tick
+        // by first checking if the scheduler tick is running. This does seem a bit roundabout,
+        // but we _do_ still want to trigger all the correct events when we exit the zone.run
+        // (`onMicrotaskEmpty` and `onStable` _should_ emit; developers can have code which
+        // relies on these events happening after change detection runs).
+        // Note: `zone.callbackScheduled` is already in delayChangeDetectionForEventsDelegate
+        // but is added here as well to prevent reads of applyArgs when not necessary
+        !zone.callbackScheduled && !isSchedulerTick(applyArgs)) {
           delayChangeDetectionForEventsDelegate();
         }
         onLeave(zone);
@@ -28396,7 +29339,7 @@ function forkInnerZoneWithAngularBehavior(zone) {
   });
 }
 function updateMicroTaskStatus(zone) {
-  if (zone._hasPendingMicrotasks || (zone.shouldCoalesceEventChangeDetection || zone.shouldCoalesceRunChangeDetection) && zone.lastRequestAnimationFrameId !== -1) {
+  if (zone._hasPendingMicrotasks || (zone.shouldCoalesceEventChangeDetection || zone.shouldCoalesceRunChangeDetection) && zone.callbackScheduled === true) {
     zone.hasPendingMicrotasks = true;
   } else {
     zone.hasPendingMicrotasks = false;
@@ -28441,6 +29384,12 @@ class NoopNgZone {
   }
 }
 function shouldBeIgnoredByZone(applyArgs) {
+  return hasApplyArgsData(applyArgs, '__ignore_ng_zone__');
+}
+function isSchedulerTick(applyArgs) {
+  return hasApplyArgsData(applyArgs, '__scheduler_tick__');
+}
+function hasApplyArgsData(applyArgs, key) {
   if (!Array.isArray(applyArgs)) {
     return false;
   }
@@ -28449,8 +29398,7 @@ function shouldBeIgnoredByZone(applyArgs) {
   if (applyArgs.length !== 1) {
     return false;
   }
-  // Prevent triggering change detection when the __ignore_ng_zone__ flag is detected.
-  return applyArgs[0].data?.['__ignore_ng_zone__'] === true;
+  return applyArgs[0]?.data?.[key] === true;
 }
 function getNgZone(ngZoneToUse = 'zone.js', options) {
   if (ngZoneToUse === 'noop') {
@@ -28710,7 +29658,7 @@ class AfterRenderCallback {
     // Registering a callback will notify the scheduler.
     inject(ChangeDetectionScheduler, {
       optional: true
-    })?.notify(1 /* NotificationType.AfterRenderHooks */);
+    })?.notify(6 /* NotificationSource.NewRenderHook */);
   }
   invoke() {
     try {
@@ -29227,7 +30175,7 @@ class ComponentFactory extends ComponentFactory$1 {
     this.isBoundToModule = !!ngModule;
   }
   create(injector, projectableNodes, rootSelectorOrNode, environmentInjector) {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       // Check if the component is orphan
       if (ngDevMode && (typeof ngJitMode === 'undefined' || ngJitMode) && this.componentDef.debugInfo?.forbidOrphanRendering) {
@@ -29317,7 +30265,7 @@ class ComponentFactory extends ComponentFactory$1 {
       }
       return new ComponentRef(this.componentType, component, createElementRef(tElementNode, rootLView), rootLView, tElementNode);
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
 }
@@ -29337,7 +30285,7 @@ class ComponentRef extends ComponentRef$1 {
     this._tNode = _tNode;
     this.previousInputValues = null;
     this.instance = instance;
-    this.hostView = this.changeDetectorRef = new ViewRef$1(_rootLView, undefined, /* _cdRefInjectingView */false);
+    this.hostView = this.changeDetectorRef = new ViewRef$1(_rootLView, undefined /* _cdRefInjectingView */, false /* notifyErrorHandler */);
     this.componentType = componentType;
   }
   setInput(name, value) {
@@ -29354,7 +30302,7 @@ class ComponentRef extends ComponentRef$1 {
       setInputsForProperty(lView[TVIEW], lView, dataValue, name, value);
       this.previousInputValues.set(name, value);
       const childComponentLView = getComponentLViewByIndex(this._tNode.index, lView);
-      markViewDirty(childComponentLView);
+      markViewDirty(childComponentLView, 1 /* NotificationSource.SetInput */);
     } else {
       if (ngDevMode) {
         const cmpNameForError = stringifyForError(this.componentType);
@@ -29471,7 +30419,7 @@ function createRootComponent(componentView, rootComponentDef, rootDirectives, ho
 function setRootNodeAttributes(hostRenderer, componentDef, hostRNode, rootSelectorOrNode) {
   if (rootSelectorOrNode) {
     // The placeholder will be replaced with the actual version at build time.
-    setUpAttributes(hostRenderer, hostRNode, ['ng-version', '17.3.5']);
+    setUpAttributes(hostRenderer, hostRNode, ['ng-version', '18.0.0']);
   } else {
     // If host element is created as a part of this function call (i.e. `rootSelectorOrNode`
     // is not defined), also apply attributes and classes extracted from component selector.
@@ -29528,7 +30476,7 @@ function LifecycleHooksFeature() {
  * (created by instantiating a `TemplateRef` with the `createEmbeddedView()` method).
  *
  * A view container instance can contain other view containers,
- * creating a [view hierarchy](guide/glossary#view-hierarchy).
+ * creating a view hierarchy.
  *
  * @usageNotes
  *
@@ -29651,13 +30599,13 @@ const R3ViewContainerRef = class ViewContainerRef extends VE_ViewContainerRef {
     //      positional arguments. This signature is less ergonomic and will be deprecated.
     if (isComponentFactory) {
       if (ngDevMode) {
-        assertEqual(typeof indexOrOptions !== 'object', true, 'It looks like Component factory was provided as the first argument ' + 'and an options object as the second argument. This combination of arguments ' + 'is incompatible. You can either change the first argument to provide Component ' + 'type or change the second argument to be a number (representing an index at ' + 'which to insert the new component\'s host view into this container)');
+        assertEqual(typeof indexOrOptions !== 'object', true, 'It looks like Component factory was provided as the first argument ' + 'and an options object as the second argument. This combination of arguments ' + 'is incompatible. You can either change the first argument to provide Component ' + 'type or change the second argument to be a number (representing an index at ' + "which to insert the new component's host view into this container)");
       }
       index = indexOrOptions;
     } else {
       if (ngDevMode) {
         assertDefined(getComponentDef(componentFactoryOrType), `Provided Component class doesn't contain Component definition. ` + `Please check whether provided class has @Component decorator.`);
-        assertEqual(typeof indexOrOptions !== 'number', true, 'It looks like Component type was provided as the first argument ' + 'and a number (representing an index at which to insert the new component\'s ' + 'host view into this container as the second argument. This combination of arguments ' + 'is incompatible. Please use an object as the second argument instead.');
+        assertEqual(typeof indexOrOptions !== 'number', true, 'It looks like Component type was provided as the first argument ' + "and a number (representing an index at which to insert the new component's " + 'host view into this container as the second argument. This combination of arguments ' + 'is incompatible. Please use an object as the second argument instead.');
       }
       const options = indexOrOptions || {};
       if (ngDevMode && options.environmentInjector && options.ngModuleRef) {
@@ -30321,7 +31269,7 @@ function getQueryResults(lView, queryIndex) {
  * Checks if the given `value` is a reactive `Signal`.
  */
 function isSignal(value) {
-  return typeof value === 'function' && value[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL] !== undefined;
+  return typeof value === 'function' && value[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL] !== undefined;
 }
 
 /** Symbol used distinguish `WritableSignal` from other non-writable signals and functions. */
@@ -30340,13 +31288,13 @@ function ɵunwrapWritableSignal(value) {
  */
 function signal(initialValue, options) {
   performanceMarkFeature('NgSignals');
-  const signalFn = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.createSignal)(initialValue);
-  const node = signalFn[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL];
+  const signalFn = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.createSignal)(initialValue);
+  const node = signalFn[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL];
   if (options?.equal) {
     node.equal = options.equal;
   }
-  signalFn.set = newValue => (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.signalSetFn)(node, newValue);
-  signalFn.update = updateFn => (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.signalUpdateFn)(node, updateFn);
+  signalFn.set = newValue => (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.signalSetFn)(node, newValue);
+  signalFn.update = updateFn => (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.signalUpdateFn)(node, updateFn);
   signalFn.asReadonly = signalAsReadonlyFn.bind(signalFn);
   if (ngDevMode) {
     signalFn.toString = () => `[Signal: ${signalFn()}]`;
@@ -30354,10 +31302,10 @@ function signal(initialValue, options) {
   return signalFn;
 }
 function signalAsReadonlyFn() {
-  const node = this[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL];
+  const node = this[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL];
   if (node.readonlyFn === undefined) {
     const readonlyFn = () => this();
-    readonlyFn[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL] = node;
+    readonlyFn[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL] = node;
     node.readonlyFn = readonlyFn;
   }
   return node.readonlyFn;
@@ -30380,7 +31328,7 @@ function isWritableSignal(value) {
  */
 function createQuerySignalFn(firstOnly, required) {
   let node;
-  const signalFn = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.createComputed)(() => {
+  const signalFn = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.createComputed)(() => {
     // A dedicated signal that increments its value every time a query changes its dirty status. By
     // using this signal we can implement a query as computed and avoid creation of a specialized
     // reactive node type. Please note that a query gets marked dirty under the following
@@ -30394,7 +31342,7 @@ function createQuerySignalFn(firstOnly, required) {
     }
     return value;
   });
-  node = signalFn[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL];
+  node = signalFn[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL];
   node._dirtyCounter = signal(0);
   node._flatValue = undefined;
   if (ngDevMode) {
@@ -30412,7 +31360,7 @@ function createMultiResultQuerySignalFn() {
   return createQuerySignalFn( /* firstOnly */false, /* required */false);
 }
 function bindQueryToSignal(target, queryIndex) {
-  const node = target[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL];
+  const node = target[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL];
   node._lView = getLView();
   node._queryIndex = queryIndex;
   node._queryList = loadQueryInternal(node._lView, queryIndex);
@@ -30583,16 +31531,16 @@ function createModelSignal(initialValue) {
   const emitterRef = new OutputEmitterRef();
   node.value = initialValue;
   function getter() {
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.producerAccessed)(node);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.producerAccessed)(node);
     assertModelSet(node.value);
     return node.value;
   }
-  getter[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL] = node;
+  getter[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL] = node;
   getter.asReadonly = signalAsReadonlyFn.bind(getter);
   // TODO: Should we throw an error when updating a destroyed model?
   getter.set = newValue => {
     if (!node.equal(node.value, newValue)) {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.signalSetFn)(node, newValue);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.signalSetFn)(node, newValue);
       emitterRef.emit(newValue);
     }
   };
@@ -31361,8 +32309,7 @@ class NgModuleRef$1 {}
  *
  * @deprecated
  * This class was mostly used as a part of ViewEngine-based JIT API and is no longer needed in Ivy
- * JIT mode. See [JIT API changes due to ViewEngine deprecation](guide/deprecations#jit-api-changes)
- * for additional context. Angular provides APIs that accept NgModule classes directly (such as
+ * JIT mode. Angular provides APIs that accept NgModule classes directly (such as
  * [PlatformRef.bootstrapModule](api/core/PlatformRef#bootstrapModule) and
  * [createNgModule](api/core/createNgModule)), consider switching to those APIs instead of
  * using factory-based ones.
@@ -31472,9 +32419,6 @@ class EnvironmentNgModuleRefAdapter extends NgModuleRef$1 {
 }
 /**
  * Create a new environment injector.
- *
- * Learn more about environment injectors in
- * [this guide](guide/standalone-components#environment-injectors).
  *
  * @param providers An array of providers.
  * @param parent A parent environment injector.
@@ -31627,20 +32571,13 @@ function setClassMetadata(type, decorators, ctorParameters, propDecorators) {
 const ITS_JUST_ANGULAR = true;
 
 /**
- * *Internal* service that keeps track of pending tasks happening in the system.
- *
- * This information is needed to make sure that the serialization on the server
- * is delayed until all tasks in the queue (such as an initial navigation or a
- * pending HTTP request) are completed.
- *
- * Pending tasks continue to contribute to the stableness of `ApplicationRef`
- * throughout the lifetime of the application.
+ * Internal implementation of the pending tasks service.
  */
 class PendingTasks {
   constructor() {
     this.taskId = 0;
     this.pendingTasks = new Set();
-    this.hasPendingTasks = new rxjs__WEBPACK_IMPORTED_MODULE_4__.BehaviorSubject(false);
+    this.hasPendingTasks = new rxjs__WEBPACK_IMPORTED_MODULE_3__.BehaviorSubject(false);
   }
   get _hasPendingTasks() {
     return this.hasPendingTasks.value;
@@ -31676,6 +32613,61 @@ class PendingTasks {
 }
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(PendingTasks, [{
+    type: Injectable,
+    args: [{
+      providedIn: 'root'
+    }]
+  }], null, null);
+})();
+/**
+ * Experimental service that keeps track of pending tasks contributing to the stableness of Angular
+ * application. While several existing Angular services (ex.: `HttpClient`) will internally manage
+ * tasks influencing stability, this API gives control over stability to library and application
+ * developers for specific cases not covered by Angular internals.
+ *
+ * The concept of stability comes into play in several important scenarios:
+ * - SSR process needs to wait for the application stability before serializing and sending rendered
+ * HTML;
+ * - tests might want to delay assertions until the application becomes stable;
+ *
+ * @usageNotes
+ * ```typescript
+ * const pendingTasks = inject(ExperimentalPendingTasks);
+ * const taskCleanup = pendingTasks.add();
+ * // do work that should block application's stability and then:
+ * taskCleanup();
+ * ```
+ *
+ * This API is experimental. Neither the shape, nor the underlying behavior is stable and can change
+ * in patch versions. We will iterate on the exact API based on the feedback and our understanding
+ * of the problem and solution space.
+ *
+ * @publicApi
+ * @experimental
+ */
+class ExperimentalPendingTasks {
+  constructor() {
+    this.internalPendingTasks = inject(PendingTasks);
+  }
+  /**
+   * Adds a new task that should block application's stability.
+   * @returns A cleanup function that removes a task when called.
+   */
+  add() {
+    const taskId = this.internalPendingTasks.add();
+    return () => this.internalPendingTasks.remove(taskId);
+  }
+  static #_ = this.ɵfac = function ExperimentalPendingTasks_Factory(t) {
+    return new (t || ExperimentalPendingTasks)();
+  };
+  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
+    token: ExperimentalPendingTasks,
+    factory: ExperimentalPendingTasks.ɵfac,
+    providedIn: 'root'
+  });
+}
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ExperimentalPendingTasks, [{
     type: Injectable,
     args: [{
       providedIn: 'root'
@@ -31807,18 +32799,57 @@ function bindingUpdated4(lView, bindingIndex, exp1, exp2, exp3, exp4) {
 function isDetachedByI18n(tNode) {
   return (tNode.flags & 32 /* TNodeFlags.isDetached */) === 32 /* TNodeFlags.isDetached */;
 }
-function templateFirstCreatePass(index, tView, lView, templateFn, decls, vars, tagName, attrsIndex, localRefsIndex) {
+function templateFirstCreatePass(index, tView, lView, templateFn, decls, vars, tagName, attrs, localRefsIndex) {
   ngDevMode && assertFirstCreatePass(tView);
   ngDevMode && ngDevMode.firstCreatePass++;
   const tViewConsts = tView.consts;
   // TODO(pk): refactor getOrCreateTNode to have the "create" only version
-  const tNode = getOrCreateTNode(tView, index, 4 /* TNodeType.Container */, tagName || null, getConstant(tViewConsts, attrsIndex));
+  const tNode = getOrCreateTNode(tView, index, 4 /* TNodeType.Container */, tagName || null, attrs || null);
   resolveDirectives(tView, lView, tNode, getConstant(tViewConsts, localRefsIndex));
   registerPostOrderHooks(tView, tNode);
   const embeddedTView = tNode.tView = createTView(2 /* TViewType.Embedded */, tNode, templateFn, decls, vars, tView.directiveRegistry, tView.pipeRegistry, null, tView.schemas, tViewConsts, null /* ssrId */);
   if (tView.queries !== null) {
     tView.queries.template(tView, tNode);
     embeddedTView.queries = tView.queries.embeddedTView(tNode);
+  }
+  return tNode;
+}
+/**
+ * Creates an LContainer for an embedded view.
+ *
+ * @param declarationLView LView in which the template was declared.
+ * @param declarationTView TView in which the template wa declared.
+ * @param index The index of the container in the data array
+ * @param templateFn Inline template
+ * @param decls The number of nodes, local refs, and pipes for this template
+ * @param vars The number of bindings for this template
+ * @param tagName The name of the container element, if applicable
+ * @param attrsIndex Index of template attributes in the `consts` array.
+ * @param localRefs Index of the local references in the `consts` array.
+ * @param localRefExtractor A function which extracts local-refs values from the template.
+ *        Defaults to the current element associated with the local-ref.
+ */
+function declareTemplate(declarationLView, declarationTView, index, templateFn, decls, vars, tagName, attrs, localRefsIndex, localRefExtractor) {
+  const adjustedIndex = index + HEADER_OFFSET;
+  const tNode = declarationTView.firstCreatePass ? templateFirstCreatePass(adjustedIndex, declarationTView, declarationLView, templateFn, decls, vars, tagName, attrs, localRefsIndex) : declarationTView.data[adjustedIndex];
+  setCurrentTNode(tNode, false);
+  const comment = _locateOrCreateContainerAnchor(declarationTView, declarationLView, tNode, index);
+  if (wasLastNodeCreated()) {
+    appendChild(declarationTView, declarationLView, comment, tNode);
+  }
+  attachPatchData(comment, declarationLView);
+  const lContainer = createLContainer(comment, declarationLView, comment, tNode);
+  declarationLView[adjustedIndex] = lContainer;
+  addToViewTree(declarationLView, lContainer);
+  // If hydration is enabled, looks up dehydrated views in the DOM
+  // using hydration annotation info and stores those views on LContainer.
+  // In client-only mode, this function is a noop.
+  populateDehydratedViewsInLContainer(lContainer, tNode, declarationLView);
+  if (isDirectiveHost(tNode)) {
+    createDirectivesInstances(declarationTView, declarationLView, tNode);
+  }
+  if (localRefsIndex != null) {
+    saveResolvedLocalsInData(declarationLView, tNode, localRefExtractor);
   }
   return tNode;
 }
@@ -31844,27 +32875,8 @@ function templateFirstCreatePass(index, tView, lView, templateFn, decls, vars, t
 function ɵɵtemplate(index, templateFn, decls, vars, tagName, attrsIndex, localRefsIndex, localRefExtractor) {
   const lView = getLView();
   const tView = getTView();
-  const adjustedIndex = index + HEADER_OFFSET;
-  const tNode = tView.firstCreatePass ? templateFirstCreatePass(adjustedIndex, tView, lView, templateFn, decls, vars, tagName, attrsIndex, localRefsIndex) : tView.data[adjustedIndex];
-  setCurrentTNode(tNode, false);
-  const comment = _locateOrCreateContainerAnchor(tView, lView, tNode, index);
-  if (wasLastNodeCreated()) {
-    appendChild(tView, lView, comment, tNode);
-  }
-  attachPatchData(comment, lView);
-  const lContainer = createLContainer(comment, lView, comment, tNode);
-  lView[adjustedIndex] = lContainer;
-  addToViewTree(lView, lContainer);
-  // If hydration is enabled, looks up dehydrated views in the DOM
-  // using hydration annotation info and stores those views on LContainer.
-  // In client-only mode, this function is a noop.
-  populateDehydratedViewsInLContainer(lContainer, tNode, lView);
-  if (isDirectiveHost(tNode)) {
-    createDirectivesInstances(tView, lView, tNode);
-  }
-  if (localRefsIndex != null) {
-    saveResolvedLocalsInData(lView, tNode, localRefExtractor);
-  }
+  const attrs = getConstant(tView.consts, attrsIndex);
+  declareTemplate(lView, tView, index, templateFn, decls, vars, tagName, attrs, localRefsIndex, localRefExtractor);
   return ɵɵtemplate;
 }
 let _locateOrCreateContainerAnchor = createContainerAnchorImpl;
@@ -31942,7 +32954,6 @@ const LOADING_AFTER_SLOT = 1;
  * Describes the current state of this defer block instance.
  *
  * @publicApi
- * @developerPreview
  */
 var DeferBlockState;
 (function (DeferBlockState) {
@@ -31979,7 +32990,6 @@ const PREFETCH_TRIGGER_CLEANUP_FNS = 5;
 /**
  * Options for configuring defer blocks behavior.
  * @publicApi
- * @developerPreview
  */
 var DeferBlockBehavior;
 (function (DeferBlockBehavior) {
@@ -32766,7 +33776,7 @@ function ɵɵdefer(index, primaryTmplIndex, dependencyResolverFn, loadingTmplInd
   const lView = getLView();
   const tView = getTView();
   const adjustedIndex = index + HEADER_OFFSET;
-  ɵɵtemplate(index, null, 0, 0);
+  const tNode = declareTemplate(lView, tView, index, null, 0, 0);
   if (tView.firstCreatePass) {
     performanceMarkFeature('NgDefer');
     const tDetails = {
@@ -32784,7 +33794,6 @@ function ɵɵdefer(index, primaryTmplIndex, dependencyResolverFn, loadingTmplInd
     enableTimerScheduling?.(tView, tDetails, placeholderConfigIndex, loadingConfigIndex);
     setTDeferBlockDetails(tView, adjustedIndex, tDetails);
   }
-  const tNode = getCurrentTNode();
   const lContainer = lView[adjustedIndex];
   // If hydration is enabled, looks up dehydrated views in the DOM
   // using hydration annotation info and stores those views on LContainer.
@@ -32817,7 +33826,7 @@ function ɵɵdeferWhen(rawValue) {
   const lView = getLView();
   const bindingIndex = nextBindingIndex();
   if (bindingUpdated(lView, bindingIndex, rawValue)) {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       const value = Boolean(rawValue); // handle truthy or falsy values
       const tNode = getSelectedTNode();
@@ -32833,7 +33842,7 @@ function ɵɵdeferWhen(rawValue) {
         triggerDeferBlock(lView, tNode);
       }
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
 }
@@ -32845,7 +33854,7 @@ function ɵɵdeferPrefetchWhen(rawValue) {
   const lView = getLView();
   const bindingIndex = nextBindingIndex();
   if (bindingUpdated(lView, bindingIndex, rawValue)) {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       const value = Boolean(rawValue); // handle truthy or falsy values
       const tView = lView[TVIEW];
@@ -32856,7 +33865,7 @@ function ɵɵdeferPrefetchWhen(rawValue) {
         triggerPrefetching(tDetails, lView, tNode);
       }
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
   }
 }
@@ -33010,9 +34019,13 @@ function scheduleDelayedTrigger(scheduleFn) {
   const lView = getLView();
   const tNode = getCurrentTNode();
   renderPlaceholder(lView, tNode);
-  const cleanupFn = scheduleFn(() => triggerDeferBlock(lView, tNode), lView);
-  const lDetails = getLDeferBlockDetails(lView, tNode);
-  storeTriggerCleanupFn(0 /* TriggerType.Regular */, lDetails, cleanupFn);
+  // Only trigger the scheduled trigger on the browser
+  // since we don't want to delay the server response.
+  if (isPlatformBrowser(lView[INJECTOR])) {
+    const cleanupFn = scheduleFn(() => triggerDeferBlock(lView, tNode), lView);
+    const lDetails = getLDeferBlockDetails(lView, tNode);
+    storeTriggerCleanupFn(0 /* TriggerType.Regular */, lDetails, cleanupFn);
+  }
 }
 /**
  * Schedules prefetching for `on idle` and `on timer` triggers.
@@ -33021,14 +34034,18 @@ function scheduleDelayedTrigger(scheduleFn) {
  */
 function scheduleDelayedPrefetching(scheduleFn) {
   const lView = getLView();
-  const tNode = getCurrentTNode();
-  const tView = lView[TVIEW];
-  const tDetails = getTDeferBlockDetails(tView, tNode);
-  if (tDetails.loadingState === DeferDependenciesLoadingState.NOT_STARTED) {
-    const lDetails = getLDeferBlockDetails(lView, tNode);
-    const prefetch = () => triggerPrefetching(tDetails, lView, tNode);
-    const cleanupFn = scheduleFn(prefetch, lView);
-    storeTriggerCleanupFn(1 /* TriggerType.Prefetch */, lDetails, cleanupFn);
+  // Only trigger the scheduled trigger on the browser
+  // since we don't want to delay the server response.
+  if (isPlatformBrowser(lView[INJECTOR])) {
+    const tNode = getCurrentTNode();
+    const tView = lView[TVIEW];
+    const tDetails = getTDeferBlockDetails(tView, tNode);
+    if (tDetails.loadingState === DeferDependenciesLoadingState.NOT_STARTED) {
+      const lDetails = getLDeferBlockDetails(lView, tNode);
+      const prefetch = () => triggerPrefetching(tDetails, lView, tNode);
+      const cleanupFn = scheduleFn(prefetch, lView);
+      storeTriggerCleanupFn(1 /* TriggerType.Prefetch */, lDetails, cleanupFn);
+    }
   }
 }
 /**
@@ -33055,8 +34072,10 @@ function renderDeferBlockState(newState, tNode, lContainer, skipTimerScheduling 
   ngDevMode && assertDefined(lDetails, 'Expected a defer block state defined');
   const currentState = lDetails[DEFER_BLOCK_STATE];
   if (isValidStateChange(currentState, newState) && isValidStateChange(lDetails[NEXT_DEFER_BLOCK_STATE] ?? -1, newState)) {
+    const injector = hostLView[INJECTOR];
     const tDetails = getTDeferBlockDetails(hostTView, tNode);
-    const needsScheduling = !skipTimerScheduling && (getLoadingBlockAfter(tDetails) !== null || getMinimumDurationForState(tDetails, DeferBlockState.Loading) !== null || getMinimumDurationForState(tDetails, DeferBlockState.Placeholder));
+    // Skips scheduling on the server since it can delay the server response.
+    const needsScheduling = !skipTimerScheduling && isPlatformBrowser(injector) && (getLoadingBlockAfter(tDetails) !== null || getMinimumDurationForState(tDetails, DeferBlockState.Loading) !== null || getMinimumDurationForState(tDetails, DeferBlockState.Placeholder));
     if (ngDevMode && needsScheduling) {
       assertDefined(applyDeferBlockStateWithSchedulingImpl, 'Expected scheduling function to be defined');
     }
@@ -33073,7 +34092,20 @@ function renderDeferBlockState(newState, tNode, lContainer, skipTimerScheduling 
  * created based on the `OutletInjector`.
  */
 function isRouterOutletInjector(currentInjector) {
-  return currentInjector instanceof ChainedInjector && currentInjector.injector.__ngOutletInjector;
+  return currentInjector instanceof ChainedInjector && typeof currentInjector.injector.__ngOutletInjector === 'function';
+}
+/**
+ * Creates an instance of the `OutletInjector` using a private factory
+ * function available on the `OutletInjector` class.
+ *
+ * @param parentOutletInjector Parent OutletInjector, which should be used
+ *                             to produce a new instance.
+ * @param parentInjector An Injector, which should be used as a parent one
+ *                       for a newly created `OutletInjector` instance.
+ */
+function createRouterOutletInjector(parentOutletInjector, parentInjector) {
+  const outletInjector = parentOutletInjector.injector;
+  return outletInjector.__ngOutletInjector(parentInjector);
 }
 /**
  * Applies changes to the DOM to reflect a given state.
@@ -33106,8 +34138,17 @@ function applyDeferBlockState(newState, lDetails, lContainer, tNode, hostLView) 
         // we can't inject it. Once the `OutletInjector` is replaced
         // with the `EnvironmentInjector` in Router's code, this special
         // handling can be removed.
-        const parentEnvInjector = isRouterOutletInjector(parentInjector) ? parentInjector : parentInjector.get(EnvironmentInjector);
+        const isParentOutletInjector = isRouterOutletInjector(parentInjector);
+        const parentEnvInjector = isParentOutletInjector ? parentInjector : parentInjector.get(EnvironmentInjector);
         injector = parentEnvInjector.get(CachedInjectorService).getOrCreateInjector(tDetails, parentEnvInjector, providers, ngDevMode ? 'DeferBlock Injector' : '');
+        // Note: this is a continuation of the special case for Router's `OutletInjector`.
+        // Since the `OutletInjector` handles `ActivatedRoute` and `ChildrenOutletContexts`
+        // dynamically (i.e. their values are not really stored statically in an injector),
+        // we need to "wrap" a defer injector into another `OutletInjector`, so we retain
+        // the dynamic resolution of the mentioned tokens.
+        if (isParentOutletInjector) {
+          injector = createRouterOutletInjector(parentInjector, injector);
+        }
       }
     }
     const dehydratedView = findMatchingDehydratedView(lContainer, activeBlockTNode.tView.ssrId);
@@ -33116,7 +34157,7 @@ function applyDeferBlockState(newState, lDetails, lContainer, tNode, hostLView) 
       injector
     });
     addLViewToLContainer(lContainer, embeddedLView, viewIndex, shouldAddViewToDom(activeBlockTNode, dehydratedView));
-    markViewDirty(embeddedLView);
+    markViewDirty(embeddedLView, 2 /* NotificationSource.DeferBlockStateUpdate */);
   }
 }
 /**
@@ -33212,7 +34253,7 @@ function triggerResourceLoading(tDetails, lView, tNode) {
     // If the loading status is different from initial one, it means that
     // the loading of dependencies is in progress and there is nothing to do
     // in this function. All details can be obtained from the `tDetails` object.
-    return;
+    return tDetails.loadingPromise ?? Promise.resolve();
   }
   const lDetails = getLDeferBlockDetails(lView, tNode);
   const primaryBlockTNode = getPrimaryBlockTNode(tView, tDetails);
@@ -33242,7 +34283,7 @@ function triggerResourceLoading(tDetails, lView, tNode) {
       tDetails.loadingState = DeferDependenciesLoadingState.COMPLETE;
       pendingTasks.remove(taskId);
     });
-    return;
+    return tDetails.loadingPromise;
   }
   // Start downloading of defer block dependencies.
   tDetails.loadingPromise = Promise.allSettled(dependenciesFn()).then(results => {
@@ -33294,6 +34335,7 @@ function triggerResourceLoading(tDetails, lView, tNode) {
       }
     }
   });
+  return tDetails.loadingPromise;
 }
 /** Utility function to render placeholder content (if present) */
 function renderPlaceholder(lView, tNode) {
@@ -34289,7 +35331,7 @@ function markDuplicates(tData, tStylingKey, index, isPrevDir) {
  * @param tStylingKey
  */
 function isStylingMatch(tStylingKeyCursor, tStylingKey) {
-  ngDevMode && assertNotEqual(Array.isArray(tStylingKey), true, 'Expected that \'tStylingKey\' has been unwrapped');
+  ngDevMode && assertNotEqual(Array.isArray(tStylingKey), true, "Expected that 'tStylingKey' has been unwrapped");
   if (tStylingKeyCursor === null ||
   // If the cursor is `null` it means that we have map at that
   // location so we must assume that we have a match.
@@ -34756,7 +35798,7 @@ function checkStylingMap(keyValueArraySet, stringParser, value, isClassBased) {
         // verify that if we are shadowing then `TData` is appropriately marked so that we skip
         // processing this binding in styling resolution.
         const tStylingKey = tView.data[bindingIndex];
-        assertEqual(Array.isArray(tStylingKey) ? tStylingKey[1] : tStylingKey, false, 'Styling linked list shadow input should be marked as \'false\'');
+        assertEqual(Array.isArray(tStylingKey) ? tStylingKey[1] : tStylingKey, false, "Styling linked list shadow input should be marked as 'false'");
       }
       // VE does not concatenate the static portion like we are doing here.
       // Instead VE just ignores the static completely if dynamic binding is present.
@@ -34766,7 +35808,7 @@ function checkStylingMap(keyValueArraySet, stringParser, value, isClassBased) {
       // thing as it would think that the static portion was removed. For this reason we
       // concatenate it so that `[ngStyle]`/`[ngClass]`  can continue to work on changed.
       let staticPrefix = isClassBased ? tNode.classesWithoutHost : tNode.stylesWithoutHost;
-      ngDevMode && isClassBased === false && staticPrefix !== null && assertEqual(staticPrefix.endsWith(';'), true, 'Expecting static portion to end with \';\'');
+      ngDevMode && isClassBased === false && staticPrefix !== null && assertEqual(staticPrefix.endsWith(';'), true, "Expecting static portion to end with ';'");
       if (staticPrefix !== null) {
         // We want to make sure that falsy values of `value` become empty strings.
         value = concatStringsWithSpace(staticPrefix, value ? value : '');
@@ -35723,6 +36765,14 @@ function valuesMatching(liveIdx, liveValue, newIdx, newValue, trackBy) {
   }
   return 0;
 }
+function recordDuplicateKeys(keyToIdx, key, idx) {
+  const idxSoFar = keyToIdx.get(key);
+  if (idxSoFar !== undefined) {
+    idxSoFar.add(idx);
+  } else {
+    keyToIdx.set(key, new Set([idx]));
+  }
+}
 /**
  * The live collection reconciliation algorithm that perform various in-place operations, so it
  * reflects the content of the new (incoming) collection.
@@ -35751,12 +36801,16 @@ function reconcile(liveCollection, newCollection, trackByFn) {
   let liveKeysInTheFuture = undefined;
   let liveStartIdx = 0;
   let liveEndIdx = liveCollection.length - 1;
+  const duplicateKeys = ngDevMode ? new Map() : undefined;
   if (Array.isArray(newCollection)) {
     let newEndIdx = newCollection.length - 1;
     while (liveStartIdx <= liveEndIdx && liveStartIdx <= newEndIdx) {
       // compare from the beginning
       const liveStartValue = liveCollection.at(liveStartIdx);
       const newStartValue = newCollection[liveStartIdx];
+      if (ngDevMode) {
+        recordDuplicateKeys(duplicateKeys, trackByFn(liveStartIdx, newStartValue), liveStartIdx);
+      }
       const isStartMatching = valuesMatching(liveStartIdx, liveStartValue, liveStartIdx, newStartValue, trackByFn);
       if (isStartMatching !== 0) {
         if (isStartMatching < 0) {
@@ -35769,6 +36823,9 @@ function reconcile(liveCollection, newCollection, trackByFn) {
       // TODO(perf): do _all_ the matching from the end
       const liveEndValue = liveCollection.at(liveEndIdx);
       const newEndValue = newCollection[newEndIdx];
+      if (ngDevMode) {
+        recordDuplicateKeys(duplicateKeys, trackByFn(newEndIdx, newEndValue), newEndIdx);
+      }
       const isEndMatching = valuesMatching(liveEndIdx, liveEndValue, newEndIdx, newEndValue, trackByFn);
       if (isEndMatching !== 0) {
         if (isEndMatching < 0) {
@@ -35835,6 +36892,9 @@ function reconcile(liveCollection, newCollection, trackByFn) {
     while (!newIterationResult.done && liveStartIdx <= liveEndIdx) {
       const liveValue = liveCollection.at(liveStartIdx);
       const newValue = newIterationResult.value;
+      if (ngDevMode) {
+        recordDuplicateKeys(duplicateKeys, trackByFn(liveStartIdx, newValue), liveStartIdx);
+      }
       const isStartMatching = valuesMatching(liveStartIdx, liveValue, liveStartIdx, newValue, trackByFn);
       if (isStartMatching !== 0) {
         // found a match - move on, but update value
@@ -35882,6 +36942,23 @@ function reconcile(liveCollection, newCollection, trackByFn) {
   detachedItems?.forEach(item => {
     liveCollection.destroy(item);
   });
+  // report duplicate keys (dev mode only)
+  if (ngDevMode) {
+    let duplicatedKeysMsg = [];
+    for (const [key, idxSet] of duplicateKeys) {
+      if (idxSet.size > 1) {
+        const idx = [...idxSet].sort((a, b) => a - b);
+        for (let i = 1; i < idx.length; i++) {
+          duplicatedKeysMsg.push(`key "${stringifyForError(key)}" at index "${idx[i - 1]}" and "${idx[i]}"`);
+        }
+      }
+    }
+    if (duplicatedKeysMsg.length > 0) {
+      const message = formatRuntimeError(-955 /* RuntimeErrorCode.LOOP_TRACK_DUPLICATE_KEYS */, 'The provided track expression resulted in duplicated keys for a given collection. ' + 'Adjust the tracking expression such that it uniquely identifies all the items in the collection. ' + 'Duplicated keys were: \n' + duplicatedKeysMsg.join(', \n') + '.');
+      // tslint:disable-next-line:no-console
+      console.warn(message);
+    }
+  }
 }
 function attachPreviouslyDetached(prevCollection, detachedItems, index, key) {
   if (detachedItems !== undefined && detachedItems.has(key)) {
@@ -35979,43 +37056,47 @@ class UniqueValueMultiKeyMap {
  * built-in "if" and "switch". On the high level this instruction is responsible for adding and
  * removing views selected by a conditional expression.
  *
- * @param containerIndex index of a container in a host view (indexed from HEADER_OFFSET) where
- *     conditional views should be inserted.
- * @param matchingTemplateIndex index of a template TNode representing a conditional view to be
+ * @param matchingTemplateIndex Index of a template TNode representing a conditional view to be
  *     inserted; -1 represents a special case when there is no view to insert.
+ * @param contextValue Value that should be exposed as the context of the conditional.
  * @codeGenApi
  */
-function ɵɵconditional(containerIndex, matchingTemplateIndex, value) {
+function ɵɵconditional(matchingTemplateIndex, contextValue) {
   performanceMarkFeature('NgControlFlow');
   const hostLView = getLView();
   const bindingIndex = nextBindingIndex();
-  const lContainer = getLContainer(hostLView, HEADER_OFFSET + containerIndex);
+  const prevMatchingTemplateIndex = hostLView[bindingIndex] !== NO_CHANGE ? hostLView[bindingIndex] : -1;
+  const prevContainer = prevMatchingTemplateIndex !== -1 ? getLContainer(hostLView, HEADER_OFFSET + prevMatchingTemplateIndex) : undefined;
   const viewInContainerIdx = 0;
   if (bindingUpdated(hostLView, bindingIndex, matchingTemplateIndex)) {
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       // The index of the view to show changed - remove the previously displayed one
       // (it is a noop if there are no active views in a container).
-      removeLViewFromLContainer(lContainer, viewInContainerIdx);
+      if (prevContainer !== undefined) {
+        removeLViewFromLContainer(prevContainer, viewInContainerIdx);
+      }
       // Index -1 is a special case where none of the conditions evaluates to
       // a truthy value and as the consequence we've got no view to show.
       if (matchingTemplateIndex !== -1) {
-        const templateTNode = getExistingTNode(hostLView[TVIEW], HEADER_OFFSET + matchingTemplateIndex);
-        const dehydratedView = findMatchingDehydratedView(lContainer, templateTNode.tView.ssrId);
-        const embeddedLView = createAndRenderEmbeddedLView(hostLView, templateTNode, value, {
+        const nextLContainerIndex = HEADER_OFFSET + matchingTemplateIndex;
+        const nextContainer = getLContainer(hostLView, nextLContainerIndex);
+        const templateTNode = getExistingTNode(hostLView[TVIEW], nextLContainerIndex);
+        const dehydratedView = findMatchingDehydratedView(nextContainer, templateTNode.tView.ssrId);
+        const embeddedLView = createAndRenderEmbeddedLView(hostLView, templateTNode, contextValue, {
           dehydratedView
         });
-        addLViewToLContainer(lContainer, embeddedLView, viewInContainerIdx, shouldAddViewToDom(templateTNode, dehydratedView));
+        addLViewToLContainer(nextContainer, embeddedLView, viewInContainerIdx, shouldAddViewToDom(templateTNode, dehydratedView));
       }
     } finally {
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
     }
-  } else {
+  } else if (prevContainer !== undefined) {
     // We might keep displaying the same template but the actual value of the expression could have
     // changed - re-bind in context.
-    const lView = getLViewFromLContainer(lContainer, viewInContainerIdx);
+    const lView = getLViewFromLContainer(prevContainer, viewInContainerIdx);
     if (lView !== undefined) {
-      lView[CONTEXT] = value;
+      lView[CONTEXT] = contextValue;
     }
   }
 }
@@ -36086,6 +37167,8 @@ class RepeaterMetadata {
 function ɵɵrepeaterCreate(index, templateFn, decls, vars, tagName, attrsIndex, trackByFn, trackByUsesComponentInstance, emptyTemplateFn, emptyDecls, emptyVars, emptyTagName, emptyAttrsIndex) {
   performanceMarkFeature('NgControlFlow');
   ngDevMode && assertFunction(trackByFn, `A track expression must be a function, was ${typeof trackByFn} instead.`);
+  const lView = getLView();
+  const tView = getTView();
   const hasEmptyBlock = emptyTemplateFn !== undefined;
   const hostLView = getLView();
   const boundTrackBy = trackByUsesComponentInstance ?
@@ -36094,11 +37177,41 @@ function ɵɵrepeaterCreate(index, templateFn, decls, vars, tagName, attrsIndex,
   trackByFn.bind(hostLView[DECLARATION_COMPONENT_VIEW][CONTEXT]) : trackByFn;
   const metadata = new RepeaterMetadata(hasEmptyBlock, boundTrackBy);
   hostLView[HEADER_OFFSET + index] = metadata;
-  ɵɵtemplate(index + 1, templateFn, decls, vars, tagName, attrsIndex);
+  declareTemplate(lView, tView, index + 1, templateFn, decls, vars, tagName, getConstant(tView.consts, attrsIndex));
   if (hasEmptyBlock) {
     ngDevMode && assertDefined(emptyDecls, 'Missing number of declarations for the empty repeater block.');
     ngDevMode && assertDefined(emptyVars, 'Missing number of bindings for the empty repeater block.');
-    ɵɵtemplate(index + 2, emptyTemplateFn, emptyDecls, emptyVars, emptyTagName, emptyAttrsIndex);
+    declareTemplate(lView, tView, index + 2, emptyTemplateFn, emptyDecls, emptyVars, emptyTagName, getConstant(tView.consts, emptyAttrsIndex));
+  }
+}
+function isViewExpensiveToRecreate(lView) {
+  // assumption: anything more than a text node with a binding is considered "expensive"
+  return lView.length - HEADER_OFFSET > 2;
+}
+class OperationsCounter {
+  constructor() {
+    this.created = 0;
+    this.destroyed = 0;
+  }
+  reset() {
+    this.created = 0;
+    this.destroyed = 0;
+  }
+  recordCreate() {
+    this.created++;
+  }
+  recordDestroy() {
+    this.destroyed++;
+  }
+  /**
+   * A method indicating if the entire collection was re-created as part of the reconciliation pass.
+   * Used to warn developers about the usage of a tracking function that might result in excessive
+   * amount of view creation / destroy operations.
+   *
+   * @returns boolean value indicating if a live collection was re-created
+   */
+  wasReCreated(collectionLen) {
+    return collectionLen > 0 && this.created === this.destroyed && this.created === collectionLen;
   }
 }
 class LiveCollectionLContainerImpl extends LiveCollection {
@@ -36107,6 +37220,7 @@ class LiveCollectionLContainerImpl extends LiveCollection {
     this.lContainer = lContainer;
     this.hostLView = hostLView;
     this.templateTNode = templateTNode;
+    this.operationsCounter = ngDevMode ? new OperationsCounter() : undefined;
     /**
      Property indicating if indexes in the repeater context need to be updated following the live
      collection changes. Index updates are necessary if and only if views are inserted / removed in
@@ -36134,16 +37248,19 @@ class LiveCollectionLContainerImpl extends LiveCollection {
     const embeddedLView = createAndRenderEmbeddedLView(this.hostLView, this.templateTNode, new RepeaterContext(this.lContainer, value, index), {
       dehydratedView
     });
+    this.operationsCounter?.recordCreate();
     return embeddedLView;
   }
   destroy(lView) {
     destroyLView(lView[TVIEW], lView);
+    this.operationsCounter?.recordDestroy();
   }
   updateValue(index, value) {
     this.getLView(index)[CONTEXT].$implicit = value;
   }
   reset() {
     this.needsIndexUpdate = false;
+    this.operationsCounter?.reset();
   }
   updateIndexes() {
     if (this.needsIndexUpdate) {
@@ -36164,15 +37281,15 @@ class LiveCollectionLContainerImpl extends LiveCollection {
  * @codeGenApi
  */
 function ɵɵrepeater(collection) {
-  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
   const metadataSlotIdx = getSelectedIndex();
   try {
     const hostLView = getLView();
     const hostTView = hostLView[TVIEW];
     const metadata = hostLView[metadataSlotIdx];
+    const containerIndex = metadataSlotIdx + 1;
+    const lContainer = getLContainer(hostLView, containerIndex);
     if (metadata.liveCollection === undefined) {
-      const containerIndex = metadataSlotIdx + 1;
-      const lContainer = getLContainer(hostLView, containerIndex);
       const itemTemplateTNode = getExistingTNode(hostTView, containerIndex);
       metadata.liveCollection = new LiveCollectionLContainerImpl(lContainer, hostLView, itemTemplateTNode);
     } else {
@@ -36180,6 +37297,14 @@ function ɵɵrepeater(collection) {
     }
     const liveCollection = metadata.liveCollection;
     reconcile(liveCollection, collection, metadata.trackByFn);
+    // Warn developers about situations where the entire collection was re-created as part of the
+    // reconciliation pass. Note that this warning might be "overreacting" and report cases where
+    // the collection re-creation is the intended behavior. Still, the assumption is that most of
+    // the time it is undesired.
+    if (ngDevMode && metadata.trackByFn === ɵɵrepeaterTrackByIdentity && liveCollection.operationsCounter?.wasReCreated(liveCollection.length) && isViewExpensiveToRecreate(getExistingLViewFromLContainer(lContainer, 0))) {
+      const message = formatRuntimeError(-956 /* RuntimeErrorCode.LOOP_TRACK_RECREATE */, `The configured tracking expression (track by identity) caused re-creation of the entire collection of size ${liveCollection.length}. ` + 'This is an expensive operation requiring destruction and subsequent creation of DOM nodes, directives, components etc. ' + 'Please review the "track expression" and make sure that it uniquely identifies items in a collection.');
+      console.warn(message);
+    }
     // moves in the container might caused context's index to get out of order, re-adjust if needed
     liveCollection.updateIndexes();
     // handle empty blocks
@@ -36202,7 +37327,7 @@ function ɵɵrepeater(collection) {
       }
     }
   } finally {
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
   }
 }
 function getLContainer(lView, index) {
@@ -36639,7 +37764,7 @@ var localeEn = ["en", [["a", "p"], ["AM", "PM"], u], [["AM", "PM"], u, u], [["S"
 let LOCALE_DATA = {};
 /**
  * Register locale data to be used internally by Angular. See the
- * ["I18n guide"](guide/i18n-common-format-data-locale) to know how to import additional locale
+ * ["I18n guide"](guide/i18n/format-data-locale) to know how to import additional locale
  * data.
  *
  * The signature `registerLocaleData(data: any, extraData?: any)` is deprecated since v5.1
@@ -36660,7 +37785,7 @@ function registerLocaleData(data, localeId, extraData) {
  *
  * @param locale The locale code.
  * @returns The locale data.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
  */
 function findLocaleData(locale) {
   const normalizedLocale = normalizeLocale(locale);
@@ -36698,7 +37823,7 @@ function getLocaleCurrencyCode(locale) {
  * @param locale A locale code for the locale format rules to use.
  * @returns The plural function for the locale.
  * @see {@link NgPlural}
- * @see [Internationalization (i18n) Guide](/guide/i18n-overview)
+ * @see [Internationalization (i18n) Guide](guide/i18n)
  */
 function getLocalePluralCase(locale) {
   const data = findLocaleData(locale);
@@ -36838,231 +37963,6 @@ function getLocaleId() {
 }
 
 /**
- * Find a node in front of which `currentTNode` should be inserted (takes i18n into account).
- *
- * This method determines the `RNode` in front of which we should insert the `currentRNode`. This
- * takes `TNode.insertBeforeIndex` into account.
- *
- * @param parentTNode parent `TNode`
- * @param currentTNode current `TNode` (The node which we would like to insert into the DOM)
- * @param lView current `LView`
- */
-function getInsertInFrontOfRNodeWithI18n(parentTNode, currentTNode, lView) {
-  const tNodeInsertBeforeIndex = currentTNode.insertBeforeIndex;
-  const insertBeforeIndex = Array.isArray(tNodeInsertBeforeIndex) ? tNodeInsertBeforeIndex[0] : tNodeInsertBeforeIndex;
-  if (insertBeforeIndex === null) {
-    return getInsertInFrontOfRNodeWithNoI18n(parentTNode, currentTNode, lView);
-  } else {
-    ngDevMode && assertIndexInRange(lView, insertBeforeIndex);
-    return unwrapRNode(lView[insertBeforeIndex]);
-  }
-}
-/**
- * Process `TNode.insertBeforeIndex` by adding i18n text nodes.
- *
- * See `TNode.insertBeforeIndex`
- */
-function processI18nInsertBefore(renderer, childTNode, lView, childRNode, parentRElement) {
-  const tNodeInsertBeforeIndex = childTNode.insertBeforeIndex;
-  if (Array.isArray(tNodeInsertBeforeIndex)) {
-    // An array indicates that there are i18n nodes that need to be added as children of this
-    // `childRNode`. These i18n nodes were created before this `childRNode` was available and so
-    // only now can be added. The first element of the array is the normal index where we should
-    // insert the `childRNode`. Additional elements are the extra nodes to be added as children of
-    // `childRNode`.
-    ngDevMode && assertDomNode(childRNode);
-    let i18nParent = childRNode;
-    let anchorRNode = null;
-    if (!(childTNode.type & 3 /* TNodeType.AnyRNode */)) {
-      anchorRNode = i18nParent;
-      i18nParent = parentRElement;
-    }
-    if (i18nParent !== null && childTNode.componentOffset === -1) {
-      for (let i = 1; i < tNodeInsertBeforeIndex.length; i++) {
-        // No need to `unwrapRNode` because all of the indexes point to i18n text nodes.
-        // see `assertDomNode` below.
-        const i18nChild = lView[tNodeInsertBeforeIndex[i]];
-        nativeInsertBefore(renderer, i18nParent, i18nChild, anchorRNode, false);
-      }
-    }
-  }
-}
-
-/**
- * Add `tNode` to `previousTNodes` list and update relevant `TNode`s in `previousTNodes` list
- * `tNode.insertBeforeIndex`.
- *
- * Things to keep in mind:
- * 1. All i18n text nodes are encoded as `TNodeType.Element` and are created eagerly by the
- *    `ɵɵi18nStart` instruction.
- * 2. All `TNodeType.Placeholder` `TNodes` are elements which will be created later by
- *    `ɵɵelementStart` instruction.
- * 3. `ɵɵelementStart` instruction will create `TNode`s in the ascending `TNode.index` order. (So a
- *    smaller index `TNode` is guaranteed to be created before a larger one)
- *
- * We use the above three invariants to determine `TNode.insertBeforeIndex`.
- *
- * In an ideal world `TNode.insertBeforeIndex` would always be `TNode.next.index`. However,
- * this will not work because `TNode.next.index` may be larger than `TNode.index` which means that
- * the next node is not yet created and therefore we can't insert in front of it.
- *
- * Rule1: `TNode.insertBeforeIndex = null` if `TNode.next === null` (Initial condition, as we don't
- *        know if there will be further `TNode`s inserted after.)
- * Rule2: If `previousTNode` is created after the `tNode` being inserted, then
- *        `previousTNode.insertBeforeNode = tNode.index` (So when a new `tNode` is added we check
- *        previous to see if we can update its `insertBeforeTNode`)
- *
- * See `TNode.insertBeforeIndex` for more context.
- *
- * @param previousTNodes A list of previous TNodes so that we can easily traverse `TNode`s in
- *     reverse order. (If `TNode` would have `previous` this would not be necessary.)
- * @param newTNode A TNode to add to the `previousTNodes` list.
- */
-function addTNodeAndUpdateInsertBeforeIndex(previousTNodes, newTNode) {
-  // Start with Rule1
-  ngDevMode && assertEqual(newTNode.insertBeforeIndex, null, 'We expect that insertBeforeIndex is not set');
-  previousTNodes.push(newTNode);
-  if (previousTNodes.length > 1) {
-    for (let i = previousTNodes.length - 2; i >= 0; i--) {
-      const existingTNode = previousTNodes[i];
-      // Text nodes are created eagerly and so they don't need their `indexBeforeIndex` updated.
-      // It is safe to ignore them.
-      if (!isI18nText(existingTNode)) {
-        if (isNewTNodeCreatedBefore(existingTNode, newTNode) && getInsertBeforeIndex(existingTNode) === null) {
-          // If it was created before us in time, (and it does not yet have `insertBeforeIndex`)
-          // then add the `insertBeforeIndex`.
-          setInsertBeforeIndex(existingTNode, newTNode.index);
-        }
-      }
-    }
-  }
-}
-function isI18nText(tNode) {
-  return !(tNode.type & 64 /* TNodeType.Placeholder */);
-}
-function isNewTNodeCreatedBefore(existingTNode, newTNode) {
-  return isI18nText(newTNode) || existingTNode.index > newTNode.index;
-}
-function getInsertBeforeIndex(tNode) {
-  const index = tNode.insertBeforeIndex;
-  return Array.isArray(index) ? index[0] : index;
-}
-function setInsertBeforeIndex(tNode, value) {
-  const index = tNode.insertBeforeIndex;
-  if (Array.isArray(index)) {
-    // Array is stored if we have to insert child nodes. See `TNode.insertBeforeIndex`
-    index[0] = value;
-  } else {
-    setI18nHandling(getInsertInFrontOfRNodeWithI18n, processI18nInsertBefore);
-    tNode.insertBeforeIndex = value;
-  }
-}
-
-/**
- * Retrieve `TIcu` at a given `index`.
- *
- * The `TIcu` can be stored either directly (if it is nested ICU) OR
- * it is stored inside tho `TIcuContainer` if it is top level ICU.
- *
- * The reason for this is that the top level ICU need a `TNode` so that they are part of the render
- * tree, but nested ICU's have no TNode, because we don't know ahead of time if the nested ICU is
- * expressed (parent ICU may have selected a case which does not contain it.)
- *
- * @param tView Current `TView`.
- * @param index Index where the value should be read from.
- */
-function getTIcu(tView, index) {
-  const value = tView.data[index];
-  if (value === null || typeof value === 'string') return null;
-  if (ngDevMode && !(value.hasOwnProperty('tView') || value.hasOwnProperty('currentCaseLViewIndex'))) {
-    throwError('We expect to get \'null\'|\'TIcu\'|\'TIcuContainer\', but got: ' + value);
-  }
-  // Here the `value.hasOwnProperty('currentCaseLViewIndex')` is a polymorphic read as it can be
-  // either TIcu or TIcuContainerNode. This is not ideal, but we still think it is OK because it
-  // will be just two cases which fits into the browser inline cache (inline cache can take up to
-  // 4)
-  const tIcu = value.hasOwnProperty('currentCaseLViewIndex') ? value : value.value;
-  ngDevMode && assertTIcu(tIcu);
-  return tIcu;
-}
-/**
- * Store `TIcu` at a give `index`.
- *
- * The `TIcu` can be stored either directly (if it is nested ICU) OR
- * it is stored inside tho `TIcuContainer` if it is top level ICU.
- *
- * The reason for this is that the top level ICU need a `TNode` so that they are part of the render
- * tree, but nested ICU's have no TNode, because we don't know ahead of time if the nested ICU is
- * expressed (parent ICU may have selected a case which does not contain it.)
- *
- * @param tView Current `TView`.
- * @param index Index where the value should be stored at in `Tview.data`
- * @param tIcu The TIcu to store.
- */
-function setTIcu(tView, index, tIcu) {
-  const tNode = tView.data[index];
-  ngDevMode && assertEqual(tNode === null || tNode.hasOwnProperty('tView'), true, 'We expect to get \'null\'|\'TIcuContainer\'');
-  if (tNode === null) {
-    tView.data[index] = tIcu;
-  } else {
-    ngDevMode && assertTNodeType(tNode, 32 /* TNodeType.Icu */);
-    tNode.value = tIcu;
-  }
-}
-/**
- * Set `TNode.insertBeforeIndex` taking the `Array` into account.
- *
- * See `TNode.insertBeforeIndex`
- */
-function setTNodeInsertBeforeIndex(tNode, index) {
-  ngDevMode && assertTNode(tNode);
-  let insertBeforeIndex = tNode.insertBeforeIndex;
-  if (insertBeforeIndex === null) {
-    setI18nHandling(getInsertInFrontOfRNodeWithI18n, processI18nInsertBefore);
-    insertBeforeIndex = tNode.insertBeforeIndex = [null /* may be updated to number later */, index];
-  } else {
-    assertEqual(Array.isArray(insertBeforeIndex), true, 'Expecting array here');
-    insertBeforeIndex.push(index);
-  }
-}
-/**
- * Create `TNode.type=TNodeType.Placeholder` node.
- *
- * See `TNodeType.Placeholder` for more information.
- */
-function createTNodePlaceholder(tView, previousTNodes, index) {
-  const tNode = createTNodeAtIndex(tView, index, 64 /* TNodeType.Placeholder */, null, null);
-  addTNodeAndUpdateInsertBeforeIndex(previousTNodes, tNode);
-  return tNode;
-}
-/**
- * Returns current ICU case.
- *
- * ICU cases are stored as index into the `TIcu.cases`.
- * At times it is necessary to communicate that the ICU case just switched and that next ICU update
- * should update all bindings regardless of the mask. In such a case the we store negative numbers
- * for cases which have just been switched. This function removes the negative flag.
- */
-function getCurrentICUCaseIndex(tIcu, lView) {
-  const currentCase = lView[tIcu.currentCaseLViewIndex];
-  return currentCase === null ? currentCase : currentCase < 0 ? ~currentCase : currentCase;
-}
-function getParentFromIcuCreateOpCode(mergedCode) {
-  return mergedCode >>> 17 /* IcuCreateOpCode.SHIFT_PARENT */;
-}
-function getRefFromIcuCreateOpCode(mergedCode) {
-  return (mergedCode & 131070 /* IcuCreateOpCode.MASK_REF */) >>> 1 /* IcuCreateOpCode.SHIFT_REF */;
-}
-function getInstructionFromIcuCreateOpCode(mergedCode) {
-  return mergedCode & 1 /* IcuCreateOpCode.MASK_INSTRUCTION */;
-}
-function icuCreateOpCode(opCode, parentIdx, refIdx) {
-  ngDevMode && assertGreaterThanOrEqual(parentIdx, 0, 'Missing parent index');
-  ngDevMode && assertGreaterThan(refIdx, 0, 'Missing ref index');
-  return opCode | parentIdx << 17 /* IcuCreateOpCode.SHIFT_PARENT */ | refIdx << 1 /* IcuCreateOpCode.SHIFT_REF */;
-}
-
-/**
  * Keep track of which input bindings in `ɵɵi18nExp` have changed.
  *
  * This is used to efficiently update expressions in i18n only when the corresponding input has
@@ -37124,9 +38024,25 @@ let _locateOrCreateNode = (lView, index, textOrName, nodeType) => {
   return createNodeWithoutHydration(lView, textOrName, nodeType);
 };
 function locateOrCreateNodeImpl(lView, index, textOrName, nodeType) {
-  // TODO: Add support for hydration
-  lastNodeWasCreated(true);
-  return createNodeWithoutHydration(lView, textOrName, nodeType);
+  const hydrationInfo = lView[HYDRATION];
+  const noOffsetIndex = index - HEADER_OFFSET;
+  const isNodeCreationMode = !isI18nHydrationSupportEnabled() || !hydrationInfo || isInSkipHydrationBlock$1() || isDisconnectedNode$1(hydrationInfo, noOffsetIndex);
+  lastNodeWasCreated(isNodeCreationMode);
+  if (isNodeCreationMode) {
+    return createNodeWithoutHydration(lView, textOrName, nodeType);
+  }
+  const native = locateI18nRNodeByIndex(hydrationInfo, noOffsetIndex);
+  // TODO: Improve error handling
+  //
+  // Other hydration paths use validateMatchingNode() in order to provide
+  // detailed information in development mode about the expected DOM.
+  // However, not every node in an i18n block has a TNode. Instead, we
+  // need to be able to use the AST to generate a similar message.
+  ngDevMode && assertDefined(native, 'expected native element');
+  ngDevMode && assertEqual(native.nodeType, nodeType, 'expected matching nodeType');
+  ngDevMode && nodeType === Node.ELEMENT_NODE && assertEqual(native.tagName.toLowerCase(), textOrName.toLowerCase(), 'expecting matching tagName');
+  ngDevMode && markRNodeAsClaimedByHydration(native);
+  return native;
 }
 function enableLocateOrCreateI18nNodeImpl() {
   _locateOrCreateNode = locateOrCreateNodeImpl;
@@ -37405,6 +38321,7 @@ function applyIcuSwitchCase(tView, tIcu, lView, value) {
         ngDevMode && assertDomNode(anchorRNode);
         applyMutableOpCodes(tView, tIcu.create[caseIndex], lView, anchorRNode);
       }
+      claimDehydratedIcuCase(lView, tIcu.anchorIdx, caseIndex);
     }
   }
 }
@@ -38038,9 +38955,6 @@ function countBindings(opCodes) {
 function toMaskBit(bindingIndex) {
   return 1 << Math.min(bindingIndex, 31);
 }
-function isRootTemplateMessage(subTemplateIndex) {
-  return subTemplateIndex === -1;
-}
 /**
  * Removes everything inside the sub-templates of a message.
  */
@@ -38528,6 +39442,7 @@ function ɵɵi18nStart(index, messageIndex, subTemplateIndex = -1) {
   // If `parentTNode` is an `ElementContainer` than it has `<!--ng-container--->`.
   // When we do inserts we have to make sure to insert in front of `<!--ng-container--->`.
   const insertInFrontOf = parentTNode && parentTNode.type & 8 /* TNodeType.ElementContainer */ ? lView[parentTNode.index] : null;
+  prepareI18nBlockForHydration(lView, adjustedIndex, parentTNode, subTemplateIndex);
   applyCreateOpCodes(lView, tI18n.create, parentRNode, insertInFrontOf);
   setInI18nBlock(true);
 }
@@ -38635,6 +39550,16 @@ function ɵɵi18nPostprocess(message, replacements = {}) {
 }
 
 /**
+ * Contains a reference to a function that disables event replay feature
+ * for server-side rendered applications. This function is overridden with
+ * an actual implementation when the event replay feature is enabled via
+ * `withEventReplay()` call.
+ */
+let disableEventReplayFn = (el, eventName, listenerFn) => {};
+function setDisableEventReplayImpl(fn) {
+  disableEventReplayFn = fn;
+}
+/**
  * Adds an event listener to the current node.
  *
  * If an output exists on one of the node's directives, it also subscribes to the output
@@ -38736,6 +39661,7 @@ function listenerInternal(tView, lView, renderer, tNode, eventName, listenerFn, 
     const target = eventTargetResolver ? eventTargetResolver(native) : native;
     const lCleanupIndex = lCleanup.length;
     const idxOrTargetGetter = eventTargetResolver ? _lView => eventTargetResolver(unwrapRNode(_lView[tNode.index])) : tNode.index;
+    disableEventReplayFn(native, eventName, listenerFn);
     // In order to match current behavior, native DOM event listeners must be added for all
     // events (including outputs).
     // There might be cases where multiple directives on the same element try to register an event
@@ -38803,7 +39729,7 @@ function listenerInternal(tView, lView, renderer, tNode, eventName, listenerFn, 
   }
 }
 function executeListenerWithErrorHandling(lView, context, listenerFn, e) {
-  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
   try {
     profiler(6 /* ProfilerEvent.OutputStart */, context, listenerFn);
     // Only explicitly returning false from a listener should preventDefault
@@ -38813,7 +39739,7 @@ function executeListenerWithErrorHandling(lView, context, listenerFn, e) {
     return false;
   } finally {
     profiler(7 /* ProfilerEvent.OutputEnd */, context, listenerFn);
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
   }
 }
 /**
@@ -38838,7 +39764,7 @@ function wrapListener(tNode, lView, context, listenerFn, wrapWithPreventDefault)
     // In order to be backwards compatible with View Engine, events on component host nodes
     // must also mark the component view itself dirty (i.e. the view that it owns).
     const startView = tNode.componentOffset > -1 ? getComponentLViewByIndex(tNode.index, lView) : lView;
-    markViewDirty(startView);
+    markViewDirty(startView, 5 /* NotificationSource.Listener */);
     let result = executeListenerWithErrorHandling(lView, context, listenerFn, e);
     // A just-invoked listener function might have coalesced listeners so we need to check for
     // their presence and invoke as needed.
@@ -38959,27 +39885,59 @@ function ɵɵprojectionDef(projectionSlots) {
  * Inserts previously re-distributed projected nodes. This instruction must be preceded by a call
  * to the projectionDef instruction.
  *
- * @param nodeIndex
- * @param selectorIndex:
- *        - 0 when the selector is `*` (or unspecified as this is the default value),
- *        - 1 based index of the selector from the {@link projectionDef}
+ * @param nodeIndex Index of the projection node.
+ * @param selectorIndex Index of the slot selector.
+ *  - 0 when the selector is `*` (or unspecified as this is the default value),
+ *  - 1 based index of the selector from the {@link projectionDef}
+ * @param attrs Static attributes set on the `ng-content` node.
+ * @param fallbackTemplateFn Template function with fallback content.
+ *   Will be rendered if the slot is empty at runtime.
+ * @param fallbackDecls Number of declarations in the fallback template.
+ * @param fallbackVars Number of variables in the fallback template.
  *
  * @codeGenApi
  */
-function ɵɵprojection(nodeIndex, selectorIndex = 0, attrs) {
+function ɵɵprojection(nodeIndex, selectorIndex = 0, attrs, fallbackTemplateFn, fallbackDecls, fallbackVars) {
   const lView = getLView();
   const tView = getTView();
+  const fallbackIndex = fallbackTemplateFn ? nodeIndex + 1 : null;
+  // Fallback content needs to be declared no matter whether the slot is empty since different
+  // instances of the component may or may not insert it. Also it needs to be declare *before*
+  // the projection node in order to work correctly with hydration.
+  if (fallbackIndex !== null) {
+    declareTemplate(lView, tView, fallbackIndex, fallbackTemplateFn, fallbackDecls, fallbackVars, null, attrs);
+  }
   const tProjectionNode = getOrCreateTNode(tView, HEADER_OFFSET + nodeIndex, 16 /* TNodeType.Projection */, null, attrs || null);
   // We can't use viewData[HOST_NODE] because projection nodes can be nested in embedded views.
-  if (tProjectionNode.projection === null) tProjectionNode.projection = selectorIndex;
-  // `<ng-content>` has no content
+  if (tProjectionNode.projection === null) {
+    tProjectionNode.projection = selectorIndex;
+  }
+  // `<ng-content>` has no content. Even if there's fallback
+  // content, the fallback is shown next to it.
   setCurrentTNodeAsNotParent();
   const hydrationInfo = lView[HYDRATION];
   const isNodeCreationMode = !hydrationInfo || isInSkipHydrationBlock$1();
-  if (isNodeCreationMode && (tProjectionNode.flags & 32 /* TNodeFlags.isDetached */) !== 32 /* TNodeFlags.isDetached */) {
+  const componentHostNode = lView[DECLARATION_COMPONENT_VIEW][T_HOST];
+  const isEmpty = componentHostNode.projection[tProjectionNode.projection] === null;
+  if (isEmpty && fallbackIndex !== null) {
+    insertFallbackContent(lView, tView, fallbackIndex);
+  } else if (isNodeCreationMode && (tProjectionNode.flags & 32 /* TNodeFlags.isDetached */) !== 32 /* TNodeFlags.isDetached */) {
     // re-distribution of projectable nodes is stored on a component's view level
     applyProjection(tView, lView, tProjectionNode);
   }
+}
+/** Inserts the fallback content of a projection slot. Assumes there's no projected content. */
+function insertFallbackContent(lView, tView, fallbackIndex) {
+  const adjustedIndex = HEADER_OFFSET + fallbackIndex;
+  const fallbackTNode = tView.data[adjustedIndex];
+  const fallbackLContainer = lView[adjustedIndex];
+  ngDevMode && assertTNode(fallbackTNode);
+  ngDevMode && assertLContainer(fallbackLContainer);
+  const dehydratedView = findMatchingDehydratedView(fallbackLContainer, fallbackTNode.tView.ssrId);
+  const fallbackLView = createAndRenderEmbeddedLView(lView, fallbackTNode, undefined, {
+    dehydratedView
+  });
+  addLViewToLContainer(fallbackLContainer, fallbackLView, 0, shouldAddViewToDom(fallbackTNode, dehydratedView));
 }
 
 /**
@@ -41430,7 +42388,7 @@ function getMultipleMatchingPipesMessage(name) {
   const context = declarationLView[CONTEXT];
   const hostIsStandalone = isHostComponentStandalone(lView);
   const componentInfoMessage = context ? ` in the '${context.constructor.name}' component` : '';
-  const verifyMessage = `check ${hostIsStandalone ? '\'@Component.imports\' of this component' : 'the imports of this module'}`;
+  const verifyMessage = `check ${hostIsStandalone ? "'@Component.imports' of this component" : 'the imports of this module'}`;
   const errorMessage = `Multiple pipes match the name \`${name}\`${componentInfoMessage}. ${verifyMessage}`;
   return errorMessage;
 }
@@ -41446,7 +42404,7 @@ function getPipeNotFoundErrorMessage(name) {
   const context = declarationLView[CONTEXT];
   const hostIsStandalone = isHostComponentStandalone(lView);
   const componentInfoMessage = context ? ` in the '${context.constructor.name}' component` : '';
-  const verifyMessage = `Verify that it is ${hostIsStandalone ? 'included in the \'@Component.imports\' of this component' : 'declared or imported in this module'}`;
+  const verifyMessage = `Verify that it is ${hostIsStandalone ? "included in the '@Component.imports' of this component" : 'declared or imported in this module'}`;
   const errorMessage = `The pipe '${name}' could not be found${componentInfoMessage}. ${verifyMessage}`;
   return errorMessage;
 }
@@ -41768,8 +42726,7 @@ const angularCoreEnv = (() => ({
   'resolveForwardRef': resolveForwardRef,
   'ɵɵtwoWayProperty': ɵɵtwoWayProperty,
   'ɵɵtwoWayBindingSet': ɵɵtwoWayBindingSet,
-  'ɵɵtwoWayListener': ɵɵtwoWayListener,
-  'ɵɵInputFlags': InputFlags
+  'ɵɵtwoWayListener': ɵɵtwoWayListener
 }))();
 let jitOptions = null;
 function setJitOptions(options) {
@@ -42851,67 +43808,6 @@ const HostBinding = makePropDecorator('HostBinding', hostPropertyName => ({
   hostPropertyName
 }));
 /**
- * Decorator that binds a DOM event to a host listener and supplies configuration metadata.
- * Angular invokes the supplied handler method when the host element emits the specified event,
- * and updates the bound element with the result.
- *
- * If the handler method returns false, applies `preventDefault` on the bound element.
- *
- * @usageNotes
- *
- * The following example declares a directive
- * that attaches a click listener to a button and counts clicks.
- *
- * ```ts
- * @Directive({selector: 'button[counting]'})
- * class CountClicks {
- *   numberOfClicks = 0;
- *
- *   @HostListener('click', ['$event.target'])
- *   onClick(btn) {
- *     console.log('button', btn, 'number of clicks:', this.numberOfClicks++);
- *   }
- * }
- *
- * @Component({
- *   selector: 'app',
- *   template: '<button counting>Increment</button>',
- * })
- * class App {}
- *
- * ```
- *
- * The following example registers another DOM event handler that listens for `Enter` key-press
- * events on the global `window`.
- * ``` ts
- * import { HostListener, Component } from "@angular/core";
- *
- * @Component({
- *   selector: 'app',
- *   template: `<h1>Hello, you have pressed enter {{counter}} number of times!</h1> Press enter key
- * to increment the counter.
- *   <button (click)="resetCounter()">Reset Counter</button>`
- * })
- * class AppComponent {
- *   counter = 0;
- *   @HostListener('window:keydown.enter', ['$event'])
- *   handleKeyDown(event: KeyboardEvent) {
- *     this.counter++;
- *   }
- *   resetCounter() {
- *     this.counter = 0;
- *   }
- * }
- * ```
- * The list of valid key names for `keydown` and `keyup` events
- * can be found here:
- * https://www.w3.org/TR/DOM-Level-3-Events-key/#named-key-attribute-values
- *
- * Note that keys can also be combined, e.g. `@HostListener('keydown.shift.a')`.
- *
- * The global target names that can be used to prefix an event name are
- * `document:`, `window:` and `body:`.
- *
  * @Annotation
  * @publicApi
  */
@@ -42959,7 +43855,7 @@ class Version {
 /**
  * @publicApi
  */
-const VERSION = new Version('17.3.5');
+const VERSION = new Version('18.0.0');
 class Console {
   log(message) {
     // tslint:disable-next-line:no-console
@@ -43170,7 +44066,7 @@ function handleInstanceCreatedByInjectorEvent(context, data) {
     optional: true
   });
   // Standalone components should have an environment injector. If one cannot be
-  // found we may be in a test case for low level functionality that did not explictly
+  // found we may be in a test case for low level functionality that did not explicitly
   // setup this injector. In those cases, we simply ignore this event.
   if (environmentInjector === null) {
     return;
@@ -43257,7 +44153,7 @@ function canBeHeldWeakly(value) {
  */
 function applyChanges(component) {
   ngDevMode && assertDefined(component, 'component');
-  markViewDirty(getComponentViewByInstance(component));
+  markViewDirty(getComponentViewByInstance(component), 3 /* NotificationSource.DebugApplyChanges */);
   getRootComponents(component).forEach(rootComponent => detectChanges(rootComponent));
 }
 /**
@@ -43797,7 +44693,7 @@ function getInjectorParent(injector) {
     // todo(aleksanderbodurri): ideally nothing in packages/core should deal
     // directly with router concerns. Refactor this so that we can make the jump from
     // NodeInjector -> OutletInjector -> NodeInjector
-    // without explictly relying on types contracts from packages/router
+    // without explicitly relying on types contracts from packages/router
     const injectorParent = chainedInjector.injector?.parent;
     if (injectorParent instanceof NodeInjector) {
       return injectorParent;
@@ -43874,7 +44770,10 @@ let _published = false;
 function publishDefaultGlobalUtils$1() {
   if (!_published) {
     _published = true;
-    setupFrameworkInjectorProfiler();
+    if (typeof window !== 'undefined') {
+      // Only configure the injector profiler when running in the browser.
+      setupFrameworkInjectorProfiler();
+    }
     for (const [methodName, method] of Object.entries(globalUtilsFunctions)) {
       publishGlobalUtil(methodName, method);
     }
@@ -43935,7 +44834,6 @@ class Testability {
   constructor(_ngZone, registry, testabilityGetter) {
     this._ngZone = _ngZone;
     this.registry = registry;
-    this._pendingCount = 0;
     this._isZoneStable = true;
     this._callbacks = [];
     this.taskTrackingZone = null;
@@ -43969,30 +44867,10 @@ class Testability {
     });
   }
   /**
-   * Increases the number of pending request
-   * @deprecated pending requests are now tracked with zones.
-   */
-  increasePendingRequestCount() {
-    this._pendingCount += 1;
-    return this._pendingCount;
-  }
-  /**
-   * Decreases the number of pending request
-   * @deprecated pending requests are now tracked with zones
-   */
-  decreasePendingRequestCount() {
-    this._pendingCount -= 1;
-    if (this._pendingCount < 0) {
-      throw new Error('pending async requests below zero');
-    }
-    this._runCallbacksIfReady();
-    return this._pendingCount;
-  }
-  /**
    * Whether an associated application is stable
    */
   isStable() {
-    return this._isZoneStable && this._pendingCount === 0 && !this._ngZone.hasPendingMacrotasks;
+    return this._isZoneStable && !this._ngZone.hasPendingMacrotasks;
   }
   _runCallbacksIfReady() {
     if (this.isStable()) {
@@ -44063,13 +44941,6 @@ class Testability {
     }
     this.addCallback(doneCb, timeout, updateCb);
     this._runCallbacksIfReady();
-  }
-  /**
-   * Get the number of pending requests
-   * @deprecated pending requests are now tracked with zones
-   */
-  getPendingRequestCount() {
-    return this._pendingCount;
   }
   /**
    * Registers an application with a testability hook so that it can be tracked.
@@ -44222,7 +45093,7 @@ function isSubscribable(obj) {
 }
 
 /**
- * A [DI token](guide/glossary#di-token "DI token definition") that you can use to provide
+ * A DI token that you can use to provide
  * one or more initialization functions.
  *
  * The provided functions are injected at application startup and executed during
@@ -44415,7 +45286,7 @@ class ApplicationInitStatus {
 })();
 
 /**
- * A [DI token](guide/glossary#di-token "DI token definition") that provides a set of callbacks to
+ * A DI token that provides a set of callbacks to
  * be called for every component that is bootstrapped.
  *
  * Each callback must take a `ComponentRef` instance and return nothing.
@@ -44432,7 +45303,7 @@ function publishDefaultGlobalUtils() {
  * Sets the error for an invalid write to a signal to be an Angular `RuntimeError`.
  */
 function publishSignalConfiguration() {
-  (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setThrowInvalidWriteToSignalError)(() => {
+  (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setThrowInvalidWriteToSignalError)(() => {
     throw new RuntimeError(600 /* RuntimeErrorCode.SIGNAL_WRITE_FROM_ILLEGAL_CONTEXT */, ngDevMode && 'Writing to signals is not allowed in a `computed` or an `effect` by default. ' + 'Use `allowSignalWrites` in the `CreateEffectOptions` to enable this inside effects.');
   });
 }
@@ -44451,6 +45322,8 @@ class NgProbeToken {
     this.token = token;
   }
 }
+/** Maximum number of times ApplicationRef will refresh all attached views in a single tick. */
+const MAXIMUM_REFRESH_RERUNS = 10;
 function _callAndReportToErrorHandler(errorHandler, ngZone, callback) {
   try {
     const result = callback();
@@ -44573,6 +45446,7 @@ class ApplicationRef {
   constructor() {
     /** @internal */
     this._bootstrapListeners = [];
+    /** @internal */
     this._runningTick = false;
     this._destroyed = false;
     this._destroyListeners = [];
@@ -44580,11 +45454,13 @@ class ApplicationRef {
     this._views = [];
     this.internalErrorHandler = inject(INTERNAL_APPLICATION_ERROR_HANDLER);
     this.afterRenderEffectManager = inject(AfterRenderEventManager);
+    this.zonelessEnabled = inject(ZONELESS_ENABLED);
     // Needed for ComponentFixture temporarily during migration of autoDetect behavior
     // Eventually the hostView of the fixture should just attach to ApplicationRef.
     this.externalTestViews = new Set();
-    this.beforeRender = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject();
-    this.afterTick = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject();
+    this.beforeRender = new rxjs__WEBPACK_IMPORTED_MODULE_1__.Subject();
+    /** @internal */
+    this.afterTick = new rxjs__WEBPACK_IMPORTED_MODULE_1__.Subject();
     /**
      * Get a list of component types registered to this application.
      * This list is populated even before the component is created.
@@ -44597,8 +45473,12 @@ class ApplicationRef {
     /**
      * Returns an Observable that indicates when the application is stable or unstable.
      */
-    this.isStable = inject(PendingTasks).hasPendingTasks.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_5__.map)(pending => !pending));
+    this.isStable = inject(PendingTasks).hasPendingTasks.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_4__.map)(pending => !pending));
     this._injector = inject(EnvironmentInjector);
+  }
+  /** @internal */
+  get allViews() {
+    return [...this.externalTestViews.keys(), ...this._views];
   }
   /**
    * Indicates whether this instance was destroyed.
@@ -44704,7 +45584,7 @@ class ApplicationRef {
     if (this._runningTick) {
       throw new RuntimeError(101 /* RuntimeErrorCode.RECURSIVE_APPLICATION_REF_TICK */, ngDevMode && 'ApplicationRef.tick is called recursively');
     }
-    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+    const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
     try {
       this._runningTick = true;
       this.detectChangesInAttachedViews(refreshViews);
@@ -44717,45 +45597,58 @@ class ApplicationRef {
       // Attention: Don't rethrow as it could cancel subscriptions to Observables!
       this.internalErrorHandler(e);
     } finally {
-      this.afterTick.next();
       this._runningTick = false;
-      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
+      this.afterTick.next();
     }
   }
   detectChangesInAttachedViews(refreshViews) {
+    let rendererFactory = null;
+    if (!this._injector.destroyed) {
+      rendererFactory = this._injector.get(RendererFactory2, null, {
+        optional: true
+      });
+    }
     let runs = 0;
     const afterRenderEffectManager = this.afterRenderEffectManager;
-    while (true) {
-      if (runs === MAXIMUM_REFRESH_RERUNS) {
-        throw new RuntimeError(103 /* RuntimeErrorCode.INFINITE_CHANGE_DETECTION */, ngDevMode && 'Infinite change detection while refreshing application views. ' + 'Ensure afterRender or queueStateUpdate hooks are not continuously causing updates.');
-      }
-      if (refreshViews) {
-        const isFirstPass = runs === 0;
+    while (runs < MAXIMUM_REFRESH_RERUNS) {
+      const isFirstPass = runs === 0;
+      // Some notifications to run a `tick` will only trigger render hooks. so we skip refreshing views the first time through.
+      // After the we execute render hooks in the first pass, we loop while views are marked dirty and should refresh them.
+      if (refreshViews || !isFirstPass) {
         this.beforeRender.next(isFirstPass);
         for (let {
           _lView,
           notifyErrorHandler
         } of this._views) {
-          detectChangesInViewIfRequired(_lView, isFirstPass, notifyErrorHandler);
+          detectChangesInViewIfRequired(_lView, notifyErrorHandler, isFirstPass, this.zonelessEnabled);
         }
+      } else {
+        // If we skipped refreshing views above, there might still be unflushed animations
+        // because we never called `detectChangesInternal` on the views.
+        rendererFactory?.begin?.();
+        rendererFactory?.end?.();
       }
       runs++;
       afterRenderEffectManager.executeInternalCallbacks();
       // If we have a newly dirty view after running internal callbacks, recheck the views again
       // before running user-provided callbacks
-      if ([...this.externalTestViews.keys(), ...this._views].some(({
+      if (this.allViews.some(({
         _lView
-      }) => shouldRecheckView(_lView))) {
+      }) => requiresRefreshOrTraversal(_lView))) {
         continue;
       }
       afterRenderEffectManager.execute();
       // If after running all afterRender callbacks we have no more views that need to be refreshed,
       // we can break out of the loop
-      if (![...this.externalTestViews.keys(), ...this._views].some(({
+      if (!this.allViews.some(({
         _lView
-      }) => shouldRecheckView(_lView))) {
+      }) => requiresRefreshOrTraversal(_lView))) {
         break;
       }
+    }
+    if ((typeof ngDevMode === 'undefined' || ngDevMode) && runs >= MAXIMUM_REFRESH_RERUNS) {
+      throw new RuntimeError(103 /* RuntimeErrorCode.INFINITE_CHANGE_DETECTION */, ngDevMode && 'Infinite change detection while refreshing application views. ' + 'Ensure views are not calling `markForCheck` on every template execution or ' + 'that afterRender hooks always mark views for check.');
     }
   }
   /**
@@ -44879,42 +45772,22 @@ function whenStable(applicationRef) {
   if (cachedWhenStable) {
     return cachedWhenStable;
   }
-  const whenStablePromise = applicationRef.isStable.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_6__.first)(isStable => isStable)).toPromise().then(() => void 0);
+  const whenStablePromise = applicationRef.isStable.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_5__.first)(isStable => isStable)).toPromise().then(() => void 0);
   whenStableStore.set(applicationRef, whenStablePromise);
   // Be a good citizen and clean the store `onDestroy` even though we are using `WeakMap`.
   applicationRef.onDestroy(() => whenStableStore?.delete(applicationRef));
   return whenStablePromise;
 }
-function detectChangesInViewIfRequired(lView, isFirstPass, notifyErrorHandler) {
+function detectChangesInViewIfRequired(lView, notifyErrorHandler, isFirstPass, zonelessEnabled) {
   // When re-checking, only check views which actually need it.
-  if (!isFirstPass && !shouldRecheckView(lView)) {
+  if (!isFirstPass && !requiresRefreshOrTraversal(lView)) {
     return;
   }
-  detectChangesInView(lView, notifyErrorHandler, isFirstPass);
-}
-function shouldRecheckView(view) {
-  return requiresRefreshOrTraversal(view);
-}
-function detectChangesInView(lView, notifyErrorHandler, isFirstPass) {
-  let mode;
-  if (isFirstPass) {
-    // The first pass is always in Global mode, which includes `CheckAlways` views.
-    mode = 0 /* ChangeDetectionMode.Global */;
-    // Add `RefreshView` flag to ensure this view is refreshed if not already dirty.
-    // `RefreshView` flag is used intentionally over `Dirty` because it gets cleared before
-    // executing any of the actual refresh code while the `Dirty` flag doesn't get cleared
-    // until the end of the refresh. Using `RefreshView` prevents creating a potential
-    // difference in the state of the LViewFlags during template execution.
-    lView[FLAGS] |= 1024 /* LViewFlags.RefreshView */;
-  } else if (lView[FLAGS] & 64 /* LViewFlags.Dirty */) {
-    // The root view has been explicitly marked for check, so check it in Global mode.
-    mode = 0 /* ChangeDetectionMode.Global */;
-  } else {
-    // The view has not been marked for check, but contains a view marked for refresh
-    // (likely via a signal). Start this change detection in Targeted mode to skip the root
-    // view and check just the view(s) that need refreshed.
-    mode = 1 /* ChangeDetectionMode.Targeted */;
-  }
+  const mode = isFirstPass && !zonelessEnabled ?
+  // The first pass is always in Global mode, which includes `CheckAlways` views.
+  0 /* ChangeDetectionMode.Global */ :
+  // Only refresh views with the `RefreshView` flag or views is a changed signal
+  1 /* ChangeDetectionMode.Targeted */;
   detectChangesInternal(lView, notifyErrorHandler, mode);
 }
 
@@ -44925,8 +45798,6 @@ function detectChangesInView(lView, notifyErrorHandler, isFirstPass) {
  *
  * @deprecated
  * Ivy JIT mode doesn't require accessing this symbol.
- * See [JIT API changes due to ViewEngine deprecation](guide/deprecations#jit-api-changes) for
- * additional context.
  */
 class ModuleWithComponentFactories {
   constructor(ngModuleFactory, componentFactories) {
@@ -44947,8 +45818,6 @@ class ModuleWithComponentFactories {
  *
  * @deprecated
  * Ivy JIT mode doesn't require accessing this symbol.
- * See [JIT API changes due to ViewEngine deprecation](guide/deprecations#jit-api-changes) for
- * additional context.
  */
 class Compiler {
   /**
@@ -45027,8 +45896,6 @@ const COMPILER_OPTIONS = new InjectionToken(ngDevMode ? 'compilerOptions' : '');
  *
  * @deprecated
  * Ivy JIT mode doesn't require accessing this symbol.
- * See [JIT API changes due to ViewEngine deprecation](guide/deprecations#jit-api-changes) for
- * additional context.
  */
 class CompilerFactory {}
 function compileNgModuleFactory(injector, options, moduleType) {
@@ -45078,9 +45945,286 @@ function _lastDefined(args) {
   }
   return undefined;
 }
+
+/** Flag to enable/disable the zoneless scheduler as default provider with zone scheduling. */
+const alwaysProvideZonelessScheduler = true;
+const CONSECUTIVE_MICROTASK_NOTIFICATION_LIMIT = 100;
+let consecutiveMicrotaskNotifications = 0;
+let stackFromLastFewNotifications = [];
+function trackMicrotaskNotificationForDebugging() {
+  consecutiveMicrotaskNotifications++;
+  if (CONSECUTIVE_MICROTASK_NOTIFICATION_LIMIT - consecutiveMicrotaskNotifications < 5) {
+    const stack = new Error().stack;
+    if (stack) {
+      stackFromLastFewNotifications.push(stack);
+    }
+  }
+  if (consecutiveMicrotaskNotifications === CONSECUTIVE_MICROTASK_NOTIFICATION_LIMIT) {
+    throw new RuntimeError(103 /* RuntimeErrorCode.INFINITE_CHANGE_DETECTION */, 'Angular could not stabilize because there were endless change notifications within the browser event loop. ' + 'The stack from the last several notifications: \n' + stackFromLastFewNotifications.join('\n'));
+  }
+}
+class ChangeDetectionSchedulerImpl {
+  constructor() {
+    this.appRef = inject(ApplicationRef);
+    this.taskService = inject(PendingTasks);
+    this.ngZone = inject(NgZone);
+    this.zonelessEnabled = inject(ZONELESS_ENABLED);
+    this.disableScheduling = inject(ZONELESS_SCHEDULER_DISABLED, {
+      optional: true
+    }) ?? false;
+    this.zoneIsDefined = typeof Zone !== 'undefined' && !!Zone.root.run;
+    this.schedulerTickApplyArgs = [{
+      data: {
+        '__scheduler_tick__': true
+      }
+    }];
+    this.subscriptions = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subscription();
+    this.cancelScheduledCallback = null;
+    this.shouldRefreshViews = false;
+    this.useMicrotaskScheduler = false;
+    this.runningTick = false;
+    this.pendingRenderTaskId = null;
+    this.subscriptions.add(this.appRef.afterTick.subscribe(() => {
+      // If the scheduler isn't running a tick but the application ticked, that means
+      // someone called ApplicationRef.tick manually. In this case, we should cancel
+      // any change detections that had been scheduled so we don't run an extra one.
+      if (!this.runningTick) {
+        this.cleanup();
+      }
+    }));
+    this.subscriptions.add(this.ngZone.onUnstable.subscribe(() => {
+      // If the zone becomes unstable when we're not running tick (this happens from the zone.run),
+      // we should cancel any scheduled change detection here because at this point we
+      // know that the zone will stabilize at some point and run change detection itself.
+      if (!this.runningTick) {
+        this.cleanup();
+      }
+    }));
+    // TODO(atscott): These conditions will need to change when zoneless is the default
+    // Instead, they should flip to checking if ZoneJS scheduling is provided
+    this.disableScheduling ||= !this.zonelessEnabled && (
+    // NoopNgZone without enabling zoneless means no scheduling whatsoever
+    this.ngZone instanceof NoopNgZone ||
+    // The same goes for the lack of Zone without enabling zoneless scheduling
+    !this.zoneIsDefined);
+  }
+  notify(source) {
+    if (!this.zonelessEnabled && source === 5 /* NotificationSource.Listener */) {
+      // When the notification comes from a listener, we skip the notification unless the
+      // application has enabled zoneless. Ideally, listeners wouldn't notify the scheduler at all
+      // automatically. We do not know that a developer made a change in the listener callback that
+      // requires an `ApplicationRef.tick` (synchronize templates / run render hooks). We do this
+      // only for an easier migration from OnPush components to zoneless. Because listeners are
+      // usually executed inside the Angular zone and listeners automatically call `markViewDirty`,
+      // developers never needed to manually use `ChangeDetectorRef.markForCheck` or some other API
+      // to make listener callbacks work correctly with `OnPush` components.
+      return;
+    }
+    switch (source) {
+      case 3 /* NotificationSource.DebugApplyChanges */:
+      case 2 /* NotificationSource.DeferBlockStateUpdate */:
+      case 0 /* NotificationSource.MarkAncestorsForTraversal */:
+      case 4 /* NotificationSource.MarkForCheck */:
+      case 5 /* NotificationSource.Listener */:
+      case 1 /* NotificationSource.SetInput */:
+        {
+          this.shouldRefreshViews = true;
+          break;
+        }
+      case 8 /* NotificationSource.ViewDetachedFromDOM */:
+      case 7 /* NotificationSource.ViewAttached */:
+      case 6 /* NotificationSource.NewRenderHook */:
+      case 9 /* NotificationSource.AsyncAnimationsLoaded */:
+      default:
+        {
+          // These notifications only schedule a tick but do not change whether we should refresh
+          // views. Instead, we only need to run render hooks unless another notification from the
+          // other set is also received before `tick` happens.
+        }
+    }
+    if (!this.shouldScheduleTick()) {
+      return;
+    }
+    if (typeof ngDevMode === 'undefined' || ngDevMode) {
+      if (this.useMicrotaskScheduler) {
+        trackMicrotaskNotificationForDebugging();
+      } else {
+        consecutiveMicrotaskNotifications = 0;
+        stackFromLastFewNotifications.length = 0;
+      }
+    }
+    const scheduleCallback = this.useMicrotaskScheduler ? scheduleCallbackWithMicrotask : scheduleCallbackWithRafRace;
+    this.pendingRenderTaskId = this.taskService.add();
+    if (this.zoneIsDefined) {
+      Zone.root.run(() => {
+        this.cancelScheduledCallback = scheduleCallback(() => {
+          this.tick(this.shouldRefreshViews);
+        });
+      });
+    } else {
+      this.cancelScheduledCallback = scheduleCallback(() => {
+        this.tick(this.shouldRefreshViews);
+      });
+    }
+  }
+  shouldScheduleTick() {
+    if (this.disableScheduling) {
+      return false;
+    }
+    // already scheduled or running
+    if (this.pendingRenderTaskId !== null || this.runningTick || this.appRef._runningTick) {
+      return false;
+    }
+    // If we're inside the zone don't bother with scheduler. Zone will stabilize
+    // eventually and run change detection.
+    if (!this.zonelessEnabled && this.zoneIsDefined && NgZone.isInAngularZone()) {
+      return false;
+    }
+    return true;
+  }
+  /**
+   * Calls ApplicationRef._tick inside the `NgZone`.
+   *
+   * Calling `tick` directly runs change detection and cancels any change detection that had been
+   * scheduled previously.
+   *
+   * @param shouldRefreshViews Passed directly to `ApplicationRef._tick` and skips straight to
+   *     render hooks when `false`.
+   */
+  tick(shouldRefreshViews) {
+    // When ngZone.run below exits, onMicrotaskEmpty may emit if the zone is
+    // stable. We want to prevent double ticking so we track whether the tick is
+    // already running and skip it if so.
+    if (this.runningTick || this.appRef.destroyed) {
+      return;
+    }
+    const task = this.taskService.add();
+    try {
+      this.ngZone.run(() => {
+        this.runningTick = true;
+        this.appRef._tick(shouldRefreshViews);
+      }, undefined, this.schedulerTickApplyArgs);
+    } catch (e) {
+      this.taskService.remove(task);
+      throw e;
+    } finally {
+      this.cleanup();
+    }
+    // If we're notified of a change within 1 microtask of running change
+    // detection, run another round in the same event loop. This allows code
+    // which uses Promise.resolve (see NgModel) to avoid
+    // ExpressionChanged...Error to still be reflected in a single browser
+    // paint, even if that spans multiple rounds of change detection.
+    this.useMicrotaskScheduler = true;
+    scheduleCallbackWithMicrotask(() => {
+      this.useMicrotaskScheduler = false;
+      this.taskService.remove(task);
+    });
+  }
+  ngOnDestroy() {
+    this.subscriptions.unsubscribe();
+    this.cleanup();
+  }
+  cleanup() {
+    this.shouldRefreshViews = false;
+    this.runningTick = false;
+    this.cancelScheduledCallback?.();
+    this.cancelScheduledCallback = null;
+    // If this is the last task, the service will synchronously emit a stable
+    // notification. If there is a subscriber that then acts in a way that
+    // tries to notify the scheduler again, we need to be able to respond to
+    // schedule a new change detection. Therefore, we should clear the task ID
+    // before removing it from the pending tasks (or the tasks service should
+    // not synchronously emit stable, similar to how Zone stableness only
+    // happens if it's still stable after a microtask).
+    if (this.pendingRenderTaskId !== null) {
+      const taskId = this.pendingRenderTaskId;
+      this.pendingRenderTaskId = null;
+      this.taskService.remove(taskId);
+    }
+  }
+  static #_ = this.ɵfac = function ChangeDetectionSchedulerImpl_Factory(t) {
+    return new (t || ChangeDetectionSchedulerImpl)();
+  };
+  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
+    token: ChangeDetectionSchedulerImpl,
+    factory: ChangeDetectionSchedulerImpl.ɵfac,
+    providedIn: 'root'
+  });
+}
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ChangeDetectionSchedulerImpl, [{
+    type: Injectable,
+    args: [{
+      providedIn: 'root'
+    }]
+  }], () => [], null);
+})();
+/**
+ * Provides change detection without ZoneJS for the application bootstrapped using
+ * `bootstrapApplication`.
+ *
+ * This function allows you to configure the application to not use the state/state changes of
+ * ZoneJS to schedule change detection in the application. This will work when ZoneJS is not present
+ * on the page at all or if it exists because something else is using it (either another Angular
+ * application which uses ZoneJS for scheduling or some other library that relies on ZoneJS).
+ *
+ * This can also be added to the `TestBed` providers to configure the test environment to more
+ * closely match production behavior. This will help give higher confidence that components are
+ * compatible with zoneless change detection.
+ *
+ * ZoneJS uses browser events to trigger change detection. When using this provider, Angular will
+ * instead use Angular APIs to schedule change detection. These APIs include:
+ *
+ * - `ChangeDetectorRef.markForCheck`
+ * - `ComponentRef.setInput`
+ * - updating a signal that is read in a template
+ * - when bound host or template listeners are triggered
+ * - attaching a view that was marked dirty by one of the above
+ * - removing a view
+ * - registering a render hook (templates are only refreshed if render hooks do one of the above)
+ *
+ * @usageNotes
+ * ```typescript
+ * bootstrapApplication(MyApp, {providers: [
+ *   provideExperimentalZonelessChangeDetection(),
+ * ]});
+ * ```
+ *
+ * This API is experimental. Neither the shape, nor the underlying behavior is stable and can change
+ * in patch versions. There are known feature gaps and API ergonomic considerations. We will iterate
+ * on the exact API based on the feedback and our understanding of the problem and solution space.
+ *
+ * @publicApi
+ * @experimental
+ * @see {@link bootstrapApplication}
+ */
+function provideExperimentalZonelessChangeDetection() {
+  performanceMarkFeature('NgZoneless');
+  if ((typeof ngDevMode === 'undefined' || ngDevMode) && typeof Zone !== 'undefined' && Zone) {
+    const message = formatRuntimeError(914 /* RuntimeErrorCode.UNEXPECTED_ZONEJS_PRESENT_IN_ZONELESS_MODE */, `The application is using zoneless change detection, but is still loading Zone.js.` + `Consider removing Zone.js to get the full benefits of zoneless. ` + `In applcations using the Angular CLI, Zone.js is typically included in the "polyfills" section of the angular.json file.`);
+    console.warn(message);
+  }
+  return makeEnvironmentProviders([{
+    provide: ChangeDetectionScheduler,
+    useExisting: ChangeDetectionSchedulerImpl
+  }, {
+    provide: NgZone,
+    useClass: NoopNgZone
+  }, {
+    provide: ZONELESS_ENABLED,
+    useValue: true
+  }, typeof ngDevMode === 'undefined' || ngDevMode ? [{
+    provide: PROVIDED_ZONELESS,
+    useValue: true
+  }] : []]);
+}
 class NgZoneChangeDetectionScheduler {
   constructor() {
     this.zone = inject(NgZone);
+    this.changeDetectionScheduler = inject(ChangeDetectionScheduler, {
+      optional: true
+    });
     this.applicationRef = inject(ApplicationRef);
   }
   initialize() {
@@ -45089,6 +46233,12 @@ class NgZoneChangeDetectionScheduler {
     }
     this._onMicrotaskEmptySubscription = this.zone.onMicrotaskEmpty.subscribe({
       next: () => {
+        // `onMicroTaskEmpty` can happen _during_ the zoneless scheduler change detection because
+        // zone.run(() => {}) will result in `checkStable` at the end of the `zone.run` closure
+        // and emit `onMicrotaskEmpty` synchronously if run coalsecing is false.
+        if (this.changeDetectionScheduler?.runningTick) {
+          return;
+        }
         this.zone.run(() => {
           this.applicationRef.tick();
         });
@@ -45119,8 +46269,14 @@ class NgZoneChangeDetectionScheduler {
  * Internal token used to verify that `provideZoneChangeDetection` is not used
  * with the bootstrapModule API.
  */
-const PROVIDED_NG_ZONE = new InjectionToken(typeof ngDevMode === 'undefined' || ngDevMode ? 'provideZoneChangeDetection token' : '');
-function internalProvideZoneChangeDetection(ngZoneFactory) {
+const PROVIDED_NG_ZONE = new InjectionToken(typeof ngDevMode === 'undefined' || ngDevMode ? 'provideZoneChangeDetection token' : '', {
+  factory: () => false
+});
+function internalProvideZoneChangeDetection({
+  ngZoneFactory,
+  ignoreChangesOutsideZone
+}) {
+  ngZoneFactory ??= () => new NgZone(getNgZoneOptions());
   return [{
     provide: NgZone,
     useFactory: ngZoneFactory
@@ -45148,7 +46304,19 @@ function internalProvideZoneChangeDetection(ngZoneFactory) {
   }, {
     provide: INTERNAL_APPLICATION_ERROR_HANDLER,
     useFactory: ngZoneApplicationErrorHandlerFactory
-  }];
+  },
+  // Always disable scheduler whenever explicitly disabled, even if another place called
+  // `provideZoneChangeDetection` without the 'ignore' option.
+  ignoreChangesOutsideZone === true ? {
+    provide: ZONELESS_SCHEDULER_DISABLED,
+    useValue: true
+  } : [],
+  // TODO(atscott): This should move to the same places that zone change detection is provided by
+  // default instead of being in the zone scheduling providers.
+  alwaysProvideZonelessScheduler || ignoreChangesOutsideZone === false ? {
+    provide: ChangeDetectionScheduler,
+    useExisting: ChangeDetectionSchedulerImpl
+  } : []];
 }
 function ngZoneApplicationErrorHandlerFactory() {
   const zone = inject(NgZone);
@@ -45176,11 +46344,24 @@ function ngZoneApplicationErrorHandlerFactory() {
  * @see {@link NgZoneOptions}
  */
 function provideZoneChangeDetection(options) {
-  const zoneProviders = internalProvideZoneChangeDetection(() => new NgZone(getNgZoneOptions(options)));
-  return makeEnvironmentProviders([typeof ngDevMode === 'undefined' || ngDevMode ? {
+  const ignoreChangesOutsideZone = options?.ignoreChangesOutsideZone;
+  const zoneProviders = internalProvideZoneChangeDetection({
+    ngZoneFactory: () => {
+      const ngZoneOptions = getNgZoneOptions(options);
+      if (ngZoneOptions.shouldCoalesceEventChangeDetection) {
+        performanceMarkFeature('NgZone_CoalesceEvent');
+      }
+      return new NgZone(ngZoneOptions);
+    },
+    ignoreChangesOutsideZone
+  });
+  return makeEnvironmentProviders([typeof ngDevMode === 'undefined' || ngDevMode ? [{
     provide: PROVIDED_NG_ZONE,
     useValue: true
-  } : [], zoneProviders]);
+  }] : [], {
+    provide: ZONELESS_ENABLED,
+    useValue: false
+  }, zoneProviders]);
 }
 // Transforms a set of `BootstrapOptions` (supported by the NgModule-based bootstrap APIs) ->
 // `NgZoneOptions` that are recognized by the NgZone constructor. Passing no options will result in
@@ -45194,7 +46375,7 @@ function getNgZoneOptions(options) {
 }
 class ZoneStablePendingTask {
   constructor() {
-    this.subscription = new rxjs__WEBPACK_IMPORTED_MODULE_3__.Subscription();
+    this.subscription = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subscription();
     this.initialized = false;
     this.zone = inject(NgZone);
     this.pendingTasks = inject(PendingTasks);
@@ -45277,7 +46458,7 @@ function getGlobalLocale() {
  * It is used for i18n extraction, by i18n pipes (DatePipe, I18nPluralPipe, CurrencyPipe,
  * DecimalPipe and PercentPipe) and by ICU expressions.
  *
- * See the [i18n guide](guide/i18n-common-locale-id) for more information.
+ * See the [i18n guide](guide/i18n/locale-id) for more information.
  *
  * @usageNotes
  * ### Example
@@ -45303,7 +46484,7 @@ const LOCALE_ID = new InjectionToken(ngDevMode ? 'LocaleId' : '', {
  * CurrencyPipe when there is no currency code passed into it. This is only used by
  * CurrencyPipe and has no relation to locale currency. Defaults to USD if not configured.
  *
- * See the [i18n guide](guide/i18n-common-locale-id) for more information.
+ * See the [i18n guide](guide/i18n/locale-id) for more information.
  *
  * <div class="alert is-helpful">
  *
@@ -45344,7 +46525,7 @@ const DEFAULT_CURRENCY_CODE = new InjectionToken(ngDevMode ? 'DefaultCurrencyCod
  * Use this token at bootstrap to provide the content of your translation file (`xtb`,
  * `xlf` or `xlf2`) when you want to translate your application in another language.
  *
- * See the [i18n guide](guide/i18n-common-merge) for more information.
+ * See the [i18n guide](guide/i18n/merge) for more information.
  *
  * @usageNotes
  * ### Example
@@ -45369,7 +46550,7 @@ const TRANSLATIONS = new InjectionToken(ngDevMode ? 'Translations' : '');
  * Provide this token at bootstrap to set the format of your {@link TRANSLATIONS}: `xtb`,
  * `xlf` or `xlf2`.
  *
- * See the [i18n guide](guide/i18n-common-merge) for more information.
+ * See the [i18n guide](guide/i18n/merge) for more information.
  *
  * @usageNotes
  * ### Example
@@ -45394,7 +46575,7 @@ const TRANSLATIONS_FORMAT = new InjectionToken(ngDevMode ? 'TranslationsFormat' 
  * - Warning (default): show a warning in the console and/or shell.
  * - Ignore: do nothing.
  *
- * See the [i18n guide](guide/i18n-common-merge#report-missing-translations) for more information.
+ * See the [i18n guide](guide/i18n/merge#report-missing-translations) for more information.
  *
  * @usageNotes
  * ### Example
@@ -45461,9 +46642,18 @@ class PlatformRef {
     // Do not try to replace ngZone.run with ApplicationRef#run because ApplicationRef would then be
     // created outside of the Angular zone.
     return ngZone.run(() => {
-      const moduleRef = createNgModuleRefWithProviders(moduleFactory.moduleType, this.injector, internalProvideZoneChangeDetection(() => ngZone));
-      if ((typeof ngDevMode === 'undefined' || ngDevMode) && moduleRef.injector.get(PROVIDED_NG_ZONE, null) !== null) {
-        throw new RuntimeError(207 /* RuntimeErrorCode.PROVIDER_IN_WRONG_CONTEXT */, '`bootstrapModule` does not support `provideZoneChangeDetection`. Use `BootstrapOptions` instead.');
+      const ignoreChangesOutsideZone = options?.ignoreChangesOutsideZone;
+      const moduleRef = createNgModuleRefWithProviders(moduleFactory.moduleType, this.injector, internalProvideZoneChangeDetection({
+        ngZoneFactory: () => ngZone,
+        ignoreChangesOutsideZone
+      }));
+      if (typeof ngDevMode === 'undefined' || ngDevMode) {
+        if (moduleRef.injector.get(PROVIDED_NG_ZONE)) {
+          throw new RuntimeError(207 /* RuntimeErrorCode.PROVIDER_IN_WRONG_CONTEXT */, '`bootstrapModule` does not support `provideZoneChangeDetection`. Use `BootstrapOptions` instead.');
+        }
+        if (moduleRef.injector.get(ZONELESS_ENABLED) && options?.ngZone !== 'noop') {
+          throw new RuntimeError(408 /* RuntimeErrorCode.PROVIDED_BOTH_ZONE_AND_ZONELESS */, 'Invalid change detection configuration: ' + "`ngZone: 'noop'` must be set in `BootstrapOptions` with provideExperimentalZonelessChangeDetection.");
+        }
       }
       const exceptionHandler = moduleRef.injector.get(ErrorHandler, null);
       if ((typeof ngDevMode === 'undefined' || ngDevMode) && exceptionHandler === null) {
@@ -45703,6 +46893,126 @@ function runPlatformInitializers(injector) {
 }
 
 /**
+ * Used to periodically verify no expressions have changed after they were checked.
+ *
+ * @param options Used to configure when the check will execute.
+ *   - `interval` will periodically run exhaustive `checkNoChanges` on application views
+ *   - `useNgZoneOnStable` will use ZoneJS to determine when change detection might have run
+ *      in an application using ZoneJS to drive change detection. When the `NgZone.onStable` would
+ *      have emitted, all views attached to the `ApplicationRef` are checked for changes.
+ *   - 'exhaustive' means that all views attached to `ApplicationRef` and all the descendants of those views will be
+ *     checked for changes (excluding those subtrees which are detached via `ChangeDetectorRef.detach()`).
+ *     This is useful because the check that runs after regular change detection does not work for components using `ChangeDetectionStrategy.OnPush`.
+ *     This check is will surface any existing errors hidden by `OnPush` components. By default, this check is exhaustive
+ *     and will always check all views, regardless of their "dirty" state and `ChangeDetectionStrategy`.
+ *
+ * When the `useNgZoneOnStable` option is `true`, this function will provide its own `NgZone` implementation and needs
+ * to come after any other `NgZone` provider, including `provideZoneChangeDetection()` and `provideExperimentalZonelessChangeDetection()`.
+ *
+ * @experimental
+ * @publicApi
+ */
+function provideExperimentalCheckNoChangesForDebug(options) {
+  if (typeof ngDevMode === 'undefined' || ngDevMode) {
+    if (options.interval === undefined && !options.useNgZoneOnStable) {
+      throw new Error('Must provide one of `useNgZoneOnStable` or `interval`');
+    }
+    const checkNoChangesMode = options?.exhaustive === false ? CheckNoChangesMode.OnlyDirtyViews : CheckNoChangesMode.Exhaustive;
+    return makeEnvironmentProviders([options?.useNgZoneOnStable ? {
+      provide: NgZone,
+      useFactory: () => new DebugNgZoneForCheckNoChanges(checkNoChangesMode)
+    } : [], options?.interval !== undefined ? exhaustiveCheckNoChangesInterval(options.interval, checkNoChangesMode) : [], {
+      provide: ENVIRONMENT_INITIALIZER,
+      multi: true,
+      useValue: () => {
+        if (options?.useNgZoneOnStable && !(inject(NgZone) instanceof DebugNgZoneForCheckNoChanges)) {
+          throw new Error('`provideExperimentalCheckNoChangesForDebug` with `useNgZoneOnStable` must be after any other provider for `NgZone`.');
+        }
+      }
+    }]);
+  } else {
+    return makeEnvironmentProviders([]);
+  }
+}
+class DebugNgZoneForCheckNoChanges extends NgZone {
+  constructor(checkNoChangesMode) {
+    const zonelessEnabled = inject(ZONELESS_ENABLED);
+    // Use coalescing to ensure we aren't ever running this check synchronously
+    super({
+      shouldCoalesceEventChangeDetection: true,
+      shouldCoalesceRunChangeDetection: zonelessEnabled
+    });
+    this.checkNoChangesMode = checkNoChangesMode;
+    this.injector = inject(EnvironmentInjector);
+    if (zonelessEnabled) {
+      // prevent emits to ensure code doesn't rely on these
+      this.onMicrotaskEmpty.emit = () => {};
+      this.onStable.emit = () => {
+        this.scheduler ||= this.injector.get(ChangeDetectionSchedulerImpl);
+        if (this.scheduler.pendingRenderTaskId || this.scheduler.runningTick) {
+          return;
+        }
+        this.checkApplicationViews();
+      };
+      this.onUnstable.emit = () => {};
+    } else {
+      this.runOutsideAngular(() => {
+        this.onStable.subscribe(() => {
+          this.checkApplicationViews();
+        });
+      });
+    }
+  }
+  checkApplicationViews() {
+    this.applicationRef ||= this.injector.get(ApplicationRef);
+    for (const view of this.applicationRef.allViews) {
+      try {
+        checkNoChangesInternal(view._lView, this.checkNoChangesMode, view.notifyErrorHandler);
+      } catch (e) {
+        this.errorHandler ||= this.injector.get(ErrorHandler);
+        this.errorHandler.handleError(e);
+      }
+    }
+  }
+}
+function exhaustiveCheckNoChangesInterval(interval, checkNoChangesMode) {
+  return {
+    provide: ENVIRONMENT_INITIALIZER,
+    multi: true,
+    useFactory: () => {
+      const applicationRef = inject(ApplicationRef);
+      const errorHandler = inject(ErrorHandler);
+      const scheduler = inject(ChangeDetectionSchedulerImpl);
+      const ngZone = inject(NgZone);
+      return () => {
+        function scheduleCheckNoChanges() {
+          ngZone.runOutsideAngular(() => {
+            setTimeout(() => {
+              if (applicationRef.destroyed) {
+                return;
+              }
+              if (scheduler.pendingRenderTaskId || scheduler.runningTick) {
+                scheduleCheckNoChanges();
+                return;
+              }
+              for (const view of applicationRef.allViews) {
+                try {
+                  checkNoChangesInternal(view._lView, checkNoChangesMode, view.notifyErrorHandler);
+                } catch (e) {
+                  errorHandler.handleError(e);
+                }
+              }
+              scheduleCheckNoChanges();
+            }, interval);
+          });
+        }
+        scheduleCheckNoChanges();
+      };
+    }
+  };
+}
+
+/**
  * Returns whether Angular is in development mode.
  *
  * By default, this is true, unless `enableProdMode` is invoked prior to calling this method or the
@@ -45771,8 +47081,8 @@ function noModuleError(id) {
  * Use the methods to add and remove views from the tree, initiate change-detection,
  * and explicitly mark views as _dirty_, meaning that they have changed and need to be re-rendered.
  *
- * @see [Using change detection hooks](guide/lifecycle-hooks#using-change-detection-hooks)
- * @see [Defining custom change detection](guide/lifecycle-hooks#defining-custom-change-detection)
+ * @see [Using change detection hooks](guide/components/lifecycle#using-change-detection-hooks)
+ * @see [Defining custom change detection](guide/components/lifecycle#defining-custom-change-detection)
  *
  * @usageNotes
  *
@@ -45845,7 +47155,7 @@ function createViewRef(tNode, lView, isPipe) {
 }
 
 /**
- * Represents an Angular [view](guide/glossary#view "Definition").
+ * Represents an Angular view.
  *
  * @see {@link ChangeDetectorRef#usage-notes Change detection usage}
  *
@@ -45853,8 +47163,8 @@ function createViewRef(tNode, lView, isPipe) {
  */
 class ViewRef extends ChangeDetectorRef {}
 /**
- * Represents an Angular [view](guide/glossary#view) in a view container.
- * An [embedded view](guide/glossary#view-hierarchy) can be referenced from a component
+ * Represents an Angular view in a view container.
+ * An embedded view can be referenced from a component
  * other than the hosting component whose template defines it, or it can be defined
  * independently by a `TemplateRef`.
  *
@@ -45990,9 +47300,9 @@ class DebugNode {
 /**
  * @publicApi
  *
- * @see [Component testing scenarios](guide/testing-components-scenarios)
- * @see [Basics of testing components](guide/testing-components-basics)
- * @see [Testing utility APIs](guide/testing-utility-apis)
+ * @see [Component testing scenarios](guide/testing/components-scenarios)
+ * @see [Basics of testing components](guide/testing/components-basics)
+ * @see [Testing utility APIs](guide/testing/utility-apis)
  */
 class DebugElement extends DebugNode {
   constructor(nativeNode) {
@@ -46181,7 +47491,7 @@ class DebugElement extends DebugNode {
    * @param eventName The name of the event to trigger
    * @param eventObj The _event object_ expected by the handler
    *
-   * @see [Testing components scenarios](guide/testing-components-scenarios#trigger-event-handler)
+   * @see [Testing components scenarios](guide/testing/components-scenarios#trigger-event-handler)
    */
   triggerEventHandler(eventName, eventObj) {
     const node = this.nativeNode;
@@ -48202,7 +49512,7 @@ function internalCreateApplication(config) {
     const platformInjector = createOrReusePlatformInjector(platformProviders);
     // Create root application injector based on a set of providers configured at the platform
     // bootstrap level as well as providers passed to the bootstrap call by a user.
-    const allAppProviders = [provideZoneChangeDetection(), ...(appProviders || [])];
+    const allAppProviders = [internalProvideZoneChangeDetection({}), ...(appProviders || [])];
     const adapter = new EnvironmentNgModuleRefAdapter({
       providers: allAppProviders,
       parent: platformInjector,
@@ -48216,8 +49526,13 @@ function internalCreateApplication(config) {
     return ngZone.run(() => {
       envInjector.resolveInjectorInitializers();
       const exceptionHandler = envInjector.get(ErrorHandler, null);
-      if ((typeof ngDevMode === 'undefined' || ngDevMode) && !exceptionHandler) {
-        throw new RuntimeError(402 /* RuntimeErrorCode.MISSING_REQUIRED_INJECTABLE_IN_BOOTSTRAP */, 'No `ErrorHandler` found in the Dependency Injection tree.');
+      if (typeof ngDevMode === 'undefined' || ngDevMode) {
+        if (!exceptionHandler) {
+          throw new RuntimeError(402 /* RuntimeErrorCode.MISSING_REQUIRED_INJECTABLE_IN_BOOTSTRAP */, 'No `ErrorHandler` found in the Dependency Injection tree.');
+        }
+        if (envInjector.get(PROVIDED_ZONELESS) && envInjector.get(PROVIDED_NG_ZONE)) {
+          throw new RuntimeError(408 /* RuntimeErrorCode.PROVIDED_BOTH_ZONE_AND_ZONELESS */, 'Invalid change detection configuration: ' + 'provideZoneChangeDetection and provideExperimentalZonelessChangeDetection cannot be used together.');
+        }
       }
       let onErrorSubscription;
       ngZone.runOutsideAngular(() => {
@@ -48257,99 +49572,6 @@ function internalCreateApplication(config) {
   } catch (e) {
     return Promise.reject(e);
   }
-}
-class ChangeDetectionSchedulerImpl {
-  constructor() {
-    this.appRef = inject(ApplicationRef);
-    this.taskService = inject(PendingTasks);
-    this.pendingRenderTaskId = null;
-    this.shouldRefreshViews = false;
-  }
-  notify(type = 0 /* NotificationType.RefreshViews */) {
-    // When the only source of notification is an afterRender hook will skip straight to the hooks
-    // rather than refreshing views in ApplicationRef.tick
-    this.shouldRefreshViews ||= type === 0 /* NotificationType.RefreshViews */;
-    if (this.pendingRenderTaskId !== null) {
-      return;
-    }
-    this.pendingRenderTaskId = this.taskService.add();
-    this.raceTimeoutAndRequestAnimationFrame();
-  }
-  /**
-   * Run change detection after the first of setTimeout and requestAnimationFrame resolves.
-   *
-   * - `requestAnimationFrame` ensures that change detection runs ahead of a browser repaint.
-   * This ensures that the create and update passes of a change detection always happen
-   * in the same frame.
-   * - When the browser is resource-starved, `rAF` can execute _before_ a `setTimeout` because
-   * rendering is a very high priority process. This means that `setTimeout` cannot guarantee
-   * same-frame create and update pass, when `setTimeout` is used to schedule the update phase.
-   * - While `rAF` gives us the desirable same-frame updates, it has two limitations that
-   * prevent it from being used alone. First, it does not run in background tabs, which would
-   * prevent Angular from initializing an application when opened in a new tab (for example).
-   * Second, repeated calls to requestAnimationFrame will execute at the refresh rate of the
-   * hardware (~16ms for a 60Hz display). This would cause significant slowdown of tests that
-   * are written with several updates and asserts in the form of "update; await stable; assert;".
-   * - Both `setTimeout` and `rAF` are able to "coalesce" several events from a single user
-   * interaction into a single change detection. Importantly, this reduces view tree traversals when
-   * compared to an alternative timing mechanism like `queueMicrotask`, where change detection would
-   * then be interleaves between each event.
-   *
-   * By running change detection after the first of `setTimeout` and `rAF` to execute, we get the
-   * best of both worlds.
-   */
-  raceTimeoutAndRequestAnimationFrame() {
-    var _this = this;
-    return (0,_home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_0_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-      const timeout = new Promise(resolve => setTimeout(resolve));
-      const rAF = typeof _global['requestAnimationFrame'] === 'function' ? new Promise(resolve => requestAnimationFrame(() => resolve())) : null;
-      yield Promise.race([timeout, rAF]);
-      _this.tick();
-    })();
-  }
-  tick() {
-    try {
-      if (!this.appRef.destroyed) {
-        this.appRef._tick(this.shouldRefreshViews);
-      }
-    } finally {
-      this.shouldRefreshViews = false;
-      // If this is the last task, the service will synchronously emit a stable notification. If
-      // there is a subscriber that then acts in a way that tries to notify the scheduler again,
-      // we need to be able to respond to schedule a new change detection. Therefore, we should
-      // clear the task ID before removing it from the pending tasks (or the tasks service should
-      // not synchronously emit stable, similar to how Zone stableness only happens if it's still
-      // stable after a microtask).
-      const taskId = this.pendingRenderTaskId;
-      this.pendingRenderTaskId = null;
-      this.taskService.remove(taskId);
-    }
-  }
-  static #_ = this.ɵfac = function ChangeDetectionSchedulerImpl_Factory(t) {
-    return new (t || ChangeDetectionSchedulerImpl)();
-  };
-  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
-    token: ChangeDetectionSchedulerImpl,
-    factory: ChangeDetectionSchedulerImpl.ɵfac,
-    providedIn: 'root'
-  });
-}
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ChangeDetectionSchedulerImpl, [{
-    type: Injectable,
-    args: [{
-      providedIn: 'root'
-    }]
-  }], null, null);
-})();
-function provideZonelessChangeDetection() {
-  return makeEnvironmentProviders([{
-    provide: ChangeDetectionScheduler,
-    useExisting: ChangeDetectionSchedulerImpl
-  }, {
-    provide: NgZone,
-    useClass: NoopNgZone
-  }]);
 }
 
 /**
@@ -48391,206 +49613,152 @@ function getDeferBlocks(lView, deferBlocks) {
     }
   }
 }
-
-/**
- * Indicates whether the hydration-related code was added,
- * prevents adding it multiple times.
- */
-let isHydrationSupportEnabled = false;
-/**
- * Indicates whether support for hydrating i18n blocks is enabled.
- */
-let _isI18nHydrationSupportEnabled = false;
-/**
- * Defines a period of time that Angular waits for the `ApplicationRef.isStable` to emit `true`.
- * If there was no event with the `true` value during this time, Angular reports a warning.
- */
-const APPLICATION_IS_STABLE_TIMEOUT = 10_000;
-/**
- * Brings the necessary hydration code in tree-shakable manner.
- * The code is only present when the `provideClientHydration` is
- * invoked. Otherwise, this code is tree-shaken away during the
- * build optimization step.
- *
- * This technique allows us to swap implementations of methods so
- * tree shaking works appropriately when hydration is disabled or
- * enabled. It brings in the appropriate version of the method that
- * supports hydration only when enabled.
- */
-function enableHydrationRuntimeSupport() {
-  if (!isHydrationSupportEnabled) {
-    isHydrationSupportEnabled = true;
-    enableRetrieveHydrationInfoImpl();
-    enableLocateOrCreateElementNodeImpl();
-    enableLocateOrCreateTextNodeImpl();
-    enableLocateOrCreateElementContainerNodeImpl();
-    enableLocateOrCreateContainerAnchorImpl();
-    enableLocateOrCreateContainerRefImpl();
-    enableFindMatchingDehydratedViewImpl();
-    enableApplyRootElementTransformImpl();
-    enableLocateOrCreateI18nNodeImpl();
-  }
+const EVENT_REPLAY_ENABLED_DEFAULT = false;
+const CONTRACT_PROPERTY = 'ngContracts';
+// TODO: Upstream this back into event-dispatch.
+function getJsactionData(container) {
+  return container._ejsa;
 }
+const JSACTION_ATTRIBUTE = 'jsaction';
 /**
- * Outputs a message with hydration stats into a console.
+ * Associates a DOM element with `jsaction` attribute to a map that contains info about all event
+ * types (event names) and corresponding listeners.
  */
-function printHydrationStats(injector) {
-  const console = injector.get(Console);
-  const message = `Angular hydrated ${ngDevMode.hydratedComponents} component(s) ` + `and ${ngDevMode.hydratedNodes} node(s), ` + `${ngDevMode.componentsSkippedHydration} component(s) were skipped. ` + `Learn more at https://angular.io/guide/hydration.`;
-  // tslint:disable-next-line:no-console
-  console.log(message);
-}
+const jsactionMap = new Map();
 /**
- * Returns a Promise that is resolved when an application becomes stable.
+ * Returns a set of providers required to setup support for event replay.
+ * Requires hydration to be enabled separately.
  */
-function whenStableWithTimeout(appRef, injector) {
-  const whenStablePromise = whenStable(appRef);
-  if (typeof ngDevMode !== 'undefined' && ngDevMode) {
-    const timeoutTime = APPLICATION_IS_STABLE_TIMEOUT;
-    const console = injector.get(Console);
-    const ngZone = injector.get(NgZone);
-    // The following call should not and does not prevent the app to become stable
-    // We cannot use RxJS timer here because the app would remain unstable.
-    // This also avoids an extra change detection cycle.
-    const timeoutId = ngZone.runOutsideAngular(() => {
-      return setTimeout(() => logWarningOnStableTimedout(timeoutTime, console), timeoutTime);
-    });
-    whenStablePromise.finally(() => clearTimeout(timeoutId));
-  }
-  return whenStablePromise;
-}
-/**
- * Returns a set of providers required to setup hydration support
- * for an application that is server side rendered. This function is
- * included into the `provideClientHydration` public API function from
- * the `platform-browser` package.
- *
- * The function sets up an internal flag that would be recognized during
- * the server side rendering time as well, so there is no need to
- * configure or change anything in NgUniversal to enable the feature.
- */
-function withDomHydration() {
-  return makeEnvironmentProviders([{
-    provide: IS_HYDRATION_DOM_REUSE_ENABLED,
-    useFactory: () => {
-      let isEnabled = true;
-      if (isPlatformBrowser()) {
-        // On the client, verify that the server response contains
-        // hydration annotations. Otherwise, keep hydration disabled.
-        const transferState = inject(TransferState, {
-          optional: true
-        });
-        isEnabled = !!transferState?.get(NGH_DATA_KEY, null);
-        if (!isEnabled && typeof ngDevMode !== 'undefined' && ngDevMode) {
-          const console = inject(Console);
-          const message = formatRuntimeError(-505 /* RuntimeErrorCode.MISSING_HYDRATION_ANNOTATIONS */, 'Angular hydration was requested on the client, but there was no ' + 'serialized information present in the server response, ' + 'thus hydration was not enabled. ' + 'Make sure the `provideClientHydration()` is included into the list ' + 'of providers in the server part of the application configuration.');
-          // tslint:disable-next-line:no-console
-          console.warn(message);
-        }
-      }
-      if (isEnabled) {
-        performanceMarkFeature('NgHydration');
-      }
-      return isEnabled;
-    }
+function withEventReplay() {
+  return [{
+    provide: IS_EVENT_REPLAY_ENABLED,
+    useValue: true
   }, {
     provide: ENVIRONMENT_INITIALIZER,
     useValue: () => {
-      _isI18nHydrationSupportEnabled = !!inject(IS_I18N_HYDRATION_ENABLED, {
-        optional: true
+      setDisableEventReplayImpl((rEl, eventName, listenerFn) => {
+        if (rEl.hasAttribute(JSACTION_ATTRIBUTE)) {
+          const el = rEl;
+          // We don't immediately remove the attribute here because
+          // we need it for replay that happens after hydration.
+          if (!jsactionMap.has(el)) {
+            jsactionMap.set(el, new Map());
+          }
+          const eventMap = jsactionMap.get(el);
+          if (!eventMap.has(eventName)) {
+            eventMap.set(eventName, []);
+          }
+          eventMap.get(eventName).push(listenerFn);
+        }
       });
-      // Since this function is used across both server and client,
-      // make sure that the runtime code is only added when invoked
-      // on the client. Moving forward, the `isPlatformBrowser` check should
-      // be replaced with a tree-shakable alternative (e.g. `isServer`
-      // flag).
-      if (isPlatformBrowser() && inject(IS_HYDRATION_DOM_REUSE_ENABLED)) {
-        verifySsrContentsIntegrity();
-        enableHydrationRuntimeSupport();
-      }
     },
     multi: true
   }, {
-    provide: PRESERVE_HOST_CONTENT,
-    useFactory: () => {
-      // Preserve host element content only in a browser
-      // environment and when hydration is configured properly.
-      // On a server, an application is rendered from scratch,
-      // so the host content needs to be empty.
-      return isPlatformBrowser() && inject(IS_HYDRATION_DOM_REUSE_ENABLED);
-    }
-  }, {
     provide: APP_BOOTSTRAP_LISTENER,
     useFactory: () => {
-      if (isPlatformBrowser() && inject(IS_HYDRATION_DOM_REUSE_ENABLED)) {
-        const appRef = inject(ApplicationRef);
+      if (isPlatformBrowser()) {
         const injector = inject(Injector);
+        const appRef = inject(ApplicationRef);
         return () => {
-          // Wait until an app becomes stable and cleanup all views that
-          // were not claimed during the application bootstrap process.
-          // The timing is similar to when we start the serialization process
-          // on the server.
-          //
-          // Note: the cleanup task *MUST* be scheduled within the Angular zone in Zone apps
-          // to ensure that change detection is properly run afterward.
-          whenStableWithTimeout(appRef, injector).then(() => {
-            cleanupDehydratedViews(appRef);
-            if (typeof ngDevMode !== 'undefined' && ngDevMode) {
-              printHydrationStats(injector);
+          // Kick off event replay logic once hydration for the initial part
+          // of the application is completed. This timing is similar to the unclaimed
+          // dehydrated views cleanup timing.
+          whenStable(appRef).then(() => {
+            const appId = injector.get(APP_ID);
+            // This is set in packages/platform-server/src/utils.ts
+            // Note: globalThis[CONTRACT_PROPERTY] may be undefined in case Event Replay feature
+            // is enabled, but there are no events configured in an application.
+            const container = globalThis[CONTRACT_PROPERTY]?.[appId];
+            const earlyJsactionData = getJsactionData(container);
+            if (earlyJsactionData) {
+              const eventContract = new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventContract(new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventContractContainer(earlyJsactionData.c));
+              for (const et of earlyJsactionData.et) {
+                eventContract.addEvent(et);
+              }
+              for (const et of earlyJsactionData.etc) {
+                eventContract.addEvent(et);
+              }
+              eventContract.replayEarlyEvents(container);
+              const dispatcher = new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.Dispatcher(() => {}, {
+                eventReplayer: queue => {
+                  for (const event of queue) {
+                    handleEvent(event);
+                  }
+                  jsactionMap.clear();
+                  queue.length = 0;
+                }
+              });
+              (0,_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.registerDispatcher)(eventContract, dispatcher);
+              for (const el of jsactionMap.keys()) {
+                el.removeAttribute(JSACTION_ATTRIBUTE);
+              }
             }
           });
         };
       }
-      return () => {}; // noop
+      return () => {}; // noop for the server code
     },
     multi: true
-  }]);
+  }];
 }
 /**
- * Returns a set of providers required to setup support for i18n hydration.
- * Requires hydration to be enabled separately.
+ * Extracts information about all DOM events (added in a template) registered on elements in a give
+ * LView. Maps collected events to a corresponding DOM element (an element is used as a key).
  */
-function withI18nHydration() {
-  return makeEnvironmentProviders([{
-    provide: IS_I18N_HYDRATION_ENABLED,
-    useValue: true
-  }]);
-}
-/**
- * Returns whether i18n hydration support is enabled.
- */
-function isI18nHydrationSupportEnabled() {
-  return _isI18nHydrationSupportEnabled;
-}
-/**
- *
- * @param time The time in ms until the stable timedout warning message is logged
- */
-function logWarningOnStableTimedout(time, console) {
-  const message = `Angular hydration expected the ApplicationRef.isStable() to emit \`true\`, but it ` + `didn't happen within ${time}ms. Angular hydration logic depends on the application becoming stable ` + `as a signal to complete hydration process.`;
-  console.warn(formatRuntimeError(-506 /* RuntimeErrorCode.HYDRATION_STABLE_TIMEDOUT */, message));
-}
-/**
- * Verifies whether the DOM contains a special marker added during SSR time to make sure
- * there is no SSR'ed contents transformations happen after SSR is completed. Typically that
- * happens either by CDN or during the build process as an optimization to remove comment nodes.
- * Hydration process requires comment nodes produced by Angular to locate correct DOM segments.
- * When this special marker is *not* present - throw an error and do not proceed with hydration,
- * since it will not be able to function correctly.
- *
- * Note: this function is invoked only on the client, so it's safe to use DOM APIs.
- */
-function verifySsrContentsIntegrity() {
-  const doc = getDocument();
-  let hydrationMarker;
-  for (const node of doc.body.childNodes) {
-    if (node.nodeType === Node.COMMENT_NODE && node.textContent?.trim() === SSR_CONTENT_INTEGRITY_MARKER) {
-      hydrationMarker = node;
-      break;
+function collectDomEventsInfo(tView, lView, eventTypesToReplay) {
+  const events = new Map();
+  const lCleanup = lView[CLEANUP];
+  const tCleanup = tView.cleanup;
+  if (!tCleanup || !lCleanup) {
+    return events;
+  }
+  for (let i = 0; i < tCleanup.length;) {
+    const firstParam = tCleanup[i++];
+    const secondParam = tCleanup[i++];
+    if (typeof firstParam !== 'string') {
+      continue;
+    }
+    const name = firstParam;
+    if (name === 'mouseenter' || name === 'mouseleave' || name === 'pointerenter' || name === 'pointerleave') {
+      continue;
+    }
+    eventTypesToReplay.add(name);
+    const listenerElement = unwrapRNode(lView[secondParam]);
+    i++; // move the cursor to the next position (location of the listener idx)
+    const useCaptureOrIndx = tCleanup[i++];
+    // if useCaptureOrIndx is boolean then report it as is.
+    // if useCaptureOrIndx is positive number then it in unsubscribe method
+    // if useCaptureOrIndx is negative number then it is a Subscription
+    const isDomEvent = typeof useCaptureOrIndx === 'boolean' || useCaptureOrIndx >= 0;
+    if (!isDomEvent) {
+      continue;
+    }
+    if (!events.has(listenerElement)) {
+      events.set(listenerElement, [name]);
+    } else {
+      events.get(listenerElement).push(name);
     }
   }
-  if (!hydrationMarker) {
-    throw new RuntimeError(-507 /* RuntimeErrorCode.MISSING_SSR_CONTENT_INTEGRITY_MARKER */, typeof ngDevMode !== 'undefined' && ngDevMode && 'Angular hydration logic detected that HTML content of this page was modified after it ' + 'was produced during server side rendering. Make sure that there are no optimizations ' + 'that remove comment nodes from HTML enabled on your CDN. Angular hydration ' + 'relies on HTML produced by the server, including whitespaces and comment nodes.');
+  return events;
+}
+function setJSActionAttribute(tNode, rNode, nativeElementToEvents) {
+  if (tNode.type & 2 /* TNodeType.Element */) {
+    const nativeElement = unwrapRNode(rNode);
+    const events = nativeElementToEvents.get(nativeElement) ?? [];
+    const parts = events.map(event => `${event}:`);
+    if (parts.length > 0) {
+      nativeElement.setAttribute(JSACTION_ATTRIBUTE, parts.join(';'));
+    }
+  }
+}
+function handleEvent(event) {
+  const nativeElement = event.getAction().element;
+  const handlerFns = jsactionMap.get(nativeElement)?.get(event.getEventType());
+  if (!handlerFns) {
+    return;
+  }
+  for (const handler of handlerFns) {
+    handler(event.getEvent());
   }
 }
 
@@ -48702,11 +49870,16 @@ function annotateLContainerForHydration(lContainer, context) {
  *
  * @param appRef An instance of an ApplicationRef.
  * @param doc A reference to the current Document instance.
+ * @return event types that need to be replayed
  */
 function annotateForHydration(appRef, doc) {
+  const injector = appRef.injector;
+  const isI18nHydrationEnabledVal = isI18nHydrationEnabled(injector);
   const serializedViewCollection = new SerializedViewCollection();
   const corruptedTextNodes = new Map();
   const viewRefs = appRef._views;
+  const shouldReplayEvents = injector.get(IS_EVENT_REPLAY_ENABLED, EVENT_REPLAY_ENABLED_DEFAULT);
+  const eventTypesToReplay = new Set();
   for (const viewRef of viewRefs) {
     const lNode = getLNodeForHydration(viewRef);
     // An `lView` might be `null` if a `ViewRef` represents
@@ -48714,7 +49887,11 @@ function annotateForHydration(appRef, doc) {
     if (lNode !== null) {
       const context = {
         serializedViewCollection,
-        corruptedTextNodes
+        corruptedTextNodes,
+        isI18nHydrationEnabled: isI18nHydrationEnabledVal,
+        i18nChildren: new Map(),
+        eventTypesToReplay,
+        shouldReplayEvents
       };
       if (isLContainer(lNode)) {
         annotateLContainerForHydration(lNode, context);
@@ -48730,8 +49907,9 @@ function annotateForHydration(appRef, doc) {
   // hydration logic was setup and enabled correctly. Otherwise, if a client
   // hydration doesn't find a key in the transfer state - an error is produced.
   const serializedViews = serializedViewCollection.getAll();
-  const transferState = appRef.injector.get(TransferState);
+  const transferState = injector.get(TransferState);
   transferState.set(NGH_DATA_KEY, serializedViews);
+  return eventTypesToReplay.size > 0 ? eventTypesToReplay : undefined;
 }
 /**
  * Serializes the lContainer data into a list of SerializedView objects,
@@ -48809,10 +49987,10 @@ function serializeLContainer(lContainer, context) {
  * needs to take to locate a node) and stores it in the `NODES` section of the
  * current serialized view.
  */
-function appendSerializedNodePath(ngh, tNode, lView) {
+function appendSerializedNodePath(ngh, tNode, lView, excludedParentNodes) {
   const noOffsetIndex = tNode.index - HEADER_OFFSET;
   ngh[NODES] ??= {};
-  ngh[NODES][noOffsetIndex] = calcPathForNode(tNode, lView);
+  ngh[NODES][noOffsetIndex] = calcPathForNode(tNode, lView, excludedParentNodes);
 }
 /**
  * Helper function to append information about a disconnected node.
@@ -48838,10 +50016,23 @@ function appendDisconnectedNodeIndex(ngh, tNode) {
 function serializeLView(lView, context) {
   const ngh = {};
   const tView = lView[TVIEW];
+  const i18nChildren = getOrComputeI18nChildren(tView, context);
+  const nativeElementsToEventTypes = context.shouldReplayEvents ? collectDomEventsInfo(tView, lView, context.eventTypesToReplay) : null;
   // Iterate over DOM element references in an LView.
   for (let i = HEADER_OFFSET; i < tView.bindingStartIndex; i++) {
     const tNode = tView.data[i];
     const noOffsetIndex = i - HEADER_OFFSET;
+    if (nativeElementsToEventTypes) {
+      setJSActionAttribute(tNode, lView[i], nativeElementsToEventTypes);
+    }
+    // Attempt to serialize any i18n data for the given slot. We do this first, as i18n
+    // has its own process for serialization.
+    const i18nData = trySerializeI18nBlock(lView, i, context);
+    if (i18nData) {
+      ngh[I18N_DATA] ??= {};
+      ngh[I18N_DATA][noOffsetIndex] = i18nData;
+      continue;
+    }
     // Skip processing of a given slot in the following cases:
     // - Local refs (e.g. <div #localRef>) take up an extra slot in LViews
     //   to store the same element. In this case, there is no information in
@@ -48849,6 +50040,12 @@ function serializeLView(lView, context) {
     // - When a slot contains something other than a TNode. For example, there
     //   might be some metadata information about a defer block or a control flow block.
     if (!isTNodeShape(tNode)) {
+      continue;
+    }
+    // Skip any nodes that are in an i18n block but are considered detached (i.e. not
+    // present in the template). These nodes are disconnected from the DOM tree, and
+    // so we don't want to serialize any information about them.
+    if (isDetachedByI18n(tNode)) {
       continue;
     }
     // Check if a native node that represents a given TNode is disconnected from the DOM tree.
@@ -48879,7 +50076,7 @@ function serializeLView(lView, context) {
               // <ng-content *ngIf="false" />).
               appendDisconnectedNodeIndex(ngh, projectionHeadTNode);
             } else {
-              appendSerializedNodePath(ngh, projectionHeadTNode, lView);
+              appendSerializedNodePath(ngh, projectionHeadTNode, lView, i18nChildren);
             }
           }
         } else {
@@ -48895,7 +50092,7 @@ function serializeLView(lView, context) {
         }
       }
     }
-    conditionallyAnnotateNodePath(ngh, tNode, lView);
+    conditionallyAnnotateNodePath(ngh, tNode, lView, i18nChildren);
     if (isLContainer(lView[i])) {
       // Serialize information about a template.
       const embeddedTView = tNode.tView;
@@ -48942,45 +50139,12 @@ function serializeLView(lView, context) {
         }
         if (nextTNode && !isInSkipHydrationBlock(nextTNode)) {
           // Handle a tNode after the `<ng-content>` slot.
-          appendSerializedNodePath(ngh, nextTNode, lView);
+          appendSerializedNodePath(ngh, nextTNode, lView, i18nChildren);
         }
       } else {
-        // Handle cases where text nodes can be lost after DOM serialization:
-        //  1. When there is an *empty text node* in DOM: in this case, this
-        //     node would not make it into the serialized string and as a result,
-        //     this node wouldn't be created in a browser. This would result in
-        //     a mismatch during the hydration, where the runtime logic would expect
-        //     a text node to be present in live DOM, but no text node would exist.
-        //     Example: `<span>{{ name }}</span>` when the `name` is an empty string.
-        //     This would result in `<span></span>` string after serialization and
-        //     in a browser only the `span` element would be created. To resolve that,
-        //     an extra comment node is appended in place of an empty text node and
-        //     that special comment node is replaced with an empty text node *before*
-        //     hydration.
-        //  2. When there are 2 consecutive text nodes present in the DOM.
-        //     Example: `<div>Hello <ng-container *ngIf="true">world</ng-container></div>`.
-        //     In this scenario, the live DOM would look like this:
-        //       <div>#text('Hello ') #text('world') #comment('container')</div>
-        //     Serialized string would look like this: `<div>Hello world<!--container--></div>`.
-        //     The live DOM in a browser after that would be:
-        //       <div>#text('Hello world') #comment('container')</div>
-        //     Notice how 2 text nodes are now "merged" into one. This would cause hydration
-        //     logic to fail, since it'd expect 2 text nodes being present, not one.
-        //     To fix this, we insert a special comment node in between those text nodes, so
-        //     serialized representation is: `<div>Hello <!--ngtns-->world<!--container--></div>`.
-        //     This forces browser to create 2 text nodes separated by a comment node.
-        //     Before running a hydration process, this special comment node is removed, so the
-        //     live DOM has exactly the same state as it was before serialization.
         if (tNode.type & 1 /* TNodeType.Text */) {
           const rNode = unwrapRNode(lView[i]);
-          // Collect this node as required special annotation only when its
-          // contents is empty. Otherwise, such text node would be present on
-          // the client after server-side rendering and no special handling needed.
-          if (rNode.textContent === '') {
-            context.corruptedTextNodes.set(rNode, "ngetn" /* TextNodeMarker.EmptyNode */);
-          } else if (rNode.nextSibling?.nodeType === Node.TEXT_NODE) {
-            context.corruptedTextNodes.set(rNode, "ngtns" /* TextNodeMarker.Separator */);
-          }
+          processTextNodeBeforeSerialization(context, rNode);
         }
       }
     }
@@ -48993,23 +50157,23 @@ function serializeLView(lView, context) {
  *  1. If `tNode.projectionNext` is different from `tNode.next` - it means that
  *     the next `tNode` after projection is different from the one in the original
  *     template. Since hydration relies on `tNode.next`, this serialized info
- *     if required to help runtime code find the node at the correct location.
+ *     is required to help runtime code find the node at the correct location.
  *  2. In certain content projection-based use-cases, it's possible that only
  *     a content of a projected element is rendered. In this case, content nodes
  *     require an extra annotation, since runtime logic can't rely on parent-child
  *     connection to identify the location of a node.
  */
-function conditionallyAnnotateNodePath(ngh, tNode, lView) {
+function conditionallyAnnotateNodePath(ngh, tNode, lView, excludedParentNodes) {
   // Handle case #1 described above.
   if (tNode.projectionNext && tNode.projectionNext !== tNode.next && !isInSkipHydrationBlock(tNode.projectionNext)) {
-    appendSerializedNodePath(ngh, tNode.projectionNext, lView);
+    appendSerializedNodePath(ngh, tNode.projectionNext, lView, excludedParentNodes);
   }
   // Handle case #2 described above.
   // Note: we only do that for the first node (i.e. when `tNode.prev === null`),
   // the rest of the nodes would rely on the current node location, so no extra
   // annotation is needed.
   if (tNode.prev === null && tNode.parent !== null && isDisconnectedNode(tNode.parent, lView) && !isDisconnectedNode(tNode, lView)) {
-    appendSerializedNodePath(ngh, tNode, lView);
+    appendSerializedNodePath(ngh, tNode, lView, excludedParentNodes);
   }
 }
 /**
@@ -49079,6 +50243,227 @@ function isContentProjectedNode(tNode) {
     currentTNode = currentTNode.parent;
   }
   return false;
+}
+
+/**
+ * Indicates whether the hydration-related code was added,
+ * prevents adding it multiple times.
+ */
+let isHydrationSupportEnabled = false;
+/**
+ * Indicates whether the i18n-related code was added,
+ * prevents adding it multiple times.
+ *
+ * Note: This merely controls whether the code is loaded,
+ * while `setIsI18nHydrationSupportEnabled` determines
+ * whether i18n blocks are serialized or hydrated.
+ */
+let isI18nHydrationRuntimeSupportEnabled = false;
+/**
+ * Defines a period of time that Angular waits for the `ApplicationRef.isStable` to emit `true`.
+ * If there was no event with the `true` value during this time, Angular reports a warning.
+ */
+const APPLICATION_IS_STABLE_TIMEOUT = 10_000;
+/**
+ * Brings the necessary hydration code in tree-shakable manner.
+ * The code is only present when the `provideClientHydration` is
+ * invoked. Otherwise, this code is tree-shaken away during the
+ * build optimization step.
+ *
+ * This technique allows us to swap implementations of methods so
+ * tree shaking works appropriately when hydration is disabled or
+ * enabled. It brings in the appropriate version of the method that
+ * supports hydration only when enabled.
+ */
+function enableHydrationRuntimeSupport() {
+  if (!isHydrationSupportEnabled) {
+    isHydrationSupportEnabled = true;
+    enableRetrieveHydrationInfoImpl();
+    enableLocateOrCreateElementNodeImpl();
+    enableLocateOrCreateTextNodeImpl();
+    enableLocateOrCreateElementContainerNodeImpl();
+    enableLocateOrCreateContainerAnchorImpl();
+    enableLocateOrCreateContainerRefImpl();
+    enableFindMatchingDehydratedViewImpl();
+    enableApplyRootElementTransformImpl();
+  }
+}
+/**
+ * Brings the necessary i18n hydration code in tree-shakable manner.
+ * Similar to `enableHydrationRuntimeSupport`, the code is only
+ * present when `withI18nSupport` is invoked.
+ */
+function enableI18nHydrationRuntimeSupport() {
+  if (!isI18nHydrationRuntimeSupportEnabled) {
+    isI18nHydrationRuntimeSupportEnabled = true;
+    enableLocateOrCreateI18nNodeImpl();
+    enablePrepareI18nBlockForHydrationImpl();
+    enableClaimDehydratedIcuCaseImpl();
+  }
+}
+/**
+ * Outputs a message with hydration stats into a console.
+ */
+function printHydrationStats(injector) {
+  const console = injector.get(Console);
+  const message = `Angular hydrated ${ngDevMode.hydratedComponents} component(s) ` + `and ${ngDevMode.hydratedNodes} node(s), ` + `${ngDevMode.componentsSkippedHydration} component(s) were skipped. ` + `Learn more at https://angular.io/guide/hydration.`;
+  // tslint:disable-next-line:no-console
+  console.log(message);
+}
+/**
+ * Returns a Promise that is resolved when an application becomes stable.
+ */
+function whenStableWithTimeout(appRef, injector) {
+  const whenStablePromise = whenStable(appRef);
+  if (typeof ngDevMode !== 'undefined' && ngDevMode) {
+    const timeoutTime = APPLICATION_IS_STABLE_TIMEOUT;
+    const console = injector.get(Console);
+    const ngZone = injector.get(NgZone);
+    // The following call should not and does not prevent the app to become stable
+    // We cannot use RxJS timer here because the app would remain unstable.
+    // This also avoids an extra change detection cycle.
+    const timeoutId = ngZone.runOutsideAngular(() => {
+      return setTimeout(() => logWarningOnStableTimedout(timeoutTime, console), timeoutTime);
+    });
+    whenStablePromise.finally(() => clearTimeout(timeoutId));
+  }
+  return whenStablePromise;
+}
+/**
+ * Returns a set of providers required to setup hydration support
+ * for an application that is server side rendered. This function is
+ * included into the `provideClientHydration` public API function from
+ * the `platform-browser` package.
+ *
+ * The function sets up an internal flag that would be recognized during
+ * the server side rendering time as well, so there is no need to
+ * configure or change anything in NgUniversal to enable the feature.
+ */
+function withDomHydration() {
+  return makeEnvironmentProviders([{
+    provide: IS_HYDRATION_DOM_REUSE_ENABLED,
+    useFactory: () => {
+      let isEnabled = true;
+      if (isPlatformBrowser()) {
+        // On the client, verify that the server response contains
+        // hydration annotations. Otherwise, keep hydration disabled.
+        const transferState = inject(TransferState, {
+          optional: true
+        });
+        isEnabled = !!transferState?.get(NGH_DATA_KEY, null);
+        if (!isEnabled && typeof ngDevMode !== 'undefined' && ngDevMode) {
+          const console = inject(Console);
+          const message = formatRuntimeError(-505 /* RuntimeErrorCode.MISSING_HYDRATION_ANNOTATIONS */, 'Angular hydration was requested on the client, but there was no ' + 'serialized information present in the server response, ' + 'thus hydration was not enabled. ' + 'Make sure the `provideClientHydration()` is included into the list ' + 'of providers in the server part of the application configuration.');
+          // tslint:disable-next-line:no-console
+          console.warn(message);
+        }
+      }
+      if (isEnabled) {
+        performanceMarkFeature('NgHydration');
+      }
+      return isEnabled;
+    }
+  }, {
+    provide: ENVIRONMENT_INITIALIZER,
+    useValue: () => {
+      // i18n support is enabled by calling withI18nSupport(), but there's
+      // no way to turn it off (e.g. for tests), so we turn it off by default.
+      setIsI18nHydrationSupportEnabled(false);
+      // Since this function is used across both server and client,
+      // make sure that the runtime code is only added when invoked
+      // on the client. Moving forward, the `isPlatformBrowser` check should
+      // be replaced with a tree-shakable alternative (e.g. `isServer`
+      // flag).
+      if (isPlatformBrowser() && inject(IS_HYDRATION_DOM_REUSE_ENABLED)) {
+        verifySsrContentsIntegrity();
+        enableHydrationRuntimeSupport();
+      }
+    },
+    multi: true
+  }, {
+    provide: PRESERVE_HOST_CONTENT,
+    useFactory: () => {
+      // Preserve host element content only in a browser
+      // environment and when hydration is configured properly.
+      // On a server, an application is rendered from scratch,
+      // so the host content needs to be empty.
+      return isPlatformBrowser() && inject(IS_HYDRATION_DOM_REUSE_ENABLED);
+    }
+  }, {
+    provide: APP_BOOTSTRAP_LISTENER,
+    useFactory: () => {
+      if (isPlatformBrowser() && inject(IS_HYDRATION_DOM_REUSE_ENABLED)) {
+        const appRef = inject(ApplicationRef);
+        const injector = inject(Injector);
+        return () => {
+          // Wait until an app becomes stable and cleanup all views that
+          // were not claimed during the application bootstrap process.
+          // The timing is similar to when we start the serialization process
+          // on the server.
+          //
+          // Note: the cleanup task *MUST* be scheduled within the Angular zone in Zone apps
+          // to ensure that change detection is properly run afterward.
+          whenStableWithTimeout(appRef, injector).then(() => {
+            cleanupDehydratedViews(appRef);
+            if (typeof ngDevMode !== 'undefined' && ngDevMode) {
+              printHydrationStats(injector);
+            }
+          });
+        };
+      }
+      return () => {}; // noop
+    },
+    multi: true
+  }]);
+}
+/**
+ * Returns a set of providers required to setup support for i18n hydration.
+ * Requires hydration to be enabled separately.
+ */
+function withI18nSupport() {
+  return [{
+    provide: IS_I18N_HYDRATION_ENABLED,
+    useValue: true
+  }, {
+    provide: ENVIRONMENT_INITIALIZER,
+    useValue: () => {
+      enableI18nHydrationRuntimeSupport();
+      setIsI18nHydrationSupportEnabled(true);
+      performanceMarkFeature('NgI18nHydration');
+    },
+    multi: true
+  }];
+}
+/**
+ *
+ * @param time The time in ms until the stable timedout warning message is logged
+ */
+function logWarningOnStableTimedout(time, console) {
+  const message = `Angular hydration expected the ApplicationRef.isStable() to emit \`true\`, but it ` + `didn't happen within ${time}ms. Angular hydration logic depends on the application becoming stable ` + `as a signal to complete hydration process.`;
+  console.warn(formatRuntimeError(-506 /* RuntimeErrorCode.HYDRATION_STABLE_TIMEDOUT */, message));
+}
+/**
+ * Verifies whether the DOM contains a special marker added during SSR time to make sure
+ * there is no SSR'ed contents transformations happen after SSR is completed. Typically that
+ * happens either by CDN or during the build process as an optimization to remove comment nodes.
+ * Hydration process requires comment nodes produced by Angular to locate correct DOM segments.
+ * When this special marker is *not* present - throw an error and do not proceed with hydration,
+ * since it will not be able to function correctly.
+ *
+ * Note: this function is invoked only on the client, so it's safe to use DOM APIs.
+ */
+function verifySsrContentsIntegrity() {
+  const doc = getDocument();
+  let hydrationMarker;
+  for (const node of doc.body.childNodes) {
+    if (node.nodeType === Node.COMMENT_NODE && node.textContent?.trim() === SSR_CONTENT_INTEGRITY_MARKER) {
+      hydrationMarker = node;
+      break;
+    }
+  }
+  if (!hydrationMarker) {
+    throw new RuntimeError(-507 /* RuntimeErrorCode.MISSING_SSR_CONTENT_INTEGRITY_MARKER */, typeof ngDevMode !== 'undefined' && ngDevMode && 'Angular hydration logic detected that HTML content of this page was modified after it ' + 'was produced during server side rendering. Make sure that there are no optimizations ' + 'that remove comment nodes from HTML enabled on your CDN. Angular hydration ' + 'relies on HTML produced by the server, including whitespaces and comment nodes.');
+  }
 }
 
 /**
@@ -49167,6 +50552,17 @@ function ɵɵngDeclareDirective(decl) {
  */
 function ɵɵngDeclareClassMetadata(decl) {
   setClassMetadata(decl.type, decl.decorators, decl.ctorParameters ?? null, decl.propDecorators ?? null);
+}
+/**
+ * Evaluates the class metadata of a component that contains deferred blocks.
+ *
+ * @codeGenApi
+ */
+function ɵɵngDeclareClassMetadataAsync(decl) {
+  setClassMetadataAsync(decl.type, decl.resolveDeferredDeps, (...types) => {
+    const meta = decl.resolveMetadata(...types);
+    setClassMetadata(decl.type, meta.decorators, meta.ctorParameters, meta.propDecorators);
+  });
 }
 /**
  * Compiles a partial component declaration object into a full component definition object.
@@ -49261,17 +50657,16 @@ function ɵɵngDeclarePipe(decl) {
   return compiler.compilePipeDeclaration(angularCoreEnv, `ng:///${decl.type.name}/ɵpipe.js`, decl);
 }
 
-// clang-format off
-// clang-format on
+// we reexport these symbols just so that they are retained during the dead code elimination
 
 /**
  * Create a computed `Signal` which derives a reactive value from an expression.
  */
 function computed(computation, options) {
   performanceMarkFeature('NgSignals');
-  const getter = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.createComputed)(computation);
+  const getter = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.createComputed)(computation);
   if (options?.equal) {
-    getter[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.SIGNAL].equal = options.equal;
+    getter[_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.SIGNAL].equal = options.equal;
   }
   if (ngDevMode) {
     getter.toString = () => `[Computed: ${getter()}]`;
@@ -49284,13 +50679,13 @@ function computed(computation, options) {
  * can, optionally, return a value.
  */
 function untracked(nonReactiveReadsFn) {
-  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(null);
+  const prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(null);
   // We are not trying to catch any particular errors here, just making sure that the consumers
   // stack is restored in case of errors.
   try {
     return nonReactiveReadsFn();
   } finally {
-    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.setActiveConsumer)(prevConsumer);
+    (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.setActiveConsumer)(prevConsumer);
   }
 }
 
@@ -49387,7 +50782,7 @@ class EffectHandle {
     this.effectFn = effectFn;
     this.creationZone = creationZone;
     this.injector = injector;
-    this.watcher = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_1__.createWatch)(onCleanup => this.runEffect(onCleanup), () => this.schedule(), allowSignalWrites);
+    this.watcher = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.createWatch)(onCleanup => this.runEffect(onCleanup), () => this.schedule(), allowSignalWrites);
     this.unregisterOnDestroy = destroyRef?.onDestroy(() => this.destroy());
   }
   runEffect(onCleanup) {
@@ -49450,9 +50845,6 @@ function effect(effectFn, options) {
   return handle;
 }
 
-// clang-format off
-// clang-format on
-
 // This file exists to allow the set of reactivity exports to be modified in g3, as these APIs are
 
 /**
@@ -49502,13 +50894,12 @@ function effect(effectFn, options) {
  *
  * @param component Component class reference.
  * @param options Set of options to use:
- *  * `environmentInjector`: An `EnvironmentInjector` instance to be used for the component, see
- * additional info about it [here](/guide/standalone-components#environment-injectors).
+ *  * `environmentInjector`: An `EnvironmentInjector` instance to be used for the component.
  *  * `hostElement` (optional): A DOM node that should act as a host node for the component. If not
  * provided, Angular creates one based on the tag name used in the component selector (and falls
  * back to using `div` if selector doesn't have tag name info).
  *  * `elementInjector` (optional): An `ElementInjector` instance, see additional info about it
- * [here](/guide/hierarchical-dependency-injection#elementinjector).
+ * [here](guide/di/hierarchical-dependency-injection#elementinjector).
  *  * `projectableNodes` (optional): A list of DOM nodes that should be projected through
  *                      [`<ng-content>`](api/core/ng-content) of the new component instance.
  * @returns ComponentRef instance that represents a given Component.
@@ -49618,7 +51009,7 @@ if (typeof ngDevMode !== 'undefined' && ngDevMode) {
   // installed `@angular/localize` in their app.
   // tslint:disable-next-line: no-toplevel-property-access
   _global.$localize ??= function () {
-    throw new Error('It looks like your application or one of its dependencies is using i18n.\n' + 'Angular 9 introduced a global `$localize()` function that needs to be loaded.\n' + 'Please run `ng add @angular/localize` from the Angular CLI.\n' + '(For non-CLI projects, add `import \'@angular/localize/init\';` to your `polyfills.ts` file.\n' + 'For server-side rendering applications add the import to your `main.server.ts` file.)');
+    throw new Error('It looks like your application or one of its dependencies is using i18n.\n' + 'Angular 9 introduced a global `$localize()` function that needs to be loaded.\n' + 'Please run `ng add @angular/localize` from the Angular CLI.\n' + "(For non-CLI projects, add `import '@angular/localize/init';` to your `polyfills.ts` file.\n" + 'For server-side rendering applications add the import to your `main.server.ts` file.)');
   };
 }
 
@@ -49643,9 +51034,2066 @@ if (typeof ngDevMode !== 'undefined' && ngDevMode) {
 
 /***/ }),
 
-/***/ 7151:
+/***/ 526:
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6/node_modules/@angular/core/fesm2022/primitives/event-dispatch.mjs ***!
+  \*********************************************************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Dispatcher: () => (/* binding */ Dispatcher),
+/* harmony export */   EventContract: () => (/* binding */ EventContract),
+/* harmony export */   EventContractContainer: () => (/* binding */ EventContractContainer),
+/* harmony export */   EventInfoWrapper: () => (/* binding */ EventInfoWrapper),
+/* harmony export */   bootstrapEarlyEventContract: () => (/* binding */ bootstrapEarlyEventContract),
+/* harmony export */   registerDispatcher: () => (/* binding */ registerDispatcher)
+/* harmony export */ });
+/**
+ * @license Angular v18.0.0
+ * (c) 2010-2024 Google LLC. https://angular.io/
+ * License: MIT
+ */
+
+/** Added for readability when accessing stable property names. */
+function getEventType(eventInfo) {
+  return eventInfo.eventType;
+}
+/** Added for readability when accessing stable property names. */
+function setEventType(eventInfo, eventType) {
+  eventInfo.eventType = eventType;
+}
+/** Added for readability when accessing stable property names. */
+function getEvent(eventInfo) {
+  return eventInfo.event;
+}
+/** Added for readability when accessing stable property names. */
+function setEvent(eventInfo, event) {
+  eventInfo.event = event;
+}
+/** Added for readability when accessing stable property names. */
+function getTargetElement(eventInfo) {
+  return eventInfo.targetElement;
+}
+/** Added for readability when accessing stable property names. */
+function setTargetElement(eventInfo, targetElement) {
+  eventInfo.targetElement = targetElement;
+}
+/** Added for readability when accessing stable property names. */
+function getContainer(eventInfo) {
+  return eventInfo.eic;
+}
+/** Added for readability when accessing stable property names. */
+function setContainer(eventInfo, container) {
+  eventInfo.eic = container;
+}
+/** Added for readability when accessing stable property names. */
+function getTimestamp(eventInfo) {
+  return eventInfo.timeStamp;
+}
+/** Added for readability when accessing stable property names. */
+function setTimestamp(eventInfo, timestamp) {
+  eventInfo.timeStamp = timestamp;
+}
+/** Added for readability when accessing stable property names. */
+function getAction(eventInfo) {
+  return eventInfo.eia;
+}
+/** Added for readability when accessing stable property names. */
+function setAction(eventInfo, actionName, actionElement) {
+  eventInfo.eia = [actionName, actionElement];
+}
+/** Added for readability when accessing stable property names. */
+function unsetAction(eventInfo) {
+  eventInfo.eia = undefined;
+}
+/** Added for readability when accessing stable property names. */
+function getActionName(actionInfo) {
+  return actionInfo[0];
+}
+/** Added for readability when accessing stable property names. */
+function getActionElement(actionInfo) {
+  return actionInfo[1];
+}
+/** Added for readability when accessing stable property names. */
+function getIsReplay(eventInfo) {
+  return eventInfo.eirp;
+}
+/** Added for readability when accessing stable property names. */
+function setIsReplay(eventInfo, replay) {
+  eventInfo.eirp = replay;
+}
+/** Added for readability when accessing stable property names. */
+function getA11yClickKey(eventInfo) {
+  return eventInfo.eiack;
+}
+/** Added for readability when accessing stable property names. */
+function setA11yClickKey(eventInfo, a11yClickKey) {
+  eventInfo.eiack = a11yClickKey;
+}
+/** Added for readability when accessing stable property names. */
+function getResolved(eventInfo) {
+  return eventInfo.eir;
+}
+/** Added for readability when accessing stable property names. */
+function setResolved(eventInfo, resolved) {
+  eventInfo.eir = resolved;
+}
+/** Clones an `EventInfo` */
+function cloneEventInfo(eventInfo) {
+  return {
+    eventType: eventInfo.eventType,
+    event: eventInfo.event,
+    targetElement: eventInfo.targetElement,
+    eic: eventInfo.eic,
+    eia: eventInfo.eia,
+    timeStamp: eventInfo.timeStamp,
+    eirp: eventInfo.eirp,
+    eiack: eventInfo.eiack,
+    eir: eventInfo.eir
+  };
+}
+/**
+ * Utility function for creating an `EventInfo`.
+ *
+ * This can be used from code-size sensitive compilation units, as taking
+ * parameters vs. an `Object` literal reduces code size.
+ */
+function createEventInfoFromParameters(eventType, event, targetElement, container, timestamp, action, isReplay, a11yClickKey) {
+  return {
+    eventType,
+    event,
+    targetElement,
+    eic: container,
+    timeStamp: timestamp,
+    eia: action,
+    eirp: isReplay,
+    eiack: a11yClickKey
+  };
+}
+/**
+ * Utility function for creating an `EventInfo`.
+ *
+ * This should be used in compilation units that are less sensitive to code
+ * size.
+ */
+function createEventInfo({
+  eventType,
+  event,
+  targetElement,
+  container,
+  timestamp,
+  action,
+  isReplay,
+  a11yClickKey
+}) {
+  return {
+    eventType,
+    event,
+    targetElement,
+    eic: container,
+    timeStamp: timestamp,
+    eia: action ? [action.name, action.element] : undefined,
+    eirp: isReplay,
+    eiack: a11yClickKey
+  };
+}
+/**
+ * Utility class around an `EventInfo`.
+ *
+ * This should be used in compilation units that are less sensitive to code
+ * size.
+ */
+class EventInfoWrapper {
+  constructor(eventInfo) {
+    this.eventInfo = eventInfo;
+  }
+  getEventType() {
+    return getEventType(this.eventInfo);
+  }
+  setEventType(eventType) {
+    setEventType(this.eventInfo, eventType);
+  }
+  getEvent() {
+    return getEvent(this.eventInfo);
+  }
+  setEvent(event) {
+    setEvent(this.eventInfo, event);
+  }
+  getTargetElement() {
+    return getTargetElement(this.eventInfo);
+  }
+  setTargetElement(targetElement) {
+    setTargetElement(this.eventInfo, targetElement);
+  }
+  getContainer() {
+    return getContainer(this.eventInfo);
+  }
+  setContainer(container) {
+    setContainer(this.eventInfo, container);
+  }
+  getTimestamp() {
+    return getTimestamp(this.eventInfo);
+  }
+  setTimestamp(timestamp) {
+    setTimestamp(this.eventInfo, timestamp);
+  }
+  getAction() {
+    const action = getAction(this.eventInfo);
+    if (!action) return undefined;
+    return {
+      name: action[0],
+      element: action[1]
+    };
+  }
+  setAction(action) {
+    if (!action) {
+      unsetAction(this.eventInfo);
+      return;
+    }
+    setAction(this.eventInfo, action.name, action.element);
+  }
+  getIsReplay() {
+    return getIsReplay(this.eventInfo);
+  }
+  setIsReplay(replay) {
+    setIsReplay(this.eventInfo, replay);
+  }
+  getResolved() {
+    return getResolved(this.eventInfo);
+  }
+  setResolved(resolved) {
+    setResolved(this.eventInfo, resolved);
+  }
+  clone() {
+    return new EventInfoWrapper(cloneEventInfo(this.eventInfo));
+  }
+}
+
+/*
+ * Names of events that are special to jsaction. These are not all
+ * event types that are legal to use in either HTML or the addEvent()
+ * API, but these are the ones that are treated specially. All other
+ * DOM events can be used in either addEvent() or in the value of the
+ * jsaction attribute. Beware of browser specific events or events
+ * that don't bubble though: If they are not mentioned here, then
+ * event contract doesn't work around their peculiarities.
+ */
+const EventType = {
+  /**
+   * Mouse middle click, introduced in Chrome 55 and not yet supported on
+   * other browsers.
+   */
+  AUXCLICK: 'auxclick',
+  /**
+   * The change event fired by browsers when the `value` attribute of input,
+   * select, and textarea elements are changed.
+   */
+  CHANGE: 'change',
+  /**
+   * The click event. In addEvent() refers to all click events, in the
+   * jsaction attribute it refers to the unmodified click and Enter/Space
+   * keypress events.  In the latter case, a jsaction click will be triggered,
+   * for accessibility reasons.  See clickmod and clickonly, below.
+   */
+  CLICK: 'click',
+  /**
+   * Specifies the jsaction for a modified click event (i.e. a mouse
+   * click with the modifier key Cmd/Ctrl pressed). This event isn't
+   * separately enabled in addEvent(), because in the DOM, it's just a
+   * click event.
+   */
+  CLICKMOD: 'clickmod',
+  /**
+   * Specifies the jsaction for a click-only event.  Click-only doesn't take
+   * into account the case where an element with focus receives an Enter/Space
+   * keypress.  This event isn't separately enabled in addEvent().
+   */
+  CLICKONLY: 'clickonly',
+  /**
+   * The dblclick event.
+   */
+  DBLCLICK: 'dblclick',
+  /**
+   * Focus doesn't bubble, but you can use it in addEvent() and
+   * jsaction anyway. EventContract does the right thing under the
+   * hood.
+   */
+  FOCUS: 'focus',
+  /**
+   * This event only exists in IE. For addEvent() and jsaction, use
+   * focus instead; EventContract does the right thing even though
+   * focus doesn't bubble.
+   */
+  FOCUSIN: 'focusin',
+  /**
+   * Analog to focus.
+   */
+  BLUR: 'blur',
+  /**
+   * Analog to focusin.
+   */
+  FOCUSOUT: 'focusout',
+  /**
+   * Submit doesn't bubble, so it cannot be used with event
+   * contract. However, the browser helpfully fires a click event on
+   * the submit button of a form (even if the form is not submitted by
+   * a click on the submit button). So you should handle click on the
+   * submit button instead.
+   */
+  SUBMIT: 'submit',
+  /**
+   * The keydown event. In addEvent() and non-click jsaction it represents the
+   * regular DOM keydown event. It represents click actions in non-Gecko
+   * browsers.
+   */
+  KEYDOWN: 'keydown',
+  /**
+   * The keypress event. In addEvent() and non-click jsaction it represents the
+   * regular DOM keypress event. It represents click actions in Gecko browsers.
+   */
+  KEYPRESS: 'keypress',
+  /**
+   * The keyup event. In addEvent() and non-click jsaction it represents the
+   * regular DOM keyup event. It represents click actions in non-Gecko
+   * browsers.
+   */
+  KEYUP: 'keyup',
+  /**
+   * The mouseup event. Can either be used directly or used implicitly to
+   * capture mouseup events. In addEvent(), it represents a regular DOM
+   * mouseup event.
+   */
+  MOUSEUP: 'mouseup',
+  /**
+   * The mousedown event. Can either be used directly or used implicitly to
+   * capture mouseenter events. In addEvent(), it represents a regular DOM
+   * mouseover event.
+   */
+  MOUSEDOWN: 'mousedown',
+  /**
+   * The mouseover event. Can either be used directly or used implicitly to
+   * capture mouseenter events. In addEvent(), it represents a regular DOM
+   * mouseover event.
+   */
+  MOUSEOVER: 'mouseover',
+  /**
+   * The mouseout event. Can either be used directly or used implicitly to
+   * capture mouseover events. In addEvent(), it represents a regular DOM
+   * mouseout event.
+   */
+  MOUSEOUT: 'mouseout',
+  /**
+   * The mouseenter event. Does not bubble and fires individually on each
+   * element being entered within a DOM tree.
+   */
+  MOUSEENTER: 'mouseenter',
+  /**
+   * The mouseleave event. Does not bubble and fires individually on each
+   * element being entered within a DOM tree.
+   */
+  MOUSELEAVE: 'mouseleave',
+  /**
+   * The mousemove event.
+   */
+  MOUSEMOVE: 'mousemove',
+  /**
+   * The pointerup event. Can either be used directly or used implicitly to
+   * capture pointerup events. In addEvent(), it represents a regular DOM
+   * pointerup event.
+   */
+  POINTERUP: 'pointerup',
+  /**
+   * The pointerdown event. Can either be used directly or used implicitly to
+   * capture pointerenter events. In addEvent(), it represents a regular DOM
+   * mouseover event.
+   */
+  POINTERDOWN: 'pointerdown',
+  /**
+   * The pointerover event. Can either be used directly or used implicitly to
+   * capture pointerenter events. In addEvent(), it represents a regular DOM
+   * pointerover event.
+   */
+  POINTEROVER: 'pointerover',
+  /**
+   * The pointerout event. Can either be used directly or used implicitly to
+   * capture pointerover events. In addEvent(), it represents a regular DOM
+   * pointerout event.
+   */
+  POINTEROUT: 'pointerout',
+  /**
+   * The pointerenter event. Does not bubble and fires individually on each
+   * element being entered within a DOM tree.
+   */
+  POINTERENTER: 'pointerenter',
+  /**
+   * The pointerleave event. Does not bubble and fires individually on each
+   * element being entered within a DOM tree.
+   */
+  POINTERLEAVE: 'pointerleave',
+  /**
+   * The pointermove event.
+   */
+  POINTERMOVE: 'pointermove',
+  /**
+   * The pointercancel event.
+   */
+  POINTERCANCEL: 'pointercancel',
+  /**
+   * The gotpointercapture event is fired when
+   * Element.setPointerCapture(pointerId) is called on a mouse input, or
+   * implicitly when a touch input begins.
+   */
+  GOTPOINTERCAPTURE: 'gotpointercapture',
+  /**
+   * The lostpointercapture event is fired when
+   * Element.releasePointerCapture(pointerId) is called, or implicitly after a
+   * touch input ends.
+   */
+  LOSTPOINTERCAPTURE: 'lostpointercapture',
+  /**
+   * The error event. The error event doesn't bubble, but you can use it in
+   * addEvent() and jsaction anyway. EventContract does the right thing under
+   * the hood (except in IE8 which does not use error events).
+   */
+  ERROR: 'error',
+  /**
+   * The load event. The load event doesn't bubble, but you can use it in
+   * addEvent() and jsaction anyway. EventContract does the right thing
+   * under the hood.
+   */
+  LOAD: 'load',
+  /**
+   * The unload event.
+   */
+  UNLOAD: 'unload',
+  /**
+   * The touchstart event. Bubbles, will only ever fire in browsers with
+   * touch support.
+   */
+  TOUCHSTART: 'touchstart',
+  /**
+   * The touchend event. Bubbles, will only ever fire in browsers with
+   * touch support.
+   */
+  TOUCHEND: 'touchend',
+  /**
+   * The touchmove event. Bubbles, will only ever fire in browsers with
+   * touch support.
+   */
+  TOUCHMOVE: 'touchmove',
+  /**
+   * The input event.
+   */
+  INPUT: 'input',
+  /**
+   * The scroll event.
+   */
+  SCROLL: 'scroll',
+  /**
+   * The toggle event. The toggle event doesn't bubble, but you can use it in
+   * addEvent() and jsaction anyway. EventContract does the right thing
+   * under the hood.
+   */
+  TOGGLE: 'toggle',
+  /**
+   * A custom event. The actual custom event type is declared as the 'type'
+   * field in the event details. Supported in Firefox 6+, IE 9+, and all Chrome
+   * versions.
+   *
+   * This is an internal name. Users should use jsaction's fireCustomEvent to
+   * fire custom events instead of relying on this type to create them.
+   */
+  CUSTOM: '_custom'
+};
+
+/**
+ * @fileoverview An enum to control who can call certain jsaction APIs.
+ */
+var Restriction;
+(function (Restriction) {
+  Restriction[Restriction["I_AM_THE_JSACTION_FRAMEWORK"] = 0] = "I_AM_THE_JSACTION_FRAMEWORK";
+})(Restriction || (Restriction = {}));
+
+/**
+ * Determines if one node is contained within another. Adapted from
+ * {@see goog.dom.contains}.
+ * @param node Node that should contain otherNode.
+ * @param otherNode Node being contained.
+ * @return True if otherNode is contained within node.
+ */
+function contains(node, otherNode) {
+  if (otherNode === null) {
+    return false;
+  }
+  // We use browser specific methods for this if available since it is faster
+  // that way.
+  // IE DOM
+  if ('contains' in node && otherNode.nodeType === 1) {
+    return node.contains(otherNode);
+  }
+  // W3C DOM Level 3
+  if ('compareDocumentPosition' in node) {
+    return node === otherNode || Boolean(node.compareDocumentPosition(otherNode) & 16);
+  }
+  // W3C DOM Level 1
+  while (otherNode && node !== otherNode) {
+    otherNode = otherNode.parentNode;
+  }
+  return otherNode === node;
+}
+/**
+ * Helper method for broadcastCustomEvent. Returns true if any member of
+ * the set is an ancestor of element.
+ */
+function hasAncestorInNodeList(element, nodeList) {
+  for (let idx = 0; idx < nodeList.length; ++idx) {
+    const member = nodeList[idx];
+    if (member !== element && contains(member, element)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+/**
+ * If on a Macintosh with an extended keyboard, the Enter key located in the
+ * numeric pad has a different ASCII code.
+ */
+const MAC_ENTER = 3;
+/** The Enter key. */
+const ENTER = 13;
+/** The Space key. */
+const SPACE = 32;
+/** Special keycodes used by jsaction for the generic click action. */
+const KeyCode = {
+  MAC_ENTER,
+  ENTER,
+  SPACE
+};
+
+/**
+ * Gets a browser event type, if it would differ from the JSAction event type.
+ */
+function getBrowserEventType(eventType) {
+  // Mouseenter and mouseleave events are not handled directly because they
+  // are not available everywhere. In browsers where they are available, they
+  // don't bubble and aren't visible at the container boundary. Instead, we
+  // synthesize the mouseenter and mouseleave events from mouseover and
+  // mouseout events, respectively. Cf. eventcontract.js.
+  if (eventType === EventType.MOUSEENTER) {
+    return EventType.MOUSEOVER;
+  } else if (eventType === EventType.MOUSELEAVE) {
+    return EventType.MOUSEOUT;
+  } else if (eventType === EventType.POINTERENTER) {
+    return EventType.POINTEROVER;
+  } else if (eventType === EventType.POINTERLEAVE) {
+    return EventType.POINTEROUT;
+  }
+  return eventType;
+}
+/**
+ * Registers the event handler function with the given DOM element for
+ * the given event type.
+ *
+ * @param element The element.
+ * @param eventType The event type.
+ * @param handler The handler function to install.
+ * @return Information needed to uninstall the event handler eventually.
+ */
+function addEventListener(element, eventType, handler) {
+  // All event handlers are registered in the bubbling
+  // phase.
+  //
+  // All browsers support focus and blur, but these events only are propagated
+  // in the capture phase. Very legacy browsers do not support focusin or
+  // focusout.
+  //
+  // It would be a bad idea to register all event handlers in the
+  // capture phase because then regular onclick handlers would not be
+  // executed at all on events that trigger a jsaction. That's not
+  // entirely what we want, at least for now.
+  //
+  // Error and load events (i.e. on images) do not bubble so they are also
+  // handled in the capture phase.
+  let capture = false;
+  if (eventType === EventType.FOCUS || eventType === EventType.BLUR || eventType === EventType.ERROR || eventType === EventType.LOAD || eventType === EventType.TOGGLE) {
+    capture = true;
+  }
+  element.addEventListener(eventType, handler, capture);
+  return {
+    eventType,
+    handler,
+    capture
+  };
+}
+/**
+ * Removes the event handler for the given event from the element.
+ * the given event type.
+ *
+ * @param element The element.
+ * @param info The information needed to deregister the handler, as returned by
+ *     addEventListener(), above.
+ */
+function removeEventListener(element, info) {
+  if (element.removeEventListener) {
+    element.removeEventListener(info.eventType, info.handler, info.capture);
+    // `detachEvent` is an old DOM API.
+    // tslint:disable-next-line:no-any
+  } else if (element.detachEvent) {
+    // `detachEvent` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    element.detachEvent(`on${info.eventType}`, info.handler);
+  }
+}
+/**
+ * Cancels propagation of an event.
+ * @param e The event to cancel propagation for.
+ */
+function stopPropagation(e) {
+  e.stopPropagation ? e.stopPropagation() : e.cancelBubble = true;
+}
+/**
+ * Prevents the default action of an event.
+ * @param e The event to prevent the default action for.
+ */
+function preventDefault(e) {
+  e.preventDefault ? e.preventDefault() : e.returnValue = false;
+}
+/**
+ * Gets the target Element of the event. In Firefox, a text node may appear as
+ * the target of the event, in which case we return the parent element of the
+ * text node.
+ * @param e The event to get the target of.
+ * @return The target element.
+ */
+function getTarget(e) {
+  let el = e.target;
+  // In Firefox, the event may have a text node as its target. We always
+  // want the parent Element the text node belongs to, however.
+  if (!el.getAttribute && el.parentNode) {
+    el = el.parentNode;
+  }
+  return el;
+}
+/**
+ * Whether we are on a Mac. Not pulling in useragent just for this.
+ */
+let isMac = typeof navigator !== 'undefined' && /Macintosh/.test(navigator.userAgent);
+/**
+ * Determines and returns whether the given event (which is assumed to be a
+ * click event) is a middle click.
+ * NOTE: There is not a consistent way to identify middle click
+ * http://www.unixpapa.com/js/mouse.html
+ */
+function isMiddleClick(e) {
+  return (
+    // `which` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    e.which === 2 ||
+    // `which` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    e.which == null &&
+    // `button` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    e.button === 4 // middle click for IE
+  );
+}
+/**
+ * Determines and returns whether the given event (which is assumed
+ * to be a click event) is modified. A middle click is considered a modified
+ * click to retain the default browser action, which opens a link in a new tab.
+ * @param e The event.
+ * @return Whether the given event is modified.
+ */
+function isModifiedClickEvent(e) {
+  return (
+    // `metaKey` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    isMac && e.metaKey ||
+    // `ctrlKey` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    !isMac && e.ctrlKey || isMiddleClick(e) ||
+    // `shiftKey` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    e.shiftKey
+  );
+}
+/** Whether we are on WebKit (e.g., Chrome). */
+const isWebKit = typeof navigator !== 'undefined' && !/Opera/.test(navigator.userAgent) && /WebKit/.test(navigator.userAgent);
+/** Whether we are on IE. */
+const isIe = typeof navigator !== 'undefined' && (/MSIE/.test(navigator.userAgent) || /Trident/.test(navigator.userAgent));
+/** Whether we are on Gecko (e.g., Firefox). */
+const isGecko = typeof navigator !== 'undefined' && !/Opera|WebKit/.test(navigator.userAgent) && /Gecko/.test(navigator.product);
+/**
+ * Determines and returns whether the given element is a valid target for
+ * keypress/keydown DOM events that act like regular DOM clicks.
+ * @param el The element.
+ * @return Whether the given element is a valid action key target.
+ */
+function isValidActionKeyTarget(el) {
+  if (!('getAttribute' in el)) {
+    return false;
+  }
+  if (isTextControl(el)) {
+    return false;
+  }
+  if (isNativelyActivatable(el)) {
+    return false;
+  }
+  // `isContentEditable` is an old DOM API.
+  // tslint:disable-next-line:no-any
+  if (el.isContentEditable) {
+    return false;
+  }
+  return true;
+}
+/**
+ * Whether an event has a modifier key activated.
+ * @param e The event.
+ * @return True, if a modifier key is activated.
+ */
+function hasModifierKey(e) {
+  return (
+    // `ctrlKey` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    e.ctrlKey ||
+    // `shiftKey` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    e.shiftKey ||
+    // `altKey` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    e.altKey ||
+    // `metaKey` is an old DOM API.
+    // tslint:disable-next-line:no-any
+    e.metaKey
+  );
+}
+/**
+ * Determines and returns whether the given event has a target that already
+ * has event handlers attached because it is a native HTML control. Used to
+ * determine if preventDefault should be called when isActionKeyEvent is true.
+ * @param e The event.
+ * @return If preventDefault should be called.
+ */
+function shouldCallPreventDefaultOnNativeHtmlControl(e) {
+  const el = getTarget(e);
+  const tagName = el.tagName.toUpperCase();
+  const role = (el.getAttribute('role') || '').toUpperCase();
+  if (tagName === 'BUTTON' || role === 'BUTTON') {
+    return true;
+  }
+  if (!isNativeHTMLControl(el)) {
+    return false;
+  }
+  if (tagName === 'A') {
+    return false;
+  }
+  /**
+   * Fix for physical d-pads on feature phone platforms; the native event
+   * (ie. isTrusted: true) needs to fire to show the OPTION list. See
+   * b/135288469 for more info.
+   */
+  if (tagName === 'SELECT') {
+    return false;
+  }
+  if (processSpace(el)) {
+    return false;
+  }
+  if (isTextControl(el)) {
+    return false;
+  }
+  return true;
+}
+/**
+ * Determines and returns whether the given event acts like a regular DOM click,
+ * and should be handled instead of the click.  If this returns true, the caller
+ * will call preventDefault() to prevent a possible duplicate event.
+ * This is represented by a keypress (keydown on Gecko browsers) on Enter or
+ * Space key.
+ * @param e The event.
+ * @return True, if the event emulates a DOM click.
+ */
+function isActionKeyEvent(e) {
+  let key =
+  // `which` is an old DOM API.
+  // tslint:disable-next-line:no-any
+  e.which ||
+  // `keyCode` is an old DOM API.
+  // tslint:disable-next-line:no-any
+  e.keyCode;
+  if (!key && e.key) {
+    key = ACTION_KEY_TO_KEYCODE[e.key];
+  }
+  if (isWebKit && key === KeyCode.MAC_ENTER) {
+    key = KeyCode.ENTER;
+  }
+  if (key !== KeyCode.ENTER && key !== KeyCode.SPACE) {
+    return false;
+  }
+  const el = getTarget(e);
+  if (e.type !== EventType.KEYDOWN || !isValidActionKeyTarget(el) || hasModifierKey(e)) {
+    return false;
+  }
+  // For <input type="checkbox">, we must only handle the browser's native click
+  // event, so that the browser can toggle the checkbox.
+  if (processSpace(el) && key === KeyCode.SPACE) {
+    return false;
+  }
+  // If this element is non-focusable, ignore stray keystrokes (b/18337209)
+  // Sscreen readers can move without tab focus, so any tabIndex is focusable.
+  // See B/21809604
+  if (!isFocusable(el)) {
+    return false;
+  }
+  const type = (el.getAttribute('role') || el.type || el.tagName).toUpperCase();
+  const isSpecificTriggerKey = IDENTIFIER_TO_KEY_TRIGGER_MAPPING[type] % key === 0;
+  const isDefaultTriggerKey = !(type in IDENTIFIER_TO_KEY_TRIGGER_MAPPING) && key === KeyCode.ENTER;
+  const hasType = el.tagName.toUpperCase() !== 'INPUT' || !!el.type;
+  return (isSpecificTriggerKey || isDefaultTriggerKey) && hasType;
+}
+/**
+ * Checks whether a DOM element can receive keyboard focus.
+ * This code is based on goog.dom.isFocusable, but simplified since we shouldn't
+ * care about visibility if we're already handling a keyboard event.
+ */
+function isFocusable(el) {
+  return (el.tagName in NATIVELY_FOCUSABLE_ELEMENTS || hasSpecifiedTabIndex(el)) && !el.disabled;
+}
+/**
+ * @param element Element to check.
+ * @return Whether the element has a specified tab index.
+ */
+function hasSpecifiedTabIndex(element) {
+  // IE returns 0 for an unset tabIndex, so we must use getAttributeNode(),
+  // which returns an object with a 'specified' property if tabIndex is
+  // specified.  This works on other browsers, too.
+  const attrNode = element.getAttributeNode('tabindex'); // Must be lowercase!
+  return attrNode != null && attrNode.specified;
+}
+/** Element tagnames that are focusable by default. */
+const NATIVELY_FOCUSABLE_ELEMENTS = {
+  'A': 1,
+  'INPUT': 1,
+  'TEXTAREA': 1,
+  'SELECT': 1,
+  'BUTTON': 1
+};
+/** @return True, if the Space key was pressed. */
+function isSpaceKeyEvent(e) {
+  const key =
+  // `which` is an old DOM API.
+  // tslint:disable-next-line:no-any
+  e.which ||
+  // `keyCode` is an old DOM API.
+  // tslint:disable-next-line:no-any
+  e.keyCode;
+  const el = getTarget(e);
+  const elementName = (el.type || el.tagName).toUpperCase();
+  return key === KeyCode.SPACE && elementName !== 'CHECKBOX';
+}
+/**
+ * Determines whether the event corresponds to a non-bubbling mouse
+ * event type (mouseenter, mouseleave, pointerenter, and pointerleave).
+ *
+ * During mouseover (mouseenter) and pointerover (pointerenter), the
+ * relatedTarget is the element being entered from. During mouseout (mouseleave)
+ * and pointerout (pointerleave), the relatedTarget is the element being exited
+ * to.
+ *
+ * In both cases, if relatedTarget is outside target, then the corresponding
+ * special event has occurred, otherwise it hasn't.
+ *
+ * @param e The mouseover/mouseout event.
+ * @param type The type of the mouse special event.
+ * @param element The element on which the jsaction for the
+ *     mouseenter/mouseleave event is defined.
+ * @return True if the event is a mouseenter/mouseleave event.
+ */
+function isMouseSpecialEvent(e, type, element) {
+  // `relatedTarget` is an old DOM API.
+  // tslint:disable-next-line:no-any
+  const related = e.relatedTarget;
+  return (e.type === EventType.MOUSEOVER && type === EventType.MOUSEENTER || e.type === EventType.MOUSEOUT && type === EventType.MOUSELEAVE || e.type === EventType.POINTEROVER && type === EventType.POINTERENTER || e.type === EventType.POINTEROUT && type === EventType.POINTERLEAVE) && (!related || related !== element && !contains(element, related));
+}
+/**
+ * Creates a new EventLike object for a mouseenter/mouseleave event that's
+ * derived from the original corresponding mouseover/mouseout event.
+ * @param e The event.
+ * @param target The element on which the jsaction for the mouseenter/mouseleave
+ *     event is defined.
+ * @return A modified event-like object copied from the event object passed into
+ *     this function.
+ */
+function createMouseSpecialEvent(e, target) {
+  // We have to create a copy of the event object because we need to mutate
+  // its fields. We do this for the special mouse events because the event
+  // target needs to be retargeted to the action element rather than the real
+  // element (since we are simulating the special mouse events with mouseover/
+  // mouseout).
+  //
+  // Since we're making a copy anyways, we might as well attempt to convert
+  // this event into a pseudo-real mouseenter/mouseleave event by adjusting
+  // its type.
+  //
+  // tslint:disable-next-line:no-any
+  const copy = {};
+  for (const property in e) {
+    if (property === 'srcElement' || property === 'target') {
+      continue;
+    }
+    const key = property;
+    // Making a copy requires iterating through all properties of `Event`.
+    // tslint:disable-next-line:no-dict-access-on-struct-type
+    const value = e[key];
+    if (typeof value === 'function') {
+      continue;
+    }
+    // Value should be the expected type, but the value of `key` is not known
+    // statically.
+    // tslint:disable-next-line:no-any
+    copy[key] = value;
+  }
+  if (e.type === EventType.MOUSEOVER) {
+    copy['type'] = EventType.MOUSEENTER;
+  } else if (e.type === EventType.MOUSEOUT) {
+    copy['type'] = EventType.MOUSELEAVE;
+  } else if (e.type === EventType.POINTEROVER) {
+    copy['type'] = EventType.POINTERENTER;
+  } else {
+    copy['type'] = EventType.POINTERLEAVE;
+  }
+  copy['target'] = copy['srcElement'] = target;
+  copy['bubbles'] = false;
+  return copy;
+}
+/**
+ * Returns touch data extracted from the touch event: clientX, clientY, screenX
+ * and screenY. If the event has no touch information at all, the returned
+ * value is null.
+ *
+ * The fields of this Object are unquoted.
+ *
+ * @param event A touch event.
+ */
+function getTouchData(event) {
+  const touch = event.changedTouches && event.changedTouches[0] || event.touches && event.touches[0];
+  if (!touch) {
+    return null;
+  }
+  return {
+    clientX: touch.clientX,
+    clientY: touch.clientY,
+    screenX: touch.screenX,
+    screenY: touch.screenY
+  };
+}
+/**
+ * Creates a new EventLike object for a "click" event that's derived from the
+ * original corresponding "touchend" event for a fast-click implementation.
+ *
+ * It takes a touch event, adds common fields found in a click event and
+ * changes the type to 'click', so that the resulting event looks more like
+ * a real click event.
+ *
+ * @param event A touch event.
+ * @return A modified event-like object copied from the event object passed into
+ *     this function.
+ */
+function recreateTouchEventAsClick(event) {
+  const click = {};
+  click['originalEventType'] = event.type;
+  click['type'] = EventType.CLICK;
+  for (const property in event) {
+    if (property === 'type' || property === 'srcElement') {
+      continue;
+    }
+    const key = property;
+    // Making a copy requires iterating through all properties of `TouchEvent`.
+    // tslint:disable-next-line:no-dict-access-on-struct-type
+    const value = event[key];
+    if (typeof value === 'function') {
+      continue;
+    }
+    // Value should be the expected type, but the value of `key` is not known
+    // statically.
+    // tslint:disable-next-line:no-any
+    click[key] = value;
+  }
+  // Ensure that the event has the most recent timestamp. This timestamp
+  // may be used in the future to validate or cancel subsequent click events.
+  click['timeStamp'] = Date.now();
+  // Emulate preventDefault and stopPropagation behavior
+  click['defaultPrevented'] = false;
+  click['preventDefault'] = syntheticPreventDefault;
+  click['_propagationStopped'] = false;
+  click['stopPropagation'] = syntheticStopPropagation;
+  // Emulate click coordinates using touch info
+  const touch = getTouchData(event);
+  if (touch) {
+    click['clientX'] = touch.clientX;
+    click['clientY'] = touch.clientY;
+    click['screenX'] = touch.screenX;
+    click['screenY'] = touch.screenY;
+  }
+  return click;
+}
+/**
+ * An implementation of "preventDefault" for a synthesized event. Simply
+ * sets "defaultPrevented" property to true.
+ */
+function syntheticPreventDefault() {
+  this.defaultPrevented = true;
+}
+/**
+ * An implementation of "stopPropagation" for a synthesized event. It simply
+ * sets a synthetic non-standard "_propagationStopped" property to true.
+ */
+function syntheticStopPropagation() {
+  this._propagationStopped = true;
+}
+/**
+ * Mapping of KeyboardEvent.key values to
+ * KeyCode values.
+ */
+const ACTION_KEY_TO_KEYCODE = {
+  'Enter': KeyCode.ENTER,
+  ' ': KeyCode.SPACE
+};
+/**
+ * Mapping of HTML element identifiers (ARIA role, type, or tagName) to the
+ * keys (enter and/or space) that should activate them. A value of zero means
+ * that both should activate them.
+ */
+const IDENTIFIER_TO_KEY_TRIGGER_MAPPING = {
+  'A': KeyCode.ENTER,
+  'BUTTON': 0,
+  'CHECKBOX': KeyCode.SPACE,
+  'COMBOBOX': KeyCode.ENTER,
+  'FILE': 0,
+  'GRIDCELL': KeyCode.ENTER,
+  'LINK': KeyCode.ENTER,
+  'LISTBOX': KeyCode.ENTER,
+  'MENU': 0,
+  'MENUBAR': 0,
+  'MENUITEM': 0,
+  'MENUITEMCHECKBOX': 0,
+  'MENUITEMRADIO': 0,
+  'OPTION': 0,
+  'RADIO': KeyCode.SPACE,
+  'RADIOGROUP': KeyCode.SPACE,
+  'RESET': 0,
+  'SUBMIT': 0,
+  'SWITCH': KeyCode.SPACE,
+  'TAB': 0,
+  'TREE': KeyCode.ENTER,
+  'TREEITEM': KeyCode.ENTER
+};
+/**
+ * Returns whether or not to process space based on the type of the element;
+ * checks to make sure that type is not null.
+ * @param element The element.
+ * @return Whether or not to process space based on type.
+ */
+function processSpace(element) {
+  const type = (element.getAttribute('type') || element.tagName).toUpperCase();
+  return type in PROCESS_SPACE;
+}
+/**
+ * Returns whether or not the given element is a text control.
+ * @param el The element.
+ * @return Whether or not the given element is a text control.
+ */
+function isTextControl(el) {
+  const type = (el.getAttribute('type') || el.tagName).toUpperCase();
+  return type in TEXT_CONTROLS;
+}
+/**
+ * Returns if the given element is a native HTML control.
+ * @param el The element.
+ * @return If the given element is a native HTML control.
+ */
+function isNativeHTMLControl(el) {
+  return el.tagName.toUpperCase() in NATIVE_HTML_CONTROLS;
+}
+/**
+ * Returns if the given element is natively activatable. Browsers emit click
+ * events for natively activatable elements, even when activated via keyboard.
+ * For these elements, we don't need to raise a11y click events.
+ * @param el The element.
+ * @return If the given element is a native HTML control.
+ */
+function isNativelyActivatable(el) {
+  return el.tagName.toUpperCase() === 'BUTTON' || !!el.type && el.type.toUpperCase() === 'FILE';
+}
+/**
+ * HTML <input> types (not ARIA roles) which will auto-trigger a click event for
+ * the Space key, with side-effects. We will not call preventDefault if space is
+ * pressed, nor will we raise a11y click events.  For all other elements, we can
+ * suppress the default event (which has no desired side-effects) and handle the
+ * keydown ourselves.
+ */
+const PROCESS_SPACE = {
+  'CHECKBOX': true,
+  'FILE': true,
+  'OPTION': true,
+  'RADIO': true
+};
+/** TagNames and Input types for which to not process enter/space as click. */
+const TEXT_CONTROLS = {
+  'COLOR': true,
+  'DATE': true,
+  'DATETIME': true,
+  'DATETIME-LOCAL': true,
+  'EMAIL': true,
+  'MONTH': true,
+  'NUMBER': true,
+  'PASSWORD': true,
+  'RANGE': true,
+  'SEARCH': true,
+  'TEL': true,
+  'TEXT': true,
+  'TEXTAREA': true,
+  'TIME': true,
+  'URL': true,
+  'WEEK': true
+};
+/** TagNames that are native HTML controls. */
+const NATIVE_HTML_CONTROLS = {
+  'A': true,
+  'AREA': true,
+  'BUTTON': true,
+  'DIALOG': true,
+  'IMG': true,
+  'INPUT': true,
+  'LINK': true,
+  'MENU': true,
+  'OPTGROUP': true,
+  'OPTION': true,
+  'PROGRESS': true,
+  'SELECT': true,
+  'TEXTAREA': true
+};
+/** Exported for testing. */
+const testing = {
+  setIsMac(value) {
+    isMac = value;
+  }
+};
+
+/**
+ * Receives a DOM event, determines the jsaction associated with the source
+ * element of the DOM event, and invokes the handler associated with the
+ * jsaction.
+ */
+class Dispatcher {
+  /**
+   * Options are:
+   *   - `eventReplayer`: When the event contract dispatches replay events
+   *      to the Dispatcher, the Dispatcher collects them and in the next tick
+   *      dispatches them to the `eventReplayer`. Defaults to dispatching to `dispatchDelegate`.
+   * @param dispatchDelegate A function that should handle dispatching an `EventInfoWrapper` to handlers.
+   */
+  constructor(dispatchDelegate, {
+    actionResolver,
+    eventReplayer = createEventReplayer(dispatchDelegate)
+  } = {}) {
+    this.dispatchDelegate = dispatchDelegate;
+    /** Whether the event replay is scheduled. */
+    this.eventReplayScheduled = false;
+    /** The queue of events. */
+    this.replayEventInfoWrappers = [];
+    this.actionResolver = actionResolver;
+    this.eventReplayer = eventReplayer;
+  }
+  /**
+   * Receives an event or the event queue from the EventContract. The event
+   * queue is copied and it attempts to replay.
+   * If event info is passed in it looks for an action handler that can handle
+   * the given event.  If there is no handler registered queues the event and
+   * checks if a loader is registered for the given namespace. If so, calls it.
+   *
+   * Alternatively, if in global dispatch mode, calls all registered global
+   * handlers for the appropriate event type.
+   *
+   * The three functionalities of this call are deliberately not split into
+   * three methods (and then declared as an abstract interface), because the
+   * interface is used by EventContract, which lives in a different jsbinary.
+   * Therefore the interface between the three is defined entirely in terms that
+   * are invariant under jscompiler processing (Function and Array, as opposed
+   * to a custom type with method names).
+   *
+   * @param eventInfo The info for the event that triggered this call or the
+   *     queue of events from EventContract.
+   */
+  dispatch(eventInfo) {
+    const eventInfoWrapper = new EventInfoWrapper(eventInfo);
+    this.actionResolver?.resolve(eventInfo);
+    const action = eventInfoWrapper.getAction();
+    if (action && shouldPreventDefaultBeforeDispatching(action.element, eventInfoWrapper)) {
+      preventDefault(eventInfoWrapper.getEvent());
+    }
+    if (eventInfoWrapper.getIsReplay()) {
+      this.scheduleEventInfoWrapperReplay(eventInfoWrapper);
+      return;
+    }
+    this.dispatchDelegate(eventInfoWrapper);
+  }
+  /**
+   * Schedules an `EventInfoWrapper` for replay. The replaying will happen in its own
+   * stack once the current flow cedes control. This is done to mimic
+   * browser event handling.
+   */
+  scheduleEventInfoWrapperReplay(eventInfoWrapper) {
+    this.replayEventInfoWrappers.push(eventInfoWrapper);
+    if (this.eventReplayScheduled) {
+      return;
+    }
+    this.eventReplayScheduled = true;
+    Promise.resolve().then(() => {
+      this.eventReplayScheduled = false;
+      this.eventReplayer(this.replayEventInfoWrappers);
+    });
+  }
+}
+/**
+ * Creates an `EventReplayer` that calls the `replay` function for every `eventInfoWrapper` in
+ * the queue.
+ */
+function createEventReplayer(replay) {
+  return eventInfoWrappers => {
+    for (const eventInfoWrapper of eventInfoWrappers) {
+      replay(eventInfoWrapper);
+    }
+  };
+}
+/**
+ * Returns true if the default action of this event should be prevented before
+ * this event is dispatched.
+ */
+function shouldPreventDefaultBeforeDispatching(actionElement, eventInfoWrapper) {
+  // Prevent browser from following <a> node links if a jsaction is present
+  // and we are dispatching the action now. Note that the targetElement may be
+  // a child of an anchor that has a jsaction attached. For that reason, we
+  // need to check the actionElement rather than the targetElement.
+  return actionElement.tagName === 'A' && eventInfoWrapper.getEventType() === EventType.CLICK || eventInfoWrapper.getEventType() === EventType.CLICKMOD;
+}
+/**
+ * Registers deferred functionality for an EventContract and a Jsaction
+ * Dispatcher.
+ */
+function registerDispatcher(eventContract, dispatcher) {
+  eventContract.ecrd(eventInfo => {
+    dispatcher.dispatch(eventInfo);
+  }, Restriction.I_AM_THE_JSACTION_FRAMEWORK);
+}
+
+/**
+ * Whether the user agent is running on iOS.
+ */
+const isIos = typeof navigator !== 'undefined' && /iPhone|iPad|iPod/.test(navigator.userAgent);
+/**
+ * A class representing a container node and all the event handlers
+ * installed on it. Used so that handlers can be cleaned up if the
+ * container is removed from the contract.
+ */
+class EventContractContainer {
+  /**
+   * @param element The container Element.
+   */
+  constructor(element) {
+    this.element = element;
+    /**
+     * Array of event handlers and their corresponding event types that are
+     * installed on this container.
+     *
+     */
+    this.handlerInfos = [];
+  }
+  /**
+   * Installs the provided installer on the element owned by this container,
+   * and maintains a reference to resulting handler in order to remove it
+   * later if desired.
+   */
+  addEventListener(eventType, getHandler) {
+    // In iOS, event bubbling doesn't happen automatically in any DOM element,
+    // unless it has an onclick attribute or DOM event handler attached to it.
+    // This breaks JsAction in some cases. See "Making Elements Clickable"
+    // section at http://goo.gl/2VoGnB.
+    //
+    // A workaround for this issue is to change the CSS cursor style to 'pointer'
+    // for the container element, which magically turns on event bubbling. This
+    // solution is described in the comments section at http://goo.gl/6pEO1z.
+    //
+    // We use a navigator.userAgent check here as this problem is present both
+    // on Mobile Safari and thin WebKit wrappers, such as Chrome for iOS.
+    if (isIos) {
+      this.element.style.cursor = 'pointer';
+    }
+    this.handlerInfos.push(addEventListener(this.element, eventType, getHandler(this.element)));
+  }
+  /**
+   * Removes all the handlers installed on this container.
+   */
+  cleanUp() {
+    for (let i = 0; i < this.handlerInfos.length; i++) {
+      removeEventListener(this.element, this.handlerInfos[i]);
+    }
+    this.handlerInfos = [];
+  }
+}
+
+/**
+ * Update `EventInfo` to be `eventType = 'click'` and sets `a11yClickKey` if it
+ * is a a11y click.
+ */
+function updateEventInfoForA11yClick(eventInfo) {
+  if (!isActionKeyEvent(getEvent(eventInfo))) {
+    return;
+  }
+  setA11yClickKey(eventInfo, true);
+  // A 'click' triggered by a DOM keypress should be mapped to the 'click'
+  // jsaction.
+  setEventType(eventInfo, EventType.CLICK);
+}
+/**
+ * Call `preventDefault` on an a11y click if it is space key or to prevent the
+ * browser's default action for native HTML controls.
+ */
+function preventDefaultForA11yClick(eventInfo) {
+  if (!getA11yClickKey(eventInfo) || !isSpaceKeyEvent(getEvent(eventInfo)) && !shouldCallPreventDefaultOnNativeHtmlControl(getEvent(eventInfo))) {
+    return;
+  }
+  preventDefault(getEvent(eventInfo));
+}
+/**
+ * Sets the `action` to `clickonly` for a click event that is not an a11y click
+ * and if there is not already a click action.
+ */
+function populateClickOnlyAction(actionElement, eventInfo, actionMap) {
+  if (
+  // If there's already an action, don't attempt to set a CLICKONLY
+  getAction(eventInfo) ||
+  // Only attempt CLICKONLY if the type is CLICK
+  getEventType(eventInfo) !== EventType.CLICK ||
+  // a11y clicks are never CLICKONLY
+  getA11yClickKey(eventInfo) || actionMap[EventType.CLICKONLY] === undefined) {
+    return;
+  }
+  setEventType(eventInfo, EventType.CLICKONLY);
+  setAction(eventInfo, actionMap[EventType.CLICKONLY], actionElement);
+}
+
+/**
+ * The jsaction attribute defines a mapping of a DOM event to a
+ * generic event (aka jsaction), to which the actual event handlers
+ * that implement the behavior of the application are bound. The
+ * value is a semicolon separated list of colon separated pairs of
+ * an optional DOM event name and a jsaction name. If the optional
+ * DOM event name is omitted, 'click' is assumed. The jsaction names
+ * are dot separated pairs of a namespace and a simple jsaction
+ * name.
+ *
+ * See grammar in README.md for expected syntax in the attribute value.
+ */
+const JSACTION$1 = 'jsaction';
+/**
+ * The oi attribute is a log impression tag for impression logging
+ * and action tracking. For an element that carries a jsaction
+ * attribute, the element is identified for the purpose of
+ * impression logging and click tracking by the dot separated path
+ * of all oi attributes in the chain of ancestors of the element.
+ *
+ * Used by ActionFlow.
+ */
+const OI$1 = 'oi';
+/**
+ * The ved attribute is an encoded ClickTrackingCGI proto to track
+ * visual elements.
+ *
+ * Used by ActionFlow.
+ */
+const VED = 'ved';
+/**
+ * The vet attribute is the visual element type used to identify tracked
+ * visual elements.
+ */
+const VET = 'vet';
+/**
+ * Support for iteration on reprocessing.
+ *
+ * Used by ActionFlow.
+ */
+const JSINSTANCE = 'jsinstance';
+/**
+ * All click jsactions that happen on the element that carries this
+ * attribute or its descendants are automatically logged.
+ * Impressions of jsactions on these elements are tracked too, if
+ * requested by the impression() method of ActionFlow.
+ *
+ * Used by ActionFlow.
+ */
+const JSTRACK = 'jstrack';
+const Attribute = {
+  JSACTION: JSACTION$1,
+  OI: OI$1,
+  VED,
+  VET,
+  JSINSTANCE,
+  JSTRACK
+};
+const Char = {
+  /**
+   * The separator between the namespace and the action name in the
+   * jsaction attribute value.
+   */
+  NAMESPACE_ACTION_SEPARATOR: '.',
+  /**
+   * The separator between the event name and action in the jsaction
+   * attribute value.
+   */
+  EVENT_ACTION_SEPARATOR: ':',
+  /**
+   * The separator between the logged oi attribute values in the &oi=
+   * URL parameter value.
+   */
+  OI_SEPARATOR: '.',
+  /**
+   * The separator between the key and the value pairs in the &cad=
+   * URL parameter value.
+   */
+  CAD_KEY_VALUE_SEPARATOR: ':',
+  /**
+   * The separator between the key-value pairs in the &cad= URL
+   * parameter value.
+   */
+  CAD_SEPARATOR: ','
+};
+
+/**
+ * The parsed value of the jsaction attribute is stored in this
+ * property on the DOM node. The parsed value is an Object. The
+ * property names of the object are the events; the values are the
+ * names of the actions. This property is attached even on nodes
+ * that don't have a jsaction attribute as an optimization, because
+ * property lookup is faster than attribute access.
+ */
+const JSACTION = '__jsaction';
+/** The value of the oi attribute as a property, for faster access. */
+const OI = '__oi';
+/**
+ * The owner property references an a logical owner for a DOM node. JSAction
+ * will follow this reference instead of parentNode when traversing the DOM
+ * to find jsaction attributes. This allows overlaying a logical structure
+ * over a document where the DOM structure can't reflect that structure.
+ */
+const OWNER = '__owner';
+/** All properties that are used by jsaction. */
+const Property = {
+  JSACTION,
+  OI,
+  OWNER
+};
+
+/**
+ * Map from jsaction annotation to a parsed map from event name to action name.
+ */
+const parseCache = {};
+/**
+ * Reads the jsaction parser cache from the given DOM Element.
+ *
+ * @param element .
+ * @return Map from event to qualified name of the jsaction bound to it.
+ */
+function get(element) {
+  // @ts-ignore
+  return element[JSACTION];
+}
+/**
+ * Writes the jsaction parser cache to the given DOM Element.
+ *
+ * @param element .
+ * @param actionMap Map from event to qualified name of the jsaction bound to
+ *     it.
+ */
+function set(element, actionMap) {
+  // @ts-ignore
+  element[JSACTION] = actionMap;
+}
+/**
+ * Looks up the parsed action map from the source jsaction attribute value.
+ *
+ * @param text Unparsed jsaction attribute value.
+ * @return Parsed jsaction attribute value, if already present in the cache.
+ */
+function getParsed(text) {
+  return parseCache[text];
+}
+/**
+ * Inserts the parse result for the given source jsaction value into the cache.
+ *
+ * @param text Unparsed jsaction attribute value.
+ * @param parsed Attribute value parsed into the action map.
+ */
+function setParsed(text, parsed) {
+  parseCache[text] = parsed;
+}
+/**
+ * Clears the jsaction parser cache from the given DOM Element.
+ *
+ * @param element .
+ */
+function clear(element) {
+  if (JSACTION in element) {
+    delete element[JSACTION];
+  }
+}
+
+/**
+ * Since maps from event to action are immutable we can use a single map
+ * to represent the empty map.
+ */
+const EMPTY_ACTION_MAP = {};
+/**
+ * This regular expression matches a semicolon.
+ */
+const REGEXP_SEMICOLON = /\s*;\s*/;
+/** If no event type is defined, defaults to `click`. */
+const DEFAULT_EVENT_TYPE = EventType.CLICK;
+/** Resolves actions for Events. */
+class ActionResolver {
+  constructor({
+    syntheticMouseEventSupport = false
+  } = {}) {
+    this.a11yClickSupport = false;
+    this.updateEventInfoForA11yClick = undefined;
+    this.preventDefaultForA11yClick = undefined;
+    this.populateClickOnlyAction = undefined;
+    this.syntheticMouseEventSupport = syntheticMouseEventSupport;
+  }
+  resolve(eventInfo) {
+    if (getResolved(eventInfo)) {
+      return;
+    }
+    this.populateAction(eventInfo);
+    setResolved(eventInfo, true);
+  }
+  /**
+   * Searches for a jsaction that the DOM event maps to and creates an
+   * object containing event information used for dispatching by
+   * jsaction.Dispatcher. This method populates the `action` and `actionElement`
+   * fields of the EventInfo object passed in by finding the first
+   * jsaction attribute above the target Node of the event, and below
+   * the container Node, that specifies a jsaction for the event
+   * type. If no such jsaction is found, then action is undefined.
+   *
+   * @param eventInfo `EventInfo` to set `action` and `actionElement` if an
+   *    action is found on any `Element` in the path of the `Event`.
+   */
+  populateAction(eventInfo) {
+    // We distinguish modified and plain clicks in order to support the
+    // default browser behavior of modified clicks on links; usually to
+    // open the URL of the link in new tab or new window on ctrl/cmd
+    // click. A DOM 'click' event is mapped to the jsaction 'click'
+    // event iff there is no modifier present on the event. If there is
+    // a modifier, it's mapped to 'clickmod' instead.
+    //
+    // It's allowed to omit the event in the jsaction attribute. In that
+    // case, 'click' is assumed. Thus the following two are equivalent:
+    //
+    //   <a href="someurl" jsaction="gna.fu">
+    //   <a href="someurl" jsaction="click:gna.fu">
+    //
+    // For unmodified clicks, EventContract invokes the jsaction
+    // 'gna.fu'. For modified clicks, EventContract won't find a
+    // suitable action and leave the event to be handled by the
+    // browser.
+    //
+    // In order to also invoke a jsaction handler for a modifier click,
+    // 'clickmod' needs to be used:
+    //
+    //   <a href="someurl" jsaction="clickmod:gna.fu">
+    //
+    // EventContract invokes the jsaction 'gna.fu' for modified
+    // clicks. Unmodified clicks are left to the browser.
+    //
+    // In order to set up the event contract to handle both clickonly and
+    // clickmod, only addEvent(EventType.CLICK) is necessary.
+    //
+    // In order to set up the event contract to handle click,
+    // addEvent() is necessary for CLICK, KEYDOWN, and KEYPRESS event types.  If
+    // a11y click support is enabled, addEvent() will set up the appropriate key
+    // event handler automatically.
+    if (getEventType(eventInfo) === EventType.CLICK && isModifiedClickEvent(getEvent(eventInfo))) {
+      setEventType(eventInfo, EventType.CLICKMOD);
+    } else if (this.a11yClickSupport) {
+      this.updateEventInfoForA11yClick(eventInfo);
+    }
+    // Walk to the parent node, unless the node has a different owner in
+    // which case we walk to the owner. Attempt to walk to host of a
+    // shadow root if needed.
+    let actionElement = getTargetElement(eventInfo);
+    while (actionElement && actionElement !== getContainer(eventInfo)) {
+      if (actionElement.nodeType === Node.ELEMENT_NODE) {
+        this.populateActionOnElement(actionElement, eventInfo);
+      }
+      if (getAction(eventInfo)) {
+        // An event is handled by at most one jsaction. Thus we stop at the
+        // first matching jsaction specified in a jsaction attribute up the
+        // ancestor chain of the event target node.
+        break;
+      }
+      if (actionElement[OWNER]) {
+        actionElement = actionElement[OWNER];
+        continue;
+      }
+      if (actionElement.parentNode?.nodeName !== '#document-fragment') {
+        actionElement = actionElement.parentNode;
+      } else {
+        actionElement = actionElement.parentNode?.host ?? null;
+      }
+    }
+    const action = getAction(eventInfo);
+    if (!action) {
+      // No action found.
+      return;
+    }
+    if (this.a11yClickSupport) {
+      this.preventDefaultForA11yClick(eventInfo);
+    }
+    // We attempt to handle the mouseenter/mouseleave events here by
+    // detecting whether the mouseover/mouseout events correspond to
+    // entering/leaving an element.
+    if (this.syntheticMouseEventSupport) {
+      if (getEventType(eventInfo) === EventType.MOUSEENTER || getEventType(eventInfo) === EventType.MOUSELEAVE || getEventType(eventInfo) === EventType.POINTERENTER || getEventType(eventInfo) === EventType.POINTERLEAVE) {
+        // We attempt to handle the mouseenter/mouseleave events here by
+        // detecting whether the mouseover/mouseout events correspond to
+        // entering/leaving an element.
+        if (isMouseSpecialEvent(getEvent(eventInfo), getEventType(eventInfo), getActionElement(action))) {
+          // If both mouseover/mouseout and mouseenter/mouseleave events are
+          // enabled, two separate handlers for mouseover/mouseout are
+          // registered. Both handlers will see the same event instance
+          // so we create a copy to avoid interfering with the dispatching of
+          // the mouseover/mouseout event.
+          const copiedEvent = createMouseSpecialEvent(getEvent(eventInfo), getActionElement(action));
+          setEvent(eventInfo, copiedEvent);
+          // Since the mouseenter/mouseleave events do not bubble, the target
+          // of the event is technically the `actionElement` (the node with the
+          // `jsaction` attribute)
+          setTargetElement(eventInfo, getActionElement(action));
+        } else {
+          unsetAction(eventInfo);
+        }
+      }
+    }
+  }
+  /**
+   * Accesses the jsaction map on a node and retrieves the name of the
+   * action the given event is mapped to, if any. It parses the
+   * attribute value and stores it in a property on the node for
+   * subsequent retrieval without re-parsing and re-accessing the
+   * attribute.
+   *
+   * @param actionElement The DOM node to retrieve the jsaction map from.
+   * @param eventInfo `EventInfo` to set `action` and `actionElement` if an
+   *    action is found on the `actionElement`.
+   */
+  populateActionOnElement(actionElement, eventInfo) {
+    const actionMap = this.parseActions(actionElement);
+    const actionName = actionMap[getEventType(eventInfo)];
+    if (actionName !== undefined) {
+      setAction(eventInfo, actionName, actionElement);
+    }
+    if (this.a11yClickSupport) {
+      this.populateClickOnlyAction(actionElement, eventInfo, actionMap);
+    }
+  }
+  /**
+   * Parses and caches an element's jsaction element into a map.
+   *
+   * This is primarily for internal use.
+   *
+   * @param actionElement The DOM node to retrieve the jsaction map from.
+   * @return Map from event to qualified name of the jsaction bound to it.
+   */
+  parseActions(actionElement) {
+    let actionMap = get(actionElement);
+    if (!actionMap) {
+      const jsactionAttribute = actionElement.getAttribute(Attribute.JSACTION);
+      if (!jsactionAttribute) {
+        actionMap = EMPTY_ACTION_MAP;
+        set(actionElement, actionMap);
+      } else {
+        actionMap = getParsed(jsactionAttribute);
+        if (!actionMap) {
+          actionMap = {};
+          const values = jsactionAttribute.split(REGEXP_SEMICOLON);
+          for (let idx = 0; idx < values.length; idx++) {
+            const value = values[idx];
+            if (!value) {
+              continue;
+            }
+            const colon = value.indexOf(Char.EVENT_ACTION_SEPARATOR);
+            const hasColon = colon !== -1;
+            const type = hasColon ? value.substr(0, colon).trim() : DEFAULT_EVENT_TYPE;
+            const action = hasColon ? value.substr(colon + 1).trim() : value;
+            actionMap[type] = action;
+          }
+          setParsed(jsactionAttribute, actionMap);
+        }
+        set(actionElement, actionMap);
+      }
+    }
+    return actionMap;
+  }
+  addA11yClickSupport(updateEventInfoForA11yClick, preventDefaultForA11yClick, populateClickOnlyAction) {
+    this.a11yClickSupport = true;
+    this.updateEventInfoForA11yClick = updateEventInfoForA11yClick;
+    this.preventDefaultForA11yClick = preventDefaultForA11yClick;
+    this.populateClickOnlyAction = populateClickOnlyAction;
+  }
+}
+
+/**
+ * @define Support for accessible click actions.  This flag can be overridden in
+ * a build rule.
+ */
+const A11Y_CLICK_SUPPORT = false;
+/**
+ * @define Support for the non-bubbling mouseenter and mouseleave events.  This
+ * flag can be overridden in a build rule.
+ */
+const MOUSE_SPECIAL_SUPPORT = false;
+
+/**
+ * @fileoverview Implements the local event handling contract. This
+ * allows DOM objects in a container that enters into this contract to
+ * define event handlers which are executed in a local context.
+ *
+ * One EventContract instance can manage the contract for multiple
+ * containers, which are added using the addContainer() method.
+ *
+ * Events can be registered using the addEvent() method.
+ *
+ * A Dispatcher is added using the registerDispatcher() method. Until there is
+ * a dispatcher, events are queued. The idea is that the EventContract
+ * class is inlined in the HTML of the top level page and instantiated
+ * right after the start of <body>. The Dispatcher class is contained
+ * in the external deferred js, and instantiated and registered with
+ * EventContract when the external javascript in the page loads. The
+ * external javascript will also register the jsaction handlers, which
+ * then pick up the queued events at the time of registration.
+ *
+ * Since this class is meant to be inlined in the main page HTML, the
+ * size of the binary compiled from this file MUST be kept as small as
+ * possible and thus its dependencies to a minimum.
+ */
+/**
+ * EventContract intercepts events in the bubbling phase at the
+ * boundary of a container element, and maps them to generic actions
+ * which are specified using the custom jsaction attribute in
+ * HTML. Behavior of the application is then specified in terms of
+ * handler for such actions, cf. jsaction.Dispatcher in dispatcher.js.
+ *
+ * This has several benefits: (1) No DOM event handlers need to be
+ * registered on the specific elements in the UI. (2) The set of
+ * events that the application has to handle can be specified in terms
+ * of the semantics of the application, rather than in terms of DOM
+ * events. (3) Invocation of handlers can be delayed and handlers can
+ * be delay loaded in a generic way.
+ */
+class EventContract {
+  static #_ = this.A11Y_CLICK_SUPPORT = A11Y_CLICK_SUPPORT;
+  static #_2 = this.MOUSE_SPECIAL_SUPPORT = MOUSE_SPECIAL_SUPPORT;
+  constructor(containerManager, useActionResolver = true) {
+    this.useActionResolver = useActionResolver;
+    /**
+     * The DOM events which this contract covers. Used to prevent double
+     * registration of event types. The value of the map is the
+     * internally created DOM event handler function that handles the
+     * DOM events. See addEvent().
+     *
+     */
+    this.eventHandlers = {};
+    this.browserEventTypeToExtraEventTypes = {};
+    /**
+     * The dispatcher function. Events are passed to this function for
+     * handling once it was set using the registerDispatcher() method. This is
+     * done because the function is passed from another jsbinary, so passing the
+     * instance and invoking the method here would require to leave the method
+     * unobfuscated.
+     */
+    this.dispatcher = null;
+    /**
+     * The list of suspended `EventInfo` that will be dispatched
+     * as soon as the `Dispatcher` is registered.
+     */
+    this.queuedEventInfos = [];
+    /** Whether to add an a11y click listener. */
+    this.addA11yClickListener = false;
+    this.containerManager = containerManager;
+    if (this.useActionResolver) {
+      this.actionResolver = new ActionResolver({
+        syntheticMouseEventSupport: EventContract.MOUSE_SPECIAL_SUPPORT
+      });
+    }
+    if (EventContract.A11Y_CLICK_SUPPORT) {
+      // Add a11y click support to the `EventContract`.
+      this.addA11yClickSupport();
+    }
+  }
+  handleEvent(eventType, event, container) {
+    const eventInfo = createEventInfoFromParameters( /* eventType= */eventType, /* event= */event, /* targetElement= */event.target, /* container= */container, /* timestamp= */Date.now());
+    this.handleEventInfo(eventInfo);
+  }
+  /**
+   * Handle an `EventInfo`.
+   */
+  handleEventInfo(eventInfo) {
+    if (!this.dispatcher) {
+      // All events are queued when the dispatcher isn't yet loaded.
+      setIsReplay(eventInfo, true);
+      this.queuedEventInfos?.push(eventInfo);
+      return;
+    }
+    if (this.useActionResolver) {
+      this.actionResolver.resolve(eventInfo);
+    }
+    this.dispatcher(eventInfo);
+  }
+  /**
+   * Enables jsaction handlers to be called for the event type given by
+   * name.
+   *
+   * If the event is already registered, this does nothing.
+   *
+   * @param prefixedEventType If supplied, this event is used in
+   *     the actual browser event registration instead of the name that is
+   *     exposed to jsaction. Use this if you e.g. want users to be able
+   *     to subscribe to jsaction="transitionEnd:foo" while the underlying
+   *     event is webkitTransitionEnd in one browser and mozTransitionEnd
+   *     in another.
+   */
+  addEvent(eventType, prefixedEventType) {
+    if (eventType in this.eventHandlers || !this.containerManager) {
+      return;
+    }
+    if (!EventContract.MOUSE_SPECIAL_SUPPORT && (eventType === EventType.MOUSEENTER || eventType === EventType.MOUSELEAVE || eventType === EventType.POINTERENTER || eventType === EventType.POINTERLEAVE)) {
+      return;
+    }
+    const eventHandler = (eventType, event, container) => {
+      this.handleEvent(eventType, event, container);
+    };
+    // Store the callback to allow us to replay events.
+    this.eventHandlers[eventType] = eventHandler;
+    const browserEventType = getBrowserEventType(prefixedEventType || eventType);
+    if (browserEventType !== eventType) {
+      const eventTypes = this.browserEventTypeToExtraEventTypes[browserEventType] || [];
+      eventTypes.push(eventType);
+      this.browserEventTypeToExtraEventTypes[browserEventType] = eventTypes;
+    }
+    this.containerManager.addEventListener(browserEventType, element => {
+      return event => {
+        eventHandler(eventType, event, element);
+      };
+    });
+    // Automatically install a keypress/keydown event handler if support for
+    // accessible clicks is turned on.
+    if (this.addA11yClickListener && eventType === EventType.CLICK) {
+      this.addEvent(EventType.KEYDOWN);
+    }
+  }
+  /**
+   * Gets the queued early events and replay them using the appropriate handler
+   * in the provided event contract. Once all the events are replayed, it cleans
+   * up the early contract.
+   */
+  replayEarlyEvents(earlyJsactionContainer = window) {
+    // Check if the early contract is present and prevent calling this function
+    // more than once.
+    const earlyJsactionData = earlyJsactionContainer._ejsa;
+    if (!earlyJsactionData) {
+      return;
+    }
+    // Replay the early contract events.
+    const earlyEventInfos = earlyJsactionData.q;
+    for (let idx = 0; idx < earlyEventInfos.length; idx++) {
+      const earlyEventInfo = earlyEventInfos[idx];
+      const eventTypes = this.getEventTypesForBrowserEventType(earlyEventInfo.eventType);
+      for (let i = 0; i < eventTypes.length; i++) {
+        const eventInfo = cloneEventInfo(earlyEventInfo);
+        // EventInfo eventType maps to JSAction's internal event type,
+        // rather than the browser event type.
+        setEventType(eventInfo, eventTypes[i]);
+        this.handleEventInfo(eventInfo);
+      }
+    }
+    // Clean up the early contract.
+    const earlyEventHandler = earlyJsactionData.h;
+    removeEventListeners(earlyJsactionData.c, earlyJsactionData.et, earlyEventHandler);
+    removeEventListeners(earlyJsactionData.c, earlyJsactionData.etc, earlyEventHandler, true);
+    delete earlyJsactionContainer._ejsa;
+  }
+  /**
+   * Returns all JSAction event types that have been registered for a given
+   * browser event type.
+   */
+  getEventTypesForBrowserEventType(browserEventType) {
+    const eventTypes = [];
+    if (this.eventHandlers[browserEventType]) {
+      eventTypes.push(browserEventType);
+    }
+    if (this.browserEventTypeToExtraEventTypes[browserEventType]) {
+      eventTypes.push(...this.browserEventTypeToExtraEventTypes[browserEventType]);
+    }
+    return eventTypes;
+  }
+  /**
+   * Returns the event handler function for a given event type.
+   */
+  handler(eventType) {
+    return this.eventHandlers[eventType];
+  }
+  /**
+   * Cleans up the event contract. This resets all of the `EventContract`'s
+   * internal state. Users are responsible for not using this `EventContract`
+   * after it has been cleaned up.
+   */
+  cleanUp() {
+    this.containerManager.cleanUp();
+    this.containerManager = null;
+    this.eventHandlers = {};
+    this.browserEventTypeToExtraEventTypes = {};
+    this.dispatcher = null;
+    this.queuedEventInfos = [];
+  }
+  /**
+   * Register a dispatcher function. Event info of each event mapped to
+   * a jsaction is passed for handling to this callback. The queued
+   * events are passed as well to the dispatcher for later replaying
+   * once the dispatcher is registered. Clears the event queue to null.
+   *
+   * @param dispatcher The dispatcher function.
+   * @param restriction
+   */
+  registerDispatcher(dispatcher, restriction) {
+    this.ecrd(dispatcher, restriction);
+  }
+  /**
+   * Unrenamed alias for registerDispatcher. Necessary for any codebases that
+   * split the `EventContract` and `Dispatcher` code into different compilation
+   * units.
+   */
+  ecrd(dispatcher, restriction) {
+    this.dispatcher = dispatcher;
+    if (this.queuedEventInfos?.length) {
+      for (let i = 0; i < this.queuedEventInfos.length; i++) {
+        this.handleEventInfo(this.queuedEventInfos[i]);
+      }
+      this.queuedEventInfos = null;
+    }
+  }
+  /**
+   * Adds a11y click support to the given `EventContract`. Meant to be called in
+   * the same compilation unit as the `EventContract`.
+   */
+  addA11yClickSupport() {
+    this.addA11yClickSupportImpl(updateEventInfoForA11yClick, preventDefaultForA11yClick, populateClickOnlyAction);
+  }
+  /**
+   * Enables a11y click support to be deferred. Meant to be called in the same
+   * compilation unit as the `EventContract`.
+   */
+  exportAddA11yClickSupport() {
+    this.addA11yClickListener = true;
+    this.ecaacs = this.addA11yClickSupportImpl.bind(this);
+  }
+  /**
+   * Unrenamed function that loads a11yClickSupport.
+   */
+  addA11yClickSupportImpl(updateEventInfoForA11yClick, preventDefaultForA11yClick, populateClickOnlyAction) {
+    this.addA11yClickListener = true;
+    if (this.useActionResolver) {
+      this.actionResolver.addA11yClickSupport(updateEventInfoForA11yClick, preventDefaultForA11yClick, populateClickOnlyAction);
+    }
+  }
+}
+function removeEventListeners(container, eventTypes, earlyEventHandler, capture) {
+  for (let idx = 0; idx < eventTypes.length; idx++) {
+    container.removeEventListener(eventTypes[idx], earlyEventHandler, /* useCapture */capture);
+  }
+}
+/**
+ * Adds a11y click support to the given `EventContract`. Meant to be called
+ * in a different compilation unit from the `EventContract`. The `EventContract`
+ * must have called `exportAddA11yClickSupport` in its compilation unit for this
+ * to have any effect.
+ */
+function addDeferredA11yClickSupport(eventContract) {
+  eventContract.ecaacs?.(updateEventInfoForA11yClick, preventDefaultForA11yClick, populateClickOnlyAction);
+}
+
+/**
+ * EarlyEventContract intercepts events in the bubbling phase at the
+ * boundary of the document body. This mapping will be passed to the
+ * late-loaded EventContract.
+ */
+class EarlyEventContract {
+  constructor(replaySink = window, container = window.document.documentElement) {
+    this.replaySink = replaySink;
+    this.container = container;
+    replaySink._ejsa = {
+      c: container,
+      q: [],
+      et: [],
+      etc: [],
+      h: event => {
+        const eventInfo = createEventInfoFromParameters(event.type, event, event.target, container, Date.now());
+        replaySink._ejsa.q.push(eventInfo);
+      }
+    };
+  }
+  /**
+   * Installs a list of event types for container .
+   */
+  addEvents(types, capture) {
+    const replaySink = this.replaySink._ejsa;
+    for (let idx = 0; idx < types.length; idx++) {
+      const eventType = types[idx];
+      const eventTypes = capture ? replaySink.etc : replaySink.et;
+      eventTypes.push(eventType);
+      this.container.addEventListener(eventType, replaySink.h, capture);
+    }
+  }
+}
+
+/**
+ * Provides a factory function for bootstrapping an event contract on a
+ * specified object (by default, exposed on the `window`).
+ * @param field The property on the object that the event contract will be placed on.
+ * @param container The container that listens to events
+ * @param appId A given identifier for an application. If there are multiple apps on the page
+ *              then this is how contracts can be initialized for each one.
+ * @param eventTypes An array of event names that should be listened to.
+ * @param captureEventTypes An array of event names that should be listened to with capture.
+ * @param earlyJsactionTracker The object that should receive the event contract.
+ */
+function bootstrapEarlyEventContract(field, container, appId, eventTypes, captureEventTypes, earlyJsactionTracker = window) {
+  if (!earlyJsactionTracker[field]) {
+    earlyJsactionTracker[field] = {};
+  }
+  earlyJsactionTracker[field][appId] = {};
+  const eventContract = new EarlyEventContract(earlyJsactionTracker[field][appId], container);
+  if (eventTypes) eventContract.addEvents(eventTypes);
+  if (captureEventTypes) eventContract.addEvents(captureEventTypes, true);
+}
+
+
+/***/ }),
+
+/***/ 2004:
 /*!**************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+core@17.3.5_rxjs@7.8.1_zone.js@0.14.4/node_modules/@angular/core/fesm2022/primitives/signals.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6/node_modules/@angular/core/fesm2022/primitives/signals.mjs ***!
   \**************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -49678,7 +53126,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   signalUpdateFn: () => (/* binding */ signalUpdateFn)
 /* harmony export */ });
 /**
- * @license Angular v17.3.5
+ * @license Angular v18.0.0
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -50218,10 +53666,10 @@ function setAlternateWeakRefImpl(impl) {
 
 /***/ }),
 
-/***/ 8375:
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+forms@17.3.5_@angular+common@17.3.5_@angular+core@17.3.5_@angular+platform-browser@17.3.5_rxjs@7.8.1/node_modules/@angular/forms/fesm2022/forms.mjs ***!
-  \*****************************************************************************************************************************************************************************************/
+/***/ 5706:
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@angular+forms@18.0.0_@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6___cmb3gekxt4zce5j2z2y4xyhjfm/node_modules/@angular/forms/fesm2022/forms.mjs ***!
+  \****************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -50233,6 +53681,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   CheckboxControlValueAccessor: () => (/* binding */ CheckboxControlValueAccessor),
 /* harmony export */   CheckboxRequiredValidator: () => (/* binding */ CheckboxRequiredValidator),
 /* harmony export */   ControlContainer: () => (/* binding */ ControlContainer),
+/* harmony export */   ControlEvent: () => (/* binding */ ControlEvent),
 /* harmony export */   DefaultValueAccessor: () => (/* binding */ DefaultValueAccessor),
 /* harmony export */   EmailValidator: () => (/* binding */ EmailValidator),
 /* harmony export */   FormArray: () => (/* binding */ FormArray),
@@ -50245,6 +53694,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   FormGroupDirective: () => (/* binding */ FormGroupDirective),
 /* harmony export */   FormGroupName: () => (/* binding */ FormGroupName),
 /* harmony export */   FormRecord: () => (/* binding */ FormRecord),
+/* harmony export */   FormResetEvent: () => (/* binding */ FormResetEvent),
+/* harmony export */   FormSubmittedEvent: () => (/* binding */ FormSubmittedEvent),
 /* harmony export */   FormsModule: () => (/* binding */ FormsModule),
 /* harmony export */   MaxLengthValidator: () => (/* binding */ MaxLengthValidator),
 /* harmony export */   MaxValidator: () => (/* binding */ MaxValidator),
@@ -50263,18 +53714,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   NonNullableFormBuilder: () => (/* binding */ NonNullableFormBuilder),
 /* harmony export */   NumberValueAccessor: () => (/* binding */ NumberValueAccessor),
 /* harmony export */   PatternValidator: () => (/* binding */ PatternValidator),
+/* harmony export */   PristineChangeEvent: () => (/* binding */ PristineChangeEvent),
 /* harmony export */   RadioControlValueAccessor: () => (/* binding */ RadioControlValueAccessor),
 /* harmony export */   RangeValueAccessor: () => (/* binding */ RangeValueAccessor),
 /* harmony export */   ReactiveFormsModule: () => (/* binding */ ReactiveFormsModule),
 /* harmony export */   RequiredValidator: () => (/* binding */ RequiredValidator),
 /* harmony export */   SelectControlValueAccessor: () => (/* binding */ SelectControlValueAccessor),
 /* harmony export */   SelectMultipleControlValueAccessor: () => (/* binding */ SelectMultipleControlValueAccessor),
+/* harmony export */   StatusChangeEvent: () => (/* binding */ StatusChangeEvent),
+/* harmony export */   TouchedChangeEvent: () => (/* binding */ TouchedChangeEvent),
 /* harmony export */   UntypedFormArray: () => (/* binding */ UntypedFormArray),
 /* harmony export */   UntypedFormBuilder: () => (/* binding */ UntypedFormBuilder),
 /* harmony export */   UntypedFormControl: () => (/* binding */ UntypedFormControl),
 /* harmony export */   UntypedFormGroup: () => (/* binding */ UntypedFormGroup),
 /* harmony export */   VERSION: () => (/* binding */ VERSION),
 /* harmony export */   Validators: () => (/* binding */ Validators),
+/* harmony export */   ValueChangeEvent: () => (/* binding */ ValueChangeEvent),
 /* harmony export */   isFormArray: () => (/* binding */ isFormArray),
 /* harmony export */   isFormControl: () => (/* binding */ isFormControl),
 /* harmony export */   isFormGroup: () => (/* binding */ isFormGroup),
@@ -50283,13 +53738,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵNgNoValidate": () => (/* binding */ ɵNgNoValidate),
 /* harmony export */   "ɵNgSelectMultipleOption": () => (/* binding */ ɵNgSelectMultipleOption)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 4494);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 2852);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 4441);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 8221);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 4251);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 6829);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 6794);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 291);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 727);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 5241);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 7437);
 /**
- * @license Angular v17.3.5
+ * @license Angular v18.0.0
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -50721,7 +54177,7 @@ const EMAIL_REGEXP = /^(?=.{1,254}$)(?=.{1,64}@)[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(
  * A validator is a function that processes a `FormControl` or collection of
  * controls and returns an error map or null. A null map means that validation has passed.
  *
- * @see [Form Validation](/guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @publicApi
  */
@@ -51817,13 +55273,22 @@ const ngModelWithFormGroupExample = `
       <input [(ngModel)]="showMoreControls" [ngModelOptions]="{standalone: true}">
   </div>
 `;
-function controlParentException() {
-  return new _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵRuntimeError"](1050 /* RuntimeErrorCode.FORM_CONTROL_NAME_MISSING_PARENT */, `formControlName must be used with a parent formGroup directive.  You'll want to add a formGroup
+function controlParentException(nameOrIndex) {
+  return new _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵRuntimeError"](1050 /* RuntimeErrorCode.FORM_CONTROL_NAME_MISSING_PARENT */, `formControlName must be used with a parent formGroup directive. You'll want to add a formGroup
       directive and pass it an existing FormGroup instance (you can create one in your class).
+
+      ${describeFormControl(nameOrIndex)}
 
     Example:
 
     ${formControlNameExample}`);
+}
+function describeFormControl(nameOrIndex) {
+  if (nameOrIndex == null || nameOrIndex === '') {
+    return '';
+  }
+  const valueType = typeof nameOrIndex === 'string' ? 'name' : 'index';
+  return `Affected Form Control ${valueType}: "${nameOrIndex}"`;
 }
 function ngModelGroupException() {
   return new _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵRuntimeError"](1051 /* RuntimeErrorCode.FORM_CONTROL_NAME_INSIDE_MODEL_GROUP */, `formControlName cannot be used with an ngModelGroup parent. It is only compatible with parents
@@ -51947,6 +55412,81 @@ const PENDING = 'PENDING';
  */
 const DISABLED = 'DISABLED';
 /**
+ * Base class for every event sent by `AbstractControl.events()`
+ *
+ * @publicApi
+ */
+class ControlEvent {}
+/**
+ * Event fired when the value of a control changes.
+ *
+ * @publicApi
+ */
+class ValueChangeEvent extends ControlEvent {
+  constructor(value, source) {
+    super();
+    this.value = value;
+    this.source = source;
+  }
+}
+/**
+ * Event fired when the control's pristine state changes (pristine <=> dirty).
+ *
+ * @publicApi */
+class PristineChangeEvent extends ControlEvent {
+  constructor(pristine, source) {
+    super();
+    this.pristine = pristine;
+    this.source = source;
+  }
+}
+/**
+ * Event fired when the control's touched status changes (touched <=> untouched).
+ *
+ * @publicApi
+ */
+class TouchedChangeEvent extends ControlEvent {
+  constructor(touched, source) {
+    super();
+    this.touched = touched;
+    this.source = source;
+  }
+}
+/**
+ * Event fired when the control's status changes.
+ *
+ * @publicApi
+ */
+class StatusChangeEvent extends ControlEvent {
+  constructor(status, source) {
+    super();
+    this.status = status;
+    this.source = source;
+  }
+}
+/**
+ * Event fired when a form is submitted
+ *
+ * @publicApi
+ */
+class FormSubmittedEvent extends ControlEvent {
+  constructor(source) {
+    super();
+    this.source = source;
+  }
+}
+/**
+ * Event fired when a form is reset.
+ *
+ * @publicApi
+ */
+class FormResetEvent extends ControlEvent {
+  constructor(source) {
+    super();
+    this.source = source;
+  }
+}
+/**
  * Gets validators from either an options object or given validators.
  */
 function pickValidators(validatorOrOpts) {
@@ -51995,7 +55535,6 @@ function assertAllValuesPresent(control, isGroup, value) {
     }
   });
 }
-// clang-format on
 /**
  * This is the base class for `FormControl`, `FormGroup`, and `FormArray`.
  *
@@ -52007,9 +55546,9 @@ function assertAllValuesPresent(control, isGroup, value) {
  * The first type parameter TValue represents the value type of the control (`control.value`).
  * The optional type parameter TRawValue  represents the raw value type (`control.getRawValue()`).
  *
- * @see [Forms Guide](/guide/forms)
- * @see [Reactive Forms Guide](/guide/reactive-forms)
- * @see [Dynamic Forms Guide](/guide/dynamic-form)
+ * @see [Forms Guide](guide/forms)
+ * @see [Reactive Forms Guide](guide/forms/reactive-forms)
+ * @see [Dynamic Forms Guide](guide/forms/dynamic-forms)
  *
  * @publicApi
  */
@@ -52027,10 +55566,11 @@ class AbstractControl {
     this._pendingDirty = false;
     /**
      * Indicates that a control has its own pending asynchronous validation in progress.
+     * It also stores if the control should emit events when the validation status changes.
      *
      * @internal
      */
-    this._hasOwnPendingAsyncValidator = false;
+    this._hasOwnPendingAsyncValidator = null;
     /** @internal */
     this._pendingTouched = false;
     /** @internal */
@@ -52051,6 +55591,25 @@ class AbstractControl {
      * a `blur` event on it.
      */
     this.touched = false;
+    /**
+     * Exposed as observable, see below.
+     *
+     * @internal
+     */
+    this._events = new rxjs__WEBPACK_IMPORTED_MODULE_5__.Subject();
+    /**
+     * A multicasting observable that emits an event every time the state of the control changes.
+     * It emits for value, status, pristine or touched changes.
+     *
+     * **Note**: On value change, the emit happens right after a value of this control is updated. The
+     * value of a parent control (for example if this FormControl is a part of a FormGroup) is updated
+     * later, so accessing a value of a parent control (using the `value` property) from the callback
+     * of this event might result in getting a value that has not been updated yet. Subscribe to the
+     * `events` of the parent control instead.
+     * For other event types, the events are emitted after the parent control has been updated.
+     *
+     */
+    this.events = this._events.asObservable();
     /** @internal */
     this._onDisabledChange = [];
     this._assignValidators(validators);
@@ -52329,151 +55888,104 @@ class AbstractControl {
   clearAsyncValidators() {
     this.asyncValidator = null;
   }
-  /**
-   * Marks the control as `touched`. A control is touched by focus and
-   * blur events that do not change the value.
-   *
-   * @see {@link markAsUntouched()}
-   * @see {@link markAsDirty()}
-   * @see {@link markAsPristine()}
-   *
-   * @param opts Configuration options that determine how the control propagates changes
-   * and emits events after marking is applied.
-   * * `onlySelf`: When true, mark only this control. When false or not supplied,
-   * marks all direct ancestors. Default is false.
-   */
   markAsTouched(opts = {}) {
+    const changed = this.touched === false;
     this.touched = true;
+    const sourceControl = opts.sourceControl ?? this;
     if (this._parent && !opts.onlySelf) {
-      this._parent.markAsTouched(opts);
+      this._parent.markAsTouched({
+        ...opts,
+        sourceControl
+      });
+    }
+    if (changed && opts.emitEvent !== false) {
+      this._events.next(new TouchedChangeEvent(true, sourceControl));
     }
   }
   /**
    * Marks the control and all its descendant controls as `touched`.
    * @see {@link markAsTouched()}
-   */
-  markAllAsTouched() {
-    this.markAsTouched({
-      onlySelf: true
-    });
-    this._forEachChild(control => control.markAllAsTouched());
-  }
-  /**
-   * Marks the control as `untouched`.
-   *
-   * If the control has any children, also marks all children as `untouched`
-   * and recalculates the `touched` status of all parent controls.
-   *
-   * @see {@link markAsTouched()}
-   * @see {@link markAsDirty()}
-   * @see {@link markAsPristine()}
-   *
-   * @param opts Configuration options that determine how the control propagates changes
-   * and emits events after the marking is applied.
-   * * `onlySelf`: When true, mark only this control. When false or not supplied,
-   * marks all direct ancestors. Default is false.
-   */
-  markAsUntouched(opts = {}) {
-    this.touched = false;
-    this._pendingTouched = false;
-    this._forEachChild(control => {
-      control.markAsUntouched({
-        onlySelf: true
-      });
-    });
-    if (this._parent && !opts.onlySelf) {
-      this._parent._updateTouched(opts);
-    }
-  }
-  /**
-   * Marks the control as `dirty`. A control becomes dirty when
-   * the control's value is changed through the UI; compare `markAsTouched`.
-   *
-   * @see {@link markAsTouched()}
-   * @see {@link markAsUntouched()}
-   * @see {@link markAsPristine()}
    *
    * @param opts Configuration options that determine how the control propagates changes
    * and emits events after marking is applied.
-   * * `onlySelf`: When true, mark only this control. When false or not supplied,
-   * marks all direct ancestors. Default is false.
+   * * `emitEvent`: When true or not supplied (the default), the `events`
+   * observable emits a `TouchedChangeEvent` with the `touched` property being `true`.
+   * When false, no events are emitted.
    */
-  markAsDirty(opts = {}) {
-    this.pristine = false;
-    if (this._parent && !opts.onlySelf) {
-      this._parent.markAsDirty(opts);
-    }
+  markAllAsTouched(opts = {}) {
+    this.markAsTouched({
+      onlySelf: true,
+      emitEvent: opts.emitEvent,
+      sourceControl: this
+    });
+    this._forEachChild(control => control.markAllAsTouched(opts));
   }
-  /**
-   * Marks the control as `pristine`.
-   *
-   * If the control has any children, marks all children as `pristine`,
-   * and recalculates the `pristine` status of all parent
-   * controls.
-   *
-   * @see {@link markAsTouched()}
-   * @see {@link markAsUntouched()}
-   * @see {@link markAsDirty()}
-   *
-   * @param opts Configuration options that determine how the control emits events after
-   * marking is applied.
-   * * `onlySelf`: When true, mark only this control. When false or not supplied,
-   * marks all direct ancestors. Default is false.
-   */
-  markAsPristine(opts = {}) {
-    this.pristine = true;
-    this._pendingDirty = false;
+  markAsUntouched(opts = {}) {
+    const changed = this.touched === true;
+    this.touched = false;
+    this._pendingTouched = false;
+    const sourceControl = opts.sourceControl ?? this;
     this._forEachChild(control => {
-      control.markAsPristine({
-        onlySelf: true
+      control.markAsUntouched({
+        onlySelf: true,
+        emitEvent: opts.emitEvent,
+        sourceControl
       });
     });
     if (this._parent && !opts.onlySelf) {
-      this._parent._updatePristine(opts);
+      this._parent._updateTouched(opts, sourceControl);
+    }
+    if (changed && opts.emitEvent !== false) {
+      this._events.next(new TouchedChangeEvent(false, sourceControl));
     }
   }
-  /**
-   * Marks the control as `pending`.
-   *
-   * A control is pending while the control performs async validation.
-   *
-   * @see {@link AbstractControl.status}
-   *
-   * @param opts Configuration options that determine how the control propagates changes and
-   * emits events after marking is applied.
-   * * `onlySelf`: When true, mark only this control. When false or not supplied,
-   * marks all direct ancestors. Default is false.
-   * * `emitEvent`: When true or not supplied (the default), the `statusChanges`
-   * observable emits an event with the latest status the control is marked pending.
-   * When false, no events are emitted.
-   *
-   */
+  markAsDirty(opts = {}) {
+    const changed = this.pristine === true;
+    this.pristine = false;
+    const sourceControl = opts.sourceControl ?? this;
+    if (this._parent && !opts.onlySelf) {
+      this._parent.markAsDirty({
+        ...opts,
+        sourceControl
+      });
+    }
+    if (changed && opts.emitEvent !== false) {
+      this._events.next(new PristineChangeEvent(false, sourceControl));
+    }
+  }
+  markAsPristine(opts = {}) {
+    const changed = this.pristine === false;
+    this.pristine = true;
+    this._pendingDirty = false;
+    const sourceControl = opts.sourceControl ?? this;
+    this._forEachChild(control => {
+      /** We don't propagate the source control downwards */
+      control.markAsPristine({
+        onlySelf: true,
+        emitEvent: opts.emitEvent
+      });
+    });
+    if (this._parent && !opts.onlySelf) {
+      this._parent._updatePristine(opts, sourceControl);
+    }
+    if (changed && opts.emitEvent !== false) {
+      this._events.next(new PristineChangeEvent(true, sourceControl));
+    }
+  }
   markAsPending(opts = {}) {
     this.status = PENDING;
+    const sourceControl = opts.sourceControl ?? this;
     if (opts.emitEvent !== false) {
+      this._events.next(new StatusChangeEvent(this.status, sourceControl));
       this.statusChanges.emit(this.status);
     }
     if (this._parent && !opts.onlySelf) {
-      this._parent.markAsPending(opts);
+      this._parent.markAsPending({
+        ...opts,
+        sourceControl
+      });
     }
   }
-  /**
-   * Disables the control. This means the control is exempt from validation checks and
-   * excluded from the aggregate value of any parent. Its status is `DISABLED`.
-   *
-   * If the control has children, all children are also disabled.
-   *
-   * @see {@link AbstractControl.status}
-   *
-   * @param opts Configuration options that determine how the control propagates
-   * changes and emits events after the control is disabled.
-   * * `onlySelf`: When true, mark only this control. When false or not supplied,
-   * marks all direct ancestors. Default is false.
-   * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
-   * `valueChanges`
-   * observables emit events with the latest status and value when the control is disabled.
-   * When false, no events are emitted.
-   */
   disable(opts = {}) {
     // If parent has been marked artificially dirty we don't want to re-calculate the
     // parent's dirtiness based on the children.
@@ -52481,20 +55993,24 @@ class AbstractControl {
     this.status = DISABLED;
     this.errors = null;
     this._forEachChild(control => {
+      /** We don't propagate the source control downwards */
       control.disable({
         ...opts,
         onlySelf: true
       });
     });
     this._updateValue();
+    const sourceControl = opts.sourceControl ?? this;
     if (opts.emitEvent !== false) {
+      this._events.next(new ValueChangeEvent(this.value, sourceControl));
+      this._events.next(new StatusChangeEvent(this.status, sourceControl));
       this.valueChanges.emit(this.value);
       this.statusChanges.emit(this.status);
     }
     this._updateAncestors({
       ...opts,
       skipPristineCheck
-    });
+    }, this);
     this._onDisabledChange.forEach(changeFn => changeFn(true));
   }
   /**
@@ -52510,8 +56026,8 @@ class AbstractControl {
    * emits events when marked as untouched
    * * `onlySelf`: When true, mark only this control. When false or not supplied,
    * marks all direct ancestors. Default is false.
-   * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
-   * `valueChanges`
+   * * `emitEvent`: When true or not supplied (the default), the `statusChanges`,
+   * `valueChanges` and `events`
    * observables emit events with the latest status and value when the control is enabled.
    * When false, no events are emitted.
    */
@@ -52533,16 +56049,16 @@ class AbstractControl {
     this._updateAncestors({
       ...opts,
       skipPristineCheck
-    });
+    }, this);
     this._onDisabledChange.forEach(changeFn => changeFn(false));
   }
-  _updateAncestors(opts) {
+  _updateAncestors(opts, sourceControl) {
     if (this._parent && !opts.onlySelf) {
       this._parent.updateValueAndValidity(opts);
       if (!opts.skipPristineCheck) {
-        this._parent._updatePristine();
+        this._parent._updatePristine({}, sourceControl);
       }
-      this._parent._updateTouched();
+      this._parent._updateTouched({}, sourceControl);
     }
   }
   /**
@@ -52560,37 +56076,31 @@ class AbstractControl {
   getRawValue() {
     return this.value;
   }
-  /**
-   * Recalculates the value and validation status of the control.
-   *
-   * By default, it also updates the value and validity of its ancestors.
-   *
-   * @param opts Configuration options determine how the control propagates changes and emits events
-   * after updates and validity checks are applied.
-   * * `onlySelf`: When true, only update this control. When false or not supplied,
-   * update all direct ancestors. Default is false.
-   * * `emitEvent`: When true or not supplied (the default), both the `statusChanges` and
-   * `valueChanges`
-   * observables emit events with the latest status and value when the control is updated.
-   * When false, no events are emitted.
-   */
   updateValueAndValidity(opts = {}) {
     this._setInitialStatus();
     this._updateValue();
     if (this.enabled) {
-      this._cancelExistingSubscription();
+      const shouldHaveEmitted = this._cancelExistingSubscription();
       this.errors = this._runValidator();
       this.status = this._calculateStatus();
       if (this.status === VALID || this.status === PENDING) {
-        this._runAsyncValidator(opts.emitEvent);
+        // If the canceled subscription should have emitted
+        // we make sure the async validator emits the status change on completion
+        this._runAsyncValidator(shouldHaveEmitted, opts.emitEvent);
       }
     }
+    const sourceControl = opts.sourceControl ?? this;
     if (opts.emitEvent !== false) {
+      this._events.next(new ValueChangeEvent(this.value, sourceControl));
+      this._events.next(new StatusChangeEvent(this.status, sourceControl));
       this.valueChanges.emit(this.value);
       this.statusChanges.emit(this.status);
     }
     if (this._parent && !opts.onlySelf) {
-      this._parent.updateValueAndValidity(opts);
+      this._parent.updateValueAndValidity({
+        ...opts,
+        sourceControl
+      });
     }
   }
   /** @internal */
@@ -52609,18 +56119,21 @@ class AbstractControl {
   _runValidator() {
     return this.validator ? this.validator(this) : null;
   }
-  _runAsyncValidator(emitEvent) {
+  _runAsyncValidator(shouldHaveEmitted, emitEvent) {
     if (this.asyncValidator) {
       this.status = PENDING;
-      this._hasOwnPendingAsyncValidator = true;
+      this._hasOwnPendingAsyncValidator = {
+        emitEvent: emitEvent !== false
+      };
       const obs = toObservable(this.asyncValidator(this));
       this._asyncValidationSubscription = obs.subscribe(errors => {
-        this._hasOwnPendingAsyncValidator = false;
+        this._hasOwnPendingAsyncValidator = null;
         // This will trigger the recalculation of the validation status, which depends on
         // the state of the asynchronous validation (whether it is in progress or not). So, it is
         // necessary that we have updated the `_hasOwnPendingAsyncValidator` boolean flag first.
         this.setErrors(errors, {
-          emitEvent
+          emitEvent,
+          shouldHaveEmitted
         });
       });
     }
@@ -52628,40 +56141,17 @@ class AbstractControl {
   _cancelExistingSubscription() {
     if (this._asyncValidationSubscription) {
       this._asyncValidationSubscription.unsubscribe();
-      this._hasOwnPendingAsyncValidator = false;
+      // we're cancelling the validator subscribtion, we keep if it should have emitted
+      // because we want to emit eventually if it was required at least once.
+      const shouldHaveEmitted = this._hasOwnPendingAsyncValidator?.emitEvent ?? false;
+      this._hasOwnPendingAsyncValidator = null;
+      return shouldHaveEmitted;
     }
+    return false;
   }
-  /**
-   * Sets errors on a form control when running validations manually, rather than automatically.
-   *
-   * Calling `setErrors` also updates the validity of the parent control.
-   *
-   * @param opts Configuration options that determine how the control propagates
-   * changes and emits events after the control errors are set.
-   * * `emitEvent`: When true or not supplied (the default), the `statusChanges`
-   * observable emits an event after the errors are set.
-   *
-   * @usageNotes
-   *
-   * ### Manually set the errors for a control
-   *
-   * ```
-   * const login = new FormControl('someLogin');
-   * login.setErrors({
-   *   notUnique: true
-   * });
-   *
-   * expect(login.valid).toEqual(false);
-   * expect(login.errors).toEqual({ notUnique: true });
-   *
-   * login.setValue('someOtherLogin');
-   *
-   * expect(login.valid).toEqual(true);
-   * ```
-   */
   setErrors(errors, opts = {}) {
     this.errors = errors;
-    this._updateControlsErrors(opts.emitEvent !== false);
+    this._updateControlsErrors(opts.emitEvent !== false, this, opts.shouldHaveEmitted);
   }
   /**
    * Retrieves a child control given the control's name or path.
@@ -52775,13 +56265,19 @@ class AbstractControl {
     return x;
   }
   /** @internal */
-  _updateControlsErrors(emitEvent) {
+  _updateControlsErrors(emitEvent, changedControl, shouldHaveEmitted) {
     this.status = this._calculateStatus();
     if (emitEvent) {
       this.statusChanges.emit(this.status);
     }
+    // The Events Observable expose a slight different bevahior than the statusChanges obs
+    // An async validator will still emit a StatusChangeEvent is a previously cancelled
+    // async validator has emitEvent set to true
+    if (emitEvent || shouldHaveEmitted) {
+      this._events.next(new StatusChangeEvent(this.status, changedControl));
+    }
     if (this._parent) {
-      this._parent._updateControlsErrors(emitEvent);
+      this._parent._updateControlsErrors(emitEvent, changedControl, shouldHaveEmitted);
     }
   }
   /** @internal */
@@ -52809,17 +56305,23 @@ class AbstractControl {
     return this._anyControls(control => control.touched);
   }
   /** @internal */
-  _updatePristine(opts = {}) {
-    this.pristine = !this._anyControlsDirty();
+  _updatePristine(opts, changedControl) {
+    const newPristine = !this._anyControlsDirty();
+    const changed = this.pristine !== newPristine;
+    this.pristine = newPristine;
     if (this._parent && !opts.onlySelf) {
-      this._parent._updatePristine(opts);
+      this._parent._updatePristine(opts, changedControl);
+    }
+    if (changed) {
+      this._events.next(new PristineChangeEvent(this.pristine, changedControl));
     }
   }
   /** @internal */
-  _updateTouched(opts = {}) {
+  _updateTouched(opts = {}, changedControl) {
     this.touched = this._anyControlsTouched();
+    this._events.next(new TouchedChangeEvent(this.touched, changedControl));
     if (this._parent && !opts.onlySelf) {
-      this._parent._updateTouched(opts);
+      this._parent._updateTouched(opts, changedControl);
     }
   }
   /** @internal */
@@ -53214,8 +56716,8 @@ class FormGroup extends AbstractControl {
         emitEvent: options.emitEvent
       });
     });
-    this._updatePristine(options);
-    this._updateTouched(options);
+    this._updatePristine(options, this);
+    this._updateTouched(options, this);
     this.updateValueAndValidity(options);
   }
   /**
@@ -53938,7 +57440,7 @@ class NgForm extends ControlContainer {
       }
     },
     inputs: {
-      options: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "ngFormOptions", "options"]
+      options: [0, "ngFormOptions", "options"]
     },
     outputs: {
       ngSubmit: "ngSubmit"
@@ -54273,7 +57775,7 @@ class NgModelGroup extends AbstractFormGroupDirective {
     type: NgModelGroup,
     selectors: [["", "ngModelGroup", ""]],
     inputs: {
-      name: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "ngModelGroup", "name"]
+      name: [0, "ngModelGroup", "name"]
     },
     exportAs: ["ngModelGroup"],
     features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([modelGroupProvider]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]]
@@ -54582,9 +58084,9 @@ class NgModel extends NgControl {
     selectors: [["", "ngModel", "", 3, "formControlName", "", 3, "formControl", ""]],
     inputs: {
       name: "name",
-      isDisabled: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "disabled", "isDisabled"],
-      model: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "ngModel", "model"],
-      options: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "ngModelOptions", "options"]
+      isDisabled: [0, "disabled", "isDisabled"],
+      model: [0, "ngModel", "model"],
+      options: [0, "ngModelOptions", "options"]
     },
     outputs: {
       update: "ngModelChange"
@@ -55126,9 +58628,8 @@ const formControlBinding = {
  * Note that support for using the `ngModel` input property and `ngModelChange` event with reactive
  * form directives was deprecated in Angular v6 and is scheduled for removal in
  * a future version of Angular.
- * For details, see [Deprecated features](guide/deprecations#ngmodel-with-reactive-forms).
  *
- * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see [Reactive Forms Guide](guide/forms/reactive-forms)
  * @see {@link FormControl}
  * @see {@link AbstractControl}
  *
@@ -55238,9 +58739,9 @@ class FormControlDirective extends NgControl {
     type: FormControlDirective,
     selectors: [["", "formControl", ""]],
     inputs: {
-      form: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "formControl", "form"],
-      isDisabled: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "disabled", "isDisabled"],
-      model: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "ngModel", "model"]
+      form: [0, "formControl", "form"],
+      isDisabled: [0, "disabled", "isDisabled"],
+      model: [0, "ngModel", "model"]
     },
     outputs: {
       update: "ngModelChange"
@@ -55336,7 +58837,7 @@ const formDirectiveProvider = {
  * and `FormArray` instances to child `FormControlName`, `FormGroupName`,
  * and `FormArrayName` directives.
  *
- * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see [Reactive Forms Guide](guide/forms/reactive-forms)
  * @see {@link AbstractControl}
  *
  * @usageNotes
@@ -55537,6 +59038,7 @@ class FormGroupDirective extends ControlContainer {
     this.submitted = true;
     syncPendingControls(this.form, this.directives);
     this.ngSubmit.emit($event);
+    this.form._events.next(new FormSubmittedEvent(this.control));
     // Forms with `method="dialog"` have some special behavior that won't reload the page and that
     // shouldn't be prevented. Note that we need to null check the `event` and the `target`, because
     // some internal apps call this method directly with the wrong arguments.
@@ -55558,6 +59060,7 @@ class FormGroupDirective extends ControlContainer {
   resetForm(value = undefined) {
     this.form.reset(value);
     this.submitted = false;
+    this.form._events.next(new FormResetEvent(this.form));
   }
   /** @internal */
   _updateDomValue() {
@@ -55641,7 +59144,7 @@ class FormGroupDirective extends ControlContainer {
       }
     },
     inputs: {
-      form: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "formGroup", "form"]
+      form: [0, "formGroup", "form"]
     },
     outputs: {
       ngSubmit: "ngSubmit"
@@ -55719,7 +59222,7 @@ const formGroupNameProvider = {
  * form separately from the rest or to group the values of certain
  * controls into their own nested object.
  *
- * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see [Reactive Forms Guide](guide/forms/reactive-forms)
  *
  * @usageNotes
  *
@@ -55781,7 +59284,7 @@ class FormGroupName extends AbstractFormGroupDirective {
     type: FormGroupName,
     selectors: [["", "formGroupName", ""]],
     inputs: {
-      name: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "formGroupName", "name"]
+      name: [0, "formGroupName", "name"]
     },
     features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([formGroupNameProvider]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]]
   });
@@ -55845,7 +59348,7 @@ const formArrayNameProvider = {
  * will look for a `FormArray` registered with that name in the parent
  * `FormGroup` instance you passed into `FormGroupDirective`.
  *
- * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see [Reactive Forms Guide](guide/forms/reactive-forms)
  * @see {@link AbstractControl}
  *
  * @usageNotes
@@ -55926,7 +59429,7 @@ class FormArrayName extends ControlContainer {
     type: FormArrayName,
     selectors: [["", "formArrayName", ""]],
     inputs: {
-      name: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "formArrayName", "name"]
+      name: [0, "formArrayName", "name"]
     },
     features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([formArrayNameProvider]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]]
   });
@@ -55986,7 +59489,7 @@ const controlNameBinding = {
  * Syncs a `FormControl` in an existing `FormGroup` to a form control
  * element by name.
  *
- * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see [Reactive Forms Guide](guide/forms/reactive-forms)
  * @see {@link FormControl}
  * @see {@link AbstractControl}
  *
@@ -56009,8 +59512,6 @@ const controlNameBinding = {
  * Support for using the `ngModel` input property and `ngModelChange` event with reactive
  * form directives has been deprecated in Angular v6 and is scheduled for removal in
  * a future version of Angular.
- *
- * For details, see [Deprecated features](guide/deprecations#ngmodel-with-reactive-forms).
  *
  * @ngModule ReactiveFormsModule
  * @publicApi
@@ -56109,7 +59610,7 @@ class FormControlName extends NgControl {
       if (!(this._parent instanceof FormGroupName) && this._parent instanceof AbstractFormGroupDirective) {
         throw ngModelGroupException();
       } else if (!(this._parent instanceof FormGroupName) && !(this._parent instanceof FormGroupDirective) && !(this._parent instanceof FormArrayName)) {
-        throw controlParentException();
+        throw controlParentException(this.name);
       }
     }
   }
@@ -56125,9 +59626,9 @@ class FormControlName extends NgControl {
     type: FormControlName,
     selectors: [["", "formControlName", ""]],
     inputs: {
-      name: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "formControlName", "name"],
-      isDisabled: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "disabled", "isDisabled"],
-      model: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "ngModel", "model"]
+      name: [0, "formControlName", "name"],
+      isDisabled: [0, "disabled", "isDisabled"],
+      model: [0, "ngModel", "model"]
     },
     outputs: {
       update: "ngModelChange"
@@ -56829,7 +60330,7 @@ const MAX_VALIDATOR = {
  * A directive which installs the {@link MaxValidator} for any `formControlName`,
  * `formControl`, or control with `ngModel` that also has a `max` attribute.
  *
- * @see [Form Validation](guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @usageNotes
  *
@@ -56906,7 +60407,7 @@ const MIN_VALIDATOR = {
  * A directive which installs the {@link MinValidator} for any `formControlName`,
  * `formControl`, or control with `ngModel` that also has a `min` attribute.
  *
- * @see [Form Validation](guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @usageNotes
  *
@@ -56993,7 +60494,7 @@ const CHECKBOX_REQUIRED_VALIDATOR = {
  * A directive that adds the `required` validator to any controls marked with the
  * `required` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
  *
- * @see [Form Validation](guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @usageNotes
  *
@@ -57062,7 +60563,7 @@ class RequiredValidator extends AbstractValidatorDirective {
  * A Directive that adds the `required` validator to checkbox controls marked with the
  * `required` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
  *
- * @see [Form Validation](guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @usageNotes
  *
@@ -57132,7 +60633,7 @@ const EMAIL_VALIDATOR = {
  * incorporate more RFC rules. More information can be found on the [Validators.email
  * page](api/forms/Validators#email).
  *
- * @see [Form Validation](guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @usageNotes
  *
@@ -57206,7 +60707,7 @@ const MIN_LENGTH_VALIDATOR = {
  * A directive that adds minimum length validation to controls marked with the
  * `minlength` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
  *
- * @see [Form Validation](guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @usageNotes
  *
@@ -57283,7 +60784,7 @@ const MAX_LENGTH_VALIDATOR = {
  * A directive that adds maximum length validation to controls marked with the
  * `maxlength` attribute. The directive is provided with the `NG_VALIDATORS` multi-provider list.
  *
- * @see [Form Validation](guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @usageNotes
  *
@@ -57362,7 +60863,7 @@ const PATTERN_VALIDATOR = {
  * `pattern` attribute. The regex must match the entire control value.
  * The directive is provided with the `NG_VALIDATORS` multi-provider list.
  *
- * @see [Form Validation](guide/form-validation)
+ * @see [Form Validation](guide/forms/form-validation)
  *
  * @usageNotes
  *
@@ -57798,8 +61299,8 @@ class FormArray extends AbstractControl {
         emitEvent: options.emitEvent
       });
     });
-    this._updatePristine(options);
-    this._updateTouched(options);
+    this._updatePristine(options, this);
+    this._updateTouched(options, this);
     this.updateValueAndValidity(options);
   }
   /**
@@ -57917,7 +61418,6 @@ const isFormArray = control => control instanceof FormArray;
 function isAbstractControlOptions(options) {
   return !!options && (options.asyncValidators !== undefined || options.validators !== undefined || options.updateOn !== undefined);
 }
-// clang-format on
 /**
  * @description
  * Creates an `AbstractControl` from a user-specified configuration.
@@ -57926,7 +61426,7 @@ function isAbstractControlOptions(options) {
  * `FormControl`, `FormGroup`, or `FormArray`. It reduces the amount of boilerplate needed to
  * build complex forms.
  *
- * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see [Reactive Forms Guide](guide/forms/reactive-forms)
  *
  * @publicApi
  */
@@ -58194,14 +61694,14 @@ class UntypedFormBuilder extends FormBuilder {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('17.3.5');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('18.0.0');
 
 /**
  * Exports the required providers and directives for template-driven forms,
  * making them available for import by NgModules that import this module.
  *
- * @see [Forms Overview](/guide/forms-overview)
- * @see [Template-driven Forms Guide](/guide/forms)
+ * @see [Forms Overview](guide/forms)
+ * @see [Template-driven Forms Guide](guide/forms)
  *
  * @publicApi
  */
@@ -58246,8 +61746,8 @@ class FormsModule {
  * Exports the required infrastructure and directives for reactive forms,
  * making them available for import by NgModules that import this module.
  *
- * @see [Forms Overview](guide/forms-overview)
- * @see [Reactive Forms Guide](guide/reactive-forms)
+ * @see [Forms Overview](guide/forms)
+ * @see [Reactive Forms Guide](guide/forms/reactive-forms)
  *
  * @publicApi
  */
@@ -58322,10 +61822,10 @@ class ReactiveFormsModule {
 
 /***/ }),
 
-/***/ 6009:
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+platform-browser@17.3.5_@angular+animations@17.3.5_@angular+common@17.3.5_@angular+core@17.3.5/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs ***!
-  \*********************************************************************************************************************************************************************************************************/
+/***/ 6132:
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@angular+platform-browser@18.0.0_@angular+animations@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_z_ujpvttfluyu2swadfqqzxntm2e/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs ***!
+  \**************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -58344,17 +61844,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Meta: () => (/* binding */ Meta),
 /* harmony export */   REMOVE_STYLES_ON_COMPONENT_DESTROY: () => (/* binding */ REMOVE_STYLES_ON_COMPONENT_DESTROY),
 /* harmony export */   Title: () => (/* binding */ Title),
-/* harmony export */   TransferState: () => (/* binding */ TransferState),
 /* harmony export */   VERSION: () => (/* binding */ VERSION),
 /* harmony export */   bootstrapApplication: () => (/* binding */ bootstrapApplication),
 /* harmony export */   createApplication: () => (/* binding */ createApplication),
 /* harmony export */   disableDebugTools: () => (/* binding */ disableDebugTools),
 /* harmony export */   enableDebugTools: () => (/* binding */ enableDebugTools),
-/* harmony export */   makeStateKey: () => (/* binding */ makeStateKey),
 /* harmony export */   platformBrowser: () => (/* binding */ platformBrowser),
 /* harmony export */   provideClientHydration: () => (/* binding */ provideClientHydration),
 /* harmony export */   provideProtractorTestingSupport: () => (/* binding */ provideProtractorTestingSupport),
+/* harmony export */   withEventReplay: () => (/* binding */ withEventReplay),
 /* harmony export */   withHttpTransferCacheOptions: () => (/* binding */ withHttpTransferCacheOptions),
+/* harmony export */   withI18nSupport: () => (/* binding */ withI18nSupport),
 /* harmony export */   withNoHttpTransferCache: () => (/* binding */ withNoHttpTransferCache),
 /* harmony export */   "ɵBrowserDomAdapter": () => (/* binding */ BrowserDomAdapter),
 /* harmony export */   "ɵBrowserGetTestability": () => (/* binding */ BrowserGetTestability),
@@ -58368,11 +61868,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵgetDOM": () => (/* reexport safe */ _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"]),
 /* harmony export */   "ɵinitDomAdapter": () => (/* binding */ initDomAdapter)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 4494);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common */ 2852);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ 4515);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common */ 6794);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 6829);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ 513);
 /**
- * @license Angular v17.3.5
+ * @license Angular v18.0.0
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -58813,7 +62313,7 @@ const NAMESPACE_URIS = {
   'xlink': 'http://www.w3.org/1999/xlink',
   'xml': 'http://www.w3.org/XML/1998/namespace',
   'xmlns': 'http://www.w3.org/2000/xmlns/',
-  'math': 'http://www.w3.org/1998/MathML/'
+  'math': 'http://www.w3.org/1998/Math/MathML'
 };
 const COMPONENT_REGEX = /%COMP%/g;
 const COMPONENT_VARIABLE = '%COMP%';
@@ -58824,7 +62324,7 @@ const CONTENT_ATTR = `_ngcontent-${COMPONENT_VARIABLE}`;
  */
 const REMOVE_STYLES_ON_COMPONENT_DESTROY_DEFAULT = true;
 /**
- * A [DI token](guide/glossary#di-token "DI token definition") that indicates whether styles
+ * A DI token that indicates whether styles
  * of destroyed components should be removed from DOM.
  *
  * By default, the value is set to `true`.
@@ -59413,7 +62913,7 @@ class KeyEventsPlugin extends EventManagerPlugin {
 /**
  * Bootstraps an instance of an Angular application and renders a standalone component as the
  * application's root component. More information about standalone components can be found in [this
- * guide](guide/standalone-components).
+ * guide](guide/components/importing).
  *
  * @usageNotes
  * The root component passed into this function *must* be a standalone one (should have the
@@ -60464,6 +63964,8 @@ var HydrationFeatureKind;
 (function (HydrationFeatureKind) {
   HydrationFeatureKind[HydrationFeatureKind["NoHttpTransferCache"] = 0] = "NoHttpTransferCache";
   HydrationFeatureKind[HydrationFeatureKind["HttpTransferCacheOptions"] = 1] = "HttpTransferCacheOptions";
+  HydrationFeatureKind[HydrationFeatureKind["I18nSupport"] = 2] = "I18nSupport";
+  HydrationFeatureKind[HydrationFeatureKind["EventReplay"] = 3] = "EventReplay";
 })(HydrationFeatureKind || (HydrationFeatureKind = {}));
 /**
  * Helper function to create an object that represents a Hydration feature.
@@ -60498,6 +64000,36 @@ function withHttpTransferCacheOptions(options) {
   return hydrationFeature(HydrationFeatureKind.HttpTransferCacheOptions, (0,_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["ɵwithHttpTransferCache"])(options));
 }
 /**
+ * Enables support for hydrating i18n blocks.
+ *
+ * @developerPreview
+ * @publicApi
+ */
+function withI18nSupport() {
+  return hydrationFeature(HydrationFeatureKind.I18nSupport, (0,_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵwithI18nSupport"])());
+}
+/**
+ * Enables support for replaying user events (e.g. `click`s) that happened on a page
+ * before hydration logic has completed. Once an application is hydrated, all captured
+ * events are replayed and relevant event listeners are executed.
+ *
+ * @usageNotes
+ *
+ * Basic example of how you can enable event replay in your application when
+ * `bootstrapApplication` function is used:
+ * ```
+ * bootstrapApplication(AppComponent, {
+ *   providers: [provideClientHydration(withEventReplay())]
+ * });
+ * ```
+ * @developerPreview
+ * @publicApi
+ * @see {@link provideClientHydration}
+ */
+function withEventReplay() {
+  return hydrationFeature(HydrationFeatureKind.EventReplay, (0,_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵwithEventReplay"])());
+}
+/**
  * Returns an `ENVIRONMENT_INITIALIZER` token setup with a function
  * that verifies whether compatible ZoneJS was used in an application
  * and logs a warning in a console if it's not the case.
@@ -60528,7 +64060,7 @@ function provideZoneJsCompatibilityDetector() {
  * * Reconciling DOM hydration. Learn more about it [here](guide/hydration).
  * * [`HttpClient`](api/common/http/HttpClient) response caching while running on the server and
  * transferring this cache to the client to avoid extra HTTP requests. Learn more about data caching
- * [here](/guide/ssr#caching-data-when-using-httpclient).
+ * [here](guide/ssr#caching-data-when-using-httpclient).
  *
  * These functions allow you to disable some of the default features or configure features
  * * {@link withNoHttpTransferCache} to disable HTTP transfer cache
@@ -60591,28 +64123,7 @@ function provideClientHydration(...features) {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__.Version('17.3.5');
-
-// Re-export TransferState to the public API of the `platform-browser` for backwards-compatibility.
-/**
- * Create a `StateKey<T>` that can be used to store value of type T with `TransferState`.
- *
- * Example:
- *
- * ```
- * const COUNTER_KEY = makeStateKey<number>('counter');
- * let value = 10;
- *
- * transferState.set(COUNTER_KEY, value);
- * ```
- *
- * @publicApi
- * @deprecated `makeStateKey` has moved, please import `makeStateKey` from `@angular/core` instead.
- */
-// The below is a workaround to add a deprecated message.
-const makeStateKey = _angular_core__WEBPACK_IMPORTED_MODULE_1__.makeStateKey;
-// The below type is needed for G3 due to JSC_CONFORMANCE_VIOLATION.
-const TransferState = _angular_core__WEBPACK_IMPORTED_MODULE_1__.TransferState;
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__.Version('18.0.0');
 
 /**
  * @module
@@ -60631,10 +64142,10 @@ const TransferState = _angular_core__WEBPACK_IMPORTED_MODULE_1__.TransferState;
 
 /***/ }),
 
-/***/ 6319:
-/*!************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@ngx-translate+core@15.0.0_@angular+common@17.3.5_@angular+core@17.3.5_rxjs@7.8.1/node_modules/@ngx-translate/core/dist/fesm2022/ngx-translate-core.mjs ***!
-  \************************************************************************************************************************************************************************************/
+/***/ 7510:
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@ngx-translate+core@15.0.0_@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.1_4ekhhqlsqd3enr4wc4vnwdt7gu/node_modules/@ngx-translate/core/dist/fesm2022/ngx-translate-core.mjs ***!
+  \***************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -60657,17 +64168,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   USE_EXTEND: () => (/* binding */ USE_EXTEND),
 /* harmony export */   USE_STORE: () => (/* binding */ USE_STORE)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 4494);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ 5560);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 8923);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 8221);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rxjs */ 8637);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 7693);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 1962);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 1769);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 4251);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 5427);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 6451);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 6829);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ 9294);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 7861);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 727);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rxjs */ 3003);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 8231);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 9972);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 7527);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 7437);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 4373);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 3393);
 
 
 
@@ -61839,10 +65350,10 @@ class TranslateModule {
 
 /***/ }),
 
-/***/ 5975:
-/*!***********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@ngx-translate+http-loader@8.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@ngx-translate+core@15.0.0_rxjs@7.8.1/node_modules/@ngx-translate/http-loader/dist/fesm2022/ngx-translate-http-loader.mjs ***!
-  \***********************************************************************************************************************************************************************************************************************************/
+/***/ 2897:
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@ngx-translate+http-loader@8.0.0_@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone._7vzdhojks6wbry34c3dxoxye74/node_modules/@ngx-translate/http-loader/dist/fesm2022/ngx-translate-http-loader.mjs ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -61874,9 +65385,9 @@ class TranslateHttpLoader {
 
 /***/ }),
 
-/***/ 3085:
+/***/ 5455:
 /*!**********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@utrecht+component-library-angular@1.0.2-alpha.40/node_modules/@utrecht/component-library-angular/dist/fesm2022/utrecht-component-library-angular.mjs ***!
+  !*** ./node_modules/.pnpm/@utrecht+component-library-angular@1.0.2-alpha.53/node_modules/@utrecht/component-library-angular/dist/fesm2022/utrecht-component-library-angular.mjs ***!
   \**********************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -61925,8 +65436,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   UtrechtUnorderedListAttr: () => (/* binding */ UtrechtUnorderedListAttr),
 /* harmony export */   UtrechtUnorderedListItemAttr: () => (/* binding */ UtrechtUnorderedListItemAttr)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 2852);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 4494);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 6794);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 6829);
 
 
 
@@ -62884,7 +66395,7 @@ class UtrechtHtmlContent {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
     },
-    styles: ["@charset \"UTF-8\";/**\n * @license EUPL-1.2\n * Copyright (c) 2020-2022 Gemeente Utrecht\n * Copyright (c) 2020-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2022 Gemeente Utrecht\n * Copyright (c) 2022 Robbert Broersma\n * Copyright (c) 2022 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 Gemeente Utrecht\n */.utrecht-html{--utrecht-space-around: 1}.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-html blockquote{background-color:var(--utrecht-blockquote-background-color);color:var(--utrecht-blockquote-color);font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);font-style:var(--utrecht-blockquote-font-style);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);padding-block-end:var(--utrecht-blockquote-padding-block-end);padding-block-start:var(--utrecht-blockquote-padding-block-start);padding-inline-end:var(--utrecht-blockquote-padding-inline-end);padding-inline-start:var(--utrecht-blockquote-padding-inline-start);--utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit);--utrecht-space-around: 1}.utrecht-html input[type=button i],.utrecht-html input[type=reset i],.utrecht-html input[type=submit i],.utrecht-html button{--_utrecht-button-background-color: var( --_utrecht-button-hint-background-color, var(--_utrecht-button-appearance-background-color, var(--utrecht-button-background-color)) );--_utrecht-button-color: var( --_utrecht-button-hint-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-color)) );--_utrecht-button-border-color: var( --_utrecht-button-hint-border-color, var(--_utrecht-button-appearance-border-color, var(--utrecht-button-border-color, transparent)) );--_utrecht-button-border-bottom-color: var( --_utrecht-button-hint-border-bottom-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-border-bottom-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-border-bottom-color, var(--utrecht-button-border-color, transparent)) ) ) ) );--_utrecht-button-disabled-background-color: var( --_utrecht-button-hint-disabled-background-color, var( --_utrecht-button-appearance-disabled-background-color, var(--utrecht-button-disabled-background-color, var(--utrecht-button-background-color)) ) );--_utrecht-button-disabled-border-color: var( --_utrecht-button-hint-disabled-border-color, var( --_utrecht-button-appearance-disabled-border-color, var(--utrecht-button-disabled-border-color, var(--utrecht-button-border-color)) ) );--_utrecht-button-disabled-color: var( --_utrecht-button-hint-disabled-color, var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color))) );--_utrecht-button-pressed-background-color: var( --_utrecht-button-hint-pressed-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-pressed-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-pressed-border-color: var( --_utrecht-button-hint-pressed-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-pressed-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-pressed-color: var( --_utrecht-button-hint-pressed-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-pressed-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-focus-background-color: var( --_utrecht-button-hint-focus-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-focus-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-focus-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-focus-border-color: var( --_utrecht-button-hint-focus-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-focus-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-focus-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-focus-color: var( --_utrecht-button-hint-focus-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-focus-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-focus-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-hover-background-color: var( --_utrecht-button-hint-hover-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-hover-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-hover-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-hover-border-color: var( --_utrecht-button-hint-hover-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-hover-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-hover-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-hover-color: var( --_utrecht-button-hint-hover-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-hover-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-hover-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-active-background-color: var( --_utrecht-button-hint-active-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-active-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-active-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-active-border-color: var( --_utrecht-button-hint-active-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-active-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-active-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-active-color: var( --_utrecht-button-hint-active-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-active-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-active-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));--_utrecht-button-border-block-end-width: var( --utrecht-button-border-bottom-width, var(--_utrecht-button-border-width, 0) );--utrecht-icon-size: var(--utrecht-button-icon-size, 1em);align-items:center;background-color:var(--_utrecht-button-background-color);block-size:-moz-fit-content;block-size:fit-content;border-block-end-color:var(--_utrecht-button-border-bottom-color);border-block-end-width:var(--_utrecht-button-border-block-end-width);border-color:var(--_utrecht-button-border-color);border-radius:var(--utrecht-button-border-radius);border-style:solid;border-width:var(--_utrecht-button-border-width);box-sizing:border-box;color:var(--_utrecht-button-color);cursor:var(--utrecht-action-activate-cursor, revert);display:inline-flex;font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));font-weight:var(--_utrecht-button-appearance-font-weight, var(--utrecht-button-font-weight));gap:var(--utrecht-button-icon-gap);inline-size:var(--utrecht-button-inline-size, auto);justify-content:center;line-height:var(--utrecht-button-line-height);max-inline-size:var(--utrecht-button-max-inline-size, -moz-fit-content);max-inline-size:var(--utrecht-button-max-inline-size, fit-content);min-block-size:var(--utrecht-button-min-block-size, 44px);min-inline-size:var(--utrecht-button-min-inline-size, 44px);padding-block-end:var(--utrecht-button-padding-block-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-inline-start:var(--utrecht-button-padding-inline-start);scale:1;text-transform:var(--utrecht-button-text-transform);-webkit-user-select:none;user-select:none;margin-block-end:var(--utrecht-button-margin-block-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-inline-start:var(--utrecht-button-margin-inline-start)}.utrecht-html button[hidden]{display:none}.utrecht-html button[type=submit i],.utrecht-html input[type=submit i]{cursor:var(--utrecht-action-submit-cursor, revert)}.utrecht-html button:disabled,.utrecht-html button[aria-disabled=true]{background-color:var(--_utrecht-button-disabled-background-color);border-color:var(--_utrecht-button-disabled-border-color);color:var(--_utrecht-button-disabled-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html button[aria-busy=true],.utrecht-html button[aria-disabled=true][aria-busy=true],.utrecht-html button:disabled[aria-busy=true]{cursor:var(--utrecht-action-busy-cursor, wait)}.utrecht-html button:active:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-active-background-color);border-color:var(--_utrecht-button-active-border-color);color:var(--_utrecht-button-active-color)}.utrecht-html button:hover:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-hover-background-color);border-color:var(--_utrecht-button-hover-border-color);color:var(--_utrecht-button-hover-color);scale:var(--utrecht-button-hover-scale, 1)}.utrecht-html button:focus:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-focus-background-color);border-color:var(--_utrecht-button-focus-border-color);color:var(--_utrecht-button-focus-color);scale:var(--utrecht-button-focus-scale, 1)}.utrecht-html button:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]{margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;cursor:var(--utrecht-action-activate-cursor, revert);-webkit-user-select:none;user-select:none}.utrecht-html input[type=checkbox i]:disabled{cursor:var(--utrecht-action-disabled-cursor, revert)}.utrecht-html input[type=checkbox i]:focus{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html body{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);font-weight:var(--utrecht-document-font-weight, inherit);line-height:var(--utrecht-document-line-height, inherit);text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:var(--utrecht-document-background-color, inherit)}.utrecht-html body :lang(ar){letter-spacing:0!important}.utrecht-html code{background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height)}.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-html fieldset{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));all:revert;border:0;margin-inline-end:0;margin-inline-start:0;min-inline-size:0;padding-block-end:0;padding-block-start:.01em;padding-inline-end:0;padding-inline-start:0;--utrecht-space-around: 1}.utrecht-html fieldset[hidden]{display:none}.utrecht-html figure{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0))}.utrecht-html figcaption{color:var(--utrecht-figure-caption-color);font-size:var(--utrecht-figure-caption-font-size);line-height:var(--utrecht-figure-caption-line-height)}.utrecht-html form{display:block;max-inline-size:var(--utrecht-form-max-inline-size)}.utrecht-html legend{break-inside:avoid;color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);page-break-after:avoid;page-break-inside:avoid;display:table;inline-size:100%;padding-inline-end:0;padding-inline-start:0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0))}.utrecht-html legend[hidden]{display:none}.utrecht-html fieldset:disabled>legend{color:var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)))}.utrecht-html label{color:var(--utrecht-form-label-color);font-size:var(--utrecht-form-label-font-size);font-weight:var(--utrecht-form-label-font-weight)}.utrecht-html input[type=checkbox i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html input[type=radio i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html mark{background-color:var(--utrecht-mark-background-color, revert);color:var(--utrecht-mark-color, revert)}@media print{.utrecht-html mark{outline-color:currentColor;outline-style:dotted;outline-width:.1em}}@media screen and (-ms-high-contrast: active){.utrecht-html mark{background-color:Highlight;color:HighlightText}}.utrecht-html h1{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size, revert);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-1-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h2{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size, revert);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-2-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h3{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size, revert);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-3-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h4{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size, revert);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-4-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h5{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size, revert);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-5-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h6{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size, revert);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-6-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html hgroup{--utrecht-pre-heading-order: -1;display:flex;flex-direction:column;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html hgroup>*{--utrecht-space-around: 0}.utrecht-html a{--utrecht-icon-size: var(--utrecht-link-icon-size, 1em);color:var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)))}.utrecht-html a:visited{--_utrecht-link-forced-colors-color: visitedtext;--_utrecht-link-state-color: var(--utrecht-link-visited-color)}.utrecht-html a:hover{--_utrecht-link-forced-colors-color: linktext;--_utrecht-link-state-color: var(--utrecht-link-hover-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}.utrecht-html a:active{--_utrecht-link-forced-colors-color: activetext;--_utrecht-link-state-color: var(--utrecht-link-active-color)}.utrecht-html a:focus{--_utrecht-link-state-color: var(--utrecht-link-focus-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);background-color:var(--utrecht-link-focus-background-color, transparent);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert);z-index:var(--utrecht-stack-focus-z-index, 1)}.utrecht-html a:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-html ol{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));line-height:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));padding-inline-start:var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));text-align:start;--utrecht-space-around: 1}.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));margin-block-start:var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));padding-inline-start:var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch))}.utrecht-html ol:lang(ar){list-style:arabic-indic}.utrecht-html p{color:var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0))}.utrecht-html p.lead{color:var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html *~p{--utrecht-space-around: 1}.utrecht-html p:has(>small:only-child){color:var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html p>small:only-child{font-size:inherit}.utrecht-html pre:has(>code:only-child){background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height);--utrecht-code-color: var(--utrecht-code-block-color, inherit);--utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);--utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);--utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);--utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);background-color:var(--utrecht-code-block-background-color);display:block;font-size:var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));line-height:var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));margin-block-end:var(--utrecht-code-block-margin-block-end);margin-block-start:var(--utrecht-code-block-margin-block-start);margin-inline-end:var(--utrecht-code-block-margin-inline-end);margin-inline-start:var(--utrecht-code-block-margin-inline-start);padding-block-end:var(--utrecht-code-block-padding-block-end);padding-block-start:var(--utrecht-code-block-padding-block-start);padding-inline-end:var(--utrecht-code-block-padding-inline-end);padding-inline-start:var(--utrecht-code-block-padding-inline-start);white-space:pre}.utrecht-html pre[hidden]:has(>code:only-child){display:none}.utrecht-html pre:has(>code:only-child)>code{display:contents}.utrecht-html input[type=radio i]{appearance:none;margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;--_utrecht-radio-button-background-color: var( --_utrecht-radio-button-interactive-background-color, var(--_utrecht-radio-button-state-background-color, var(--utrecht-radio-button-background-color)) );--_utrecht-radio-button-border-color: var( --_utrecht-radio-button-interactive-border-color, var(--_utrecht-radio-button-state-border-color, var(--utrecht-radio-button-border-color, currentColor)) );--_utrecht-radio-button-border-width: var( --_utrecht-radio-button-interactive-border-width, var(--_utrecht-radio-button-state-border-width, var(--utrecht-radio-button-border-width)) );--_utrecht-radio-button-color: var( --_utrecht-radio-button-interactive-color, var(--_utrecht-radio-button-state-color, var(--utrecht-radio-button-color, currentColor)) );--_utrecht-radio-button-icon-size: 0;background-color:var(--_utrecht-radio-button-background-color);background-image:radial-gradient(circle,var(--_utrecht-radio-button-color, transparent) calc(var(--_utrecht-radio-button-icon-size, 50%) - 5%),var(--_utrecht-radio-button-background-color, currentColor) var(--_utrecht-radio-button-icon-size, 50%));background-position:center;background-repeat:no-repeat;background-size:contain;block-size:var(--utrecht-radio-button-size, 1em);border-color:var(--_utrecht-radio-button-border-color);border-radius:50%;border-style:solid;border-width:var(--_utrecht-radio-button-border-width);cursor:var(--utrecht-action-activate-cursor, revert);inline-size:var(--utrecht-radio-button-size, 1em);margin-inline-end:var(--utrecht-radio-button-margin-inline-end);min-block-size:24px;min-inline-size:24px;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;user-select:none;vertical-align:top}.utrecht-html input[type=radio i]:checked{--_utrecht-radio-button-icon-size: var(--utrecht-radio-button-icon-size, 50%);--_utrecht-radio-button-state-background-color: var(--utrecht-radio-button-checked-background-color);--_utrecht-radio-button-state-border-color: var(--utrecht-radio-button-checked-border-color);--_utrecht-radio-button-state-border-width: var(--utrecht-radio-button-checked-border-width);--_utrecht-radio-button-state-color: var(--utrecht-radio-button-checked-color);--_utrecht-radio-button-state-active-background-color: var(--utrecht-radio-button-checked-active-background-color);--_utrecht-radio-button-state-active-border-color: var(--utrecht-radio-button-checked-active-border-color);--_utrecht-radio-button-state-active-border-width: var(--utrecht-radio-button-checked-active-border-width);--_utrecht-radio-button-state-active-color: var(--utrecht-radio-button-checked-active-color);--_utrecht-radio-button-state-focus-background-color: var(--utrecht-radio-button-checked-focus-background-color);--_utrecht-radio-button-state-focus-border-color: var(--utrecht-radio-button-checked-focus-border-color);--_utrecht-radio-button-state-focus-border-width: var(--utrecht-radio-button-checked-focus-border-width);--_utrecht-radio-button-state-focus-color: var(--utrecht-radio-button-checked-focus-color);--_utrecht-radio-button-state-hover-background-color: var(--utrecht-radio-button-checked-hover-background-color);--_utrecht-radio-button-state-hover-border-color: var(--utrecht-radio-button-checked-hover-border-color);--_utrecht-radio-button-state-hover-border-width: var(--utrecht-radio-button-checked-hover-border-width);--_utrecht-radio-button-state-hover-color: var(--utrecht-radio-button-checked-hover-color)}.utrecht-html input[type=radio i]:disabled{--_utrecht-radio-button-background-color: var(--utrecht-radio-button-disabled-background-color);--_utrecht-radio-button-border-color: var(--utrecht-radio-button-disabled-border-color);--_utrecht-radio-button-border-width: var(--utrecht-radio-button-disabled-border-width);--_utrecht-radio-button-color: var(--utrecht-radio-button-disabled-color);--_utrecht-radio-button-focus-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-focus-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-focus-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-focus-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-active-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-active-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-active-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-active-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-hover-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input[type=radio i]:invalid,.utrecht-html input[type=radio i][aria-invalid=true]{border-color:var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));border-width:var(--utrecht-radio-button-invalid-border-width, var(--utrecht-radio-button-border-width));color:var(--utrecht-radio-button-invalid-color, var(--utrecht-radio-button-color))}.utrecht-html input[type=radio i]:focus:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --utrecht-radio-button-focus-background-color, var(--utrecht-radio-button-focus-background-color) );--_utrecht-radio-button-interactive-border-color: var( --utrecht-radio-button-focus-border-color, var(--utrecht-radio-button-focus-border-color) );--_utrecht-radio-button-interactive-border-width: var( --utrecht-radio-button-focus-border-width, var(--utrecht-radio-button-focus-border-width) );--_utrecht-radio-button-interactive-color: var( --utrecht-radio-button-focus-color, var(--utrecht-radio-button-focus-color) )}.utrecht-html input[type=radio i]:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=radio i]:hover:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-hover-background-color, var(--utrecht-radio-button-hover-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-hover-border-color, var(--utrecht-radio-button-hover-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-hover-border-width, var(--utrecht-radio-button-hover-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-hover-color, var(--utrecht-radio-button-hover-color) )}.utrecht-html input[type=radio i]:active:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-active-background-color, var(--utrecht-radio-button-active-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-active-border-color, var(--utrecht-radio-button-active-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-active-border-width, var(--utrecht-radio-button-active-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-active-color, var(--utrecht-radio-button-active-color) )}.utrecht-html select{background-color:var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));border-block-end-width:var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));border-block-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-color:var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));border-inline-end-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-inline-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-radius:var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;color:var(--utrecht-select-color, var(--utrecht-form-control-color));font-family:var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));inline-size:100%;max-inline-size:var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));padding-block-start:var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));padding-inline-end:var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));padding-inline-start:var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start))}.utrecht-html select:focus{background-color:var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html select:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html select:disabled{background-color:var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html select[aria-invalid=true]{--_utrecht-select-border-width: var( --utrecht-select-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-select-border-width);border-block-end-width:var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));border-color:var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))))}.utrecht-html hr{border-color:var(--utrecht-separator-color);border-style:solid;border-width:0 0 var(--utrecht-separator-block-size) 0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html table{border-collapse:separate;border-color:var(--utrecht-table-border-color, 0);border-spacing:0;border-style:solid;border-width:var(--utrecht-table-border-width, 0);font-family:var(--utrecht-table-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-table-font-size, inherit);inline-size:100%;line-height:var(--utrecht-table-line-height, inherit);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html caption{break-inside:avoid;color:var(--utrecht-table-caption-color);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);font-weight:var(--utrecht-table-caption-font-weight);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);page-break-after:avoid;text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-html thead{--_utrecht-table-header-cell-vertical-align: bottom;--_utrecht-table-header-cell-z-index: 8;background-color:var(--utrecht-table-header-background-color);break-inside:avoid;color:var(--utrecht-table-header-color);font-weight:var(--utrecht-table-header-font-weight);page-break-inside:avoid;text-transform:var(--utrecht-table-header-text-transform)}.utrecht-html tbody{--_utrecht-table-header-cell-z-index: 2}.utrecht-html th{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;color:var(--utrecht-table-header-cell-color);font-size:var(--utrecht-table-header-cell-font-size);font-weight:var(--utrecht-table-header-cell-font-weight, bold);text-transform:var(--utrecht-table-header-cell-text-transform);vertical-align:var(--_utrecht-table-header-cell-vertical-align, top);z-index:var(--_utrecht-table-header-cell-z-index)}.utrecht-html th,.utrecht-html td{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);vertical-align:top}.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-html thead tr:last-child th{border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-html thead>tr>th.numeric,.utrecht-html tfoot>tr>th.numeric,.utrecht-html th[scope=column].numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align)}.utrecht-html td.numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align);font-variant-numeric:lining-nums tabular-nums}.utrecht-html table.alternate-row-color>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html textarea{background-color:var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textarea-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textarea-line-height, initial);max-inline-size:var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));min-block-size:var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);padding-block-end:var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));resize:vertical;resize:block}.utrecht-html textarea:focus{background-color:var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html textarea:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{--_utrecht-textarea-border-width: var( --utrecht-textarea-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textarea-border-width);border-block-end-width:var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));border-color:var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:read-only{background-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:disabled{background-color:var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html textarea::placeholder{color:var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input:not([type]),.utrecht-html input[type=date i],.utrecht-html input[type=datetime-local i],.utrecht-html input[type=email i],.utrecht-html input[type=month i],.utrecht-html input[type=number i],.utrecht-html input[type=password i],.utrecht-html input[type=search i],.utrecht-html input[type=tel i],.utrecht-html input[type=text i],.utrecht-html input[type=time i],.utrecht-html input[type=url i],.utrecht-html input[type=week i]{background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-html input:not([type]):focus,.utrecht-html input[type=date i]:focus,.utrecht-html input[type=datetime-local i]:focus,.utrecht-html input[type=email i]:focus,.utrecht-html input[type=month i]:focus,.utrecht-html input[type=number i]:focus,.utrecht-html input[type=password i]:focus,.utrecht-html input[type=search i]:focus,.utrecht-html input[type=tel i]:focus,.utrecht-html input[type=text i]:focus,.utrecht-html input[type=time i]:focus,.utrecht-html input[type=url i]:focus,.utrecht-html input[type=week i]:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input:not([type]):focus:not(:focus-visible),.utrecht-html input[type=date i]:focus:not(:focus-visible),.utrecht-html input[type=datetime-local i]:focus:not(:focus-visible),.utrecht-html input[type=email i]:focus:not(:focus-visible),.utrecht-html input[type=month i]:focus:not(:focus-visible),.utrecht-html input[type=number i]:focus:not(:focus-visible),.utrecht-html input[type=password i]:focus:not(:focus-visible),.utrecht-html input[type=search i]:focus:not(:focus-visible),.utrecht-html input[type=tel i]:focus:not(:focus-visible),.utrecht-html input[type=text i]:focus:not(:focus-visible),.utrecht-html input[type=time i]:focus:not(:focus-visible),.utrecht-html input[type=url i]:focus:not(:focus-visible),.utrecht-html input[type=week i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html input:not([type]):invalid,.utrecht-html input:not([type])[aria-invalid=true],.utrecht-html input[type=date i]:invalid,.utrecht-html input[type=date i][aria-invalid=true],.utrecht-html input[type=datetime-local i]:invalid,.utrecht-html input[type=datetime-local i][aria-invalid=true],.utrecht-html input[type=email i]:invalid,.utrecht-html input[type=email i][aria-invalid=true],.utrecht-html input[type=month i]:invalid,.utrecht-html input[type=month i][aria-invalid=true],.utrecht-html input[type=number i]:invalid,.utrecht-html input[type=number i][aria-invalid=true],.utrecht-html input[type=password i]:invalid,.utrecht-html input[type=password i][aria-invalid=true],.utrecht-html input[type=search i]:invalid,.utrecht-html input[type=search i][aria-invalid=true],.utrecht-html input[type=tel i]:invalid,.utrecht-html input[type=tel i][aria-invalid=true],.utrecht-html input[type=text i]:invalid,.utrecht-html input[type=text i][aria-invalid=true],.utrecht-html input[type=time i]:invalid,.utrecht-html input[type=time i][aria-invalid=true],.utrecht-html input[type=url i]:invalid,.utrecht-html input[type=url i][aria-invalid=true],.utrecht-html input[type=week i]:invalid,.utrecht-html input[type=week i][aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):read-only,.utrecht-html input[type=date i]:read-only,.utrecht-html input[type=datetime-local i]:read-only,.utrecht-html input[type=email i]:read-only,.utrecht-html input[type=month i]:read-only,.utrecht-html input[type=number i]:read-only,.utrecht-html input[type=password i]:read-only,.utrecht-html input[type=search i]:read-only,.utrecht-html input[type=tel i]:read-only,.utrecht-html input[type=text i]:read-only,.utrecht-html input[type=time i]:read-only,.utrecht-html input[type=url i]:read-only,.utrecht-html input[type=week i]:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):disabled,.utrecht-html input[type=date i]:disabled,.utrecht-html input[type=datetime-local i]:disabled,.utrecht-html input[type=email i]:disabled,.utrecht-html input[type=month i]:disabled,.utrecht-html input[type=number i]:disabled,.utrecht-html input[type=password i]:disabled,.utrecht-html input[type=search i]:disabled,.utrecht-html input[type=tel i]:disabled,.utrecht-html input[type=text i]:disabled,.utrecht-html input[type=time i]:disabled,.utrecht-html input[type=url i]:disabled,.utrecht-html input[type=week i]:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input:not([type])::placeholder,.utrecht-html input[type=date i]::placeholder,.utrecht-html input[type=datetime-local i]::placeholder,.utrecht-html input[type=email i]::placeholder,.utrecht-html input[type=month i]::placeholder,.utrecht-html input[type=number i]::placeholder,.utrecht-html input[type=password i]::placeholder,.utrecht-html input[type=search i]::placeholder,.utrecht-html input[type=tel i]::placeholder,.utrecht-html input[type=text i]::placeholder,.utrecht-html input[type=time i]::placeholder,.utrecht-html input[type=url i]::placeholder,.utrecht-html input[type=week i]::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input[autocomplete~=current-password i],.utrecht-html input[autocomplete~=new-password i],.utrecht-html input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-html input[autocomplete~=bday i],.utrecht-html input[autocomplete~=bday-day i],.utrecht-html input[autocomplete~=bday-month i],.utrecht-html input[autocomplete~=bday-year i],.utrecht-html input[autocomplete~=cc-csc i],.utrecht-html input[autocomplete~=cc-exp i],.utrecht-html input[autocomplete~=cc-exp-month i],.utrecht-html input[autocomplete~=cc-exp-year i],.utrecht-html input[autocomplete~=cc-number i],.utrecht-html input[autocomplete~=one-time-code i],.utrecht-html input[autocomplete~=postal-code i],.utrecht-html input[autocomplete~=tel i],.utrecht-html input[autocomplete~=tel-area-code i],.utrecht-html input[autocomplete~=tel-country-code i],.utrecht-html input[autocomplete~=tel-extension i],.utrecht-html input[autocomplete~=tel-local i],.utrecht-html input[autocomplete~=tel-national i],.utrecht-html input[autocomplete~=transaction-amount i],.utrecht-html input[inputmode=decimal i],.utrecht-html input[inputmode=numeric i],.utrecht-html input[inputmode=tel i],.utrecht-html input[type=number i],.utrecht-html input[type=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-html input[inputmode=email i],.utrecht-html input[inputmode=url i],.utrecht-html input[type=email i],.utrecht-html input[type=url i]{font-variant-ligatures:none}.utrecht-html ul{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));line-height:var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));padding-inline-start:var(--utrecht-unordered-list-padding-inline-start, 2ch);text-align:start;--utrecht-space-around: 1}.utrecht-html ul>li{margin-block-end:var(--utrecht-unordered-list-item-margin-block-end);margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);padding-inline-start:var(--utrecht-unordered-list-item-padding-inline-start, 1ch)}.utrecht-html ul>li::marker{color:var(--utrecht-unordered-list-marker-color);content:\"\\25cf\"}\n"],
+    styles: ["@charset \"UTF-8\";/**\n * @license EUPL-1.2\n * Copyright (c) 2020-2022 Gemeente Utrecht\n * Copyright (c) 2020-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2022 Gemeente Utrecht\n * Copyright (c) 2022 Robbert Broersma\n * Copyright (c) 2022 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 Gemeente Utrecht\n */.utrecht-html{--utrecht-space-around: 1}.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-html blockquote{background-color:var(--utrecht-blockquote-background-color);color:var(--utrecht-blockquote-color);font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);font-style:var(--utrecht-blockquote-font-style);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);padding-block-end:var(--utrecht-blockquote-padding-block-end);padding-block-start:var(--utrecht-blockquote-padding-block-start);padding-inline-end:var(--utrecht-blockquote-padding-inline-end);padding-inline-start:var(--utrecht-blockquote-padding-inline-start);--utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit);--utrecht-space-around: 1}.utrecht-html input[type=button i],.utrecht-html input[type=reset i],.utrecht-html input[type=submit i],.utrecht-html button{--_utrecht-button-background-color: var( --_utrecht-button-hint-background-color, var(--_utrecht-button-appearance-background-color, var(--utrecht-button-background-color)) );--_utrecht-button-color: var( --_utrecht-button-hint-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-color)) );--_utrecht-button-border-color: var( --_utrecht-button-hint-border-color, var(--_utrecht-button-appearance-border-color, var(--utrecht-button-border-color, transparent)) );--_utrecht-button-border-bottom-color: var( --_utrecht-button-hint-border-bottom-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-border-bottom-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-border-bottom-color, var(--utrecht-button-border-color, transparent)) ) ) ) );--_utrecht-button-disabled-background-color: var( --_utrecht-button-hint-disabled-background-color, var( --_utrecht-button-appearance-disabled-background-color, var(--utrecht-button-disabled-background-color, var(--utrecht-button-background-color)) ) );--_utrecht-button-disabled-border-color: var( --_utrecht-button-hint-disabled-border-color, var( --_utrecht-button-appearance-disabled-border-color, var(--utrecht-button-disabled-border-color, var(--utrecht-button-border-color)) ) );--_utrecht-button-disabled-color: var( --_utrecht-button-hint-disabled-color, var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color))) );--_utrecht-button-pressed-background-color: var( --_utrecht-button-hint-pressed-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-pressed-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-pressed-border-color: var( --_utrecht-button-hint-pressed-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-pressed-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-pressed-color: var( --_utrecht-button-hint-pressed-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-pressed-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-focus-background-color: var( --_utrecht-button-hint-focus-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-focus-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-focus-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-focus-border-color: var( --_utrecht-button-hint-focus-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-focus-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-focus-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-focus-color: var( --_utrecht-button-hint-focus-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-focus-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-focus-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-hover-background-color: var( --_utrecht-button-hint-hover-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-hover-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-hover-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-hover-border-color: var( --_utrecht-button-hint-hover-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-hover-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-hover-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-hover-color: var( --_utrecht-button-hint-hover-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-hover-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-hover-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-active-background-color: var( --_utrecht-button-hint-active-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-active-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-active-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-active-border-color: var( --_utrecht-button-hint-active-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-active-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-active-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-active-color: var( --_utrecht-button-hint-active-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-active-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-active-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));--_utrecht-button-border-block-end-width: var( --utrecht-button-border-bottom-width, var(--_utrecht-button-border-width, 0) );--utrecht-icon-size: var(--utrecht-button-icon-size, 1em);align-items:center;background-color:var(--_utrecht-button-background-color);block-size:-moz-fit-content;block-size:fit-content;border-block-end-color:var(--_utrecht-button-border-bottom-color);border-block-end-width:var(--_utrecht-button-border-block-end-width);border-color:var(--_utrecht-button-border-color);border-radius:var(--utrecht-button-border-radius);border-style:solid;border-width:var(--_utrecht-button-border-width);box-sizing:border-box;color:var(--_utrecht-button-color);cursor:var(--utrecht-action-activate-cursor, revert);display:inline-flex;font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));font-weight:var(--_utrecht-button-appearance-font-weight, var(--utrecht-button-font-weight));gap:var(--utrecht-button-icon-gap);inline-size:var(--utrecht-button-inline-size, auto);justify-content:center;line-height:var(--utrecht-button-line-height);max-inline-size:var(--utrecht-button-max-inline-size, -moz-fit-content);max-inline-size:var(--utrecht-button-max-inline-size, fit-content);min-block-size:var(--utrecht-button-min-block-size, 44px);min-inline-size:var(--utrecht-button-min-inline-size, 44px);padding-block-end:var(--utrecht-button-padding-block-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-inline-start:var(--utrecht-button-padding-inline-start);scale:1;text-transform:var(--utrecht-button-text-transform);-webkit-user-select:none;user-select:none;margin-block-end:var(--utrecht-button-margin-block-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-inline-start:var(--utrecht-button-margin-inline-start)}.utrecht-html button[hidden]{display:none}.utrecht-html button[type=submit i],.utrecht-html input[type=submit i]{cursor:var(--utrecht-action-submit-cursor, revert)}.utrecht-html button:disabled,.utrecht-html button[aria-disabled=true]{background-color:var(--_utrecht-button-disabled-background-color);border-color:var(--_utrecht-button-disabled-border-color);color:var(--_utrecht-button-disabled-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html button[aria-busy=true],.utrecht-html button[aria-disabled=true][aria-busy=true],.utrecht-html button:disabled[aria-busy=true]{cursor:var(--utrecht-action-busy-cursor, wait)}.utrecht-html button:active:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-active-background-color);border-color:var(--_utrecht-button-active-border-color);color:var(--_utrecht-button-active-color)}.utrecht-html button:hover:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-hover-background-color);border-color:var(--_utrecht-button-hover-border-color);color:var(--_utrecht-button-hover-color);scale:var(--utrecht-button-hover-scale, 1)}.utrecht-html button:focus:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-focus-background-color);border-color:var(--_utrecht-button-focus-border-color);color:var(--_utrecht-button-focus-color);scale:var(--utrecht-button-focus-scale, 1)}.utrecht-html button:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]{margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;cursor:var(--utrecht-action-activate-cursor, revert);-webkit-user-select:none;user-select:none}.utrecht-html input[type=checkbox i]:disabled{cursor:var(--utrecht-action-disabled-cursor, revert)}.utrecht-html input[type=checkbox i]:focus{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html body{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);font-weight:var(--utrecht-document-font-weight, inherit);line-height:var(--utrecht-document-line-height, inherit);text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:var(--utrecht-document-background-color, inherit)}.utrecht-html body :lang(ar){letter-spacing:0!important}.utrecht-html code{background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height)}.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-html fieldset{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));all:revert;border:0;margin-inline-end:0;margin-inline-start:0;min-inline-size:0;padding-block-end:0;padding-block-start:.01em;padding-inline-end:0;padding-inline-start:0;--utrecht-space-around: 1}.utrecht-html fieldset[hidden]{display:none}.utrecht-html figure{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0))}.utrecht-html figcaption{color:var(--utrecht-figure-caption-color);font-size:var(--utrecht-figure-caption-font-size);line-height:var(--utrecht-figure-caption-line-height)}.utrecht-html form{display:block;max-inline-size:var(--utrecht-form-max-inline-size)}.utrecht-html legend{break-inside:avoid;color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);page-break-after:avoid;page-break-inside:avoid;display:table;inline-size:100%;padding-inline-end:0;padding-inline-start:0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0))}.utrecht-html legend[hidden]{display:none}.utrecht-html fieldset:disabled>legend{color:var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)))}.utrecht-html label{color:var(--utrecht-form-label-color);font-size:var(--utrecht-form-label-font-size);font-weight:var(--utrecht-form-label-font-weight)}.utrecht-html input[type=checkbox i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html input[type=radio i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html mark{background-color:var(--utrecht-mark-background-color, revert);color:var(--utrecht-mark-color, revert)}@media print{.utrecht-html mark{outline-color:currentColor;outline-style:dotted;outline-width:.1em}}@media screen and (-ms-high-contrast: active){.utrecht-html mark{background-color:Highlight;color:HighlightText}}.utrecht-html h1{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size, revert);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-1-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h2{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size, revert);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-2-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h3{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size, revert);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-3-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h4{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size, revert);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-4-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h5{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size, revert);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-5-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h6{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size, revert);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-6-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html hgroup{--utrecht-pre-heading-order: -1;display:flex;flex-direction:column;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html hgroup>*{--utrecht-space-around: 0}.utrecht-html a{--utrecht-icon-size: var(--utrecht-link-icon-size, 1em);color:var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)))}.utrecht-html a:visited{--_utrecht-link-forced-colors-color: visitedtext;--_utrecht-link-state-color: var(--utrecht-link-visited-color)}.utrecht-html a:hover{--_utrecht-link-forced-colors-color: linktext;--_utrecht-link-state-color: var(--utrecht-link-hover-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}.utrecht-html a:active{--_utrecht-link-forced-colors-color: activetext;--_utrecht-link-state-color: var(--utrecht-link-active-color)}.utrecht-html a:focus{--_utrecht-link-state-color: var(--utrecht-link-focus-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);background-color:var(--utrecht-link-focus-background-color, transparent);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert);z-index:var(--utrecht-stack-focus-z-index, 1)}.utrecht-html a:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-html ol{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));line-height:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));padding-inline-start:var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));text-align:start;--utrecht-space-around: 1}.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));margin-block-start:var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));padding-inline-start:var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch))}.utrecht-html ol:lang(ar){list-style:arabic-indic}.utrecht-html p{color:var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0))}.utrecht-html p.lead{color:var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html *~p{--utrecht-space-around: 1}.utrecht-html p:has(>small:only-child){color:var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html p>small:only-child{font-size:inherit}.utrecht-html pre:has(>code:only-child){background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height);--utrecht-code-color: var(--utrecht-code-block-color, inherit);--utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);--utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);--utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);--utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);background-color:var(--utrecht-code-block-background-color);display:block;font-size:var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));line-height:var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));margin-block-end:var(--utrecht-code-block-margin-block-end);margin-block-start:var(--utrecht-code-block-margin-block-start);margin-inline-end:var(--utrecht-code-block-margin-inline-end);margin-inline-start:var(--utrecht-code-block-margin-inline-start);padding-block-end:var(--utrecht-code-block-padding-block-end);padding-block-start:var(--utrecht-code-block-padding-block-start);padding-inline-end:var(--utrecht-code-block-padding-inline-end);padding-inline-start:var(--utrecht-code-block-padding-inline-start);white-space:pre}.utrecht-html pre[hidden]:has(>code:only-child){display:none}.utrecht-html pre:has(>code:only-child)>code{display:contents}.utrecht-html input[type=radio i]{appearance:none;margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;--_utrecht-radio-button-background-color: var( --_utrecht-radio-button-interactive-background-color, var(--_utrecht-radio-button-state-background-color, var(--utrecht-radio-button-background-color)) );--_utrecht-radio-button-border-color: var( --_utrecht-radio-button-interactive-border-color, var(--_utrecht-radio-button-state-border-color, var(--utrecht-radio-button-border-color, currentColor)) );--_utrecht-radio-button-border-width: var( --_utrecht-radio-button-interactive-border-width, var(--_utrecht-radio-button-state-border-width, var(--utrecht-radio-button-border-width)) );--_utrecht-radio-button-color: var( --_utrecht-radio-button-interactive-color, var(--_utrecht-radio-button-state-color, var(--utrecht-radio-button-color, currentColor)) );--_utrecht-radio-button-icon-size: 0;background-color:var(--_utrecht-radio-button-background-color);background-image:radial-gradient(circle,var(--_utrecht-radio-button-color, transparent) calc(var(--_utrecht-radio-button-icon-size, 50%) - 5%),var(--_utrecht-radio-button-background-color, currentColor) var(--_utrecht-radio-button-icon-size, 50%));background-position:center;background-repeat:no-repeat;background-size:contain;block-size:var(--utrecht-radio-button-size, 1em);border-color:var(--_utrecht-radio-button-border-color);border-radius:50%;border-style:solid;border-width:var(--_utrecht-radio-button-border-width);cursor:var(--utrecht-action-activate-cursor, revert);inline-size:var(--utrecht-radio-button-size, 1em);margin-inline-end:var(--utrecht-radio-button-margin-inline-end);min-block-size:24px;min-inline-size:24px;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;user-select:none;vertical-align:top}.utrecht-html input[type=radio i]:checked{--_utrecht-radio-button-icon-size: var(--utrecht-radio-button-icon-size, 50%);--_utrecht-radio-button-state-background-color: var(--utrecht-radio-button-checked-background-color);--_utrecht-radio-button-state-border-color: var(--utrecht-radio-button-checked-border-color);--_utrecht-radio-button-state-border-width: var(--utrecht-radio-button-checked-border-width);--_utrecht-radio-button-state-color: var(--utrecht-radio-button-checked-color);--_utrecht-radio-button-state-active-background-color: var(--utrecht-radio-button-checked-active-background-color);--_utrecht-radio-button-state-active-border-color: var(--utrecht-radio-button-checked-active-border-color);--_utrecht-radio-button-state-active-border-width: var(--utrecht-radio-button-checked-active-border-width);--_utrecht-radio-button-state-active-color: var(--utrecht-radio-button-checked-active-color);--_utrecht-radio-button-state-focus-background-color: var(--utrecht-radio-button-checked-focus-background-color);--_utrecht-radio-button-state-focus-border-color: var(--utrecht-radio-button-checked-focus-border-color);--_utrecht-radio-button-state-focus-border-width: var(--utrecht-radio-button-checked-focus-border-width);--_utrecht-radio-button-state-focus-color: var(--utrecht-radio-button-checked-focus-color);--_utrecht-radio-button-state-hover-background-color: var(--utrecht-radio-button-checked-hover-background-color);--_utrecht-radio-button-state-hover-border-color: var(--utrecht-radio-button-checked-hover-border-color);--_utrecht-radio-button-state-hover-border-width: var(--utrecht-radio-button-checked-hover-border-width);--_utrecht-radio-button-state-hover-color: var(--utrecht-radio-button-checked-hover-color)}.utrecht-html input[type=radio i]:disabled{--_utrecht-radio-button-background-color: var(--utrecht-radio-button-disabled-background-color);--_utrecht-radio-button-border-color: var(--utrecht-radio-button-disabled-border-color);--_utrecht-radio-button-border-width: var(--utrecht-radio-button-disabled-border-width);--_utrecht-radio-button-color: var(--utrecht-radio-button-disabled-color);--_utrecht-radio-button-focus-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-focus-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-focus-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-focus-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-active-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-active-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-active-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-active-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-hover-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input[type=radio i]:invalid,.utrecht-html input[type=radio i][aria-invalid=true]{border-color:var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));border-width:var(--utrecht-radio-button-invalid-border-width, var(--utrecht-radio-button-border-width));color:var(--utrecht-radio-button-invalid-color, var(--utrecht-radio-button-color))}.utrecht-html input[type=radio i]:focus:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --utrecht-radio-button-focus-background-color, var(--utrecht-radio-button-focus-background-color) );--_utrecht-radio-button-interactive-border-color: var( --utrecht-radio-button-focus-border-color, var(--utrecht-radio-button-focus-border-color) );--_utrecht-radio-button-interactive-border-width: var( --utrecht-radio-button-focus-border-width, var(--utrecht-radio-button-focus-border-width) );--_utrecht-radio-button-interactive-color: var( --utrecht-radio-button-focus-color, var(--utrecht-radio-button-focus-color) )}.utrecht-html input[type=radio i]:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=radio i]:hover:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-hover-background-color, var(--utrecht-radio-button-hover-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-hover-border-color, var(--utrecht-radio-button-hover-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-hover-border-width, var(--utrecht-radio-button-hover-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-hover-color, var(--utrecht-radio-button-hover-color) )}.utrecht-html input[type=radio i]:active:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-active-background-color, var(--utrecht-radio-button-active-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-active-border-color, var(--utrecht-radio-button-active-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-active-border-width, var(--utrecht-radio-button-active-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-active-color, var(--utrecht-radio-button-active-color) )}.utrecht-html select{background-color:var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));border-block-end-width:var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));border-block-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-color:var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));border-inline-end-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-inline-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-radius:var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;color:var(--utrecht-select-color, var(--utrecht-form-control-color));font-family:var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));inline-size:100%;min-block-size:var(--utrecht-select-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));padding-block-start:var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));padding-inline-end:var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));padding-inline-start:var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start))}.utrecht-html select:focus{background-color:var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html select:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html select:disabled{background-color:var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html select[aria-invalid=true]{--_utrecht-select-border-width: var( --utrecht-select-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-select-border-width);border-block-end-width:var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));border-color:var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))))}.utrecht-html hr{border-color:var(--utrecht-separator-color);border-style:solid;border-width:0 0 var(--utrecht-separator-block-size) 0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html table{border-collapse:separate;border-color:var(--utrecht-table-border-color, 0);border-spacing:0;border-style:solid;border-width:var(--utrecht-table-border-width, 0);font-family:var(--utrecht-table-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-table-font-size, inherit);inline-size:100%;line-height:var(--utrecht-table-line-height, inherit);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html caption{break-inside:avoid;color:var(--utrecht-table-caption-color);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);font-weight:var(--utrecht-table-caption-font-weight);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);page-break-after:avoid;text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-html thead{--_utrecht-table-header-cell-vertical-align: bottom;--_utrecht-table-header-cell-z-index: 8;background-color:var(--utrecht-table-header-background-color);break-inside:avoid;color:var(--utrecht-table-header-color);font-weight:var(--utrecht-table-header-font-weight);page-break-inside:avoid;text-transform:var(--utrecht-table-header-text-transform)}.utrecht-html tbody{--_utrecht-table-header-cell-z-index: 2}.utrecht-html th{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;color:var(--utrecht-table-header-cell-color);font-size:var(--utrecht-table-header-cell-font-size);font-weight:var(--utrecht-table-header-cell-font-weight, bold);text-transform:var(--utrecht-table-header-cell-text-transform);vertical-align:var(--_utrecht-table-header-cell-vertical-align, top);z-index:var(--_utrecht-table-header-cell-z-index)}.utrecht-html th,.utrecht-html td{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);vertical-align:top}.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-html thead tr:last-child th{border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-html thead>tr>th.numeric,.utrecht-html tfoot>tr>th.numeric,.utrecht-html th[scope=column].numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align)}.utrecht-html td.numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align);font-variant-numeric:lining-nums tabular-nums}.utrecht-html table.alternate-row-color>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html textarea{background-color:var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textarea-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textarea-line-height, initial);max-inline-size:var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));min-block-size:var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);padding-block-end:var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));resize:vertical;resize:block}.utrecht-html textarea:focus{background-color:var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html textarea:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{--_utrecht-textarea-border-width: var( --utrecht-textarea-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textarea-border-width);border-block-end-width:var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));border-color:var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:read-only{background-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:disabled{background-color:var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html textarea::placeholder{color:var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input:not([type]),.utrecht-html input[type=date i],.utrecht-html input[type=datetime-local i],.utrecht-html input[type=email i],.utrecht-html input[type=month i],.utrecht-html input[type=number i],.utrecht-html input[type=password i],.utrecht-html input[type=search i],.utrecht-html input[type=tel i],.utrecht-html input[type=text i],.utrecht-html input[type=time i],.utrecht-html input[type=url i],.utrecht-html input[type=week i]{--_utrecht-textbox-value-char: .667em + .334ch;--_utrecht-textbox-max-inline-size: calc( calc(var(--utrecht-textbox-value-max-length) * var(--_utrecht-textbox-value-char)) + var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, 0)) + var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, 0)) + var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width, 0)) + var(--utrecht-textbox-autocomplete-ui-size, 44px) );background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:min(var(--_utrecht-textbox-max-inline-size, 100%),var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size)));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-html input:not([type]):focus,.utrecht-html input[type=date i]:focus,.utrecht-html input[type=datetime-local i]:focus,.utrecht-html input[type=email i]:focus,.utrecht-html input[type=month i]:focus,.utrecht-html input[type=number i]:focus,.utrecht-html input[type=password i]:focus,.utrecht-html input[type=search i]:focus,.utrecht-html input[type=tel i]:focus,.utrecht-html input[type=text i]:focus,.utrecht-html input[type=time i]:focus,.utrecht-html input[type=url i]:focus,.utrecht-html input[type=week i]:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input:not([type]):focus:not(:focus-visible),.utrecht-html input[type=date i]:focus:not(:focus-visible),.utrecht-html input[type=datetime-local i]:focus:not(:focus-visible),.utrecht-html input[type=email i]:focus:not(:focus-visible),.utrecht-html input[type=month i]:focus:not(:focus-visible),.utrecht-html input[type=number i]:focus:not(:focus-visible),.utrecht-html input[type=password i]:focus:not(:focus-visible),.utrecht-html input[type=search i]:focus:not(:focus-visible),.utrecht-html input[type=tel i]:focus:not(:focus-visible),.utrecht-html input[type=text i]:focus:not(:focus-visible),.utrecht-html input[type=time i]:focus:not(:focus-visible),.utrecht-html input[type=url i]:focus:not(:focus-visible),.utrecht-html input[type=week i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html input:not([type]):invalid,.utrecht-html input:not([type])[aria-invalid=true],.utrecht-html input[type=date i]:invalid,.utrecht-html input[type=date i][aria-invalid=true],.utrecht-html input[type=datetime-local i]:invalid,.utrecht-html input[type=datetime-local i][aria-invalid=true],.utrecht-html input[type=email i]:invalid,.utrecht-html input[type=email i][aria-invalid=true],.utrecht-html input[type=month i]:invalid,.utrecht-html input[type=month i][aria-invalid=true],.utrecht-html input[type=number i]:invalid,.utrecht-html input[type=number i][aria-invalid=true],.utrecht-html input[type=password i]:invalid,.utrecht-html input[type=password i][aria-invalid=true],.utrecht-html input[type=search i]:invalid,.utrecht-html input[type=search i][aria-invalid=true],.utrecht-html input[type=tel i]:invalid,.utrecht-html input[type=tel i][aria-invalid=true],.utrecht-html input[type=text i]:invalid,.utrecht-html input[type=text i][aria-invalid=true],.utrecht-html input[type=time i]:invalid,.utrecht-html input[type=time i][aria-invalid=true],.utrecht-html input[type=url i]:invalid,.utrecht-html input[type=url i][aria-invalid=true],.utrecht-html input[type=week i]:invalid,.utrecht-html input[type=week i][aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):read-only,.utrecht-html input[type=date i]:read-only,.utrecht-html input[type=datetime-local i]:read-only,.utrecht-html input[type=email i]:read-only,.utrecht-html input[type=month i]:read-only,.utrecht-html input[type=number i]:read-only,.utrecht-html input[type=password i]:read-only,.utrecht-html input[type=search i]:read-only,.utrecht-html input[type=tel i]:read-only,.utrecht-html input[type=text i]:read-only,.utrecht-html input[type=time i]:read-only,.utrecht-html input[type=url i]:read-only,.utrecht-html input[type=week i]:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):disabled,.utrecht-html input[type=date i]:disabled,.utrecht-html input[type=datetime-local i]:disabled,.utrecht-html input[type=email i]:disabled,.utrecht-html input[type=month i]:disabled,.utrecht-html input[type=number i]:disabled,.utrecht-html input[type=password i]:disabled,.utrecht-html input[type=search i]:disabled,.utrecht-html input[type=tel i]:disabled,.utrecht-html input[type=text i]:disabled,.utrecht-html input[type=time i]:disabled,.utrecht-html input[type=url i]:disabled,.utrecht-html input[type=week i]:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input:not([type])::placeholder,.utrecht-html input[type=date i]::placeholder,.utrecht-html input[type=datetime-local i]::placeholder,.utrecht-html input[type=email i]::placeholder,.utrecht-html input[type=month i]::placeholder,.utrecht-html input[type=number i]::placeholder,.utrecht-html input[type=password i]::placeholder,.utrecht-html input[type=search i]::placeholder,.utrecht-html input[type=tel i]::placeholder,.utrecht-html input[type=text i]::placeholder,.utrecht-html input[type=time i]::placeholder,.utrecht-html input[type=url i]::placeholder,.utrecht-html input[type=week i]::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input[autocomplete~=current-password i],.utrecht-html input[autocomplete~=new-password i],.utrecht-html input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-html input[autocomplete~=bday i],.utrecht-html input[autocomplete~=bday-day i],.utrecht-html input[autocomplete~=bday-month i],.utrecht-html input[autocomplete~=bday-year i],.utrecht-html input[autocomplete~=cc-csc i],.utrecht-html input[autocomplete~=cc-exp i],.utrecht-html input[autocomplete~=cc-exp-month i],.utrecht-html input[autocomplete~=cc-exp-year i],.utrecht-html input[autocomplete~=cc-number i],.utrecht-html input[autocomplete~=one-time-code i],.utrecht-html input[autocomplete~=postal-code i],.utrecht-html input[autocomplete~=tel i],.utrecht-html input[autocomplete~=tel-area-code i],.utrecht-html input[autocomplete~=tel-country-code i],.utrecht-html input[autocomplete~=tel-extension i],.utrecht-html input[autocomplete~=tel-local i],.utrecht-html input[autocomplete~=tel-national i],.utrecht-html input[autocomplete~=transaction-amount i],.utrecht-html input[inputmode=decimal i],.utrecht-html input[inputmode=numeric i],.utrecht-html input[inputmode=tel i],.utrecht-html input[type=number i],.utrecht-html input[type=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-html input[inputmode=email i],.utrecht-html input[inputmode=url i],.utrecht-html input[type=email i],.utrecht-html input[type=url i]{font-variant-ligatures:none}.utrecht-html ul{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));line-height:var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));padding-inline-start:var(--utrecht-unordered-list-padding-inline-start, 2ch);text-align:start;--utrecht-space-around: 1}.utrecht-html ul>li{margin-block-end:var(--utrecht-unordered-list-item-margin-block-end);margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);padding-inline-start:var(--utrecht-unordered-list-item-padding-inline-start, 1ch)}.utrecht-html ul>li::marker{color:var(--utrecht-unordered-list-marker-color);content:\"\\25cf\"}\n"],
     encapsulation: 2,
     changeDetection: 0
   });
@@ -62897,7 +66408,7 @@ class UtrechtHtmlContent {
       changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectionStrategy.OnPush,
       encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ViewEncapsulation.None,
       template: "<div class=\"utrecht-html\">\n  <ng-content></ng-content>\n</div>\n",
-      styles: ["@charset \"UTF-8\";/**\n * @license EUPL-1.2\n * Copyright (c) 2020-2022 Gemeente Utrecht\n * Copyright (c) 2020-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2022 Gemeente Utrecht\n * Copyright (c) 2022 Robbert Broersma\n * Copyright (c) 2022 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 Gemeente Utrecht\n */.utrecht-html{--utrecht-space-around: 1}.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-html blockquote{background-color:var(--utrecht-blockquote-background-color);color:var(--utrecht-blockquote-color);font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);font-style:var(--utrecht-blockquote-font-style);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);padding-block-end:var(--utrecht-blockquote-padding-block-end);padding-block-start:var(--utrecht-blockquote-padding-block-start);padding-inline-end:var(--utrecht-blockquote-padding-inline-end);padding-inline-start:var(--utrecht-blockquote-padding-inline-start);--utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit);--utrecht-space-around: 1}.utrecht-html input[type=button i],.utrecht-html input[type=reset i],.utrecht-html input[type=submit i],.utrecht-html button{--_utrecht-button-background-color: var( --_utrecht-button-hint-background-color, var(--_utrecht-button-appearance-background-color, var(--utrecht-button-background-color)) );--_utrecht-button-color: var( --_utrecht-button-hint-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-color)) );--_utrecht-button-border-color: var( --_utrecht-button-hint-border-color, var(--_utrecht-button-appearance-border-color, var(--utrecht-button-border-color, transparent)) );--_utrecht-button-border-bottom-color: var( --_utrecht-button-hint-border-bottom-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-border-bottom-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-border-bottom-color, var(--utrecht-button-border-color, transparent)) ) ) ) );--_utrecht-button-disabled-background-color: var( --_utrecht-button-hint-disabled-background-color, var( --_utrecht-button-appearance-disabled-background-color, var(--utrecht-button-disabled-background-color, var(--utrecht-button-background-color)) ) );--_utrecht-button-disabled-border-color: var( --_utrecht-button-hint-disabled-border-color, var( --_utrecht-button-appearance-disabled-border-color, var(--utrecht-button-disabled-border-color, var(--utrecht-button-border-color)) ) );--_utrecht-button-disabled-color: var( --_utrecht-button-hint-disabled-color, var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color))) );--_utrecht-button-pressed-background-color: var( --_utrecht-button-hint-pressed-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-pressed-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-pressed-border-color: var( --_utrecht-button-hint-pressed-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-pressed-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-pressed-color: var( --_utrecht-button-hint-pressed-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-pressed-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-focus-background-color: var( --_utrecht-button-hint-focus-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-focus-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-focus-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-focus-border-color: var( --_utrecht-button-hint-focus-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-focus-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-focus-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-focus-color: var( --_utrecht-button-hint-focus-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-focus-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-focus-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-hover-background-color: var( --_utrecht-button-hint-hover-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-hover-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-hover-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-hover-border-color: var( --_utrecht-button-hint-hover-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-hover-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-hover-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-hover-color: var( --_utrecht-button-hint-hover-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-hover-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-hover-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-active-background-color: var( --_utrecht-button-hint-active-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-active-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-active-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-active-border-color: var( --_utrecht-button-hint-active-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-active-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-active-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-active-color: var( --_utrecht-button-hint-active-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-active-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-active-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));--_utrecht-button-border-block-end-width: var( --utrecht-button-border-bottom-width, var(--_utrecht-button-border-width, 0) );--utrecht-icon-size: var(--utrecht-button-icon-size, 1em);align-items:center;background-color:var(--_utrecht-button-background-color);block-size:-moz-fit-content;block-size:fit-content;border-block-end-color:var(--_utrecht-button-border-bottom-color);border-block-end-width:var(--_utrecht-button-border-block-end-width);border-color:var(--_utrecht-button-border-color);border-radius:var(--utrecht-button-border-radius);border-style:solid;border-width:var(--_utrecht-button-border-width);box-sizing:border-box;color:var(--_utrecht-button-color);cursor:var(--utrecht-action-activate-cursor, revert);display:inline-flex;font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));font-weight:var(--_utrecht-button-appearance-font-weight, var(--utrecht-button-font-weight));gap:var(--utrecht-button-icon-gap);inline-size:var(--utrecht-button-inline-size, auto);justify-content:center;line-height:var(--utrecht-button-line-height);max-inline-size:var(--utrecht-button-max-inline-size, -moz-fit-content);max-inline-size:var(--utrecht-button-max-inline-size, fit-content);min-block-size:var(--utrecht-button-min-block-size, 44px);min-inline-size:var(--utrecht-button-min-inline-size, 44px);padding-block-end:var(--utrecht-button-padding-block-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-inline-start:var(--utrecht-button-padding-inline-start);scale:1;text-transform:var(--utrecht-button-text-transform);-webkit-user-select:none;user-select:none;margin-block-end:var(--utrecht-button-margin-block-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-inline-start:var(--utrecht-button-margin-inline-start)}.utrecht-html button[hidden]{display:none}.utrecht-html button[type=submit i],.utrecht-html input[type=submit i]{cursor:var(--utrecht-action-submit-cursor, revert)}.utrecht-html button:disabled,.utrecht-html button[aria-disabled=true]{background-color:var(--_utrecht-button-disabled-background-color);border-color:var(--_utrecht-button-disabled-border-color);color:var(--_utrecht-button-disabled-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html button[aria-busy=true],.utrecht-html button[aria-disabled=true][aria-busy=true],.utrecht-html button:disabled[aria-busy=true]{cursor:var(--utrecht-action-busy-cursor, wait)}.utrecht-html button:active:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-active-background-color);border-color:var(--_utrecht-button-active-border-color);color:var(--_utrecht-button-active-color)}.utrecht-html button:hover:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-hover-background-color);border-color:var(--_utrecht-button-hover-border-color);color:var(--_utrecht-button-hover-color);scale:var(--utrecht-button-hover-scale, 1)}.utrecht-html button:focus:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-focus-background-color);border-color:var(--_utrecht-button-focus-border-color);color:var(--_utrecht-button-focus-color);scale:var(--utrecht-button-focus-scale, 1)}.utrecht-html button:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]{margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;cursor:var(--utrecht-action-activate-cursor, revert);-webkit-user-select:none;user-select:none}.utrecht-html input[type=checkbox i]:disabled{cursor:var(--utrecht-action-disabled-cursor, revert)}.utrecht-html input[type=checkbox i]:focus{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html body{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);font-weight:var(--utrecht-document-font-weight, inherit);line-height:var(--utrecht-document-line-height, inherit);text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:var(--utrecht-document-background-color, inherit)}.utrecht-html body :lang(ar){letter-spacing:0!important}.utrecht-html code{background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height)}.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-html fieldset{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));all:revert;border:0;margin-inline-end:0;margin-inline-start:0;min-inline-size:0;padding-block-end:0;padding-block-start:.01em;padding-inline-end:0;padding-inline-start:0;--utrecht-space-around: 1}.utrecht-html fieldset[hidden]{display:none}.utrecht-html figure{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0))}.utrecht-html figcaption{color:var(--utrecht-figure-caption-color);font-size:var(--utrecht-figure-caption-font-size);line-height:var(--utrecht-figure-caption-line-height)}.utrecht-html form{display:block;max-inline-size:var(--utrecht-form-max-inline-size)}.utrecht-html legend{break-inside:avoid;color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);page-break-after:avoid;page-break-inside:avoid;display:table;inline-size:100%;padding-inline-end:0;padding-inline-start:0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0))}.utrecht-html legend[hidden]{display:none}.utrecht-html fieldset:disabled>legend{color:var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)))}.utrecht-html label{color:var(--utrecht-form-label-color);font-size:var(--utrecht-form-label-font-size);font-weight:var(--utrecht-form-label-font-weight)}.utrecht-html input[type=checkbox i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html input[type=radio i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html mark{background-color:var(--utrecht-mark-background-color, revert);color:var(--utrecht-mark-color, revert)}@media print{.utrecht-html mark{outline-color:currentColor;outline-style:dotted;outline-width:.1em}}@media screen and (-ms-high-contrast: active){.utrecht-html mark{background-color:Highlight;color:HighlightText}}.utrecht-html h1{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size, revert);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-1-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h2{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size, revert);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-2-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h3{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size, revert);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-3-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h4{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size, revert);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-4-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h5{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size, revert);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-5-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h6{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size, revert);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-6-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html hgroup{--utrecht-pre-heading-order: -1;display:flex;flex-direction:column;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html hgroup>*{--utrecht-space-around: 0}.utrecht-html a{--utrecht-icon-size: var(--utrecht-link-icon-size, 1em);color:var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)))}.utrecht-html a:visited{--_utrecht-link-forced-colors-color: visitedtext;--_utrecht-link-state-color: var(--utrecht-link-visited-color)}.utrecht-html a:hover{--_utrecht-link-forced-colors-color: linktext;--_utrecht-link-state-color: var(--utrecht-link-hover-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}.utrecht-html a:active{--_utrecht-link-forced-colors-color: activetext;--_utrecht-link-state-color: var(--utrecht-link-active-color)}.utrecht-html a:focus{--_utrecht-link-state-color: var(--utrecht-link-focus-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);background-color:var(--utrecht-link-focus-background-color, transparent);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert);z-index:var(--utrecht-stack-focus-z-index, 1)}.utrecht-html a:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-html ol{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));line-height:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));padding-inline-start:var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));text-align:start;--utrecht-space-around: 1}.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));margin-block-start:var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));padding-inline-start:var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch))}.utrecht-html ol:lang(ar){list-style:arabic-indic}.utrecht-html p{color:var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0))}.utrecht-html p.lead{color:var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html *~p{--utrecht-space-around: 1}.utrecht-html p:has(>small:only-child){color:var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html p>small:only-child{font-size:inherit}.utrecht-html pre:has(>code:only-child){background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height);--utrecht-code-color: var(--utrecht-code-block-color, inherit);--utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);--utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);--utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);--utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);background-color:var(--utrecht-code-block-background-color);display:block;font-size:var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));line-height:var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));margin-block-end:var(--utrecht-code-block-margin-block-end);margin-block-start:var(--utrecht-code-block-margin-block-start);margin-inline-end:var(--utrecht-code-block-margin-inline-end);margin-inline-start:var(--utrecht-code-block-margin-inline-start);padding-block-end:var(--utrecht-code-block-padding-block-end);padding-block-start:var(--utrecht-code-block-padding-block-start);padding-inline-end:var(--utrecht-code-block-padding-inline-end);padding-inline-start:var(--utrecht-code-block-padding-inline-start);white-space:pre}.utrecht-html pre[hidden]:has(>code:only-child){display:none}.utrecht-html pre:has(>code:only-child)>code{display:contents}.utrecht-html input[type=radio i]{appearance:none;margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;--_utrecht-radio-button-background-color: var( --_utrecht-radio-button-interactive-background-color, var(--_utrecht-radio-button-state-background-color, var(--utrecht-radio-button-background-color)) );--_utrecht-radio-button-border-color: var( --_utrecht-radio-button-interactive-border-color, var(--_utrecht-radio-button-state-border-color, var(--utrecht-radio-button-border-color, currentColor)) );--_utrecht-radio-button-border-width: var( --_utrecht-radio-button-interactive-border-width, var(--_utrecht-radio-button-state-border-width, var(--utrecht-radio-button-border-width)) );--_utrecht-radio-button-color: var( --_utrecht-radio-button-interactive-color, var(--_utrecht-radio-button-state-color, var(--utrecht-radio-button-color, currentColor)) );--_utrecht-radio-button-icon-size: 0;background-color:var(--_utrecht-radio-button-background-color);background-image:radial-gradient(circle,var(--_utrecht-radio-button-color, transparent) calc(var(--_utrecht-radio-button-icon-size, 50%) - 5%),var(--_utrecht-radio-button-background-color, currentColor) var(--_utrecht-radio-button-icon-size, 50%));background-position:center;background-repeat:no-repeat;background-size:contain;block-size:var(--utrecht-radio-button-size, 1em);border-color:var(--_utrecht-radio-button-border-color);border-radius:50%;border-style:solid;border-width:var(--_utrecht-radio-button-border-width);cursor:var(--utrecht-action-activate-cursor, revert);inline-size:var(--utrecht-radio-button-size, 1em);margin-inline-end:var(--utrecht-radio-button-margin-inline-end);min-block-size:24px;min-inline-size:24px;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;user-select:none;vertical-align:top}.utrecht-html input[type=radio i]:checked{--_utrecht-radio-button-icon-size: var(--utrecht-radio-button-icon-size, 50%);--_utrecht-radio-button-state-background-color: var(--utrecht-radio-button-checked-background-color);--_utrecht-radio-button-state-border-color: var(--utrecht-radio-button-checked-border-color);--_utrecht-radio-button-state-border-width: var(--utrecht-radio-button-checked-border-width);--_utrecht-radio-button-state-color: var(--utrecht-radio-button-checked-color);--_utrecht-radio-button-state-active-background-color: var(--utrecht-radio-button-checked-active-background-color);--_utrecht-radio-button-state-active-border-color: var(--utrecht-radio-button-checked-active-border-color);--_utrecht-radio-button-state-active-border-width: var(--utrecht-radio-button-checked-active-border-width);--_utrecht-radio-button-state-active-color: var(--utrecht-radio-button-checked-active-color);--_utrecht-radio-button-state-focus-background-color: var(--utrecht-radio-button-checked-focus-background-color);--_utrecht-radio-button-state-focus-border-color: var(--utrecht-radio-button-checked-focus-border-color);--_utrecht-radio-button-state-focus-border-width: var(--utrecht-radio-button-checked-focus-border-width);--_utrecht-radio-button-state-focus-color: var(--utrecht-radio-button-checked-focus-color);--_utrecht-radio-button-state-hover-background-color: var(--utrecht-radio-button-checked-hover-background-color);--_utrecht-radio-button-state-hover-border-color: var(--utrecht-radio-button-checked-hover-border-color);--_utrecht-radio-button-state-hover-border-width: var(--utrecht-radio-button-checked-hover-border-width);--_utrecht-radio-button-state-hover-color: var(--utrecht-radio-button-checked-hover-color)}.utrecht-html input[type=radio i]:disabled{--_utrecht-radio-button-background-color: var(--utrecht-radio-button-disabled-background-color);--_utrecht-radio-button-border-color: var(--utrecht-radio-button-disabled-border-color);--_utrecht-radio-button-border-width: var(--utrecht-radio-button-disabled-border-width);--_utrecht-radio-button-color: var(--utrecht-radio-button-disabled-color);--_utrecht-radio-button-focus-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-focus-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-focus-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-focus-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-active-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-active-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-active-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-active-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-hover-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input[type=radio i]:invalid,.utrecht-html input[type=radio i][aria-invalid=true]{border-color:var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));border-width:var(--utrecht-radio-button-invalid-border-width, var(--utrecht-radio-button-border-width));color:var(--utrecht-radio-button-invalid-color, var(--utrecht-radio-button-color))}.utrecht-html input[type=radio i]:focus:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --utrecht-radio-button-focus-background-color, var(--utrecht-radio-button-focus-background-color) );--_utrecht-radio-button-interactive-border-color: var( --utrecht-radio-button-focus-border-color, var(--utrecht-radio-button-focus-border-color) );--_utrecht-radio-button-interactive-border-width: var( --utrecht-radio-button-focus-border-width, var(--utrecht-radio-button-focus-border-width) );--_utrecht-radio-button-interactive-color: var( --utrecht-radio-button-focus-color, var(--utrecht-radio-button-focus-color) )}.utrecht-html input[type=radio i]:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=radio i]:hover:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-hover-background-color, var(--utrecht-radio-button-hover-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-hover-border-color, var(--utrecht-radio-button-hover-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-hover-border-width, var(--utrecht-radio-button-hover-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-hover-color, var(--utrecht-radio-button-hover-color) )}.utrecht-html input[type=radio i]:active:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-active-background-color, var(--utrecht-radio-button-active-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-active-border-color, var(--utrecht-radio-button-active-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-active-border-width, var(--utrecht-radio-button-active-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-active-color, var(--utrecht-radio-button-active-color) )}.utrecht-html select{background-color:var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));border-block-end-width:var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));border-block-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-color:var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));border-inline-end-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-inline-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-radius:var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;color:var(--utrecht-select-color, var(--utrecht-form-control-color));font-family:var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));inline-size:100%;max-inline-size:var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));padding-block-start:var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));padding-inline-end:var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));padding-inline-start:var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start))}.utrecht-html select:focus{background-color:var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html select:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html select:disabled{background-color:var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html select[aria-invalid=true]{--_utrecht-select-border-width: var( --utrecht-select-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-select-border-width);border-block-end-width:var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));border-color:var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))))}.utrecht-html hr{border-color:var(--utrecht-separator-color);border-style:solid;border-width:0 0 var(--utrecht-separator-block-size) 0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html table{border-collapse:separate;border-color:var(--utrecht-table-border-color, 0);border-spacing:0;border-style:solid;border-width:var(--utrecht-table-border-width, 0);font-family:var(--utrecht-table-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-table-font-size, inherit);inline-size:100%;line-height:var(--utrecht-table-line-height, inherit);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html caption{break-inside:avoid;color:var(--utrecht-table-caption-color);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);font-weight:var(--utrecht-table-caption-font-weight);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);page-break-after:avoid;text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-html thead{--_utrecht-table-header-cell-vertical-align: bottom;--_utrecht-table-header-cell-z-index: 8;background-color:var(--utrecht-table-header-background-color);break-inside:avoid;color:var(--utrecht-table-header-color);font-weight:var(--utrecht-table-header-font-weight);page-break-inside:avoid;text-transform:var(--utrecht-table-header-text-transform)}.utrecht-html tbody{--_utrecht-table-header-cell-z-index: 2}.utrecht-html th{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;color:var(--utrecht-table-header-cell-color);font-size:var(--utrecht-table-header-cell-font-size);font-weight:var(--utrecht-table-header-cell-font-weight, bold);text-transform:var(--utrecht-table-header-cell-text-transform);vertical-align:var(--_utrecht-table-header-cell-vertical-align, top);z-index:var(--_utrecht-table-header-cell-z-index)}.utrecht-html th,.utrecht-html td{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);vertical-align:top}.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-html thead tr:last-child th{border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-html thead>tr>th.numeric,.utrecht-html tfoot>tr>th.numeric,.utrecht-html th[scope=column].numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align)}.utrecht-html td.numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align);font-variant-numeric:lining-nums tabular-nums}.utrecht-html table.alternate-row-color>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html textarea{background-color:var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textarea-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textarea-line-height, initial);max-inline-size:var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));min-block-size:var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);padding-block-end:var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));resize:vertical;resize:block}.utrecht-html textarea:focus{background-color:var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html textarea:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{--_utrecht-textarea-border-width: var( --utrecht-textarea-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textarea-border-width);border-block-end-width:var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));border-color:var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:read-only{background-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:disabled{background-color:var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html textarea::placeholder{color:var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input:not([type]),.utrecht-html input[type=date i],.utrecht-html input[type=datetime-local i],.utrecht-html input[type=email i],.utrecht-html input[type=month i],.utrecht-html input[type=number i],.utrecht-html input[type=password i],.utrecht-html input[type=search i],.utrecht-html input[type=tel i],.utrecht-html input[type=text i],.utrecht-html input[type=time i],.utrecht-html input[type=url i],.utrecht-html input[type=week i]{background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-html input:not([type]):focus,.utrecht-html input[type=date i]:focus,.utrecht-html input[type=datetime-local i]:focus,.utrecht-html input[type=email i]:focus,.utrecht-html input[type=month i]:focus,.utrecht-html input[type=number i]:focus,.utrecht-html input[type=password i]:focus,.utrecht-html input[type=search i]:focus,.utrecht-html input[type=tel i]:focus,.utrecht-html input[type=text i]:focus,.utrecht-html input[type=time i]:focus,.utrecht-html input[type=url i]:focus,.utrecht-html input[type=week i]:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input:not([type]):focus:not(:focus-visible),.utrecht-html input[type=date i]:focus:not(:focus-visible),.utrecht-html input[type=datetime-local i]:focus:not(:focus-visible),.utrecht-html input[type=email i]:focus:not(:focus-visible),.utrecht-html input[type=month i]:focus:not(:focus-visible),.utrecht-html input[type=number i]:focus:not(:focus-visible),.utrecht-html input[type=password i]:focus:not(:focus-visible),.utrecht-html input[type=search i]:focus:not(:focus-visible),.utrecht-html input[type=tel i]:focus:not(:focus-visible),.utrecht-html input[type=text i]:focus:not(:focus-visible),.utrecht-html input[type=time i]:focus:not(:focus-visible),.utrecht-html input[type=url i]:focus:not(:focus-visible),.utrecht-html input[type=week i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html input:not([type]):invalid,.utrecht-html input:not([type])[aria-invalid=true],.utrecht-html input[type=date i]:invalid,.utrecht-html input[type=date i][aria-invalid=true],.utrecht-html input[type=datetime-local i]:invalid,.utrecht-html input[type=datetime-local i][aria-invalid=true],.utrecht-html input[type=email i]:invalid,.utrecht-html input[type=email i][aria-invalid=true],.utrecht-html input[type=month i]:invalid,.utrecht-html input[type=month i][aria-invalid=true],.utrecht-html input[type=number i]:invalid,.utrecht-html input[type=number i][aria-invalid=true],.utrecht-html input[type=password i]:invalid,.utrecht-html input[type=password i][aria-invalid=true],.utrecht-html input[type=search i]:invalid,.utrecht-html input[type=search i][aria-invalid=true],.utrecht-html input[type=tel i]:invalid,.utrecht-html input[type=tel i][aria-invalid=true],.utrecht-html input[type=text i]:invalid,.utrecht-html input[type=text i][aria-invalid=true],.utrecht-html input[type=time i]:invalid,.utrecht-html input[type=time i][aria-invalid=true],.utrecht-html input[type=url i]:invalid,.utrecht-html input[type=url i][aria-invalid=true],.utrecht-html input[type=week i]:invalid,.utrecht-html input[type=week i][aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):read-only,.utrecht-html input[type=date i]:read-only,.utrecht-html input[type=datetime-local i]:read-only,.utrecht-html input[type=email i]:read-only,.utrecht-html input[type=month i]:read-only,.utrecht-html input[type=number i]:read-only,.utrecht-html input[type=password i]:read-only,.utrecht-html input[type=search i]:read-only,.utrecht-html input[type=tel i]:read-only,.utrecht-html input[type=text i]:read-only,.utrecht-html input[type=time i]:read-only,.utrecht-html input[type=url i]:read-only,.utrecht-html input[type=week i]:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):disabled,.utrecht-html input[type=date i]:disabled,.utrecht-html input[type=datetime-local i]:disabled,.utrecht-html input[type=email i]:disabled,.utrecht-html input[type=month i]:disabled,.utrecht-html input[type=number i]:disabled,.utrecht-html input[type=password i]:disabled,.utrecht-html input[type=search i]:disabled,.utrecht-html input[type=tel i]:disabled,.utrecht-html input[type=text i]:disabled,.utrecht-html input[type=time i]:disabled,.utrecht-html input[type=url i]:disabled,.utrecht-html input[type=week i]:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input:not([type])::placeholder,.utrecht-html input[type=date i]::placeholder,.utrecht-html input[type=datetime-local i]::placeholder,.utrecht-html input[type=email i]::placeholder,.utrecht-html input[type=month i]::placeholder,.utrecht-html input[type=number i]::placeholder,.utrecht-html input[type=password i]::placeholder,.utrecht-html input[type=search i]::placeholder,.utrecht-html input[type=tel i]::placeholder,.utrecht-html input[type=text i]::placeholder,.utrecht-html input[type=time i]::placeholder,.utrecht-html input[type=url i]::placeholder,.utrecht-html input[type=week i]::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input[autocomplete~=current-password i],.utrecht-html input[autocomplete~=new-password i],.utrecht-html input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-html input[autocomplete~=bday i],.utrecht-html input[autocomplete~=bday-day i],.utrecht-html input[autocomplete~=bday-month i],.utrecht-html input[autocomplete~=bday-year i],.utrecht-html input[autocomplete~=cc-csc i],.utrecht-html input[autocomplete~=cc-exp i],.utrecht-html input[autocomplete~=cc-exp-month i],.utrecht-html input[autocomplete~=cc-exp-year i],.utrecht-html input[autocomplete~=cc-number i],.utrecht-html input[autocomplete~=one-time-code i],.utrecht-html input[autocomplete~=postal-code i],.utrecht-html input[autocomplete~=tel i],.utrecht-html input[autocomplete~=tel-area-code i],.utrecht-html input[autocomplete~=tel-country-code i],.utrecht-html input[autocomplete~=tel-extension i],.utrecht-html input[autocomplete~=tel-local i],.utrecht-html input[autocomplete~=tel-national i],.utrecht-html input[autocomplete~=transaction-amount i],.utrecht-html input[inputmode=decimal i],.utrecht-html input[inputmode=numeric i],.utrecht-html input[inputmode=tel i],.utrecht-html input[type=number i],.utrecht-html input[type=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-html input[inputmode=email i],.utrecht-html input[inputmode=url i],.utrecht-html input[type=email i],.utrecht-html input[type=url i]{font-variant-ligatures:none}.utrecht-html ul{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));line-height:var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));padding-inline-start:var(--utrecht-unordered-list-padding-inline-start, 2ch);text-align:start;--utrecht-space-around: 1}.utrecht-html ul>li{margin-block-end:var(--utrecht-unordered-list-item-margin-block-end);margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);padding-inline-start:var(--utrecht-unordered-list-item-padding-inline-start, 1ch)}.utrecht-html ul>li::marker{color:var(--utrecht-unordered-list-marker-color);content:\"\\25cf\"}\n"]
+      styles: ["@charset \"UTF-8\";/**\n * @license EUPL-1.2\n * Copyright (c) 2020-2022 Gemeente Utrecht\n * Copyright (c) 2020-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2022 Gemeente Utrecht\n * Copyright (c) 2022 Robbert Broersma\n * Copyright (c) 2022 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 Gemeente Utrecht\n */.utrecht-html{--utrecht-space-around: 1}.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-html blockquote{background-color:var(--utrecht-blockquote-background-color);color:var(--utrecht-blockquote-color);font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);font-style:var(--utrecht-blockquote-font-style);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);padding-block-end:var(--utrecht-blockquote-padding-block-end);padding-block-start:var(--utrecht-blockquote-padding-block-start);padding-inline-end:var(--utrecht-blockquote-padding-inline-end);padding-inline-start:var(--utrecht-blockquote-padding-inline-start);--utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit);--utrecht-space-around: 1}.utrecht-html input[type=button i],.utrecht-html input[type=reset i],.utrecht-html input[type=submit i],.utrecht-html button{--_utrecht-button-background-color: var( --_utrecht-button-hint-background-color, var(--_utrecht-button-appearance-background-color, var(--utrecht-button-background-color)) );--_utrecht-button-color: var( --_utrecht-button-hint-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-color)) );--_utrecht-button-border-color: var( --_utrecht-button-hint-border-color, var(--_utrecht-button-appearance-border-color, var(--utrecht-button-border-color, transparent)) );--_utrecht-button-border-bottom-color: var( --_utrecht-button-hint-border-bottom-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-border-bottom-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-border-bottom-color, var(--utrecht-button-border-color, transparent)) ) ) ) );--_utrecht-button-disabled-background-color: var( --_utrecht-button-hint-disabled-background-color, var( --_utrecht-button-appearance-disabled-background-color, var(--utrecht-button-disabled-background-color, var(--utrecht-button-background-color)) ) );--_utrecht-button-disabled-border-color: var( --_utrecht-button-hint-disabled-border-color, var( --_utrecht-button-appearance-disabled-border-color, var(--utrecht-button-disabled-border-color, var(--utrecht-button-border-color)) ) );--_utrecht-button-disabled-color: var( --_utrecht-button-hint-disabled-color, var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color))) );--_utrecht-button-pressed-background-color: var( --_utrecht-button-hint-pressed-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-pressed-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-pressed-border-color: var( --_utrecht-button-hint-pressed-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-pressed-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-pressed-color: var( --_utrecht-button-hint-pressed-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-pressed-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-focus-background-color: var( --_utrecht-button-hint-focus-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-focus-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-focus-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-focus-border-color: var( --_utrecht-button-hint-focus-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-focus-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-focus-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-focus-color: var( --_utrecht-button-hint-focus-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-focus-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-focus-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-hover-background-color: var( --_utrecht-button-hint-hover-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-hover-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-hover-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-hover-border-color: var( --_utrecht-button-hint-hover-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-hover-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-hover-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-hover-color: var( --_utrecht-button-hint-hover-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-hover-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-hover-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-active-background-color: var( --_utrecht-button-hint-active-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-active-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-active-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-active-border-color: var( --_utrecht-button-hint-active-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-active-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-active-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-active-color: var( --_utrecht-button-hint-active-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-active-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-active-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));--_utrecht-button-border-block-end-width: var( --utrecht-button-border-bottom-width, var(--_utrecht-button-border-width, 0) );--utrecht-icon-size: var(--utrecht-button-icon-size, 1em);align-items:center;background-color:var(--_utrecht-button-background-color);block-size:-moz-fit-content;block-size:fit-content;border-block-end-color:var(--_utrecht-button-border-bottom-color);border-block-end-width:var(--_utrecht-button-border-block-end-width);border-color:var(--_utrecht-button-border-color);border-radius:var(--utrecht-button-border-radius);border-style:solid;border-width:var(--_utrecht-button-border-width);box-sizing:border-box;color:var(--_utrecht-button-color);cursor:var(--utrecht-action-activate-cursor, revert);display:inline-flex;font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));font-weight:var(--_utrecht-button-appearance-font-weight, var(--utrecht-button-font-weight));gap:var(--utrecht-button-icon-gap);inline-size:var(--utrecht-button-inline-size, auto);justify-content:center;line-height:var(--utrecht-button-line-height);max-inline-size:var(--utrecht-button-max-inline-size, -moz-fit-content);max-inline-size:var(--utrecht-button-max-inline-size, fit-content);min-block-size:var(--utrecht-button-min-block-size, 44px);min-inline-size:var(--utrecht-button-min-inline-size, 44px);padding-block-end:var(--utrecht-button-padding-block-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-inline-start:var(--utrecht-button-padding-inline-start);scale:1;text-transform:var(--utrecht-button-text-transform);-webkit-user-select:none;user-select:none;margin-block-end:var(--utrecht-button-margin-block-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-inline-start:var(--utrecht-button-margin-inline-start)}.utrecht-html button[hidden]{display:none}.utrecht-html button[type=submit i],.utrecht-html input[type=submit i]{cursor:var(--utrecht-action-submit-cursor, revert)}.utrecht-html button:disabled,.utrecht-html button[aria-disabled=true]{background-color:var(--_utrecht-button-disabled-background-color);border-color:var(--_utrecht-button-disabled-border-color);color:var(--_utrecht-button-disabled-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html button[aria-busy=true],.utrecht-html button[aria-disabled=true][aria-busy=true],.utrecht-html button:disabled[aria-busy=true]{cursor:var(--utrecht-action-busy-cursor, wait)}.utrecht-html button:active:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-active-background-color);border-color:var(--_utrecht-button-active-border-color);color:var(--_utrecht-button-active-color)}.utrecht-html button:hover:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-hover-background-color);border-color:var(--_utrecht-button-hover-border-color);color:var(--_utrecht-button-hover-color);scale:var(--utrecht-button-hover-scale, 1)}.utrecht-html button:focus:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-focus-background-color);border-color:var(--_utrecht-button-focus-border-color);color:var(--_utrecht-button-focus-color);scale:var(--utrecht-button-focus-scale, 1)}.utrecht-html button:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]{margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;cursor:var(--utrecht-action-activate-cursor, revert);-webkit-user-select:none;user-select:none}.utrecht-html input[type=checkbox i]:disabled{cursor:var(--utrecht-action-disabled-cursor, revert)}.utrecht-html input[type=checkbox i]:focus{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html body{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);font-weight:var(--utrecht-document-font-weight, inherit);line-height:var(--utrecht-document-line-height, inherit);text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:var(--utrecht-document-background-color, inherit)}.utrecht-html body :lang(ar){letter-spacing:0!important}.utrecht-html code{background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height)}.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-html fieldset{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));all:revert;border:0;margin-inline-end:0;margin-inline-start:0;min-inline-size:0;padding-block-end:0;padding-block-start:.01em;padding-inline-end:0;padding-inline-start:0;--utrecht-space-around: 1}.utrecht-html fieldset[hidden]{display:none}.utrecht-html figure{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0))}.utrecht-html figcaption{color:var(--utrecht-figure-caption-color);font-size:var(--utrecht-figure-caption-font-size);line-height:var(--utrecht-figure-caption-line-height)}.utrecht-html form{display:block;max-inline-size:var(--utrecht-form-max-inline-size)}.utrecht-html legend{break-inside:avoid;color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);page-break-after:avoid;page-break-inside:avoid;display:table;inline-size:100%;padding-inline-end:0;padding-inline-start:0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0))}.utrecht-html legend[hidden]{display:none}.utrecht-html fieldset:disabled>legend{color:var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)))}.utrecht-html label{color:var(--utrecht-form-label-color);font-size:var(--utrecht-form-label-font-size);font-weight:var(--utrecht-form-label-font-weight)}.utrecht-html input[type=checkbox i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html input[type=radio i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html mark{background-color:var(--utrecht-mark-background-color, revert);color:var(--utrecht-mark-color, revert)}@media print{.utrecht-html mark{outline-color:currentColor;outline-style:dotted;outline-width:.1em}}@media screen and (-ms-high-contrast: active){.utrecht-html mark{background-color:Highlight;color:HighlightText}}.utrecht-html h1{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size, revert);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-1-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h2{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size, revert);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-2-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h3{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size, revert);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-3-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h4{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size, revert);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-4-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h5{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size, revert);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-5-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h6{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size, revert);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-6-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html hgroup{--utrecht-pre-heading-order: -1;display:flex;flex-direction:column;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html hgroup>*{--utrecht-space-around: 0}.utrecht-html a{--utrecht-icon-size: var(--utrecht-link-icon-size, 1em);color:var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)))}.utrecht-html a:visited{--_utrecht-link-forced-colors-color: visitedtext;--_utrecht-link-state-color: var(--utrecht-link-visited-color)}.utrecht-html a:hover{--_utrecht-link-forced-colors-color: linktext;--_utrecht-link-state-color: var(--utrecht-link-hover-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}.utrecht-html a:active{--_utrecht-link-forced-colors-color: activetext;--_utrecht-link-state-color: var(--utrecht-link-active-color)}.utrecht-html a:focus{--_utrecht-link-state-color: var(--utrecht-link-focus-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);background-color:var(--utrecht-link-focus-background-color, transparent);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert);z-index:var(--utrecht-stack-focus-z-index, 1)}.utrecht-html a:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-html ol{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));line-height:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));padding-inline-start:var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));text-align:start;--utrecht-space-around: 1}.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));margin-block-start:var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));padding-inline-start:var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch))}.utrecht-html ol:lang(ar){list-style:arabic-indic}.utrecht-html p{color:var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0))}.utrecht-html p.lead{color:var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html *~p{--utrecht-space-around: 1}.utrecht-html p:has(>small:only-child){color:var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html p>small:only-child{font-size:inherit}.utrecht-html pre:has(>code:only-child){background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height);--utrecht-code-color: var(--utrecht-code-block-color, inherit);--utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);--utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);--utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);--utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);background-color:var(--utrecht-code-block-background-color);display:block;font-size:var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));line-height:var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));margin-block-end:var(--utrecht-code-block-margin-block-end);margin-block-start:var(--utrecht-code-block-margin-block-start);margin-inline-end:var(--utrecht-code-block-margin-inline-end);margin-inline-start:var(--utrecht-code-block-margin-inline-start);padding-block-end:var(--utrecht-code-block-padding-block-end);padding-block-start:var(--utrecht-code-block-padding-block-start);padding-inline-end:var(--utrecht-code-block-padding-inline-end);padding-inline-start:var(--utrecht-code-block-padding-inline-start);white-space:pre}.utrecht-html pre[hidden]:has(>code:only-child){display:none}.utrecht-html pre:has(>code:only-child)>code{display:contents}.utrecht-html input[type=radio i]{appearance:none;margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;--_utrecht-radio-button-background-color: var( --_utrecht-radio-button-interactive-background-color, var(--_utrecht-radio-button-state-background-color, var(--utrecht-radio-button-background-color)) );--_utrecht-radio-button-border-color: var( --_utrecht-radio-button-interactive-border-color, var(--_utrecht-radio-button-state-border-color, var(--utrecht-radio-button-border-color, currentColor)) );--_utrecht-radio-button-border-width: var( --_utrecht-radio-button-interactive-border-width, var(--_utrecht-radio-button-state-border-width, var(--utrecht-radio-button-border-width)) );--_utrecht-radio-button-color: var( --_utrecht-radio-button-interactive-color, var(--_utrecht-radio-button-state-color, var(--utrecht-radio-button-color, currentColor)) );--_utrecht-radio-button-icon-size: 0;background-color:var(--_utrecht-radio-button-background-color);background-image:radial-gradient(circle,var(--_utrecht-radio-button-color, transparent) calc(var(--_utrecht-radio-button-icon-size, 50%) - 5%),var(--_utrecht-radio-button-background-color, currentColor) var(--_utrecht-radio-button-icon-size, 50%));background-position:center;background-repeat:no-repeat;background-size:contain;block-size:var(--utrecht-radio-button-size, 1em);border-color:var(--_utrecht-radio-button-border-color);border-radius:50%;border-style:solid;border-width:var(--_utrecht-radio-button-border-width);cursor:var(--utrecht-action-activate-cursor, revert);inline-size:var(--utrecht-radio-button-size, 1em);margin-inline-end:var(--utrecht-radio-button-margin-inline-end);min-block-size:24px;min-inline-size:24px;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;user-select:none;vertical-align:top}.utrecht-html input[type=radio i]:checked{--_utrecht-radio-button-icon-size: var(--utrecht-radio-button-icon-size, 50%);--_utrecht-radio-button-state-background-color: var(--utrecht-radio-button-checked-background-color);--_utrecht-radio-button-state-border-color: var(--utrecht-radio-button-checked-border-color);--_utrecht-radio-button-state-border-width: var(--utrecht-radio-button-checked-border-width);--_utrecht-radio-button-state-color: var(--utrecht-radio-button-checked-color);--_utrecht-radio-button-state-active-background-color: var(--utrecht-radio-button-checked-active-background-color);--_utrecht-radio-button-state-active-border-color: var(--utrecht-radio-button-checked-active-border-color);--_utrecht-radio-button-state-active-border-width: var(--utrecht-radio-button-checked-active-border-width);--_utrecht-radio-button-state-active-color: var(--utrecht-radio-button-checked-active-color);--_utrecht-radio-button-state-focus-background-color: var(--utrecht-radio-button-checked-focus-background-color);--_utrecht-radio-button-state-focus-border-color: var(--utrecht-radio-button-checked-focus-border-color);--_utrecht-radio-button-state-focus-border-width: var(--utrecht-radio-button-checked-focus-border-width);--_utrecht-radio-button-state-focus-color: var(--utrecht-radio-button-checked-focus-color);--_utrecht-radio-button-state-hover-background-color: var(--utrecht-radio-button-checked-hover-background-color);--_utrecht-radio-button-state-hover-border-color: var(--utrecht-radio-button-checked-hover-border-color);--_utrecht-radio-button-state-hover-border-width: var(--utrecht-radio-button-checked-hover-border-width);--_utrecht-radio-button-state-hover-color: var(--utrecht-radio-button-checked-hover-color)}.utrecht-html input[type=radio i]:disabled{--_utrecht-radio-button-background-color: var(--utrecht-radio-button-disabled-background-color);--_utrecht-radio-button-border-color: var(--utrecht-radio-button-disabled-border-color);--_utrecht-radio-button-border-width: var(--utrecht-radio-button-disabled-border-width);--_utrecht-radio-button-color: var(--utrecht-radio-button-disabled-color);--_utrecht-radio-button-focus-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-focus-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-focus-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-focus-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-active-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-active-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-active-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-active-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-hover-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input[type=radio i]:invalid,.utrecht-html input[type=radio i][aria-invalid=true]{border-color:var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));border-width:var(--utrecht-radio-button-invalid-border-width, var(--utrecht-radio-button-border-width));color:var(--utrecht-radio-button-invalid-color, var(--utrecht-radio-button-color))}.utrecht-html input[type=radio i]:focus:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --utrecht-radio-button-focus-background-color, var(--utrecht-radio-button-focus-background-color) );--_utrecht-radio-button-interactive-border-color: var( --utrecht-radio-button-focus-border-color, var(--utrecht-radio-button-focus-border-color) );--_utrecht-radio-button-interactive-border-width: var( --utrecht-radio-button-focus-border-width, var(--utrecht-radio-button-focus-border-width) );--_utrecht-radio-button-interactive-color: var( --utrecht-radio-button-focus-color, var(--utrecht-radio-button-focus-color) )}.utrecht-html input[type=radio i]:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=radio i]:hover:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-hover-background-color, var(--utrecht-radio-button-hover-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-hover-border-color, var(--utrecht-radio-button-hover-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-hover-border-width, var(--utrecht-radio-button-hover-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-hover-color, var(--utrecht-radio-button-hover-color) )}.utrecht-html input[type=radio i]:active:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-active-background-color, var(--utrecht-radio-button-active-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-active-border-color, var(--utrecht-radio-button-active-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-active-border-width, var(--utrecht-radio-button-active-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-active-color, var(--utrecht-radio-button-active-color) )}.utrecht-html select{background-color:var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));border-block-end-width:var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));border-block-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-color:var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));border-inline-end-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-inline-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-radius:var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;color:var(--utrecht-select-color, var(--utrecht-form-control-color));font-family:var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));inline-size:100%;min-block-size:var(--utrecht-select-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));padding-block-start:var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));padding-inline-end:var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));padding-inline-start:var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start))}.utrecht-html select:focus{background-color:var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html select:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html select:disabled{background-color:var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html select[aria-invalid=true]{--_utrecht-select-border-width: var( --utrecht-select-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-select-border-width);border-block-end-width:var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));border-color:var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))))}.utrecht-html hr{border-color:var(--utrecht-separator-color);border-style:solid;border-width:0 0 var(--utrecht-separator-block-size) 0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html table{border-collapse:separate;border-color:var(--utrecht-table-border-color, 0);border-spacing:0;border-style:solid;border-width:var(--utrecht-table-border-width, 0);font-family:var(--utrecht-table-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-table-font-size, inherit);inline-size:100%;line-height:var(--utrecht-table-line-height, inherit);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html caption{break-inside:avoid;color:var(--utrecht-table-caption-color);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);font-weight:var(--utrecht-table-caption-font-weight);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);page-break-after:avoid;text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-html thead{--_utrecht-table-header-cell-vertical-align: bottom;--_utrecht-table-header-cell-z-index: 8;background-color:var(--utrecht-table-header-background-color);break-inside:avoid;color:var(--utrecht-table-header-color);font-weight:var(--utrecht-table-header-font-weight);page-break-inside:avoid;text-transform:var(--utrecht-table-header-text-transform)}.utrecht-html tbody{--_utrecht-table-header-cell-z-index: 2}.utrecht-html th{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;color:var(--utrecht-table-header-cell-color);font-size:var(--utrecht-table-header-cell-font-size);font-weight:var(--utrecht-table-header-cell-font-weight, bold);text-transform:var(--utrecht-table-header-cell-text-transform);vertical-align:var(--_utrecht-table-header-cell-vertical-align, top);z-index:var(--_utrecht-table-header-cell-z-index)}.utrecht-html th,.utrecht-html td{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);vertical-align:top}.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-html thead tr:last-child th{border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-html thead>tr>th.numeric,.utrecht-html tfoot>tr>th.numeric,.utrecht-html th[scope=column].numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align)}.utrecht-html td.numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align);font-variant-numeric:lining-nums tabular-nums}.utrecht-html table.alternate-row-color>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html textarea{background-color:var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textarea-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textarea-line-height, initial);max-inline-size:var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));min-block-size:var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);padding-block-end:var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));resize:vertical;resize:block}.utrecht-html textarea:focus{background-color:var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html textarea:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{--_utrecht-textarea-border-width: var( --utrecht-textarea-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textarea-border-width);border-block-end-width:var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));border-color:var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:read-only{background-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:disabled{background-color:var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html textarea::placeholder{color:var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input:not([type]),.utrecht-html input[type=date i],.utrecht-html input[type=datetime-local i],.utrecht-html input[type=email i],.utrecht-html input[type=month i],.utrecht-html input[type=number i],.utrecht-html input[type=password i],.utrecht-html input[type=search i],.utrecht-html input[type=tel i],.utrecht-html input[type=text i],.utrecht-html input[type=time i],.utrecht-html input[type=url i],.utrecht-html input[type=week i]{--_utrecht-textbox-value-char: .667em + .334ch;--_utrecht-textbox-max-inline-size: calc( calc(var(--utrecht-textbox-value-max-length) * var(--_utrecht-textbox-value-char)) + var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, 0)) + var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, 0)) + var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width, 0)) + var(--utrecht-textbox-autocomplete-ui-size, 44px) );background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:min(var(--_utrecht-textbox-max-inline-size, 100%),var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size)));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-html input:not([type]):focus,.utrecht-html input[type=date i]:focus,.utrecht-html input[type=datetime-local i]:focus,.utrecht-html input[type=email i]:focus,.utrecht-html input[type=month i]:focus,.utrecht-html input[type=number i]:focus,.utrecht-html input[type=password i]:focus,.utrecht-html input[type=search i]:focus,.utrecht-html input[type=tel i]:focus,.utrecht-html input[type=text i]:focus,.utrecht-html input[type=time i]:focus,.utrecht-html input[type=url i]:focus,.utrecht-html input[type=week i]:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input:not([type]):focus:not(:focus-visible),.utrecht-html input[type=date i]:focus:not(:focus-visible),.utrecht-html input[type=datetime-local i]:focus:not(:focus-visible),.utrecht-html input[type=email i]:focus:not(:focus-visible),.utrecht-html input[type=month i]:focus:not(:focus-visible),.utrecht-html input[type=number i]:focus:not(:focus-visible),.utrecht-html input[type=password i]:focus:not(:focus-visible),.utrecht-html input[type=search i]:focus:not(:focus-visible),.utrecht-html input[type=tel i]:focus:not(:focus-visible),.utrecht-html input[type=text i]:focus:not(:focus-visible),.utrecht-html input[type=time i]:focus:not(:focus-visible),.utrecht-html input[type=url i]:focus:not(:focus-visible),.utrecht-html input[type=week i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html input:not([type]):invalid,.utrecht-html input:not([type])[aria-invalid=true],.utrecht-html input[type=date i]:invalid,.utrecht-html input[type=date i][aria-invalid=true],.utrecht-html input[type=datetime-local i]:invalid,.utrecht-html input[type=datetime-local i][aria-invalid=true],.utrecht-html input[type=email i]:invalid,.utrecht-html input[type=email i][aria-invalid=true],.utrecht-html input[type=month i]:invalid,.utrecht-html input[type=month i][aria-invalid=true],.utrecht-html input[type=number i]:invalid,.utrecht-html input[type=number i][aria-invalid=true],.utrecht-html input[type=password i]:invalid,.utrecht-html input[type=password i][aria-invalid=true],.utrecht-html input[type=search i]:invalid,.utrecht-html input[type=search i][aria-invalid=true],.utrecht-html input[type=tel i]:invalid,.utrecht-html input[type=tel i][aria-invalid=true],.utrecht-html input[type=text i]:invalid,.utrecht-html input[type=text i][aria-invalid=true],.utrecht-html input[type=time i]:invalid,.utrecht-html input[type=time i][aria-invalid=true],.utrecht-html input[type=url i]:invalid,.utrecht-html input[type=url i][aria-invalid=true],.utrecht-html input[type=week i]:invalid,.utrecht-html input[type=week i][aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):read-only,.utrecht-html input[type=date i]:read-only,.utrecht-html input[type=datetime-local i]:read-only,.utrecht-html input[type=email i]:read-only,.utrecht-html input[type=month i]:read-only,.utrecht-html input[type=number i]:read-only,.utrecht-html input[type=password i]:read-only,.utrecht-html input[type=search i]:read-only,.utrecht-html input[type=tel i]:read-only,.utrecht-html input[type=text i]:read-only,.utrecht-html input[type=time i]:read-only,.utrecht-html input[type=url i]:read-only,.utrecht-html input[type=week i]:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):disabled,.utrecht-html input[type=date i]:disabled,.utrecht-html input[type=datetime-local i]:disabled,.utrecht-html input[type=email i]:disabled,.utrecht-html input[type=month i]:disabled,.utrecht-html input[type=number i]:disabled,.utrecht-html input[type=password i]:disabled,.utrecht-html input[type=search i]:disabled,.utrecht-html input[type=tel i]:disabled,.utrecht-html input[type=text i]:disabled,.utrecht-html input[type=time i]:disabled,.utrecht-html input[type=url i]:disabled,.utrecht-html input[type=week i]:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input:not([type])::placeholder,.utrecht-html input[type=date i]::placeholder,.utrecht-html input[type=datetime-local i]::placeholder,.utrecht-html input[type=email i]::placeholder,.utrecht-html input[type=month i]::placeholder,.utrecht-html input[type=number i]::placeholder,.utrecht-html input[type=password i]::placeholder,.utrecht-html input[type=search i]::placeholder,.utrecht-html input[type=tel i]::placeholder,.utrecht-html input[type=text i]::placeholder,.utrecht-html input[type=time i]::placeholder,.utrecht-html input[type=url i]::placeholder,.utrecht-html input[type=week i]::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input[autocomplete~=current-password i],.utrecht-html input[autocomplete~=new-password i],.utrecht-html input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-html input[autocomplete~=bday i],.utrecht-html input[autocomplete~=bday-day i],.utrecht-html input[autocomplete~=bday-month i],.utrecht-html input[autocomplete~=bday-year i],.utrecht-html input[autocomplete~=cc-csc i],.utrecht-html input[autocomplete~=cc-exp i],.utrecht-html input[autocomplete~=cc-exp-month i],.utrecht-html input[autocomplete~=cc-exp-year i],.utrecht-html input[autocomplete~=cc-number i],.utrecht-html input[autocomplete~=one-time-code i],.utrecht-html input[autocomplete~=postal-code i],.utrecht-html input[autocomplete~=tel i],.utrecht-html input[autocomplete~=tel-area-code i],.utrecht-html input[autocomplete~=tel-country-code i],.utrecht-html input[autocomplete~=tel-extension i],.utrecht-html input[autocomplete~=tel-local i],.utrecht-html input[autocomplete~=tel-national i],.utrecht-html input[autocomplete~=transaction-amount i],.utrecht-html input[inputmode=decimal i],.utrecht-html input[inputmode=numeric i],.utrecht-html input[inputmode=tel i],.utrecht-html input[type=number i],.utrecht-html input[type=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-html input[inputmode=email i],.utrecht-html input[inputmode=url i],.utrecht-html input[type=email i],.utrecht-html input[type=url i]{font-variant-ligatures:none}.utrecht-html ul{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));line-height:var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));padding-inline-start:var(--utrecht-unordered-list-padding-inline-start, 2ch);text-align:start;--utrecht-space-around: 1}.utrecht-html ul>li{margin-block-end:var(--utrecht-unordered-list-item-margin-block-end);margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);padding-inline-start:var(--utrecht-unordered-list-item-padding-inline-start, 1ch)}.utrecht-html ul>li::marker{color:var(--utrecht-unordered-list-marker-color);content:\"\\25cf\"}\n"]
     }]
   }], () => [], null);
 })();
@@ -63862,7 +67373,7 @@ class UtrechtTextboxAttr {
     decls: 0,
     vars: 0,
     template: function UtrechtTextboxAttr_Template(rf, ctx) {},
-    styles: ["/**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n */.utrecht-textbox{background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-textbox--invalid{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-textbox--focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-textbox--read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox__placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-textbox--numeric{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-textbox--password{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-textbox--placeholder-ltr::placeholder,.utrecht-textbox--placeholder-ltr:placeholder-shown{direction:ltr}.utrecht-textbox--placeholder-rtl::placeholder,.utrecht-textbox--placeholder-rtl:placeholder-shown{direction:rtl}.utrecht-textbox--url{font-variant-ligatures:none}.utrecht-textbox--html-input:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-textbox--html-input:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-textbox--html-input:invalid,.utrecht-textbox--html-input[aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--html-input:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--html-input:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-textbox--html-input::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-textbox--html-input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-textbox--html-input[type=url i],.utrecht-textbox--html-input[type=email i],.utrecht-textbox--html-input[inputMode=email i],.utrecht-textbox--html-input[inputMode=url i]{font-variant-ligatures:none}.utrecht-textbox--html-input[pattern=\"\\\\d*\"],.utrecht-textbox--html-input[pattern=\"[0-9]*\"],.utrecht-textbox--html-input[type=number i],.utrecht-textbox--html-input[type=tel i],.utrecht-textbox--html-input[inputMode=numeric i],.utrecht-textbox--html-input[inputMode=decimal i],.utrecht-textbox--html-input[inputMode=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}\n"],
+    styles: ["/**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n */.utrecht-textbox{--_utrecht-textbox-value-char: .667em + .334ch;--_utrecht-textbox-max-inline-size: calc( calc(var(--utrecht-textbox-value-max-length) * var(--_utrecht-textbox-value-char)) + var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, 0)) + var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, 0)) + var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width, 0)) + var(--utrecht-textbox-autocomplete-ui-size, 44px) );background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:min(var(--_utrecht-textbox-max-inline-size, 100%),var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size)));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-textbox--invalid{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-textbox--focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-textbox--read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox__placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-textbox--numeric{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-textbox--password{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-textbox--postal-code-nl-size{--utrecht-textbox-value-max-length: 7}.utrecht-textbox--house-number-size{--utrecht-textbox-value-max-length: 5}.utrecht-textbox--house-letter-size{--utrecht-textbox-value-max-length: 1}.utrecht-textbox--house-addition-size{--utrecht-textbox-value-max-length: 4}.utrecht-textbox--voorvoegsel-size{--utrecht-textbox-value-max-length: 10}.utrecht-textbox--tel-size{--utrecht-textbox-value-max-length: 19}.utrecht-textbox--tel-nl-size{--utrecht-textbox-value-max-length: 13}.utrecht-textbox--iban-size{--utrecht-textbox-value-max-length: 41}.utrecht-textbox--iban-nl-size{--utrecht-textbox-value-max-length: 22}.utrecht-textbox--placeholder-ltr::placeholder,.utrecht-textbox--placeholder-ltr:placeholder-shown{direction:ltr}.utrecht-textbox--placeholder-rtl::placeholder,.utrecht-textbox--placeholder-rtl:placeholder-shown{direction:rtl}.utrecht-textbox--url{font-variant-ligatures:none}.utrecht-textbox--html-input:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-textbox--html-input:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-textbox--html-input:invalid,.utrecht-textbox--html-input[aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--html-input:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--html-input:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-textbox--html-input::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-textbox--html-input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-textbox--html-input[type=url i],.utrecht-textbox--html-input[type=email i],.utrecht-textbox--html-input[inputMode=email i],.utrecht-textbox--html-input[inputMode=url i]{font-variant-ligatures:none}.utrecht-textbox--html-input[pattern=\"\\\\d*\"],.utrecht-textbox--html-input[pattern=\"[0-9]*\"],.utrecht-textbox--html-input[type=number i],.utrecht-textbox--html-input[type=tel i],.utrecht-textbox--html-input[inputMode=numeric i],.utrecht-textbox--html-input[inputMode=decimal i],.utrecht-textbox--html-input[inputMode=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}\n"],
     encapsulation: 2,
     changeDetection: 0
   });
@@ -63894,7 +67405,7 @@ class UtrechtTextboxAttr {
         '[attr.disabled]': 'disabled ? "disabled": null',
         '[attr.required]': 'required ? "required": null'
       },
-      styles: ["/**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n */.utrecht-textbox{background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-textbox--invalid{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-textbox--focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-textbox--read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox__placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-textbox--numeric{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-textbox--password{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-textbox--placeholder-ltr::placeholder,.utrecht-textbox--placeholder-ltr:placeholder-shown{direction:ltr}.utrecht-textbox--placeholder-rtl::placeholder,.utrecht-textbox--placeholder-rtl:placeholder-shown{direction:rtl}.utrecht-textbox--url{font-variant-ligatures:none}.utrecht-textbox--html-input:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-textbox--html-input:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-textbox--html-input:invalid,.utrecht-textbox--html-input[aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--html-input:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--html-input:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-textbox--html-input::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-textbox--html-input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-textbox--html-input[type=url i],.utrecht-textbox--html-input[type=email i],.utrecht-textbox--html-input[inputMode=email i],.utrecht-textbox--html-input[inputMode=url i]{font-variant-ligatures:none}.utrecht-textbox--html-input[pattern=\"\\\\d*\"],.utrecht-textbox--html-input[pattern=\"[0-9]*\"],.utrecht-textbox--html-input[type=number i],.utrecht-textbox--html-input[type=tel i],.utrecht-textbox--html-input[inputMode=numeric i],.utrecht-textbox--html-input[inputMode=decimal i],.utrecht-textbox--html-input[inputMode=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}\n"]
+      styles: ["/**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n */.utrecht-textbox{--_utrecht-textbox-value-char: .667em + .334ch;--_utrecht-textbox-max-inline-size: calc( calc(var(--utrecht-textbox-value-max-length) * var(--_utrecht-textbox-value-char)) + var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, 0)) + var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, 0)) + var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width, 0)) + var(--utrecht-textbox-autocomplete-ui-size, 44px) );background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:min(var(--_utrecht-textbox-max-inline-size, 100%),var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size)));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-textbox--invalid{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-textbox--focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-textbox--read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox__placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-textbox--numeric{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-textbox--password{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-textbox--postal-code-nl-size{--utrecht-textbox-value-max-length: 7}.utrecht-textbox--house-number-size{--utrecht-textbox-value-max-length: 5}.utrecht-textbox--house-letter-size{--utrecht-textbox-value-max-length: 1}.utrecht-textbox--house-addition-size{--utrecht-textbox-value-max-length: 4}.utrecht-textbox--voorvoegsel-size{--utrecht-textbox-value-max-length: 10}.utrecht-textbox--tel-size{--utrecht-textbox-value-max-length: 19}.utrecht-textbox--tel-nl-size{--utrecht-textbox-value-max-length: 13}.utrecht-textbox--iban-size{--utrecht-textbox-value-max-length: 41}.utrecht-textbox--iban-nl-size{--utrecht-textbox-value-max-length: 22}.utrecht-textbox--placeholder-ltr::placeholder,.utrecht-textbox--placeholder-ltr:placeholder-shown{direction:ltr}.utrecht-textbox--placeholder-rtl::placeholder,.utrecht-textbox--placeholder-rtl:placeholder-shown{direction:rtl}.utrecht-textbox--url{font-variant-ligatures:none}.utrecht-textbox--html-input:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-textbox--html-input:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-textbox--html-input:invalid,.utrecht-textbox--html-input[aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--html-input:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-textbox--html-input:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-textbox--html-input::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-textbox--html-input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-textbox--html-input[type=url i],.utrecht-textbox--html-input[type=email i],.utrecht-textbox--html-input[inputMode=email i],.utrecht-textbox--html-input[inputMode=url i]{font-variant-ligatures:none}.utrecht-textbox--html-input[pattern=\"\\\\d*\"],.utrecht-textbox--html-input[pattern=\"[0-9]*\"],.utrecht-textbox--html-input[type=number i],.utrecht-textbox--html-input[type=tel i],.utrecht-textbox--html-input[inputMode=numeric i],.utrecht-textbox--html-input[inputMode=decimal i],.utrecht-textbox--html-input[inputMode=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}\n"]
     }]
   }], () => [], {
     disabled: [{
@@ -64098,9 +67609,9 @@ class UtrechtButtonLinkAttr {
 
 /***/ }),
 
-/***/ 8576:
+/***/ 1649:
 /*!**************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@babel+runtime@7.24.0/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js ***!
+  !*** ./node_modules/.pnpm/@babel+runtime@7.24.5/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js ***!
   \**************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -64141,7 +67652,7 @@ function _asyncToGenerator(fn) {
 
 /***/ }),
 
-/***/ 3720:
+/***/ 2160:
 /*!*************************************************************************!*\
   !*** ./node_modules/.pnpm/tslib@2.6.2/node_modules/tslib/tslib.es6.mjs ***!
   \*************************************************************************/
