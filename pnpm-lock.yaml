@@ -52,8 +52,8 @@ importers:
         specifier: 17.5.0
         version: 17.5.0(eslint@8.57.0)(typescript@5.4.5)
       '@angular-eslint/template-parser':
-        specifier: 17.5.0
-        version: 17.5.0(eslint@8.57.0)(typescript@5.4.5)
+        specifier: 18.0.1
+        version: 18.0.1(eslint@8.57.0)(typescript@5.4.5)
       '@angular/cli':
         specifier: 18.0.0
         version: 18.0.0(chokidar@3.6.0)
@@ -233,6 +233,9 @@ packages:
   '@angular-eslint/bundled-angular-compiler@17.5.0':
     resolution: {integrity: sha512-s9CNt4kznYtngGcGe8LvR8r/DS9/SFElIRAPKL5Ek+d/OTxLclkZQyWzHTQ5IZ0UTp6NG2cg9FIHvWmaNZfYTg==}
 
+  '@angular-eslint/bundled-angular-compiler@18.0.1':
+    resolution: {integrity: sha512-lr4Ysoo28FBOKcJFQUGTMpbWDcak+gyuYvyggp37ERvazE6EDomPFxzEHNqVT9EI9sZ+GDBOoPR+EdFh0ALGNw==}
+
   '@angular-eslint/eslint-plugin-template@17.5.0':
     resolution: {integrity: sha512-opJ+hXFf3t6RbUolfNGBePz0tU9+jSbiwCVJRNJwkosoooX371t3b4tk7Bhc3T1qhbqrLS2LHRR8NZ6qwBNGCw==}
     peerDependencies:
@@ -245,10 +248,10 @@ packages:
       eslint: ^7.20.0 || ^8.0.0
       typescript: '*'
 
-  '@angular-eslint/template-parser@17.5.0':
-    resolution: {integrity: sha512-kspvJwoDO+kTbXAFYAXxtriMlMttJH7nx0tytYZ6758DFxPD/IKAQmfi9bhr2ZtRwfBwPgXmcr/wgFV+Oy8tMQ==}
+  '@angular-eslint/template-parser@18.0.1':
+    resolution: {integrity: sha512-22fKzkWo9Ts8aY/WHL1A6seS2tpltgRRXVfnZnnqvQRyRiuPnx1FC0ly7+QPZkThh8vdLwxU+BvtLq9Uiqh9OQ==}
     peerDependencies:
-      eslint: ^7.20.0 || ^8.0.0
+      eslint: ^8.57.0 || ^9.0.0
       typescript: '*'
 
   '@angular-eslint/utils@17.5.0':
@@ -3256,10 +3259,12 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global-dirs@3.0.1:
     resolution: {integrity: sha512-NBcGGFbBA9s1VzD41QXDG+3++t9Mn5t1FpLdhESY6oKY4gYTFpX4wO3sqGUa0Srjtbfj3szX0RnemmrVRUdULA==}
@@ -3522,6 +3527,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.3:
     resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
@@ -4929,10 +4935,12 @@ packages:
 
   rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@5.0.5:
@@ -6076,6 +6084,8 @@ snapshots:
 
   '@angular-eslint/bundled-angular-compiler@17.5.0': {}
 
+  '@angular-eslint/bundled-angular-compiler@18.0.1': {}
+
   '@angular-eslint/eslint-plugin-template@17.5.0(eslint@8.57.0)(typescript@5.4.5)':
     dependencies:
       '@angular-eslint/bundled-angular-compiler': 17.5.0
@@ -6099,9 +6109,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@angular-eslint/template-parser@17.5.0(eslint@8.57.0)(typescript@5.4.5)':
+  '@angular-eslint/template-parser@18.0.1(eslint@8.57.0)(typescript@5.4.5)':
     dependencies:
-      '@angular-eslint/bundled-angular-compiler': 17.5.0
+      '@angular-eslint/bundled-angular-compiler': 18.0.1
       eslint: 8.57.0
       eslint-scope: 8.0.0
       typescript: 5.4.5
