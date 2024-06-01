@@ -48,7 +48,7 @@
     "@types/node": "20.12.12",
     "@typescript-eslint/eslint-plugin": "7.10.0",
     "@typescript-eslint/parser": "7.10.0",
-    "@utrecht/component-library-angular": "1.0.2-alpha.53",
+    "@utrecht/component-library-angular": "1.1.0",
     "@utrecht/component-library-css": "3.0.1-alpha.41",
     "@utrecht/design-tokens": "1.0.0-alpha.654",
     "@utrecht/web-component-library-angular": "1.0.0-alpha.644",
