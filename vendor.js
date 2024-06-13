@@ -1,7 +1,7 @@
 "use strict";
 (self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["vendor"],{
 
-/***/ 195:
+/***/ 7605:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/BehaviorSubject.js ***!
   \**********************************************************************************************/
@@ -11,7 +11,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   BehaviorSubject: () => (/* binding */ BehaviorSubject)
 /* harmony export */ });
-/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subject */ 5241);
+/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subject */ 3219);
 
 class BehaviorSubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__.Subject {
   constructor(_value) {
@@ -45,7 +45,7 @@ class BehaviorSubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__.Subject {
 
 /***/ }),
 
-/***/ 4606:
+/***/ 3708:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/NotificationFactories.js ***!
   \****************************************************************************************************/
@@ -75,7 +75,7 @@ function createNotification(kind, value, error) {
 
 /***/ }),
 
-/***/ 1984:
+/***/ 4406:
 /*!*****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/Observable.js ***!
   \*****************************************************************************************/
@@ -85,13 +85,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Observable: () => (/* binding */ Observable)
 /* harmony export */ });
-/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subscriber */ 7075);
-/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Subscription */ 3020);
-/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./symbol/observable */ 6349);
-/* harmony import */ var _util_pipe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./util/pipe */ 5628);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./config */ 1083);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util/isFunction */ 9596);
-/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/errorContext */ 7605);
+/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subscriber */ 8101);
+/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Subscription */ 6606);
+/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./symbol/observable */ 959);
+/* harmony import */ var _util_pipe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./util/pipe */ 3810);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./config */ 8933);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util/isFunction */ 5418);
+/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/errorContext */ 4407);
 
 
 
@@ -181,7 +181,7 @@ function isSubscriber(value) {
 
 /***/ }),
 
-/***/ 1100:
+/***/ 138:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/ReplaySubject.js ***!
   \********************************************************************************************/
@@ -191,8 +191,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ReplaySubject: () => (/* binding */ ReplaySubject)
 /* harmony export */ });
-/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subject */ 5241);
-/* harmony import */ var _scheduler_dateTimestampProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scheduler/dateTimestampProvider */ 6986);
+/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subject */ 3219);
+/* harmony import */ var _scheduler_dateTimestampProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scheduler/dateTimestampProvider */ 4064);
 
 
 class ReplaySubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__.Subject {
@@ -259,7 +259,7 @@ class ReplaySubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__.Subject {
 
 /***/ }),
 
-/***/ 5241:
+/***/ 3219:
 /*!**************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/Subject.js ***!
   \**************************************************************************************/
@@ -270,11 +270,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   AnonymousSubject: () => (/* binding */ AnonymousSubject),
 /* harmony export */   Subject: () => (/* binding */ Subject)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Observable */ 1984);
-/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Subscription */ 3020);
-/* harmony import */ var _util_ObjectUnsubscribedError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/ObjectUnsubscribedError */ 6016);
-/* harmony import */ var _util_arrRemove__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util/arrRemove */ 7809);
-/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/errorContext */ 7605);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Observable */ 4406);
+/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Subscription */ 6606);
+/* harmony import */ var _util_ObjectUnsubscribedError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/ObjectUnsubscribedError */ 5510);
+/* harmony import */ var _util_arrRemove__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util/arrRemove */ 3367);
+/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/errorContext */ 4407);
 
 
 
@@ -422,7 +422,7 @@ class AnonymousSubject extends Subject {
 
 /***/ }),
 
-/***/ 7075:
+/***/ 8101:
 /*!*****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/Subscriber.js ***!
   \*****************************************************************************************/
@@ -434,14 +434,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   SafeSubscriber: () => (/* binding */ SafeSubscriber),
 /* harmony export */   Subscriber: () => (/* binding */ Subscriber)
 /* harmony export */ });
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/isFunction */ 9596);
-/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subscription */ 3020);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./config */ 1083);
-/* harmony import */ var _util_reportUnhandledError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util/reportUnhandledError */ 6753);
-/* harmony import */ var _util_noop__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./util/noop */ 588);
-/* harmony import */ var _NotificationFactories__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationFactories */ 4606);
-/* harmony import */ var _scheduler_timeoutProvider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scheduler/timeoutProvider */ 8533);
-/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util/errorContext */ 7605);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/isFunction */ 5418);
+/* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Subscription */ 6606);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./config */ 8933);
+/* harmony import */ var _util_reportUnhandledError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./util/reportUnhandledError */ 4835);
+/* harmony import */ var _util_noop__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./util/noop */ 6542);
+/* harmony import */ var _NotificationFactories__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NotificationFactories */ 3708);
+/* harmony import */ var _scheduler_timeoutProvider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scheduler/timeoutProvider */ 1923);
+/* harmony import */ var _util_errorContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./util/errorContext */ 4407);
 
 
 
@@ -613,7 +613,7 @@ const EMPTY_OBSERVER = {
 
 /***/ }),
 
-/***/ 3020:
+/***/ 6606:
 /*!*******************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/Subscription.js ***!
   \*******************************************************************************************/
@@ -625,9 +625,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Subscription: () => (/* binding */ Subscription),
 /* harmony export */   isSubscription: () => (/* binding */ isSubscription)
 /* harmony export */ });
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/isFunction */ 9596);
-/* harmony import */ var _util_UnsubscriptionError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/UnsubscriptionError */ 8978);
-/* harmony import */ var _util_arrRemove__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/arrRemove */ 7809);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/isFunction */ 5418);
+/* harmony import */ var _util_UnsubscriptionError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/UnsubscriptionError */ 9676);
+/* harmony import */ var _util_arrRemove__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/arrRemove */ 3367);
 
 
 
@@ -755,7 +755,7 @@ function execFinalizer(finalizer) {
 
 /***/ }),
 
-/***/ 1083:
+/***/ 8933:
 /*!*************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/config.js ***!
   \*************************************************************************************/
@@ -775,7 +775,7 @@ const config = {
 
 /***/ }),
 
-/***/ 3003:
+/***/ 2521:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/concat.js ***!
   \************************************************************************************************/
@@ -785,9 +785,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   concat: () => (/* binding */ concat)
 /* harmony export */ });
-/* harmony import */ var _operators_concatAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../operators/concatAll */ 9820);
-/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/args */ 9313);
-/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./from */ 291);
+/* harmony import */ var _operators_concatAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../operators/concatAll */ 5582);
+/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/args */ 3555);
+/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./from */ 3877);
 
 
 
@@ -797,7 +797,7 @@ function concat(...args) {
 
 /***/ }),
 
-/***/ 8231:
+/***/ 2617:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/defer.js ***!
   \***********************************************************************************************/
@@ -807,8 +807,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   defer: () => (/* binding */ defer)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
-/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./innerFrom */ 8131);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 4406);
+/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./innerFrom */ 933);
 
 
 function defer(observableFactory) {
@@ -819,7 +819,7 @@ function defer(observableFactory) {
 
 /***/ }),
 
-/***/ 7742:
+/***/ 7720:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/empty.js ***!
   \***********************************************************************************************/
@@ -830,7 +830,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   EMPTY: () => (/* binding */ EMPTY),
 /* harmony export */   empty: () => (/* binding */ empty)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 4406);
 
 const EMPTY = new _Observable__WEBPACK_IMPORTED_MODULE_0__.Observable(subscriber => subscriber.complete());
 function empty(scheduler) {
@@ -842,7 +842,7 @@ function emptyScheduled(scheduler) {
 
 /***/ }),
 
-/***/ 727:
+/***/ 8865:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/forkJoin.js ***!
   \**************************************************************************************************/
@@ -852,13 +852,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   forkJoin: () => (/* binding */ forkJoin)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Observable */ 1984);
-/* harmony import */ var _util_argsArgArrayOrObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/argsArgArrayOrObject */ 2225);
-/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./innerFrom */ 8131);
-/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 9313);
-/* harmony import */ var _operators_OperatorSubscriber__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../operators/OperatorSubscriber */ 3477);
-/* harmony import */ var _util_mapOneOrManyArgs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/mapOneOrManyArgs */ 1557);
-/* harmony import */ var _util_createObject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/createObject */ 5871);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Observable */ 4406);
+/* harmony import */ var _util_argsArgArrayOrObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/argsArgArrayOrObject */ 1584);
+/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./innerFrom */ 933);
+/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 3555);
+/* harmony import */ var _operators_OperatorSubscriber__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../operators/OperatorSubscriber */ 135);
+/* harmony import */ var _util_mapOneOrManyArgs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/mapOneOrManyArgs */ 7171);
+/* harmony import */ var _util_createObject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/createObject */ 5789);
 
 
 
@@ -906,7 +906,7 @@ function forkJoin(...args) {
 
 /***/ }),
 
-/***/ 291:
+/***/ 3877:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/from.js ***!
   \**********************************************************************************************/
@@ -916,8 +916,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   from: () => (/* binding */ from)
 /* harmony export */ });
-/* harmony import */ var _scheduled_scheduled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scheduled/scheduled */ 8698);
-/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./innerFrom */ 8131);
+/* harmony import */ var _scheduled_scheduled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scheduled/scheduled */ 8072);
+/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./innerFrom */ 933);
 
 
 function from(input, scheduler) {
@@ -926,7 +926,7 @@ function from(input, scheduler) {
 
 /***/ }),
 
-/***/ 8131:
+/***/ 933:
 /*!***************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/innerFrom.js ***!
   \***************************************************************************************************/
@@ -942,18 +942,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   fromReadableStreamLike: () => (/* binding */ fromReadableStreamLike),
 /* harmony export */   innerFrom: () => (/* binding */ innerFrom)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! tslib */ 2160);
-/* harmony import */ var _util_isArrayLike__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/isArrayLike */ 9332);
-/* harmony import */ var _util_isPromise__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/isPromise */ 5043);
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
-/* harmony import */ var _util_isInteropObservable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/isInteropObservable */ 6130);
-/* harmony import */ var _util_isAsyncIterable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/isAsyncIterable */ 4636);
-/* harmony import */ var _util_throwUnobservableError__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../util/throwUnobservableError */ 8824);
-/* harmony import */ var _util_isIterable__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/isIterable */ 3462);
-/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 9451);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../util/isFunction */ 9596);
-/* harmony import */ var _util_reportUnhandledError__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/reportUnhandledError */ 6753);
-/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../symbol/observable */ 6349);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! tslib */ 8071);
+/* harmony import */ var _util_isArrayLike__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/isArrayLike */ 174);
+/* harmony import */ var _util_isPromise__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/isPromise */ 1341);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 4406);
+/* harmony import */ var _util_isInteropObservable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/isInteropObservable */ 5964);
+/* harmony import */ var _util_isAsyncIterable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/isAsyncIterable */ 1966);
+/* harmony import */ var _util_throwUnobservableError__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../util/throwUnobservableError */ 9918);
+/* harmony import */ var _util_isIterable__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/isIterable */ 4688);
+/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 289);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../util/isFunction */ 5418);
+/* harmony import */ var _util_reportUnhandledError__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/reportUnhandledError */ 4835);
+/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../symbol/observable */ 959);
 
 
 
@@ -1067,7 +1067,7 @@ function process(asyncIterable, subscriber) {
 
 /***/ }),
 
-/***/ 9294:
+/***/ 7244:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/observable/of.js ***!
   \********************************************************************************************/
@@ -1077,8 +1077,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   of: () => (/* binding */ of)
 /* harmony export */ });
-/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 9313);
-/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./from */ 291);
+/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 3555);
+/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./from */ 3877);
 
 
 function of(...args) {
@@ -1088,7 +1088,7 @@ function of(...args) {
 
 /***/ }),
 
-/***/ 3477:
+/***/ 135:
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/OperatorSubscriber.js ***!
   \***********************************************************************************************************/
@@ -1099,7 +1099,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   OperatorSubscriber: () => (/* binding */ OperatorSubscriber),
 /* harmony export */   createOperatorSubscriber: () => (/* binding */ createOperatorSubscriber)
 /* harmony export */ });
-/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Subscriber */ 7075);
+/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Subscriber */ 8101);
 
 function createOperatorSubscriber(destination, onNext, onComplete, onError, onFinalize) {
   return new OperatorSubscriber(destination, onNext, onComplete, onError, onFinalize);
@@ -1149,7 +1149,7 @@ class OperatorSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__.Subscr
 
 /***/ }),
 
-/***/ 9820:
+/***/ 5582:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/concatAll.js ***!
   \**************************************************************************************************/
@@ -1159,7 +1159,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   concatAll: () => (/* binding */ concatAll)
 /* harmony export */ });
-/* harmony import */ var _mergeAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mergeAll */ 8496);
+/* harmony import */ var _mergeAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mergeAll */ 4694);
 
 function concatAll() {
   return (0,_mergeAll__WEBPACK_IMPORTED_MODULE_0__.mergeAll)(1);
@@ -1167,7 +1167,7 @@ function concatAll() {
 
 /***/ }),
 
-/***/ 4373:
+/***/ 9151:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/concatMap.js ***!
   \**************************************************************************************************/
@@ -1177,8 +1177,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   concatMap: () => (/* binding */ concatMap)
 /* harmony export */ });
-/* harmony import */ var _mergeMap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mergeMap */ 2529);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 9596);
+/* harmony import */ var _mergeMap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mergeMap */ 503);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 5418);
 
 
 function concatMap(project, resultSelector) {
@@ -1187,7 +1187,7 @@ function concatMap(project, resultSelector) {
 
 /***/ }),
 
-/***/ 8372:
+/***/ 7706:
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/defaultIfEmpty.js ***!
   \*******************************************************************************************************/
@@ -1197,8 +1197,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   defaultIfEmpty: () => (/* binding */ defaultIfEmpty)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
 
 
 function defaultIfEmpty(defaultValue) {
@@ -1218,7 +1218,7 @@ function defaultIfEmpty(defaultValue) {
 
 /***/ }),
 
-/***/ 2945:
+/***/ 9647:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/filter.js ***!
   \***********************************************************************************************/
@@ -1228,8 +1228,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   filter: () => (/* binding */ filter)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
 
 
 function filter(predicate, thisArg) {
@@ -1241,7 +1241,7 @@ function filter(predicate, thisArg) {
 
 /***/ }),
 
-/***/ 6521:
+/***/ 963:
 /*!*************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/finalize.js ***!
   \*************************************************************************************************/
@@ -1251,7 +1251,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   finalize: () => (/* binding */ finalize)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 707);
 
 function finalize(callback) {
   return (0,_util_lift__WEBPACK_IMPORTED_MODULE_0__.operate)((source, subscriber) => {
@@ -1265,7 +1265,7 @@ function finalize(callback) {
 
 /***/ }),
 
-/***/ 8501:
+/***/ 1539:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/first.js ***!
   \**********************************************************************************************/
@@ -1275,12 +1275,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   first: () => (/* binding */ first)
 /* harmony export */ });
-/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/EmptyError */ 1745);
-/* harmony import */ var _filter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./filter */ 2945);
-/* harmony import */ var _take__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./take */ 9972);
-/* harmony import */ var _defaultIfEmpty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defaultIfEmpty */ 8372);
-/* harmony import */ var _throwIfEmpty__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./throwIfEmpty */ 4703);
-/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/identity */ 7182);
+/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/EmptyError */ 8503);
+/* harmony import */ var _filter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./filter */ 9647);
+/* harmony import */ var _take__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./take */ 942);
+/* harmony import */ var _defaultIfEmpty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defaultIfEmpty */ 7706);
+/* harmony import */ var _throwIfEmpty__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./throwIfEmpty */ 8533);
+/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/identity */ 7408);
 
 
 
@@ -1294,7 +1294,7 @@ function first(predicate, defaultValue) {
 
 /***/ }),
 
-/***/ 7437:
+/***/ 5087:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/map.js ***!
   \********************************************************************************************/
@@ -1304,8 +1304,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   map: () => (/* binding */ map)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
 
 
 function map(project, thisArg) {
@@ -1319,7 +1319,7 @@ function map(project, thisArg) {
 
 /***/ }),
 
-/***/ 8496:
+/***/ 4694:
 /*!*************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/mergeAll.js ***!
   \*************************************************************************************************/
@@ -1329,8 +1329,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   mergeAll: () => (/* binding */ mergeAll)
 /* harmony export */ });
-/* harmony import */ var _mergeMap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mergeMap */ 2529);
-/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/identity */ 7182);
+/* harmony import */ var _mergeMap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mergeMap */ 503);
+/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/identity */ 7408);
 
 
 function mergeAll(concurrent = Infinity) {
@@ -1339,7 +1339,7 @@ function mergeAll(concurrent = Infinity) {
 
 /***/ }),
 
-/***/ 113:
+/***/ 8383:
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/mergeInternals.js ***!
   \*******************************************************************************************************/
@@ -1349,9 +1349,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   mergeInternals: () => (/* binding */ mergeInternals)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
-/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/executeSchedule */ 4216);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 933);
+/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/executeSchedule */ 8358);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
 
 
 
@@ -1409,7 +1409,7 @@ function mergeInternals(source, subscriber, project, concurrent, onBeforeNext, e
 
 /***/ }),
 
-/***/ 2529:
+/***/ 503:
 /*!*************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/mergeMap.js ***!
   \*************************************************************************************************/
@@ -1419,11 +1419,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   mergeMap: () => (/* binding */ mergeMap)
 /* harmony export */ });
-/* harmony import */ var _map__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./map */ 7437);
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _mergeInternals__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mergeInternals */ 113);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 9596);
+/* harmony import */ var _map__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./map */ 5087);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../observable/innerFrom */ 933);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _mergeInternals__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mergeInternals */ 8383);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 5418);
 
 
 
@@ -1440,7 +1440,7 @@ function mergeMap(project, resultSelector, concurrent = Infinity) {
 
 /***/ }),
 
-/***/ 4674:
+/***/ 3552:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/observeOn.js ***!
   \**************************************************************************************************/
@@ -1450,9 +1450,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   observeOn: () => (/* binding */ observeOn)
 /* harmony export */ });
-/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/executeSchedule */ 4216);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/executeSchedule */ 8358);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
 
 
 
@@ -1464,7 +1464,7 @@ function observeOn(scheduler, delay = 0) {
 
 /***/ }),
 
-/***/ 4476:
+/***/ 2014:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/share.js ***!
   \**********************************************************************************************/
@@ -1474,10 +1474,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   share: () => (/* binding */ share)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
-/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Subject */ 5241);
-/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Subscriber */ 7075);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../observable/innerFrom */ 933);
+/* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Subject */ 3219);
+/* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Subscriber */ 8101);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 707);
 
 
 
@@ -1563,7 +1563,7 @@ function handleReset(reset, on, ...args) {
 
 /***/ }),
 
-/***/ 7527:
+/***/ 4573:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/shareReplay.js ***!
   \****************************************************************************************************/
@@ -1573,8 +1573,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   shareReplay: () => (/* binding */ shareReplay)
 /* harmony export */ });
-/* harmony import */ var _ReplaySubject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ReplaySubject */ 1100);
-/* harmony import */ var _share__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./share */ 4476);
+/* harmony import */ var _ReplaySubject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ReplaySubject */ 138);
+/* harmony import */ var _share__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./share */ 2014);
 
 
 function shareReplay(configOrBufferSize, windowTime, scheduler) {
@@ -1600,7 +1600,7 @@ function shareReplay(configOrBufferSize, windowTime, scheduler) {
 
 /***/ }),
 
-/***/ 1654:
+/***/ 2112:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/subscribeOn.js ***!
   \****************************************************************************************************/
@@ -1610,7 +1610,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   subscribeOn: () => (/* binding */ subscribeOn)
 /* harmony export */ });
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 707);
 
 function subscribeOn(scheduler, delay = 0) {
   return (0,_util_lift__WEBPACK_IMPORTED_MODULE_0__.operate)((source, subscriber) => {
@@ -1620,7 +1620,7 @@ function subscribeOn(scheduler, delay = 0) {
 
 /***/ }),
 
-/***/ 3393:
+/***/ 3063:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/switchMap.js ***!
   \**************************************************************************************************/
@@ -1630,9 +1630,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   switchMap: () => (/* binding */ switchMap)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../observable/innerFrom */ 933);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
 
 
 
@@ -1659,7 +1659,7 @@ function switchMap(project, resultSelector) {
 
 /***/ }),
 
-/***/ 9972:
+/***/ 942:
 /*!*********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/take.js ***!
   \*********************************************************************************************/
@@ -1669,9 +1669,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   take: () => (/* binding */ take)
 /* harmony export */ });
-/* harmony import */ var _observable_empty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/empty */ 7742);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _observable_empty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/empty */ 7720);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
 
 
 
@@ -1691,7 +1691,7 @@ function take(count) {
 
 /***/ }),
 
-/***/ 5122:
+/***/ 1308:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/tap.js ***!
   \********************************************************************************************/
@@ -1701,10 +1701,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   tap: () => (/* binding */ tap)
 /* harmony export */ });
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 9596);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
-/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/identity */ 7182);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isFunction */ 5418);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
+/* harmony import */ var _util_identity__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/identity */ 7408);
 
 
 
@@ -1745,7 +1745,7 @@ function tap(observerOrNext, error, complete) {
 
 /***/ }),
 
-/***/ 4703:
+/***/ 8533:
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/operators/throwIfEmpty.js ***!
   \*****************************************************************************************************/
@@ -1755,9 +1755,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   throwIfEmpty: () => (/* binding */ throwIfEmpty)
 /* harmony export */ });
-/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/EmptyError */ 1745);
-/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 5497);
-/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 3477);
+/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/EmptyError */ 8503);
+/* harmony import */ var _util_lift__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/lift */ 707);
+/* harmony import */ var _OperatorSubscriber__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OperatorSubscriber */ 135);
 
 
 
@@ -1776,7 +1776,7 @@ function defaultErrorFactory() {
 
 /***/ }),
 
-/***/ 3595:
+/***/ 8137:
 /*!******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleArray.js ***!
   \******************************************************************************************************/
@@ -1786,7 +1786,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleArray: () => (/* binding */ scheduleArray)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 4406);
 
 function scheduleArray(input, scheduler) {
   return new _Observable__WEBPACK_IMPORTED_MODULE_0__.Observable(subscriber => {
@@ -1806,7 +1806,7 @@ function scheduleArray(input, scheduler) {
 
 /***/ }),
 
-/***/ 5900:
+/***/ 2838:
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleAsyncIterable.js ***!
   \**************************************************************************************************************/
@@ -1816,8 +1816,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleAsyncIterable: () => (/* binding */ scheduleAsyncIterable)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
-/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/executeSchedule */ 4216);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 4406);
+/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/executeSchedule */ 8358);
 
 
 function scheduleAsyncIterable(input, scheduler) {
@@ -1842,7 +1842,7 @@ function scheduleAsyncIterable(input, scheduler) {
 
 /***/ }),
 
-/***/ 8742:
+/***/ 7944:
 /*!*********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleIterable.js ***!
   \*********************************************************************************************************/
@@ -1852,10 +1852,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleIterable: () => (/* binding */ scheduleIterable)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
-/* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../symbol/iterator */ 3534);
-/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/isFunction */ 9596);
-/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/executeSchedule */ 4216);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 4406);
+/* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../symbol/iterator */ 8524);
+/* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/isFunction */ 5418);
+/* harmony import */ var _util_executeSchedule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/executeSchedule */ 8358);
 
 
 
@@ -1890,7 +1890,7 @@ function scheduleIterable(input, scheduler) {
 
 /***/ }),
 
-/***/ 3685:
+/***/ 2287:
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleObservable.js ***!
   \***********************************************************************************************************/
@@ -1900,9 +1900,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleObservable: () => (/* binding */ scheduleObservable)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
-/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../operators/observeOn */ 4674);
-/* harmony import */ var _operators_subscribeOn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../operators/subscribeOn */ 1654);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 933);
+/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../operators/observeOn */ 3552);
+/* harmony import */ var _operators_subscribeOn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../operators/subscribeOn */ 2112);
 
 
 
@@ -1912,7 +1912,7 @@ function scheduleObservable(input, scheduler) {
 
 /***/ }),
 
-/***/ 9203:
+/***/ 3365:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/schedulePromise.js ***!
   \********************************************************************************************************/
@@ -1922,9 +1922,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   schedulePromise: () => (/* binding */ schedulePromise)
 /* harmony export */ });
-/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 8131);
-/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../operators/observeOn */ 4674);
-/* harmony import */ var _operators_subscribeOn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../operators/subscribeOn */ 1654);
+/* harmony import */ var _observable_innerFrom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../observable/innerFrom */ 933);
+/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../operators/observeOn */ 3552);
+/* harmony import */ var _operators_subscribeOn__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../operators/subscribeOn */ 2112);
 
 
 
@@ -1934,7 +1934,7 @@ function schedulePromise(input, scheduler) {
 
 /***/ }),
 
-/***/ 4379:
+/***/ 4105:
 /*!*******************************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduleReadableStreamLike.js ***!
   \*******************************************************************************************************************/
@@ -1944,8 +1944,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduleReadableStreamLike: () => (/* binding */ scheduleReadableStreamLike)
 /* harmony export */ });
-/* harmony import */ var _scheduleAsyncIterable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scheduleAsyncIterable */ 5900);
-/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 9451);
+/* harmony import */ var _scheduleAsyncIterable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scheduleAsyncIterable */ 2838);
+/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 289);
 
 
 function scheduleReadableStreamLike(input, scheduler) {
@@ -1954,7 +1954,7 @@ function scheduleReadableStreamLike(input, scheduler) {
 
 /***/ }),
 
-/***/ 8698:
+/***/ 8072:
 /*!**************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduled/scheduled.js ***!
   \**************************************************************************************************/
@@ -1964,19 +1964,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   scheduled: () => (/* binding */ scheduled)
 /* harmony export */ });
-/* harmony import */ var _scheduleObservable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scheduleObservable */ 3685);
-/* harmony import */ var _schedulePromise__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./schedulePromise */ 9203);
-/* harmony import */ var _scheduleArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scheduleArray */ 3595);
-/* harmony import */ var _scheduleIterable__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scheduleIterable */ 8742);
-/* harmony import */ var _scheduleAsyncIterable__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scheduleAsyncIterable */ 5900);
-/* harmony import */ var _util_isInteropObservable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isInteropObservable */ 6130);
-/* harmony import */ var _util_isPromise__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/isPromise */ 5043);
-/* harmony import */ var _util_isArrayLike__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/isArrayLike */ 9332);
-/* harmony import */ var _util_isIterable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../util/isIterable */ 3462);
-/* harmony import */ var _util_isAsyncIterable__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/isAsyncIterable */ 4636);
-/* harmony import */ var _util_throwUnobservableError__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../util/throwUnobservableError */ 8824);
-/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 9451);
-/* harmony import */ var _scheduleReadableStreamLike__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./scheduleReadableStreamLike */ 4379);
+/* harmony import */ var _scheduleObservable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scheduleObservable */ 2287);
+/* harmony import */ var _schedulePromise__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./schedulePromise */ 3365);
+/* harmony import */ var _scheduleArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scheduleArray */ 8137);
+/* harmony import */ var _scheduleIterable__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scheduleIterable */ 7944);
+/* harmony import */ var _scheduleAsyncIterable__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scheduleAsyncIterable */ 2838);
+/* harmony import */ var _util_isInteropObservable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/isInteropObservable */ 5964);
+/* harmony import */ var _util_isPromise__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/isPromise */ 1341);
+/* harmony import */ var _util_isArrayLike__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/isArrayLike */ 174);
+/* harmony import */ var _util_isIterable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../util/isIterable */ 4688);
+/* harmony import */ var _util_isAsyncIterable__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/isAsyncIterable */ 1966);
+/* harmony import */ var _util_throwUnobservableError__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../util/throwUnobservableError */ 9918);
+/* harmony import */ var _util_isReadableStreamLike__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/isReadableStreamLike */ 289);
+/* harmony import */ var _scheduleReadableStreamLike__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./scheduleReadableStreamLike */ 4105);
 
 
 
@@ -2016,7 +2016,7 @@ function scheduled(input, scheduler) {
 
 /***/ }),
 
-/***/ 6986:
+/***/ 4064:
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduler/dateTimestampProvider.js ***!
   \**************************************************************************************************************/
@@ -2035,7 +2035,7 @@ const dateTimestampProvider = {
 
 /***/ }),
 
-/***/ 8533:
+/***/ 1923:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/scheduler/timeoutProvider.js ***!
   \********************************************************************************************************/
@@ -2066,7 +2066,7 @@ const timeoutProvider = {
 
 /***/ }),
 
-/***/ 3534:
+/***/ 8524:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/symbol/iterator.js ***!
   \**********************************************************************************************/
@@ -2087,7 +2087,7 @@ const iterator = getSymbolIterator();
 
 /***/ }),
 
-/***/ 6349:
+/***/ 959:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/symbol/observable.js ***!
   \************************************************************************************************/
@@ -2101,7 +2101,7 @@ const observable = (() => typeof Symbol === 'function' && Symbol.observable || '
 
 /***/ }),
 
-/***/ 1745:
+/***/ 8503:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/EmptyError.js ***!
   \**********************************************************************************************/
@@ -2111,7 +2111,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   EmptyError: () => (/* binding */ EmptyError)
 /* harmony export */ });
-/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 1590);
+/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 9424);
 
 const EmptyError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0__.createErrorClass)(_super => function EmptyErrorImpl() {
   _super(this);
@@ -2121,7 +2121,7 @@ const EmptyError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0__.createError
 
 /***/ }),
 
-/***/ 6016:
+/***/ 5510:
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/ObjectUnsubscribedError.js ***!
   \***********************************************************************************************************/
@@ -2131,7 +2131,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ObjectUnsubscribedError: () => (/* binding */ ObjectUnsubscribedError)
 /* harmony export */ });
-/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 1590);
+/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 9424);
 
 const ObjectUnsubscribedError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0__.createErrorClass)(_super => function ObjectUnsubscribedErrorImpl() {
   _super(this);
@@ -2141,7 +2141,7 @@ const ObjectUnsubscribedError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0_
 
 /***/ }),
 
-/***/ 8978:
+/***/ 9676:
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/UnsubscriptionError.js ***!
   \*******************************************************************************************************/
@@ -2151,7 +2151,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   UnsubscriptionError: () => (/* binding */ UnsubscriptionError)
 /* harmony export */ });
-/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 1590);
+/* harmony import */ var _createErrorClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createErrorClass */ 9424);
 
 const UnsubscriptionError = (0,_createErrorClass__WEBPACK_IMPORTED_MODULE_0__.createErrorClass)(_super => function UnsubscriptionErrorImpl(errors) {
   _super(this);
@@ -2163,7 +2163,7 @@ ${errors.map((err, i) => `${i + 1}) ${err.toString()}`).join('\n  ')}` : '';
 
 /***/ }),
 
-/***/ 9313:
+/***/ 3555:
 /*!****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/args.js ***!
   \****************************************************************************************/
@@ -2175,8 +2175,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   popResultSelector: () => (/* binding */ popResultSelector),
 /* harmony export */   popScheduler: () => (/* binding */ popScheduler)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
-/* harmony import */ var _isScheduler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isScheduler */ 2587);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 5418);
+/* harmony import */ var _isScheduler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isScheduler */ 3205);
 
 
 function last(arr) {
@@ -2194,7 +2194,7 @@ function popNumber(args, defaultValue) {
 
 /***/ }),
 
-/***/ 2225:
+/***/ 1584:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/argsArgArrayOrObject.js ***!
   \********************************************************************************************************/
@@ -2240,7 +2240,7 @@ function isPOJO(obj) {
 
 /***/ }),
 
-/***/ 7809:
+/***/ 3367:
 /*!*********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/arrRemove.js ***!
   \*********************************************************************************************/
@@ -2259,7 +2259,7 @@ function arrRemove(arr, item) {
 
 /***/ }),
 
-/***/ 1590:
+/***/ 9424:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/createErrorClass.js ***!
   \****************************************************************************************************/
@@ -2282,7 +2282,7 @@ function createErrorClass(createImpl) {
 
 /***/ }),
 
-/***/ 5871:
+/***/ 5789:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/createObject.js ***!
   \************************************************************************************************/
@@ -2298,7 +2298,7 @@ function createObject(keys, values) {
 
 /***/ }),
 
-/***/ 7605:
+/***/ 4407:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/errorContext.js ***!
   \************************************************************************************************/
@@ -2309,7 +2309,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   captureError: () => (/* binding */ captureError),
 /* harmony export */   errorContext: () => (/* binding */ errorContext)
 /* harmony export */ });
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../config */ 1083);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../config */ 8933);
 
 let context = null;
 function errorContext(cb) {
@@ -2345,7 +2345,7 @@ function captureError(err) {
 
 /***/ }),
 
-/***/ 4216:
+/***/ 8358:
 /*!***************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/executeSchedule.js ***!
   \***************************************************************************************************/
@@ -2372,7 +2372,7 @@ function executeSchedule(parentSubscription, scheduler, work, delay = 0, repeat 
 
 /***/ }),
 
-/***/ 7182:
+/***/ 7408:
 /*!********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/identity.js ***!
   \********************************************************************************************/
@@ -2388,7 +2388,7 @@ function identity(x) {
 
 /***/ }),
 
-/***/ 9332:
+/***/ 174:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isArrayLike.js ***!
   \***********************************************************************************************/
@@ -2402,7 +2402,7 @@ const isArrayLike = x => x && typeof x.length === 'number' && typeof x !== 'func
 
 /***/ }),
 
-/***/ 4636:
+/***/ 1966:
 /*!***************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isAsyncIterable.js ***!
   \***************************************************************************************************/
@@ -2412,7 +2412,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isAsyncIterable: () => (/* binding */ isAsyncIterable)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 5418);
 
 function isAsyncIterable(obj) {
   return Symbol.asyncIterator && (0,_isFunction__WEBPACK_IMPORTED_MODULE_0__.isFunction)(obj === null || obj === void 0 ? void 0 : obj[Symbol.asyncIterator]);
@@ -2420,7 +2420,7 @@ function isAsyncIterable(obj) {
 
 /***/ }),
 
-/***/ 9596:
+/***/ 5418:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isFunction.js ***!
   \**********************************************************************************************/
@@ -2436,7 +2436,7 @@ function isFunction(value) {
 
 /***/ }),
 
-/***/ 6130:
+/***/ 5964:
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isInteropObservable.js ***!
   \*******************************************************************************************************/
@@ -2446,8 +2446,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isInteropObservable: () => (/* binding */ isInteropObservable)
 /* harmony export */ });
-/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../symbol/observable */ 6349);
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../symbol/observable */ 959);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 5418);
 
 
 function isInteropObservable(input) {
@@ -2456,7 +2456,7 @@ function isInteropObservable(input) {
 
 /***/ }),
 
-/***/ 3462:
+/***/ 4688:
 /*!**********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isIterable.js ***!
   \**********************************************************************************************/
@@ -2466,8 +2466,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isIterable: () => (/* binding */ isIterable)
 /* harmony export */ });
-/* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../symbol/iterator */ 3534);
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../symbol/iterator */ 8524);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 5418);
 
 
 function isIterable(input) {
@@ -2476,7 +2476,7 @@ function isIterable(input) {
 
 /***/ }),
 
-/***/ 7861:
+/***/ 7943:
 /*!************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isObservable.js ***!
   \************************************************************************************************/
@@ -2486,8 +2486,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isObservable: () => (/* binding */ isObservable)
 /* harmony export */ });
-/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 1984);
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Observable */ 4406);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isFunction */ 5418);
 
 
 function isObservable(obj) {
@@ -2496,7 +2496,7 @@ function isObservable(obj) {
 
 /***/ }),
 
-/***/ 5043:
+/***/ 1341:
 /*!*********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isPromise.js ***!
   \*********************************************************************************************/
@@ -2506,7 +2506,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isPromise: () => (/* binding */ isPromise)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 5418);
 
 function isPromise(value) {
   return (0,_isFunction__WEBPACK_IMPORTED_MODULE_0__.isFunction)(value === null || value === void 0 ? void 0 : value.then);
@@ -2514,7 +2514,7 @@ function isPromise(value) {
 
 /***/ }),
 
-/***/ 9451:
+/***/ 289:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isReadableStreamLike.js ***!
   \********************************************************************************************************/
@@ -2525,8 +2525,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   isReadableStreamLike: () => (/* binding */ isReadableStreamLike),
 /* harmony export */   readableStreamLikeToAsyncGenerator: () => (/* binding */ readableStreamLikeToAsyncGenerator)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ 2160);
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ 8071);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./isFunction */ 5418);
 
 
 function readableStreamLikeToAsyncGenerator(readableStream) {
@@ -2554,7 +2554,7 @@ function isReadableStreamLike(obj) {
 
 /***/ }),
 
-/***/ 2587:
+/***/ 3205:
 /*!***********************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/isScheduler.js ***!
   \***********************************************************************************************/
@@ -2564,7 +2564,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   isScheduler: () => (/* binding */ isScheduler)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 5418);
 
 function isScheduler(value) {
   return value && (0,_isFunction__WEBPACK_IMPORTED_MODULE_0__.isFunction)(value.schedule);
@@ -2572,7 +2572,7 @@ function isScheduler(value) {
 
 /***/ }),
 
-/***/ 5497:
+/***/ 707:
 /*!****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/lift.js ***!
   \****************************************************************************************/
@@ -2583,7 +2583,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   hasLift: () => (/* binding */ hasLift),
 /* harmony export */   operate: () => (/* binding */ operate)
 /* harmony export */ });
-/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 9596);
+/* harmony import */ var _isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isFunction */ 5418);
 
 function hasLift(source) {
   return (0,_isFunction__WEBPACK_IMPORTED_MODULE_0__.isFunction)(source === null || source === void 0 ? void 0 : source.lift);
@@ -2605,7 +2605,7 @@ function operate(init) {
 
 /***/ }),
 
-/***/ 1557:
+/***/ 7171:
 /*!****************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/mapOneOrManyArgs.js ***!
   \****************************************************************************************************/
@@ -2615,7 +2615,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   mapOneOrManyArgs: () => (/* binding */ mapOneOrManyArgs)
 /* harmony export */ });
-/* harmony import */ var _operators_map__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../operators/map */ 7437);
+/* harmony import */ var _operators_map__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../operators/map */ 5087);
 
 const {
   isArray
@@ -2629,7 +2629,7 @@ function mapOneOrManyArgs(fn) {
 
 /***/ }),
 
-/***/ 588:
+/***/ 6542:
 /*!****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/noop.js ***!
   \****************************************************************************************/
@@ -2643,7 +2643,7 @@ function noop() {}
 
 /***/ }),
 
-/***/ 5628:
+/***/ 3810:
 /*!****************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/pipe.js ***!
   \****************************************************************************************/
@@ -2654,7 +2654,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   pipe: () => (/* binding */ pipe),
 /* harmony export */   pipeFromArray: () => (/* binding */ pipeFromArray)
 /* harmony export */ });
-/* harmony import */ var _identity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./identity */ 7182);
+/* harmony import */ var _identity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./identity */ 7408);
 
 function pipe(...fns) {
   return pipeFromArray(fns);
@@ -2673,7 +2673,7 @@ function pipeFromArray(fns) {
 
 /***/ }),
 
-/***/ 6753:
+/***/ 4835:
 /*!********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/reportUnhandledError.js ***!
   \********************************************************************************************************/
@@ -2683,8 +2683,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   reportUnhandledError: () => (/* binding */ reportUnhandledError)
 /* harmony export */ });
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../config */ 1083);
-/* harmony import */ var _scheduler_timeoutProvider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scheduler/timeoutProvider */ 8533);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../config */ 8933);
+/* harmony import */ var _scheduler_timeoutProvider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scheduler/timeoutProvider */ 1923);
 
 
 function reportUnhandledError(err) {
@@ -2702,7 +2702,7 @@ function reportUnhandledError(err) {
 
 /***/ }),
 
-/***/ 8824:
+/***/ 9918:
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/.pnpm/rxjs@7.8.1/node_modules/rxjs/dist/esm/internal/util/throwUnobservableError.js ***!
   \**********************************************************************************************************/
@@ -2718,9 +2718,9 @@ function createInvalidObservableTypeError(input) {
 
 /***/ }),
 
-/***/ 6794:
+/***/ 5753:
 /*!***************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6__rxjs@7.8.1/node_modules/@angular/common/fesm2022/common.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+common@18.0.3_@angular+core@18.0.3_rxjs@7.8.1_zone.js@0.14.7__rxjs@7.8.1/node_modules/@angular/common/fesm2022/common.mjs ***!
   \***************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -2824,9 +2824,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵparseCookieValue": () => (/* binding */ parseCookieValue),
 /* harmony export */   "ɵsetRootDomAdapter": () => (/* binding */ setRootDomAdapter)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 6829);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2489);
 /**
- * @license Angular v18.0.0
+ * @license Angular v18.0.3
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -8556,7 +8556,7 @@ function isPlatformServer(platformId) {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('18.0.0');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('18.0.3');
 
 /**
  * Defines a scroll position manager. Implemented by `BrowserViewportScroller`.
@@ -10309,9 +10309,9 @@ function booleanOrDataUrlAttribute(value) {
 
 /***/ }),
 
-/***/ 513:
+/***/ 994:
 /*!*************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6__rxjs@7.8.1/node_modules/@angular/common/fesm2022/http.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+common@18.0.3_@angular+core@18.0.3_rxjs@7.8.1_zone.js@0.14.7__rxjs@7.8.1/node_modules/@angular/common/fesm2022/http.mjs ***!
   \*************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -10358,20 +10358,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵwithHttpTransferCache": () => (/* binding */ withHttpTransferCache)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_example_with_angular_example_with_angular_node_modules_pnpm_babel_runtime_7_24_5_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.24.5/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1649);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 6829);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 9294);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 1984);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 291);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 4373);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 2945);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 7437);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 6521);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 3393);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs/operators */ 5122);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 6794);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 2489);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 7244);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 4406);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 3877);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 9151);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 9647);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 5087);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 963);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 3063);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs/operators */ 1308);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 5753);
 
 /**
- * @license Angular v18.0.0
+ * @license Angular v18.0.3
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -13548,9 +13548,9 @@ function verifyMappedOrigin(url) {
 
 /***/ }),
 
-/***/ 6829:
+/***/ 2489:
 /*!************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6/node_modules/@angular/core/fesm2022/core.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+core@18.0.3_rxjs@7.8.1_zone.js@0.14.7/node_modules/@angular/core/fesm2022/core.mjs ***!
   \************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -13700,6 +13700,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵAfterRenderEventManager": () => (/* binding */ AfterRenderEventManager),
 /* harmony export */   "ɵCONTAINER_HEADER_OFFSET": () => (/* binding */ CONTAINER_HEADER_OFFSET),
 /* harmony export */   "ɵChangeDetectionScheduler": () => (/* binding */ ChangeDetectionScheduler),
+/* harmony export */   "ɵChangeDetectionSchedulerImpl": () => (/* binding */ ChangeDetectionSchedulerImpl),
 /* harmony export */   "ɵComponentFactory": () => (/* binding */ ComponentFactory$1),
 /* harmony export */   "ɵConsole": () => (/* binding */ Console),
 /* harmony export */   "ɵDEFAULT_LOCALE_ID": () => (/* binding */ DEFAULT_LOCALE_ID),
@@ -13727,6 +13728,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵNO_CHANGE": () => (/* binding */ NO_CHANGE),
 /* harmony export */   "ɵNgModuleFactory": () => (/* binding */ NgModuleFactory),
 /* harmony export */   "ɵNoopNgZone": () => (/* binding */ NoopNgZone),
+/* harmony export */   "ɵPROVIDED_NG_ZONE": () => (/* binding */ PROVIDED_NG_ZONE),
 /* harmony export */   "ɵPendingTasks": () => (/* binding */ PendingTasks),
 /* harmony export */   "ɵReflectionCapabilities": () => (/* binding */ ReflectionCapabilities),
 /* harmony export */   "ɵRender3ComponentFactory": () => (/* binding */ ComponentFactory),
@@ -14015,18 +14017,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵɵviewQuery": () => (/* binding */ ɵɵviewQuery),
 /* harmony export */   "ɵɵviewQuerySignal": () => (/* binding */ ɵɵviewQuerySignal)
 /* harmony export */ });
-/* harmony import */ var _angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core/primitives/signals */ 2004);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 5241);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 3020);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 195);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 7437);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/operators */ 8501);
-/* harmony import */ var _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core/primitives/event-dispatch */ 526);
+/* harmony import */ var _angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core/primitives/signals */ 8048);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 7605);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 3219);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 6606);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 5087);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/operators */ 1539);
+/* harmony import */ var _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core/primitives/event-dispatch */ 9962);
 /**
- * @license Angular v18.0.0
+ * @license Angular v18.0.3
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
+
 
 
 
@@ -14040,7 +14043,7 @@ __webpack_require__.r(__webpack_exports__);
  *  - packages/compiler-cli/src/ngtsc/diagnostics/src/error_details_base_url.ts
  *  - packages/core/src/error_details_base_url.ts
  */
-const ERROR_DETAILS_PAGE_BASE_URL = 'https://angular.io/errors';
+const ERROR_DETAILS_PAGE_BASE_URL = 'https://angular.dev/errors';
 /**
  * URL for the XSS security documentation.
  */
@@ -20733,15 +20736,104 @@ class ElementRef {
 function unwrapElementRef(value) {
   return value instanceof ElementRef ? value.nativeElement : value;
 }
-class EventEmitter_ extends rxjs__WEBPACK_IMPORTED_MODULE_1__.Subject {
+
+/**
+ * Internal implementation of the pending tasks service.
+ */
+class PendingTasks {
+  constructor() {
+    this.taskId = 0;
+    this.pendingTasks = new Set();
+    this.hasPendingTasks = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(false);
+  }
+  get _hasPendingTasks() {
+    return this.hasPendingTasks.value;
+  }
+  add() {
+    if (!this._hasPendingTasks) {
+      this.hasPendingTasks.next(true);
+    }
+    const taskId = this.taskId++;
+    this.pendingTasks.add(taskId);
+    return taskId;
+  }
+  remove(taskId) {
+    this.pendingTasks.delete(taskId);
+    if (this.pendingTasks.size === 0 && this._hasPendingTasks) {
+      this.hasPendingTasks.next(false);
+    }
+  }
+  ngOnDestroy() {
+    this.pendingTasks.clear();
+    if (this._hasPendingTasks) {
+      this.hasPendingTasks.next(false);
+    }
+  }
+  /** @nocollapse */
+  static #_ = this.ɵprov = ɵɵdefineInjectable({
+    token: PendingTasks,
+    providedIn: 'root',
+    factory: () => new PendingTasks()
+  });
+}
+/**
+ * Experimental service that keeps track of pending tasks contributing to the stableness of Angular
+ * application. While several existing Angular services (ex.: `HttpClient`) will internally manage
+ * tasks influencing stability, this API gives control over stability to library and application
+ * developers for specific cases not covered by Angular internals.
+ *
+ * The concept of stability comes into play in several important scenarios:
+ * - SSR process needs to wait for the application stability before serializing and sending rendered
+ * HTML;
+ * - tests might want to delay assertions until the application becomes stable;
+ *
+ * @usageNotes
+ * ```typescript
+ * const pendingTasks = inject(ExperimentalPendingTasks);
+ * const taskCleanup = pendingTasks.add();
+ * // do work that should block application's stability and then:
+ * taskCleanup();
+ * ```
+ *
+ * This API is experimental. Neither the shape, nor the underlying behavior is stable and can change
+ * in patch versions. We will iterate on the exact API based on the feedback and our understanding
+ * of the problem and solution space.
+ *
+ * @publicApi
+ * @experimental
+ */
+class ExperimentalPendingTasks {
+  constructor() {
+    this.internalPendingTasks = inject(PendingTasks);
+  }
+  /**
+   * Adds a new task that should block application's stability.
+   * @returns A cleanup function that removes a task when called.
+   */
+  add() {
+    const taskId = this.internalPendingTasks.add();
+    return () => this.internalPendingTasks.remove(taskId);
+  }
+  /** @nocollapse */
+  static #_ = this.ɵprov = ɵɵdefineInjectable({
+    token: ExperimentalPendingTasks,
+    providedIn: 'root',
+    factory: () => new ExperimentalPendingTasks()
+  });
+}
+class EventEmitter_ extends rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject {
   constructor(isAsync = false) {
     super();
     this.destroyRef = undefined;
+    this.pendingTasks = undefined;
     this.__isAsync = isAsync;
-    // Attempt to retrieve a `DestroyRef` optionally.
-    // For backwards compatibility reasons, this cannot be required
+    // Attempt to retrieve a `DestroyRef` and `PendingTasks` optionally.
+    // For backwards compatibility reasons, this cannot be required.
     if (isInInjectionContext()) {
       this.destroyRef = inject(DestroyRef, {
+        optional: true
+      }) ?? undefined;
+      this.pendingTasks = inject(PendingTasks, {
         optional: true
       }) ?? undefined;
     }
@@ -20765,12 +20857,12 @@ class EventEmitter_ extends rxjs__WEBPACK_IMPORTED_MODULE_1__.Subject {
       completeFn = observer.complete?.bind(observer);
     }
     if (this.__isAsync) {
-      errorFn = _wrapInTimeout(errorFn);
+      errorFn = this.wrapInTimeout(errorFn);
       if (nextFn) {
-        nextFn = _wrapInTimeout(nextFn);
+        nextFn = this.wrapInTimeout(nextFn);
       }
       if (completeFn) {
-        completeFn = _wrapInTimeout(completeFn);
+        completeFn = this.wrapInTimeout(completeFn);
       }
     }
     const sink = super.subscribe({
@@ -20778,16 +20870,22 @@ class EventEmitter_ extends rxjs__WEBPACK_IMPORTED_MODULE_1__.Subject {
       error: errorFn,
       complete: completeFn
     });
-    if (observerOrNext instanceof rxjs__WEBPACK_IMPORTED_MODULE_2__.Subscription) {
+    if (observerOrNext instanceof rxjs__WEBPACK_IMPORTED_MODULE_3__.Subscription) {
       observerOrNext.add(sink);
     }
     return sink;
   }
-}
-function _wrapInTimeout(fn) {
-  return value => {
-    setTimeout(fn, undefined, value);
-  };
+  wrapInTimeout(fn) {
+    return value => {
+      const taskId = this.pendingTasks?.add();
+      setTimeout(() => {
+        fn(value);
+        if (taskId !== undefined) {
+          this.pendingTasks?.remove(taskId);
+        }
+      });
+    };
+  }
 }
 /**
  * @publicApi
@@ -22522,6 +22620,11 @@ const IS_I18N_HYDRATION_ENABLED = new InjectionToken(typeof ngDevMode === 'undef
  * is enabled.
  */
 const IS_EVENT_REPLAY_ENABLED = new InjectionToken(typeof ngDevMode === 'undefined' || !!ngDevMode ? 'IS_EVENT_REPLAY_ENABLED' : '');
+const EVENT_REPLAY_ENABLED_DEFAULT = false;
+/**
+ * Internal token that indicates whether global event delegation support is enabled.
+ */
+const IS_GLOBAL_EVENT_DELEGATION_ENABLED = new InjectionToken(typeof ngDevMode === 'undefined' || !!ngDevMode ? 'IS_GLOBAL_EVENT_DELEGATION_ENABLED' : '');
 
 /**
  * @fileoverview
@@ -26156,10 +26259,10 @@ function storePropertyBindingMetadata(tData, tNode, propertyName, bindingIndex, 
 }
 function getOrCreateLViewCleanup(view) {
   // top level variables should not be exported for performance reasons (PERF_NOTES.md)
-  return view[CLEANUP] || (view[CLEANUP] = []);
+  return view[CLEANUP] ??= [];
 }
 function getOrCreateTViewCleanup(tView) {
-  return tView.cleanup || (tView.cleanup = []);
+  return tView.cleanup ??= [];
 }
 /**
  * There are cases where the sub component's renderer needs to be included
@@ -26495,6 +26598,59 @@ const REACTIVE_LVIEW_CONSUMER_NODE = {
     this.lView[REACTIVE_TEMPLATE_CONSUMER] = this;
   }
 };
+/**
+ * Creates a temporary consumer for use with `LView`s that should not have consumers.
+ * If the LView already has a consumer, returns the existing one instead.
+ *
+ * This is necessary because some APIs may cause change detection directly on an LView
+ * that we do not want to have a consumer (Embedded views today). As a result, there
+ * would be no active consumer from running change detection on its host component
+ * and any signals in the LView template would be untracked. Instead, we create
+ * this temporary consumer that marks the first parent that _should_ have a consumer
+ * for refresh. Once change detection runs as part of that refresh, we throw away
+ * this consumer because its signals will then be tracked by the parent's consumer.
+ */
+function getOrCreateTemporaryConsumer(lView) {
+  const consumer = lView[REACTIVE_TEMPLATE_CONSUMER] ?? Object.create(TEMPORARY_CONSUMER_NODE);
+  consumer.lView = lView;
+  return consumer;
+}
+const TEMPORARY_CONSUMER_NODE = {
+  ..._angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.REACTIVE_NODE,
+  consumerIsAlwaysLive: true,
+  consumerMarkedDirty: node => {
+    let parent = getLViewParent(node.lView);
+    while (parent && !viewShouldHaveReactiveConsumer(parent[TVIEW])) {
+      parent = getLViewParent(parent);
+    }
+    if (!parent) {
+      // If we can't find an appropriate parent that should have a consumer, we
+      // don't have a way of appropriately refreshing this LView as part of application synchronization.
+      return;
+    }
+    markViewForRefresh(parent);
+  },
+  consumerOnSignalRead() {
+    this.lView[REACTIVE_TEMPLATE_CONSUMER] = this;
+  }
+};
+/**
+ * Indicates if the view should get its own reactive consumer node.
+ *
+ * In the current design, all embedded views share a consumer with the component view. This allows
+ * us to refresh at the component level rather than at a per-view level. In addition, root views get
+ * their own reactive node because root component will have a host view that executes the
+ * component's host bindings. This needs to be tracked in a consumer as well.
+ *
+ * To get a more granular change detection than per-component, all we would just need to update the
+ * condition here so that a given view gets a reactive consumer which can become dirty independently
+ * from its parent component. For example embedded views for signal components could be created with
+ * a new type "SignalEmbeddedView" and the condition here wouldn't even need updating in order to
+ * get granular per-view change detection for signal components.
+ */
+function viewShouldHaveReactiveConsumer(tView) {
+  return tView.type !== 2 /* TViewType.Embedded */;
+}
 
 /**
  * The maximum number of times the change detection traversal will rerun before throwing an error.
@@ -26585,11 +26741,27 @@ function refreshView(tView, lView, templateFn, context) {
   // - We might already be in a reactive context if this is an embedded view of the host.
   // - We might be descending into a view that needs a consumer.
   enterView(lView);
+  let returnConsumerToPool = true;
   let prevConsumer = null;
   let currentConsumer = null;
-  if (!isInCheckNoChangesPass && viewShouldHaveReactiveConsumer(tView)) {
-    currentConsumer = getOrBorrowReactiveLViewConsumer(lView);
-    prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerBeforeComputation)(currentConsumer);
+  if (!isInCheckNoChangesPass) {
+    if (viewShouldHaveReactiveConsumer(tView)) {
+      currentConsumer = getOrBorrowReactiveLViewConsumer(lView);
+      prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerBeforeComputation)(currentConsumer);
+    } else if ((0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.getActiveConsumer)() === null) {
+      // If the current view should not have a reactive consumer but we don't have an active consumer,
+      // we still need to create a temporary consumer to track any signal reads in this template.
+      // This is a rare case that can happen with `viewContainerRef.createEmbeddedView(...).detectChanges()`.
+      // This temporary consumer marks the first parent that _should_ have a consumer for refresh.
+      // Once that refresh happens, the signals will be tracked in the parent consumer and we can destroy
+      // the temporary one.
+      returnConsumerToPool = false;
+      currentConsumer = getOrCreateTemporaryConsumer(lView);
+      prevConsumer = (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerBeforeComputation)(currentConsumer);
+    } else if (lView[REACTIVE_TEMPLATE_CONSUMER]) {
+      (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerDestroy)(lView[REACTIVE_TEMPLATE_CONSUMER]);
+      lView[REACTIVE_TEMPLATE_CONSUMER] = null;
+    }
   }
   try {
     resetPreOrderHookFlags(lView);
@@ -26710,27 +26882,12 @@ function refreshView(tView, lView, templateFn, context) {
   } finally {
     if (currentConsumer !== null) {
       (0,_angular_core_primitives_signals__WEBPACK_IMPORTED_MODULE_0__.consumerAfterComputation)(currentConsumer, prevConsumer);
-      maybeReturnReactiveLViewConsumer(currentConsumer);
+      if (returnConsumerToPool) {
+        maybeReturnReactiveLViewConsumer(currentConsumer);
+      }
     }
     leaveView();
   }
-}
-/**
- * Indicates if the view should get its own reactive consumer node.
- *
- * In the current design, all embedded views share a consumer with the component view. This allows
- * us to refresh at the component level rather than at a per-view level. In addition, root views get
- * their own reactive node because root component will have a host view that executes the
- * component's host bindings. This needs to be tracked in a consumer as well.
- *
- * To get a more granular change detection than per-component, all we would just need to update the
- * condition here so that a given view gets a reactive consumer which can become dirty independently
- * from its parent component. For example embedded views for signal components could be created with
- * a new type "SignalEmbeddedView" and the condition here wouldn't even need updating in order to
- * get granular per-view change detection for signal components.
- */
-function viewShouldHaveReactiveConsumer(tView) {
-  return tView.type !== 2 /* TViewType.Embedded */;
 }
 /**
  * Goes over embedded views (ones created through ViewContainerRef APIs) and refreshes
@@ -30419,7 +30576,7 @@ function createRootComponent(componentView, rootComponentDef, rootDirectives, ho
 function setRootNodeAttributes(hostRenderer, componentDef, hostRNode, rootSelectorOrNode) {
   if (rootSelectorOrNode) {
     // The placeholder will be replaced with the actual version at build time.
-    setUpAttributes(hostRenderer, hostRNode, ['ng-version', '18.0.0']);
+    setUpAttributes(hostRenderer, hostRNode, ['ng-version', '18.0.3']);
   } else {
     // If host element is created as a part of this function call (i.e. `rootSelectorOrNode`
     // is not defined), also apply attributes and classes extracted from component selector.
@@ -32473,207 +32630,6 @@ class CachedInjectorService {
     factory: () => new CachedInjectorService()
   });
 }
-
-/**
- * The name of a field that Angular monkey-patches onto a component
- * class to store a function that loads defer-loadable dependencies
- * and applies metadata to a class.
- */
-const ASYNC_COMPONENT_METADATA_FN = '__ngAsyncComponentMetadataFn__';
-/**
- * If a given component has unresolved async metadata - returns a reference
- * to a function that applies component metadata after resolving defer-loadable
- * dependencies. Otherwise - this function returns `null`.
- */
-function getAsyncClassMetadataFn(type) {
-  const componentClass = type; // cast to `any`, so that we can read a monkey-patched field
-  return componentClass[ASYNC_COMPONENT_METADATA_FN] ?? null;
-}
-/**
- * Handles the process of applying metadata info to a component class in case
- * component template has defer blocks (thus some dependencies became deferrable).
- *
- * @param type Component class where metadata should be added
- * @param dependencyLoaderFn Function that loads dependencies
- * @param metadataSetterFn Function that forms a scope in which the `setClassMetadata` is invoked
- */
-function setClassMetadataAsync(type, dependencyLoaderFn, metadataSetterFn) {
-  const componentClass = type; // cast to `any`, so that we can monkey-patch it
-  componentClass[ASYNC_COMPONENT_METADATA_FN] = () => Promise.all(dependencyLoaderFn()).then(dependencies => {
-    metadataSetterFn(...dependencies);
-    // Metadata is now set, reset field value to indicate that this component
-    // can by used/compiled synchronously.
-    componentClass[ASYNC_COMPONENT_METADATA_FN] = null;
-    return dependencies;
-  });
-  return componentClass[ASYNC_COMPONENT_METADATA_FN];
-}
-/**
- * Adds decorator, constructor, and property metadata to a given type via static metadata fields
- * on the type.
- *
- * These metadata fields can later be read with Angular's `ReflectionCapabilities` API.
- *
- * Calls to `setClassMetadata` can be guarded by ngDevMode, resulting in the metadata assignments
- * being tree-shaken away during production builds.
- */
-function setClassMetadata(type, decorators, ctorParameters, propDecorators) {
-  return noSideEffects(() => {
-    const clazz = type;
-    if (decorators !== null) {
-      if (clazz.hasOwnProperty('decorators') && clazz.decorators !== undefined) {
-        clazz.decorators.push(...decorators);
-      } else {
-        clazz.decorators = decorators;
-      }
-    }
-    if (ctorParameters !== null) {
-      // Rather than merging, clobber the existing parameters. If other projects exist which
-      // use tsickle-style annotations and reflect over them in the same way, this could
-      // cause issues, but that is vanishingly unlikely.
-      clazz.ctorParameters = ctorParameters;
-    }
-    if (propDecorators !== null) {
-      // The property decorator objects are merged as it is possible different fields have
-      // different decorator types. Decorators on individual fields are not merged, as it's
-      // also incredibly unlikely that a field will be decorated both with an Angular
-      // decorator and a non-Angular decorator that's also been downleveled.
-      if (clazz.hasOwnProperty('propDecorators') && clazz.propDecorators !== undefined) {
-        clazz.propDecorators = {
-          ...clazz.propDecorators,
-          ...propDecorators
-        };
-      } else {
-        clazz.propDecorators = propDecorators;
-      }
-    }
-  });
-}
-
-/*
- * This file exists to support compilation of @angular/core in Ivy mode.
- *
- * When the Angular compiler processes a compilation unit, it normally writes imports to
- * @angular/core. When compiling the core package itself this strategy isn't usable. Instead, the
- * compiler writes imports to this file.
- *
- * Only a subset of such imports are supported - core is not allowed to declare components or pipes.
- * A check in ngtsc's `R3SymbolsImportRewriter` validates this condition. The rewriter is only used
- * when compiling @angular/core and is responsible for translating an external name (prefixed with
- * ɵ) to the internal symbol name as exported below.
- *
- * The below symbols are used for @Injectable and @NgModule compilation.
- */
-/**
- * The existence of this constant (in this particular file) informs the Angular compiler that the
- * current program is actually @angular/core, which needs to be compiled specially.
- */
-const ITS_JUST_ANGULAR = true;
-
-/**
- * Internal implementation of the pending tasks service.
- */
-class PendingTasks {
-  constructor() {
-    this.taskId = 0;
-    this.pendingTasks = new Set();
-    this.hasPendingTasks = new rxjs__WEBPACK_IMPORTED_MODULE_3__.BehaviorSubject(false);
-  }
-  get _hasPendingTasks() {
-    return this.hasPendingTasks.value;
-  }
-  add() {
-    if (!this._hasPendingTasks) {
-      this.hasPendingTasks.next(true);
-    }
-    const taskId = this.taskId++;
-    this.pendingTasks.add(taskId);
-    return taskId;
-  }
-  remove(taskId) {
-    this.pendingTasks.delete(taskId);
-    if (this.pendingTasks.size === 0 && this._hasPendingTasks) {
-      this.hasPendingTasks.next(false);
-    }
-  }
-  ngOnDestroy() {
-    this.pendingTasks.clear();
-    if (this._hasPendingTasks) {
-      this.hasPendingTasks.next(false);
-    }
-  }
-  static #_ = this.ɵfac = function PendingTasks_Factory(t) {
-    return new (t || PendingTasks)();
-  };
-  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
-    token: PendingTasks,
-    factory: PendingTasks.ɵfac,
-    providedIn: 'root'
-  });
-}
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(PendingTasks, [{
-    type: Injectable,
-    args: [{
-      providedIn: 'root'
-    }]
-  }], null, null);
-})();
-/**
- * Experimental service that keeps track of pending tasks contributing to the stableness of Angular
- * application. While several existing Angular services (ex.: `HttpClient`) will internally manage
- * tasks influencing stability, this API gives control over stability to library and application
- * developers for specific cases not covered by Angular internals.
- *
- * The concept of stability comes into play in several important scenarios:
- * - SSR process needs to wait for the application stability before serializing and sending rendered
- * HTML;
- * - tests might want to delay assertions until the application becomes stable;
- *
- * @usageNotes
- * ```typescript
- * const pendingTasks = inject(ExperimentalPendingTasks);
- * const taskCleanup = pendingTasks.add();
- * // do work that should block application's stability and then:
- * taskCleanup();
- * ```
- *
- * This API is experimental. Neither the shape, nor the underlying behavior is stable and can change
- * in patch versions. We will iterate on the exact API based on the feedback and our understanding
- * of the problem and solution space.
- *
- * @publicApi
- * @experimental
- */
-class ExperimentalPendingTasks {
-  constructor() {
-    this.internalPendingTasks = inject(PendingTasks);
-  }
-  /**
-   * Adds a new task that should block application's stability.
-   * @returns A cleanup function that removes a task when called.
-   */
-  add() {
-    const taskId = this.internalPendingTasks.add();
-    return () => this.internalPendingTasks.remove(taskId);
-  }
-  static #_ = this.ɵfac = function ExperimentalPendingTasks_Factory(t) {
-    return new (t || ExperimentalPendingTasks)();
-  };
-  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
-    token: ExperimentalPendingTasks,
-    factory: ExperimentalPendingTasks.ɵfac,
-    providedIn: 'root'
-  });
-}
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ExperimentalPendingTasks, [{
-    type: Injectable,
-    args: [{
-      providedIn: 'root'
-    }]
-  }], null, null);
-})();
 function isIterable(obj) {
   return obj !== null && typeof obj === 'object' && obj[Symbol.iterator] !== undefined;
 }
@@ -39555,9 +39511,9 @@ function ɵɵi18nPostprocess(message, replacements = {}) {
  * an actual implementation when the event replay feature is enabled via
  * `withEventReplay()` call.
  */
-let disableEventReplayFn = (el, eventName, listenerFn) => {};
-function setDisableEventReplayImpl(fn) {
-  disableEventReplayFn = fn;
+let stashEventListener = (el, eventName, listenerFn) => {};
+function setStashFn(fn) {
+  stashEventListener = fn;
 }
 /**
  * Adds an event listener to the current node.
@@ -39661,7 +39617,6 @@ function listenerInternal(tView, lView, renderer, tNode, eventName, listenerFn, 
     const target = eventTargetResolver ? eventTargetResolver(native) : native;
     const lCleanupIndex = lCleanup.length;
     const idxOrTargetGetter = eventTargetResolver ? _lView => eventTargetResolver(unwrapRNode(_lView[tNode.index])) : tNode.index;
-    disableEventReplayFn(native, eventName, listenerFn);
     // In order to match current behavior, native DOM event listeners must be added for all
     // events (including outputs).
     // There might be cases where multiple directives on the same element try to register an event
@@ -39694,7 +39649,8 @@ function listenerInternal(tView, lView, renderer, tNode, eventName, listenerFn, 
       existingListener.__ngLastListenerFn__ = listenerFn;
       processOutputs = false;
     } else {
-      listenerFn = wrapListener(tNode, lView, context, listenerFn, false /** preventDefault */);
+      listenerFn = wrapListener(tNode, lView, context, listenerFn);
+      stashEventListener(native, eventName, listenerFn);
       const cleanupFn = renderer.listen(target, eventName, listenerFn);
       ngDevMode && ngDevMode.rendererAddEventListener++;
       lCleanup.push(listenerFn, cleanupFn);
@@ -39703,7 +39659,7 @@ function listenerInternal(tView, lView, renderer, tNode, eventName, listenerFn, 
   } else {
     // Even if there is no native listener to add, we still need to wrap the listener so that OnPush
     // ancestors are marked dirty when an event occurs.
-    listenerFn = wrapListener(tNode, lView, context, listenerFn, false /** preventDefault */);
+    listenerFn = wrapListener(tNode, lView, context, listenerFn);
   }
   // subscribe to directive outputs
   const outputs = tNode.outputs;
@@ -39752,7 +39708,7 @@ function executeListenerWithErrorHandling(lView, context, listenerFn, e) {
  * @param wrapWithPreventDefault Whether or not to prevent default behavior
  * (the procedural renderer does this already, so in those cases, we should skip)
  */
-function wrapListener(tNode, lView, context, listenerFn, wrapWithPreventDefault) {
+function wrapListener(tNode, lView, context, listenerFn) {
   // Note: we are performing most of the work in the listener function itself
   // to optimize listener registration.
   return function wrapListenerIn_markDirtyAndPreventDefault(e) {
@@ -39773,9 +39729,6 @@ function wrapListener(tNode, lView, context, listenerFn, wrapWithPreventDefault)
       // We should prevent default if any of the listeners explicitly return false
       result = executeListenerWithErrorHandling(lView, context, nextListenerFn, e) && result;
       nextListenerFn = nextListenerFn.__ngNextListenerFn__;
-    }
-    if (wrapWithPreventDefault && result === false) {
-      e.preventDefault();
     }
     return result;
   };
@@ -41982,6 +41935,82 @@ function maybeUnwrapModuleWithProviders(value) {
 }
 
 /**
+ * The name of a field that Angular monkey-patches onto a component
+ * class to store a function that loads defer-loadable dependencies
+ * and applies metadata to a class.
+ */
+const ASYNC_COMPONENT_METADATA_FN = '__ngAsyncComponentMetadataFn__';
+/**
+ * If a given component has unresolved async metadata - returns a reference
+ * to a function that applies component metadata after resolving defer-loadable
+ * dependencies. Otherwise - this function returns `null`.
+ */
+function getAsyncClassMetadataFn(type) {
+  const componentClass = type; // cast to `any`, so that we can read a monkey-patched field
+  return componentClass[ASYNC_COMPONENT_METADATA_FN] ?? null;
+}
+/**
+ * Handles the process of applying metadata info to a component class in case
+ * component template has defer blocks (thus some dependencies became deferrable).
+ *
+ * @param type Component class where metadata should be added
+ * @param dependencyLoaderFn Function that loads dependencies
+ * @param metadataSetterFn Function that forms a scope in which the `setClassMetadata` is invoked
+ */
+function setClassMetadataAsync(type, dependencyLoaderFn, metadataSetterFn) {
+  const componentClass = type; // cast to `any`, so that we can monkey-patch it
+  componentClass[ASYNC_COMPONENT_METADATA_FN] = () => Promise.all(dependencyLoaderFn()).then(dependencies => {
+    metadataSetterFn(...dependencies);
+    // Metadata is now set, reset field value to indicate that this component
+    // can by used/compiled synchronously.
+    componentClass[ASYNC_COMPONENT_METADATA_FN] = null;
+    return dependencies;
+  });
+  return componentClass[ASYNC_COMPONENT_METADATA_FN];
+}
+/**
+ * Adds decorator, constructor, and property metadata to a given type via static metadata fields
+ * on the type.
+ *
+ * These metadata fields can later be read with Angular's `ReflectionCapabilities` API.
+ *
+ * Calls to `setClassMetadata` can be guarded by ngDevMode, resulting in the metadata assignments
+ * being tree-shaken away during production builds.
+ */
+function setClassMetadata(type, decorators, ctorParameters, propDecorators) {
+  return noSideEffects(() => {
+    const clazz = type;
+    if (decorators !== null) {
+      if (clazz.hasOwnProperty('decorators') && clazz.decorators !== undefined) {
+        clazz.decorators.push(...decorators);
+      } else {
+        clazz.decorators = decorators;
+      }
+    }
+    if (ctorParameters !== null) {
+      // Rather than merging, clobber the existing parameters. If other projects exist which
+      // use tsickle-style annotations and reflect over them in the same way, this could
+      // cause issues, but that is vanishingly unlikely.
+      clazz.ctorParameters = ctorParameters;
+    }
+    if (propDecorators !== null) {
+      // The property decorator objects are merged as it is possible different fields have
+      // different decorator types. Decorators on individual fields are not merged, as it's
+      // also incredibly unlikely that a field will be decorated both with an Angular
+      // decorator and a non-Angular decorator that's also been downleveled.
+      if (clazz.hasOwnProperty('propDecorators') && clazz.propDecorators !== undefined) {
+        clazz.propDecorators = {
+          ...clazz.propDecorators,
+          ...propDecorators
+        };
+      } else {
+        clazz.propDecorators = propDecorators;
+      }
+    }
+  });
+}
+
+/**
  * Bindings for pure functions are stored after regular bindings.
  *
  * |-------decls------|---------vars---------|                 |----- hostVars (dir1) ------|
@@ -43855,7 +43884,27 @@ class Version {
 /**
  * @publicApi
  */
-const VERSION = new Version('18.0.0');
+const VERSION = new Version('18.0.3');
+
+/*
+ * This file exists to support compilation of @angular/core in Ivy mode.
+ *
+ * When the Angular compiler processes a compilation unit, it normally writes imports to
+ * @angular/core. When compiling the core package itself this strategy isn't usable. Instead, the
+ * compiler writes imports to this file.
+ *
+ * Only a subset of such imports are supported - core is not allowed to declare components or pipes.
+ * A check in ngtsc's `R3SymbolsImportRewriter` validates this condition. The rewriter is only used
+ * when compiling @angular/core and is responsible for translating an external name (prefixed with
+ * ɵ) to the internal symbol name as exported below.
+ *
+ * The below symbols are used for @Injectable and @NgModule compilation.
+ */
+/**
+ * The existence of this constant (in this particular file) informs the Angular compiler that the
+ * current program is actually @angular/core, which needs to be compiled specially.
+ */
+const ITS_JUST_ANGULAR = true;
 class Console {
   log(message) {
     // tslint:disable-next-line:no-console
@@ -45458,9 +45507,9 @@ class ApplicationRef {
     // Needed for ComponentFixture temporarily during migration of autoDetect behavior
     // Eventually the hostView of the fixture should just attach to ApplicationRef.
     this.externalTestViews = new Set();
-    this.beforeRender = new rxjs__WEBPACK_IMPORTED_MODULE_1__.Subject();
+    this.beforeRender = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject();
     /** @internal */
-    this.afterTick = new rxjs__WEBPACK_IMPORTED_MODULE_1__.Subject();
+    this.afterTick = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject();
     /**
      * Get a list of component types registered to this application.
      * This list is populated even before the component is created.
@@ -45945,9 +45994,206 @@ function _lastDefined(args) {
   }
   return undefined;
 }
-
-/** Flag to enable/disable the zoneless scheduler as default provider with zone scheduling. */
-const alwaysProvideZonelessScheduler = true;
+class NgZoneChangeDetectionScheduler {
+  constructor() {
+    this.zone = inject(NgZone);
+    this.changeDetectionScheduler = inject(ChangeDetectionScheduler);
+    this.applicationRef = inject(ApplicationRef);
+  }
+  initialize() {
+    if (this._onMicrotaskEmptySubscription) {
+      return;
+    }
+    this._onMicrotaskEmptySubscription = this.zone.onMicrotaskEmpty.subscribe({
+      next: () => {
+        // `onMicroTaskEmpty` can happen _during_ the zoneless scheduler change detection because
+        // zone.run(() => {}) will result in `checkStable` at the end of the `zone.run` closure
+        // and emit `onMicrotaskEmpty` synchronously if run coalsecing is false.
+        if (this.changeDetectionScheduler.runningTick) {
+          return;
+        }
+        this.zone.run(() => {
+          this.applicationRef.tick();
+        });
+      }
+    });
+  }
+  ngOnDestroy() {
+    this._onMicrotaskEmptySubscription?.unsubscribe();
+  }
+  static #_ = this.ɵfac = function NgZoneChangeDetectionScheduler_Factory(t) {
+    return new (t || NgZoneChangeDetectionScheduler)();
+  };
+  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
+    token: NgZoneChangeDetectionScheduler,
+    factory: NgZoneChangeDetectionScheduler.ɵfac,
+    providedIn: 'root'
+  });
+}
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(NgZoneChangeDetectionScheduler, [{
+    type: Injectable,
+    args: [{
+      providedIn: 'root'
+    }]
+  }], null, null);
+})();
+/**
+ * Internal token used to verify that `provideZoneChangeDetection` is not used
+ * with the bootstrapModule API.
+ */
+const PROVIDED_NG_ZONE = new InjectionToken(typeof ngDevMode === 'undefined' || ngDevMode ? 'provideZoneChangeDetection token' : '', {
+  factory: () => false
+});
+function internalProvideZoneChangeDetection({
+  ngZoneFactory,
+  ignoreChangesOutsideZone
+}) {
+  ngZoneFactory ??= () => new NgZone(getNgZoneOptions());
+  return [{
+    provide: NgZone,
+    useFactory: ngZoneFactory
+  }, {
+    provide: ENVIRONMENT_INITIALIZER,
+    multi: true,
+    useFactory: () => {
+      const ngZoneChangeDetectionScheduler = inject(NgZoneChangeDetectionScheduler, {
+        optional: true
+      });
+      if ((typeof ngDevMode === 'undefined' || ngDevMode) && ngZoneChangeDetectionScheduler === null) {
+        throw new RuntimeError(402 /* RuntimeErrorCode.MISSING_REQUIRED_INJECTABLE_IN_BOOTSTRAP */, `A required Injectable was not found in the dependency injection tree. ` + 'If you are bootstrapping an NgModule, make sure that the `BrowserModule` is imported.');
+      }
+      return () => ngZoneChangeDetectionScheduler.initialize();
+    }
+  }, {
+    provide: ENVIRONMENT_INITIALIZER,
+    multi: true,
+    useFactory: () => {
+      const service = inject(ZoneStablePendingTask);
+      return () => {
+        service.initialize();
+      };
+    }
+  }, {
+    provide: INTERNAL_APPLICATION_ERROR_HANDLER,
+    useFactory: ngZoneApplicationErrorHandlerFactory
+  },
+  // Always disable scheduler whenever explicitly disabled, even if another place called
+  // `provideZoneChangeDetection` without the 'ignore' option.
+  ignoreChangesOutsideZone === true ? {
+    provide: ZONELESS_SCHEDULER_DISABLED,
+    useValue: true
+  } : []];
+}
+function ngZoneApplicationErrorHandlerFactory() {
+  const zone = inject(NgZone);
+  const userErrorHandler = inject(ErrorHandler);
+  return e => zone.runOutsideAngular(() => userErrorHandler.handleError(e));
+}
+/**
+ * Provides `NgZone`-based change detection for the application bootstrapped using
+ * `bootstrapApplication`.
+ *
+ * `NgZone` is already provided in applications by default. This provider allows you to configure
+ * options like `eventCoalescing` in the `NgZone`.
+ * This provider is not available for `platformBrowser().bootstrapModule`, which uses
+ * `BootstrapOptions` instead.
+ *
+ * @usageNotes
+ * ```typescript
+ * bootstrapApplication(MyApp, {providers: [
+ *   provideZoneChangeDetection({eventCoalescing: true}),
+ * ]});
+ * ```
+ *
+ * @publicApi
+ * @see {@link bootstrapApplication}
+ * @see {@link NgZoneOptions}
+ */
+function provideZoneChangeDetection(options) {
+  const ignoreChangesOutsideZone = options?.ignoreChangesOutsideZone;
+  const zoneProviders = internalProvideZoneChangeDetection({
+    ngZoneFactory: () => {
+      const ngZoneOptions = getNgZoneOptions(options);
+      if (ngZoneOptions.shouldCoalesceEventChangeDetection) {
+        performanceMarkFeature('NgZone_CoalesceEvent');
+      }
+      return new NgZone(ngZoneOptions);
+    },
+    ignoreChangesOutsideZone
+  });
+  return makeEnvironmentProviders([{
+    provide: PROVIDED_NG_ZONE,
+    useValue: true
+  }, {
+    provide: ZONELESS_ENABLED,
+    useValue: false
+  }, zoneProviders]);
+}
+// Transforms a set of `BootstrapOptions` (supported by the NgModule-based bootstrap APIs) ->
+// `NgZoneOptions` that are recognized by the NgZone constructor. Passing no options will result in
+// a set of default options returned.
+function getNgZoneOptions(options) {
+  return {
+    enableLongStackTrace: typeof ngDevMode === 'undefined' ? false : !!ngDevMode,
+    shouldCoalesceEventChangeDetection: options?.eventCoalescing ?? false,
+    shouldCoalesceRunChangeDetection: options?.runCoalescing ?? false
+  };
+}
+class ZoneStablePendingTask {
+  constructor() {
+    this.subscription = new rxjs__WEBPACK_IMPORTED_MODULE_3__.Subscription();
+    this.initialized = false;
+    this.zone = inject(NgZone);
+    this.pendingTasks = inject(PendingTasks);
+  }
+  initialize() {
+    if (this.initialized) {
+      return;
+    }
+    this.initialized = true;
+    let task = null;
+    if (!this.zone.isStable && !this.zone.hasPendingMacrotasks && !this.zone.hasPendingMicrotasks) {
+      task = this.pendingTasks.add();
+    }
+    this.zone.runOutsideAngular(() => {
+      this.subscription.add(this.zone.onStable.subscribe(() => {
+        NgZone.assertNotInAngularZone();
+        // Check whether there are no pending macro/micro tasks in the next tick
+        // to allow for NgZone to update the state.
+        queueMicrotask(() => {
+          if (task !== null && !this.zone.hasPendingMacrotasks && !this.zone.hasPendingMicrotasks) {
+            this.pendingTasks.remove(task);
+            task = null;
+          }
+        });
+      }));
+    });
+    this.subscription.add(this.zone.onUnstable.subscribe(() => {
+      NgZone.assertInAngularZone();
+      task ??= this.pendingTasks.add();
+    }));
+  }
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
+  }
+  static #_ = this.ɵfac = function ZoneStablePendingTask_Factory(t) {
+    return new (t || ZoneStablePendingTask)();
+  };
+  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
+    token: ZoneStablePendingTask,
+    factory: ZoneStablePendingTask.ɵfac,
+    providedIn: 'root'
+  });
+}
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ZoneStablePendingTask, [{
+    type: Injectable,
+    args: [{
+      providedIn: 'root'
+    }]
+  }], null, null);
+})();
 const CONSECUTIVE_MICROTASK_NOTIFICATION_LIMIT = 100;
 let consecutiveMicrotaskNotifications = 0;
 let stackFromLastFewNotifications = [];
@@ -45978,7 +46224,7 @@ class ChangeDetectionSchedulerImpl {
         '__scheduler_tick__': true
       }
     }];
-    this.subscriptions = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subscription();
+    this.subscriptions = new rxjs__WEBPACK_IMPORTED_MODULE_3__.Subscription();
     this.cancelScheduledCallback = null;
     this.shouldRefreshViews = false;
     this.useMicrotaskScheduler = false;
@@ -46202,7 +46448,7 @@ class ChangeDetectionSchedulerImpl {
 function provideExperimentalZonelessChangeDetection() {
   performanceMarkFeature('NgZoneless');
   if ((typeof ngDevMode === 'undefined' || ngDevMode) && typeof Zone !== 'undefined' && Zone) {
-    const message = formatRuntimeError(914 /* RuntimeErrorCode.UNEXPECTED_ZONEJS_PRESENT_IN_ZONELESS_MODE */, `The application is using zoneless change detection, but is still loading Zone.js.` + `Consider removing Zone.js to get the full benefits of zoneless. ` + `In applcations using the Angular CLI, Zone.js is typically included in the "polyfills" section of the angular.json file.`);
+    const message = formatRuntimeError(914 /* RuntimeErrorCode.UNEXPECTED_ZONEJS_PRESENT_IN_ZONELESS_MODE */, `The application is using zoneless change detection, but is still loading Zone.js.` + `Consider removing Zone.js to get the full benefits of zoneless. ` + `In applications using the Angular CLI, Zone.js is typically included in the "polyfills" section of the angular.json file.`);
     console.warn(message);
   }
   return makeEnvironmentProviders([{
@@ -46219,214 +46465,6 @@ function provideExperimentalZonelessChangeDetection() {
     useValue: true
   }] : []]);
 }
-class NgZoneChangeDetectionScheduler {
-  constructor() {
-    this.zone = inject(NgZone);
-    this.changeDetectionScheduler = inject(ChangeDetectionScheduler, {
-      optional: true
-    });
-    this.applicationRef = inject(ApplicationRef);
-  }
-  initialize() {
-    if (this._onMicrotaskEmptySubscription) {
-      return;
-    }
-    this._onMicrotaskEmptySubscription = this.zone.onMicrotaskEmpty.subscribe({
-      next: () => {
-        // `onMicroTaskEmpty` can happen _during_ the zoneless scheduler change detection because
-        // zone.run(() => {}) will result in `checkStable` at the end of the `zone.run` closure
-        // and emit `onMicrotaskEmpty` synchronously if run coalsecing is false.
-        if (this.changeDetectionScheduler?.runningTick) {
-          return;
-        }
-        this.zone.run(() => {
-          this.applicationRef.tick();
-        });
-      }
-    });
-  }
-  ngOnDestroy() {
-    this._onMicrotaskEmptySubscription?.unsubscribe();
-  }
-  static #_ = this.ɵfac = function NgZoneChangeDetectionScheduler_Factory(t) {
-    return new (t || NgZoneChangeDetectionScheduler)();
-  };
-  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
-    token: NgZoneChangeDetectionScheduler,
-    factory: NgZoneChangeDetectionScheduler.ɵfac,
-    providedIn: 'root'
-  });
-}
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(NgZoneChangeDetectionScheduler, [{
-    type: Injectable,
-    args: [{
-      providedIn: 'root'
-    }]
-  }], null, null);
-})();
-/**
- * Internal token used to verify that `provideZoneChangeDetection` is not used
- * with the bootstrapModule API.
- */
-const PROVIDED_NG_ZONE = new InjectionToken(typeof ngDevMode === 'undefined' || ngDevMode ? 'provideZoneChangeDetection token' : '', {
-  factory: () => false
-});
-function internalProvideZoneChangeDetection({
-  ngZoneFactory,
-  ignoreChangesOutsideZone
-}) {
-  ngZoneFactory ??= () => new NgZone(getNgZoneOptions());
-  return [{
-    provide: NgZone,
-    useFactory: ngZoneFactory
-  }, {
-    provide: ENVIRONMENT_INITIALIZER,
-    multi: true,
-    useFactory: () => {
-      const ngZoneChangeDetectionScheduler = inject(NgZoneChangeDetectionScheduler, {
-        optional: true
-      });
-      if ((typeof ngDevMode === 'undefined' || ngDevMode) && ngZoneChangeDetectionScheduler === null) {
-        throw new RuntimeError(402 /* RuntimeErrorCode.MISSING_REQUIRED_INJECTABLE_IN_BOOTSTRAP */, `A required Injectable was not found in the dependency injection tree. ` + 'If you are bootstrapping an NgModule, make sure that the `BrowserModule` is imported.');
-      }
-      return () => ngZoneChangeDetectionScheduler.initialize();
-    }
-  }, {
-    provide: ENVIRONMENT_INITIALIZER,
-    multi: true,
-    useFactory: () => {
-      const service = inject(ZoneStablePendingTask);
-      return () => {
-        service.initialize();
-      };
-    }
-  }, {
-    provide: INTERNAL_APPLICATION_ERROR_HANDLER,
-    useFactory: ngZoneApplicationErrorHandlerFactory
-  },
-  // Always disable scheduler whenever explicitly disabled, even if another place called
-  // `provideZoneChangeDetection` without the 'ignore' option.
-  ignoreChangesOutsideZone === true ? {
-    provide: ZONELESS_SCHEDULER_DISABLED,
-    useValue: true
-  } : [],
-  // TODO(atscott): This should move to the same places that zone change detection is provided by
-  // default instead of being in the zone scheduling providers.
-  alwaysProvideZonelessScheduler || ignoreChangesOutsideZone === false ? {
-    provide: ChangeDetectionScheduler,
-    useExisting: ChangeDetectionSchedulerImpl
-  } : []];
-}
-function ngZoneApplicationErrorHandlerFactory() {
-  const zone = inject(NgZone);
-  const userErrorHandler = inject(ErrorHandler);
-  return e => zone.runOutsideAngular(() => userErrorHandler.handleError(e));
-}
-/**
- * Provides `NgZone`-based change detection for the application bootstrapped using
- * `bootstrapApplication`.
- *
- * `NgZone` is already provided in applications by default. This provider allows you to configure
- * options like `eventCoalescing` in the `NgZone`.
- * This provider is not available for `platformBrowser().bootstrapModule`, which uses
- * `BootstrapOptions` instead.
- *
- * @usageNotes
- * ```typescript
- * bootstrapApplication(MyApp, {providers: [
- *   provideZoneChangeDetection({eventCoalescing: true}),
- * ]});
- * ```
- *
- * @publicApi
- * @see {@link bootstrapApplication}
- * @see {@link NgZoneOptions}
- */
-function provideZoneChangeDetection(options) {
-  const ignoreChangesOutsideZone = options?.ignoreChangesOutsideZone;
-  const zoneProviders = internalProvideZoneChangeDetection({
-    ngZoneFactory: () => {
-      const ngZoneOptions = getNgZoneOptions(options);
-      if (ngZoneOptions.shouldCoalesceEventChangeDetection) {
-        performanceMarkFeature('NgZone_CoalesceEvent');
-      }
-      return new NgZone(ngZoneOptions);
-    },
-    ignoreChangesOutsideZone
-  });
-  return makeEnvironmentProviders([typeof ngDevMode === 'undefined' || ngDevMode ? [{
-    provide: PROVIDED_NG_ZONE,
-    useValue: true
-  }] : [], {
-    provide: ZONELESS_ENABLED,
-    useValue: false
-  }, zoneProviders]);
-}
-// Transforms a set of `BootstrapOptions` (supported by the NgModule-based bootstrap APIs) ->
-// `NgZoneOptions` that are recognized by the NgZone constructor. Passing no options will result in
-// a set of default options returned.
-function getNgZoneOptions(options) {
-  return {
-    enableLongStackTrace: typeof ngDevMode === 'undefined' ? false : !!ngDevMode,
-    shouldCoalesceEventChangeDetection: options?.eventCoalescing ?? false,
-    shouldCoalesceRunChangeDetection: options?.runCoalescing ?? false
-  };
-}
-class ZoneStablePendingTask {
-  constructor() {
-    this.subscription = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subscription();
-    this.initialized = false;
-    this.zone = inject(NgZone);
-    this.pendingTasks = inject(PendingTasks);
-  }
-  initialize() {
-    if (this.initialized) {
-      return;
-    }
-    this.initialized = true;
-    let task = null;
-    if (!this.zone.isStable && !this.zone.hasPendingMacrotasks && !this.zone.hasPendingMicrotasks) {
-      task = this.pendingTasks.add();
-    }
-    this.zone.runOutsideAngular(() => {
-      this.subscription.add(this.zone.onStable.subscribe(() => {
-        NgZone.assertNotInAngularZone();
-        // Check whether there are no pending macro/micro tasks in the next tick
-        // to allow for NgZone to update the state.
-        queueMicrotask(() => {
-          if (task !== null && !this.zone.hasPendingMacrotasks && !this.zone.hasPendingMicrotasks) {
-            this.pendingTasks.remove(task);
-            task = null;
-          }
-        });
-      }));
-    });
-    this.subscription.add(this.zone.onUnstable.subscribe(() => {
-      NgZone.assertInAngularZone();
-      task ??= this.pendingTasks.add();
-    }));
-  }
-  ngOnDestroy() {
-    this.subscription.unsubscribe();
-  }
-  static #_ = this.ɵfac = function ZoneStablePendingTask_Factory(t) {
-    return new (t || ZoneStablePendingTask)();
-  };
-  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
-    token: ZoneStablePendingTask,
-    factory: ZoneStablePendingTask.ɵfac,
-    providedIn: 'root'
-  });
-}
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ZoneStablePendingTask, [{
-    type: Injectable,
-    args: [{
-      providedIn: 'root'
-    }]
-  }], null, null);
-})();
 
 /**
  * Work out the locale from the potential global properties.
@@ -46643,10 +46681,13 @@ class PlatformRef {
     // created outside of the Angular zone.
     return ngZone.run(() => {
       const ignoreChangesOutsideZone = options?.ignoreChangesOutsideZone;
-      const moduleRef = createNgModuleRefWithProviders(moduleFactory.moduleType, this.injector, internalProvideZoneChangeDetection({
+      const moduleRef = createNgModuleRefWithProviders(moduleFactory.moduleType, this.injector, [...internalProvideZoneChangeDetection({
         ngZoneFactory: () => ngZone,
         ignoreChangesOutsideZone
-      }));
+      }), {
+        provide: ChangeDetectionScheduler,
+        useExisting: ChangeDetectionSchedulerImpl
+      }]);
       if (typeof ngDevMode === 'undefined' || ngDevMode) {
         if (moduleRef.injector.get(PROVIDED_NG_ZONE)) {
           throw new RuntimeError(207 /* RuntimeErrorCode.PROVIDER_IN_WRONG_CONTEXT */, '`bootstrapModule` does not support `provideZoneChangeDetection`. Use `BootstrapOptions` instead.');
@@ -49046,8 +49087,7 @@ function consumerDestroy(node) {
  */
 function producerAddLiveConsumer(node, consumer, indexOfThis) {
   assertProducerNode(node);
-  assertConsumerNode(node);
-  if (node.liveConsumerNode.length === 0) {
+  if (node.liveConsumerNode.length === 0 && isConsumerNode(node)) {
     // When going from 0 to 1 live consumers, we become a live consumer to our producers.
     for (let i = 0; i < node.producerNode.length; i++) {
       node.producerIndexOfThis[i] = producerAddLiveConsumer(node.producerNode[i], node, i);
@@ -49061,11 +49101,10 @@ function producerAddLiveConsumer(node, consumer, indexOfThis) {
  */
 function producerRemoveLiveConsumerAtIndex(node, idx) {
   assertProducerNode(node);
-  assertConsumerNode(node);
   if (typeof ngDevMode !== 'undefined' && ngDevMode && idx >= node.liveConsumerNode.length) {
     throw new Error(`Assertion error: active consumer index ${idx} is out of bounds of ${node.liveConsumerNode.length} consumers)`);
   }
-  if (node.liveConsumerNode.length === 1) {
+  if (node.liveConsumerNode.length === 1 && isConsumerNode(node)) {
     // When removing the last live consumer, we will no longer be live. We need to remove
     // ourselves from our producers' tracking (which may cause consumer-producers to lose
     // liveness as well).
@@ -49101,6 +49140,9 @@ function assertConsumerNode(node) {
 function assertProducerNode(node) {
   node.liveConsumerNode ??= [];
   node.liveConsumerIndexOfThis ??= [];
+}
+function isConsumerNode(node) {
+  return node.producerNode !== undefined;
 }
 
 /**
@@ -49482,10 +49524,10 @@ class ImagePerformanceWarning {
   }], null, null);
 })();
 function logLazyLCPWarning(src) {
-  console.warn(formatRuntimeError(-913 /* RuntimeErrorCode.IMAGE_PERFORMANCE_WARNING */, `An image with src ${src} is the Largest Contentful Paint (LCP) element ` + `but was given a "loading" value of "lazy", which can negatively impact ` + `application loading performance. This warning can be addressed by ` + `changing the loading value of the LCP image to "eager", or by using the ` + `NgOptimizedImage directive's prioritization utilities. For more ` + `information about addressing or disabling this warning, see ` + `https://angular.io/errors/NG0913`));
+  console.warn(formatRuntimeError(-913 /* RuntimeErrorCode.IMAGE_PERFORMANCE_WARNING */, `An image with src ${src} is the Largest Contentful Paint (LCP) element ` + `but was given a "loading" value of "lazy", which can negatively impact ` + `application loading performance. This warning can be addressed by ` + `changing the loading value of the LCP image to "eager", or by using the ` + `NgOptimizedImage directive's prioritization utilities. For more ` + `information about addressing or disabling this warning, see ` + `https://angular.dev/errors/NG0913`));
 }
 function logOversizedImageWarning(src) {
-  console.warn(formatRuntimeError(-913 /* RuntimeErrorCode.IMAGE_PERFORMANCE_WARNING */, `An image with src ${src} has intrinsic file dimensions much larger than its ` + `rendered size. This can negatively impact application loading performance. ` + `For more information about addressing or disabling this warning, see ` + `https://angular.io/errors/NG0913`));
+  console.warn(formatRuntimeError(-913 /* RuntimeErrorCode.IMAGE_PERFORMANCE_WARNING */, `An image with src ${src} has intrinsic file dimensions much larger than its ` + `rendered size. This can negatively impact application loading performance. ` + `For more information about addressing or disabling this warning, see ` + `https://angular.dev/errors/NG0913`));
 }
 
 /**
@@ -49512,7 +49554,10 @@ function internalCreateApplication(config) {
     const platformInjector = createOrReusePlatformInjector(platformProviders);
     // Create root application injector based on a set of providers configured at the platform
     // bootstrap level as well as providers passed to the bootstrap call by a user.
-    const allAppProviders = [internalProvideZoneChangeDetection({}), ...(appProviders || [])];
+    const allAppProviders = [internalProvideZoneChangeDetection({}), {
+      provide: ChangeDetectionScheduler,
+      useExisting: ChangeDetectionSchedulerImpl
+    }, ...(appProviders || [])];
     const adapter = new EnvironmentNgModuleRefAdapter({
       providers: allAppProviders,
       parent: platformInjector,
@@ -49613,18 +49658,80 @@ function getDeferBlocks(lView, deferBlocks) {
     }
   }
 }
-const EVENT_REPLAY_ENABLED_DEFAULT = false;
-const CONTRACT_PROPERTY = 'ngContracts';
-// TODO: Upstream this back into event-dispatch.
-function getJsactionData(container) {
-  return container._ejsa;
+
+// tslint:disable:no-duplicate-imports
+function invokeRegisteredListeners(event) {
+  const handlerFns = event.currentTarget?.__jsaction_fns?.get(event.type);
+  if (!handlerFns) {
+    return;
+  }
+  for (const handler of handlerFns) {
+    handler(event);
+  }
 }
-const JSACTION_ATTRIBUTE = 'jsaction';
+function setJSActionAttribute(nativeElement, eventTypes) {
+  if (!eventTypes.length) {
+    return;
+  }
+  const parts = eventTypes.reduce((prev, curr) => prev + curr + ':;', '');
+  const existingAttr = nativeElement.getAttribute(_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.JSACTION);
+  //  This is required to be a module accessor to appease security tests on setAttribute.
+  nativeElement.setAttribute(_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.JSACTION, `${existingAttr ?? ''}${parts}`);
+}
+const sharedStashFunction = (rEl, eventType, listenerFn) => {
+  const el = rEl;
+  const eventListenerMap = el.__jsaction_fns ?? new Map();
+  const eventListeners = eventListenerMap.get(eventType) ?? [];
+  eventListeners.push(listenerFn);
+  eventListenerMap.set(eventType, eventListeners);
+  el.__jsaction_fns = eventListenerMap;
+};
+const removeListeners = el => {
+  el.removeAttribute(_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.JSACTION);
+  el.__jsaction_fns = undefined;
+};
+class GlobalEventDelegation {
+  addEvent(el, eventName) {
+    if (this.eventContract) {
+      this.eventContract.addEvent(eventName);
+      setJSActionAttribute(el, [eventName]);
+      return true;
+    }
+    return false;
+  }
+  static #_ = this.ɵfac = function GlobalEventDelegation_Factory(t) {
+    return new (t || GlobalEventDelegation)();
+  };
+  static #_2 = this.ɵprov = /*@__PURE__*/ɵɵdefineInjectable({
+    token: GlobalEventDelegation,
+    factory: GlobalEventDelegation.ɵfac,
+    providedIn: 'root'
+  });
+}
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(GlobalEventDelegation, [{
+    type: Injectable,
+    args: [{
+      providedIn: 'root'
+    }]
+  }], null, null);
+})();
+const initGlobalEventDelegation = (eventDelegation, injector) => {
+  if (injector.get(IS_EVENT_REPLAY_ENABLED, EVENT_REPLAY_ENABLED_DEFAULT)) {
+    return;
+  }
+  eventDelegation.eventContract = new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventContract(new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventContractContainer(document.body));
+  const dispatcher = new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventDispatcher(invokeRegisteredListeners);
+  (0,_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.registerDispatcher)(eventDelegation.eventContract, dispatcher);
+};
+const CONTRACT_PROPERTY = 'ngContracts';
 /**
- * Associates a DOM element with `jsaction` attribute to a map that contains info about all event
- * types (event names) and corresponding listeners.
+ * A set of DOM elements with `jsaction` attributes.
  */
-const jsactionMap = new Map();
+const jsactionSet = new Set();
+function isGlobalEventDelegationEnabled(injector) {
+  return injector.get(IS_GLOBAL_EVENT_DELEGATION_ENABLED, false);
+}
 /**
  * Returns a set of providers required to setup support for event replay.
  * Requires hydration to be enabled separately.
@@ -49636,20 +49743,13 @@ function withEventReplay() {
   }, {
     provide: ENVIRONMENT_INITIALIZER,
     useValue: () => {
-      setDisableEventReplayImpl((rEl, eventName, listenerFn) => {
-        if (rEl.hasAttribute(JSACTION_ATTRIBUTE)) {
-          const el = rEl;
-          // We don't immediately remove the attribute here because
-          // we need it for replay that happens after hydration.
-          if (!jsactionMap.has(el)) {
-            jsactionMap.set(el, new Map());
-          }
-          const eventMap = jsactionMap.get(el);
-          if (!eventMap.has(eventName)) {
-            eventMap.set(eventName, []);
-          }
-          eventMap.get(eventName).push(listenerFn);
-        }
+      const injector = inject(Injector);
+      if (isGlobalEventDelegationEnabled(injector)) {
+        return;
+      }
+      setStashFn((rEl, eventName, listenerFn) => {
+        sharedStashFunction(rEl, eventName, listenerFn);
+        jsactionSet.add(rEl);
       });
     },
     multi: true
@@ -49664,35 +49764,15 @@ function withEventReplay() {
           // of the application is completed. This timing is similar to the unclaimed
           // dehydrated views cleanup timing.
           whenStable(appRef).then(() => {
-            const appId = injector.get(APP_ID);
-            // This is set in packages/platform-server/src/utils.ts
-            // Note: globalThis[CONTRACT_PROPERTY] may be undefined in case Event Replay feature
-            // is enabled, but there are no events configured in an application.
-            const container = globalThis[CONTRACT_PROPERTY]?.[appId];
-            const earlyJsactionData = getJsactionData(container);
-            if (earlyJsactionData) {
-              const eventContract = new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventContract(new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventContractContainer(earlyJsactionData.c));
-              for (const et of earlyJsactionData.et) {
-                eventContract.addEvent(et);
-              }
-              for (const et of earlyJsactionData.etc) {
-                eventContract.addEvent(et);
-              }
-              eventContract.replayEarlyEvents(container);
-              const dispatcher = new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.Dispatcher(() => {}, {
-                eventReplayer: queue => {
-                  for (const event of queue) {
-                    handleEvent(event);
-                  }
-                  jsactionMap.clear();
-                  queue.length = 0;
-                }
-              });
-              (0,_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.registerDispatcher)(eventContract, dispatcher);
-              for (const el of jsactionMap.keys()) {
-                el.removeAttribute(JSACTION_ATTRIBUTE);
-              }
+            if (isGlobalEventDelegationEnabled(injector)) {
+              return;
             }
+            const globalEventDelegation = injector.get(GlobalEventDelegation);
+            initEventReplay(globalEventDelegation, injector);
+            jsactionSet.forEach(removeListeners);
+            // After hydration, we shouldn't need to do anymore work related to
+            // event replay anymore.
+            setStashFn(() => {});
           });
         };
       }
@@ -49701,6 +49781,28 @@ function withEventReplay() {
     multi: true
   }];
 }
+// TODO: Upstream this back into event-dispatch.
+function getJsactionData(container) {
+  return container._ejsa;
+}
+const initEventReplay = (eventDelegation, injector) => {
+  const appId = injector.get(APP_ID);
+  // This is set in packages/platform-server/src/utils.ts
+  // Note: globalThis[CONTRACT_PROPERTY] may be undefined in case Event Replay feature
+  // is enabled, but there are no events configured in an application.
+  const container = globalThis[CONTRACT_PROPERTY]?.[appId];
+  const earlyJsactionData = getJsactionData(container);
+  const eventContract = eventDelegation.eventContract = new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventContract(new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventContractContainer(earlyJsactionData.c));
+  for (const et of earlyJsactionData.et) {
+    eventContract.addEvent(et);
+  }
+  for (const et of earlyJsactionData.etc) {
+    eventContract.addEvent(et);
+  }
+  eventContract.replayEarlyEvents(container);
+  const dispatcher = new _angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.EventDispatcher(invokeRegisteredListeners);
+  (0,_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.registerDispatcher)(eventContract, dispatcher);
+};
 /**
  * Extracts information about all DOM events (added in a template) registered on elements in a give
  * LView. Maps collected events to a corresponding DOM element (an element is used as a key).
@@ -49719,10 +49821,14 @@ function collectDomEventsInfo(tView, lView, eventTypesToReplay) {
       continue;
     }
     const name = firstParam;
-    if (name === 'mouseenter' || name === 'mouseleave' || name === 'pointerenter' || name === 'pointerleave') {
+    if (!(0,_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.isSupportedEvent)(name)) {
       continue;
     }
-    eventTypesToReplay.add(name);
+    if ((0,_angular_core_primitives_event_dispatch__WEBPACK_IMPORTED_MODULE_6__.isCaptureEvent)(name)) {
+      eventTypesToReplay.capture.add(name);
+    } else {
+      eventTypesToReplay.regular.add(name);
+    }
     const listenerElement = unwrapRNode(lView[secondParam]);
     i++; // move the cursor to the next position (location of the listener idx)
     const useCaptureOrIndx = tCleanup[i++];
@@ -49740,26 +49846,6 @@ function collectDomEventsInfo(tView, lView, eventTypesToReplay) {
     }
   }
   return events;
-}
-function setJSActionAttribute(tNode, rNode, nativeElementToEvents) {
-  if (tNode.type & 2 /* TNodeType.Element */) {
-    const nativeElement = unwrapRNode(rNode);
-    const events = nativeElementToEvents.get(nativeElement) ?? [];
-    const parts = events.map(event => `${event}:`);
-    if (parts.length > 0) {
-      nativeElement.setAttribute(JSACTION_ATTRIBUTE, parts.join(';'));
-    }
-  }
-}
-function handleEvent(event) {
-  const nativeElement = event.getAction().element;
-  const handlerFns = jsactionMap.get(nativeElement)?.get(event.getEventType());
-  if (!handlerFns) {
-    return;
-  }
-  for (const handler of handlerFns) {
-    handler(event.getEvent());
-  }
 }
 
 /**
@@ -49846,6 +49932,13 @@ function annotateLContainerForHydration(lContainer, context) {
   const componentLView = unwrapLView(lContainer[HOST]);
   // Serialize the root component itself.
   const componentLViewNghIndex = annotateComponentLViewForHydration(componentLView, context);
+  if (componentLViewNghIndex === null) {
+    // Component was not serialized (for example, if hydration was skipped by adding
+    // the `ngSkipHydration` attribute or this component uses i18n blocks in the template,
+    // but `withI18nSupport()` was not added), avoid annotating host element with the `ngh`
+    // attribute.
+    return;
+  }
   const hostElement = unwrapRNode(componentLView[HOST]);
   // Serialize all views within this view container.
   const rootLView = lContainer[PARENT];
@@ -49879,7 +49972,10 @@ function annotateForHydration(appRef, doc) {
   const corruptedTextNodes = new Map();
   const viewRefs = appRef._views;
   const shouldReplayEvents = injector.get(IS_EVENT_REPLAY_ENABLED, EVENT_REPLAY_ENABLED_DEFAULT);
-  const eventTypesToReplay = new Set();
+  const eventTypesToReplay = {
+    regular: new Set(),
+    capture: new Set()
+  };
   for (const viewRef of viewRefs) {
     const lNode = getLNodeForHydration(viewRef);
     // An `lView` might be `null` if a `ViewRef` represents
@@ -49909,7 +50005,7 @@ function annotateForHydration(appRef, doc) {
   const serializedViews = serializedViewCollection.getAll();
   const transferState = injector.get(TransferState);
   transferState.set(NGH_DATA_KEY, serializedViews);
-  return eventTypesToReplay.size > 0 ? eventTypesToReplay : undefined;
+  return eventTypesToReplay;
 }
 /**
  * Serializes the lContainer data into a list of SerializedView objects,
@@ -50022,9 +50118,6 @@ function serializeLView(lView, context) {
   for (let i = HEADER_OFFSET; i < tView.bindingStartIndex; i++) {
     const tNode = tView.data[i];
     const noOffsetIndex = i - HEADER_OFFSET;
-    if (nativeElementsToEventTypes) {
-      setJSActionAttribute(tNode, lView[i], nativeElementsToEventTypes);
-    }
     // Attempt to serialize any i18n data for the given slot. We do this first, as i18n
     // has its own process for serialization.
     const i18nData = trySerializeI18nBlock(lView, i, context);
@@ -50058,6 +50151,14 @@ function serializeLView(lView, context) {
     if (isDisconnectedNode(tNode, lView) && isContentProjectedNode(tNode)) {
       appendDisconnectedNodeIndex(ngh, tNode);
       continue;
+    }
+    // Attach `jsaction` attribute to elements that have registered listeners,
+    // thus potentially having a need to do an event replay.
+    if (nativeElementsToEventTypes && tNode.type & 2 /* TNodeType.Element */) {
+      const nativeElement = unwrapRNode(lView[i]);
+      if (nativeElementsToEventTypes.has(nativeElement)) {
+        setJSActionAttribute(nativeElement, nativeElementsToEventTypes.get(nativeElement));
+      }
     }
     if (Array.isArray(tNode.projection)) {
       for (const projectionHeadTNode of tNode.projection) {
@@ -50306,7 +50407,7 @@ function enableI18nHydrationRuntimeSupport() {
  */
 function printHydrationStats(injector) {
   const console = injector.get(Console);
-  const message = `Angular hydrated ${ngDevMode.hydratedComponents} component(s) ` + `and ${ngDevMode.hydratedNodes} node(s), ` + `${ngDevMode.componentsSkippedHydration} component(s) were skipped. ` + `Learn more at https://angular.io/guide/hydration.`;
+  const message = `Angular hydrated ${ngDevMode.hydratedComponents} component(s) ` + `and ${ngDevMode.hydratedNodes} node(s), ` + `${ngDevMode.componentsSkippedHydration} component(s) were skipped. ` + `Learn more at https://angular.dev/guide/hydration.`;
   // tslint:disable-next-line:no-console
   console.log(message);
 }
@@ -51034,241 +51135,122 @@ if (typeof ngDevMode !== 'undefined' && ngDevMode) {
 
 /***/ }),
 
-/***/ 526:
+/***/ 9962:
 /*!*********************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6/node_modules/@angular/core/fesm2022/primitives/event-dispatch.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+core@18.0.3_rxjs@7.8.1_zone.js@0.14.7/node_modules/@angular/core/fesm2022/primitives/event-dispatch.mjs ***!
   \*********************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Dispatcher: () => (/* binding */ Dispatcher),
+/* harmony export */   Attribute: () => (/* binding */ Attribute),
 /* harmony export */   EventContract: () => (/* binding */ EventContract),
 /* harmony export */   EventContractContainer: () => (/* binding */ EventContractContainer),
+/* harmony export */   EventDispatcher: () => (/* binding */ EventDispatcher),
 /* harmony export */   EventInfoWrapper: () => (/* binding */ EventInfoWrapper),
+/* harmony export */   EventPhase: () => (/* binding */ EventPhase),
+/* harmony export */   JSACTION: () => (/* binding */ JSACTION$1),
+/* harmony export */   JSINSTANCE: () => (/* binding */ JSINSTANCE),
+/* harmony export */   JSTRACK: () => (/* binding */ JSTRACK),
+/* harmony export */   OI: () => (/* binding */ OI$1),
+/* harmony export */   VED: () => (/* binding */ VED),
+/* harmony export */   VET: () => (/* binding */ VET),
 /* harmony export */   bootstrapEarlyEventContract: () => (/* binding */ bootstrapEarlyEventContract),
+/* harmony export */   isCaptureEvent: () => (/* binding */ isCaptureEvent),
+/* harmony export */   isSupportedEvent: () => (/* binding */ isSupportedEvent),
 /* harmony export */   registerDispatcher: () => (/* binding */ registerDispatcher)
 /* harmony export */ });
 /**
- * @license Angular v18.0.0
+ * @license Angular v18.0.3
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
 
-/** Added for readability when accessing stable property names. */
-function getEventType(eventInfo) {
-  return eventInfo.eventType;
-}
-/** Added for readability when accessing stable property names. */
-function setEventType(eventInfo, eventType) {
-  eventInfo.eventType = eventType;
-}
-/** Added for readability when accessing stable property names. */
-function getEvent(eventInfo) {
-  return eventInfo.event;
-}
-/** Added for readability when accessing stable property names. */
-function setEvent(eventInfo, event) {
-  eventInfo.event = event;
-}
-/** Added for readability when accessing stable property names. */
-function getTargetElement(eventInfo) {
-  return eventInfo.targetElement;
-}
-/** Added for readability when accessing stable property names. */
-function setTargetElement(eventInfo, targetElement) {
-  eventInfo.targetElement = targetElement;
-}
-/** Added for readability when accessing stable property names. */
-function getContainer(eventInfo) {
-  return eventInfo.eic;
-}
-/** Added for readability when accessing stable property names. */
-function setContainer(eventInfo, container) {
-  eventInfo.eic = container;
-}
-/** Added for readability when accessing stable property names. */
-function getTimestamp(eventInfo) {
-  return eventInfo.timeStamp;
-}
-/** Added for readability when accessing stable property names. */
-function setTimestamp(eventInfo, timestamp) {
-  eventInfo.timeStamp = timestamp;
-}
-/** Added for readability when accessing stable property names. */
-function getAction(eventInfo) {
-  return eventInfo.eia;
-}
-/** Added for readability when accessing stable property names. */
-function setAction(eventInfo, actionName, actionElement) {
-  eventInfo.eia = [actionName, actionElement];
-}
-/** Added for readability when accessing stable property names. */
-function unsetAction(eventInfo) {
-  eventInfo.eia = undefined;
-}
-/** Added for readability when accessing stable property names. */
-function getActionName(actionInfo) {
-  return actionInfo[0];
-}
-/** Added for readability when accessing stable property names. */
-function getActionElement(actionInfo) {
-  return actionInfo[1];
-}
-/** Added for readability when accessing stable property names. */
-function getIsReplay(eventInfo) {
-  return eventInfo.eirp;
-}
-/** Added for readability when accessing stable property names. */
-function setIsReplay(eventInfo, replay) {
-  eventInfo.eirp = replay;
-}
-/** Added for readability when accessing stable property names. */
-function getA11yClickKey(eventInfo) {
-  return eventInfo.eiack;
-}
-/** Added for readability when accessing stable property names. */
-function setA11yClickKey(eventInfo, a11yClickKey) {
-  eventInfo.eiack = a11yClickKey;
-}
-/** Added for readability when accessing stable property names. */
-function getResolved(eventInfo) {
-  return eventInfo.eir;
-}
-/** Added for readability when accessing stable property names. */
-function setResolved(eventInfo, resolved) {
-  eventInfo.eir = resolved;
-}
-/** Clones an `EventInfo` */
-function cloneEventInfo(eventInfo) {
-  return {
-    eventType: eventInfo.eventType,
-    event: eventInfo.event,
-    targetElement: eventInfo.targetElement,
-    eic: eventInfo.eic,
-    eia: eventInfo.eia,
-    timeStamp: eventInfo.timeStamp,
-    eirp: eventInfo.eirp,
-    eiack: eventInfo.eiack,
-    eir: eventInfo.eir
-  };
-}
 /**
- * Utility function for creating an `EventInfo`.
+ * The jsaction attribute defines a mapping of a DOM event to a
+ * generic event (aka jsaction), to which the actual event handlers
+ * that implement the behavior of the application are bound. The
+ * value is a semicolon separated list of colon separated pairs of
+ * an optional DOM event name and a jsaction name. If the optional
+ * DOM event name is omitted, 'click' is assumed. The jsaction names
+ * are dot separated pairs of a namespace and a simple jsaction
+ * name.
  *
- * This can be used from code-size sensitive compilation units, as taking
- * parameters vs. an `Object` literal reduces code size.
+ * See grammar in README.md for expected syntax in the attribute value.
  */
-function createEventInfoFromParameters(eventType, event, targetElement, container, timestamp, action, isReplay, a11yClickKey) {
-  return {
-    eventType,
-    event,
-    targetElement,
-    eic: container,
-    timeStamp: timestamp,
-    eia: action,
-    eirp: isReplay,
-    eiack: a11yClickKey
-  };
-}
+const JSACTION$1 = 'jsaction';
 /**
- * Utility function for creating an `EventInfo`.
+ * The oi attribute is a log impression tag for impression logging
+ * and action tracking. For an element that carries a jsaction
+ * attribute, the element is identified for the purpose of
+ * impression logging and click tracking by the dot separated path
+ * of all oi attributes in the chain of ancestors of the element.
  *
- * This should be used in compilation units that are less sensitive to code
- * size.
+ * Used by ActionFlow.
  */
-function createEventInfo({
-  eventType,
-  event,
-  targetElement,
-  container,
-  timestamp,
-  action,
-  isReplay,
-  a11yClickKey
-}) {
-  return {
-    eventType,
-    event,
-    targetElement,
-    eic: container,
-    timeStamp: timestamp,
-    eia: action ? [action.name, action.element] : undefined,
-    eirp: isReplay,
-    eiack: a11yClickKey
-  };
-}
+const OI$1 = 'oi';
 /**
- * Utility class around an `EventInfo`.
+ * The ved attribute is an encoded ClickTrackingCGI proto to track
+ * visual elements.
  *
- * This should be used in compilation units that are less sensitive to code
- * size.
+ * Used by ActionFlow.
  */
-class EventInfoWrapper {
-  constructor(eventInfo) {
-    this.eventInfo = eventInfo;
-  }
-  getEventType() {
-    return getEventType(this.eventInfo);
-  }
-  setEventType(eventType) {
-    setEventType(this.eventInfo, eventType);
-  }
-  getEvent() {
-    return getEvent(this.eventInfo);
-  }
-  setEvent(event) {
-    setEvent(this.eventInfo, event);
-  }
-  getTargetElement() {
-    return getTargetElement(this.eventInfo);
-  }
-  setTargetElement(targetElement) {
-    setTargetElement(this.eventInfo, targetElement);
-  }
-  getContainer() {
-    return getContainer(this.eventInfo);
-  }
-  setContainer(container) {
-    setContainer(this.eventInfo, container);
-  }
-  getTimestamp() {
-    return getTimestamp(this.eventInfo);
-  }
-  setTimestamp(timestamp) {
-    setTimestamp(this.eventInfo, timestamp);
-  }
-  getAction() {
-    const action = getAction(this.eventInfo);
-    if (!action) return undefined;
-    return {
-      name: action[0],
-      element: action[1]
-    };
-  }
-  setAction(action) {
-    if (!action) {
-      unsetAction(this.eventInfo);
-      return;
-    }
-    setAction(this.eventInfo, action.name, action.element);
-  }
-  getIsReplay() {
-    return getIsReplay(this.eventInfo);
-  }
-  setIsReplay(replay) {
-    setIsReplay(this.eventInfo, replay);
-  }
-  getResolved() {
-    return getResolved(this.eventInfo);
-  }
-  setResolved(resolved) {
-    setResolved(this.eventInfo, resolved);
-  }
-  clone() {
-    return new EventInfoWrapper(cloneEventInfo(this.eventInfo));
-  }
-}
+const VED = 'ved';
+/**
+ * The vet attribute is the visual element type used to identify tracked
+ * visual elements.
+ */
+const VET = 'vet';
+/**
+ * Support for iteration on reprocessing.
+ *
+ * Used by ActionFlow.
+ */
+const JSINSTANCE = 'jsinstance';
+/**
+ * All click jsactions that happen on the element that carries this
+ * attribute or its descendants are automatically logged.
+ * Impressions of jsactions on these elements are tracked too, if
+ * requested by the impression() method of ActionFlow.
+ *
+ * Used by ActionFlow.
+ */
+const JSTRACK = 'jstrack';
+const Attribute = {
+  JSACTION: JSACTION$1,
+  OI: OI$1,
+  VED,
+  VET,
+  JSINSTANCE,
+  JSTRACK
+};
+const Char = {
+  /**
+   * The separator between the namespace and the action name in the
+   * jsaction attribute value.
+   */
+  NAMESPACE_ACTION_SEPARATOR: '.',
+  /**
+   * The separator between the event name and action in the jsaction
+   * attribute value.
+   */
+  EVENT_ACTION_SEPARATOR: ':',
+  /**
+   * The separator between the logged oi attribute values in the &oi=
+   * URL parameter value.
+   */
+  OI_SEPARATOR: '.',
+  /**
+   * The separator between the key and the value pairs in the &cad=
+   * URL parameter value.
+   */
+  CAD_KEY_VALUE_SEPARATOR: ':',
+  /**
+   * The separator between the key-value pairs in the &cad= URL
+   * parameter value.
+   */
+  CAD_SEPARATOR: ','
+};
 
 /*
  * Names of events that are special to jsaction. These are not all
@@ -51506,14 +51488,321 @@ const EventType = {
    */
   CUSTOM: '_custom'
 };
+const NON_BUBBLING_MOUSE_EVENTS = [EventType.MOUSEENTER, EventType.MOUSELEAVE, 'pointerenter', 'pointerleave'];
+/**
+ * Detects whether a given event type is supported by JSAction.
+ */
+const isSupportedEvent = eventType => SUPPORTED_EVENTS.indexOf(eventType) >= 0;
+const SUPPORTED_EVENTS = [EventType.CLICK, EventType.DBLCLICK, EventType.FOCUS, EventType.FOCUSIN, EventType.BLUR, EventType.ERROR, EventType.FOCUSOUT, EventType.KEYDOWN, EventType.KEYUP, EventType.KEYPRESS, EventType.LOAD, EventType.MOUSEOVER, EventType.MOUSEOUT, EventType.SUBMIT, EventType.TOGGLE, EventType.TOUCHSTART, EventType.TOUCHEND, EventType.TOUCHMOVE, 'touchcancel', 'auxclick', 'change', 'compositionstart', 'compositionupdate', 'compositionend', 'beforeinput', 'input', 'select', 'copy', 'cut', 'paste', 'mousedown', 'mouseup', 'wheel', 'contextmenu', 'dragover', 'dragenter', 'dragleave', 'drop', 'dragstart', 'dragend', 'pointerdown', 'pointermove', 'pointerup', 'pointercancel', 'pointerover', 'pointerout', 'gotpointercapture', 'lostpointercapture',
+// Video events.
+'ended', 'loadedmetadata',
+// Page visibility events.
+'pagehide', 'pageshow', 'visibilitychange',
+// Content visibility events.
+'beforematch'];
+/**
+ *
+ * Decides whether or not an event type is an event that only has a capture phase.
+ *
+ * @param eventType
+ * @returns bool
+ */
+const isCaptureEvent = eventType => CAPTURE_EVENTS.indexOf(eventType) >= 0;
+const CAPTURE_EVENTS = [EventType.FOCUS, EventType.BLUR, EventType.ERROR, EventType.LOAD, EventType.TOGGLE];
 
 /**
- * @fileoverview An enum to control who can call certain jsaction APIs.
+ * The parsed value of the jsaction attribute is stored in this
+ * property on the DOM node. The parsed value is an Object. The
+ * property names of the object are the events; the values are the
+ * names of the actions. This property is attached even on nodes
+ * that don't have a jsaction attribute as an optimization, because
+ * property lookup is faster than attribute access.
  */
-var Restriction;
-(function (Restriction) {
-  Restriction[Restriction["I_AM_THE_JSACTION_FRAMEWORK"] = 0] = "I_AM_THE_JSACTION_FRAMEWORK";
-})(Restriction || (Restriction = {}));
+const JSACTION = '__jsaction';
+/** The value of the oi attribute as a property, for faster access. */
+const OI = '__oi';
+/**
+ * The owner property references an a logical owner for a DOM node. JSAction
+ * will follow this reference instead of parentNode when traversing the DOM
+ * to find jsaction attributes. This allows overlaying a logical structure
+ * over a document where the DOM structure can't reflect that structure.
+ */
+const OWNER = '__owner';
+/** All properties that are used by jsaction. */
+const Property = {
+  JSACTION,
+  OI,
+  OWNER
+};
+
+/**
+ * Map from jsaction annotation to a parsed map from event name to action name.
+ */
+const parseCache = {};
+/**
+ * Reads the jsaction parser cache from the given DOM Element.
+ *
+ * @param element .
+ * @return Map from event to qualified name of the jsaction bound to it.
+ */
+function get(element) {
+  // @ts-ignore
+  return element[JSACTION];
+}
+/**
+ * Writes the jsaction parser cache to the given DOM Element.
+ *
+ * @param element .
+ * @param actionMap Map from event to qualified name of the jsaction bound to
+ *     it.
+ */
+function set(element, actionMap) {
+  // @ts-ignore
+  element[JSACTION] = actionMap;
+}
+/**
+ * Looks up the parsed action map from the source jsaction attribute value.
+ *
+ * @param text Unparsed jsaction attribute value.
+ * @return Parsed jsaction attribute value, if already present in the cache.
+ */
+function getParsed(text) {
+  return parseCache[text];
+}
+/**
+ * Inserts the parse result for the given source jsaction value into the cache.
+ *
+ * @param text Unparsed jsaction attribute value.
+ * @param parsed Attribute value parsed into the action map.
+ */
+function setParsed(text, parsed) {
+  parseCache[text] = parsed;
+}
+/**
+ * Clears the jsaction parser cache from the given DOM Element.
+ *
+ * @param element .
+ */
+function clear(element) {
+  if (JSACTION in element) {
+    delete element[JSACTION];
+  }
+}
+
+/** Added for readability when accessing stable property names. */
+function getEventType(eventInfo) {
+  return eventInfo.eventType;
+}
+/** Added for readability when accessing stable property names. */
+function setEventType(eventInfo, eventType) {
+  eventInfo.eventType = eventType;
+}
+/** Added for readability when accessing stable property names. */
+function getEvent(eventInfo) {
+  return eventInfo.event;
+}
+/** Added for readability when accessing stable property names. */
+function setEvent(eventInfo, event) {
+  eventInfo.event = event;
+}
+/** Added for readability when accessing stable property names. */
+function getTargetElement(eventInfo) {
+  return eventInfo.targetElement;
+}
+/** Added for readability when accessing stable property names. */
+function setTargetElement(eventInfo, targetElement) {
+  eventInfo.targetElement = targetElement;
+}
+/** Added for readability when accessing stable property names. */
+function getContainer(eventInfo) {
+  return eventInfo.eic;
+}
+/** Added for readability when accessing stable property names. */
+function setContainer(eventInfo, container) {
+  eventInfo.eic = container;
+}
+/** Added for readability when accessing stable property names. */
+function getTimestamp(eventInfo) {
+  return eventInfo.timeStamp;
+}
+/** Added for readability when accessing stable property names. */
+function setTimestamp(eventInfo, timestamp) {
+  eventInfo.timeStamp = timestamp;
+}
+/** Added for readability when accessing stable property names. */
+function getAction(eventInfo) {
+  return eventInfo.eia;
+}
+/** Added for readability when accessing stable property names. */
+function setAction(eventInfo, actionName, actionElement) {
+  eventInfo.eia = [actionName, actionElement];
+}
+/** Added for readability when accessing stable property names. */
+function unsetAction(eventInfo) {
+  eventInfo.eia = undefined;
+}
+/** Added for readability when accessing stable property names. */
+function getActionName(actionInfo) {
+  return actionInfo[0];
+}
+/** Added for readability when accessing stable property names. */
+function getActionElement(actionInfo) {
+  return actionInfo[1];
+}
+/** Added for readability when accessing stable property names. */
+function getIsReplay(eventInfo) {
+  return eventInfo.eirp;
+}
+/** Added for readability when accessing stable property names. */
+function setIsReplay(eventInfo, replay) {
+  eventInfo.eirp = replay;
+}
+/** Added for readability when accessing stable property names. */
+function getA11yClickKey(eventInfo) {
+  return eventInfo.eiack;
+}
+/** Added for readability when accessing stable property names. */
+function setA11yClickKey(eventInfo, a11yClickKey) {
+  eventInfo.eiack = a11yClickKey;
+}
+/** Added for readability when accessing stable property names. */
+function getResolved(eventInfo) {
+  return eventInfo.eir;
+}
+/** Added for readability when accessing stable property names. */
+function setResolved(eventInfo, resolved) {
+  eventInfo.eir = resolved;
+}
+/** Clones an `EventInfo` */
+function cloneEventInfo(eventInfo) {
+  return {
+    eventType: eventInfo.eventType,
+    event: eventInfo.event,
+    targetElement: eventInfo.targetElement,
+    eic: eventInfo.eic,
+    eia: eventInfo.eia,
+    timeStamp: eventInfo.timeStamp,
+    eirp: eventInfo.eirp,
+    eiack: eventInfo.eiack,
+    eir: eventInfo.eir
+  };
+}
+/**
+ * Utility function for creating an `EventInfo`.
+ *
+ * This can be used from code-size sensitive compilation units, as taking
+ * parameters vs. an `Object` literal reduces code size.
+ */
+function createEventInfoFromParameters(eventType, event, targetElement, container, timestamp, action, isReplay, a11yClickKey) {
+  return {
+    eventType,
+    event,
+    targetElement,
+    eic: container,
+    timeStamp: timestamp,
+    eia: action,
+    eirp: isReplay,
+    eiack: a11yClickKey
+  };
+}
+/**
+ * Utility function for creating an `EventInfo`.
+ *
+ * This should be used in compilation units that are less sensitive to code
+ * size.
+ */
+function createEventInfo({
+  eventType,
+  event,
+  targetElement,
+  container,
+  timestamp,
+  action,
+  isReplay,
+  a11yClickKey
+}) {
+  return {
+    eventType,
+    event,
+    targetElement,
+    eic: container,
+    timeStamp: timestamp,
+    eia: action ? [action.name, action.element] : undefined,
+    eirp: isReplay,
+    eiack: a11yClickKey
+  };
+}
+/**
+ * Utility class around an `EventInfo`.
+ *
+ * This should be used in compilation units that are less sensitive to code
+ * size.
+ */
+class EventInfoWrapper {
+  constructor(eventInfo) {
+    this.eventInfo = eventInfo;
+  }
+  getEventType() {
+    return getEventType(this.eventInfo);
+  }
+  setEventType(eventType) {
+    setEventType(this.eventInfo, eventType);
+  }
+  getEvent() {
+    return getEvent(this.eventInfo);
+  }
+  setEvent(event) {
+    setEvent(this.eventInfo, event);
+  }
+  getTargetElement() {
+    return getTargetElement(this.eventInfo);
+  }
+  setTargetElement(targetElement) {
+    setTargetElement(this.eventInfo, targetElement);
+  }
+  getContainer() {
+    return getContainer(this.eventInfo);
+  }
+  setContainer(container) {
+    setContainer(this.eventInfo, container);
+  }
+  getTimestamp() {
+    return getTimestamp(this.eventInfo);
+  }
+  setTimestamp(timestamp) {
+    setTimestamp(this.eventInfo, timestamp);
+  }
+  getAction() {
+    const action = getAction(this.eventInfo);
+    if (!action) return undefined;
+    return {
+      name: action[0],
+      element: action[1]
+    };
+  }
+  setAction(action) {
+    if (!action) {
+      unsetAction(this.eventInfo);
+      return;
+    }
+    setAction(this.eventInfo, action.name, action.element);
+  }
+  getIsReplay() {
+    return getIsReplay(this.eventInfo);
+  }
+  setIsReplay(replay) {
+    setIsReplay(this.eventInfo, replay);
+  }
+  getResolved() {
+    return getResolved(this.eventInfo);
+  }
+  setResolved(resolved) {
+    setResolved(this.eventInfo, resolved);
+  }
+  clone() {
+    return new EventInfoWrapper(cloneEventInfo(this.eventInfo));
+  }
+}
 
 /**
  * Determines if one node is contained within another. Adapted from
@@ -51617,7 +51906,7 @@ function addEventListener(element, eventType, handler) {
   // Error and load events (i.e. on images) do not bubble so they are also
   // handled in the capture phase.
   let capture = false;
-  if (eventType === EventType.FOCUS || eventType === EventType.BLUR || eventType === EventType.ERROR || eventType === EventType.LOAD || eventType === EventType.TOGGLE) {
+  if (isCaptureEvent(eventType)) {
     capture = true;
   }
   element.addEventListener(eventType, handler, capture);
@@ -52182,6 +52471,236 @@ const testing = {
 };
 
 /**
+ * Since maps from event to action are immutable we can use a single map
+ * to represent the empty map.
+ */
+const EMPTY_ACTION_MAP = {};
+/**
+ * This regular expression matches a semicolon.
+ */
+const REGEXP_SEMICOLON = /\s*;\s*/;
+/** If no event type is defined, defaults to `click`. */
+const DEFAULT_EVENT_TYPE = EventType.CLICK;
+/** Resolves actions for Events. */
+class ActionResolver {
+  constructor({
+    syntheticMouseEventSupport = false
+  } = {}) {
+    this.a11yClickSupport = false;
+    this.updateEventInfoForA11yClick = undefined;
+    this.preventDefaultForA11yClick = undefined;
+    this.populateClickOnlyAction = undefined;
+    this.syntheticMouseEventSupport = syntheticMouseEventSupport;
+  }
+  resolveEventType(eventInfo) {
+    // We distinguish modified and plain clicks in order to support the
+    // default browser behavior of modified clicks on links; usually to
+    // open the URL of the link in new tab or new window on ctrl/cmd
+    // click. A DOM 'click' event is mapped to the jsaction 'click'
+    // event iff there is no modifier present on the event. If there is
+    // a modifier, it's mapped to 'clickmod' instead.
+    //
+    // It's allowed to omit the event in the jsaction attribute. In that
+    // case, 'click' is assumed. Thus the following two are equivalent:
+    //
+    //   <a href="someurl" jsaction="gna.fu">
+    //   <a href="someurl" jsaction="click:gna.fu">
+    //
+    // For unmodified clicks, EventContract invokes the jsaction
+    // 'gna.fu'. For modified clicks, EventContract won't find a
+    // suitable action and leave the event to be handled by the
+    // browser.
+    //
+    // In order to also invoke a jsaction handler for a modifier click,
+    // 'clickmod' needs to be used:
+    //
+    //   <a href="someurl" jsaction="clickmod:gna.fu">
+    //
+    // EventContract invokes the jsaction 'gna.fu' for modified
+    // clicks. Unmodified clicks are left to the browser.
+    //
+    // In order to set up the event contract to handle both clickonly and
+    // clickmod, only addEvent(EventType.CLICK) is necessary.
+    //
+    // In order to set up the event contract to handle click,
+    // addEvent() is necessary for CLICK, KEYDOWN, and KEYPRESS event types.  If
+    // a11y click support is enabled, addEvent() will set up the appropriate key
+    // event handler automatically.
+    if (getEventType(eventInfo) === EventType.CLICK && isModifiedClickEvent(getEvent(eventInfo))) {
+      setEventType(eventInfo, EventType.CLICKMOD);
+    } else if (this.a11yClickSupport) {
+      this.updateEventInfoForA11yClick(eventInfo);
+    }
+  }
+  resolveAction(eventInfo) {
+    if (getResolved(eventInfo)) {
+      return;
+    }
+    this.populateAction(eventInfo, getTargetElement(eventInfo));
+    setResolved(eventInfo, true);
+  }
+  resolveParentAction(eventInfo) {
+    const action = getAction(eventInfo);
+    const actionElement = action && getActionElement(action);
+    unsetAction(eventInfo);
+    const parentNode = actionElement && this.getParentNode(actionElement);
+    if (!parentNode) {
+      return;
+    }
+    this.populateAction(eventInfo, parentNode);
+  }
+  /**
+   * Searches for a jsaction that the DOM event maps to and creates an
+   * object containing event information used for dispatching by
+   * jsaction.Dispatcher. This method populates the `action` and `actionElement`
+   * fields of the EventInfo object passed in by finding the first
+   * jsaction attribute above the target Node of the event, and below
+   * the container Node, that specifies a jsaction for the event
+   * type. If no such jsaction is found, then action is undefined.
+   *
+   * @param eventInfo `EventInfo` to set `action` and `actionElement` if an
+   *    action is found on any `Element` in the path of the `Event`.
+   */
+  populateAction(eventInfo, currentTarget) {
+    let actionElement = currentTarget;
+    while (actionElement && actionElement !== getContainer(eventInfo)) {
+      if (actionElement.nodeType === Node.ELEMENT_NODE) {
+        this.populateActionOnElement(actionElement, eventInfo);
+      }
+      if (getAction(eventInfo)) {
+        // An event is handled by at most one jsaction. Thus we stop at the
+        // first matching jsaction specified in a jsaction attribute up the
+        // ancestor chain of the event target node.
+        break;
+      }
+      actionElement = this.getParentNode(actionElement);
+    }
+    const action = getAction(eventInfo);
+    if (!action) {
+      // No action found.
+      return;
+    }
+    if (this.a11yClickSupport) {
+      this.preventDefaultForA11yClick(eventInfo);
+    }
+    // We attempt to handle the mouseenter/mouseleave events here by
+    // detecting whether the mouseover/mouseout events correspond to
+    // entering/leaving an element.
+    if (this.syntheticMouseEventSupport) {
+      if (getEventType(eventInfo) === EventType.MOUSEENTER || getEventType(eventInfo) === EventType.MOUSELEAVE || getEventType(eventInfo) === EventType.POINTERENTER || getEventType(eventInfo) === EventType.POINTERLEAVE) {
+        // We attempt to handle the mouseenter/mouseleave events here by
+        // detecting whether the mouseover/mouseout events correspond to
+        // entering/leaving an element.
+        if (isMouseSpecialEvent(getEvent(eventInfo), getEventType(eventInfo), getActionElement(action))) {
+          // If both mouseover/mouseout and mouseenter/mouseleave events are
+          // enabled, two separate handlers for mouseover/mouseout are
+          // registered. Both handlers will see the same event instance
+          // so we create a copy to avoid interfering with the dispatching of
+          // the mouseover/mouseout event.
+          const copiedEvent = createMouseSpecialEvent(getEvent(eventInfo), getActionElement(action));
+          setEvent(eventInfo, copiedEvent);
+          // Since the mouseenter/mouseleave events do not bubble, the target
+          // of the event is technically the `actionElement` (the node with the
+          // `jsaction` attribute)
+          setTargetElement(eventInfo, getActionElement(action));
+        } else {
+          unsetAction(eventInfo);
+        }
+      }
+    }
+  }
+  /**
+   * Walk to the parent node, unless the node has a different owner in
+   * which case we walk to the owner. Attempt to walk to host of a
+   * shadow root if needed.
+   */
+  getParentNode(element) {
+    const owner = element[OWNER];
+    if (owner) {
+      return owner;
+    }
+    const parentNode = element.parentNode;
+    if (parentNode?.nodeName === '#document-fragment') {
+      return parentNode?.host ?? null;
+    }
+    return parentNode;
+  }
+  /**
+   * Accesses the jsaction map on a node and retrieves the name of the
+   * action the given event is mapped to, if any. It parses the
+   * attribute value and stores it in a property on the node for
+   * subsequent retrieval without re-parsing and re-accessing the
+   * attribute.
+   *
+   * @param actionElement The DOM node to retrieve the jsaction map from.
+   * @param eventInfo `EventInfo` to set `action` and `actionElement` if an
+   *    action is found on the `actionElement`.
+   */
+  populateActionOnElement(actionElement, eventInfo) {
+    const actionMap = this.parseActions(actionElement);
+    const actionName = actionMap[getEventType(eventInfo)];
+    if (actionName !== undefined) {
+      setAction(eventInfo, actionName, actionElement);
+    }
+    if (this.a11yClickSupport) {
+      this.populateClickOnlyAction(actionElement, eventInfo, actionMap);
+    }
+  }
+  /**
+   * Parses and caches an element's jsaction element into a map.
+   *
+   * This is primarily for internal use.
+   *
+   * @param actionElement The DOM node to retrieve the jsaction map from.
+   * @return Map from event to qualified name of the jsaction bound to it.
+   */
+  parseActions(actionElement) {
+    let actionMap = get(actionElement);
+    if (!actionMap) {
+      const jsactionAttribute = actionElement.getAttribute(Attribute.JSACTION);
+      if (!jsactionAttribute) {
+        actionMap = EMPTY_ACTION_MAP;
+        set(actionElement, actionMap);
+      } else {
+        actionMap = getParsed(jsactionAttribute);
+        if (!actionMap) {
+          actionMap = {};
+          const values = jsactionAttribute.split(REGEXP_SEMICOLON);
+          for (let idx = 0; idx < values.length; idx++) {
+            const value = values[idx];
+            if (!value) {
+              continue;
+            }
+            const colon = value.indexOf(Char.EVENT_ACTION_SEPARATOR);
+            const hasColon = colon !== -1;
+            const type = hasColon ? value.substr(0, colon).trim() : DEFAULT_EVENT_TYPE;
+            const action = hasColon ? value.substr(colon + 1).trim() : value;
+            actionMap[type] = action;
+          }
+          setParsed(jsactionAttribute, actionMap);
+        }
+        set(actionElement, actionMap);
+      }
+    }
+    return actionMap;
+  }
+  addA11yClickSupport(updateEventInfoForA11yClick, preventDefaultForA11yClick, populateClickOnlyAction) {
+    this.a11yClickSupport = true;
+    this.updateEventInfoForA11yClick = updateEventInfoForA11yClick;
+    this.preventDefaultForA11yClick = preventDefaultForA11yClick;
+    this.populateClickOnlyAction = populateClickOnlyAction;
+  }
+}
+
+/**
+ * @fileoverview An enum to control who can call certain jsaction APIs.
+ */
+var Restriction;
+(function (Restriction) {
+  Restriction[Restriction["I_AM_THE_JSACTION_FRAMEWORK"] = 0] = "I_AM_THE_JSACTION_FRAMEWORK";
+})(Restriction || (Restriction = {}));
+
+/**
  * Receives a DOM event, determines the jsaction associated with the source
  * element of the DOM event, and invokes the handler associated with the
  * jsaction.
@@ -52196,7 +52715,7 @@ class Dispatcher {
    */
   constructor(dispatchDelegate, {
     actionResolver,
-    eventReplayer = createEventReplayer(dispatchDelegate)
+    eventReplayer
   } = {}) {
     this.dispatchDelegate = dispatchDelegate;
     /** Whether the event replay is scheduled. */
@@ -52228,12 +52747,13 @@ class Dispatcher {
    */
   dispatch(eventInfo) {
     const eventInfoWrapper = new EventInfoWrapper(eventInfo);
-    this.actionResolver?.resolve(eventInfo);
+    this.actionResolver?.resolveEventType(eventInfo);
+    this.actionResolver?.resolveAction(eventInfo);
     const action = eventInfoWrapper.getAction();
     if (action && shouldPreventDefaultBeforeDispatching(action.element, eventInfoWrapper)) {
       preventDefault(eventInfoWrapper.getEvent());
     }
-    if (eventInfoWrapper.getIsReplay()) {
+    if (this.eventReplayer && eventInfoWrapper.getIsReplay()) {
       this.scheduleEventInfoWrapperReplay(eventInfoWrapper);
       return;
     }
@@ -52276,7 +52796,126 @@ function shouldPreventDefaultBeforeDispatching(actionElement, eventInfoWrapper) 
   // and we are dispatching the action now. Note that the targetElement may be
   // a child of an anchor that has a jsaction attached. For that reason, we
   // need to check the actionElement rather than the targetElement.
-  return actionElement.tagName === 'A' && eventInfoWrapper.getEventType() === EventType.CLICK || eventInfoWrapper.getEventType() === EventType.CLICKMOD;
+  return actionElement.tagName === 'A' && (eventInfoWrapper.getEventType() === EventType.CLICK || eventInfoWrapper.getEventType() === EventType.CLICKMOD);
+}
+/**
+ * Registers deferred functionality for an EventContract and a Jsaction
+ * Dispatcher.
+ */
+function registerDispatcher$1(eventContract, dispatcher) {
+  eventContract.ecrd(eventInfo => {
+    dispatcher.dispatch(eventInfo);
+  }, Restriction.I_AM_THE_JSACTION_FRAMEWORK);
+}
+
+/** An internal symbol used to indicate whether propagation should be stopped or not. */
+const PROPAGATION_STOPPED_SYMBOL = Symbol.for('propagationStopped');
+/** Extra event phases beyond what the browser provides. */
+const EventPhase = {
+  REPLAY: 101
+};
+const PREVENT_DEFAULT_ERROR_MESSAGE_DETAILS = ' Because event replay occurs after browser dispatch, `preventDefault` would have no ' + 'effect. You can check whether an event is being replayed by accessing the event phase: ' + '`event.eventPhase === EventPhase.REPLAY`.';
+const PREVENT_DEFAULT_ERROR_MESSAGE = `\`preventDefault\` called during event replay.`;
+const COMPOSED_PATH_ERROR_MESSAGE_DETAILS = ' Because event replay occurs after browser ' + 'dispatch, `composedPath()` will be empty. Iterate parent nodes from `event.target` or ' + '`event.currentTarget` if you need to check elements in the event path.';
+const COMPOSED_PATH_ERROR_MESSAGE = `\`composedPath\` called during event replay.`;
+/**
+ * A dispatcher that uses browser-based `Event` semantics, for example bubbling, `stopPropagation`,
+ * `currentTarget`, etc.
+ */
+class EventDispatcher {
+  constructor(dispatchDelegate) {
+    this.dispatchDelegate = dispatchDelegate;
+    this.actionResolver = new ActionResolver();
+    this.dispatcher = new Dispatcher(eventInfoWrapper => {
+      this.dispatchToDelegate(eventInfoWrapper);
+    }, {
+      actionResolver: this.actionResolver
+    });
+  }
+  /**
+   * The entrypoint for the `EventContract` dispatch.
+   */
+  dispatch(eventInfo) {
+    this.dispatcher.dispatch(eventInfo);
+  }
+  /** Internal method that does basic disaptching. */
+  dispatchToDelegate(eventInfoWrapper) {
+    if (eventInfoWrapper.getIsReplay()) {
+      prepareEventForReplay(eventInfoWrapper);
+    }
+    prepareEventForBubbling(eventInfoWrapper);
+    while (eventInfoWrapper.getAction()) {
+      prepareEventForDispatch(eventInfoWrapper);
+      this.dispatchDelegate(eventInfoWrapper.getEvent(), eventInfoWrapper.getAction().name);
+      if (propagationStopped(eventInfoWrapper)) {
+        return;
+      }
+      this.actionResolver.resolveParentAction(eventInfoWrapper.eventInfo);
+    }
+  }
+}
+function prepareEventForBubbling(eventInfoWrapper) {
+  const event = eventInfoWrapper.getEvent();
+  const stopPropagation = () => {
+    event[PROPAGATION_STOPPED_SYMBOL] = true;
+  };
+  patchEventInstance(event, 'stopPropagation', stopPropagation);
+  patchEventInstance(event, 'stopImmediatePropagation', stopPropagation);
+}
+function propagationStopped(eventInfoWrapper) {
+  const event = eventInfoWrapper.getEvent();
+  return !!event[PROPAGATION_STOPPED_SYMBOL];
+}
+function prepareEventForReplay(eventInfoWrapper) {
+  const event = eventInfoWrapper.getEvent();
+  const target = eventInfoWrapper.getTargetElement();
+  patchEventInstance(event, 'target', target);
+  patchEventInstance(event, 'eventPhase', EventPhase.REPLAY);
+  patchEventInstance(event, 'preventDefault', () => {
+    throw new Error(PREVENT_DEFAULT_ERROR_MESSAGE + (ngDevMode ? PREVENT_DEFAULT_ERROR_MESSAGE_DETAILS : ''));
+  });
+  patchEventInstance(event, 'composedPath', () => {
+    throw new Error(COMPOSED_PATH_ERROR_MESSAGE + (ngDevMode ? COMPOSED_PATH_ERROR_MESSAGE_DETAILS : ''));
+  });
+}
+function prepareEventForDispatch(eventInfoWrapper) {
+  const event = eventInfoWrapper.getEvent();
+  const currentTarget = eventInfoWrapper.getAction()?.element;
+  if (currentTarget) {
+    patchEventInstance(event, 'currentTarget', currentTarget, {
+      // `currentTarget` is going to get reassigned every dispatch.
+      configurable: true
+    });
+  }
+}
+/**
+ * Patch `Event` instance during non-standard `Event` dispatch. This patches just the `Event`
+ * instance that the browser created, it does not patch global properties or methods.
+ *
+ * This is necessary because dispatching an `Event` outside of browser dispatch results in
+ * incorrect properties and methods that need to be polyfilled or do not work.
+ *
+ * JSAction dispatch adds two extra "phases" to event dispatch:
+ * 1. Event delegation - the event is being dispatched by a delegating event handler on a container
+ *    (typically `window.document.documentElement`), to a delegated event handler on some child
+ *    element. Certain `Event` properties will be unintuitive, such as `currentTarget`, which would
+ *    be the container rather than the child element. Bubbling would also not work. In order to
+ *    emulate the browser, these properties and methods on the `Event` are patched.
+ * 2. Event replay - the event is being dispatched by the framework once the handlers have been
+ *    loaded (during hydration, or late-loaded). Certain `Event` properties can be unset by the
+ *    browser because the `Event` is no longer actively being dispatched, such as `target`. Other
+ *    methods have no effect because the `Event` has already been dispatched, such as
+ *    `preventDefault`. Bubbling would also not work. These properties and methods are patched,
+ *    either to fill in information that the browser may have removed, or to throw errors in methods
+ *    that no longer behave as expected.
+ */
+function patchEventInstance(event, property, value, {
+  configurable = false
+} = {}) {
+  Object.defineProperty(event, property, {
+    value,
+    configurable
+  });
 }
 /**
  * Registers deferred functionality for an EventContract and a Jsaction
@@ -52385,376 +53024,6 @@ function populateClickOnlyAction(actionElement, eventInfo, actionMap) {
 }
 
 /**
- * The jsaction attribute defines a mapping of a DOM event to a
- * generic event (aka jsaction), to which the actual event handlers
- * that implement the behavior of the application are bound. The
- * value is a semicolon separated list of colon separated pairs of
- * an optional DOM event name and a jsaction name. If the optional
- * DOM event name is omitted, 'click' is assumed. The jsaction names
- * are dot separated pairs of a namespace and a simple jsaction
- * name.
- *
- * See grammar in README.md for expected syntax in the attribute value.
- */
-const JSACTION$1 = 'jsaction';
-/**
- * The oi attribute is a log impression tag for impression logging
- * and action tracking. For an element that carries a jsaction
- * attribute, the element is identified for the purpose of
- * impression logging and click tracking by the dot separated path
- * of all oi attributes in the chain of ancestors of the element.
- *
- * Used by ActionFlow.
- */
-const OI$1 = 'oi';
-/**
- * The ved attribute is an encoded ClickTrackingCGI proto to track
- * visual elements.
- *
- * Used by ActionFlow.
- */
-const VED = 'ved';
-/**
- * The vet attribute is the visual element type used to identify tracked
- * visual elements.
- */
-const VET = 'vet';
-/**
- * Support for iteration on reprocessing.
- *
- * Used by ActionFlow.
- */
-const JSINSTANCE = 'jsinstance';
-/**
- * All click jsactions that happen on the element that carries this
- * attribute or its descendants are automatically logged.
- * Impressions of jsactions on these elements are tracked too, if
- * requested by the impression() method of ActionFlow.
- *
- * Used by ActionFlow.
- */
-const JSTRACK = 'jstrack';
-const Attribute = {
-  JSACTION: JSACTION$1,
-  OI: OI$1,
-  VED,
-  VET,
-  JSINSTANCE,
-  JSTRACK
-};
-const Char = {
-  /**
-   * The separator between the namespace and the action name in the
-   * jsaction attribute value.
-   */
-  NAMESPACE_ACTION_SEPARATOR: '.',
-  /**
-   * The separator between the event name and action in the jsaction
-   * attribute value.
-   */
-  EVENT_ACTION_SEPARATOR: ':',
-  /**
-   * The separator between the logged oi attribute values in the &oi=
-   * URL parameter value.
-   */
-  OI_SEPARATOR: '.',
-  /**
-   * The separator between the key and the value pairs in the &cad=
-   * URL parameter value.
-   */
-  CAD_KEY_VALUE_SEPARATOR: ':',
-  /**
-   * The separator between the key-value pairs in the &cad= URL
-   * parameter value.
-   */
-  CAD_SEPARATOR: ','
-};
-
-/**
- * The parsed value of the jsaction attribute is stored in this
- * property on the DOM node. The parsed value is an Object. The
- * property names of the object are the events; the values are the
- * names of the actions. This property is attached even on nodes
- * that don't have a jsaction attribute as an optimization, because
- * property lookup is faster than attribute access.
- */
-const JSACTION = '__jsaction';
-/** The value of the oi attribute as a property, for faster access. */
-const OI = '__oi';
-/**
- * The owner property references an a logical owner for a DOM node. JSAction
- * will follow this reference instead of parentNode when traversing the DOM
- * to find jsaction attributes. This allows overlaying a logical structure
- * over a document where the DOM structure can't reflect that structure.
- */
-const OWNER = '__owner';
-/** All properties that are used by jsaction. */
-const Property = {
-  JSACTION,
-  OI,
-  OWNER
-};
-
-/**
- * Map from jsaction annotation to a parsed map from event name to action name.
- */
-const parseCache = {};
-/**
- * Reads the jsaction parser cache from the given DOM Element.
- *
- * @param element .
- * @return Map from event to qualified name of the jsaction bound to it.
- */
-function get(element) {
-  // @ts-ignore
-  return element[JSACTION];
-}
-/**
- * Writes the jsaction parser cache to the given DOM Element.
- *
- * @param element .
- * @param actionMap Map from event to qualified name of the jsaction bound to
- *     it.
- */
-function set(element, actionMap) {
-  // @ts-ignore
-  element[JSACTION] = actionMap;
-}
-/**
- * Looks up the parsed action map from the source jsaction attribute value.
- *
- * @param text Unparsed jsaction attribute value.
- * @return Parsed jsaction attribute value, if already present in the cache.
- */
-function getParsed(text) {
-  return parseCache[text];
-}
-/**
- * Inserts the parse result for the given source jsaction value into the cache.
- *
- * @param text Unparsed jsaction attribute value.
- * @param parsed Attribute value parsed into the action map.
- */
-function setParsed(text, parsed) {
-  parseCache[text] = parsed;
-}
-/**
- * Clears the jsaction parser cache from the given DOM Element.
- *
- * @param element .
- */
-function clear(element) {
-  if (JSACTION in element) {
-    delete element[JSACTION];
-  }
-}
-
-/**
- * Since maps from event to action are immutable we can use a single map
- * to represent the empty map.
- */
-const EMPTY_ACTION_MAP = {};
-/**
- * This regular expression matches a semicolon.
- */
-const REGEXP_SEMICOLON = /\s*;\s*/;
-/** If no event type is defined, defaults to `click`. */
-const DEFAULT_EVENT_TYPE = EventType.CLICK;
-/** Resolves actions for Events. */
-class ActionResolver {
-  constructor({
-    syntheticMouseEventSupport = false
-  } = {}) {
-    this.a11yClickSupport = false;
-    this.updateEventInfoForA11yClick = undefined;
-    this.preventDefaultForA11yClick = undefined;
-    this.populateClickOnlyAction = undefined;
-    this.syntheticMouseEventSupport = syntheticMouseEventSupport;
-  }
-  resolve(eventInfo) {
-    if (getResolved(eventInfo)) {
-      return;
-    }
-    this.populateAction(eventInfo);
-    setResolved(eventInfo, true);
-  }
-  /**
-   * Searches for a jsaction that the DOM event maps to and creates an
-   * object containing event information used for dispatching by
-   * jsaction.Dispatcher. This method populates the `action` and `actionElement`
-   * fields of the EventInfo object passed in by finding the first
-   * jsaction attribute above the target Node of the event, and below
-   * the container Node, that specifies a jsaction for the event
-   * type. If no such jsaction is found, then action is undefined.
-   *
-   * @param eventInfo `EventInfo` to set `action` and `actionElement` if an
-   *    action is found on any `Element` in the path of the `Event`.
-   */
-  populateAction(eventInfo) {
-    // We distinguish modified and plain clicks in order to support the
-    // default browser behavior of modified clicks on links; usually to
-    // open the URL of the link in new tab or new window on ctrl/cmd
-    // click. A DOM 'click' event is mapped to the jsaction 'click'
-    // event iff there is no modifier present on the event. If there is
-    // a modifier, it's mapped to 'clickmod' instead.
-    //
-    // It's allowed to omit the event in the jsaction attribute. In that
-    // case, 'click' is assumed. Thus the following two are equivalent:
-    //
-    //   <a href="someurl" jsaction="gna.fu">
-    //   <a href="someurl" jsaction="click:gna.fu">
-    //
-    // For unmodified clicks, EventContract invokes the jsaction
-    // 'gna.fu'. For modified clicks, EventContract won't find a
-    // suitable action and leave the event to be handled by the
-    // browser.
-    //
-    // In order to also invoke a jsaction handler for a modifier click,
-    // 'clickmod' needs to be used:
-    //
-    //   <a href="someurl" jsaction="clickmod:gna.fu">
-    //
-    // EventContract invokes the jsaction 'gna.fu' for modified
-    // clicks. Unmodified clicks are left to the browser.
-    //
-    // In order to set up the event contract to handle both clickonly and
-    // clickmod, only addEvent(EventType.CLICK) is necessary.
-    //
-    // In order to set up the event contract to handle click,
-    // addEvent() is necessary for CLICK, KEYDOWN, and KEYPRESS event types.  If
-    // a11y click support is enabled, addEvent() will set up the appropriate key
-    // event handler automatically.
-    if (getEventType(eventInfo) === EventType.CLICK && isModifiedClickEvent(getEvent(eventInfo))) {
-      setEventType(eventInfo, EventType.CLICKMOD);
-    } else if (this.a11yClickSupport) {
-      this.updateEventInfoForA11yClick(eventInfo);
-    }
-    // Walk to the parent node, unless the node has a different owner in
-    // which case we walk to the owner. Attempt to walk to host of a
-    // shadow root if needed.
-    let actionElement = getTargetElement(eventInfo);
-    while (actionElement && actionElement !== getContainer(eventInfo)) {
-      if (actionElement.nodeType === Node.ELEMENT_NODE) {
-        this.populateActionOnElement(actionElement, eventInfo);
-      }
-      if (getAction(eventInfo)) {
-        // An event is handled by at most one jsaction. Thus we stop at the
-        // first matching jsaction specified in a jsaction attribute up the
-        // ancestor chain of the event target node.
-        break;
-      }
-      if (actionElement[OWNER]) {
-        actionElement = actionElement[OWNER];
-        continue;
-      }
-      if (actionElement.parentNode?.nodeName !== '#document-fragment') {
-        actionElement = actionElement.parentNode;
-      } else {
-        actionElement = actionElement.parentNode?.host ?? null;
-      }
-    }
-    const action = getAction(eventInfo);
-    if (!action) {
-      // No action found.
-      return;
-    }
-    if (this.a11yClickSupport) {
-      this.preventDefaultForA11yClick(eventInfo);
-    }
-    // We attempt to handle the mouseenter/mouseleave events here by
-    // detecting whether the mouseover/mouseout events correspond to
-    // entering/leaving an element.
-    if (this.syntheticMouseEventSupport) {
-      if (getEventType(eventInfo) === EventType.MOUSEENTER || getEventType(eventInfo) === EventType.MOUSELEAVE || getEventType(eventInfo) === EventType.POINTERENTER || getEventType(eventInfo) === EventType.POINTERLEAVE) {
-        // We attempt to handle the mouseenter/mouseleave events here by
-        // detecting whether the mouseover/mouseout events correspond to
-        // entering/leaving an element.
-        if (isMouseSpecialEvent(getEvent(eventInfo), getEventType(eventInfo), getActionElement(action))) {
-          // If both mouseover/mouseout and mouseenter/mouseleave events are
-          // enabled, two separate handlers for mouseover/mouseout are
-          // registered. Both handlers will see the same event instance
-          // so we create a copy to avoid interfering with the dispatching of
-          // the mouseover/mouseout event.
-          const copiedEvent = createMouseSpecialEvent(getEvent(eventInfo), getActionElement(action));
-          setEvent(eventInfo, copiedEvent);
-          // Since the mouseenter/mouseleave events do not bubble, the target
-          // of the event is technically the `actionElement` (the node with the
-          // `jsaction` attribute)
-          setTargetElement(eventInfo, getActionElement(action));
-        } else {
-          unsetAction(eventInfo);
-        }
-      }
-    }
-  }
-  /**
-   * Accesses the jsaction map on a node and retrieves the name of the
-   * action the given event is mapped to, if any. It parses the
-   * attribute value and stores it in a property on the node for
-   * subsequent retrieval without re-parsing and re-accessing the
-   * attribute.
-   *
-   * @param actionElement The DOM node to retrieve the jsaction map from.
-   * @param eventInfo `EventInfo` to set `action` and `actionElement` if an
-   *    action is found on the `actionElement`.
-   */
-  populateActionOnElement(actionElement, eventInfo) {
-    const actionMap = this.parseActions(actionElement);
-    const actionName = actionMap[getEventType(eventInfo)];
-    if (actionName !== undefined) {
-      setAction(eventInfo, actionName, actionElement);
-    }
-    if (this.a11yClickSupport) {
-      this.populateClickOnlyAction(actionElement, eventInfo, actionMap);
-    }
-  }
-  /**
-   * Parses and caches an element's jsaction element into a map.
-   *
-   * This is primarily for internal use.
-   *
-   * @param actionElement The DOM node to retrieve the jsaction map from.
-   * @return Map from event to qualified name of the jsaction bound to it.
-   */
-  parseActions(actionElement) {
-    let actionMap = get(actionElement);
-    if (!actionMap) {
-      const jsactionAttribute = actionElement.getAttribute(Attribute.JSACTION);
-      if (!jsactionAttribute) {
-        actionMap = EMPTY_ACTION_MAP;
-        set(actionElement, actionMap);
-      } else {
-        actionMap = getParsed(jsactionAttribute);
-        if (!actionMap) {
-          actionMap = {};
-          const values = jsactionAttribute.split(REGEXP_SEMICOLON);
-          for (let idx = 0; idx < values.length; idx++) {
-            const value = values[idx];
-            if (!value) {
-              continue;
-            }
-            const colon = value.indexOf(Char.EVENT_ACTION_SEPARATOR);
-            const hasColon = colon !== -1;
-            const type = hasColon ? value.substr(0, colon).trim() : DEFAULT_EVENT_TYPE;
-            const action = hasColon ? value.substr(colon + 1).trim() : value;
-            actionMap[type] = action;
-          }
-          setParsed(jsactionAttribute, actionMap);
-        }
-        set(actionElement, actionMap);
-      }
-    }
-    return actionMap;
-  }
-  addA11yClickSupport(updateEventInfoForA11yClick, preventDefaultForA11yClick, populateClickOnlyAction) {
-    this.a11yClickSupport = true;
-    this.updateEventInfoForA11yClick = updateEventInfoForA11yClick;
-    this.preventDefaultForA11yClick = preventDefaultForA11yClick;
-    this.populateClickOnlyAction = populateClickOnlyAction;
-  }
-}
-
-/**
  * @define Support for accessible click actions.  This flag can be overridden in
  * a build rule.
  */
@@ -52857,7 +53126,8 @@ class EventContract {
       return;
     }
     if (this.useActionResolver) {
-      this.actionResolver.resolve(eventInfo);
+      this.actionResolver.resolveEventType(eventInfo);
+      this.actionResolver.resolveAction(eventInfo);
     }
     this.dispatcher(eventInfo);
   }
@@ -52878,7 +53148,7 @@ class EventContract {
     if (eventType in this.eventHandlers || !this.containerManager) {
       return;
     }
-    if (!EventContract.MOUSE_SPECIAL_SUPPORT && (eventType === EventType.MOUSEENTER || eventType === EventType.MOUSELEAVE || eventType === EventType.POINTERENTER || eventType === EventType.POINTERLEAVE)) {
+    if (!EventContract.MOUSE_SPECIAL_SUPPORT && NON_BUBBLING_MOUSE_EVENTS.indexOf(eventType) >= 0) {
       return;
     }
     const eventHandler = (eventType, event, container) => {
@@ -53091,9 +53361,9 @@ function bootstrapEarlyEventContract(field, container, appId, eventTypes, captur
 
 /***/ }),
 
-/***/ 2004:
+/***/ 8048:
 /*!**************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6/node_modules/@angular/core/fesm2022/primitives/signals.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+core@18.0.3_rxjs@7.8.1_zone.js@0.14.7/node_modules/@angular/core/fesm2022/primitives/signals.mjs ***!
   \**************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -53126,7 +53396,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   signalUpdateFn: () => (/* binding */ signalUpdateFn)
 /* harmony export */ });
 /**
- * @license Angular v18.0.0
+ * @license Angular v18.0.3
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -53380,8 +53650,7 @@ function consumerDestroy(node) {
  */
 function producerAddLiveConsumer(node, consumer, indexOfThis) {
   assertProducerNode(node);
-  assertConsumerNode(node);
-  if (node.liveConsumerNode.length === 0) {
+  if (node.liveConsumerNode.length === 0 && isConsumerNode(node)) {
     // When going from 0 to 1 live consumers, we become a live consumer to our producers.
     for (let i = 0; i < node.producerNode.length; i++) {
       node.producerIndexOfThis[i] = producerAddLiveConsumer(node.producerNode[i], node, i);
@@ -53395,11 +53664,10 @@ function producerAddLiveConsumer(node, consumer, indexOfThis) {
  */
 function producerRemoveLiveConsumerAtIndex(node, idx) {
   assertProducerNode(node);
-  assertConsumerNode(node);
   if (typeof ngDevMode !== 'undefined' && ngDevMode && idx >= node.liveConsumerNode.length) {
     throw new Error(`Assertion error: active consumer index ${idx} is out of bounds of ${node.liveConsumerNode.length} consumers)`);
   }
-  if (node.liveConsumerNode.length === 1) {
+  if (node.liveConsumerNode.length === 1 && isConsumerNode(node)) {
     // When removing the last live consumer, we will no longer be live. We need to remove
     // ourselves from our producers' tracking (which may cause consumer-producers to lose
     // liveness as well).
@@ -53435,6 +53703,9 @@ function assertConsumerNode(node) {
 function assertProducerNode(node) {
   node.liveConsumerNode ??= [];
   node.liveConsumerIndexOfThis ??= [];
+}
+function isConsumerNode(node) {
+  return node.producerNode !== undefined;
 }
 
 /**
@@ -53666,9 +53937,9 @@ function setAlternateWeakRefImpl(impl) {
 
 /***/ }),
 
-/***/ 5706:
+/***/ 5726:
 /*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+forms@18.0.0_@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.14.6___cmb3gekxt4zce5j2z2y4xyhjfm/node_modules/@angular/forms/fesm2022/forms.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+forms@18.0.3_@angular+common@18.0.3_@angular+core@18.0.3_rxjs@7.8.1_zone.js@0.14.7___nyqjju5ncsgo6pbwj4b4tysbja/node_modules/@angular/forms/fesm2022/forms.mjs ***!
   \****************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -53738,14 +54009,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵNgNoValidate": () => (/* binding */ ɵNgNoValidate),
 /* harmony export */   "ɵNgSelectMultipleOption": () => (/* binding */ ɵNgSelectMultipleOption)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 6829);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 6794);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 291);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 727);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 5241);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 7437);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2489);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 5753);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 3877);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 8865);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 3219);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 5087);
 /**
- * @license Angular v18.0.0
+ * @license Angular v18.0.3
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -61694,7 +61965,7 @@ class UntypedFormBuilder extends FormBuilder {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('18.0.0');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('18.0.3');
 
 /**
  * Exports the required providers and directives for template-driven forms,
@@ -61822,9 +62093,9 @@ class ReactiveFormsModule {
 
 /***/ }),
 
-/***/ 6132:
+/***/ 8594:
 /*!**************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@angular+platform-browser@18.0.0_@angular+animations@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_z_ujpvttfluyu2swadfqqzxntm2e/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs ***!
+  !*** ./node_modules/.pnpm/@angular+platform-browser@18.0.3_@angular+animations@18.0.3_@angular+core@18.0.3_rxjs@7.8.1_z_numz4fl3wsbcmvqedeyjlgg4ty/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs ***!
   \**************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -61868,11 +62139,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵgetDOM": () => (/* reexport safe */ _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"]),
 /* harmony export */   "ɵinitDomAdapter": () => (/* binding */ initDomAdapter)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common */ 6794);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 6829);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ 513);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common */ 5753);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2489);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ 994);
 /**
- * @license Angular v18.0.0
+ * @license Angular v18.0.3
  * (c) 2010-2024 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -64123,7 +64394,7 @@ function provideClientHydration(...features) {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__.Version('18.0.0');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__.Version('18.0.3');
 
 /**
  * @module
@@ -64142,9 +64413,9 @@ const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__.Version('18.0.0')
 
 /***/ }),
 
-/***/ 7510:
+/***/ 5968:
 /*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@ngx-translate+core@15.0.0_@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone.js@0.1_4ekhhqlsqd3enr4wc4vnwdt7gu/node_modules/@ngx-translate/core/dist/fesm2022/ngx-translate-core.mjs ***!
+  !*** ./node_modules/.pnpm/@ngx-translate+core@15.0.0_@angular+common@18.0.3_@angular+core@18.0.3_rxjs@7.8.1_zone.js@0.1_6xxy545bkwjzjjnw5xpty4s72m/node_modules/@ngx-translate/core/dist/fesm2022/ngx-translate-core.mjs ***!
   \***************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -64168,17 +64439,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   USE_EXTEND: () => (/* binding */ USE_EXTEND),
 /* harmony export */   USE_STORE: () => (/* binding */ USE_STORE)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 6829);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ 9294);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 7861);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 727);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rxjs */ 3003);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 8231);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 9972);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 7527);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 7437);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 4373);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 3393);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2489);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ 7244);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 7943);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 8865);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rxjs */ 2521);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 2617);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ 942);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 4573);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ 5087);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 9151);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 3063);
 
 
 
@@ -65350,9 +65621,9 @@ class TranslateModule {
 
 /***/ }),
 
-/***/ 2897:
+/***/ 630:
 /*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@ngx-translate+http-loader@8.0.0_@angular+common@18.0.0_@angular+core@18.0.0_rxjs@7.8.1_zone._7vzdhojks6wbry34c3dxoxye74/node_modules/@ngx-translate/http-loader/dist/fesm2022/ngx-translate-http-loader.mjs ***!
+  !*** ./node_modules/.pnpm/@ngx-translate+http-loader@8.0.0_@angular+common@18.0.3_@angular+core@18.0.3_rxjs@7.8.1_zone._6ruo7zgytzc5r3hrnttuoykhui/node_modules/@ngx-translate/http-loader/dist/fesm2022/ngx-translate-http-loader.mjs ***!
   \*****************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -65385,10 +65656,10 @@ class TranslateHttpLoader {
 
 /***/ }),
 
-/***/ 5455:
-/*!**********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/@utrecht+component-library-angular@1.0.2-alpha.53/node_modules/@utrecht/component-library-angular/dist/fesm2022/utrecht-component-library-angular.mjs ***!
-  \**********************************************************************************************************************************************************************************/
+/***/ 9217:
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@utrecht+component-library-angular@1.1.0/node_modules/@utrecht/component-library-angular/dist/fesm2022/utrecht-component-library-angular.mjs ***!
+  \*************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -65436,8 +65707,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   UtrechtUnorderedListAttr: () => (/* binding */ UtrechtUnorderedListAttr),
 /* harmony export */   UtrechtUnorderedListItemAttr: () => (/* binding */ UtrechtUnorderedListItemAttr)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 6794);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 6829);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 5753);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2489);
 
 
 
@@ -66395,7 +66666,7 @@ class UtrechtHtmlContent {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
     },
-    styles: ["@charset \"UTF-8\";/**\n * @license EUPL-1.2\n * Copyright (c) 2020-2022 Gemeente Utrecht\n * Copyright (c) 2020-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2022 Gemeente Utrecht\n * Copyright (c) 2022 Robbert Broersma\n * Copyright (c) 2022 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 Gemeente Utrecht\n */.utrecht-html{--utrecht-space-around: 1}.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-html blockquote{background-color:var(--utrecht-blockquote-background-color);color:var(--utrecht-blockquote-color);font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);font-style:var(--utrecht-blockquote-font-style);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);padding-block-end:var(--utrecht-blockquote-padding-block-end);padding-block-start:var(--utrecht-blockquote-padding-block-start);padding-inline-end:var(--utrecht-blockquote-padding-inline-end);padding-inline-start:var(--utrecht-blockquote-padding-inline-start);--utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit);--utrecht-space-around: 1}.utrecht-html input[type=button i],.utrecht-html input[type=reset i],.utrecht-html input[type=submit i],.utrecht-html button{--_utrecht-button-background-color: var( --_utrecht-button-hint-background-color, var(--_utrecht-button-appearance-background-color, var(--utrecht-button-background-color)) );--_utrecht-button-color: var( --_utrecht-button-hint-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-color)) );--_utrecht-button-border-color: var( --_utrecht-button-hint-border-color, var(--_utrecht-button-appearance-border-color, var(--utrecht-button-border-color, transparent)) );--_utrecht-button-border-bottom-color: var( --_utrecht-button-hint-border-bottom-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-border-bottom-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-border-bottom-color, var(--utrecht-button-border-color, transparent)) ) ) ) );--_utrecht-button-disabled-background-color: var( --_utrecht-button-hint-disabled-background-color, var( --_utrecht-button-appearance-disabled-background-color, var(--utrecht-button-disabled-background-color, var(--utrecht-button-background-color)) ) );--_utrecht-button-disabled-border-color: var( --_utrecht-button-hint-disabled-border-color, var( --_utrecht-button-appearance-disabled-border-color, var(--utrecht-button-disabled-border-color, var(--utrecht-button-border-color)) ) );--_utrecht-button-disabled-color: var( --_utrecht-button-hint-disabled-color, var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color))) );--_utrecht-button-pressed-background-color: var( --_utrecht-button-hint-pressed-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-pressed-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-pressed-border-color: var( --_utrecht-button-hint-pressed-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-pressed-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-pressed-color: var( --_utrecht-button-hint-pressed-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-pressed-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-focus-background-color: var( --_utrecht-button-hint-focus-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-focus-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-focus-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-focus-border-color: var( --_utrecht-button-hint-focus-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-focus-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-focus-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-focus-color: var( --_utrecht-button-hint-focus-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-focus-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-focus-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-hover-background-color: var( --_utrecht-button-hint-hover-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-hover-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-hover-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-hover-border-color: var( --_utrecht-button-hint-hover-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-hover-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-hover-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-hover-color: var( --_utrecht-button-hint-hover-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-hover-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-hover-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-active-background-color: var( --_utrecht-button-hint-active-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-active-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-active-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-active-border-color: var( --_utrecht-button-hint-active-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-active-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-active-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-active-color: var( --_utrecht-button-hint-active-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-active-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-active-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));--_utrecht-button-border-block-end-width: var( --utrecht-button-border-bottom-width, var(--_utrecht-button-border-width, 0) );--utrecht-icon-size: var(--utrecht-button-icon-size, 1em);align-items:center;background-color:var(--_utrecht-button-background-color);block-size:-moz-fit-content;block-size:fit-content;border-block-end-color:var(--_utrecht-button-border-bottom-color);border-block-end-width:var(--_utrecht-button-border-block-end-width);border-color:var(--_utrecht-button-border-color);border-radius:var(--utrecht-button-border-radius);border-style:solid;border-width:var(--_utrecht-button-border-width);box-sizing:border-box;color:var(--_utrecht-button-color);cursor:var(--utrecht-action-activate-cursor, revert);display:inline-flex;font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));font-weight:var(--_utrecht-button-appearance-font-weight, var(--utrecht-button-font-weight));gap:var(--utrecht-button-icon-gap);inline-size:var(--utrecht-button-inline-size, auto);justify-content:center;line-height:var(--utrecht-button-line-height);max-inline-size:var(--utrecht-button-max-inline-size, -moz-fit-content);max-inline-size:var(--utrecht-button-max-inline-size, fit-content);min-block-size:var(--utrecht-button-min-block-size, 44px);min-inline-size:var(--utrecht-button-min-inline-size, 44px);padding-block-end:var(--utrecht-button-padding-block-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-inline-start:var(--utrecht-button-padding-inline-start);scale:1;text-transform:var(--utrecht-button-text-transform);-webkit-user-select:none;user-select:none;margin-block-end:var(--utrecht-button-margin-block-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-inline-start:var(--utrecht-button-margin-inline-start)}.utrecht-html button[hidden]{display:none}.utrecht-html button[type=submit i],.utrecht-html input[type=submit i]{cursor:var(--utrecht-action-submit-cursor, revert)}.utrecht-html button:disabled,.utrecht-html button[aria-disabled=true]{background-color:var(--_utrecht-button-disabled-background-color);border-color:var(--_utrecht-button-disabled-border-color);color:var(--_utrecht-button-disabled-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html button[aria-busy=true],.utrecht-html button[aria-disabled=true][aria-busy=true],.utrecht-html button:disabled[aria-busy=true]{cursor:var(--utrecht-action-busy-cursor, wait)}.utrecht-html button:active:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-active-background-color);border-color:var(--_utrecht-button-active-border-color);color:var(--_utrecht-button-active-color)}.utrecht-html button:hover:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-hover-background-color);border-color:var(--_utrecht-button-hover-border-color);color:var(--_utrecht-button-hover-color);scale:var(--utrecht-button-hover-scale, 1)}.utrecht-html button:focus:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-focus-background-color);border-color:var(--_utrecht-button-focus-border-color);color:var(--_utrecht-button-focus-color);scale:var(--utrecht-button-focus-scale, 1)}.utrecht-html button:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]{margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;cursor:var(--utrecht-action-activate-cursor, revert);-webkit-user-select:none;user-select:none}.utrecht-html input[type=checkbox i]:disabled{cursor:var(--utrecht-action-disabled-cursor, revert)}.utrecht-html input[type=checkbox i]:focus{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html body{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);font-weight:var(--utrecht-document-font-weight, inherit);line-height:var(--utrecht-document-line-height, inherit);text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:var(--utrecht-document-background-color, inherit)}.utrecht-html body :lang(ar){letter-spacing:0!important}.utrecht-html code{background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height)}.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-html fieldset{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));all:revert;border:0;margin-inline-end:0;margin-inline-start:0;min-inline-size:0;padding-block-end:0;padding-block-start:.01em;padding-inline-end:0;padding-inline-start:0;--utrecht-space-around: 1}.utrecht-html fieldset[hidden]{display:none}.utrecht-html figure{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0))}.utrecht-html figcaption{color:var(--utrecht-figure-caption-color);font-size:var(--utrecht-figure-caption-font-size);line-height:var(--utrecht-figure-caption-line-height)}.utrecht-html form{display:block;max-inline-size:var(--utrecht-form-max-inline-size)}.utrecht-html legend{break-inside:avoid;color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);page-break-after:avoid;page-break-inside:avoid;display:table;inline-size:100%;padding-inline-end:0;padding-inline-start:0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0))}.utrecht-html legend[hidden]{display:none}.utrecht-html fieldset:disabled>legend{color:var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)))}.utrecht-html label{color:var(--utrecht-form-label-color);font-size:var(--utrecht-form-label-font-size);font-weight:var(--utrecht-form-label-font-weight)}.utrecht-html input[type=checkbox i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html input[type=radio i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html mark{background-color:var(--utrecht-mark-background-color, revert);color:var(--utrecht-mark-color, revert)}@media print{.utrecht-html mark{outline-color:currentColor;outline-style:dotted;outline-width:.1em}}@media screen and (-ms-high-contrast: active){.utrecht-html mark{background-color:Highlight;color:HighlightText}}.utrecht-html h1{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size, revert);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-1-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h2{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size, revert);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-2-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h3{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size, revert);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-3-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h4{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size, revert);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-4-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h5{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size, revert);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-5-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h6{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size, revert);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-6-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html hgroup{--utrecht-pre-heading-order: -1;display:flex;flex-direction:column;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html hgroup>*{--utrecht-space-around: 0}.utrecht-html a{--utrecht-icon-size: var(--utrecht-link-icon-size, 1em);color:var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)))}.utrecht-html a:visited{--_utrecht-link-forced-colors-color: visitedtext;--_utrecht-link-state-color: var(--utrecht-link-visited-color)}.utrecht-html a:hover{--_utrecht-link-forced-colors-color: linktext;--_utrecht-link-state-color: var(--utrecht-link-hover-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}.utrecht-html a:active{--_utrecht-link-forced-colors-color: activetext;--_utrecht-link-state-color: var(--utrecht-link-active-color)}.utrecht-html a:focus{--_utrecht-link-state-color: var(--utrecht-link-focus-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);background-color:var(--utrecht-link-focus-background-color, transparent);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert);z-index:var(--utrecht-stack-focus-z-index, 1)}.utrecht-html a:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-html ol{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));line-height:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));padding-inline-start:var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));text-align:start;--utrecht-space-around: 1}.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));margin-block-start:var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));padding-inline-start:var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch))}.utrecht-html ol:lang(ar){list-style:arabic-indic}.utrecht-html p{color:var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0))}.utrecht-html p.lead{color:var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html *~p{--utrecht-space-around: 1}.utrecht-html p:has(>small:only-child){color:var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html p>small:only-child{font-size:inherit}.utrecht-html pre:has(>code:only-child){background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height);--utrecht-code-color: var(--utrecht-code-block-color, inherit);--utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);--utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);--utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);--utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);background-color:var(--utrecht-code-block-background-color);display:block;font-size:var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));line-height:var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));margin-block-end:var(--utrecht-code-block-margin-block-end);margin-block-start:var(--utrecht-code-block-margin-block-start);margin-inline-end:var(--utrecht-code-block-margin-inline-end);margin-inline-start:var(--utrecht-code-block-margin-inline-start);padding-block-end:var(--utrecht-code-block-padding-block-end);padding-block-start:var(--utrecht-code-block-padding-block-start);padding-inline-end:var(--utrecht-code-block-padding-inline-end);padding-inline-start:var(--utrecht-code-block-padding-inline-start);white-space:pre}.utrecht-html pre[hidden]:has(>code:only-child){display:none}.utrecht-html pre:has(>code:only-child)>code{display:contents}.utrecht-html input[type=radio i]{appearance:none;margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;--_utrecht-radio-button-background-color: var( --_utrecht-radio-button-interactive-background-color, var(--_utrecht-radio-button-state-background-color, var(--utrecht-radio-button-background-color)) );--_utrecht-radio-button-border-color: var( --_utrecht-radio-button-interactive-border-color, var(--_utrecht-radio-button-state-border-color, var(--utrecht-radio-button-border-color, currentColor)) );--_utrecht-radio-button-border-width: var( --_utrecht-radio-button-interactive-border-width, var(--_utrecht-radio-button-state-border-width, var(--utrecht-radio-button-border-width)) );--_utrecht-radio-button-color: var( --_utrecht-radio-button-interactive-color, var(--_utrecht-radio-button-state-color, var(--utrecht-radio-button-color, currentColor)) );--_utrecht-radio-button-icon-size: 0;background-color:var(--_utrecht-radio-button-background-color);background-image:radial-gradient(circle,var(--_utrecht-radio-button-color, transparent) calc(var(--_utrecht-radio-button-icon-size, 50%) - 5%),var(--_utrecht-radio-button-background-color, currentColor) var(--_utrecht-radio-button-icon-size, 50%));background-position:center;background-repeat:no-repeat;background-size:contain;block-size:var(--utrecht-radio-button-size, 1em);border-color:var(--_utrecht-radio-button-border-color);border-radius:50%;border-style:solid;border-width:var(--_utrecht-radio-button-border-width);cursor:var(--utrecht-action-activate-cursor, revert);inline-size:var(--utrecht-radio-button-size, 1em);margin-inline-end:var(--utrecht-radio-button-margin-inline-end);min-block-size:24px;min-inline-size:24px;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;user-select:none;vertical-align:top}.utrecht-html input[type=radio i]:checked{--_utrecht-radio-button-icon-size: var(--utrecht-radio-button-icon-size, 50%);--_utrecht-radio-button-state-background-color: var(--utrecht-radio-button-checked-background-color);--_utrecht-radio-button-state-border-color: var(--utrecht-radio-button-checked-border-color);--_utrecht-radio-button-state-border-width: var(--utrecht-radio-button-checked-border-width);--_utrecht-radio-button-state-color: var(--utrecht-radio-button-checked-color);--_utrecht-radio-button-state-active-background-color: var(--utrecht-radio-button-checked-active-background-color);--_utrecht-radio-button-state-active-border-color: var(--utrecht-radio-button-checked-active-border-color);--_utrecht-radio-button-state-active-border-width: var(--utrecht-radio-button-checked-active-border-width);--_utrecht-radio-button-state-active-color: var(--utrecht-radio-button-checked-active-color);--_utrecht-radio-button-state-focus-background-color: var(--utrecht-radio-button-checked-focus-background-color);--_utrecht-radio-button-state-focus-border-color: var(--utrecht-radio-button-checked-focus-border-color);--_utrecht-radio-button-state-focus-border-width: var(--utrecht-radio-button-checked-focus-border-width);--_utrecht-radio-button-state-focus-color: var(--utrecht-radio-button-checked-focus-color);--_utrecht-radio-button-state-hover-background-color: var(--utrecht-radio-button-checked-hover-background-color);--_utrecht-radio-button-state-hover-border-color: var(--utrecht-radio-button-checked-hover-border-color);--_utrecht-radio-button-state-hover-border-width: var(--utrecht-radio-button-checked-hover-border-width);--_utrecht-radio-button-state-hover-color: var(--utrecht-radio-button-checked-hover-color)}.utrecht-html input[type=radio i]:disabled{--_utrecht-radio-button-background-color: var(--utrecht-radio-button-disabled-background-color);--_utrecht-radio-button-border-color: var(--utrecht-radio-button-disabled-border-color);--_utrecht-radio-button-border-width: var(--utrecht-radio-button-disabled-border-width);--_utrecht-radio-button-color: var(--utrecht-radio-button-disabled-color);--_utrecht-radio-button-focus-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-focus-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-focus-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-focus-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-active-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-active-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-active-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-active-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-hover-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input[type=radio i]:invalid,.utrecht-html input[type=radio i][aria-invalid=true]{border-color:var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));border-width:var(--utrecht-radio-button-invalid-border-width, var(--utrecht-radio-button-border-width));color:var(--utrecht-radio-button-invalid-color, var(--utrecht-radio-button-color))}.utrecht-html input[type=radio i]:focus:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --utrecht-radio-button-focus-background-color, var(--utrecht-radio-button-focus-background-color) );--_utrecht-radio-button-interactive-border-color: var( --utrecht-radio-button-focus-border-color, var(--utrecht-radio-button-focus-border-color) );--_utrecht-radio-button-interactive-border-width: var( --utrecht-radio-button-focus-border-width, var(--utrecht-radio-button-focus-border-width) );--_utrecht-radio-button-interactive-color: var( --utrecht-radio-button-focus-color, var(--utrecht-radio-button-focus-color) )}.utrecht-html input[type=radio i]:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=radio i]:hover:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-hover-background-color, var(--utrecht-radio-button-hover-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-hover-border-color, var(--utrecht-radio-button-hover-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-hover-border-width, var(--utrecht-radio-button-hover-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-hover-color, var(--utrecht-radio-button-hover-color) )}.utrecht-html input[type=radio i]:active:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-active-background-color, var(--utrecht-radio-button-active-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-active-border-color, var(--utrecht-radio-button-active-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-active-border-width, var(--utrecht-radio-button-active-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-active-color, var(--utrecht-radio-button-active-color) )}.utrecht-html select{background-color:var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));border-block-end-width:var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));border-block-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-color:var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));border-inline-end-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-inline-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-radius:var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;color:var(--utrecht-select-color, var(--utrecht-form-control-color));font-family:var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));inline-size:100%;min-block-size:var(--utrecht-select-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));padding-block-start:var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));padding-inline-end:var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));padding-inline-start:var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start))}.utrecht-html select:focus{background-color:var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html select:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html select:disabled{background-color:var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html select[aria-invalid=true]{--_utrecht-select-border-width: var( --utrecht-select-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-select-border-width);border-block-end-width:var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));border-color:var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))))}.utrecht-html hr{border-color:var(--utrecht-separator-color);border-style:solid;border-width:0 0 var(--utrecht-separator-block-size) 0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html table{border-collapse:separate;border-color:var(--utrecht-table-border-color, 0);border-spacing:0;border-style:solid;border-width:var(--utrecht-table-border-width, 0);font-family:var(--utrecht-table-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-table-font-size, inherit);inline-size:100%;line-height:var(--utrecht-table-line-height, inherit);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html caption{break-inside:avoid;color:var(--utrecht-table-caption-color);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);font-weight:var(--utrecht-table-caption-font-weight);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);page-break-after:avoid;text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-html thead{--_utrecht-table-header-cell-vertical-align: bottom;--_utrecht-table-header-cell-z-index: 8;background-color:var(--utrecht-table-header-background-color);break-inside:avoid;color:var(--utrecht-table-header-color);font-weight:var(--utrecht-table-header-font-weight);page-break-inside:avoid;text-transform:var(--utrecht-table-header-text-transform)}.utrecht-html tbody{--_utrecht-table-header-cell-z-index: 2}.utrecht-html th{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;color:var(--utrecht-table-header-cell-color);font-size:var(--utrecht-table-header-cell-font-size);font-weight:var(--utrecht-table-header-cell-font-weight, bold);text-transform:var(--utrecht-table-header-cell-text-transform);vertical-align:var(--_utrecht-table-header-cell-vertical-align, top);z-index:var(--_utrecht-table-header-cell-z-index)}.utrecht-html th,.utrecht-html td{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);vertical-align:top}.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-html thead tr:last-child th{border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-html thead>tr>th.numeric,.utrecht-html tfoot>tr>th.numeric,.utrecht-html th[scope=column].numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align)}.utrecht-html td.numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align);font-variant-numeric:lining-nums tabular-nums}.utrecht-html table.alternate-row-color>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html textarea{background-color:var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textarea-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textarea-line-height, initial);max-inline-size:var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));min-block-size:var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);padding-block-end:var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));resize:vertical;resize:block}.utrecht-html textarea:focus{background-color:var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html textarea:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{--_utrecht-textarea-border-width: var( --utrecht-textarea-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textarea-border-width);border-block-end-width:var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));border-color:var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:read-only{background-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:disabled{background-color:var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html textarea::placeholder{color:var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input:not([type]),.utrecht-html input[type=date i],.utrecht-html input[type=datetime-local i],.utrecht-html input[type=email i],.utrecht-html input[type=month i],.utrecht-html input[type=number i],.utrecht-html input[type=password i],.utrecht-html input[type=search i],.utrecht-html input[type=tel i],.utrecht-html input[type=text i],.utrecht-html input[type=time i],.utrecht-html input[type=url i],.utrecht-html input[type=week i]{--_utrecht-textbox-value-char: .667em + .334ch;--_utrecht-textbox-max-inline-size: calc( calc(var(--utrecht-textbox-value-max-length) * var(--_utrecht-textbox-value-char)) + var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, 0)) + var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, 0)) + var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width, 0)) + var(--utrecht-textbox-autocomplete-ui-size, 44px) );background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:min(var(--_utrecht-textbox-max-inline-size, 100%),var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size)));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-html input:not([type]):focus,.utrecht-html input[type=date i]:focus,.utrecht-html input[type=datetime-local i]:focus,.utrecht-html input[type=email i]:focus,.utrecht-html input[type=month i]:focus,.utrecht-html input[type=number i]:focus,.utrecht-html input[type=password i]:focus,.utrecht-html input[type=search i]:focus,.utrecht-html input[type=tel i]:focus,.utrecht-html input[type=text i]:focus,.utrecht-html input[type=time i]:focus,.utrecht-html input[type=url i]:focus,.utrecht-html input[type=week i]:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input:not([type]):focus:not(:focus-visible),.utrecht-html input[type=date i]:focus:not(:focus-visible),.utrecht-html input[type=datetime-local i]:focus:not(:focus-visible),.utrecht-html input[type=email i]:focus:not(:focus-visible),.utrecht-html input[type=month i]:focus:not(:focus-visible),.utrecht-html input[type=number i]:focus:not(:focus-visible),.utrecht-html input[type=password i]:focus:not(:focus-visible),.utrecht-html input[type=search i]:focus:not(:focus-visible),.utrecht-html input[type=tel i]:focus:not(:focus-visible),.utrecht-html input[type=text i]:focus:not(:focus-visible),.utrecht-html input[type=time i]:focus:not(:focus-visible),.utrecht-html input[type=url i]:focus:not(:focus-visible),.utrecht-html input[type=week i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html input:not([type]):invalid,.utrecht-html input:not([type])[aria-invalid=true],.utrecht-html input[type=date i]:invalid,.utrecht-html input[type=date i][aria-invalid=true],.utrecht-html input[type=datetime-local i]:invalid,.utrecht-html input[type=datetime-local i][aria-invalid=true],.utrecht-html input[type=email i]:invalid,.utrecht-html input[type=email i][aria-invalid=true],.utrecht-html input[type=month i]:invalid,.utrecht-html input[type=month i][aria-invalid=true],.utrecht-html input[type=number i]:invalid,.utrecht-html input[type=number i][aria-invalid=true],.utrecht-html input[type=password i]:invalid,.utrecht-html input[type=password i][aria-invalid=true],.utrecht-html input[type=search i]:invalid,.utrecht-html input[type=search i][aria-invalid=true],.utrecht-html input[type=tel i]:invalid,.utrecht-html input[type=tel i][aria-invalid=true],.utrecht-html input[type=text i]:invalid,.utrecht-html input[type=text i][aria-invalid=true],.utrecht-html input[type=time i]:invalid,.utrecht-html input[type=time i][aria-invalid=true],.utrecht-html input[type=url i]:invalid,.utrecht-html input[type=url i][aria-invalid=true],.utrecht-html input[type=week i]:invalid,.utrecht-html input[type=week i][aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):read-only,.utrecht-html input[type=date i]:read-only,.utrecht-html input[type=datetime-local i]:read-only,.utrecht-html input[type=email i]:read-only,.utrecht-html input[type=month i]:read-only,.utrecht-html input[type=number i]:read-only,.utrecht-html input[type=password i]:read-only,.utrecht-html input[type=search i]:read-only,.utrecht-html input[type=tel i]:read-only,.utrecht-html input[type=text i]:read-only,.utrecht-html input[type=time i]:read-only,.utrecht-html input[type=url i]:read-only,.utrecht-html input[type=week i]:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):disabled,.utrecht-html input[type=date i]:disabled,.utrecht-html input[type=datetime-local i]:disabled,.utrecht-html input[type=email i]:disabled,.utrecht-html input[type=month i]:disabled,.utrecht-html input[type=number i]:disabled,.utrecht-html input[type=password i]:disabled,.utrecht-html input[type=search i]:disabled,.utrecht-html input[type=tel i]:disabled,.utrecht-html input[type=text i]:disabled,.utrecht-html input[type=time i]:disabled,.utrecht-html input[type=url i]:disabled,.utrecht-html input[type=week i]:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input:not([type])::placeholder,.utrecht-html input[type=date i]::placeholder,.utrecht-html input[type=datetime-local i]::placeholder,.utrecht-html input[type=email i]::placeholder,.utrecht-html input[type=month i]::placeholder,.utrecht-html input[type=number i]::placeholder,.utrecht-html input[type=password i]::placeholder,.utrecht-html input[type=search i]::placeholder,.utrecht-html input[type=tel i]::placeholder,.utrecht-html input[type=text i]::placeholder,.utrecht-html input[type=time i]::placeholder,.utrecht-html input[type=url i]::placeholder,.utrecht-html input[type=week i]::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input[autocomplete~=current-password i],.utrecht-html input[autocomplete~=new-password i],.utrecht-html input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-html input[autocomplete~=bday i],.utrecht-html input[autocomplete~=bday-day i],.utrecht-html input[autocomplete~=bday-month i],.utrecht-html input[autocomplete~=bday-year i],.utrecht-html input[autocomplete~=cc-csc i],.utrecht-html input[autocomplete~=cc-exp i],.utrecht-html input[autocomplete~=cc-exp-month i],.utrecht-html input[autocomplete~=cc-exp-year i],.utrecht-html input[autocomplete~=cc-number i],.utrecht-html input[autocomplete~=one-time-code i],.utrecht-html input[autocomplete~=postal-code i],.utrecht-html input[autocomplete~=tel i],.utrecht-html input[autocomplete~=tel-area-code i],.utrecht-html input[autocomplete~=tel-country-code i],.utrecht-html input[autocomplete~=tel-extension i],.utrecht-html input[autocomplete~=tel-local i],.utrecht-html input[autocomplete~=tel-national i],.utrecht-html input[autocomplete~=transaction-amount i],.utrecht-html input[inputmode=decimal i],.utrecht-html input[inputmode=numeric i],.utrecht-html input[inputmode=tel i],.utrecht-html input[type=number i],.utrecht-html input[type=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-html input[inputmode=email i],.utrecht-html input[inputmode=url i],.utrecht-html input[type=email i],.utrecht-html input[type=url i]{font-variant-ligatures:none}.utrecht-html ul{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));line-height:var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));padding-inline-start:var(--utrecht-unordered-list-padding-inline-start, 2ch);text-align:start;--utrecht-space-around: 1}.utrecht-html ul>li{margin-block-end:var(--utrecht-unordered-list-item-margin-block-end);margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);padding-inline-start:var(--utrecht-unordered-list-item-padding-inline-start, 1ch)}.utrecht-html ul>li::marker{color:var(--utrecht-unordered-list-marker-color);content:\"\\25cf\"}\n"],
+    styles: ["@charset \"UTF-8\";/**\n * @license EUPL-1.2\n * Copyright (c) 2020-2022 Gemeente Utrecht\n * Copyright (c) 2020-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2022 Gemeente Utrecht\n * Copyright (c) 2022 Robbert Broersma\n * Copyright (c) 2022 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 Gemeente Utrecht\n */.utrecht-html{--utrecht-space-around: 1}.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-html blockquote{background-color:var(--utrecht-blockquote-background-color);color:var(--utrecht-blockquote-color);font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);font-style:var(--utrecht-blockquote-font-style);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);padding-block-end:var(--utrecht-blockquote-padding-block-end);padding-block-start:var(--utrecht-blockquote-padding-block-start);padding-inline-end:var(--utrecht-blockquote-padding-inline-end);padding-inline-start:var(--utrecht-blockquote-padding-inline-start);--utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit);--utrecht-space-around: 1}.utrecht-html input[type=button i],.utrecht-html input[type=reset i],.utrecht-html input[type=submit i],.utrecht-html button{--_utrecht-button-background-color: var( --_utrecht-button-hint-background-color, var(--_utrecht-button-appearance-background-color, var(--utrecht-button-background-color)) );--_utrecht-button-color: var( --_utrecht-button-hint-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-color)) );--_utrecht-button-border-color: var( --_utrecht-button-hint-border-color, var(--_utrecht-button-appearance-border-color, var(--utrecht-button-border-color, transparent)) );--_utrecht-button-border-bottom-color: var( --_utrecht-button-hint-border-bottom-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-border-bottom-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-border-bottom-color, var(--utrecht-button-border-color, transparent)) ) ) ) );--_utrecht-button-disabled-background-color: var( --_utrecht-button-hint-disabled-background-color, var( --_utrecht-button-appearance-disabled-background-color, var(--utrecht-button-disabled-background-color, var(--utrecht-button-background-color)) ) );--_utrecht-button-disabled-border-color: var( --_utrecht-button-hint-disabled-border-color, var( --_utrecht-button-appearance-disabled-border-color, var(--utrecht-button-disabled-border-color, var(--utrecht-button-border-color)) ) );--_utrecht-button-disabled-color: var( --_utrecht-button-hint-disabled-color, var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color))) );--_utrecht-button-pressed-background-color: var( --_utrecht-button-hint-pressed-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-pressed-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-pressed-border-color: var( --_utrecht-button-hint-pressed-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-pressed-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-pressed-color: var( --_utrecht-button-hint-pressed-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-pressed-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-focus-background-color: var( --_utrecht-button-hint-focus-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-focus-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-focus-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-focus-border-color: var( --_utrecht-button-hint-focus-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-focus-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-focus-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-focus-color: var( --_utrecht-button-hint-focus-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-focus-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-focus-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-hover-background-color: var( --_utrecht-button-hint-hover-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-hover-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-hover-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-hover-border-color: var( --_utrecht-button-hint-hover-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-hover-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-hover-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-hover-color: var( --_utrecht-button-hint-hover-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-hover-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-hover-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-active-background-color: var( --_utrecht-button-hint-active-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-active-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-active-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-active-border-color: var( --_utrecht-button-hint-active-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-active-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-active-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-active-color: var( --_utrecht-button-hint-active-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-active-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-active-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));--_utrecht-button-border-block-end-width: var( --utrecht-button-border-bottom-width, var(--_utrecht-button-border-width, 0) );--utrecht-icon-size: var(--utrecht-button-icon-size, 1em);align-items:center;background-color:var(--_utrecht-button-background-color);block-size:-moz-fit-content;block-size:fit-content;border-block-end-color:var(--_utrecht-button-border-bottom-color);border-block-end-width:var(--_utrecht-button-border-block-end-width);border-color:var(--_utrecht-button-border-color);border-radius:var(--utrecht-button-border-radius);border-style:solid;border-width:var(--_utrecht-button-border-width);box-sizing:border-box;color:var(--_utrecht-button-color);cursor:var(--utrecht-action-activate-cursor, revert);display:inline-flex;font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));font-weight:var(--_utrecht-button-appearance-font-weight, var(--utrecht-button-font-weight));gap:var(--utrecht-button-icon-gap);inline-size:var(--utrecht-button-inline-size, auto);justify-content:center;line-height:var(--utrecht-button-line-height);max-inline-size:var(--utrecht-button-max-inline-size, -moz-fit-content);max-inline-size:var(--utrecht-button-max-inline-size, fit-content);min-block-size:var(--utrecht-button-min-block-size, 44px);min-inline-size:var(--utrecht-button-min-inline-size, 44px);padding-block-end:var(--utrecht-button-padding-block-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-inline-start:var(--utrecht-button-padding-inline-start);scale:1;text-transform:var(--utrecht-button-text-transform);-webkit-user-select:none;user-select:none;margin-block-end:var(--utrecht-button-margin-block-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-inline-start:var(--utrecht-button-margin-inline-start)}.utrecht-html button[hidden]{display:none}.utrecht-html button[type=submit i],.utrecht-html input[type=submit i]{cursor:var(--utrecht-action-submit-cursor, revert)}.utrecht-html button:disabled,.utrecht-html button[aria-disabled=true]{background-color:var(--_utrecht-button-disabled-background-color);border-color:var(--_utrecht-button-disabled-border-color);color:var(--_utrecht-button-disabled-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html button[aria-busy=true],.utrecht-html button[aria-disabled=true][aria-busy=true],.utrecht-html button:disabled[aria-busy=true]{cursor:var(--utrecht-action-busy-cursor, wait)}.utrecht-html button:active:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-active-background-color);border-color:var(--_utrecht-button-active-border-color);color:var(--_utrecht-button-active-color)}.utrecht-html button:hover:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-hover-background-color);border-color:var(--_utrecht-button-hover-border-color);color:var(--_utrecht-button-hover-color);scale:var(--utrecht-button-hover-scale, 1)}.utrecht-html button:focus:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-focus-background-color);border-color:var(--_utrecht-button-focus-border-color);color:var(--_utrecht-button-focus-color);scale:var(--utrecht-button-focus-scale, 1)}.utrecht-html button:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]{margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;cursor:var(--utrecht-action-activate-cursor, revert);-webkit-user-select:none;user-select:none}.utrecht-html input[type=checkbox i]:disabled{cursor:var(--utrecht-action-disabled-cursor, revert)}.utrecht-html input[type=checkbox i]:focus{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html body{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);font-weight:var(--utrecht-document-font-weight, inherit);line-height:var(--utrecht-document-line-height, inherit);text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:var(--utrecht-document-background-color, inherit)}.utrecht-html body :lang(ar){letter-spacing:0!important}.utrecht-html code{background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size, inherit);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height)}.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-html fieldset{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));all:revert;border:0;margin-inline-end:0;margin-inline-start:0;min-inline-size:0;padding-block-end:0;padding-block-start:.01em;padding-inline-end:0;padding-inline-start:0;--utrecht-space-around: 1}.utrecht-html fieldset[hidden]{display:none}.utrecht-html figure{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0))}.utrecht-html figcaption{color:var(--utrecht-figure-caption-color);font-size:var(--utrecht-figure-caption-font-size);line-height:var(--utrecht-figure-caption-line-height)}.utrecht-html form{display:block;max-inline-size:var(--utrecht-form-max-inline-size)}.utrecht-html legend{break-inside:avoid;color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);page-break-after:avoid;page-break-inside:avoid;display:table;inline-size:100%;padding-inline-end:0;padding-inline-start:0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0))}.utrecht-html legend[hidden]{display:none}.utrecht-html fieldset:disabled>legend{color:var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)))}.utrecht-html label{color:var(--utrecht-form-label-color);font-size:var(--utrecht-form-label-font-size);font-weight:var(--utrecht-form-label-font-weight)}.utrecht-html input[type=checkbox i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html input[type=radio i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html mark{background-color:var(--utrecht-mark-background-color, revert);color:var(--utrecht-mark-color, revert)}@media print{.utrecht-html mark{outline-color:currentColor;outline-style:dotted;outline-width:.1em}}@media screen and (-ms-high-contrast: active){.utrecht-html mark{background-color:Highlight;color:HighlightText}}.utrecht-html h1{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size, revert);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-1-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h2{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size, revert);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-2-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h3{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size, revert);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-3-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h4{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size, revert);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-4-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h5{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size, revert);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-5-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h6{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size, revert);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-6-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html hgroup{--utrecht-pre-heading-order: -1;display:flex;flex-direction:column;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html hgroup>*{--utrecht-space-around: 0}.utrecht-html a{--utrecht-icon-size: var(--utrecht-link-icon-size, 1em);color:var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)))}.utrecht-html a:visited{--_utrecht-link-forced-colors-color: visitedtext;--_utrecht-link-state-color: var(--utrecht-link-visited-color)}.utrecht-html a:hover{--_utrecht-link-forced-colors-color: linktext;--_utrecht-link-state-color: var(--utrecht-link-hover-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}.utrecht-html a:active{--_utrecht-link-forced-colors-color: activetext;--_utrecht-link-state-color: var(--utrecht-link-active-color)}.utrecht-html a:focus{--_utrecht-link-state-color: var(--utrecht-link-focus-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);background-color:var(--utrecht-link-focus-background-color, transparent);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert);z-index:var(--utrecht-stack-focus-z-index, 1)}.utrecht-html a:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-html ol{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));line-height:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));padding-inline-start:var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));text-align:start;--utrecht-space-around: 1}.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));margin-block-start:var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));padding-inline-start:var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch))}.utrecht-html ol:lang(ar){list-style:arabic-indic}.utrecht-html p{color:var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0))}.utrecht-html p.lead{color:var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html *~p{--utrecht-space-around: 1}.utrecht-html p:has(>small:only-child){color:var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html p>small:only-child{font-size:inherit}.utrecht-html pre:has(>code:only-child){background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size, inherit);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height);--utrecht-code-color: var(--utrecht-code-block-color, inherit);--utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);--utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);--utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);--utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);background-color:var(--utrecht-code-block-background-color);display:block;font-size:var(--utrecht-code-block-font-size, var(--utrecht-code-font-size, inherit));line-height:var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));margin-block-end:var(--utrecht-code-block-margin-block-end);margin-block-start:var(--utrecht-code-block-margin-block-start);margin-inline-end:var(--utrecht-code-block-margin-inline-end);margin-inline-start:var(--utrecht-code-block-margin-inline-start);padding-block-end:var(--utrecht-code-block-padding-block-end);padding-block-start:var(--utrecht-code-block-padding-block-start);padding-inline-end:var(--utrecht-code-block-padding-inline-end);padding-inline-start:var(--utrecht-code-block-padding-inline-start);white-space:pre}.utrecht-html pre[hidden]:has(>code:only-child){display:none}.utrecht-html pre:has(>code:only-child)>code{display:contents}.utrecht-html input[type=radio i]{appearance:none;margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;--_utrecht-radio-button-background-color: var( --_utrecht-radio-button-interactive-background-color, var(--_utrecht-radio-button-state-background-color, var(--utrecht-radio-button-background-color)) );--_utrecht-radio-button-border-color: var( --_utrecht-radio-button-interactive-border-color, var(--_utrecht-radio-button-state-border-color, var(--utrecht-radio-button-border-color, currentColor)) );--_utrecht-radio-button-border-width: var( --_utrecht-radio-button-interactive-border-width, var(--_utrecht-radio-button-state-border-width, var(--utrecht-radio-button-border-width)) );--_utrecht-radio-button-color: var( --_utrecht-radio-button-interactive-color, var(--_utrecht-radio-button-state-color, var(--utrecht-radio-button-color, currentColor)) );--_utrecht-radio-button-icon-size: 0;background-color:var(--_utrecht-radio-button-background-color);background-image:radial-gradient(circle,var(--_utrecht-radio-button-color, transparent) calc(var(--_utrecht-radio-button-icon-size, 50%) - 5%),var(--_utrecht-radio-button-background-color, currentColor) var(--_utrecht-radio-button-icon-size, 50%));background-position:center;background-repeat:no-repeat;background-size:contain;block-size:var(--utrecht-radio-button-size, 1em);border-color:var(--_utrecht-radio-button-border-color);border-radius:50%;border-style:solid;border-width:var(--_utrecht-radio-button-border-width);cursor:var(--utrecht-action-activate-cursor, revert);inline-size:var(--utrecht-radio-button-size, 1em);margin-inline-end:var(--utrecht-radio-button-margin-inline-end);min-block-size:24px;min-inline-size:24px;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;user-select:none;vertical-align:top}.utrecht-html input[type=radio i]:checked{--_utrecht-radio-button-icon-size: var(--utrecht-radio-button-icon-size, 50%);--_utrecht-radio-button-state-background-color: var(--utrecht-radio-button-checked-background-color);--_utrecht-radio-button-state-border-color: var(--utrecht-radio-button-checked-border-color);--_utrecht-radio-button-state-border-width: var(--utrecht-radio-button-checked-border-width);--_utrecht-radio-button-state-color: var(--utrecht-radio-button-checked-color);--_utrecht-radio-button-state-active-background-color: var(--utrecht-radio-button-checked-active-background-color);--_utrecht-radio-button-state-active-border-color: var(--utrecht-radio-button-checked-active-border-color);--_utrecht-radio-button-state-active-border-width: var(--utrecht-radio-button-checked-active-border-width);--_utrecht-radio-button-state-active-color: var(--utrecht-radio-button-checked-active-color);--_utrecht-radio-button-state-focus-background-color: var(--utrecht-radio-button-checked-focus-background-color);--_utrecht-radio-button-state-focus-border-color: var(--utrecht-radio-button-checked-focus-border-color);--_utrecht-radio-button-state-focus-border-width: var(--utrecht-radio-button-checked-focus-border-width);--_utrecht-radio-button-state-focus-color: var(--utrecht-radio-button-checked-focus-color);--_utrecht-radio-button-state-hover-background-color: var(--utrecht-radio-button-checked-hover-background-color);--_utrecht-radio-button-state-hover-border-color: var(--utrecht-radio-button-checked-hover-border-color);--_utrecht-radio-button-state-hover-border-width: var(--utrecht-radio-button-checked-hover-border-width);--_utrecht-radio-button-state-hover-color: var(--utrecht-radio-button-checked-hover-color)}.utrecht-html input[type=radio i]:disabled{--_utrecht-radio-button-background-color: var(--utrecht-radio-button-disabled-background-color);--_utrecht-radio-button-border-color: var(--utrecht-radio-button-disabled-border-color);--_utrecht-radio-button-border-width: var(--utrecht-radio-button-disabled-border-width);--_utrecht-radio-button-color: var(--utrecht-radio-button-disabled-color);--_utrecht-radio-button-focus-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-focus-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-focus-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-focus-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-active-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-active-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-active-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-active-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-hover-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input[type=radio i]:invalid,.utrecht-html input[type=radio i][aria-invalid=true]{border-color:var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));border-width:var(--utrecht-radio-button-invalid-border-width, var(--utrecht-radio-button-border-width));color:var(--utrecht-radio-button-invalid-color, var(--utrecht-radio-button-color))}.utrecht-html input[type=radio i]:focus:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --utrecht-radio-button-focus-background-color, var(--utrecht-radio-button-focus-background-color) );--_utrecht-radio-button-interactive-border-color: var( --utrecht-radio-button-focus-border-color, var(--utrecht-radio-button-focus-border-color) );--_utrecht-radio-button-interactive-border-width: var( --utrecht-radio-button-focus-border-width, var(--utrecht-radio-button-focus-border-width) );--_utrecht-radio-button-interactive-color: var( --utrecht-radio-button-focus-color, var(--utrecht-radio-button-focus-color) )}.utrecht-html input[type=radio i]:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=radio i]:hover:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-hover-background-color, var(--utrecht-radio-button-hover-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-hover-border-color, var(--utrecht-radio-button-hover-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-hover-border-width, var(--utrecht-radio-button-hover-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-hover-color, var(--utrecht-radio-button-hover-color) )}.utrecht-html input[type=radio i]:active:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-active-background-color, var(--utrecht-radio-button-active-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-active-border-color, var(--utrecht-radio-button-active-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-active-border-width, var(--utrecht-radio-button-active-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-active-color, var(--utrecht-radio-button-active-color) )}.utrecht-html select{background-color:var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));border-block-end-width:var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));border-block-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-color:var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));border-inline-end-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-inline-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-radius:var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;color:var(--utrecht-select-color, var(--utrecht-form-control-color));font-family:var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));inline-size:100%;min-block-size:var(--utrecht-select-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));padding-block-start:var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));padding-inline-end:var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));padding-inline-start:var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start))}.utrecht-html select:focus{background-color:var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html select:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html select:disabled{background-color:var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html select[aria-invalid=true]{--_utrecht-select-border-width: var( --utrecht-select-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-select-border-width);border-block-end-width:var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));border-color:var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))))}.utrecht-html hr{border-color:var(--utrecht-separator-color);border-style:solid;border-width:0 0 var(--utrecht-separator-block-size) 0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html table{border-collapse:separate;border-color:var(--utrecht-table-border-color, 0);border-spacing:0;border-style:solid;border-width:var(--utrecht-table-border-width, 0);font-family:var(--utrecht-table-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-table-font-size, inherit);inline-size:100%;line-height:var(--utrecht-table-line-height, inherit);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html caption{break-inside:avoid;color:var(--utrecht-table-caption-color);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);font-weight:var(--utrecht-table-caption-font-weight);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);page-break-after:avoid;text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-html thead{--_utrecht-table-header-cell-vertical-align: bottom;--_utrecht-table-header-cell-z-index: 8;background-color:var(--utrecht-table-header-background-color);break-inside:avoid;color:var(--utrecht-table-header-color);font-weight:var(--utrecht-table-header-font-weight);page-break-inside:avoid;text-transform:var(--utrecht-table-header-text-transform)}.utrecht-html tbody{--_utrecht-table-header-cell-z-index: 2}.utrecht-html th{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;color:var(--utrecht-table-header-cell-color);font-size:var(--utrecht-table-header-cell-font-size);font-weight:var(--utrecht-table-header-cell-font-weight, bold);text-transform:var(--utrecht-table-header-cell-text-transform);vertical-align:var(--_utrecht-table-header-cell-vertical-align, top);z-index:var(--_utrecht-table-header-cell-z-index)}.utrecht-html th,.utrecht-html td{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);vertical-align:top}.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-html thead tr:last-child th{border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-html thead>tr>th.numeric,.utrecht-html tfoot>tr>th.numeric,.utrecht-html th[scope=column].numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align)}.utrecht-html td.numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align);font-variant-numeric:lining-nums tabular-nums}.utrecht-html table.alternate-row-color>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html textarea{background-color:var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textarea-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textarea-line-height, initial);max-inline-size:var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));min-block-size:var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);padding-block-end:var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));resize:vertical;resize:block}.utrecht-html textarea:focus{background-color:var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html textarea:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{--_utrecht-textarea-border-width: var( --utrecht-textarea-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textarea-border-width);border-block-end-width:var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));border-color:var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:read-only{background-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:disabled{background-color:var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html textarea::placeholder{color:var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input:not([type]),.utrecht-html input[type=date i],.utrecht-html input[type=datetime-local i],.utrecht-html input[type=email i],.utrecht-html input[type=month i],.utrecht-html input[type=number i],.utrecht-html input[type=password i],.utrecht-html input[type=search i],.utrecht-html input[type=tel i],.utrecht-html input[type=text i],.utrecht-html input[type=time i],.utrecht-html input[type=url i],.utrecht-html input[type=week i]{--_utrecht-textbox-value-char: .667em + .334ch;--_utrecht-textbox-max-inline-size: calc( calc(var(--utrecht-textbox-value-max-length) * var(--_utrecht-textbox-value-char)) + var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, 0)) + var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, 0)) + var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width, 0)) + var(--utrecht-textbox-autocomplete-ui-size, 44px) );background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:min(var(--_utrecht-textbox-max-inline-size, 100%),var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size)));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-html input:not([type]):focus,.utrecht-html input[type=date i]:focus,.utrecht-html input[type=datetime-local i]:focus,.utrecht-html input[type=email i]:focus,.utrecht-html input[type=month i]:focus,.utrecht-html input[type=number i]:focus,.utrecht-html input[type=password i]:focus,.utrecht-html input[type=search i]:focus,.utrecht-html input[type=tel i]:focus,.utrecht-html input[type=text i]:focus,.utrecht-html input[type=time i]:focus,.utrecht-html input[type=url i]:focus,.utrecht-html input[type=week i]:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input:not([type]):focus:not(:focus-visible),.utrecht-html input[type=date i]:focus:not(:focus-visible),.utrecht-html input[type=datetime-local i]:focus:not(:focus-visible),.utrecht-html input[type=email i]:focus:not(:focus-visible),.utrecht-html input[type=month i]:focus:not(:focus-visible),.utrecht-html input[type=number i]:focus:not(:focus-visible),.utrecht-html input[type=password i]:focus:not(:focus-visible),.utrecht-html input[type=search i]:focus:not(:focus-visible),.utrecht-html input[type=tel i]:focus:not(:focus-visible),.utrecht-html input[type=text i]:focus:not(:focus-visible),.utrecht-html input[type=time i]:focus:not(:focus-visible),.utrecht-html input[type=url i]:focus:not(:focus-visible),.utrecht-html input[type=week i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html input:not([type]):invalid,.utrecht-html input:not([type])[aria-invalid=true],.utrecht-html input[type=date i]:invalid,.utrecht-html input[type=date i][aria-invalid=true],.utrecht-html input[type=datetime-local i]:invalid,.utrecht-html input[type=datetime-local i][aria-invalid=true],.utrecht-html input[type=email i]:invalid,.utrecht-html input[type=email i][aria-invalid=true],.utrecht-html input[type=month i]:invalid,.utrecht-html input[type=month i][aria-invalid=true],.utrecht-html input[type=number i]:invalid,.utrecht-html input[type=number i][aria-invalid=true],.utrecht-html input[type=password i]:invalid,.utrecht-html input[type=password i][aria-invalid=true],.utrecht-html input[type=search i]:invalid,.utrecht-html input[type=search i][aria-invalid=true],.utrecht-html input[type=tel i]:invalid,.utrecht-html input[type=tel i][aria-invalid=true],.utrecht-html input[type=text i]:invalid,.utrecht-html input[type=text i][aria-invalid=true],.utrecht-html input[type=time i]:invalid,.utrecht-html input[type=time i][aria-invalid=true],.utrecht-html input[type=url i]:invalid,.utrecht-html input[type=url i][aria-invalid=true],.utrecht-html input[type=week i]:invalid,.utrecht-html input[type=week i][aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):read-only,.utrecht-html input[type=date i]:read-only,.utrecht-html input[type=datetime-local i]:read-only,.utrecht-html input[type=email i]:read-only,.utrecht-html input[type=month i]:read-only,.utrecht-html input[type=number i]:read-only,.utrecht-html input[type=password i]:read-only,.utrecht-html input[type=search i]:read-only,.utrecht-html input[type=tel i]:read-only,.utrecht-html input[type=text i]:read-only,.utrecht-html input[type=time i]:read-only,.utrecht-html input[type=url i]:read-only,.utrecht-html input[type=week i]:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):disabled,.utrecht-html input[type=date i]:disabled,.utrecht-html input[type=datetime-local i]:disabled,.utrecht-html input[type=email i]:disabled,.utrecht-html input[type=month i]:disabled,.utrecht-html input[type=number i]:disabled,.utrecht-html input[type=password i]:disabled,.utrecht-html input[type=search i]:disabled,.utrecht-html input[type=tel i]:disabled,.utrecht-html input[type=text i]:disabled,.utrecht-html input[type=time i]:disabled,.utrecht-html input[type=url i]:disabled,.utrecht-html input[type=week i]:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input:not([type])::placeholder,.utrecht-html input[type=date i]::placeholder,.utrecht-html input[type=datetime-local i]::placeholder,.utrecht-html input[type=email i]::placeholder,.utrecht-html input[type=month i]::placeholder,.utrecht-html input[type=number i]::placeholder,.utrecht-html input[type=password i]::placeholder,.utrecht-html input[type=search i]::placeholder,.utrecht-html input[type=tel i]::placeholder,.utrecht-html input[type=text i]::placeholder,.utrecht-html input[type=time i]::placeholder,.utrecht-html input[type=url i]::placeholder,.utrecht-html input[type=week i]::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input[autocomplete~=current-password i],.utrecht-html input[autocomplete~=new-password i],.utrecht-html input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-html input[autocomplete~=bday i],.utrecht-html input[autocomplete~=bday-day i],.utrecht-html input[autocomplete~=bday-month i],.utrecht-html input[autocomplete~=bday-year i],.utrecht-html input[autocomplete~=cc-csc i],.utrecht-html input[autocomplete~=cc-exp i],.utrecht-html input[autocomplete~=cc-exp-month i],.utrecht-html input[autocomplete~=cc-exp-year i],.utrecht-html input[autocomplete~=cc-number i],.utrecht-html input[autocomplete~=one-time-code i],.utrecht-html input[autocomplete~=postal-code i],.utrecht-html input[autocomplete~=tel i],.utrecht-html input[autocomplete~=tel-area-code i],.utrecht-html input[autocomplete~=tel-country-code i],.utrecht-html input[autocomplete~=tel-extension i],.utrecht-html input[autocomplete~=tel-local i],.utrecht-html input[autocomplete~=tel-national i],.utrecht-html input[autocomplete~=transaction-amount i],.utrecht-html input[inputmode=decimal i],.utrecht-html input[inputmode=numeric i],.utrecht-html input[inputmode=tel i],.utrecht-html input[type=number i],.utrecht-html input[type=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-html input[inputmode=email i],.utrecht-html input[inputmode=url i],.utrecht-html input[type=email i],.utrecht-html input[type=url i]{font-variant-ligatures:none}.utrecht-html ul{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));line-height:var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));padding-inline-start:var(--utrecht-unordered-list-padding-inline-start, 2ch);text-align:start;--utrecht-space-around: 1}.utrecht-html ul>li{margin-block-end:var(--utrecht-unordered-list-item-margin-block-end);margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);padding-inline-start:var(--utrecht-unordered-list-item-padding-inline-start, 1ch)}.utrecht-html ul>li::marker{color:var(--utrecht-unordered-list-marker-color);content:\"\\25cf\"}\n"],
     encapsulation: 2,
     changeDetection: 0
   });
@@ -66408,7 +66679,7 @@ class UtrechtHtmlContent {
       changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectionStrategy.OnPush,
       encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ViewEncapsulation.None,
       template: "<div class=\"utrecht-html\">\n  <ng-content></ng-content>\n</div>\n",
-      styles: ["@charset \"UTF-8\";/**\n * @license EUPL-1.2\n * Copyright (c) 2020-2022 Gemeente Utrecht\n * Copyright (c) 2020-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2022 Gemeente Utrecht\n * Copyright (c) 2022 Robbert Broersma\n * Copyright (c) 2022 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 Gemeente Utrecht\n */.utrecht-html{--utrecht-space-around: 1}.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-html blockquote{background-color:var(--utrecht-blockquote-background-color);color:var(--utrecht-blockquote-color);font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);font-style:var(--utrecht-blockquote-font-style);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);padding-block-end:var(--utrecht-blockquote-padding-block-end);padding-block-start:var(--utrecht-blockquote-padding-block-start);padding-inline-end:var(--utrecht-blockquote-padding-inline-end);padding-inline-start:var(--utrecht-blockquote-padding-inline-start);--utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit);--utrecht-space-around: 1}.utrecht-html input[type=button i],.utrecht-html input[type=reset i],.utrecht-html input[type=submit i],.utrecht-html button{--_utrecht-button-background-color: var( --_utrecht-button-hint-background-color, var(--_utrecht-button-appearance-background-color, var(--utrecht-button-background-color)) );--_utrecht-button-color: var( --_utrecht-button-hint-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-color)) );--_utrecht-button-border-color: var( --_utrecht-button-hint-border-color, var(--_utrecht-button-appearance-border-color, var(--utrecht-button-border-color, transparent)) );--_utrecht-button-border-bottom-color: var( --_utrecht-button-hint-border-bottom-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-border-bottom-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-border-bottom-color, var(--utrecht-button-border-color, transparent)) ) ) ) );--_utrecht-button-disabled-background-color: var( --_utrecht-button-hint-disabled-background-color, var( --_utrecht-button-appearance-disabled-background-color, var(--utrecht-button-disabled-background-color, var(--utrecht-button-background-color)) ) );--_utrecht-button-disabled-border-color: var( --_utrecht-button-hint-disabled-border-color, var( --_utrecht-button-appearance-disabled-border-color, var(--utrecht-button-disabled-border-color, var(--utrecht-button-border-color)) ) );--_utrecht-button-disabled-color: var( --_utrecht-button-hint-disabled-color, var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color))) );--_utrecht-button-pressed-background-color: var( --_utrecht-button-hint-pressed-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-pressed-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-pressed-border-color: var( --_utrecht-button-hint-pressed-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-pressed-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-pressed-color: var( --_utrecht-button-hint-pressed-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-pressed-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-focus-background-color: var( --_utrecht-button-hint-focus-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-focus-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-focus-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-focus-border-color: var( --_utrecht-button-hint-focus-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-focus-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-focus-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-focus-color: var( --_utrecht-button-hint-focus-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-focus-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-focus-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-hover-background-color: var( --_utrecht-button-hint-hover-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-hover-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-hover-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-hover-border-color: var( --_utrecht-button-hint-hover-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-hover-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-hover-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-hover-color: var( --_utrecht-button-hint-hover-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-hover-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-hover-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-active-background-color: var( --_utrecht-button-hint-active-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-active-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-active-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-active-border-color: var( --_utrecht-button-hint-active-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-active-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-active-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-active-color: var( --_utrecht-button-hint-active-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-active-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-active-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));--_utrecht-button-border-block-end-width: var( --utrecht-button-border-bottom-width, var(--_utrecht-button-border-width, 0) );--utrecht-icon-size: var(--utrecht-button-icon-size, 1em);align-items:center;background-color:var(--_utrecht-button-background-color);block-size:-moz-fit-content;block-size:fit-content;border-block-end-color:var(--_utrecht-button-border-bottom-color);border-block-end-width:var(--_utrecht-button-border-block-end-width);border-color:var(--_utrecht-button-border-color);border-radius:var(--utrecht-button-border-radius);border-style:solid;border-width:var(--_utrecht-button-border-width);box-sizing:border-box;color:var(--_utrecht-button-color);cursor:var(--utrecht-action-activate-cursor, revert);display:inline-flex;font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));font-weight:var(--_utrecht-button-appearance-font-weight, var(--utrecht-button-font-weight));gap:var(--utrecht-button-icon-gap);inline-size:var(--utrecht-button-inline-size, auto);justify-content:center;line-height:var(--utrecht-button-line-height);max-inline-size:var(--utrecht-button-max-inline-size, -moz-fit-content);max-inline-size:var(--utrecht-button-max-inline-size, fit-content);min-block-size:var(--utrecht-button-min-block-size, 44px);min-inline-size:var(--utrecht-button-min-inline-size, 44px);padding-block-end:var(--utrecht-button-padding-block-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-inline-start:var(--utrecht-button-padding-inline-start);scale:1;text-transform:var(--utrecht-button-text-transform);-webkit-user-select:none;user-select:none;margin-block-end:var(--utrecht-button-margin-block-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-inline-start:var(--utrecht-button-margin-inline-start)}.utrecht-html button[hidden]{display:none}.utrecht-html button[type=submit i],.utrecht-html input[type=submit i]{cursor:var(--utrecht-action-submit-cursor, revert)}.utrecht-html button:disabled,.utrecht-html button[aria-disabled=true]{background-color:var(--_utrecht-button-disabled-background-color);border-color:var(--_utrecht-button-disabled-border-color);color:var(--_utrecht-button-disabled-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html button[aria-busy=true],.utrecht-html button[aria-disabled=true][aria-busy=true],.utrecht-html button:disabled[aria-busy=true]{cursor:var(--utrecht-action-busy-cursor, wait)}.utrecht-html button:active:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-active-background-color);border-color:var(--_utrecht-button-active-border-color);color:var(--_utrecht-button-active-color)}.utrecht-html button:hover:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-hover-background-color);border-color:var(--_utrecht-button-hover-border-color);color:var(--_utrecht-button-hover-color);scale:var(--utrecht-button-hover-scale, 1)}.utrecht-html button:focus:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-focus-background-color);border-color:var(--_utrecht-button-focus-border-color);color:var(--_utrecht-button-focus-color);scale:var(--utrecht-button-focus-scale, 1)}.utrecht-html button:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]{margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;cursor:var(--utrecht-action-activate-cursor, revert);-webkit-user-select:none;user-select:none}.utrecht-html input[type=checkbox i]:disabled{cursor:var(--utrecht-action-disabled-cursor, revert)}.utrecht-html input[type=checkbox i]:focus{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html body{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);font-weight:var(--utrecht-document-font-weight, inherit);line-height:var(--utrecht-document-line-height, inherit);text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:var(--utrecht-document-background-color, inherit)}.utrecht-html body :lang(ar){letter-spacing:0!important}.utrecht-html code{background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height)}.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-html fieldset{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));all:revert;border:0;margin-inline-end:0;margin-inline-start:0;min-inline-size:0;padding-block-end:0;padding-block-start:.01em;padding-inline-end:0;padding-inline-start:0;--utrecht-space-around: 1}.utrecht-html fieldset[hidden]{display:none}.utrecht-html figure{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0))}.utrecht-html figcaption{color:var(--utrecht-figure-caption-color);font-size:var(--utrecht-figure-caption-font-size);line-height:var(--utrecht-figure-caption-line-height)}.utrecht-html form{display:block;max-inline-size:var(--utrecht-form-max-inline-size)}.utrecht-html legend{break-inside:avoid;color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);page-break-after:avoid;page-break-inside:avoid;display:table;inline-size:100%;padding-inline-end:0;padding-inline-start:0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0))}.utrecht-html legend[hidden]{display:none}.utrecht-html fieldset:disabled>legend{color:var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)))}.utrecht-html label{color:var(--utrecht-form-label-color);font-size:var(--utrecht-form-label-font-size);font-weight:var(--utrecht-form-label-font-weight)}.utrecht-html input[type=checkbox i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html input[type=radio i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html mark{background-color:var(--utrecht-mark-background-color, revert);color:var(--utrecht-mark-color, revert)}@media print{.utrecht-html mark{outline-color:currentColor;outline-style:dotted;outline-width:.1em}}@media screen and (-ms-high-contrast: active){.utrecht-html mark{background-color:Highlight;color:HighlightText}}.utrecht-html h1{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size, revert);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-1-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h2{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size, revert);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-2-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h3{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size, revert);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-3-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h4{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size, revert);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-4-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h5{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size, revert);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-5-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h6{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size, revert);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-6-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html hgroup{--utrecht-pre-heading-order: -1;display:flex;flex-direction:column;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html hgroup>*{--utrecht-space-around: 0}.utrecht-html a{--utrecht-icon-size: var(--utrecht-link-icon-size, 1em);color:var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)))}.utrecht-html a:visited{--_utrecht-link-forced-colors-color: visitedtext;--_utrecht-link-state-color: var(--utrecht-link-visited-color)}.utrecht-html a:hover{--_utrecht-link-forced-colors-color: linktext;--_utrecht-link-state-color: var(--utrecht-link-hover-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}.utrecht-html a:active{--_utrecht-link-forced-colors-color: activetext;--_utrecht-link-state-color: var(--utrecht-link-active-color)}.utrecht-html a:focus{--_utrecht-link-state-color: var(--utrecht-link-focus-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);background-color:var(--utrecht-link-focus-background-color, transparent);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert);z-index:var(--utrecht-stack-focus-z-index, 1)}.utrecht-html a:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-html ol{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));line-height:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));padding-inline-start:var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));text-align:start;--utrecht-space-around: 1}.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));margin-block-start:var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));padding-inline-start:var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch))}.utrecht-html ol:lang(ar){list-style:arabic-indic}.utrecht-html p{color:var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0))}.utrecht-html p.lead{color:var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html *~p{--utrecht-space-around: 1}.utrecht-html p:has(>small:only-child){color:var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html p>small:only-child{font-size:inherit}.utrecht-html pre:has(>code:only-child){background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height);--utrecht-code-color: var(--utrecht-code-block-color, inherit);--utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);--utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);--utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);--utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);background-color:var(--utrecht-code-block-background-color);display:block;font-size:var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));line-height:var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));margin-block-end:var(--utrecht-code-block-margin-block-end);margin-block-start:var(--utrecht-code-block-margin-block-start);margin-inline-end:var(--utrecht-code-block-margin-inline-end);margin-inline-start:var(--utrecht-code-block-margin-inline-start);padding-block-end:var(--utrecht-code-block-padding-block-end);padding-block-start:var(--utrecht-code-block-padding-block-start);padding-inline-end:var(--utrecht-code-block-padding-inline-end);padding-inline-start:var(--utrecht-code-block-padding-inline-start);white-space:pre}.utrecht-html pre[hidden]:has(>code:only-child){display:none}.utrecht-html pre:has(>code:only-child)>code{display:contents}.utrecht-html input[type=radio i]{appearance:none;margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;--_utrecht-radio-button-background-color: var( --_utrecht-radio-button-interactive-background-color, var(--_utrecht-radio-button-state-background-color, var(--utrecht-radio-button-background-color)) );--_utrecht-radio-button-border-color: var( --_utrecht-radio-button-interactive-border-color, var(--_utrecht-radio-button-state-border-color, var(--utrecht-radio-button-border-color, currentColor)) );--_utrecht-radio-button-border-width: var( --_utrecht-radio-button-interactive-border-width, var(--_utrecht-radio-button-state-border-width, var(--utrecht-radio-button-border-width)) );--_utrecht-radio-button-color: var( --_utrecht-radio-button-interactive-color, var(--_utrecht-radio-button-state-color, var(--utrecht-radio-button-color, currentColor)) );--_utrecht-radio-button-icon-size: 0;background-color:var(--_utrecht-radio-button-background-color);background-image:radial-gradient(circle,var(--_utrecht-radio-button-color, transparent) calc(var(--_utrecht-radio-button-icon-size, 50%) - 5%),var(--_utrecht-radio-button-background-color, currentColor) var(--_utrecht-radio-button-icon-size, 50%));background-position:center;background-repeat:no-repeat;background-size:contain;block-size:var(--utrecht-radio-button-size, 1em);border-color:var(--_utrecht-radio-button-border-color);border-radius:50%;border-style:solid;border-width:var(--_utrecht-radio-button-border-width);cursor:var(--utrecht-action-activate-cursor, revert);inline-size:var(--utrecht-radio-button-size, 1em);margin-inline-end:var(--utrecht-radio-button-margin-inline-end);min-block-size:24px;min-inline-size:24px;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;user-select:none;vertical-align:top}.utrecht-html input[type=radio i]:checked{--_utrecht-radio-button-icon-size: var(--utrecht-radio-button-icon-size, 50%);--_utrecht-radio-button-state-background-color: var(--utrecht-radio-button-checked-background-color);--_utrecht-radio-button-state-border-color: var(--utrecht-radio-button-checked-border-color);--_utrecht-radio-button-state-border-width: var(--utrecht-radio-button-checked-border-width);--_utrecht-radio-button-state-color: var(--utrecht-radio-button-checked-color);--_utrecht-radio-button-state-active-background-color: var(--utrecht-radio-button-checked-active-background-color);--_utrecht-radio-button-state-active-border-color: var(--utrecht-radio-button-checked-active-border-color);--_utrecht-radio-button-state-active-border-width: var(--utrecht-radio-button-checked-active-border-width);--_utrecht-radio-button-state-active-color: var(--utrecht-radio-button-checked-active-color);--_utrecht-radio-button-state-focus-background-color: var(--utrecht-radio-button-checked-focus-background-color);--_utrecht-radio-button-state-focus-border-color: var(--utrecht-radio-button-checked-focus-border-color);--_utrecht-radio-button-state-focus-border-width: var(--utrecht-radio-button-checked-focus-border-width);--_utrecht-radio-button-state-focus-color: var(--utrecht-radio-button-checked-focus-color);--_utrecht-radio-button-state-hover-background-color: var(--utrecht-radio-button-checked-hover-background-color);--_utrecht-radio-button-state-hover-border-color: var(--utrecht-radio-button-checked-hover-border-color);--_utrecht-radio-button-state-hover-border-width: var(--utrecht-radio-button-checked-hover-border-width);--_utrecht-radio-button-state-hover-color: var(--utrecht-radio-button-checked-hover-color)}.utrecht-html input[type=radio i]:disabled{--_utrecht-radio-button-background-color: var(--utrecht-radio-button-disabled-background-color);--_utrecht-radio-button-border-color: var(--utrecht-radio-button-disabled-border-color);--_utrecht-radio-button-border-width: var(--utrecht-radio-button-disabled-border-width);--_utrecht-radio-button-color: var(--utrecht-radio-button-disabled-color);--_utrecht-radio-button-focus-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-focus-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-focus-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-focus-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-active-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-active-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-active-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-active-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-hover-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input[type=radio i]:invalid,.utrecht-html input[type=radio i][aria-invalid=true]{border-color:var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));border-width:var(--utrecht-radio-button-invalid-border-width, var(--utrecht-radio-button-border-width));color:var(--utrecht-radio-button-invalid-color, var(--utrecht-radio-button-color))}.utrecht-html input[type=radio i]:focus:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --utrecht-radio-button-focus-background-color, var(--utrecht-radio-button-focus-background-color) );--_utrecht-radio-button-interactive-border-color: var( --utrecht-radio-button-focus-border-color, var(--utrecht-radio-button-focus-border-color) );--_utrecht-radio-button-interactive-border-width: var( --utrecht-radio-button-focus-border-width, var(--utrecht-radio-button-focus-border-width) );--_utrecht-radio-button-interactive-color: var( --utrecht-radio-button-focus-color, var(--utrecht-radio-button-focus-color) )}.utrecht-html input[type=radio i]:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=radio i]:hover:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-hover-background-color, var(--utrecht-radio-button-hover-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-hover-border-color, var(--utrecht-radio-button-hover-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-hover-border-width, var(--utrecht-radio-button-hover-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-hover-color, var(--utrecht-radio-button-hover-color) )}.utrecht-html input[type=radio i]:active:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-active-background-color, var(--utrecht-radio-button-active-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-active-border-color, var(--utrecht-radio-button-active-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-active-border-width, var(--utrecht-radio-button-active-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-active-color, var(--utrecht-radio-button-active-color) )}.utrecht-html select{background-color:var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));border-block-end-width:var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));border-block-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-color:var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));border-inline-end-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-inline-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-radius:var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;color:var(--utrecht-select-color, var(--utrecht-form-control-color));font-family:var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));inline-size:100%;min-block-size:var(--utrecht-select-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));padding-block-start:var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));padding-inline-end:var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));padding-inline-start:var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start))}.utrecht-html select:focus{background-color:var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html select:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html select:disabled{background-color:var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html select[aria-invalid=true]{--_utrecht-select-border-width: var( --utrecht-select-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-select-border-width);border-block-end-width:var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));border-color:var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))))}.utrecht-html hr{border-color:var(--utrecht-separator-color);border-style:solid;border-width:0 0 var(--utrecht-separator-block-size) 0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html table{border-collapse:separate;border-color:var(--utrecht-table-border-color, 0);border-spacing:0;border-style:solid;border-width:var(--utrecht-table-border-width, 0);font-family:var(--utrecht-table-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-table-font-size, inherit);inline-size:100%;line-height:var(--utrecht-table-line-height, inherit);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html caption{break-inside:avoid;color:var(--utrecht-table-caption-color);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);font-weight:var(--utrecht-table-caption-font-weight);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);page-break-after:avoid;text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-html thead{--_utrecht-table-header-cell-vertical-align: bottom;--_utrecht-table-header-cell-z-index: 8;background-color:var(--utrecht-table-header-background-color);break-inside:avoid;color:var(--utrecht-table-header-color);font-weight:var(--utrecht-table-header-font-weight);page-break-inside:avoid;text-transform:var(--utrecht-table-header-text-transform)}.utrecht-html tbody{--_utrecht-table-header-cell-z-index: 2}.utrecht-html th{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;color:var(--utrecht-table-header-cell-color);font-size:var(--utrecht-table-header-cell-font-size);font-weight:var(--utrecht-table-header-cell-font-weight, bold);text-transform:var(--utrecht-table-header-cell-text-transform);vertical-align:var(--_utrecht-table-header-cell-vertical-align, top);z-index:var(--_utrecht-table-header-cell-z-index)}.utrecht-html th,.utrecht-html td{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);vertical-align:top}.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-html thead tr:last-child th{border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-html thead>tr>th.numeric,.utrecht-html tfoot>tr>th.numeric,.utrecht-html th[scope=column].numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align)}.utrecht-html td.numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align);font-variant-numeric:lining-nums tabular-nums}.utrecht-html table.alternate-row-color>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html textarea{background-color:var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textarea-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textarea-line-height, initial);max-inline-size:var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));min-block-size:var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);padding-block-end:var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));resize:vertical;resize:block}.utrecht-html textarea:focus{background-color:var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html textarea:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{--_utrecht-textarea-border-width: var( --utrecht-textarea-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textarea-border-width);border-block-end-width:var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));border-color:var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:read-only{background-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:disabled{background-color:var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html textarea::placeholder{color:var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input:not([type]),.utrecht-html input[type=date i],.utrecht-html input[type=datetime-local i],.utrecht-html input[type=email i],.utrecht-html input[type=month i],.utrecht-html input[type=number i],.utrecht-html input[type=password i],.utrecht-html input[type=search i],.utrecht-html input[type=tel i],.utrecht-html input[type=text i],.utrecht-html input[type=time i],.utrecht-html input[type=url i],.utrecht-html input[type=week i]{--_utrecht-textbox-value-char: .667em + .334ch;--_utrecht-textbox-max-inline-size: calc( calc(var(--utrecht-textbox-value-max-length) * var(--_utrecht-textbox-value-char)) + var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, 0)) + var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, 0)) + var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width, 0)) + var(--utrecht-textbox-autocomplete-ui-size, 44px) );background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:min(var(--_utrecht-textbox-max-inline-size, 100%),var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size)));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-html input:not([type]):focus,.utrecht-html input[type=date i]:focus,.utrecht-html input[type=datetime-local i]:focus,.utrecht-html input[type=email i]:focus,.utrecht-html input[type=month i]:focus,.utrecht-html input[type=number i]:focus,.utrecht-html input[type=password i]:focus,.utrecht-html input[type=search i]:focus,.utrecht-html input[type=tel i]:focus,.utrecht-html input[type=text i]:focus,.utrecht-html input[type=time i]:focus,.utrecht-html input[type=url i]:focus,.utrecht-html input[type=week i]:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input:not([type]):focus:not(:focus-visible),.utrecht-html input[type=date i]:focus:not(:focus-visible),.utrecht-html input[type=datetime-local i]:focus:not(:focus-visible),.utrecht-html input[type=email i]:focus:not(:focus-visible),.utrecht-html input[type=month i]:focus:not(:focus-visible),.utrecht-html input[type=number i]:focus:not(:focus-visible),.utrecht-html input[type=password i]:focus:not(:focus-visible),.utrecht-html input[type=search i]:focus:not(:focus-visible),.utrecht-html input[type=tel i]:focus:not(:focus-visible),.utrecht-html input[type=text i]:focus:not(:focus-visible),.utrecht-html input[type=time i]:focus:not(:focus-visible),.utrecht-html input[type=url i]:focus:not(:focus-visible),.utrecht-html input[type=week i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html input:not([type]):invalid,.utrecht-html input:not([type])[aria-invalid=true],.utrecht-html input[type=date i]:invalid,.utrecht-html input[type=date i][aria-invalid=true],.utrecht-html input[type=datetime-local i]:invalid,.utrecht-html input[type=datetime-local i][aria-invalid=true],.utrecht-html input[type=email i]:invalid,.utrecht-html input[type=email i][aria-invalid=true],.utrecht-html input[type=month i]:invalid,.utrecht-html input[type=month i][aria-invalid=true],.utrecht-html input[type=number i]:invalid,.utrecht-html input[type=number i][aria-invalid=true],.utrecht-html input[type=password i]:invalid,.utrecht-html input[type=password i][aria-invalid=true],.utrecht-html input[type=search i]:invalid,.utrecht-html input[type=search i][aria-invalid=true],.utrecht-html input[type=tel i]:invalid,.utrecht-html input[type=tel i][aria-invalid=true],.utrecht-html input[type=text i]:invalid,.utrecht-html input[type=text i][aria-invalid=true],.utrecht-html input[type=time i]:invalid,.utrecht-html input[type=time i][aria-invalid=true],.utrecht-html input[type=url i]:invalid,.utrecht-html input[type=url i][aria-invalid=true],.utrecht-html input[type=week i]:invalid,.utrecht-html input[type=week i][aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):read-only,.utrecht-html input[type=date i]:read-only,.utrecht-html input[type=datetime-local i]:read-only,.utrecht-html input[type=email i]:read-only,.utrecht-html input[type=month i]:read-only,.utrecht-html input[type=number i]:read-only,.utrecht-html input[type=password i]:read-only,.utrecht-html input[type=search i]:read-only,.utrecht-html input[type=tel i]:read-only,.utrecht-html input[type=text i]:read-only,.utrecht-html input[type=time i]:read-only,.utrecht-html input[type=url i]:read-only,.utrecht-html input[type=week i]:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):disabled,.utrecht-html input[type=date i]:disabled,.utrecht-html input[type=datetime-local i]:disabled,.utrecht-html input[type=email i]:disabled,.utrecht-html input[type=month i]:disabled,.utrecht-html input[type=number i]:disabled,.utrecht-html input[type=password i]:disabled,.utrecht-html input[type=search i]:disabled,.utrecht-html input[type=tel i]:disabled,.utrecht-html input[type=text i]:disabled,.utrecht-html input[type=time i]:disabled,.utrecht-html input[type=url i]:disabled,.utrecht-html input[type=week i]:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input:not([type])::placeholder,.utrecht-html input[type=date i]::placeholder,.utrecht-html input[type=datetime-local i]::placeholder,.utrecht-html input[type=email i]::placeholder,.utrecht-html input[type=month i]::placeholder,.utrecht-html input[type=number i]::placeholder,.utrecht-html input[type=password i]::placeholder,.utrecht-html input[type=search i]::placeholder,.utrecht-html input[type=tel i]::placeholder,.utrecht-html input[type=text i]::placeholder,.utrecht-html input[type=time i]::placeholder,.utrecht-html input[type=url i]::placeholder,.utrecht-html input[type=week i]::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input[autocomplete~=current-password i],.utrecht-html input[autocomplete~=new-password i],.utrecht-html input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-html input[autocomplete~=bday i],.utrecht-html input[autocomplete~=bday-day i],.utrecht-html input[autocomplete~=bday-month i],.utrecht-html input[autocomplete~=bday-year i],.utrecht-html input[autocomplete~=cc-csc i],.utrecht-html input[autocomplete~=cc-exp i],.utrecht-html input[autocomplete~=cc-exp-month i],.utrecht-html input[autocomplete~=cc-exp-year i],.utrecht-html input[autocomplete~=cc-number i],.utrecht-html input[autocomplete~=one-time-code i],.utrecht-html input[autocomplete~=postal-code i],.utrecht-html input[autocomplete~=tel i],.utrecht-html input[autocomplete~=tel-area-code i],.utrecht-html input[autocomplete~=tel-country-code i],.utrecht-html input[autocomplete~=tel-extension i],.utrecht-html input[autocomplete~=tel-local i],.utrecht-html input[autocomplete~=tel-national i],.utrecht-html input[autocomplete~=transaction-amount i],.utrecht-html input[inputmode=decimal i],.utrecht-html input[inputmode=numeric i],.utrecht-html input[inputmode=tel i],.utrecht-html input[type=number i],.utrecht-html input[type=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-html input[inputmode=email i],.utrecht-html input[inputmode=url i],.utrecht-html input[type=email i],.utrecht-html input[type=url i]{font-variant-ligatures:none}.utrecht-html ul{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));line-height:var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));padding-inline-start:var(--utrecht-unordered-list-padding-inline-start, 2ch);text-align:start;--utrecht-space-around: 1}.utrecht-html ul>li{margin-block-end:var(--utrecht-unordered-list-item-margin-block-end);margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);padding-inline-start:var(--utrecht-unordered-list-item-padding-inline-start, 1ch)}.utrecht-html ul>li::marker{color:var(--utrecht-unordered-list-marker-color);content:\"\\25cf\"}\n"]
+      styles: ["@charset \"UTF-8\";/**\n * @license EUPL-1.2\n * Copyright (c) 2020-2022 Gemeente Utrecht\n * Copyright (c) 2020-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021-2022 Frameless B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2022 Gemeente Utrecht\n * Copyright (c) 2022 Robbert Broersma\n * Copyright (c) 2022 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 The Knights Who Say NIH! B.V.\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Gemeente Utrecht\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n *//**\n * @license EUPL-1.2\n * Copyright (c) 2021 Robbert Broersma\n * Copyright (c) 2021 Gemeente Utrecht\n */.utrecht-html{--utrecht-space-around: 1}.utrecht-html article{max-inline-size:var(--utrecht-article-max-inline-size)}.utrecht-html blockquote{background-color:var(--utrecht-blockquote-background-color);color:var(--utrecht-blockquote-color);font-family:var(--utrecht-document-font-family);font-size:var(--utrecht-blockquote-font-size);font-style:var(--utrecht-blockquote-font-style);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));margin-inline-end:var(--utrecht-blockquote-margin-inline-end);margin-inline-start:var(--utrecht-blockquote-margin-inline-start);padding-block-end:var(--utrecht-blockquote-padding-block-end);padding-block-start:var(--utrecht-blockquote-padding-block-start);padding-inline-end:var(--utrecht-blockquote-padding-inline-end);padding-inline-start:var(--utrecht-blockquote-padding-inline-start);--utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);--utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);color:var(--utrecht-blockquote-content-color, inherit);font-size:var(--utrecht-blockquote-content-font-size, inherit);--utrecht-space-around: 1}.utrecht-html input[type=button i],.utrecht-html input[type=reset i],.utrecht-html input[type=submit i],.utrecht-html button{--_utrecht-button-background-color: var( --_utrecht-button-hint-background-color, var(--_utrecht-button-appearance-background-color, var(--utrecht-button-background-color)) );--_utrecht-button-color: var( --_utrecht-button-hint-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-color)) );--_utrecht-button-border-color: var( --_utrecht-button-hint-border-color, var(--_utrecht-button-appearance-border-color, var(--utrecht-button-border-color, transparent)) );--_utrecht-button-border-bottom-color: var( --_utrecht-button-hint-border-bottom-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-border-bottom-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-border-bottom-color, var(--utrecht-button-border-color, transparent)) ) ) ) );--_utrecht-button-disabled-background-color: var( --_utrecht-button-hint-disabled-background-color, var( --_utrecht-button-appearance-disabled-background-color, var(--utrecht-button-disabled-background-color, var(--utrecht-button-background-color)) ) );--_utrecht-button-disabled-border-color: var( --_utrecht-button-hint-disabled-border-color, var( --_utrecht-button-appearance-disabled-border-color, var(--utrecht-button-disabled-border-color, var(--utrecht-button-border-color)) ) );--_utrecht-button-disabled-color: var( --_utrecht-button-hint-disabled-color, var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color))) );--_utrecht-button-pressed-background-color: var( --_utrecht-button-hint-pressed-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-pressed-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-pressed-border-color: var( --_utrecht-button-hint-pressed-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-pressed-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-pressed-color: var( --_utrecht-button-hint-pressed-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-pressed-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-focus-background-color: var( --_utrecht-button-hint-focus-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-focus-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-focus-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-focus-border-color: var( --_utrecht-button-hint-focus-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-focus-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-focus-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-focus-color: var( --_utrecht-button-hint-focus-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-focus-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-focus-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-hover-background-color: var( --_utrecht-button-hint-hover-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-hover-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-hover-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-hover-border-color: var( --_utrecht-button-hint-hover-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-hover-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-hover-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-hover-color: var( --_utrecht-button-hint-hover-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-hover-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-hover-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-active-background-color: var( --_utrecht-button-hint-active-background-color, var( --_utrecht-button-hint-background-color, var( --_utrecht-button-appearance-active-background-color, var( --_utrecht-button-appearance-background-color, var(--utrecht-button-active-background-color, var(--utrecht-button-background-color)) ) ) ) );--_utrecht-button-active-border-color: var( --_utrecht-button-hint-active-border-color, var( --_utrecht-button-hint-border-color, var( --_utrecht-button-appearance-active-border-color, var( --_utrecht-button-appearance-border-color, var(--utrecht-button-active-border-color, var(--utrecht-button-border-color)) ) ) ) );--_utrecht-button-active-color: var( --_utrecht-button-hint-active-color, var( --_utrecht-button-hint-color, var( --_utrecht-button-appearance-active-color, var(--_utrecht-button-appearance-color, var(--utrecht-button-active-color, var(--utrecht-button-color))) ) ) );--_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));--_utrecht-button-border-block-end-width: var( --utrecht-button-border-bottom-width, var(--_utrecht-button-border-width, 0) );--utrecht-icon-size: var(--utrecht-button-icon-size, 1em);align-items:center;background-color:var(--_utrecht-button-background-color);block-size:-moz-fit-content;block-size:fit-content;border-block-end-color:var(--_utrecht-button-border-bottom-color);border-block-end-width:var(--_utrecht-button-border-block-end-width);border-color:var(--_utrecht-button-border-color);border-radius:var(--utrecht-button-border-radius);border-style:solid;border-width:var(--_utrecht-button-border-width);box-sizing:border-box;color:var(--_utrecht-button-color);cursor:var(--utrecht-action-activate-cursor, revert);display:inline-flex;font-family:var(--utrecht-button-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));font-weight:var(--_utrecht-button-appearance-font-weight, var(--utrecht-button-font-weight));gap:var(--utrecht-button-icon-gap);inline-size:var(--utrecht-button-inline-size, auto);justify-content:center;line-height:var(--utrecht-button-line-height);max-inline-size:var(--utrecht-button-max-inline-size, -moz-fit-content);max-inline-size:var(--utrecht-button-max-inline-size, fit-content);min-block-size:var(--utrecht-button-min-block-size, 44px);min-inline-size:var(--utrecht-button-min-inline-size, 44px);padding-block-end:var(--utrecht-button-padding-block-end);padding-block-start:var(--utrecht-button-padding-block-start);padding-inline-end:var(--utrecht-button-padding-inline-end);padding-inline-start:var(--utrecht-button-padding-inline-start);scale:1;text-transform:var(--utrecht-button-text-transform);-webkit-user-select:none;user-select:none;margin-block-end:var(--utrecht-button-margin-block-end);margin-block-start:var(--utrecht-button-margin-block-start);margin-inline-end:var(--utrecht-button-margin-inline-end);margin-inline-start:var(--utrecht-button-margin-inline-start)}.utrecht-html button[hidden]{display:none}.utrecht-html button[type=submit i],.utrecht-html input[type=submit i]{cursor:var(--utrecht-action-submit-cursor, revert)}.utrecht-html button:disabled,.utrecht-html button[aria-disabled=true]{background-color:var(--_utrecht-button-disabled-background-color);border-color:var(--_utrecht-button-disabled-border-color);color:var(--_utrecht-button-disabled-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html button[aria-busy=true],.utrecht-html button[aria-disabled=true][aria-busy=true],.utrecht-html button:disabled[aria-busy=true]{cursor:var(--utrecht-action-busy-cursor, wait)}.utrecht-html button:active:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-active-background-color);border-color:var(--_utrecht-button-active-border-color);color:var(--_utrecht-button-active-color)}.utrecht-html button:hover:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-hover-background-color);border-color:var(--_utrecht-button-hover-border-color);color:var(--_utrecht-button-hover-color);scale:var(--utrecht-button-hover-scale, 1)}.utrecht-html button:focus:not([aria-disabled=true],:disabled){background-color:var(--_utrecht-button-focus-background-color);border-color:var(--_utrecht-button-focus-border-color);color:var(--_utrecht-button-focus-color);scale:var(--utrecht-button-focus-scale, 1)}.utrecht-html button:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]{margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;cursor:var(--utrecht-action-activate-cursor, revert);-webkit-user-select:none;user-select:none}.utrecht-html input[type=checkbox i]:disabled{cursor:var(--utrecht-action-disabled-cursor, revert)}.utrecht-html input[type=checkbox i]:focus{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=checkbox i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html body{color:var(--utrecht-document-color, inherit);font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-document-font-size, inherit);font-weight:var(--utrecht-document-font-weight, inherit);line-height:var(--utrecht-document-line-height, inherit);text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:var(--utrecht-document-background-color, inherit)}.utrecht-html body :lang(ar){letter-spacing:0!important}.utrecht-html code{background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size, inherit);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height)}.utrecht-html em{font-style:var(--utrecht-emphasis-stressed-font-style, italic)}.utrecht-html strong{font-weight:var(--utrecht-emphasis-strong-font-weight, bold)}.utrecht-html fieldset{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));all:revert;border:0;margin-inline-end:0;margin-inline-start:0;min-inline-size:0;padding-block-end:0;padding-block-start:.01em;padding-inline-end:0;padding-inline-start:0;--utrecht-space-around: 1}.utrecht-html fieldset[hidden]{display:none}.utrecht-html figure{margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0))}.utrecht-html figcaption{color:var(--utrecht-figure-caption-color);font-size:var(--utrecht-figure-caption-font-size);line-height:var(--utrecht-figure-caption-line-height)}.utrecht-html form{display:block;max-inline-size:var(--utrecht-form-max-inline-size)}.utrecht-html legend{break-inside:avoid;color:var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-form-fieldset-legend-font-size);font-weight:var(--utrecht-form-fieldset-legend-font-weight);line-height:var(--utrecht-form-fieldset-legend-line-height);page-break-after:avoid;page-break-inside:avoid;display:table;inline-size:100%;padding-inline-end:0;padding-inline-start:0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0))}.utrecht-html legend[hidden]{display:none}.utrecht-html fieldset:disabled>legend{color:var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)))}.utrecht-html label{color:var(--utrecht-form-label-color);font-size:var(--utrecht-form-label-font-size);font-weight:var(--utrecht-form-label-font-weight)}.utrecht-html input[type=checkbox i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html input[type=radio i]~label{color:var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));cursor:var(--utrecht-action-activate-cursor, revert);font-weight:var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight))}.utrecht-html mark{background-color:var(--utrecht-mark-background-color, revert);color:var(--utrecht-mark-color, revert)}@media print{.utrecht-html mark{outline-color:currentColor;outline-style:dotted;outline-width:.1em}}@media screen and (-ms-high-contrast: active){.utrecht-html mark{background-color:Highlight;color:HighlightText}}.utrecht-html h1{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-1-font-size, revert);font-weight:var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-1-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h2{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-2-font-size, revert);font-weight:var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-2-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h3{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-3-font-size, revert);font-weight:var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-3-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h4{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-4-font-size, revert);font-weight:var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-4-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h5{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-5-font-size, revert);font-weight:var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-5-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html h6{break-inside:avoid-column;page-break-inside:avoid;color:var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));font-family:var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));font-size:var(--utrecht-heading-6-font-size, revert);font-weight:var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));line-height:var(--utrecht-heading-6-line-height);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));page-break-after:avoid;--utrecht-space-around: 1}.utrecht-html hgroup{--utrecht-pre-heading-order: -1;display:flex;flex-direction:column;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html hgroup>*{--utrecht-space-around: 0}.utrecht-html a{--utrecht-icon-size: var(--utrecht-link-icon-size, 1em);color:var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)))}.utrecht-html a:visited{--_utrecht-link-forced-colors-color: visitedtext;--_utrecht-link-state-color: var(--utrecht-link-visited-color)}.utrecht-html a:hover{--_utrecht-link-forced-colors-color: linktext;--_utrecht-link-state-color: var(--utrecht-link-hover-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}.utrecht-html a:active{--_utrecht-link-forced-colors-color: activetext;--_utrecht-link-state-color: var(--utrecht-link-active-color)}.utrecht-html a:focus{--_utrecht-link-state-color: var(--utrecht-link-focus-color);--_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);--_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);background-color:var(--utrecht-link-focus-background-color, transparent);-webkit-text-decoration-skip:none;text-decoration-skip:none;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none;--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert);z-index:var(--utrecht-stack-focus-z-index, 1)}.utrecht-html a:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html a[href^=\"tel:\" i]{white-space:nowrap}.utrecht-html ol{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));line-height:var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));padding-inline-start:var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));text-align:start;--utrecht-space-around: 1}.utrecht-html ol>li{margin-block-end:var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));margin-block-start:var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));padding-inline-start:var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch))}.utrecht-html ol:lang(ar){list-style:arabic-indic}.utrecht-html p{color:var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));font-family:var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));font-size:var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));font-weight:var(--utrecht-paragraph-font-weight, inherit);line-height:var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0))}.utrecht-html p.lead{color:var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html *~p{--utrecht-space-around: 1}.utrecht-html p:has(>small:only-child){color:var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));font-size:var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));font-weight:var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));line-height:var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit))}.utrecht-html p>small:only-child{font-size:inherit}.utrecht-html pre:has(>code:only-child){background-color:var(--utrecht-code-background-color);color:var(--utrecht-code-color);font-family:var(--utrecht-code-font-family, monospace),monospace;font-size:var(--utrecht-code-font-size, inherit);font-variant-ligatures:none;line-height:var(--utrecht-code-line-height);--utrecht-code-color: var(--utrecht-code-block-color, inherit);--utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);--utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);--utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);--utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);background-color:var(--utrecht-code-block-background-color);display:block;font-size:var(--utrecht-code-block-font-size, var(--utrecht-code-font-size, inherit));line-height:var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));margin-block-end:var(--utrecht-code-block-margin-block-end);margin-block-start:var(--utrecht-code-block-margin-block-start);margin-inline-end:var(--utrecht-code-block-margin-inline-end);margin-inline-start:var(--utrecht-code-block-margin-inline-start);padding-block-end:var(--utrecht-code-block-padding-block-end);padding-block-start:var(--utrecht-code-block-padding-block-start);padding-inline-end:var(--utrecht-code-block-padding-inline-end);padding-inline-start:var(--utrecht-code-block-padding-inline-start);white-space:pre}.utrecht-html pre[hidden]:has(>code:only-child){display:none}.utrecht-html pre:has(>code:only-child)>code{display:contents}.utrecht-html input[type=radio i]{appearance:none;margin-block-end:0;margin-block-start:0;margin-inline-end:0;margin-inline-start:0;--_utrecht-radio-button-background-color: var( --_utrecht-radio-button-interactive-background-color, var(--_utrecht-radio-button-state-background-color, var(--utrecht-radio-button-background-color)) );--_utrecht-radio-button-border-color: var( --_utrecht-radio-button-interactive-border-color, var(--_utrecht-radio-button-state-border-color, var(--utrecht-radio-button-border-color, currentColor)) );--_utrecht-radio-button-border-width: var( --_utrecht-radio-button-interactive-border-width, var(--_utrecht-radio-button-state-border-width, var(--utrecht-radio-button-border-width)) );--_utrecht-radio-button-color: var( --_utrecht-radio-button-interactive-color, var(--_utrecht-radio-button-state-color, var(--utrecht-radio-button-color, currentColor)) );--_utrecht-radio-button-icon-size: 0;background-color:var(--_utrecht-radio-button-background-color);background-image:radial-gradient(circle,var(--_utrecht-radio-button-color, transparent) calc(var(--_utrecht-radio-button-icon-size, 50%) - 5%),var(--_utrecht-radio-button-background-color, currentColor) var(--_utrecht-radio-button-icon-size, 50%));background-position:center;background-repeat:no-repeat;background-size:contain;block-size:var(--utrecht-radio-button-size, 1em);border-color:var(--_utrecht-radio-button-border-color);border-radius:50%;border-style:solid;border-width:var(--_utrecht-radio-button-border-width);cursor:var(--utrecht-action-activate-cursor, revert);inline-size:var(--utrecht-radio-button-size, 1em);margin-inline-end:var(--utrecht-radio-button-margin-inline-end);min-block-size:24px;min-inline-size:24px;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;user-select:none;vertical-align:top}.utrecht-html input[type=radio i]:checked{--_utrecht-radio-button-icon-size: var(--utrecht-radio-button-icon-size, 50%);--_utrecht-radio-button-state-background-color: var(--utrecht-radio-button-checked-background-color);--_utrecht-radio-button-state-border-color: var(--utrecht-radio-button-checked-border-color);--_utrecht-radio-button-state-border-width: var(--utrecht-radio-button-checked-border-width);--_utrecht-radio-button-state-color: var(--utrecht-radio-button-checked-color);--_utrecht-radio-button-state-active-background-color: var(--utrecht-radio-button-checked-active-background-color);--_utrecht-radio-button-state-active-border-color: var(--utrecht-radio-button-checked-active-border-color);--_utrecht-radio-button-state-active-border-width: var(--utrecht-radio-button-checked-active-border-width);--_utrecht-radio-button-state-active-color: var(--utrecht-radio-button-checked-active-color);--_utrecht-radio-button-state-focus-background-color: var(--utrecht-radio-button-checked-focus-background-color);--_utrecht-radio-button-state-focus-border-color: var(--utrecht-radio-button-checked-focus-border-color);--_utrecht-radio-button-state-focus-border-width: var(--utrecht-radio-button-checked-focus-border-width);--_utrecht-radio-button-state-focus-color: var(--utrecht-radio-button-checked-focus-color);--_utrecht-radio-button-state-hover-background-color: var(--utrecht-radio-button-checked-hover-background-color);--_utrecht-radio-button-state-hover-border-color: var(--utrecht-radio-button-checked-hover-border-color);--_utrecht-radio-button-state-hover-border-width: var(--utrecht-radio-button-checked-hover-border-width);--_utrecht-radio-button-state-hover-color: var(--utrecht-radio-button-checked-hover-color)}.utrecht-html input[type=radio i]:disabled{--_utrecht-radio-button-background-color: var(--utrecht-radio-button-disabled-background-color);--_utrecht-radio-button-border-color: var(--utrecht-radio-button-disabled-border-color);--_utrecht-radio-button-border-width: var(--utrecht-radio-button-disabled-border-width);--_utrecht-radio-button-color: var(--utrecht-radio-button-disabled-color);--_utrecht-radio-button-focus-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-focus-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-focus-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-focus-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-active-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-active-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-active-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-active-color: var(--_utrecht-radio-button-color);--_utrecht-radio-button-hover-background-color: var(--_utrecht-radio-button-background-color);--_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);--_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);--_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input[type=radio i]:invalid,.utrecht-html input[type=radio i][aria-invalid=true]{border-color:var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));border-width:var(--utrecht-radio-button-invalid-border-width, var(--utrecht-radio-button-border-width));color:var(--utrecht-radio-button-invalid-color, var(--utrecht-radio-button-color))}.utrecht-html input[type=radio i]:focus:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --utrecht-radio-button-focus-background-color, var(--utrecht-radio-button-focus-background-color) );--_utrecht-radio-button-interactive-border-color: var( --utrecht-radio-button-focus-border-color, var(--utrecht-radio-button-focus-border-color) );--_utrecht-radio-button-interactive-border-width: var( --utrecht-radio-button-focus-border-width, var(--utrecht-radio-button-focus-border-width) );--_utrecht-radio-button-interactive-color: var( --utrecht-radio-button-focus-color, var(--utrecht-radio-button-focus-color) )}.utrecht-html input[type=radio i]:focus-visible{--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input[type=radio i]:hover:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-hover-background-color, var(--utrecht-radio-button-hover-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-hover-border-color, var(--utrecht-radio-button-hover-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-hover-border-width, var(--utrecht-radio-button-hover-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-hover-color, var(--utrecht-radio-button-hover-color) )}.utrecht-html input[type=radio i]:active:not([aria-disabled=true],:disabled){--_utrecht-radio-button-interactive-background-color: var( --_utrecht-radio-button-state-active-background-color, var(--utrecht-radio-button-active-background-color) );--_utrecht-radio-button-interactive-border-color: var( --_utrecht-radio-button-state-active-border-color, var(--utrecht-radio-button-active-border-color) );--_utrecht-radio-button-interactive-border-width: var( --_utrecht-radio-button-state-active-border-width, var(--utrecht-radio-button-active-border-width) );--_utrecht-radio-button-interactive-color: var( --_utrecht-radio-button-state-active-color, var(--utrecht-radio-button-active-color) )}.utrecht-html select{background-color:var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));border-block-end-width:var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));border-block-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-color:var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));border-inline-end-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-inline-start-width:var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));border-radius:var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;color:var(--utrecht-select-color, var(--utrecht-form-control-color));font-family:var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));inline-size:100%;min-block-size:var(--utrecht-select-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));padding-block-end:var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));padding-block-start:var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));padding-inline-end:var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));padding-inline-start:var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start))}.utrecht-html select:focus{background-color:var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html select:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html select:disabled{background-color:var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html select[aria-invalid=true]{--_utrecht-select-border-width: var( --utrecht-select-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-select-border-width);border-block-end-width:var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));border-color:var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))))}.utrecht-html hr{border-color:var(--utrecht-separator-color);border-style:solid;border-width:0 0 var(--utrecht-separator-block-size) 0;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html table{border-collapse:separate;border-color:var(--utrecht-table-border-color, 0);border-spacing:0;border-style:solid;border-width:var(--utrecht-table-border-width, 0);font-family:var(--utrecht-table-font-family, var(--utrecht-document-font-family));font-size:var(--utrecht-table-font-size, inherit);inline-size:100%;line-height:var(--utrecht-table-line-height, inherit);margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));--utrecht-space-around: 1}.utrecht-html caption{break-inside:avoid;color:var(--utrecht-table-caption-color);font-family:var(--utrecht-table-caption-font-family);font-size:var(--utrecht-table-caption-font-size);font-weight:var(--utrecht-table-caption-font-weight);line-height:var(--utrecht-table-caption-line-height);margin-block-end:var(--utrecht-table-caption-margin-block-end);page-break-after:avoid;text-align:var(--utrecht-table-caption-text-align, center)}.utrecht-html thead{--_utrecht-table-header-cell-vertical-align: bottom;--_utrecht-table-header-cell-z-index: 8;background-color:var(--utrecht-table-header-background-color);break-inside:avoid;color:var(--utrecht-table-header-color);font-weight:var(--utrecht-table-header-font-weight);page-break-inside:avoid;text-transform:var(--utrecht-table-header-text-transform)}.utrecht-html tbody{--_utrecht-table-header-cell-z-index: 2}.utrecht-html th{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;color:var(--utrecht-table-header-cell-color);font-size:var(--utrecht-table-header-cell-font-size);font-weight:var(--utrecht-table-header-cell-font-weight, bold);text-transform:var(--utrecht-table-header-cell-text-transform);vertical-align:var(--_utrecht-table-header-cell-vertical-align, top);z-index:var(--_utrecht-table-header-cell-z-index)}.utrecht-html th,.utrecht-html td{--utrecht-icon-size: var(--utrecht-table-cell-icon-size);block-size:var(--utrecht-table-cell-line-height, 1em);line-height:var(--utrecht-table-cell-line-height, inherit);padding-block-end:var(--utrecht-table-cell-padding-block-end, 0);padding-block-start:var(--utrecht-table-cell-padding-block-start, 0);padding-inline-end:var(--utrecht-table-cell-padding-inline-end, 0);padding-inline-start:var(--utrecht-table-cell-padding-inline-start, 0);text-align:start;border-block-end-color:var(--utrecht-table-row-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-row-border-block-end-width, 0);vertical-align:top}.utrecht-html td:first-child,.utrecht-html th:first-child{padding-inline-start:var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0))}.utrecht-html td:last-child,.utrecht-html th:last-child{padding-inline-end:var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0))}.utrecht-html thead tr:last-child th{border-block-end-color:var(--utrecht-table-header-border-block-end-color, transparent);border-block-end-style:solid;border-block-end-width:var(--utrecht-table-header-border-block-end-width, 0)}.utrecht-html thead>tr>th.numeric,.utrecht-html tfoot>tr>th.numeric,.utrecht-html th[scope=column].numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align)}.utrecht-html td.numeric{--_utrecht-table-cell-text-align: right;text-align:var(--_utrecht-table-cell-text-align);font-variant-numeric:lining-nums tabular-nums}.utrecht-html table.alternate-row-color>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(2n)>th{background-color:var(--utrecht-table-row-alternate-even-background-color);color:var(--utrecht-table-row-alternate-even-color)}.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>td,.utrecht-html table.alternate-row-color>tbody>tr:nth-child(odd)>th{background-color:var(--utrecht-table-row-alternate-odd-background-color);color:var(--utrecht-table-row-alternate-odd-color)}.utrecht-html textarea{background-color:var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textarea-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textarea-line-height, initial);max-inline-size:var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));min-block-size:var(--utrecht-textarea-min-block-size, var(--utrecht-pointer-target-min-size, 44px));min-inline-size:var(--utrecht-pointer-target-min-size, 44px);padding-block-end:var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));resize:vertical;resize:block}.utrecht-html textarea:focus{background-color:var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html textarea:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html textarea:invalid,.utrecht-html textarea[aria-invalid=true]{--_utrecht-textarea-border-width: var( --utrecht-textarea-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textarea-border-width);border-block-end-width:var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));border-color:var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:read-only{background-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))))}.utrecht-html textarea:disabled{background-color:var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html textarea::placeholder{color:var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input:not([type]),.utrecht-html input[type=date i],.utrecht-html input[type=datetime-local i],.utrecht-html input[type=email i],.utrecht-html input[type=month i],.utrecht-html input[type=number i],.utrecht-html input[type=password i],.utrecht-html input[type=search i],.utrecht-html input[type=tel i],.utrecht-html input[type=text i],.utrecht-html input[type=time i],.utrecht-html input[type=url i],.utrecht-html input[type=week i]{--_utrecht-textbox-value-char: .667em + .334ch;--_utrecht-textbox-max-inline-size: calc( calc(var(--utrecht-textbox-value-max-length) * var(--_utrecht-textbox-value-char)) + var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, 0)) + var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, 0)) + var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width, 0)) + var(--utrecht-textbox-autocomplete-ui-size, 44px) );background-color:var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));block-size:initial;border-width:var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));border-block-end-width:var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));border-color:var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));border-radius:var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));border-style:solid;box-sizing:border-box;color:var(--utrecht-textbox-color, var(--utrecht-form-control-color));font-family:var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));font-size:var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));font-weight:initial;inline-size:100%;line-height:var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));min-block-size:var(--utrecht-pointer-target-min-size, 44px);min-inline-size:var(--utrecht-pointer-target-min-size, 44px);max-inline-size:min(var(--_utrecht-textbox-max-inline-size, 100%),var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size)));padding-block-end:var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));padding-block-start:var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));padding-inline-end:var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));padding-inline-start:var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial))}.utrecht-html input:not([type]):focus,.utrecht-html input[type=date i]:focus,.utrecht-html input[type=datetime-local i]:focus,.utrecht-html input[type=email i]:focus,.utrecht-html input[type=month i]:focus,.utrecht-html input[type=number i]:focus,.utrecht-html input[type=password i]:focus,.utrecht-html input[type=search i]:focus,.utrecht-html input[type=tel i]:focus,.utrecht-html input[type=text i]:focus,.utrecht-html input[type=time i]:focus,.utrecht-html input[type=url i]:focus,.utrecht-html input[type=week i]:focus{background-color:var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));--_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);box-shadow:var(--_utrecht-focus-ring-box-shadow);outline-color:var(--utrecht-focus-outline-color, revert);outline-offset:var(--utrecht-focus-outline-offset, revert);outline-style:var(--utrecht-focus-outline-style, revert);outline-width:var(--utrecht-focus-outline-width, revert)}.utrecht-html input:not([type]):focus:not(:focus-visible),.utrecht-html input[type=date i]:focus:not(:focus-visible),.utrecht-html input[type=datetime-local i]:focus:not(:focus-visible),.utrecht-html input[type=email i]:focus:not(:focus-visible),.utrecht-html input[type=month i]:focus:not(:focus-visible),.utrecht-html input[type=number i]:focus:not(:focus-visible),.utrecht-html input[type=password i]:focus:not(:focus-visible),.utrecht-html input[type=search i]:focus:not(:focus-visible),.utrecht-html input[type=tel i]:focus:not(:focus-visible),.utrecht-html input[type=text i]:focus:not(:focus-visible),.utrecht-html input[type=time i]:focus:not(:focus-visible),.utrecht-html input[type=url i]:focus:not(:focus-visible),.utrecht-html input[type=week i]:focus:not(:focus-visible){box-shadow:none;outline-style:revert}.utrecht-html input:not([type]):invalid,.utrecht-html input:not([type])[aria-invalid=true],.utrecht-html input[type=date i]:invalid,.utrecht-html input[type=date i][aria-invalid=true],.utrecht-html input[type=datetime-local i]:invalid,.utrecht-html input[type=datetime-local i][aria-invalid=true],.utrecht-html input[type=email i]:invalid,.utrecht-html input[type=email i][aria-invalid=true],.utrecht-html input[type=month i]:invalid,.utrecht-html input[type=month i][aria-invalid=true],.utrecht-html input[type=number i]:invalid,.utrecht-html input[type=number i][aria-invalid=true],.utrecht-html input[type=password i]:invalid,.utrecht-html input[type=password i][aria-invalid=true],.utrecht-html input[type=search i]:invalid,.utrecht-html input[type=search i][aria-invalid=true],.utrecht-html input[type=tel i]:invalid,.utrecht-html input[type=tel i][aria-invalid=true],.utrecht-html input[type=text i]:invalid,.utrecht-html input[type=text i][aria-invalid=true],.utrecht-html input[type=time i]:invalid,.utrecht-html input[type=time i][aria-invalid=true],.utrecht-html input[type=url i]:invalid,.utrecht-html input[type=url i][aria-invalid=true],.utrecht-html input[type=week i]:invalid,.utrecht-html input[type=week i][aria-invalid=true]{--_utrecht-textbox-border-width: var( --utrecht-textbox-invalid-border-width, var( --utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)) ) );background-color:var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-width:var(--_utrecht-textbox-border-width);border-block-end-width:var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));border-color:var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):read-only,.utrecht-html input[type=date i]:read-only,.utrecht-html input[type=datetime-local i]:read-only,.utrecht-html input[type=email i]:read-only,.utrecht-html input[type=month i]:read-only,.utrecht-html input[type=number i]:read-only,.utrecht-html input[type=password i]:read-only,.utrecht-html input[type=search i]:read-only,.utrecht-html input[type=tel i]:read-only,.utrecht-html input[type=text i]:read-only,.utrecht-html input[type=time i]:read-only,.utrecht-html input[type=url i]:read-only,.utrecht-html input[type=week i]:read-only{background-color:var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))))}.utrecht-html input:not([type]):disabled,.utrecht-html input[type=date i]:disabled,.utrecht-html input[type=datetime-local i]:disabled,.utrecht-html input[type=email i]:disabled,.utrecht-html input[type=month i]:disabled,.utrecht-html input[type=number i]:disabled,.utrecht-html input[type=password i]:disabled,.utrecht-html input[type=search i]:disabled,.utrecht-html input[type=tel i]:disabled,.utrecht-html input[type=text i]:disabled,.utrecht-html input[type=time i]:disabled,.utrecht-html input[type=url i]:disabled,.utrecht-html input[type=week i]:disabled{background-color:var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));border-color:var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));color:var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));cursor:var(--utrecht-action-disabled-cursor, not-allowed)}.utrecht-html input:not([type])::placeholder,.utrecht-html input[type=date i]::placeholder,.utrecht-html input[type=datetime-local i]::placeholder,.utrecht-html input[type=email i]::placeholder,.utrecht-html input[type=month i]::placeholder,.utrecht-html input[type=number i]::placeholder,.utrecht-html input[type=password i]::placeholder,.utrecht-html input[type=search i]::placeholder,.utrecht-html input[type=tel i]::placeholder,.utrecht-html input[type=text i]::placeholder,.utrecht-html input[type=time i]::placeholder,.utrecht-html input[type=url i]::placeholder,.utrecht-html input[type=week i]::placeholder{color:var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));font-style:var(--utrecht-form-control-placeholder-font-style);opacity:100%}.utrecht-html input[autocomplete~=current-password i],.utrecht-html input[autocomplete~=new-password i],.utrecht-html input[type=password i]{font-variant-ligatures:none;font-variant-numeric:slashed-zero}.utrecht-html input[autocomplete~=bday i],.utrecht-html input[autocomplete~=bday-day i],.utrecht-html input[autocomplete~=bday-month i],.utrecht-html input[autocomplete~=bday-year i],.utrecht-html input[autocomplete~=cc-csc i],.utrecht-html input[autocomplete~=cc-exp i],.utrecht-html input[autocomplete~=cc-exp-month i],.utrecht-html input[autocomplete~=cc-exp-year i],.utrecht-html input[autocomplete~=cc-number i],.utrecht-html input[autocomplete~=one-time-code i],.utrecht-html input[autocomplete~=postal-code i],.utrecht-html input[autocomplete~=tel i],.utrecht-html input[autocomplete~=tel-area-code i],.utrecht-html input[autocomplete~=tel-country-code i],.utrecht-html input[autocomplete~=tel-extension i],.utrecht-html input[autocomplete~=tel-local i],.utrecht-html input[autocomplete~=tel-national i],.utrecht-html input[autocomplete~=transaction-amount i],.utrecht-html input[inputmode=decimal i],.utrecht-html input[inputmode=numeric i],.utrecht-html input[inputmode=tel i],.utrecht-html input[type=number i],.utrecht-html input[type=tel i]{-moz-appearance:textfield;font-variant-numeric:lining-nums tabular-nums}.utrecht-html input[inputmode=email i],.utrecht-html input[inputmode=url i],.utrecht-html input[type=email i],.utrecht-html input[type=url i]{font-variant-ligatures:none}.utrecht-html ul{box-sizing:border-box;font-family:var(--utrecht-document-font-family, inherit);font-size:var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));line-height:var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));padding-inline-start:var(--utrecht-unordered-list-padding-inline-start, 2ch);text-align:start;--utrecht-space-around: 1}.utrecht-html ul>li{margin-block-end:var(--utrecht-unordered-list-item-margin-block-end);margin-block-start:var(--utrecht-unordered-list-item-margin-block-start);padding-inline-start:var(--utrecht-unordered-list-item-padding-inline-start, 1ch)}.utrecht-html ul>li::marker{color:var(--utrecht-unordered-list-marker-color);content:\"\\25cf\"}\n"]
     }]
   }], () => [], null);
 })();
@@ -67652,9 +67923,9 @@ function _asyncToGenerator(fn) {
 
 /***/ }),
 
-/***/ 2160:
+/***/ 8071:
 /*!*************************************************************************!*\
-  !*** ./node_modules/.pnpm/tslib@2.6.2/node_modules/tslib/tslib.es6.mjs ***!
+  !*** ./node_modules/.pnpm/tslib@2.6.3/node_modules/tslib/tslib.es6.mjs ***!
   \*************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -67923,8 +68194,9 @@ function __await(v) {
 function __asyncGenerator(thisArg, _arguments, generator) {
   if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
   var g = generator.apply(thisArg, _arguments || []), i, q = [];
-  return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
-  function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+  return i = {}, verb("next"), verb("throw"), verb("return", awaitReturn), i[Symbol.asyncIterator] = function () { return this; }, i;
+  function awaitReturn(f) { return function (v) { return Promise.resolve(v).then(f, reject); }; }
+  function verb(n, f) { if (g[n]) { i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; if (f) i[n] = f(i[n]); } }
   function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
   function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
   function fulfill(value) { resume("next", value); }
@@ -67990,16 +68262,18 @@ function __classPrivateFieldIn(state, receiver) {
 function __addDisposableResource(env, value, async) {
   if (value !== null && value !== void 0) {
     if (typeof value !== "object" && typeof value !== "function") throw new TypeError("Object expected.");
-    var dispose;
+    var dispose, inner;
     if (async) {
-        if (!Symbol.asyncDispose) throw new TypeError("Symbol.asyncDispose is not defined.");
-        dispose = value[Symbol.asyncDispose];
+      if (!Symbol.asyncDispose) throw new TypeError("Symbol.asyncDispose is not defined.");
+      dispose = value[Symbol.asyncDispose];
     }
     if (dispose === void 0) {
-        if (!Symbol.dispose) throw new TypeError("Symbol.dispose is not defined.");
-        dispose = value[Symbol.dispose];
+      if (!Symbol.dispose) throw new TypeError("Symbol.dispose is not defined.");
+      dispose = value[Symbol.dispose];
+      if (async) inner = dispose;
     }
     if (typeof dispose !== "function") throw new TypeError("Object not disposable.");
+    if (inner) dispose = function() { try { inner.call(this); } catch (e) { return Promise.reject(e); } };
     env.stack.push({ value: value, dispose: dispose, async: async });
   }
   else if (async) {
