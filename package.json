@@ -51,7 +51,7 @@
     "@utrecht/component-library-angular": "1.1.0",
     "@utrecht/component-library-css": "3.2.0",
     "@utrecht/design-tokens": "1.0.0-alpha.655",
-    "@utrecht/web-component-library-angular": "1.0.0",
+    "@utrecht/web-component-library-angular": "1.0.1",
     "@utrecht/web-component-library-stencil": "1.2.0",
     "codelyzer": "6.0.2",
     "eslint": "8.57.0",
