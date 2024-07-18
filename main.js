@@ -1,7 +1,7 @@
 "use strict";
 (self["webpackChunkmy_app"] = self["webpackChunkmy_app"] || []).push([["main"],{
 
-/***/ 275:
+/***/ 6157:
 /*!**********************************!*\
   !*** ./src/app/app.component.ts ***!
   \**********************************/
@@ -11,13 +11,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AppComponent: () => (/* binding */ AppComponent)
 /* harmony export */ });
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 5087);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ 5726);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 2489);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ngx-translate/core */ 5968);
-/* harmony import */ var _utrecht_component_library_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @utrecht/component-library-angular */ 9217);
-/* harmony import */ var _components_story_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/story/component */ 763);
-/* harmony import */ var _theme_switcher_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme-switcher.component */ 1659);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ 3685);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ 9141);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 6129);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ngx-translate/core */ 7984);
+/* harmony import */ var _utrecht_component_library_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @utrecht/component-library-angular */ 3219);
+/* harmony import */ var _components_story_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/story/component */ 9765);
+/* harmony import */ var _theme_switcher_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme-switcher.component */ 9513);
 
 
 
@@ -695,7 +695,7 @@ class AppComponent {
 
 /***/ }),
 
-/***/ 9138:
+/***/ 6640:
 /*!*******************************!*\
   !*** ./src/app/app.module.ts ***!
   \*******************************/
@@ -706,16 +706,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   AppModule: () => (/* binding */ AppModule),
 /* harmony export */   HttpLoaderFactory: () => (/* binding */ HttpLoaderFactory)
 /* harmony export */ });
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component */ 275);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ 8594);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 5726);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ 994);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ngx-translate/core */ 5968);
-/* harmony import */ var _ngx_translate_http_loader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngx-translate/http-loader */ 630);
-/* harmony import */ var _utrecht_component_library_angular__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @utrecht/component-library-angular */ 9217);
-/* harmony import */ var _theme_switcher_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme-switcher.component */ 1659);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components */ 8050);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 2489);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component */ 6157);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ 5855);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 9141);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ 9988);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ngx-translate/core */ 7984);
+/* harmony import */ var _ngx_translate_http_loader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngx-translate/http-loader */ 2316);
+/* harmony import */ var _utrecht_component_library_angular__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @utrecht/component-library-angular */ 3219);
+/* harmony import */ var _theme_switcher_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme-switcher.component */ 9513);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components */ 428);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 6129);
 
 
 
@@ -759,7 +759,7 @@ class AppModule {
 
 /***/ }),
 
-/***/ 1659:
+/***/ 9513:
 /*!*********************************************!*\
   !*** ./src/app/theme-switcher.component.ts ***!
   \*********************************************/
@@ -769,7 +769,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ThemeSwitcherComponent: () => (/* binding */ ThemeSwitcherComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2489);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 6129);
 
 const _c0 = ["*"];
 class ThemeSwitcherComponent {
@@ -798,7 +798,7 @@ class ThemeSwitcherComponent {
 
 /***/ }),
 
-/***/ 8050:
+/***/ 428:
 /*!*********************************!*\
   !*** ./src/components/index.ts ***!
   \*********************************/
@@ -808,9 +808,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ExampleComponentsModule: () => (/* binding */ ExampleComponentsModule)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 5753);
-/* harmony import */ var _story_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./story/component */ 763);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2489);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 6707);
+/* harmony import */ var _story_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./story/component */ 9765);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 6129);
 
 
 
@@ -836,7 +836,7 @@ class ExampleComponentsModule {
 
 /***/ }),
 
-/***/ 763:
+/***/ 9765:
 /*!*******************************************!*\
   !*** ./src/components/story/component.ts ***!
   \*******************************************/
@@ -846,7 +846,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ExampleStoryComponent: () => (/* binding */ ExampleStoryComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2489);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 6129);
 
 const _c0 = ["*"];
 class ExampleStoryComponent {
@@ -895,7 +895,7 @@ class ExampleStoryComponent {
 
 /***/ }),
 
-/***/ 7641:
+/***/ 8643:
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
   \*****************************************/
@@ -922,17 +922,17 @@ const environment = {
 
 /***/ }),
 
-/***/ 5904:
+/***/ 2222:
 /*!*********************!*\
   !*** ./src/main.ts ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 8594);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2489);
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 9138);
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 7641);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 5855);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 6129);
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 6640);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 8643);
 
 
 
@@ -947,7 +947,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.platformBrowser().bootstr
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(5904)));
+/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(2222)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
