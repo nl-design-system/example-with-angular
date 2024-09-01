@@ -36,8 +36,8 @@ importers:
         specifier: 7.8.1
         version: 7.8.1
       tslib:
-        specifier: 2.6.3
-        version: 2.6.3
+        specifier: 2.7.0
+        version: 2.7.0
       zone.js:
         specifier: 0.14.7
         version: 0.14.7
@@ -1296,6 +1296,7 @@ packages:
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -1303,6 +1304,7 @@ packages:
 
   '@humanwhocodes/object-schema@2.0.2':
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
+    deprecated: Use @eslint/object-schema instead
 
   '@inquirer/checkbox@2.3.10':
     resolution: {integrity: sha512-CTc864M2/523rKc9AglIzAcUCuPXDZENgc5S2KZFVRbnMzpXcYTsUWmbqSeL0XLvtlvEtNevkkVbfVhJpruOyQ==}
@@ -3260,10 +3262,12 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global-dirs@3.0.1:
     resolution: {integrity: sha512-NBcGGFbBA9s1VzD41QXDG+3++t9Mn5t1FpLdhESY6oKY4gYTFpX4wO3sqGUa0Srjtbfj3szX0RnemmrVRUdULA==}
@@ -3527,6 +3531,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.3:
     resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
@@ -4775,6 +4780,10 @@ packages:
   q@1.4.1:
     resolution: {integrity: sha512-/CdEdaw49VZVmyIDGUQKDDT53c7qBkO6g5CefWz91Ae+l4+cRtcDYwMTXh6me4O8TMldeGHG3N2Bl84V78Ywbg==}
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    deprecated: |-
+      You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
+      (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
   qjobs@1.2.0:
     resolution: {integrity: sha512-8YOJEHtxpySA3fFDyCRxA+UUV+fA+rTWnuWvylOK/NCjhY+b4ocCtmu8TtsWb+mYeU+GCHf/S66KZF/AsteKHg==}
@@ -4951,10 +4960,12 @@ packages:
 
   rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@5.0.5:
@@ -5498,6 +5509,9 @@ packages:
 
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+
+  tslib@2.7.0:
+    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
   tslint@6.1.3:
     resolution: {integrity: sha512-IbR4nkT96EQOvKE2PW/djGz8iGNeJ4rF2mBfiYaR/nvUWYKJhLwimoJKgjIFEIDibBtOevj7BqCRL4oHeWWUCg==}
@@ -6154,7 +6168,7 @@ snapshots:
   '@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))':
     dependencies:
       '@angular/core': 18.1.0(rxjs@7.8.1)(zone.js@0.14.7)
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@angular/build@18.1.0(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(typescript@5.5.3))(@types/node@20.14.10)(chokidar@3.6.0)(less@4.2.0)(postcss@8.4.38)(terser@5.29.2)(typescript@5.5.3)':
     dependencies:
@@ -6227,7 +6241,7 @@ snapshots:
     dependencies:
       '@angular/core': 18.1.0(rxjs@7.8.1)(zone.js@0.14.7)
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(typescript@5.5.3)':
     dependencies:
@@ -6238,7 +6252,7 @@ snapshots:
       convert-source-map: 1.9.0
       reflect-metadata: 0.2.1
       semver: 7.6.2
-      tslib: 2.6.3
+      tslib: 2.7.0
       typescript: 5.5.3
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -6246,14 +6260,14 @@ snapshots:
 
   '@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))':
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
     optionalDependencies:
       '@angular/core': 18.1.0(rxjs@7.8.1)(zone.js@0.14.7)
 
   '@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)':
     dependencies:
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
       zone.js: 0.14.7
 
   '@angular/forms@18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(rxjs@7.8.1)':
@@ -6262,7 +6276,7 @@ snapshots:
       '@angular/core': 18.1.0(rxjs@7.8.1)(zone.js@0.14.7)
       '@angular/platform-browser': 18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@angular/platform-browser-dynamic@18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))':
     dependencies:
@@ -6270,13 +6284,13 @@ snapshots:
       '@angular/compiler': 18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))
       '@angular/core': 18.1.0(rxjs@7.8.1)(zone.js@0.14.7)
       '@angular/platform-browser': 18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))':
     dependencies:
       '@angular/common': 18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
       '@angular/core': 18.1.0(rxjs@7.8.1)(zone.js@0.14.7)
-      tslib: 2.6.3
+      tslib: 2.7.0
     optionalDependencies:
       '@angular/animations': 18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))
 
@@ -6286,7 +6300,7 @@ snapshots:
       '@angular/core': 18.1.0(rxjs@7.8.1)(zone.js@0.14.7)
       '@angular/platform-browser': 18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(@angular/core@18.1.0(rxjs@7.8.1)(zone.js@0.14.7))
       rxjs: 7.8.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@babel/code-frame@7.23.5':
     dependencies:
@@ -7570,21 +7584,21 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@jsonjoy.com/base64@1.1.2(tslib@2.6.3)':
+  '@jsonjoy.com/base64@1.1.2(tslib@2.7.0)':
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
-  '@jsonjoy.com/json-pack@1.0.4(tslib@2.6.3)':
+  '@jsonjoy.com/json-pack@1.0.4(tslib@2.7.0)':
     dependencies:
-      '@jsonjoy.com/base64': 1.1.2(tslib@2.6.3)
-      '@jsonjoy.com/util': 1.1.3(tslib@2.6.3)
+      '@jsonjoy.com/base64': 1.1.2(tslib@2.7.0)
+      '@jsonjoy.com/util': 1.1.3(tslib@2.7.0)
       hyperdyperid: 1.2.0
-      thingies: 1.21.0(tslib@2.6.3)
-      tslib: 2.6.3
+      thingies: 1.21.0(tslib@2.7.0)
+      tslib: 2.7.0
 
-  '@jsonjoy.com/util@1.1.3(tslib@2.6.3)':
+  '@jsonjoy.com/util@1.1.3(tslib@2.7.0)':
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@leichtgewicht/ip-codec@2.0.4': {}
 
@@ -10395,7 +10409,7 @@ snapshots:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.6.3
+      tslib: 2.7.0
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.11
@@ -10596,10 +10610,10 @@ snapshots:
 
   memfs@4.9.2:
     dependencies:
-      '@jsonjoy.com/json-pack': 1.0.4(tslib@2.6.3)
-      '@jsonjoy.com/util': 1.1.3(tslib@2.6.3)
-      sonic-forest: 1.0.3(tslib@2.6.3)
-      tslib: 2.6.3
+      '@jsonjoy.com/json-pack': 1.0.4(tslib@2.7.0)
+      '@jsonjoy.com/util': 1.1.3(tslib@2.7.0)
+      sonic-forest: 1.0.3(tslib@2.7.0)
+      tslib: 2.7.0
 
   memorystream@0.3.1: {}
 
@@ -11614,7 +11628,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   safe-array-concat@1.1.0:
     dependencies:
@@ -11890,10 +11904,10 @@ snapshots:
       ip: 2.0.1
       smart-buffer: 4.2.0
 
-  sonic-forest@1.0.3(tslib@2.6.3):
+  sonic-forest@1.0.3(tslib@2.7.0):
     dependencies:
-      tree-dump: 1.0.1(tslib@2.6.3)
-      tslib: 2.6.3
+      tree-dump: 1.0.1(tslib@2.7.0)
+      tslib: 2.7.0
 
   source-map-js@1.2.0: {}
 
@@ -12086,7 +12100,7 @@ snapshots:
   synckit@0.8.8:
     dependencies:
       '@pkgr/core': 0.1.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   tapable@2.2.1: {}
 
@@ -12126,9 +12140,9 @@ snapshots:
 
   text-table@0.2.0: {}
 
-  thingies@1.21.0(tslib@2.6.3):
+  thingies@1.21.0(tslib@2.7.0):
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   through@2.3.8: {}
 
@@ -12159,9 +12173,9 @@ snapshots:
       psl: 1.9.0
       punycode: 2.3.1
 
-  tree-dump@1.0.1(tslib@2.6.3):
+  tree-dump@1.0.1(tslib@2.7.0):
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   tree-kill@1.2.2: {}
 
@@ -12192,6 +12206,8 @@ snapshots:
   tslib@2.6.2: {}
 
   tslib@2.6.3: {}
+
+  tslib@2.7.0: {}
 
   tslint@6.1.3(typescript@5.5.3):
     dependencies:
