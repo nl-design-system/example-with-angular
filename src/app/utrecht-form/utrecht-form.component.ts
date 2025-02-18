@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, effect, ElementRef, signal, ViewChild } from '@angular/core';
+import { type UtrechtTextboxAttr } from '@utrecht/component-library-angular';
 
 @Component({
   selector: 'example-utrecht-form',
@@ -6,4 +7,18 @@ import { Component } from '@angular/core';
   styleUrl: './utrecht-form.component.css',
   standalone: false,
 })
-export class UtrechtFormComponent {}
+export class UtrechtFormComponent {
+  inputValue = signal('');
+
+  @ViewChild('input') input!: ElementRef<UtrechtTextboxAttr>;
+
+  constructor() {
+    effect(() => {
+      console.log(this.inputValue());
+    });
+  }
+
+  onSubmitHandler() {
+    console.log(this.input.nativeElement);
+  }
+}
