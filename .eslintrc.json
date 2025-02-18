@@ -27,7 +27,10 @@
         "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates",
         "eslint-config-prettier"
-      ]
+      ],
+      "rules": {
+        "@angular-eslint/prefer-standalone": "off"
+      }
     },
     {
       "files": ["*.html"],
