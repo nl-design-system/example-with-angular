@@ -7,6 +7,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/
   selector: 'nl-theme-switcher',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: '<ng-content></ng-content>',
+  standalone: false,
 })
 export class ThemeSwitcherComponent {
   constructor(c: ChangeDetectorRef) {
