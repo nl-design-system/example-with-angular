@@ -2,8 +2,10 @@
   "name": "my-app",
   "version": "0.0.0",
   "license": "EUPL-1.2",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
   "engines": {
-    "node": "^20",
+    "//": "Update @types/node to match the highest node version here",
+    "node": ">=20 <=22",
     "pnpm": "^9"
   },
   "scripts": {
@@ -72,6 +74,5 @@
     "protractor": "7.0.0",
     "ts-node": "10.9.2",
     "typescript": "5.5.3"
-  },
-  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
+  }
 }
