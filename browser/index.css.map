@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/components/story/index.css"],
+  "sourcesContent": [".example-story__canvas {\n  background-color: white;\n  border-radius: 4px;\n  border-width: 1px;\n  border-style: solid;\n  border-color: rgba(0, 0, 0, 0.1);\n  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;\n  margin-block-end: 40px;\n  margin-block-start: 25px;\n  padding-block-end: 30px;\n  padding-block-start: 30px;\n  padding-inline-end: 20px;\n  padding-inline-start: 20px;\n  position: relative;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,oBAAkB;AAClB,iBAAe;AACf,gBAAc;AACd,gBAAc;AACd,gBAAc,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AAC5B,cAAY,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,KAAK,IAAI,IAAI,IAAI;AAC3C,oBAAkB;AAClB,sBAAoB;AACpB,qBAAmB;AACnB,uBAAqB;AACrB,sBAAoB;AACpB,wBAAsB;AACtB,YAAU;AACZ;",
+  "names": []
+}
