@@ -1,8 +1,9 @@
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Component } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 import { UntypedFormControl } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
+import { ButtonWebComponent } from '@rijkshuisstijl-community/web-components';
 
 @Component({
   selector: 'example-root',
@@ -10,7 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css'],
   standalone: false,
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'my-app';
   checkbox = new UntypedFormControl(true);
   textbox = new UntypedFormControl('Sam Simpleton');
@@ -26,5 +27,9 @@ export class AppComponent {
   }
   setLanguage(lang: string): void {
     this.translate.setDefaultLang(lang);
+  }
+
+  ngOnInit(): void {
+    ButtonWebComponent.define();
   }
 }

@@ -30,6 +30,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@rijkshuisstijl-community/design-tokens/dist/index.css",
+              "node_modules/@rijkshuisstijl-community/components-css/dist/index.css",
               "node_modules/@utrecht/design-tokens/dist/index.css",
               "src/styles.css"
             ],
