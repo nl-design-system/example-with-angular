@@ -19,6 +19,6 @@ export class UtrechtFormComponent {
   }
 
   onSubmitHandler() {
-    console.log(this.input.nativeElement);
+    console.log(this.input);
   }
 }
