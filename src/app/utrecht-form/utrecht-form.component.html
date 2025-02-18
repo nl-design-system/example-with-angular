@@ -1,0 +1,127 @@
+<div utrecht-document>
+  <utrecht-page>
+    <utrecht-page-content>
+      <main>
+        <utrecht-article>
+          <section>
+            <utrecht-heading-1>Angular Utrecht Componenten Form Demo</utrecht-heading-1>
+            <example-story name="Form label" id="angular-utrecht-form-label">
+              <label utrecht-form-label>Form label</label>
+            </example-story>
+            <example-story name="Form label for radio button option" id="angular-utrecht-form-label--radio">
+              <label utrecht-form-label type="radio">Form label</label>
+            </example-story>
+            <example-story name="Form label for checkbox option" id="angular-utrecht-form-label--checkbox">
+              <label utrecht-form-label type="checkbox">Form label</label>
+            </example-story>
+            <example-story name="Form label for disabled form control" id="angular-utrecht-form-label--disabled">
+              <label utrecht-form-label [disabled]="true">Form label</label>
+            </example-story>
+            <example-story name="Form label for checked radio button" id="angular-utrecht-form-label--checked">
+              <label utrecht-form-label type="radio" [checked]="true">Form label</label>
+            </example-story>
+            <example-story name="Form label for checked checkbox button" id="angular-utrecht-form-label--checked-radio">
+              <label utrecht-form-label type="checkbox" [checked]="true">Form label</label>
+            </example-story>
+            <example-story name="Textbox" id="angular-utrecht-textbox">
+              <input type="text" utrecht-textbox />
+            </example-story>
+            <example-story name="Disabled textbox" id="angular-utrecht-textbox--disabled">
+              <input type="text" utrecht-textbox [disabled]="true" />
+            </example-story>
+            <example-story name="Read-only textbox" id="angular-utrecht-textbox--read-only">
+              <input type="text" utrecht-textbox [readOnly]="true" />
+            </example-story>
+            <example-story name="Invalid textbox" id="angular-utrecht-textbox--invalid">
+              <input type="text" utrecht-textbox [invalid]="true" />
+            </example-story>
+            <example-story name="Required textbox">
+              <input type="text" utrecht-textbox [required]="true" id="angular-utrecht-textbox--required" />
+            </example-story>
+            <example-story name="Textbox with placeholder FIXME" id="angular-utrecht-textbox--placeholder">
+              <input type="text" utrecht-textbox placeholder="Placeholder" />
+            </example-story>
+            <example-story name="Textarea" id="angular-utrecht-textarea">
+              <textarea utrecht-textarea></textarea>
+            </example-story>
+            <example-story name="Disabled textarea" id="angular-utrecht-textarea--disabled">
+              <textarea utrecht-textarea [disabled]="true"></textarea>
+            </example-story>
+            <example-story name="Read-only textarea" id="angular-utrecht-textarea--read-only">
+              <textarea utrecht-textarea [readOnly]="true"></textarea>
+            </example-story>
+            <example-story name="Invalid textarea" id="angular-utrecht-textarea--invalid">
+              <textarea utrecht-textarea [invalid]="true"></textarea>
+            </example-story>
+            <example-story name="Required textarea" id="angular-utrecht-textarea--required">
+              <textarea utrecht-textarea [required]="true"></textarea>
+            </example-story>
+            <example-story name="Textarea with placeholder" id="angular-utrecht-textarea--placeholder">
+              <textarea utrecht-textarea placeholder="Placeholder"></textarea>
+            </example-story>
+            <fieldset utrecht-form-fieldset>
+              <legend utrecht-form-fieldset-legend>Checkbox group</legend>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="b14381ec-d517-4a2e-9d37-e920501fbe93">Option 1</label>
+                <input type="checkbox" utrecht-checkbox id="b14381ec-d517-4a2e-9d37-e920501fbe93" value="1" />
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="d404ad81-6f6e-48e9-a0d2-bd9c38a333d7">Option 2</label>
+                <input type="checkbox" utrecht-checkbox id="d404ad81-6f6e-48e9-a0d2-bd9c38a333d7" value="2" />
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="f35c996f-8617-442a-85b5-80a5086d97c9" [disabled]="true"
+                  >Disabled option 3</label
+                >
+                <input
+                  type="checkbox"
+                  utrecht-checkbox
+                  id="f35c996f-8617-442a-85b5-80a5086d97c9"
+                  value="3"
+                  [disabled]="true"
+                />
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="e8b3c516-76eb-40bb-835e-282b60782028"
+                  >Required option 4</label
+                >
+                <input
+                  type="checkbox"
+                  utrecht-checkbox
+                  id="e8b3c516-76eb-40bb-835e-282b60782028"
+                  value="4"
+                  [required]="true"
+                />
+              </utrecht-form-field>
+              <utrecht-form-field>
+                <label utrecht-form-label type="checkbox" for="61cff474-ee09-4571-9896-1ba1291f1ffa"
+                  >Invalid option 5</label
+                >
+                <input
+                  type="checkbox"
+                  utrecht-checkbox
+                  id="61cff474-ee09-4571-9896-1ba1291f1ffa"
+                  value="5"
+                  [invalid]="true"
+                />
+              </utrecht-form-field>
+            </fieldset>
+          </section>
+        </utrecht-article>
+      </main>
+
+      <form>
+        <utrecht-form-field>
+          <label utrecht-form-label for="1">Form label</label>
+          <input type="text" utrecht-textbox id="1" />
+        </utrecht-form-field>
+      </form>
+    </utrecht-page-content>
+    <utrecht-page-footer>
+      <p>Footer</p>
+      <div>
+        <nl-theme-switcher></nl-theme-switcher>
+      </div>
+    </utrecht-page-footer>
+  </utrecht-page>
+</div>

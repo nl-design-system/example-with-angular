@@ -8,6 +8,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { UtrechtComponentsModule } from '@utrecht/component-library-angular';
 import { ThemeSwitcherComponent } from './theme-switcher.component';
 import { ExampleComponentsModule } from '../components';
+import { UtrechtFormComponent } from './utrecht-form/utrecht-form.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
@@ -15,7 +16,7 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 }
 
 @NgModule({
-  declarations: [AppComponent, ThemeSwitcherComponent],
+  declarations: [AppComponent, ThemeSwitcherComponent, UtrechtFormComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
