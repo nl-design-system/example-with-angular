@@ -46,7 +46,7 @@
     "@angular/compiler-cli": "19.1.6",
     "@ngx-translate/core": "16.0.4",
     "@ngx-translate/http-loader": "16.0.1",
-    "@types/jasmine": "5.1.6",
+    "@types/jasmine": "5.1.7",
     "@types/node": "20.14.10",
     "@typescript-eslint/eslint-plugin": "8.24.1",
     "@typescript-eslint/parser": "8.24.1",
