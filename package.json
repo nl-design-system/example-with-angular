@@ -42,7 +42,7 @@
     "@angular-eslint/eslint-plugin": "19.1.0",
     "@angular-eslint/eslint-plugin-template": "19.1.0",
     "@angular-eslint/template-parser": "19.1.0",
-    "@angular/cli": "19.1.7",
+    "@angular/cli": "19.2.0",
     "@angular/compiler-cli": "19.1.6",
     "@ngx-translate/core": "16.0.4",
     "@ngx-translate/http-loader": "16.0.1",
