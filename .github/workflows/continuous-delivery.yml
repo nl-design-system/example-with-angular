@@ -60,7 +60,7 @@ jobs:
           path: dist/
 
       - name: Continuous Deployment to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@881db5376404c5c8d621010bcbec0310b58d5e29 #v4.6.8
+        uses: JamesIves/github-pages-deploy-action@6c2d9db40f9296374acc17b90404b6e8864128c8 #v4.7.3
         with:
           branch: gh-pages
           folder: dist/my-app/
