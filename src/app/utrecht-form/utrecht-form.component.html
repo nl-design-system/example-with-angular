@@ -13,12 +13,12 @@
               </utrecht-form-field>
             </form>
             <utrecht-heading-2>Form Input using template variables</utrecht-heading-2>
-            <form (ngSubmit)="onSubmitHandler()">
+            <form (ngSubmit)="onSubmitHandler(inputEl)">
               <utrecht-form-field>
                 <label utrecht-form-label for="2">Form label</label>
-                <input type="text" utrecht-textbox id="2" name="text-input" #input />
-                <button type="submit">Submit</button>
+                <input type="text" utrecht-textbox id="2" name="text-input" #inputEl />
               </utrecht-form-field>
+              <button type="submit">Submit</button>
             </form>
           </section>
         </utrecht-article>

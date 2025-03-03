@@ -1,4 +1,4 @@
-import { Component, effect, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormFieldTextInputWebComponent } from '@rijkshuisstijl-community/web-components';
 
 @Component({
@@ -7,14 +7,23 @@ import { FormFieldTextInputWebComponent } from '@rijkshuisstijl-community/web-co
   templateUrl: './rhc-form.component.html',
   styleUrl: './rhc-form.component.css',
 })
-export class RhcFormComponent implements OnInit {
+export class RhcFormComponent implements OnInit, AfterViewInit {
+  @ViewChild('inputEl') inputEl!: ElementRef;
   name = '';
-  constructor() {
-    effect(() => {
-      console.log(this.name);
-    });
-  }
+  constructor() {}
   ngOnInit() {
     FormFieldTextInputWebComponent.define();
+  }
+
+  ngAfterViewInit() {
+    const inputElement: HTMLInputElement = this.inputEl.nativeElement.shadowRoot.querySelector('input');
+    console.log('Input Element:', inputElement);
+
+    if (inputElement) {
+      inputElement.addEventListener('input', (event: Event) => {
+        this.name = (event.target as HTMLInputElement).value;
+        console.log('Updated Name:', this.name);
+      });
+    }
   }
 }
