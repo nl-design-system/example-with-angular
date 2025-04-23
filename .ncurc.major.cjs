@@ -6,8 +6,6 @@ module.exports = {
     ...minorConfig.reject,
     // @types/node is kept in line with the node version in .nvmrc and package.json#engines.node
     '@types/node',
-    'eslint',
-    'eslint-plugin-json',
   ],
   target: 'latest',
 };
