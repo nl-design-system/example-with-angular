@@ -29794,7 +29794,7 @@ var HttpClientJsonpModule = class _HttpClientJsonpModule {
 var HTTP_TRANSFER_CACHE_ORIGIN_MAP = new InjectionToken(ngDevMode ? "HTTP_TRANSFER_CACHE_ORIGIN_MAP" : "");
 var CACHE_OPTIONS = new InjectionToken(ngDevMode ? "HTTP_TRANSFER_STATE_CACHE_OPTIONS" : "");
 
-// node_modules/.pnpm/@angular+platform-browser@19.1.6_@angular+animations@19.1.6_@angular+core@19.1.6_rxjs@7.8.1_z_njysxknuiori46gqrsuicgqp54/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs
+// node_modules/.pnpm/@angular+platform-browser@19.1.6_@angular+animations@19.1.6_@angular+core@19.1.6_rxjs@7_9327710bb69af786c154cc0b09634a0e/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs
 var GenericBrowserDomAdapter = class extends DomAdapter {
   supportsDOMEvents = true;
 };
@@ -31506,7 +31506,7 @@ var HydrationFeatureKind;
 })(HydrationFeatureKind || (HydrationFeatureKind = {}));
 var VERSION3 = new Version("19.1.6");
 
-// node_modules/.pnpm/@angular+forms@19.1.6_@angular+common@19.1.6_@angular+core@19.1.6_rxjs@7.8.1_zone.js@0.15.0___jvp6zrzfpnofebnnxaapdq4v74/node_modules/@angular/forms/fesm2022/forms.mjs
+// node_modules/.pnpm/@angular+forms@19.1.6_@angular+common@19.1.6_@angular+core@19.1.6_rxjs@7.8.1_zone.js@0._3ea4d21d7f83228adee14d9b34fc3417/node_modules/@angular/forms/fesm2022/forms.mjs
 var BaseControlValueAccessor = class _BaseControlValueAccessor {
   _renderer;
   _elementRef;
@@ -37971,7 +37971,7 @@ var ReactiveFormsModule = class _ReactiveFormsModule {
   }], null, null);
 })();
 
-// node_modules/.pnpm/@ngx-translate+core@16.0.4_@angular+common@19.1.6_@angular+core@19.1.6_rxjs@7.8.1_zone.js@0.1_ldtds7tudyt6w5ipmdd4mvrygm/node_modules/@ngx-translate/core/fesm2022/ngx-translate-core.mjs
+// node_modules/.pnpm/@ngx-translate+core@16.0.4_@angular+common@19.1.6_@angular+core@19.1.6_rxjs@7.8.1_zone._f5594750118738993076b9d1f17a526d/node_modules/@ngx-translate/core/fesm2022/ngx-translate-core.mjs
 var TranslateLoader = class {
 };
 var TranslateFakeLoader = class _TranslateFakeLoader extends TranslateLoader {
@@ -42092,7 +42092,7 @@ var AppComponent = _AppComponent;
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppComponent, { className: "AppComponent", filePath: "src/app/app.component.ts", lineNumber: 13 });
 })();
 
-// node_modules/.pnpm/@ngx-translate+http-loader@16.0.1_@angular+common@19.1.6_@angular+core@19.1.6_rxjs@7.8.1_zone_gc7btgc55fkw6q3tkczbk6746y/node_modules/@ngx-translate/http-loader/fesm2022/ngx-translate-http-loader.mjs
+// node_modules/.pnpm/@ngx-translate+http-loader@16.0.1_@angular+common@19.1.6_@angular+core@19.1.6_rxjs@7.8._9e12512f417fc42f8ed436ca1919adb0/node_modules/@ngx-translate/http-loader/fesm2022/ngx-translate-http-loader.mjs
 var TranslateHttpLoader = class _TranslateHttpLoader {
   http;
   prefix;
