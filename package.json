@@ -50,7 +50,7 @@
     "@ngx-translate/core": "16.0.4",
     "@ngx-translate/http-loader": "16.0.1",
     "@types/jasmine": "5.1.6",
-    "@types/node": "22.14.1",
+    "@types/node": "24.10.4",
     "@utrecht/component-library-angular": "2.1.0",
     "@utrecht/component-library-css": "7.1.0",
     "@utrecht/design-tokens": "2.5.0",
