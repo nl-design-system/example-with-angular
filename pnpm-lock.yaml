@@ -95,8 +95,8 @@ importers:
         specifier: 2.1.1
         version: 2.1.1
       '@utrecht/web-component-library-stencil':
-        specifier: 3.7.0
-        version: 3.7.0
+        specifier: 4.0.0
+        version: 4.0.0
       codelyzer:
         specifier: 6.0.2
         version: 6.0.2(@angular/compiler@19.2.18)(@angular/core@19.2.18(rxjs@7.8.2)(zone.js@0.16.0))
@@ -2467,8 +2467,8 @@ packages:
   '@utrecht/web-component-library-angular@2.1.1':
     resolution: {integrity: sha512-TjezueNYd4berXCvHWU8lB09AcH276DQ2IzP223iq3AL/U4gVY33ymEFz6bCQubQe+53VtSt8Dn4WCslAeIdsw==}
 
-  '@utrecht/web-component-library-stencil@3.7.0':
-    resolution: {integrity: sha512-JvJ6rQAJlRtVbQApFODOMC25FgGsiLkTOs773VZo3u/rvvL4GhpXdri5Zap1yn0oD9dfjC4VWLq9LM+dPsLTDQ==}
+  '@utrecht/web-component-library-stencil@4.0.0':
+    resolution: {integrity: sha512-rN1F01RRCnGbP5bvjfoD1HZzNX/YAElFjzlkmLMFxkvOVaxq/Qo/FSxrbnzpH5UsgtVM6qx/tQAA9fOkIgit9Q==}
 
   '@utrecht/youtube-video-css@1.0.0':
     resolution: {integrity: sha512-zNbXax+t783aHfl47oST5l/jsz18DdQ3nZP6z5wUl5LHyC3IR/29slu4zl2cTps9KdB8BPCpW1xQj+LMQyRhFg==}
@@ -8544,7 +8544,7 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@utrecht/web-component-library-stencil@3.7.0':
+  '@utrecht/web-component-library-stencil@4.0.0':
     dependencies:
       '@stencil/core': 4.18.3
 

@@ -55,7 +55,7 @@
     "@utrecht/component-library-css": "7.5.1",
     "@utrecht/design-tokens": "2.5.1",
     "@utrecht/web-component-library-angular": "2.1.1",
-    "@utrecht/web-component-library-stencil": "3.7.0",
+    "@utrecht/web-component-library-stencil": "4.0.0",
     "codelyzer": "6.0.2",
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
