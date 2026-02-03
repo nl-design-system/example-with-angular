@@ -68,14 +68,14 @@
     "karma-chrome-launcher": "3.2.0",
     "karma-coverage": "2.2.1",
     "karma-jasmine": "5.1.0",
-    "karma-jasmine-html-reporter": "2.1.0",
+    "karma-jasmine-html-reporter": "2.2.0",
     "lint-staged": "15.5.2",
     "npm-check-updates": "19.3.2",
     "npm-run-all": "4.1.5",
     "prettier": "3.8.1",
     "protractor": "7.0.0",
     "ts-node": "10.9.2",
-    "typescript": "5.8.3",
+    "typescript": "5.9.3",
     "typescript-eslint": "8.54.0"
   }
 }
