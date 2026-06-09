@@ -1,4 +1,8 @@
-# Edit this file by hand. Using `pnpm config` reformats the file and removes all comments.
+allowBuilds:
+  "@parcel/watcher": true
+  esbuild: true
+  lmdb: true
+  msgpackr-extract: true
 
 # Configure pnpm so peer dependencies must be explicitly added instead of being automatically installed.
 autoInstallPeers: false
