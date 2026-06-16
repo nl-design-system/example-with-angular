@@ -7,6 +7,7 @@ settings:
 overrides:
   form-data@<2.5.4: '>=2.5.4'
   form-data@>=4.0.0 <4.0.4: '>=4.0.4'
+  shell-quote@>=1.1.0 <=1.8.3: '>=1.8.4'
 
 importers:
 
@@ -5369,8 +5370,9 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shell-quote@1.8.1:
-    resolution: {integrity: sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==}
+  shell-quote@1.8.4:
+    resolution: {integrity: sha512-VsC6n6vz1ihYYyZZwX7YZSF5l5x36ca17OC+a69h94YqB7X6XLwf+5MOgynYir2SLFUbl8gIYvBo8K8RoNQ6bQ==}
+    engines: {node: '>= 0.4'}
 
   side-channel-list@1.0.0:
     resolution: {integrity: sha512-FCLHtRD/gnpCiCHEiJLOwdmFP+wzCmDEkc9y7NsYxeF4u7Btsn1ZuwgwJGxImImHicJArLP4R0yX4c2KCrMrTA==}
@@ -10516,7 +10518,7 @@ snapshots:
   launch-editor@2.6.1:
     dependencies:
       picocolors: 1.1.1
-      shell-quote: 1.8.1
+      shell-quote: 1.8.4
 
   less-loader@12.2.0(less@4.2.2)(webpack@5.98.0(esbuild@0.25.4)):
     dependencies:
@@ -10957,7 +10959,7 @@ snapshots:
       minimatch: 3.1.2
       pidtree: 0.3.1
       read-pkg: 3.0.0
-      shell-quote: 1.8.1
+      shell-quote: 1.8.4
       string.prototype.padend: 3.1.5
 
   npm-run-path@5.3.0:
@@ -11715,7 +11717,7 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shell-quote@1.8.1: {}
+  shell-quote@1.8.4: {}
 
   side-channel-list@1.0.0:
     dependencies:
