@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "pnpm run build",
-  "framework": "angular",
+  "framework": null,
   "outputDirectory": "dist/my-app",
   "git": {
     "deploymentEnabled": {
