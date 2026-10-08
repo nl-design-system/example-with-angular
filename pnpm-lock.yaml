@@ -7,6 +7,7 @@ settings:
 overrides:
   form-data@<2.5.4: '>=2.5.4'
   form-data@>=4.0.0 <4.0.4: '>=4.0.4'
+  piscina@<4.9.4: ^4.9.4
   proxy-addr@>=1.1.0 <2.0.8: ^2.0.8
   shell-quote@<1.11.0: ^1.11.0
   tar@<=7.5.18: ^7.5.19
@@ -4903,8 +4904,8 @@ packages:
     resolution: {integrity: sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==}
     engines: {node: '>=0.10.0'}
 
-  piscina@4.8.0:
-    resolution: {integrity: sha512-EZJb+ZxDrQf3dihsUL7p42pjNyrNIFJCrRHPMgxu/svsj+P3xS3fuEWp7k2+rfsavfl1N0G29b1HGs7J0m8rZA==}
+  piscina@4.9.4:
+    resolution: {integrity: sha512-RyBDr2VheQ8ZfH3N8SzQZHztqVyOtadTwLnUYof6gdj5161/eu2wNhCbGl5GHnNKDpnkicJYpKtL2J+y/gk6XA==}
 
   pkg-dir@7.0.0:
     resolution: {integrity: sha512-Ie9z/WINcxxLp27BKOCHGde4ITq9UklYKDzVo1nhk5sqGEXU3FpkwP5GM2voTGJkGd9B3Otl+Q4uwSOeSUtOBA==}
@@ -6160,7 +6161,7 @@ snapshots:
       open: 10.1.0
       ora: 5.4.1
       picomatch: 4.0.2
-      piscina: 4.8.0
+      piscina: 4.9.4
       postcss: 8.5.2
       postcss-loader: 8.1.1(postcss@8.5.2)(typescript@5.8.3)(webpack@5.98.0(esbuild@0.25.4))
       resolve-url-loader: 5.0.0
@@ -6301,7 +6302,7 @@ snapshots:
       mrmime: 2.0.1
       parse5-html-rewriting-stream: 7.0.0
       picomatch: 4.0.2
-      piscina: 4.8.0
+      piscina: 4.9.4
       rollup: 4.34.8
       sass: 1.85.0
       semver: 7.7.1
@@ -11179,7 +11180,7 @@ snapshots:
 
   pinkie@2.0.4: {}
 
-  piscina@4.8.0:
+  piscina@4.9.4:
     optionalDependencies:
       '@napi-rs/nice': 1.0.1
 
