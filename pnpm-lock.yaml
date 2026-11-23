@@ -3283,8 +3283,8 @@ packages:
     resolution: {integrity: sha512-9JktcM3u18nU9N2Lz3bWeBgxVgOKpw7yhRaoxQA3FUDZzzw+9WlA6p4G4u0RixNkg14fH7EfEc/RhpurtiROTQ==}
     engines: {node: '>=10.0.0'}
 
-  engine.io@6.5.4:
-    resolution: {integrity: sha512-KdVSDKhVKyOi+r5uEabrDLZw2qXStVvCsEB/LN3mw4WFi6Gx50jTyuxYVCwAAC0U46FdnzP/ScKRBTXb/NiEOg==}
+  engine.io@6.5.5:
+    resolution: {integrity: sha512-C5Pn8Wk+1vKBoHghJODM63yk8MvrO9EWZUfkAt5HAqIgPE4/8FF0PEGHXtEd40l223+cE5ABWuPzm38PHFXfMA==}
     engines: {node: '>=10.2.0'}
 
   enhanced-resolve@5.18.1:
@@ -6012,6 +6012,18 @@ packages:
     peerDependencies:
       bufferutil: ^4.0.1
       utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+  ws@8.17.1:
+    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
     peerDependenciesMeta:
       bufferutil:
         optional: true
@@ -9385,7 +9397,7 @@ snapshots:
 
   engine.io-parser@5.2.1: {}
 
-  engine.io@6.5.4(supports-color@8.1.1):
+  engine.io@6.5.5(supports-color@8.1.1):
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.17
@@ -9396,7 +9408,7 @@ snapshots:
       cors: 2.8.5
       debug: 4.3.4(supports-color@8.1.1)
       engine.io-parser: 5.2.1
-      ws: 8.11.0
+      ws: 8.17.1
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -11787,7 +11799,7 @@ snapshots:
       base64id: 2.0.0
       cors: 2.8.5
       debug: 4.3.4(supports-color@8.1.1)
-      engine.io: 6.5.4(supports-color@8.1.1)
+      engine.io: 6.5.5(supports-color@8.1.1)
       socket.io-adapter: 2.5.2
       socket.io-parser: 4.2.4(supports-color@8.1.1)
     transitivePeerDependencies:
@@ -12444,6 +12456,8 @@ snapshots:
   wrappy@1.0.2: {}
 
   ws@8.11.0: {}
+
+  ws@8.17.1: {}
 
   ws@8.18.0: {}
 
